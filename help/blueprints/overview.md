@@ -4,7 +4,7 @@ description: Digitale Ervaring blauwdrukken zijn herhaalbare implementaties om s
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 28915e33bffece1d365803db1b03c0460224dd32
+source-git-commit: 3f27f27159d9fb07124f289164dd85941ec58a25
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Elke blauwdruk biedt klanten van Adobe een reeks artefacten aan die het high-val
 * **[Vervaging van de Hub voor klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Zorg voor context voor ondersteuning en verkoop door agenten.*
-* **[Enterprise Data Exploration and Reporting Blueprint](/help/blueprints/data-exploration/overview.md)**
+* **[Enterprise Data Exploration and Reporting Blueprint](/help/blueprints/data-insights/overview.md)**
 
    *Verkennende vraag en analyse van de gegevens in het gegevensmeer uitvoeren.*
 * **[Customer Journey Analytics vervagen](/help/blueprints/customer-journey-analytics/overview.md)**
