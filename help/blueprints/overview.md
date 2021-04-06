@@ -2,14 +2,14 @@
 title: Digitale beleving blauwdrukken
 description: Digitale Ervaring blauwdrukken zijn herhaalbare implementaties om strategie aan te pakken en gevestigde bedrijfsproblemen op te lossen. Ze versnellen tijd tot waarde en bieden een snelle weg naar succes.
 solution: Experience Platform
+exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 37ef1ea91b3cf83e9ab444fa0f907d4115d0fd24
+source-git-commit: 28915e33bffece1d365803db1b03c0460224dd32
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
 
 ---
-
 
 # Digitale beleving blauwdrukken
 
@@ -19,7 +19,7 @@ Elke blauwdruk biedt klanten van Adobe een reeks artefacten aan die het high-val
 
 ## Nieuwe functies
 
-* **[Vervaging van de Hub voor klantactiviteiten](/help/blueprints/customer-activity-hub/overview.md)**
+* **[Vervaging van de Hub voor klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Zorg voor context voor ondersteuning en verkoop door agenten.*
 * **[Enterprise Data Exploration and Reporting Blueprint](/help/blueprints/data-exploration/overview.md)**
