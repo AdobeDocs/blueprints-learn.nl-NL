@@ -5,9 +5,9 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 role: Architect, ontwikkelaar, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 4f952331b25ce0b0941d110976d2a0eda061c4b3
+source-git-commit: af73c0fa0576cd836685824964bade10c0e0110d
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 0%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform en toepassingen](/help/blueprints/experience-platform/platform-applications.md)
    + [Gegevensstroom Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
-+ Audience Activation{#audience-activation}
++ Profiel en Audience Activation{#audience-activation}
    + [Overzicht](/help/blueprints/audience-activation/overview.md)
    + [Anoniem Audience Activation](/help/blueprints/audience-activation/anonymous.md)
    + [Online/offline Audience Activation](/help/blueprints/audience-activation/online-offline.md)
-+ Hub voor klantactiviteiten{#customer-activity-hub}
-   + [Overzicht](/help/blueprints/customer-activity-hub/overview.md)
+   + [Activering naar zakelijke doelen](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + [Hub voor klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [Overzicht](/help/blueprints/customer-journey-analytics/overview.md)
    + [Consolidatie van digitale gedragsgegevens](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
