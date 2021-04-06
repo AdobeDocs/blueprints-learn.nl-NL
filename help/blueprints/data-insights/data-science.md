@@ -1,11 +1,11 @@
 ---
 title: Aangepaste gegevenswetenschap voor blauwdruk van profielverrijking
 description: Deze blauwdruk laat zien hoe de Werkruimte van de Wetenschap van Gegevens van Adobe Experience Platform gegevens binnen Experience Platform kan gebruiken om, modellen op te leiden, op te stellen en te scoren om machine het leren inzichten van de gegevens te verstrekken.
-solution: Experience Platform, Data Collection
+solution: Experience Platform,Data Collection
 kt: 7203
-exl-id: f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
+exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 translation-type: tm+mt
-source-git-commit: 3f27f27159d9fb07124f289164dd85941ec58a25
+source-git-commit: 7a097d7579d0e217ee5c6b469856bf786b17e6cb
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Aangepaste gegevenswetenschap voor blauwdruk van profielverrijking
 
-Deze blauwdruk laat zien hoe de gegevens in Adobe Experience Platform door de Werkruimte van de Wetenschap van Gegevens worden gebruikt om, modellen op te leiden, op te stellen en te scoren om machine het leren inzichten te verstrekken. Deze modellen kunnen rechtstreeks uitvoeren aan een dataset die voor het Profiel van de Klant in real time wordt toegelaten. Voorbeelden van computerleerinzichten zijn levenslange waarde, product- en categorievestigheid, conversiedrietheid of churn-gevoeligheid.
+Deze blauwdruk laat zien hoe de gegevens in Adobe Experience Platform door de Werkruimte van de Wetenschap van Gegevens worden gebruikt om, modellen op te leiden, op te stellen en te scoren om machine het leren inzichten te verstrekken. Deze modellen kunnen rechtstreeks uitvoeren aan een dataset die voor het Profiel van de Klant in real time wordt toegelaten. Voorbeelden van computerleerinzichten zijn levenslange waarde, product- en categorievestigheid, conversiedriecht of churn.
 
 ## Gevallen gebruiken
 
