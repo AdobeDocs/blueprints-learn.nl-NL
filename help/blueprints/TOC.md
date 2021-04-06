@@ -5,7 +5,7 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 role: Architect, ontwikkelaar, Business Practitioner
 translation-type: tm+mt
-source-git-commit: af73c0fa0576cd836685824964bade10c0e0110d
+source-git-commit: c867a2956363ae495492a8ad33fd6c2aee9f5f5c
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform en toepassingen](/help/blueprints/experience-platform/platform-applications.md)
    + [Gegevensstroom Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
-+ Profiel en Audience Activation{#audience-activation}
++ Activering publiek en profiel{#audience-activation}
    + [Overzicht](/help/blueprints/audience-activation/overview.md)
    + [Anoniem Audience Activation](/help/blueprints/audience-activation/anonymous.md)
    + [Online/offline Audience Activation](/help/blueprints/audience-activation/online-offline.md)
@@ -29,18 +29,16 @@ ht-degree: 0%
    + [Overzicht](/help/blueprints/customer-journey-analytics/overview.md)
    + [Consolidatie van digitale gedragsgegevens](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [Beleidsbepaling](/help/blueprints/customer-journey-analytics/call-deflect.md)
-+ Aangepaste gegevenswetenschap voor profielverrijking{#data-science}
-   + [Overzicht](/help/blueprints/data-science/overview.md)
-+ Gegevensvoorbereiding en inname{#data-ingestion}
++ Gegevensverzameling en -voorbereiding{#data-ingestion}
    + [Overzicht](/help/blueprints/data-ingestion/overview.md)
-+ Enterprise Data Exploration &amp; Reporting{#data-exploration}
-   + [Overzicht](/help/blueprints/data-exploration/overview.md)
+   + [Gegevensverzameling op de server](/help/blueprints/data-ingestion/server-side-collection.md)
++ Gegevensanalyse en aangepaste gegevenswetenschap{#data-exploration}
+   + [Overzicht](/help/blueprints/data-insights/overview.md)
+   + [Aangepaste gegevenswetenschap voor profielverrijking](/help/blueprints/data-insights/data-science.md)
 + Meerkanaals BerichtOrchestratie{#multi-channel-message-orchestration}
    + [Overzicht](/help/blueprints/multi-channel-message-orchestration/overview.md)
    + [Batchberichten en -Experience Platform](/help/blueprints/multi-channel-message-orchestration/batch-messaging.md)
    + [Gedragsactiveerd overseinen en Experience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
-+ Gegevensverzameling op de server-side Enterprise{#server-side-enterprise-data-collection}
-   + [Overzicht](/help/blueprints/server-side-enterprise-data-collection/overview.md)
 + Web en mobiele personalisatie{#web-personalization}
    + [Overzicht](/help/blueprints/web-personalization/overview.md)
    + [Gedragingen webpersonalisatie](/help/blueprints/web-personalization/behavioral.md)
