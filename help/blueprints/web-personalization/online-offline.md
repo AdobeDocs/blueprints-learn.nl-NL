@@ -3,15 +3,14 @@ title: Online/offline webpersonalisatie-scenario
 description: Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalpersonalisatie.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
+exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 9b6c220a515c5abae22b58fe33558d7d2fed375d
+source-git-commit: 2daba1965d6dce011bcce924f8e7471d7dfd42fb
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
-
-
 
 # Online/offline webpersonalisatie-scenario
 
@@ -36,10 +35,10 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
 
 ## Guardrails
 
-* De segmenten die van Experience Platform aan Audience Manager worden gedeeld worden gedeeld binnen notulen van segmentverwezenlijking - of via het stromen of partijevaluatie methode. Er is een eerste synchronisatie van de segmentconfiguratie tussen AEP en AAM van ~4 uur voordat het lidmaatschap van het AEP-segment in AAM profielen wordt gerealiseerd. Eenmaal in de AAM zijn de AEP-segmentabonnementen beschikbaar voor dezelfde paginagrootte via Adobe Target.
-* Merk op dat voor segmentrealisaties die binnen de synchronisatie van de 4 uurssegmentconfiguratie tussen AEP en AAM voorkomen, deze segmentrealisaties in AAM op de verdere baan van het partijsegment als &quot;bestaande&quot;segmenten zullen worden gerealiseerd.
-* Delen van batchsegmenten vanuit AEP - eenmaal per dag of handmatig gestart via API. Zodra deze segmentlidmaatschappen worden gerealiseerd worden zij gedeeld aan AAM binnen notulen en beschikbaar voor zelfde/volgende paginagrootte in Doel.
-* Streaming segmentatie wordt uitgevoerd binnen ~ p95 5min. Zodra deze segmentrealisaties voorkomen, worden zij gedeeld aan AAM binnen notulen en beschikbaar voor zelfde/volgende paginagrootte in Doel.
+* De segmenten die van Experience Platform aan Audience Manager worden gedeeld worden gedeeld binnen notulen van segmentverwezenlijking - of via het stromen of partijevaluatie methode. Er is een aanvankelijke synchronisatie van de segmentconfiguratie tussen Experience Platform en Audience Manager van ongeveer 4 uren voor het segmentlidmaatschap van het Experience Platform beginnen om in de profielen van de Audience Manager te worden gerealiseerd. Eenmaal in de profielen van de Audience Manager, zijn de het segmentlidmaatschap van het Experience Platform beschikbaar voor de zelfde paginagrootte door Adobe Target.
+* Merk op dat voor segmentrealisaties die binnen de synchronisatie van de 4 uurssegmentconfiguratie tussen Experience Platform en Audience Manager voorkomen, deze segmentrealisaties in Audience Manager op de verdere baan van het partijsegment als &quot;bestaande&quot;segmenten zullen worden gerealiseerd.
+* Delen van batchsegmenten vanaf Experience Platform - eenmaal per dag of handmatig gestart via API. Zodra deze segmentlidmaatschappen worden gerealiseerd worden zij gedeeld aan Audience Manager binnen notulen en beschikbaar voor zelfde/volgende paginagrootte in Doel.
+* Streaming segmentatie wordt binnen ongeveer 5 minuten gerealiseerd. Zodra deze segmentrealisaties voorkomen, worden zij gedeeld aan Audience Manager binnen notulen en beschikbaar voor zelfde/volgende paginagrootte in Doel.
 * Door gebrek laat de segment delende dienst een maximum van 75 publiek toe om voor elke het rapportreeks van Adobe Analytics worden gedeeld. Als de klant een licentie voor Audience Managers heeft, geldt er geen limiet voor het aantal soorten publiek dat kan worden gedeeld tussen Adobe Analytics en Adobe Target of Audience Manager en Adobe Target.
 
 ## Implementatievereisten
@@ -102,5 +101,3 @@ Het Web/Mobiele verpersoonlijkingsblauwdruk kan worden uitgevoerd gebruikend of 
 * [Hoe Adobe Experience Platform Klanten kan helpen hun mobiel Overseinen in real time aan te passen met de Dienst van Journey Orchestration en een Mobiele Leverancier van het Overseinen](https://medium.com/adobetech/how-adobe-experience-platform-helped-a-client-personalize-their-mobile-messaging-in-real-time-with-7d634aefa098)
 * [Segmentatie in seconden: Hoe Adobe Experience Platform real-time klantprofielen werkelijkheid heeft gemaakt](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
 * [Een optimale online ervaring opbouwen: Verrijken Verenigd Profiel met de Dienst van de Vraag](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
-
-
