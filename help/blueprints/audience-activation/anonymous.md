@@ -1,19 +1,19 @@
 ---
-title: Anoniem Audience Activation
+title: Anonieme Audience Activation blauwdruk
 description: Anonieme Audience Activation.
 solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
+exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 translation-type: tm+mt
-source-git-commit: c4bd4bbd40f2ae6b9ab980c5274a6e2007d976d3
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-
-# Anoniem Audience Activation-scenario
+# Anonieme Audience Activation blauwdruk
 
 Op basis van anonieme gegevens en gedragsgegevens van klanten kunt u doelgroepen kiezen op het web en de reclamekanalen. Deze capaciteit laat gepersonaliseerde en verenigbare klantenervaringen in real time over apparaten toe.
 
@@ -46,18 +46,3 @@ Op basis van anonieme gegevens en gedragsgegevens van klanten kunt u doelgroepen
 * [Experience Cloud publiek](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 * [Audience Manager integreren met doel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * [Delen van analysesegment via Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
