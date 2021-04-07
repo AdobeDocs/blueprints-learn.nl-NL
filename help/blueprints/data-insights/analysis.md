@@ -1,21 +1,21 @@
 ---
-title: Enterprise Data Exploration and Reporting Blueprint
+title: Gegevensanalyse en inlichtingenblauwdruk
 description: Deze blauwdruk toont de capaciteit binnen Adobe Experience Platform om verkennende vraag en analyse van de gegevens uit te voeren die in het gegevensmeer bestaan.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
 translation-type: tm+mt
-source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
 
-# Enterprise Data Exploration and Reporting Blueprint
+# Gegevensanalyse en inlichtingenblauwdruk
 
-De Exploratie en de Rapportering van Gegevens van de onderneming omvat de capaciteit binnen Adobe Experience Platform om verkennende vraag en analyse van de gegevens uit te voeren die in het gegevensmeer bestaan.
+De Analyse en de Intelligentie van gegevens omvat de capaciteit binnen Adobe Experience Platform om verkennende vraag en analyse van de gegevens uit te voeren die in het gegevensmeer bestaan.
 
 De Dienst van de Vraag van het Experience Platform staat SQL vragen toe om op de gegevens worden uitgevoerd. De werkruimte van de Wetenschap van Gegevens laat gegevensexploratie, gegevenswetenschap, en machine het leren werklasten toe om op de gegevens worden uitgevoerd.
 
