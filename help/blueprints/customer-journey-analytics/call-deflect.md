@@ -1,18 +1,18 @@
 ---
-title: Het scenario van de Analyse van de Vervorming van de vraag
+title: Vervaging van de Analyse van de Vervorming van de vraag Vervaging
 description: Analyseer klantengedrag alvorens zij het vraagcentrum contacteren.
 solution: Experience Platform, Customer Journey Analytics
 kt: 7209
+exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
-
-# Het scenario van de Analyse van de Vervorming van de Vraag
+# De Vervaging van de Vraag de Vervaging Blauwdruk van de Analyse
 
 Analyseer het gedrag van een klant op desktop en mobiel voordat deze contact opneemt met het callcenter. Identificeer kansen om de klantenreis te verbeteren door te begrijpen welke acties uw klanten proberen om te voltooien, welke inhoud zij, en welke termijnen bekijken zij alvorens zij klantensteun contacteren zoeken. Bepaal de inhoud en de zelfbedieningshulpmiddelen die kunnen worden verbeterd om uw klanten te helpen kwesties oplossen zonder het moeten binnen roepen.
 
