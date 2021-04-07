@@ -1,18 +1,19 @@
 ---
-title: Profiel en Audience Activation naar Enterprise-doelen
+title: Blauwdruk profiel en Audience Activation naar zakelijke doelen
 description: Profiel en Audience Activation naar Enterprise-doelen
 solution: Experience Platform,Real-time Customer Data Platform,Target,Audience Manager,Analytics,Experience Cloud Services,Data Collection
 kt: 7086
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 translation-type: tm+mt
-source-git-commit: 98d44067a1640dc8b695cb0d25f69ec26be647e1
+source-git-commit: 2fa5fc1def554713b057e1478bdd65a15913e0e4
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
 
-# Scenario voor profiel en Audience Activation naar zakelijke doelen
+
+# Blauwdruk profiel en Audience Activation naar zakelijke doelen
 
 Replicatie en update van profielwijzigingen naar bedrijfsgegevensopslagsystemen voor activering en rapportage van gebruiksgevallen.
 
