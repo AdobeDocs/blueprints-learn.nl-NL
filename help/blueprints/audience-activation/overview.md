@@ -1,26 +1,26 @@
 ---
-title: Profiel en Audience Activation vervagen
-description: Bied publiek geactiveerde cross-channel reclame met Real-time Customer Data Platform ​.
+title: Activering publiek en profiel
+description: Zorg voor activering van het publiek en profilering van centrale klantervaringen met Real-time ​ van klantgegevens.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 translation-type: tm+mt
-source-git-commit: af73c0fa0576cd836685824964bade10c0e0110d
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
 
-# Profiel en Audience Activation vervagen
+# Publiek en Audience Activation
 
-Activering van profiel en publiek is de sleutel tot succes in een wereld van gegevensgestuurde marketing. Veel merken richten zich echter nog steeds op activering via het kanaal, wat vaak leidt tot inconsistente bereikbaarheid en personalisatie. Met een kanaal-eerste benadering, handelt elk kanaal als silo waarin de verpersoonlijkingsinspanningen slechts de klanten richten die met het merk op dat kanaal interactie aangaan. Deze benadering weerspiegelt niet de realiteit dat klanten op verschillende aanraakpunten met merken communiceren. De eerste activering van het publiek staat merken toe om klanteninteractie over veelvoudige kanalen aan te sluiten, om een gecentraliseerd publiek te leveren dat aan alle kanalen kan worden geactiveerd.
+Activering van profiel en publiek is de sleutel tot succes in een wereld van gegevensgestuurde marketing. Veel merken richten zich echter nog steeds op activering via het kanaal, wat vaak leidt tot inconsistente bereikbaarheid en personalisatie. Met een kanaal-eerste benadering, handelt elk kanaal als silo waarin de verpersoonlijkingsinspanningen slechts de klanten richten die met het merk op dat kanaal interactie aangaan. Deze benadering weerspiegelt niet de realiteit dat klanten op verschillende aanraakpunten met merken communiceren. Met de activering van profiel en publiek kunnen merken de interactie tussen klanten via meerdere kanalen tot stand brengen en een gecentraliseerd profiel en publiek leveren dat op alle kanalen kan worden geactiveerd.
 
-## Scenarios
+## Blauwdrukken
 
-| Scenario | Beschrijving | Experience Cloud-toepassingen |
+| Blauwdruk | Beschrijving | Experience Cloud-toepassingen |
 |---|---|---|
 | **[Anonieme Audience Activation voor web en reclame](anonymous.md)** | <ul><li>Doelpubliek via internet en reclamekanalen voor anonieme en gedragsgegevens van klanten.</li><li>Integreren met publieksgegevens van derden voor een betere personalisatie.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[Online/offline + PII-profiel en Audience Activation](online-offline.md)** | <ul><li>Activeer naar bekende, op profielen gebaseerde bestemmingen zoals e-mailproviders, sociale netwerken en advertentiebestemmingen. </li><li>Gebruik offlinekenmerken en -gebeurtenissen zoals offline bestellingen, transacties, CRM of loyaliteitsgegevens, samen met onlinegedrag voor het online aanwijzen en personaliseren.</li></ul> | <ul><li>Adobe Experience Platform</li><li> Real-time Platform voor klantgegevens</li><li>Adobe Audience Manager (optioneel)</li></ul> |
