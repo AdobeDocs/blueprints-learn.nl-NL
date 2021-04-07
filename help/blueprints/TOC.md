@@ -3,11 +3,11 @@ user-guide-title: Digitale beleving blauwdrukken
 breadcrumb-title: 'Blauwdrukken '
 user-guide-description: De blauwdrukken zijn herhaalbare implementaties om gevestigde bedrijfsproblemen aan te pakken en architectuurdiagrammen, technische overwegingen, en relevante documentatiekoppelingen te bevatten.
 product: adobe experience platform
-role: Architect, ontwikkelaar, Business Practitioner
+role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 08b0a9e06b4a5cc1f411a3cab1cc23fa47325844
+source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,11 @@ ht-degree: 0%
    + [Beleidsbepaling](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + Gegevensverzameling en -voorbereiding{#data-ingestion}
    + [Overzicht](/help/blueprints/data-ingestion/overview.md)
+   + [Gegevensinname en -voorbereiding op Experience Platform](/help/blueprints/data-ingestion/ingestion.md)
    + [Gegevensverzameling op de server](/help/blueprints/data-ingestion/server-side-collection.md)
-+ Gegevensanalyse en aangepaste gegevenswetenschap{#data-exploration}
++ Gegevensanalyse, intelligentie en AI/ML{#data-exploration}
    + [Overzicht](/help/blueprints/data-insights/overview.md)
+   + [Gegevensanalyse en -informatie](/help/blueprints/data-insights/analysis.md)
    + [Aangepaste gegevenswetenschap voor profielverrijking](/help/blueprints/data-insights/data-science.md)
 + Meerkanaals BerichtOrchestratie{#multi-channel-message-orchestration}
    + [Overzicht](/help/blueprints/multi-channel-message-orchestration/overview.md)
