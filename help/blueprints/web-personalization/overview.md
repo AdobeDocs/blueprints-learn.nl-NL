@@ -1,25 +1,26 @@
 ---
-title: Web & mobiele verfijning
+title: Web en mobiele personalisatie
 description: Geniet van gepersonaliseerde web- en mobiele inhoud met Real-time klantprofiel.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
+exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
-# Web en mobiele verfijning
+# Web en Mobiele Personalisatie
 
 
-Web en de Mobiele Vervaging van de Personalisatie richt de capaciteit om publiekssegmentatie in veelvoudige toepassingen te gebruiken om klantenervaringen te personaliseren en te optimaliseren. U kunt klantengedrag, demografie, loyaliteitsniveau, en vroegere transacties gebruiken om lay-outs, vraag-aan-actie, en inhoud te personaliseren.
+Het Web en de Mobiele Personalisering richt de capaciteit om publiekssegmentatie in veelvoudige toepassingen te gebruiken om klantenervaringen te personaliseren en te optimaliseren. U kunt klantengedrag, demografie, loyaliteitsniveau, en vroegere transacties gebruiken om lay-outs, vraag-aan-actie, en inhoud te personaliseren.
 
-## Scenarios
+## Blauwdrukken
 
-| Scenario | Beschrijving | Experience Cloud-toepassingen |
+| Blauwdruk | Beschrijving | Experience Cloud-toepassingen |
 |---|---|---|
 | **[Gedragingen aanpassen](behavioral.md)** | <ul><li>Persoonlijk maken op basis van online gedrag en publieksgegevens</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(optioneel)*</li><li>Adobe Audience Manager *(optioneel)*</li></ul> |
 | **[Online/offline webpersonalisatie](online-offline.md)** | <ul><li>Personaliseer met off-line attributen en gebeurtenissen (transacties, reserveringen, CRM, en loyaliteitsgegevens).</li><li>Synchroniseer personalisatie over Web, e-mail, en andere bekende kanalen.</li></ul> | <ul><li>Real-time Platform voor klantgegevens</li><li>Adobe Target</li><li>Adobe Analytics *(optioneel)*</li><li>Adobe Audience Manager *(optioneel)*</li></ul> |
@@ -40,4 +41,3 @@ Web en de Mobiele Vervaging van de Personalisatie richt de capaciteit om publiek
 * [Segmentatie in seconden: Hoe Adobe Experience Platform real-time klantprofielen werkelijkheid heeft gemaakt](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
 * [Analytische werklasten en realtime klantprofiel — Twee zijden van hetzelfde brein met een eenmalig doel](https://medium.com/adobetech/analytical-workloads-and-real-time-customer-profile-two-sides-of-the-same-brain-with-a-cdfac85ce8c1)
 * [Een optimale online ervaring opbouwen: Verrijken Verenigd Profiel met de Dienst van de Vraag](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
-
