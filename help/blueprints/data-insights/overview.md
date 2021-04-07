@@ -1,19 +1,19 @@
 ---
-title: Enterprise Data Exploration and Reporting Blueprint
+title: Gegevensanalyse, intelligentie en AI/ML
 description: Deze blauwdruk toont de capaciteit binnen Adobe Experience Platform om verkennende vraag en analyse van de gegevens uit te voeren die in het gegevensmeer bestaan.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
 translation-type: tm+mt
-source-git-commit: 3f27f27159d9fb07124f289164dd85941ec58a25
+source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
 
-# Enterprise Data Exploration and Reporting Blueprint
+# Gegevensanalyse, intelligentie en AI/ML
 
 De Exploratie en de Rapportering van Gegevens van de onderneming omvat de capaciteit binnen Adobe Experience Platform om verkennende vraag en analyse van de gegevens uit te voeren die in het gegevensmeer bestaan.
 
@@ -23,41 +23,9 @@ Bovendien staat het Experience Platform verbindingen met derdeSQL cliënten, int
 
 Bepaalde garanties zijn van toepassing op de vraagonderbreking en voor de hoeveelheid gegevens die in het vraagresultaat inbegrepen is, zoals vermeld binnen de scenario details.
 
-## Gevallen gebruiken
+## Blauwdrukken
 
-* Interactieve query en aggregatie van gegevens
-* De rij en kolomtoegang tot ingebedde gegevens voor exploratie en bevestiging
-* Dashboarding en visualisatie van gegevens via Business Intelligence tooling
-
-## Toepassingen
-
-* Adobe Experience Platform
-
-## Scenarios
-
-| Scenario | Beschrijving | Experience Cloud Toepassingen/services |
+| Blauwdruk | Beschrijving | Experience Cloud-toepassingen |
 |---|---|---|
-| **Onderzoek van gegevens - ruwe vraag van gegevens** | <ul><li>Schrijf en voer SQL vragen in het gegevensmeer uit gebruikend het interactieve vraaggebruikersinterface of een verbonden SQL cliënt. De Werkruimte van de Wetenschap van gegevens kan ook worden gebruikt om van de ruwe gegevens in Experience Platform te vragen en inzicht te verkrijgen.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
-| **Enterprise-dashboarding** | <ul><li>Verbind de hulpmiddelen van de Business Intelligence met Experience Platform om gegevens voor het dashboarding en het melden van gebruiksgevallen te visualiseren.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
-
-## Architectuur
-
-<img src="assets/dataexplore.svg" alt="Referentiearchitectuur voor de Enterprise Data Exploration and Reporting Blueprint" style="border:1px solid #4a4a4a" />
-
-## Guardrails
-
-* Tijdslimiet van 10 minuten voor interactieve query&#39;s
-* Limiet voor 100 records die wordt geretourneerd in de gebruikersinterface
-* Maximaal 50.000 records die via de SQL-connector worden geretourneerd
-
-## Implementatiestappen
-
-1. Vorm datasets en schema&#39;s voor gegevensopname in het gegevensmeer.
-1. Samenvattingsgegevens.
-1. Bevestig dat de gegevens aan de Dienst van de Vraag en de Werkruimte van de Wetenschap van Gegevens voor ruwe toegang en vraag beschikbaar zijn.
-1. Verbind de hulpmiddelen van de Business Intelligence en SQL cliënten met de Dienst van de Vraag voor visualisatie, gegevensvraag, en exploratie.
-
-## Verwante documentatie
-
-* [Productbeschrijving Adobe Experience Platform Intelligence](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Documentatie bij Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
+| **[Gegevensanalyse en -informatie](analysis.md)** | <ul><li>Gegevensvoorbereiding en congestieblauwdruk omvatten alle methoden waarmee gegevens in Adobe Experience Platform kunnen worden voorbereid en opgenomen.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
+| **[Aangepaste gegevenswetenschap voor blauwdruk van profielverrijking](data-science.md)** | <ul><li>Activeer naar bekende, op profielen gebaseerde bestemmingen zoals e-mailproviders, sociale netwerken en advertentiebestemmingen. </li><li>Gebruik offlinekenmerken en -gebeurtenissen zoals offline bestellingen, transacties, CRM of loyaliteitsgegevens, samen met onlinegedrag voor het online aanwijzen en personaliseren.</li></ul> | <ul><li>Adobe Experience Platform</li><li> Real-time Platform voor klantgegevens</li><li>Adobe Audience Manager (optioneel)</li></ul> |
