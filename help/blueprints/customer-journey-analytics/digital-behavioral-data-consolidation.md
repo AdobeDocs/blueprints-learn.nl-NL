@@ -1,18 +1,18 @@
 ---
-title: Consolidatiescenario voor digitale gedragsgegevens
+title: Blauwdruk voor consolidatie van digitale gedragsgegevens
 description: Analyseer en extraheer inzichten van klanteninteractie over de klantenreis.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
+exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
 
 ---
 
-
-# Consolidatiescenario voor digitale gedragsgegevens
+# Blauwdruk voor consolidatie van digitale gedragsgegevens
 
 Eén geconsolideerde weergave van het gedrag van klanten op verschillende kanalen hebben door gegevens van verschillende web-, mobiele en offline eigenschappen te verenigen.
 
@@ -82,7 +82,3 @@ De gegevens moeten in Platform worden opgenomen alvorens tot Customer Journey An
 * [Customer Journey Analytics productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
 * [Customer Journey Analytics-documentatie](https://experienceleague.adobe.com/docs/customer-journey-analytics.html)
 * [Customer Journey Analytics-zelfstudies](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/overview.html)
-
-
-
-
