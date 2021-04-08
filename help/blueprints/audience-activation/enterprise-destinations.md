@@ -1,21 +1,21 @@
 ---
-title: Blauwdruk profiel en Audience Activation naar zakelijke doelen
-description: Profiel en Audience Activation naar Enterprise-doelen
-solution: Experience Platform,Real-time Customer Data Platform,Target,Audience Manager,Analytics,Experience Cloud Services,Data Collection
-kt: 7086
-exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
+title: Activering van publiek en profiel naar Enterprise-doelen - blauwdruk
+description: Activering van publiek en profiel naar Enterprise-doelen
+solution: Experience Platform,Real-time Customer Data Platform
+kt: 7475
+exl-id: null
 translation-type: tm+mt
-source-git-commit: 2fa5fc1def554713b057e1478bdd65a15913e0e4
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
 
 
-# Blauwdruk profiel en Audience Activation naar zakelijke doelen
+# Activering van publiek en profiel naar Enterprise-doelen - blauwdruk
 
-Replicatie en update van profielwijzigingen naar bedrijfsgegevensopslagsystemen voor activering en rapportage van gebruiksgevallen.
+Replicatie en update van profiel- en publiekswijzigingen naar bedrijfsgegevensopslagsystemen voor activering en rapportage van gebruiksgevallen.
 
 Een verkoop- of ondersteuningsactie aan de klant initiëren via een melding van een actie van de klant van het Real-time Platform van klantgegevens aan bedrijfssystemen en -toepassingen.
 
@@ -79,10 +79,12 @@ Activering van Experience Events
 
 ## Verwante documentatie
 
+* [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+* [Opslagdoelen voor Enterprise Cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
+* [HTTP-bestemming](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/http-destination.html?lang=en#overview)
 * [Productbeschrijving in realtime-Platform voor klantgegevens](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Richtlijnen voor profiel en segmentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [Segmenteringsdocumentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
-* [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 
 ## Verwante video&#39;s en Tutorials
 
