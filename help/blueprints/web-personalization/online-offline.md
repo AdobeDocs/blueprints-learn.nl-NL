@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,21 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
 * Streaming segmentatie wordt binnen ongeveer 5 minuten gerealiseerd. Zodra deze segmentrealisaties voorkomen, worden zij gedeeld aan Audience Manager binnen notulen en beschikbaar voor zelfde/volgende paginagrootte in Doel.
 * Door gebrek laat de segment delende dienst een maximum van 75 publiek toe om voor elke het rapportreeks van Adobe Analytics worden gedeeld. Als de klant een licentie voor Audience Managers heeft, geldt er geen limiet voor het aantal soorten publiek dat kan worden gedeeld tussen Adobe Analytics en Adobe Target of Audience Manager en Adobe Target.
 
+## Implementatiepatronen
+
+De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen worden uitgevoerd zoals hieronder geschetst.
+
+1. Het gebruiken van het Web SDK van het Platform/Mobiele SDK en het Netwerk van de Rand.
+1. Traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AppMeasurement.js)
+
+### 1. Platform Web/Mobile SDK en Edge Approach
+
+<img src="assets/websdkflow.svg" alt="Referentiearchitectuur voor de Web SDK/Mobile SDK van het Platform en de Benadering van het Netwerk van de Rand" style="border:1px solid #4a4a4a" />
+
+### 2. Toepassingsspecifieke SDK-benadering
+
+<img src="assets/appsdkflow.png" alt="Referentiearchitectuur voor de toepassingsspecifieke SDK-benadering" style="border:1px solid #4a4a4a" />
+
 ## Implementatievereisten
 
 | Toepassing/service | Vereiste bibliotheek | Notities |
@@ -64,18 +79,6 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
    >
    >Elke toepassing moet de Experience Cloud-id gebruiken en deel uitmaken van dezelfde Experience Cloud-organisatie om het delen van het publiek tussen toepassingen mogelijk te maken.
 1. [Verzoek om provisioning voor het delen van publiek tussen Experience Platform en Adobe Target (gedeeld publiek)](https://www.adobe.com/go/audiences)
-
-## Gegevensstroomdiagrammen implementeren
-
-Het Web/Mobiele verpersoonlijkingsblauwdruk kan worden uitgevoerd gebruikend of traditionele toepassing-specifieke SDKs (bijvoorbeeld, AppMeasurement.js), of door het Web SDK/Mobile SDK van het Platform en het Netwerk van de Rand te gebruiken.
-
-### Platform Web/Mobile SDK en Edge Approach
-
-<img src="assets/websdkflow.svg" alt="Referentiearchitectuur voor de Web SDK/Mobile SDK van het Platform en de Benadering van het Netwerk van de Rand" style="border:1px solid #4a4a4a" />
-
-### Toepassingsspecifieke SDK-benadering
-
-<img src="assets/appsdkflow.png" alt="Referentiearchitectuur voor de toepassingsspecifieke SDK-benadering" style="border:1px solid #4a4a4a" />
 
 ## Verwante documentatie
 
