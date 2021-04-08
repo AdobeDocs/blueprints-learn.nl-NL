@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 77ddc003d4328074ad269de5837a02f5e6d6add5
+source-git-commit: cd98c46d948af9026449c947496df82fd1be6718
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,6 @@ Bepaalde garanties zijn van toepassing op de vraagonderbreking en voor de hoevee
 ## Toepassingen
 
 * Adobe Experience Platform
-
-## Scenarios
-
-| Scenario | Beschrijving | Experience Cloud Toepassingen/services |
-|---|---|---|
-| **Onderzoek van gegevens - ruwe vraag van gegevens** | <ul><li>Schrijf en voer SQL vragen in het gegevensmeer uit gebruikend het interactieve vraaggebruikersinterface of een verbonden SQL cliënt. De Werkruimte van de Wetenschap van gegevens kan ook worden gebruikt om van de ruwe gegevens in Experience Platform te vragen en inzicht te verkrijgen.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
-| **Enterprise-dashboarding** | <ul><li>Verbind de hulpmiddelen van de Business Intelligence met Experience Platform om gegevens voor het dashboarding en het melden van gebruiksgevallen te visualiseren.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## Architectuur
 
