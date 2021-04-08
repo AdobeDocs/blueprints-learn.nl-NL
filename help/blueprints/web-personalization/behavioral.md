@@ -5,9 +5,9 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,24 @@ Persoonlijk maken op basis van online gedrag en publieksgegevens.
 
 Door gebrek, laat de segment delende dienst een maximum van 75 publiek toe om voor elke het rapportreeks van Adobe Analytics worden gedeeld. Als de Audience Manager voor publiek het delen wordt gebruikt, is er geen grens op het aantal publiek dat kan worden gedeeld. 
 
+## Implementatiepatronen
+
+De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen worden uitgevoerd zoals hieronder geschetst.
+
+1. Het gebruiken van het Web SDK van het Platform/Mobiele SDK en het Netwerk van de Rand.
+1. Traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AppMeasurement.js)
+
+### 1. Platform Web/Mobile SDK en Edge Approach
+
+<img src="assets/websdkflow.svg" alt="Referentiearchitectuur voor de Web SDK/Mobile SDK van het Platform en de Benadering van het Netwerk van de Rand" style="border:1px solid #4a4a4a" />
+
+### 2. Toepassingsspecifieke SDK-benadering
+
+<img src="assets/appsdkflow.png" alt="Referentiearchitectuur voor de toepassingsspecifieke SDK-benadering" style="border:1px solid #4a4a4a" />
+
+
+
+
 ## Implementatievereisten
 
 | Toepassing/service | Vereiste bibliotheek | Notities |
@@ -65,21 +83,6 @@ Door gebrek, laat de segment delende dienst een maximum van 75 publiek toe om vo
 1. [De levering van het verzoek voor de Mensen en de Diensten van het Delen van het Publiek (Gedeelde Publiek)](https://www.adobe.com/go/audiences)
 1. Segmenten maken in [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) of [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) en [deze soorten publiek configureren voor delen naar de Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html) (als u Audience Manager of Adobe Analytics gebruikt)
 1. Zodra het publiek in Adobe Target beschikbaar is, kunnen zij voor [het richten ervaringen met Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html) worden gebruikt
-
-
-## Gegevensstroomdiagrammen implementeren
-
-Het Web/Mobiele Vervaging van de Personalisatie kan worden uitgevoerd door of het Web SDK van het Platform of Mobiele SDK en het netwerk van de Rand te gebruiken, of het gebruiken van of traditionele toepassing-specifieke SDKs (bijvoorbeeld, AppMeasurement.js).
-
-### Web/Mobile SDK van Platform en de Benadering van het Netwerk van de Rand
-
-<img src="assets/websdkflow.svg" alt="Referentiearchitectuur voor de Web SDK/Mobile SDK van het Platform en de Benadering van het Netwerk van de Rand" style="border:1px solid #4a4a4a" />
-
-
-### Toepassingsspecifieke SDK-benadering
-
-<img src="assets/appsdkflow.png" alt="Referentiearchitectuur voor de toepassingsspecifieke SDK-benadering" style="border:1px solid #4a4a4a" />
-
 
 ## Verwante documentatie
 
