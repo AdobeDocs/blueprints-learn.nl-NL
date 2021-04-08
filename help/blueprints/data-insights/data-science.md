@@ -5,29 +5,22 @@ solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 translation-type: tm+mt
-source-git-commit: 7a097d7579d0e217ee5c6b469856bf786b17e6cb
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
 # Aangepaste gegevenswetenschap voor blauwdruk van profielverrijking
 
-Deze blauwdruk laat zien hoe de gegevens in Adobe Experience Platform door de Werkruimte van de Wetenschap van Gegevens worden gebruikt om, modellen op te leiden, op te stellen en te scoren om machine het leren inzichten te verstrekken. Deze modellen kunnen rechtstreeks uitvoeren aan een dataset die voor het Profiel van de Klant in real time wordt toegelaten. Voorbeelden van computerleerinzichten zijn levenslange waarde, product- en categorievestigheid, conversiedriecht of churn.
+De Wetenschap van de Gegevens van de douane voor de Blauwdruk van de Verrijking van het Profiel illustreert hoe de gegevens in Adobe Experience Platform in de Werkruimte van de Wetenschap van Gegevens kunnen worden gebruikt om, en scoremodellen op te leiden te opstellen en te verstrekken om machine het leren inzicht te verstrekken. Deze modellen kunnen direct uitvoeren aan een dataset die voor het Profiel van de Klant in real time wordt toegelaten om klantenprofielen verder te verrijken. Deze inzichten kunnen dan worden gebruikt voor personalisatie. Voorbeelden van leerinzicht in machines zijn levenslange waardeschaling, product- en categoriaffiniteit, conversiesnelheid of churn.
 
 ## Gevallen gebruiken
 
 * Haal inzicht uit en ontdek patronen van klantengegevens in Experience Platform. Train- en scoremodellen van deze gegevens.
-* Verrijk het profiel van de Klant in real time met model gedreven inzichten en attributen voor meer korrelige personalisering en geoptimaliseerde reis optimalisering.
+* Verrijk het profiel van de Klant in real time met model gedreven inzichten en attributen voor meer korrelige personalisering en geoptimaliseerde reizen.
 * Train- en Score-modellen om de inzichten van klanten te bepalen, zoals de levenslange waarde van de klant, de neiging om te converteren of te klonen, de affiniteit van producten en inhoud, en servicescore.
-
-## Scenarios
-
-| Scenario | Beschrijving van scenario | Experience Cloud-toepassingen |
-|---|---|---|
-| Exploratiegegevens | <ul><li>Detecteren van signalen, volledigheid, juistheid van gegevens</li><li>Ontdek nieuwe inzichten met gebruik van het hulpmiddel van de wetenschap van gegevens</li></ul> | <ul><li>Experience Platform Intelligence</li></ul> |
-| Profielverrijking met AI/ML<br> - batch | <ul><li>Ontdek, auteur, treer, stel, score, en operationeel modellen op.</li><li>Push model prediction to profile or to data Lake for batch-based activation.</li></ul> | <ul><li>Experience Platform Intelligence</li></ul> |
 
 ## Architectuur
 
