@@ -4,9 +4,9 @@ description: Digitale Ervaring blauwdrukken zijn herhaalbare implementaties om s
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ Elke blauwdruk biedt klanten van Adobe een reeks artefacten aan die het high-val
 
 ## Nieuwe functies
 
+* **[Activering van publiek en profiel naar Enterprise-doelen - blauwdruk](/help/blueprints/audience-activation/enterprise-destinations.md)**
+
+   *Houd de profielen van de klant bijgewerkt over alle systemen om uw verkoop en steunteams te machtigen. &#x200B;*
 * **[Vervaging van de Hub voor klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Zorg voor context voor ondersteuning en verkoop door agenten.*
-* **[Gegevensanalyse en inlichtingenblauwdruk](/help/blueprints/data-insights/overview.md)**
+* **[Gegevensanalyse en inlichtingenblauwdruk](/help/blueprints/data-insights/analysis.md)**
 
    *Verkennende vraag en analyse van de gegevens in het gegevensmeer uitvoeren.*
-* **[Customer Journey Analytics vervagen](/help/blueprints/customer-journey-analytics/overview.md)**
-
-   *Gegevens en klantgedrag van over de reis van de klant verenigen en analyseren. &#x200B;*
 
 ## Aanbevolen blauwdrukken
 
@@ -54,7 +54,7 @@ Elke blauwdruk biedt klanten van Adobe een reeks artefacten aan die het high-val
 
 ## Blogberichten
 
-* [Introductie van Adobe Experience Platform&#39;s nieuwe Digital Experience Blueprints](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
-* [Blauwdruk voor Audience Activation in Adobe Experience Platform](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
-* [Blauwdruk voor web personalisatie met Adobe Experience Platform Real-Time klantprofiel](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
-* [Blauwdruk voor meerkanaalse Orchestratie in Adobe Experience Platform](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
+* [[!DNL Introducing Adobe Experience Platform’s New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
+* [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
+* [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
+* [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
