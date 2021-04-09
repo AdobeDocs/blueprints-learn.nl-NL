@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ Activering van publiek en profiel is de sleutel tot succes in een wereld van geg
 
 | Blauwdruk | Beschrijving | Experience Cloud-toepassingen |
 |---|---|---|
-| **[Anonieme Audience Activation voor web en reclame](anonymous.md)** | <ul><li>Doelpubliek via internet en reclamekanalen voor anonieme en gedragsgegevens van klanten.</li><li>Integreren met publieksgegevens van derden voor een betere personalisatie.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
-| **[Online/offline + PII-profiel en Audience Activation](online-offline.md)** | <ul><li>Activeer naar bekende, op profielen gebaseerde bestemmingen zoals e-mailproviders, sociale netwerken en advertentiebestemmingen. </li><li>Gebruik offlinekenmerken en -gebeurtenissen zoals offline bestellingen, transacties, CRM of loyaliteitsgegevens, samen met onlinegedrag voor het online aanwijzen en personaliseren.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Platform voor klantgegevens]</li><li>Adobe Audience Manager (optioneel)</li></ul> |
+| **[Anoniem Audience Activation](anonymous.md)** | <ul><li>Doelpubliek via internet en reclamekanalen voor anonieme en gedragsgegevens van klanten.</li><li>Integreren met publieksgegevens van derden voor een betere personalisatie.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
+| **[Online/offline Audience Activation](online-offline.md)** | <ul><li>Activeer naar bekende, op profielen gebaseerde bestemmingen zoals e-mailproviders, sociale netwerken en advertentiebestemmingen. </li><li>Gebruik offlinekenmerken en -gebeurtenissen zoals offline bestellingen, transacties, CRM of loyaliteitsgegevens, samen met onlinegedrag voor het online aanwijzen en personaliseren.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Platform voor klantgegevens]</li><li>Adobe Audience Manager (optioneel)</li></ul> |
 | **[Activering van publiek en profiel naar Enterprise-doelen](enterprise-destinations.md)** | <ul><li>Replicatie en update van profiel- en publiekswijzigingen naar bedrijfsgegevensopslagsystemen voor activering en rapportage van gebruiksgevallen. </li></ul><ul><li>Een verkoop- of ondersteuningsactie aan de klant initiëren via een kennisgeving van een actie van de klant van het [!UICONTROL Real-time Platform van klantgegevens] aan bedrijfssystemen en toepassingen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Platform voor klantgegevens]</li><li>Experience Platform activeren</li><li>Adobe Audience Manager (optioneel)</li></ul> |
 | **[Hub voor klantactiviteiten](customer-activity.md)** | <ul><li>Verbeter de context van de consument aan agent-gesteunde interactie, zoals steun en verkoopervaringen. Gebruikend het profielraadpleging in Experience Platform, kunnen de agenten meer context op de consument, zoals recente aankopen, campagneinteractie, eigenschappen, publiekslidmaatschappen, en andere attributen en inzichten ontvangen die in het klantenprofiel in real time worden opgeslagen.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
