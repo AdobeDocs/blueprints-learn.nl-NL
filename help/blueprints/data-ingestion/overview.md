@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
+source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -21,5 +21,5 @@ De voorbereiding van gegevens omvat de afbeelding van brongegevens aan het schem
 
 | Blauwdruk | Beschrijving | Experience Cloud-toepassingen |
 |---|---|---|
-| **[Gegevensvoorbereiding en inname in Experience Platform](ingestion.md)** | <ul><li>Gegevensvoorbereiding en congestieblauwdruk omvatten alle methoden waarmee gegevens in Adobe Experience Platform kunnen worden voorbereid en opgenomen.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
-| **[Server Side Forwarding - Enterprise Collection](server-side-collection.md)** | <ul><li>Activeer naar bekende, op profielen gebaseerde bestemmingen zoals e-mailproviders, sociale netwerken en advertentiebestemmingen. </li><li>Gebruik offlinekenmerken en -gebeurtenissen zoals offline bestellingen, transacties, CRM of loyaliteitsgegevens, samen met onlinegedrag voor het online aanwijzen en personaliseren.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Platform voor klantgegevens]</li><li>Adobe Audience Manager (optioneel)</li></ul> |
+| **[Voorbereiding en inname van gegevens](ingestion.md)** | <ul><li>Gegevensvoorbereiding en congestieblauwdruk omvatten alle methoden waarmee gegevens in Adobe Experience Platform kunnen worden voorbereid en opgenomen.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
+| **[Gegevensverzameling op de server](server-side-collection.md)** | <ul><li>Activeer naar bekende, op profielen gebaseerde bestemmingen zoals e-mailproviders, sociale netwerken en advertentiebestemmingen. </li><li>Gebruik offlinekenmerken en -gebeurtenissen zoals offline bestellingen, transacties, CRM of loyaliteitsgegevens, samen met onlinegedrag voor het online aanwijzen en personaliseren.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Platform voor klantgegevens]</li><li>Adobe Audience Manager (optioneel)</li></ul> |
