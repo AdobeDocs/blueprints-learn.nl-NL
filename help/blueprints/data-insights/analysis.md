@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 9a5137c5e71946c258cb94188ee53d742396d361
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Met de [!UICONTROL Query Service] van het Experience Platform kunnen SQL-query&#
 
 Bovendien staat het Experience Platform verbindingen met derdeSQL cliënten, interfaces, en hulpmiddelen van de Business Intelligence (BI) toe om met, tot de gegevens binnen Experience Platform direct te verbinden toegang te hebben en te vragen, gebruikend het [!DNL PostgreSQL] protocol.
 
-Bepaalde garanties zijn van toepassing op de vraagonderbreking en voor de hoeveelheid gegevens die in het vraagresultaat inbegrepen is, zoals vermeld binnen de scenario details.
+Bepaalde instructies gelden voor de time-out van de query en voor de hoeveelheid gegevens die in het queryresultaat is opgenomen, zoals vermeld in de details van de blauwdruk.
 
 ## Gevallen gebruiken
 
