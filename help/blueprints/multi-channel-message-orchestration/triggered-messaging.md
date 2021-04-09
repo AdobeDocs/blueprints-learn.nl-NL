@@ -5,9 +5,9 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Voer teweeggebrachte berichten en ervaringen uit gebruikend Adobe Experience Pla
 * Biedt momenteel geen ondersteuning voor Offer decisioning
 * Zie [profiel- en gegevensinvoerinstructies voor Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 
-### Campaign Standard
+### Adobe Campaign Standard
 
 * Alleen ondersteuning voor doorvoer van 14 tps (50 k per uur)
 * Reizen met lidmaatschap van een segment worden niet ondersteund
@@ -69,7 +69,7 @@ Voer teweeggebrachte berichten en ervaringen uit gebruikend Adobe Experience Pla
 #### Schema/gegevensset
 
 1. Vorm individuele profiel, ervaringsgebeurtenis, en multi-entiteitsschema&#39;s in Experience Platform die op klant-geleverde gegevens worden gebaseerd.
-1. Maak campagnes voor het volgende: wideLog, trackingLog, niet-te leveren adressen en profielvoorkeuren (optioneel).
+1. Adobe Campaign-schema&#39;s maken voor het volgende: wideLog, trackingLog, niet-te leveren adressen en profielvoorkeuren (optioneel).
 1. Voeg labels voor gegevensgebruik toe aan de dataset voor beheer.
 1. Beleid maken om bestuur op bestemmingen af te dwingen.
 
@@ -79,16 +79,16 @@ Voer teweeggebrachte berichten en ervaringen uit gebruikend Adobe Experience Pla
 1. Identiteiten toevoegen aan schema&#39;s.
 1. Laat schema&#39;s en datasets voor profiel toe.
 1. Stel samenvoegregels in voor verschillende weergaven van [!UICONTROL Real-time klantprofiel] (optioneel).
-1. Maak segmenten voor campagnegebruik.
+1. Maak segmenten voor Adobe Campaign-gebruik.
 
 #### Bronnen/bestemmingen
 
 1. Gegevens in Experience Platform opnemen met streaming API&#39;s en bronconnectors.
-1. Vorm [!DNL Azure] blob opslagbestemming voor gebruik met Campagne.
+1. Vorm [!DNL Azure] blob opslagbestemming voor gebruik met Adobe Campaign.
 
 #### Implementatie van mobiele apps
 
-1. Voer de SDK van de Campagne voor Campaign Classic of Experience Platform SDK voor Campaign Standard uit. Als er Experience Platform Launch aanwezig is, wordt aanbevolen Campaign Classic/Standard-extensie te gebruiken met Experience Platform SDK.
+1. Adobe Campaign SDK voor Adobe Campaign Classic of Experience Platform SDK voor Adobe Campaign Standard implementeren. Als er Experience Platform Launch aanwezig is, wordt aanbevolen Adobe Campaign Classic of Adobe Campaign Standard uit te breiden met Experience Platform SDK.
 
 
 ### Journey Orchestration
@@ -97,7 +97,7 @@ Voer teweeggebrachte berichten en ervaringen uit gebruikend Adobe Experience Pla
 1. Externe gegevensbronnen configureren.
 1. Aangepaste handelingen configureren.
 
-### Campaign Standard
+### Adobe Campaign Standard
 
 1. Vorm overseinensjablonen met aangewezen verpersoonlijkingsmontages.
 1. Vorm de werkschema&#39;s van de de uitvoeruitvoer transactionele overseinenlogboeken. De aanbeveling moet ten hoogste om de vier uur worden uitgevoerd.
@@ -107,7 +107,7 @@ Voer teweeggebrachte berichten en ervaringen uit gebruikend Adobe Experience Pla
 
 * [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
 * [Journey Orchestration-documentatie](https://experienceleague.adobe.com/docs/journey-orchestration.html?lang=en)
-* [Campaign Classic-documentatie](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
-* [Campaign Standard-documentatie](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
+* [Adobe Campaign Classic-documentatie](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
+* [Adobe Campaign Standard-documentatie](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
 * [Documentatie Experience Platform Launch](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Platform Mobile SDK-documentatie](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
