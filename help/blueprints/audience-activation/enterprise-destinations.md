@@ -5,7 +5,7 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: 8bcd82eac5e8837c3cd84524174cf5792d73ac6e
+source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Replicatie en update van profiel- en publiekswijzigingen naar bedrijfsgegevensopslagsystemen voor activering en rapportage van gebruiksgevallen.
 
-Een verkoop- of ondersteuningsactie aan de klant initiëren via een melding van een actie van de klant van het Real-time Platform van klantgegevens aan bedrijfssystemen en -toepassingen.
+Een verkoop- of ondersteuningsactie aan de klant initiëren via een kennisgeving van een actie van de klant van het [!UICONTROL Real-time Platform van klantgegevens] aan bedrijfssystemen en toepassingen.
 
 ## Gevallen gebruiken
 
@@ -79,14 +79,14 @@ Activering van Experience Events
 ## Verwante documentatie
 
 * [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
-* [Opslagdoelen voor Enterprise Cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
+* [Overzicht van opslagdoelen voor cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
 * [HTTP-bestemming](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/http-destination.html?lang=en#overview)
-* [Productbeschrijving in realtime-Platform voor klantgegevens](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
+* [[!UICONTROL Real-time Customer Data ] PlatformProductbeschrijving](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Richtlijnen voor profiel en segmentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [Segmenteringsdocumentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 
 ## Verwante video&#39;s en Tutorials
 
-* [Overzicht van het Platform voor realtime klantgegevens](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
-* [Demo van Platform van realtime klantgegevens](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
+* [[!UICONTROL Real-time ] overzicht van klantgegevens](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
+* [Demo van het Platform van de Gegevens van de Klant in  [!UICONTROL real time]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
 * [Segmenten maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
