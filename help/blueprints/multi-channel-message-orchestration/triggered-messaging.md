@@ -1,20 +1,20 @@
 ---
 title: Gekoppelde berichten en Adobe Experience Platform-blauwdruk
-description: Voer teweeggebrachte berichten en ervaringen uit gebruikend Adobe Experience Platform als centrale hub die gegevens, klantenprofielen, en segmentatie stromen.
+description: Voer teweeggebrachte berichten en ervaringen uit gebruikend Adobe Experience Platform als centrale hub van het stromen gegevens, klantenprofielen, en segmentatie.
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 2404d871a852df8fed3adb97a79cc15e994db762
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
 
 # Gekoppelde berichten en Adobe Experience Platform-blauwdruk
 
-Voer teweeggebrachte berichten en ervaringen uit gebruikend Adobe Experience Platform als centrale hub die gegevens, klantenprofielen, en segmentatie stromen.
+Voer teweeggebrachte berichten en ervaringen uit gebruikend Adobe Experience Platform als centrale hub van het stromen gegevens, klantenprofielen, en segmentatie.
 
 ## Gevallen gebruiken
 
@@ -25,7 +25,7 @@ Voer teweeggebrachte berichten en ervaringen uit gebruikend Adobe Experience Pla
 
 ## Architectuur
 
-<img src="assets/triggered.svg" alt="Referentiearchitectuur voor het geactiveerd Overseinen en het scenario van Adobe Experience Platform" style="border:1px solid #4a4a4a" />
+<img src="assets/triggered.svg" alt="Referentiearchitectuur voor de blauwdruk voor geactiveerd berichtenverkeer en Adobe Experience Platform" style="border:1px solid #4a4a4a" />
 
 ## Integratiepatronen
 
