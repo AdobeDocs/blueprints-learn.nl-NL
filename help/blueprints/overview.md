@@ -4,9 +4,9 @@ description: Digitale Ervaring blauwdrukken zijn herhaalbare implementaties om s
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 5ee692fb1ffe0e360f561a8fdaa0c21b6545d41b
+source-git-commit: 652f8d2cab997418aa8752d3d2c80f715ef6a85c
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -34,19 +34,18 @@ Elke blauwdruk biedt klanten van Adobe een reeks artefacten aan die het high-val
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="miniatuurafbeelding voor de triggeren Messaging en Adobe Experience Platform Blueprint" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>Gekoppelde berichten en Adobe Experience Platform-blauwdruk</strong></a></div>
-    <p><em>Berichten en ervaringen die Adobe Experience Platform als centraal knooppunt gebruiken.</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="miniatuurafbeelding voor de triggated Messaging and Experience Platform Blueprint" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>Gedragsd Overseinen en Experience Platform</strong></a></div>
+    <p><em>Berichten en ervaringen die [!UICONTROL Platform] als centrale hub gebruiken.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="miniatuurafbeelding voor Onlineafdruk/Offline Audience Activation" src="audience-activation/assets/onoff.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Online/offline Audience Activation vervagen</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Online/offline Audience Activation</strong></a></div>
     <p><em>Lever publiek-geactiveerde dwars-kanaalreclame.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="miniatuurafbeelding voor de blauwdruk voor gegevensconsolidatie voor Digital Behavioral" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Blauwdruk voor consolidatie van digitale gedragsgegevens 
-</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Consolidatie van digitale gedragsgegevens</strong></a></div>
     <p><em>Eén geconsolideerde weergave van het gedrag van klanten op verschillende kanalen hebben.</em></p>
   </td>
 </tr>
