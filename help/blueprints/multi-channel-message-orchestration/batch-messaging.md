@@ -5,9 +5,9 @@ solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Uitvoer geplande en partijoverseinen campagnes gebruikend Adobe Experience Platf
 
 ## Architectuur
 
-<img src="assets/aepbatch.svg" alt="Referentiearchitectuur voor het scenario Batch Messaging en Adobe Experience Platform" style="border:1px solid #4a4a4a" />
+<img src="assets/aepbatch.svg" alt="Referentiearchitectuur voor Batch Messaging en Adobe Experience Platform Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Guardrails
 
@@ -69,7 +69,7 @@ Uitvoer geplande en partijoverseinen campagnes gebruikend Adobe Experience Platf
 1. Maak klantspecifieke naamruimten.
 1. Identiteiten toevoegen aan schema&#39;s.
 1. Laat schema&#39;s en datasets voor profiel toe.
-1. Stel fusieregels in voor verschillende weergaven van het Real-time profiel van de klant (optioneel).
+1. Stel samenvoegregels in voor verschillende weergaven van [!UICONTROL Real-time klantprofiel] (optioneel).
 1. Maak segmenten voor campagnegebruik.
 
 #### Bronnen/bestemmingen
