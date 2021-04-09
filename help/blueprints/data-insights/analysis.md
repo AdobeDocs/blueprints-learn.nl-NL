@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: cd98c46d948af9026449c947496df82fd1be6718
+source-git-commit: 9a5137c5e71946c258cb94188ee53d742396d361
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 De Analyse en de Intelligentie van gegevens omvat de capaciteit binnen Adobe Experience Platform om verkennende vraag en analyse van de gegevens uit te voeren die in het gegevensmeer bestaan.
 
-De Dienst van de Vraag van het Experience Platform staat SQL vragen toe om op de gegevens worden uitgevoerd. De werkruimte van de Wetenschap van Gegevens laat gegevensexploratie, gegevenswetenschap, en machine het leren werklasten toe om op de gegevens worden uitgevoerd.
+Met de [!UICONTROL Query Service] van het Experience Platform kunnen SQL-query&#39;s op de gegevens worden uitgevoerd. [!UICONTROL Met Data Science ] Workspacets kunnen gegevensexploratie, gegevenswetenschap en werklasten voor machinaal leren worden uitgevoerd op de gegevens.
 
-Bovendien staat het Experience Platform verbindingen met derdeSQL cliënten, interfaces, en de hulpmiddelen van de Business Intelligence (BI) toe om met, tot de gegevens binnen Experience Platform direct te verbinden toegang te hebben en te vragen, gebruikend het protocol PostgreSQL.
+Bovendien staat het Experience Platform verbindingen met derdeSQL cliënten, interfaces, en hulpmiddelen van de Business Intelligence (BI) toe om met, tot de gegevens binnen Experience Platform direct te verbinden toegang te hebben en te vragen, gebruikend het [!DNL PostgreSQL] protocol.
 
 Bepaalde garanties zijn van toepassing op de vraagonderbreking en voor de hoeveelheid gegevens die in het vraagresultaat inbegrepen is, zoals vermeld binnen de scenario details.
 
@@ -47,10 +47,10 @@ Bepaalde garanties zijn van toepassing op de vraagonderbreking en voor de hoevee
 
 1. Vorm datasets en schema&#39;s voor gegevensopname in het gegevensmeer.
 1. Samenvattingsgegevens.
-1. Bevestig dat de gegevens aan de Dienst van de Vraag en de Werkruimte van de Wetenschap van Gegevens voor ruwe toegang en vraag beschikbaar zijn.
-1. Verbind de hulpmiddelen van de Business Intelligence en SQL cliënten met de Dienst van de Vraag voor visualisatie, gegevensvraag, en exploratie.
+1. Bevestig dat de gegevens aan [!UICONTROL Query Service] en [!UICONTROL Data Science Workspace] voor ruwe toegang en vraag beschikbaar zijn.
+1. Verbind de hulpmiddelen van de Business Intelligence en SQL cliënten met [!UICONTROL de Dienst van de Vraag] voor visualisatie, gegevensvraag, en exploratie.
 
 ## Verwante documentatie
 
 * [Productbeschrijving Adobe Experience Platform Intelligence](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Documentatie bij Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
+* [[!UICONTROL Query ] Services-documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
