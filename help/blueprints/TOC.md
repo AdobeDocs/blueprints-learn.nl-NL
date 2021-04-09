@@ -5,9 +5,9 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
+source-git-commit: 04fa7c1f111a27e782d4a70282f51397a096b46c
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
    + [Beleidsbepaling](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + Gegevensverzameling en -voorbereiding{#data-ingestion}
    + [Overzicht](/help/blueprints/data-ingestion/overview.md)
-   + [Gegevensinname en -voorbereiding op Experience Platform](/help/blueprints/data-ingestion/ingestion.md)
+   + [Voorbereiding en inname van gegevens](/help/blueprints/data-ingestion/ingestion.md)
    + [Gegevensverzameling op de server](/help/blueprints/data-ingestion/server-side-collection.md)
 + Gegevensanalyse, intelligentie en AI/ML{#data-exploration}
    + [Overzicht](/help/blueprints/data-insights/overview.md)
@@ -43,6 +43,6 @@ ht-degree: 0%
    + [Gedragsactiveerd overseinen en Experience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
 + Web en mobiele personalisatie{#web-personalization}
    + [Overzicht](/help/blueprints/web-personalization/overview.md)
-   + [Gedragingen webpersonalisatie](/help/blueprints/web-personalization/behavioral.md)
-   + [Online/offline webpersonalisatie](/help/blueprints/web-personalization/online-offline.md)
+   + [Gedragingen aanpassen](/help/blueprints/web-personalization/behavioral.md)
+   + [Online/offline personaliseren](/help/blueprints/web-personalization/online-offline.md)
 
