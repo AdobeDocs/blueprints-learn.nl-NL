@@ -6,7 +6,7 @@ kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Op basis van anonieme gegevens en gedragsgegevens van klanten kunt u doelgroepen
 
 ## Architectuur
 
-<img src="assets/aam.svg" alt="Referentiearchitectuur voor het anonieme Audience Activation-scenario" style="border:1px solid #4a4a4a" />
+<img src="assets/aam.svg" alt="Referentiearchitectuur voor de anonieme blauwdruk Audience Activation" style="border:1px solid #4a4a4a" />
 
 ## Implementatiestappen
 
