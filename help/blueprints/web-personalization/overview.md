@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ Het Web en de Mobiele Personalisering richt de capaciteit om publiekssegmentatie
 
 | Blauwdruk | Beschrijving | Experience Cloud-toepassingen |
 |---|---|---|
-| **[Gedragingen aanpassen](behavioral.md)** | <ul><li>Persoonlijk maken op basis van online gedrag en publieksgegevens</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(optioneel)*</li><li>Adobe Audience Manager *(optioneel)*</li></ul> |
-| **[Online/offline webpersonalisatie](online-offline.md)** | <ul><li>Personaliseer met off-line attributen en gebeurtenissen (transacties, reserveringen, CRM, en loyaliteitsgegevens).</li><li>Synchroniseer personalisatie over Web, e-mail, en andere bekende kanalen.</li></ul> | <ul><li>[!UICONTROL Real-time Platform voor klantgegevens]</li><li>Adobe Target</li><li>Adobe Analytics *(optioneel)*</li><li>Adobe Audience Manager *(optioneel)*</li></ul> |
+| **[Gedrag web/mobiele personalisatie](behavioral.md)** | <ul><li>Persoonlijk maken op basis van online gedrag en publieksgegevens</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(optioneel)*</li><li>Adobe Audience Manager *(optioneel)*</li></ul> |
+| **[Online/offline web/mobiele personalisatie](online-offline.md)** | <ul><li>Personaliseer met off-line attributen en gebeurtenissen (transacties, reserveringen, CRM, en loyaliteitsgegevens).</li><li>Synchroniseer personalisatie over Web, e-mail, en andere bekende kanalen.</li></ul> | <ul><li>[!UICONTROL Real-time Platform voor klantgegevens]</li><li>Adobe Target</li><li>Adobe Analytics *(optioneel)*</li><li>Adobe Audience Manager *(optioneel)*</li></ul> |
 
 ## Verwante blogberichten
 
