@@ -5,9 +5,9 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 2404d871a852df8fed3adb97a79cc15e994db762
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Voer teweeggebrachte berichten en ervaringen uit gebruikend Adobe Experience Pla
 1. Maak klantspecifieke naamruimten.
 1. Identiteiten toevoegen aan schema&#39;s.
 1. Laat schema&#39;s en datasets voor profiel toe.
-1. Stel fusieregels in voor verschillende weergaven van het Real-time profiel van de klant (optioneel).
+1. Stel samenvoegregels in voor verschillende weergaven van [!UICONTROL Real-time klantprofiel] (optioneel).
 1. Maak segmenten voor campagnegebruik.
 
 #### Bronnen/bestemmingen
