@@ -5,9 +5,9 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 087da6c5c5c6a6e9deee890d2ea02cf8591bdf15
+source-git-commit: 870541f548266ab82d74fec2e84b8cb6d5c952eb
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,12 @@ Door gebrek, laat de segment delende dienst een maximum van 75 publiek toe om vo
 
 De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen worden uitgevoerd zoals hieronder geschetst.
 
-1. Het gebruiken van het Web SDK van het Platform/Mobiele SDK en het Netwerk van de Rand.
+1. Met de [!UICONTROL Platform Web SDK] of [!UICONTROL Platform Mobile SDK] en [!UICONTROL Edge Network].
 1. Traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AppMeasurement.js)
 
 ### 1. Platform Web/Mobile SDK en Edge Approach
 
-<img src="assets/websdkflow.svg" alt="Referentiearchitectuur voor de Web SDK/Mobile SDK van het Platform en de Benadering van het Netwerk van de Rand" style="border:1px solid #4a4a4a" />
+<img src="assets/websdkflow.svg" alt="Referentiearchitectuur voor de [!UICONTROL Platform Web SDK] of [!UICONTROL Platform Mobile SDK] en de [!UICONTROL Edge Network]-aanpak" style="border:1px solid #4a4a4a" />
 
 ### 2. Toepassingsspecifieke SDK-benadering
 
@@ -59,10 +59,10 @@ De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen wor
 
 | Toepassing/service | Vereiste bibliotheek | Notities |
 |---|---|---|
-| Adobe Target | Platform Web SDK*, at.js 0.9.1+, of mbox.js 61+ | at.js heeft de voorkeur omdat mbox.js niet meer wordt ontwikkeld. |
-| Adobe Audience Manager (optioneel) | Platform Web SDK* of dil.js 5.0+ |  |
-| Adobe Analytics (optioneel) | Platform Web SDK* of AppMeasurement.js 1.6.4+ |  |
-| Experience Cloud Identity Service | Platform Web SDK* of VisitorAPI.js 2.0+ |  |
+| Adobe Target | [!UICONTROL Platform Web SDK]*, at.js 0.9.1+, of mbox.js 61+ | at.js heeft de voorkeur omdat mbox.js niet meer wordt ontwikkeld. |
+| Adobe Audience Manager (optioneel) | [!UICONTROL Platform Web SDK]* of dil.js 5.0+ |  |
+| Adobe Analytics (optioneel) | [!UICONTROL Platform Web SDK]* of AppMeasurement.js 1.6.4+ |  |
+| Experience Cloud Identity Service | [!UICONTROL Platform Web SDK]* of VisitorAPI.js 2.0+ |  |
 | Experience Platform Mobile SDK (optioneel) | 4.11 of hoger voor iOS en Android™ |  |
 | Experience Platform Web SDK | 1.0, heeft de huidige versie van Experience Platform SDK [verschillende gebruiksgevallen nog niet ondersteund voor de Experience Cloud toepassingen](https://github.com/adobe/alloy/projects/5) |  |
 
@@ -70,7 +70,7 @@ De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen wor
 
 1. [Implementeer de Adobe-](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) doelstelling voor uw web- of mobiele toepassingen.
 
-   Bij gebruik van Audience Manager of Analytics:
+   Bij gebruik van Audience Manager of Adobe Analytics:
 
 1. [Adobe Audience Manager implementeren](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html)
 1. [Adobe Analytics implementeren](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)
