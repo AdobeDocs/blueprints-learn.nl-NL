@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
+source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -45,12 +45,12 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
 
 De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen worden uitgevoerd zoals hieronder geschetst.
 
-1. Het gebruiken van het Web SDK van het Platform/Mobiele SDK en het Netwerk van de Rand.
+1. Met de [!UICONTROL Platform Web SDK] of [!UICONTROL Platform Mobile SDK] en [!UICONTROL Edge Network].
 1. Traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AppMeasurement.js)
 
 ### 1. Platform Web/Mobile SDK en Edge Approach
 
-<img src="assets/websdkflow.svg" alt="Referentiearchitectuur voor de Web SDK/Mobile SDK van het Platform en de Benadering van het Netwerk van de Rand" style="border:1px solid #4a4a4a" />
+<img src="assets/websdkflow.svg" alt="Referentiearchitectuur voor de [!UICONTROL Platform Web SDK] of [!UICONTROL Platform Mobile SDK] en de [!UICONTROL Edge Network]-aanpak" style="border:1px solid #4a4a4a" />
 
 ### 2. Toepassingsspecifieke SDK-benadering
 
@@ -60,10 +60,10 @@ De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen wor
 
 | Toepassing/service | Vereiste bibliotheek | Notities |
 |---|---|---|
-| Adobe Target | Platform Web SDK*, at.js 0.9.1+, of mbox.js 61+ | at.js heeft de voorkeur omdat mbox.js niet meer wordt ontwikkeld. |
-| Adobe Audience Manager (optioneel) | Platform Web SDK* of dil.js 5.0+ |  |
-| Adobe Analytics (optioneel) | Platform Web SDK* of AppMeasurement.js 1.6.4+ | Bij het bijhouden van Adobe Analytics moet gebruik worden gemaakt van regionale gegevensverzameling (Regional Data Collection, RDC). |
-| Experience Cloud ID-service | Platform Web SDK* of VisitorAPI.js 2.0+ | (Aanbevolen) Gebruik Experience Platform Launch om de dienst van identiteitskaart op te stellen om ervoor te zorgen dat identiteitskaart vóór om het even welke toepassingsvraag wordt geplaatst |
+| Adobe Target | [!UICONTROL Platform Web SDK]*, at.js 0.9.1+, of mbox.js 61+ | at.js heeft de voorkeur omdat mbox.js niet meer wordt ontwikkeld. |
+| Adobe Audience Manager (optioneel) | [!UICONTROL Platform Web SDK]* of dil.js 5.0+ |  |
+| Adobe Analytics (optioneel) | [!UICONTROL Platform Web SDK]* of AppMeasurement.js 1.6.4+ | Bij het bijhouden van Adobe Analytics moet gebruik worden gemaakt van regionale gegevensverzameling (Regional Data Collection, RDC). |
+| Experience Cloud ID-service | [!UICONTROL Platform Web SDK]* of VisitorAPI.js 2.0+ | (Aanbevolen) Gebruik Experience Platform Launch om de dienst van identiteitskaart op te stellen om ervoor te zorgen dat identiteitskaart vóór om het even welke toepassingsvraag wordt geplaatst |
 | Experience Platform Mobile SDK (optioneel) | 4.11 of hoger voor iOS en Android™ |  |
 | Experience Platform Web SDK | 1.0, heeft de huidige versie van Experience Platform SDK [verschillende gebruiksgevallen nog niet ondersteund voor de Experience Cloud toepassingen](https://github.com/adobe/alloy/projects/5) |  |
 
