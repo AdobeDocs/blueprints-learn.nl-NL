@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
 
 ## Architectuur
 
-<img src="assets/onoff.svg" alt="De architectuur van de verwijzing voor het Online/Offline scenario van de Personalisatie van het Web" style="border:1px solid #4a4a4a" />
+<img src="assets/onoff.svg" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="border:1px solid #4a4a4a" />
 
 ## Guardrails
 
