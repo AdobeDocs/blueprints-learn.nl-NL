@@ -4,9 +4,9 @@ description: Digitale Ervaring blauwdrukken zijn herhaalbare implementaties om s
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 3c139ed925fc7999ea3b7e6eb21bf68ae9ff23cb
+source-git-commit: 5ee692fb1ffe0e360f561a8fdaa0c21b6545d41b
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,8 @@ Elke blauwdruk biedt klanten van Adobe een reeks artefacten aan die het high-val
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="miniatuurafbeelding voor de blauwdruk voor gegevensconsolidatie voor Digital Behavioral" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Web/mobiele verfijning</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Blauwdruk voor consolidatie van digitale gedragsgegevens 
+</strong></a></div>
     <p><em>Eén geconsolideerde weergave van het gedrag van klanten op verschillende kanalen hebben.</em></p>
   </td>
 </tr>
