@@ -5,9 +5,9 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: d5f7502d97386d10d81fadc2c882a17ada36226c
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
