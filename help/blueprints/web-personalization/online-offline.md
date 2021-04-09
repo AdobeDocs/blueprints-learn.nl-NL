@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
+source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
 
 ## Toepassingen
 
-* Real-time Platform voor klantgegevens
+* [!UICONTROL Real-time Platform voor klantgegevens]
 * Adobe Target
 * Adobe Audience Manager (optioneel): Hiermee voegt u publieksgegevens van derden, apparaatgrafieken die op meerdere pagina&#39;s zijn gebaseerd, de mogelijkheid om segmenten van Platforms in Adobe Analytics te laten doorlopen en de mogelijkheid om Adobe Analytics-segmenten in het Platform te laten doorlopen toe
 * Adobe Analytics (optioneel): Hiermee kunt u segmenten samenstellen op basis van historische gedragsgegevens en fijnkorrelige segmentatie van Adobe Analytics-gegevens
@@ -73,7 +73,7 @@ De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen wor
 1. [Adobe-](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) doel implementeren voor uw web- of mobiele toepassingen
 1. [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html)  implementeren (optioneel)
 1. [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)   implementeren (optioneel)
-1. [Experience Platform en Real-time klantprofiel implementeren](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html)
+1. [Experience Platform en  [!UICONTROL Real-time klantprofiel implementeren]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html)
 1. [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) of [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) implementeren
    >[!NOTE]
    >
@@ -87,20 +87,20 @@ De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen wor
 * [Streaming segmentering](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 * [Overzicht van Experience Platform Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)
 * [Audience Manager Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
-* [Adobe Analytics Segment Sharing via AAM](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Adobe Analytics Segment Sharing via Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 * [Experience Platform Web SDK-documentatie](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Documentatie Experience Cloud ID-service](https://experienceleague.adobe.com/docs/id-service/using/home.html)
 * [Documentatie Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html)
 
 ## Verwante blogberichten
 
-* [Blauwdruk voor web personalisatie met Adobe Experience Platform Real-Time klantprofiel](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
-* [Een optimale online ervaring opbouwen: Verrijken Verenigd Profiel met de Dienst van de Vraag](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
-* [Adobe Experience Platform-beslissingsengine integreren met AEM websites](https://jaeness.medium.com/integrating-adobe-experience-platform-decisioning-engine-with-aem-websites-9c222acd12e2)
-* [Adobe Experience Platform&#39;s Identity Service — How to Solate the Customer Identity Conundrum](https://medium.com/adobetech/adobe-experience-platforms-identity-service-how-to-solve-the-customer-identity-conundrum-f95e22d16ea9)
-* [Hoe Adobe Experience Platform Predictive Audiences persoonlijke ervaringen verbetert](https://medium.com/adobetech/how-adobe-experience-platform-predictive-audiences-improves-personalized-experiences-1f75a60cb7a3)
-* [Adobe Experience Platform Web SDK voor Audience Management](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
-* [Adobe Experience Platform Real-Time klantprofiel implementeren via ons &quot;Customer Zero&quot;-programma](https://medium.com/adobetech/implementing-adobe-experience-platform-real-time-customer-profile-through-our-customer-zero-32e7cd952896)
-* [Hoe Adobe Experience Platform Klanten kan helpen hun mobiel Overseinen in real time aan te passen met de Dienst van Journey Orchestration en een Mobiele Leverancier van het Overseinen](https://medium.com/adobetech/how-adobe-experience-platform-helped-a-client-personalize-their-mobile-messaging-in-real-time-with-7d634aefa098)
-* [Segmentatie in seconden: Hoe Adobe Experience Platform real-time klantprofielen werkelijkheid heeft gemaakt](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
-* [Een optimale online ervaring opbouwen: Verrijken Verenigd Profiel met de Dienst van de Vraag](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
+* [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
+* [[!DNL Build an Optimal Online Experience: Enrich Unified Profile with Query Service]](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
+* [[!DNL Integrating Adobe Experience Platform Decisioning Engine with AEM Websites]](https://jaeness.medium.com/integrating-adobe-experience-platform-decisioning-engine-with-aem-websites-9c222acd12e2)
+* [[!DNL Adobe Experience Platform’s Identity Service — How to Solve the Customer Identity Conundrum]](https://medium.com/adobetech/adobe-experience-platforms-identity-service-how-to-solve-the-customer-identity-conundrum-f95e22d16ea9)
+* [[!DNL How Adobe Experience Platform Predictive Audiences improves Personalized Experiences]](https://medium.com/adobetech/how-adobe-experience-platform-predictive-audiences-improves-personalized-experiences-1f75a60cb7a3)
+* [[!DNL Adobe Experience Platform Web SDK for Audience Management]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
+* [[!DNL Implementing Adobe Experience Platform Real-Time Customer Profile through our “Customer Zero” Program]](https://medium.com/adobetech/implementing-adobe-experience-platform-real-time-customer-profile-through-our-customer-zero-32e7cd952896)
+* [[!DNL How Adobe Experience Platform Can Help Customers Personalize Their Mobile Messaging in Real-Time with Journey Orchestration Service and a Mobile Messaging Vendor]](https://medium.com/adobetech/how-adobe-experience-platform-helped-a-client-personalize-their-mobile-messaging-in-real-time-with-7d634aefa098)
+* [[!DNL Segmentation in Seconds: How Adobe Experience Platform Made Real-time Customer Profiles a Reality]](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
+* [[!DNL Build an Optimal Online Experience: Enrich Unified Profile with Query Service]](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
