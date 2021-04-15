@@ -5,18 +5,16 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: a63da7d5da3038cf66b5f2c99e117d4aa5b21cc1
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
 
 # Activering van publiek en profiel naar Enterprise-doelen - blauwdruk
 
-Replicatie en update van profiel- en publiekswijzigingen naar bedrijfsgegevensopslagsystemen voor activering en rapportage van gebruiksgevallen. <!-- This sentence is difficult to mentally process because there's no verb. Describe what the customer can do with this feature. The first paragraph on a page should not be an abstract description.-->
-
-Een verkoop- of ondersteuningsactie aan de klant initiëren via een kennisgeving van een actie van de klant van het [!UICONTROL Real-time Platform van klantgegevens] aan bedrijfssystemen en toepassingen. <!-- What kinds of sales or support actions? You might add a "For example...." The content in these blueprints should be more simple and friendly.-->
+Deel profiel- en publiekswijzigingen en -gebeurtenissen in streaming of batch van [!UICONTROL Real-time Customer Data Platform] naar bedrijfsgegevenswinkels en -toepassingen. Deze profiel- en publieksgebeurtenissen kunnen worden gebruikt om een verkoop- of ondersteuningsactie aan de klant te initiëren, zoals het volgen van een afgebroken toepassingsproces of webinar-registratie, of om bedrijfstoepassingen bij te werken met de nieuwste klantkenmerken en intelligentie van [!UICONTROL Real-time Customer Data Platform].
 
 ## Gevallen gebruiken
 
@@ -49,7 +47,7 @@ Eenmaal per dag of handmatig gestart via de API.
 
 ## Implementatiestappen
 
-1. Maak schema&#39;s voor gegevens die moeten worden ingevoerd. <!-- Cross-references to these topics would be helpful -->
+1. Maak schema&#39;s voor gegevens die moeten worden ingevoerd.
 1. Maak gegevenssets voor gegevens die moeten worden opgenomen.
 1. Vorm de correcte identiteiten en identiteitsnamespaces op het schema om ervoor te zorgen dat de ingebedde gegevens in een verenigd profiel kunnen vastmaken.
 1. Laat de schema&#39;s en datasets voor profielverwerking toe.
