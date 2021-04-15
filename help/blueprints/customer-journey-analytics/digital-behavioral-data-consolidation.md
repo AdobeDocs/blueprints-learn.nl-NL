@@ -1,18 +1,18 @@
 ---
-title: Blauwdruk voor consolidatie van digitale gedragsgegevens
+title: Reisanalyse Kanaal
 description: Analyseer en extraheer inzichten van klanteninteractie over de klantenreis.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
 
-# Blauwdruk voor consolidatie van digitale gedragsgegevens
+# Blauwdruk analyse reis kanaal
 
 Eén geconsolideerde weergave van het gedrag van klanten op verschillende kanalen hebben door gegevens van verschillende web-, mobiele en offline eigenschappen te verenigen.
 
