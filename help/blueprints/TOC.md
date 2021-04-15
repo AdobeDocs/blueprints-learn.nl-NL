@@ -5,7 +5,7 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: 04fa7c1f111a27e782d4a70282f51397a096b46c
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
    + [Hub voor klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [Overzicht](/help/blueprints/customer-journey-analytics/overview.md)
-   + [Consolidatie van digitale gedragsgegevens](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
+   + [Reisanalyse Kanaal](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [Beleidsbepaling](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + Gegevensverzameling en -voorbereiding{#data-ingestion}
    + [Overzicht](/help/blueprints/data-ingestion/overview.md)
