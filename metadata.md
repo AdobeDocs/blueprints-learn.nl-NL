@@ -2,7 +2,7 @@
 cloud: Experience Platform
 solution: Experience Platform
 product: experience platform
-type: Zelfstudie
+type: Tutorial
 mini-toc-levels: 2
 git-repo: https://git.corp.adobe.com/AdobeDocs/blueprints-learn.nl-NL
 index: true
