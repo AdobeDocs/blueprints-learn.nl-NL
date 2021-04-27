@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: 2f35195b875d85033993f31c8cef0f85a7f6cccc
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -36,13 +36,27 @@ Activeer het publiek naar bekende, op profielen gebaseerde bestemmingen, zoals e
 ## Guardrails
 
 * [Richtlijnen voor profiel en segmentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
-* Batchsegmenttaken worden eenmaal per dag uitgevoerd op basis van het vooraf bepaalde schema. De de uitvoerbanen van het segment worden dan in werking gesteld voorafgaand aan de geplande bestemmingslevering. Merk op dat de banen van het partijsegment en de banen van de bestemmingslevering afzonderlijk lopen. Taken voor batchsegmenten en de prestaties van exporttaken zijn afhankelijk van het aantal profielen, de grootte van profielen en het aantal segmenten dat wordt geëvalueerd.
-* Streaming segmenttaken worden geëvalueerd in minuten van streaminggegevens die worden ontvangen om een profiel te maken en het segmentlidmaatschap onmiddellijk naar het profiel te schrijven en een gebeurtenis te verzenden waarop toepassingen zich kunnen abonneren.
-* Het streaming segmentlidmaatschap wordt onmiddellijk gehandeld voor het stromen bestemmingen en wordt geleverd in of enige segment lidmaatschapsgebeurtenissen of een micro-partij van veelvoudige profielgebeurtenissen afhankelijk van de innamepatronen van de bestemming. De geplande bestemmingen zullen een segmentuitvoerbaan van profiel voorafgaand aan levering in werking stellen, voor om het even welke segmenten die in het stromen worden geëvalueerd die via geplande levering van het partijsegment worden geleverd.
-* Voor het delen van [!UICONTROL Real-time Platform van de Gegevens van de Klant] segmentlidmaatschap aan Audience Manager, gebeurt dit binnen notulen voor het stromen segmenten en binnen notulen na voltooiing van de partijsegmentbeoordeling voor partijsegmentatie.
-* De segmenten die van Experience Platform aan Audience Manager worden gedeeld worden gedeeld binnen notulen van segmentverwezenlijking - of via het stromen of partijevaluatie methode. Er is een aanvankelijke synchronisatie van de segmentconfiguratie tussen Experience Platform en Audience Manager zodra het segment aanvankelijk wordt gecreeerd, na ~4 uur kan het de segmentlidmaatschap van het Experience Platform in de profielen van de Audience Manager beginnen te worden gerealiseerd. Het Lidmaatschap van het publiek dat vóór configuratie van het Experience Platform en het publiek van de Audience Manager wordt gerealiseerd deelt of alvorens het publiek meta-gegevens van Experience Platform aan Audience Manager wordt gesynchroniseerd zal niet in Audience Manager worden gerealiseerd tot de volgende segmentbaan waar het &quot;bestaande&quot;segmentlidmaatschap wordt gedeeld.
-* De partij of het stromen bestemmingstaken van partijsegmentbanen kunnen de updates van de profielattributen evenals segmentlidmaatschap delen.
-* Streaming segmentatietaken naar streamingdoelen delen alleen updates voor segmentlidmaatschap.
+
+### Guardrails voor segmentbeoordeling en -activering
+
+| Segmentatietype | Frequentie | Doorvoer | Latentie (evaluatie van segmenten) | Latentie (segmentactivering) | Payload activeren |
+|-|-|-|-|-|-|-|-
+| Randsegmentatie | De segmentatie van de rand is momenteel in bèta en staat voor geldige real-time segmentatie toe om op het Netwerk van de Rand van het Experience Platform voor real-time, zelfde paginabesluit via Adobe Target en Adobe Journey Optimizer worden geëvalueerd. |  | ~100 ms | Direct beschikbaar voor personalisatie in Adobe Target, voor profielopzoekingen in het Edge-profiel en voor activering via op cookies gebaseerde doelen. | Publiek Membership beschikbaar op de Rand voor profielraadplegingen en koekjesgebaseerde bestemmingen.<br>Adobe Target en Journey Optimizer hebben toegang tot publiek- en profielkenmerken.  |
+| Streaming segmentering | Telkens wanneer een nieuwe het stromen gebeurtenis of een verslag in het klantenprofiel in real time wordt opgenomen en de segmentdefinitie een geldig het stromen segment is. <br>Zie de  [segmentatiedocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html) voor richtlijnen over streamingsegmentcriteria | Tot 1500 gebeurtenissen per seconde.  | ~ p95 &lt;5min | Streaming doelen: Het lidmaatschap van het streaming publiek wordt binnen ongeveer 10 minuten geactiveerd of wordt op basis van de vereisten van de bestemming op micro-batches geactiveerd.<br>Geplande doelen: Het stromen publiekslidmaatschap wordt geactiveerd in partij die op de geplande tijd van de bestemmingslevering wordt gebaseerd. | Streaming doelen: Wijzigingen in het publiekslidmaatschap, identiteitswaarden en profielkenmerken.<br>Geplande doelen: Wijzigingen in het publiekslidmaatschap, identiteitswaarden en profielkenmerken. |
+| Incrementele segmentatie | Eenmaal per uur voor nieuwe gegevens die zijn opgenomen in het realtime klantprofiel sinds de laatste incrementele of batchsegmentevaluatie. |  |  | Streaming doelen: Het incrementele publiekslidmaatschap wordt binnen ongeveer 10 minuten geactiveerd of op micro-basis op basis van de vereisten van de bestemming.<br>Geplande doelen: De incrementele publiekslidmaatschappen worden geactiveerd in partij die op de geplande tijd van de bestemmingslevering wordt gebaseerd. | Streaming doelen: Alleen wijzigingen in het lidmaatschap van het publiek en identiteitswaarden.<br>Geplande doelen: Wijzigingen in het publiekslidmaatschap, identiteitswaarden en profielkenmerken. |
+| Batchsegmentering | Eenmaal per dag op basis van een vooraf vastgesteld schema voor het systeem of handmatig gestart via de API. |  | Ongeveer één uur per taak voor een opslagcapaciteit van maximaal 10 TB, 2 uur per taak voor een opslagcapaciteit van 10 TB tot 100 TB. De prestaties van batchsegmenttaken zijn afhankelijk van numerieke profielen, de grootte van profielen en het aantal segmenten dat wordt geëvalueerd. | Streaming doelen: Het lidmaatschap van het batchpubliek wordt geactiveerd binnen ongeveer 10 jaar na voltooiing van de segmentatiebeoordeling of op micro-batches gebaseerd op de vereisten van de bestemming.<br>Geplande doelen: De het publiekslidmaatschappen van de partij worden geactiveerd gebaseerd op de geplande tijd van de bestemmingslevering. | Streaming doelen: Alleen wijzigingen in het lidmaatschap van het publiek en identiteitswaarden.<br>Geplande doelen: Wijzigingen in het publiekslidmaatschap, identiteitswaarden en profielkenmerken. |
+
+### Guardrails voor delen publiek tussen toepassingen
+
+| Integratie van toepassingen voor het publiek | Frequentie | Productie/volume | Latentie (evaluatie van segmenten) | Latentie (segmentactivering) |
+|-|-|-|-|-|-|-
+| Platform voor realtime klantgegevens aan Audience Manager | Afhankelijk van het segmentatietype - zie bovenstaande tabel met segmentatiegeleidingen. | Afhankelijk van het segmentatietype - zie bovenstaande tabel met segmentatiegeleidingen. | Afhankelijk van het segmentatietype - zie bovenstaande tabel met segmentatiegeleidingen. | Binnen enkele minuten na voltooiing van de segmentbeoordeling.<br>De aanvankelijke synchronisatie van de publieksconfiguratie tussen het Platform en de Audience Manager van de Gegevens van de Klant in real time neemt ongeveer 4 uur.<br>Om het even welke publiekslidmaatschappen die tijdens de periode van 4 uur worden gerealiseerd zullen aan Audience Manager op de verdere partijsegmentatietaak als &quot;bestaand&quot;publieksenlidmaatschap worden geschreven. |
+| Adobe Analytics naar Audience Manager |  | Standaard kunnen maximaal 75 soorten publiek worden gedeeld voor elke Adobe Analytics-rapportsuite. Als een Audience Manager-licentie wordt gebruikt, is er geen limiet voor het aantal soorten publiek dat kan worden gedeeld tussen Adobe Analytics en Adobe Target of Adobe Audience Manager en Adobe Target. |  |  |
+| Adobe Analytics naar Real-time Customer Data Platform | Momenteel niet beschikbaar | Momenteel niet beschikbaar | Momenteel niet beschikbaar | Momenteel niet beschikbaar |
+
+
+
+
 
 ## Implementatiestappen
 
