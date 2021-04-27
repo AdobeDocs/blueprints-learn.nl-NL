@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 37416aafc997838888edec2658d2621d20839f94
+source-git-commit: 2f35195b875d85033993f31c8cef0f85a7f6cccc
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,23 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
 
 ## Guardrails
 
-* De segmenten die van Experience Platform aan Audience Manager worden gedeeld worden gedeeld binnen notulen van segmentverwezenlijking - of via het stromen of partijevaluatie methode. Er is een aanvankelijke synchronisatie van de segmentconfiguratie tussen Experience Platform en Audience Manager van ongeveer 4 uren voor het segmentlidmaatschap van het Experience Platform beginnen om in de profielen van de Audience Manager te worden gerealiseerd. Eenmaal in de profielen van de Audience Manager, zijn de het segmentlidmaatschap van het Experience Platform beschikbaar voor de zelfde paginagrootte door Adobe Target.
-* Merk op dat voor segmentrealisaties die binnen de synchronisatie van de 4 uurssegmentconfiguratie tussen Experience Platform en Audience Manager voorkomen, deze segmentrealisaties in Audience Manager op de verdere baan van het partijsegment als &quot;bestaande&quot;segmenten zullen worden gerealiseerd.
-* Delen van batchsegmenten vanaf Experience Platform - eenmaal per dag of handmatig gestart via API. Zodra deze segmentlidmaatschappen worden gerealiseerd worden zij gedeeld aan Audience Manager binnen notulen en beschikbaar voor zelfde/volgende paginagrootte in Doel.
-* Streaming segmentatie wordt binnen ongeveer 5 minuten gerealiseerd. Zodra deze segmentrealisaties voorkomen, worden zij gedeeld aan Audience Manager binnen notulen en beschikbaar voor zelfde/volgende paginagrootte in Doel.
-* Door gebrek laat de segment delende dienst een maximum van 75 publiek toe om voor elke het rapportreeks van Adobe Analytics worden gedeeld. Als de klant een licentie voor Audience Managers heeft, geldt er geen limiet voor het aantal soorten publiek dat kan worden gedeeld tussen Adobe Analytics en Adobe Target of Audience Manager en Adobe Target.
+### Guardrails voor segmentbeoordeling en -activering
+
+| Segmentatietype | Frequentie | Doorvoer | Latentie (evaluatie van segmenten) | Latentie (segmentactivering) |
+|-|-|-|-|-|-|-
+| Randsegmentatie | De segmentatie van de rand is momenteel in bèta en staat voor geldige real-time segmentatie toe om op het Netwerk van de Rand van het Experience Platform voor real-time, zelfde paginabesluit via Adobe Target en Adobe Journey Optimizer worden geëvalueerd. |  | ~100 ms | Direct beschikbaar voor personalisatie in Adobe Target, voor profielopzoekingen in het Edge-profiel en voor activering via op cookies gebaseerde doelen. |
+| Streaming segmentering | Telkens wanneer een nieuwe het stromen gebeurtenis of een verslag in het klantenprofiel in real time wordt opgenomen en de segmentdefinitie een geldig het stromen segment is. <br>Zie de  [segmentatiedocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html) voor richtlijnen over streamingsegmentcriteria | Tot 1500 gebeurtenissen per seconde.  | ~ p95 &lt;5min | Zodra deze segmentrealisaties plaatsvinden, worden ze binnen enkele minuten gedeeld met de Audience Manager en de service voor het delen van het publiek. Deze service is beschikbaar voor dezelfde of volgende paginagrootte in Adobe Target. |
+| Incrementele segmentatie | Eenmaal per uur voor nieuwe gegevens die zijn opgenomen in het realtime klantprofiel sinds de laatste incrementele of batchsegmentevaluatie. |  |  | Zodra deze segmentlidmaatschappen worden gerealiseerd, worden ze binnen enkele minuten gedeeld met de Audience Manager en de service voor het delen van het publiek. Deze service is beschikbaar voor dezelfde/volgende paginagrootte in Adobe Target. |
+| Batchsegmentering | Eenmaal per dag op basis van een vooraf vastgesteld schema voor het systeem of handmatig gestart via de API. |  | Ongeveer één uur per taak voor een opslagcapaciteit van maximaal 10 TB, 2 uur per taak voor een opslagcapaciteit van 10 TB tot 100 TB. De prestaties van batchsegmenttaken zijn afhankelijk van numerieke profielen, de grootte van profielen en het aantal segmenten dat wordt geëvalueerd. | Zodra deze segmentlidmaatschappen zich realiseren worden zij gedeeld aan Audience Manager en de dienst die van het publiek binnen notulen deelt en beschikbaar voor zelfde/volgende paginagrootte in Adobe Target. |
+
+### Guardrails voor het delen van publiek door verschillende toepassingen
+
+
+| Integratiepatroon voor delen van publiek | Details | Frequentie | Doorvoer | Latentie (evaluatie van segmenten) | Latentie (segmentactivering) |
+|-|-|-|-|-|-|-|-
+| Platform voor realtime klantgegevens aan Audience Manager |  | Afhankelijk van het segmentatietype - zie bovenstaande tabel met segmentatiegeleidingen. | Afhankelijk van het segmentatietype - zie bovenstaande tabel met segmentatiegeleidingen. | Afhankelijk van het segmentatietype - zie bovenstaande tabel met segmentatiegeleidingen. | Binnen enkele minuten na voltooiing van de segmentbeoordeling.<br>De aanvankelijke synchronisatie van de publieksconfiguratie tussen het Platform en de Audience Manager van de Gegevens van de Klant in real time neemt ongeveer 4 uur.<br>Om het even welke publiekslidmaatschappen die tijdens de periode van 4 uur worden gerealiseerd zullen aan Audience Manager op de verdere partijsegmentatietaak als &quot;bestaand&quot;publieksenlidmaatschap worden geschreven. |
+| Adobe Analytics naar Audience Manager | Standaard kunnen maximaal 75 soorten publiek worden gedeeld voor elke Adobe Analytics-rapportsuite. Als een Audience Manager-licentie wordt gebruikt, is er geen limiet voor het aantal soorten publiek dat kan worden gedeeld tussen Adobe Analytics en Adobe Target of Adobe Audience Manager en Adobe Target. |  |  |  |  |
+| Adobe Analytics naar Real-time Customer Data Platform | Momenteel niet beschikbaar. |  |  |  |  |
 
 ## Implementatiepatronen
 
