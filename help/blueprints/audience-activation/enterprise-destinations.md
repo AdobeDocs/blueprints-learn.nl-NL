@@ -5,9 +5,9 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
+source-git-commit: 2f35195b875d85033993f31c8cef0f85a7f6cccc
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -32,18 +32,16 @@ Deel profiel- en publiekswijzigingen en -gebeurtenissen in streaming of batch va
 
 [Richtlijnen voor profiel en segmentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 
-Latentie- en productiedrempels:
+### Guardrails voor segmentbeoordeling en -activering
 
-Streaming segmentatie:
+| Segmentatietype | Frequentie | Doorvoer | Latentie (evaluatie van segmenten) | Latentie (segmentactivering) | Payload activeren |
+|-|-|-|-|-|-|-|-
+| Randsegmentatie | De segmentatie van de rand is momenteel in bèta en staat voor geldige real-time segmentatie toe om op het Netwerk van de Rand van het Experience Platform voor real-time, zelfde paginabesluit via Adobe Target en Adobe Journey Optimizer worden geëvalueerd. |  | ~100 ms | Direct beschikbaar voor personalisatie in Adobe Target, voor profielopzoekingen in het Edge-profiel en voor activering via op cookies gebaseerde doelen. | Publiek Membership beschikbaar op de Rand voor profielraadplegingen en koekjesgebaseerde bestemmingen.<br>Adobe Target en Journey Optimizer hebben toegang tot publiek- en profielkenmerken.  |
+| Streaming segmentering | Telkens wanneer een nieuwe het stromen gebeurtenis of een verslag in het klantenprofiel in real time wordt opgenomen en de segmentdefinitie een geldig het stromen segment is. <br>Zie de  [segmentatiedocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html) voor richtlijnen over streamingsegmentcriteria | Tot 1500 gebeurtenissen per seconde.  | ~ p95 &lt;5min | Streaming doelen: Het lidmaatschap van het streaming publiek wordt binnen ongeveer 10 minuten geactiveerd of wordt op basis van de vereisten van de bestemming op micro-batches geactiveerd.<br>Geplande doelen: Het stromen publiekslidmaatschap wordt geactiveerd in partij die op de geplande tijd van de bestemmingslevering wordt gebaseerd. | Streaming doelen: Wijzigingen in het publiekslidmaatschap, identiteitswaarden en profielkenmerken.<br>Geplande doelen: Wijzigingen in het publiekslidmaatschap, identiteitswaarden en profielkenmerken. |
+| Incrementele segmentatie | Eenmaal per uur voor nieuwe gegevens die zijn opgenomen in het realtime klantprofiel sinds de laatste incrementele of batchsegmentevaluatie. |  |  | Streaming doelen: Het incrementele publiekslidmaatschap wordt binnen ongeveer 10 minuten geactiveerd of op micro-basis op basis van de vereisten van de bestemming.<br>Geplande doelen: De incrementele publiekslidmaatschappen worden geactiveerd in partij die op de geplande tijd van de bestemmingslevering wordt gebaseerd. | Streaming doelen: Alleen wijzigingen in het lidmaatschap van het publiek en identiteitswaarden.<br>Geplande doelen: Wijzigingen in het publiekslidmaatschap, identiteitswaarden en profielkenmerken. |
+| Batchsegmentering | Eenmaal per dag op basis van een vooraf vastgesteld schema voor het systeem of handmatig gestart via de API. |  | Ongeveer één uur per taak voor een opslagcapaciteit van maximaal 10 TB, 2 uur per taak voor een opslagcapaciteit van 10 TB tot 100 TB. De prestaties van batchsegmenttaken zijn afhankelijk van numerieke profielen, de grootte van profielen en het aantal segmenten dat wordt geëvalueerd. | Streaming doelen: Het lidmaatschap van het batchpubliek wordt geactiveerd binnen ongeveer 10 jaar na voltooiing van de segmentatiebeoordeling of op micro-batches gebaseerd op de vereisten van de bestemming.<br>Geplande doelen: De het publiekslidmaatschappen van de partij worden geactiveerd gebaseerd op de geplande tijd van de bestemmingslevering. | Streaming doelen: Alleen wijzigingen in het lidmaatschap van het publiek en identiteitswaarden.<br>Geplande doelen: Wijzigingen in het publiekslidmaatschap, identiteitswaarden en profielkenmerken. |
 
-* Tot 5 minuten voor streamingsegmentatie, tot 1500 gebeurtenissen per seconde
-* Tot 11 minuten voor activering van streaming
 
-Batchsegmentatie:
-Eenmaal per dag of handmatig gestart via de API.
-
-* Ongeveer 1 uur per taak voor maximaal 10 TB profielopslaggrootte
-* Ongeveer 2 uur per taak voor opslaggrootte van 10 TB tot 100 TB profiel
 
 ## Implementatiestappen
 
