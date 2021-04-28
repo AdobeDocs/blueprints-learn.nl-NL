@@ -38,7 +38,7 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
 ### Guardrails voor segmentbeoordeling en -activering
 
 | Segmentatietype | Frequentie | Doorvoer | Latentie (evaluatie van segmenten) | Latentie (segmentactivering) |
-|-|-|-|-|-|-|-
+|-|-|-|-|-|
 | Randsegmentatie | De segmentatie van de rand is momenteel in bèta en staat voor geldige real-time segmentatie toe om op het Netwerk van de Rand van het Experience Platform voor real-time, zelfde paginabesluit via Adobe Target en Adobe Journey Optimizer worden geëvalueerd. |  | ~100 ms | Direct beschikbaar voor personalisatie in Adobe Target, voor profielopzoekingen in het Edge-profiel en voor activering via op cookies gebaseerde doelen. |
 | Streaming segmentering | Telkens wanneer een nieuwe het stromen gebeurtenis of een verslag in het klantenprofiel in real time wordt opgenomen en de segmentdefinitie een geldig het stromen segment is. <br>Zie de  [segmentatiedocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html) voor richtlijnen over streamingsegmentcriteria | Tot 1500 gebeurtenissen per seconde.  | ~ p95 &lt;5min | Zodra deze segmentrealisaties plaatsvinden, worden ze binnen enkele minuten gedeeld met de Audience Manager en de service voor het delen van het publiek. Deze service is beschikbaar voor dezelfde of volgende paginagrootte in Adobe Target. |
 | Incrementele segmentatie | Eenmaal per uur voor nieuwe gegevens die zijn opgenomen in het realtime klantprofiel sinds de laatste incrementele of batchsegmentevaluatie. |  |  | Zodra deze segmentlidmaatschappen worden gerealiseerd, worden ze binnen enkele minuten gedeeld met de Audience Manager en de service voor het delen van het publiek. Deze service is beschikbaar voor dezelfde/volgende paginagrootte in Adobe Target. |
@@ -48,7 +48,7 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
 
 
 | Integratiepatroon voor delen van publiek | Details | Frequentie | Doorvoer | Latentie (evaluatie van segmenten) | Latentie (segmentactivering) |
-|-|-|-|-|-|-|-|-
+|-|-|-|-|-|-|
 | Platform voor realtime klantgegevens aan Audience Manager |  | Afhankelijk van het segmentatietype - zie bovenstaande tabel met segmentatiegeleidingen. | Afhankelijk van het segmentatietype - zie bovenstaande tabel met segmentatiegeleidingen. | Afhankelijk van het segmentatietype - zie bovenstaande tabel met segmentatiegeleidingen. | Binnen enkele minuten na voltooiing van de segmentbeoordeling.<br>De aanvankelijke synchronisatie van de publieksconfiguratie tussen het Platform en de Audience Manager van de Gegevens van de Klant in real time neemt ongeveer 4 uur.<br>Om het even welke publiekslidmaatschappen die tijdens de periode van 4 uur worden gerealiseerd zullen aan Audience Manager op de verdere partijsegmentatietaak als &quot;bestaand&quot;publieksenlidmaatschap worden geschreven. |
 | Adobe Analytics naar Audience Manager | Standaard kunnen maximaal 75 soorten publiek worden gedeeld voor elke Adobe Analytics-rapportsuite. Als een Audience Manager-licentie wordt gebruikt, is er geen limiet voor het aantal soorten publiek dat kan worden gedeeld tussen Adobe Analytics en Adobe Target of Adobe Audience Manager en Adobe Target. |  |  |  |  |
 | Adobe Analytics naar Real-time Customer Data Platform | Momenteel niet beschikbaar. |  |  |  |  |
