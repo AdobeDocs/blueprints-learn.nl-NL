@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 24b6ffe3021389d33e84688a8f1a90711ca4b772
+source-git-commit: db083e30d8add029e99cade25d561a26da78338e
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,10 @@ Activeer het publiek naar bekende, op profielen gebaseerde bestemmingen, zoals e
 | Integratie van doeltoepassingen | Frequentie | Doorvoer/volume | Latentie (segmentevaluatie) | Latentie (segmentactivering) |
 |---|---|---|---|---|
 | Real-time Platform van klantgegevens aan Audience Manager | Afhankelijk van het segmentatietype. Zie de bovenstaande tabel met segmentatiehulplijnen. | Afhankelijk van het segmentatietype. Zie de bovenstaande tabel met segmentatiehulplijnen. | Afhankelijk van het segmentatietype. Zie de bovenstaande tabel met segmentatiehulplijnen. | Binnen minuten na voltooiing van de segmentbeoordeling.<br>De aanvankelijke synchronisatie van de publieksconfiguratie tussen het Platform en de Audience Manager van de Gegevens van de Klant in real time neemt ongeveer 4 uur.<br>Om het even welke publiekslidmaatschappen die tijdens de periode van 4 uur worden gerealiseerd zullen aan Audience Manager op de verdere partijsegmentatietaak als &quot;bestaand&quot;publieksenlidmaatschap worden geschreven. |
-| Adobe Analytics naar Audience Manager |  | Standaard kunnen maximaal 75 soorten publiek worden gedeeld voor elke Adobe Analytics-rapportsuite. Als een Audience Manager-licentie wordt gebruikt, is er geen limiet voor het aantal soorten publiek dat kan worden gedeeld tussen Adobe Analytics en Adobe Target of Adobe Audience Manager en Adobe Target. |  |  |
+| Real-time Platform voor klantgegevens naar Ad Cloud | Merk op dat het delen van publiek van het Platform van de Gegevens van de Klant in real time aan Adobe Advertising Cloud Audience Manager vereist. Dezelfde garanties die van toepassing zijn voor het delen van klantgegevens in realtime aan Audience Manager, zullen gelden voor de integratie van het publiek in het Platform voor realtime klantgegevens in Advertising Cloud. | - | - | - |
 | Adobe Analytics naar Real-time Customer Data Platform | Momenteel niet beschikbaar | Momenteel niet beschikbaar | Momenteel niet beschikbaar | Momenteel niet beschikbaar |
+| Adobe Analytics naar Audience Manager | - | Standaard kunnen maximaal 75 soorten publiek worden gedeeld voor elke Adobe Analytics-rapportsuite. Als een Audience Manager-licentie wordt gebruikt, is er geen limiet voor het aantal soorten publiek dat kan worden gedeeld tussen Adobe Analytics en Adobe Target of Adobe Audience Manager en Adobe Target. | - | - |
+
 
 
 
