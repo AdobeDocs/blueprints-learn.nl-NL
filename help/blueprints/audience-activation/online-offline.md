@@ -49,7 +49,7 @@ Activeer het publiek naar bekende, op profielen gebaseerde bestemmingen, zoals e
 ### Guardrails voor delen publiek tussen toepassingen
 
 | Integratie van toepassingen voor het publiek | Frequentie | Productie/volume | Latentie (evaluatie van segmenten) | Latentie (segmentactivering) |
-|-|-|-|-|-|-|-
+|-|-|-|-|-|
 | Platform voor realtime klantgegevens aan Audience Manager | Afhankelijk van het segmentatietype - zie bovenstaande tabel met segmentatiegeleidingen. | Afhankelijk van het segmentatietype - zie bovenstaande tabel met segmentatiegeleidingen. | Afhankelijk van het segmentatietype - zie bovenstaande tabel met segmentatiegeleidingen. | Binnen enkele minuten na voltooiing van de segmentbeoordeling.<br>De aanvankelijke synchronisatie van de publieksconfiguratie tussen het Platform en de Audience Manager van de Gegevens van de Klant in real time neemt ongeveer 4 uur.<br>Om het even welke publiekslidmaatschappen die tijdens de periode van 4 uur worden gerealiseerd zullen aan Audience Manager op de verdere partijsegmentatietaak als &quot;bestaand&quot;publieksenlidmaatschap worden geschreven. |
 | Adobe Analytics naar Audience Manager |  | Standaard kunnen maximaal 75 soorten publiek worden gedeeld voor elke Adobe Analytics-rapportsuite. Als een Audience Manager-licentie wordt gebruikt, is er geen limiet voor het aantal soorten publiek dat kan worden gedeeld tussen Adobe Analytics en Adobe Target of Adobe Audience Manager en Adobe Target. |  |  |
 | Adobe Analytics naar Real-time Customer Data Platform | Momenteel niet beschikbaar | Momenteel niet beschikbaar | Momenteel niet beschikbaar | Momenteel niet beschikbaar |
