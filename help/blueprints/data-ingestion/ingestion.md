@@ -6,7 +6,7 @@ kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: 37416aafc997838888edec2658d2621d20839f94
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 0%
@@ -21,7 +21,7 @@ De voorbereiding van gegevens omvat de afbeelding van brongegevens aan het schem
 
 ## Architectuur
 
-<img src="assets/dataingest.svg" alt="Referentiearchitectuur voor de blauwdruk voor gegevensvoorbereiding en insluiting" style="border:1px solid #4a4a4a" />
+<img src="assets/data_ingestion.svg" alt="Referentiearchitectuur voor de blauwdruk voor gegevensvoorbereiding en insluiting" style="border:1px solid #4a4a4a" />
 
 ## Methoden voor gegevensinname
 
