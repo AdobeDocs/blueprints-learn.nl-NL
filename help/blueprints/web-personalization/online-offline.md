@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 9a52c5f9513e39b31956aaa0f30cad1426b63a95
+source-git-commit: ed56e79cd45c956cab23c640810dc8e1cc204c16
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -31,27 +31,11 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
 
 ## Architectuur
 
-<img src="assets/onoff.svg" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_personalization.svg" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="border:1px solid #4a4a4a" />
 
 ## Guardrails
 
-### Guardrails voor segmentbeoordeling en -activering
-
-| Segmentatietype | Frequentie | Doorvoer | Latentie (segmentevaluatie) | Latentie (segmentactivering) |
-|---|---|---|---|---|
-| Randsegmentatie | De segmentatie van de rand is momenteel in bèta en staat voor geldige segmentatie in real time toe die op het Netwerk van de Rand van het Experience Platform voor real time, zelfde paginabesluit via Adobe Target en Adobe Journey Optimizer wordt geëvalueerd. |  | ~100 ms | Direct beschikbaar voor personalisatie in Adobe Target, voor profielraadplegingen in het Profiel van de Rand, en voor activering via op koekjes gebaseerde bestemmingen. |
-| Streaming segmentering | Telkens wanneer een nieuwe het stromen gebeurtenis of een verslag in het klantenprofiel in real time wordt opgenomen en de segmentdefinitie is een geldig het stromen segment. <br>Zie de  [segmentatiedocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html) voor richtlijnen over streamingsegmentcriteria | Tot 1500 gebeurtenissen per seconde. | ~ p95 &lt;5min | Zodra deze segmentrealisaties zich voordoen, worden ze binnen enkele minuten gedeeld met de Audience Manager en de service voor het delen van het publiek. Deze service is beschikbaar voor dezelfde of volgende paginagrootte in Adobe Target. |
-| Incrementele segmentatie | Eenmaal per uur voor nieuwe gegevens die in het klantprofiel in real time sinds de laatste incrementele of batchsegmentevaluatie zijn opgenomen. |  |  | Zodra deze segmentlidmaatschappen worden gerealiseerd worden zij gedeeld aan Audience Manager en de publiek delende dienst binnen notulen en beschikbaar voor zelfde/volgende paginagrootte in Adobe Target. |
-| Batchsegmentatie | Eenmaal per dag op basis van een vooraf vastgesteld schema voor de systeeminstellingen of handmatig via de API gestart. |  | Ongeveer één uur per taak voor een opslagcapaciteit van maximaal 10 TB profiel, 2 uur per taak voor een opslaggrootte van 10 TB tot 100 TB profiel. De prestaties van batchsegmenttaken zijn afhankelijk van numerieke profielen, de grootte van profielen en het aantal segmenten dat wordt geëvalueerd. | Zodra deze segmentlidmaatschappen worden gerealiseerd worden zij gedeeld aan Audience Manager en de publiek delende dienst binnen notulen en beschikbaar voor zelfde/volgende paginagrootte in Adobe Target. |
-
-### Guardrails voor het delen van publiek door verschillende toepassingen
-
-
-| Integratiepatroon voor delen van publiek | Detail | Frequentie | Doorvoer | Latentie (segmentevaluatie) | Latentie (segmentactivering) |
-|---|---|---|---|---|---|
-| Real-time Platform van klantgegevens aan Audience Manager |  | Afhankelijk van het segmentatietype. Zie de bovenstaande tabel met segmentatiehulplijnen. | Afhankelijk van het segmentatietype. Zie de bovenstaande tabel met segmentatiehulplijnen. | Afhankelijk van het segmentatietype. Zie de bovenstaande tabel met segmentatiehulplijnen. | Binnen minuten na voltooiing van de segmentbeoordeling.<br>De aanvankelijke synchronisatie van de publieksconfiguratie tussen het Platform en de Audience Manager van de Gegevens van de Klant in real time neemt ongeveer 4 uur.<br>Om het even welke publiekslidmaatschappen die tijdens de periode van 4 uur worden gerealiseerd zullen aan Audience Manager op de verdere partijsegmentatietaak als &quot;bestaand&quot;publieksenlidmaatschap worden geschreven. |
-| Adobe Analytics naar Audience Manager | Standaard kunnen maximaal 75 soorten publiek worden gedeeld voor elke Adobe Analytics-rapportsuite. Als een Audience Manager-licentie wordt gebruikt, is er geen limiet voor het aantal soorten publiek dat kan worden gedeeld tussen Adobe Analytics en Adobe Target of Adobe Audience Manager en Adobe Target. |  |  |  |  |
-| Adobe Analytics naar Real-time Customer Data Platform | Momenteel niet beschikbaar. |  |  |  |  |
+Raadpleeg de hulplijnen onder de sectie Blauwdrukken voor activering van publiek en profiel - [LINK](../audience-activation/overview.md)
 
 ## Implementatiepatronen
 
@@ -62,11 +46,11 @@ De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen wor
 
 ### 1. Platform Web/Mobile SDK en Edge Approach
 
-<img src="assets/websdkflow.svg" alt="Referentiearchitectuur voor de [!UICONTROL Platform Web SDK] of [!UICONTROL Platform Mobile SDK] en de [!UICONTROL Edge Network]-aanpak" style="border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="Referentiearchitectuur voor de [!UICONTROL Platform Web SDK] of [!UICONTROL Platform Mobile SDK] en de [!UICONTROL Edge Network]-aanpak" style="border:1px solid #4a4a4a" />
 
 ### 2. Toepassingsspecifieke SDK-benadering
 
-<img src="assets/appsdkflow.png" alt="Referentiearchitectuur voor de toepassingsspecifieke SDK-benadering" style="border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.png" alt="Referentiearchitectuur voor de toepassingsspecifieke SDK-benadering" style="border:1px solid #4a4a4a" />
 
 ## Implementatievereisten
 
