@@ -5,9 +5,9 @@ solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ De Wetenschap van de Gegevens van de douane voor de Blauwdruk van de Verrijking 
 
 ## Architectuur
 
-<img src="assets/datascience.svg" alt="Referentiearchitectuur voor de Custom Data Science for Profile Enrichment Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/data_science.svg" alt="Referentiearchitectuur voor de Custom Data Science for Profile Enrichment Blueprint" style="border:1px solid #4a4a4a" />
 
 ## Implementatiestappen
 
