@@ -5,7 +5,7 @@ solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b,c7d6356d-a1ae-472b-b501-5c736e990252
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -27,7 +27,7 @@ De Vervaging van de Verzameling van Gegevens van de Onderneming van de server to
 
 ## Architectuur
 
-<img src="assets/entcollect.svg" alt="Referentiearchitectuur voor gegevensverzameling op bedrijfsniveau" style="border:1px solid #4a4a4a" />
+<img src="assets/enterprise_collection.svg" alt="Referentiearchitectuur voor gegevensverzameling op bedrijfsniveau" style="border:1px solid #4a4a4a" />
 
 ## Verwante documentatie
 
