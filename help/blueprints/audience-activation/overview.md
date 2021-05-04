@@ -6,7 +6,7 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 translation-type: tm+mt
-source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
+source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 0%
@@ -29,11 +29,13 @@ Met een kanaal-eerste benadering, handelt elk kanaal als silo waarin de verperso
 
 ## Instructies voor doelgroep en activering van profiel
 
+* [Richtlijnen voor profiel en segmentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+
 ### Guardrail Diagram
 
 <img src="assets/activation_guardrails.svg" alt="Guardrail-diagram voor de activering van blauwdrukken voor publiek en profiel" style="border:1px solid #4a4a4a" />
 
-* [Richtlijnen voor profiel en segmentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+
 
 ### Guardrails voor segmentbeoordeling en -activering
 
