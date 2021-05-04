@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
+source-git-commit: 61cb72965cd528cf264231058b1010829a87df9e
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,14 @@ Het Web en de Mobiele Personalisering richt de capaciteit om publiekssegmentatie
 |---|---|---|
 | **[Gedrag web/mobiele personalisatie](behavioral.md)** | <ul><li>Persoonlijk maken op basis van online gedrag en publieksgegevens</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(optioneel)*</li><li>Adobe Audience Manager *(optioneel)*</li></ul> |
 | **[Online/offline web/mobiele personalisatie](online-offline.md)** | <ul><li>Personaliseer met off-line attributen en gebeurtenissen (transacties, reserveringen, CRM, en loyaliteitsgegevens).</li><li>Synchroniseer personalisatie over Web, e-mail, en andere bekende kanalen.</li></ul> | <ul><li>[!UICONTROL Real-time Platform voor klantgegevens]</li><li>Adobe Target</li><li>Adobe Analytics *(optioneel)*</li><li>Adobe Audience Manager *(optioneel)*</li></ul> |
+
+## Guardrails voor web en mobiele personalisatie
+
+Raadpleeg de hulplijnen onder de sectie Blauwdrukken voor activering van publiek en profiel - [LINK](../audience-activation/overview.md)
+
+### Grafiek met instructies voor online/offline personalisatie
+
+<img src="assets/personalization_guardrails.svg" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="border:1px solid #4a4a4a" />
 
 ## Verwante blogberichten
 
