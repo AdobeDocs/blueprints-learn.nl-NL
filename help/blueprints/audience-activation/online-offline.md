@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
+source-git-commit: 762836aba236ed78f4f396e8521a99c775dd52fc
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,14 @@ Verwijs naar de gidsen zoals die op de pagina van het Overzicht van de Activerin
 
 ## Implementatiestappen
 
-1. Vorm schema&#39;s en datasets in Experience Platform.
-1. Vorm de correcte identiteiten en identiteitsnamespaces op het schema om ervoor te zorgen dat de ingebedde gegevens in een verenigd profiel kunnen vastmaken.
-1. Laat het schema en de datasets voor Profiel toe.
-1. Gegevens opnemen in Platform.
-1. Bepaling [!UICONTROL Real-time Customer Data Platform] segment sharing tussen Experience Platform en Audience Manager voor publiek dat in Experience Platform wordt bepaald om aan Audience Manager te worden gedeeld.
-1. Auteurssegmenten in Experience Platform, te evalueren in batch of streaming. Het systeem bepaalt automatisch of het segment als partij of het stromen wordt geëvalueerd.
-1. Vorm bestemmingen voor het delen van profielattributen en publiekslidmaatschappen aan gewenste bestemmingen.
+1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) schema&#39;s voor gegevens die moeten worden ingevoerd.
+1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) gegevenssets voor gegevens die moeten worden ingevoerd.
+1. [Vorm de correcte identiteiten en de identiteit ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html) namespacesop het schema om ervoor te zorgen dat de ingebedde gegevens in een verenigd profiel kunnen vastmaken.
+1. [Schakel het schema en de datasets voor Profiel](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html) in.
+1. [Gegevens opnemen in Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
+1. [Levering van  [!UICONTROL realtime ]  ](https://www.adobe.com/go/audiences) platformoverschrijding van klantgegevens tussen Experience Platform en Audience Manager voor publiek dat in Experience Platform wordt gedefinieerd en aan Audience Manager wordt gedeeld.
+1. [Maak segmenten in het Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html), die u wilt evalueren in batch- of streaming. Het systeem bepaalt automatisch of het segment als partij of het stromen wordt geëvalueerd.
+1. [Vorm bestemmingen ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html) voor het delen van profielattributen en publiekslidmaatschappen aan gewenste bestemmingen.
 
 ## Overwegingen bij de implementatie
 
