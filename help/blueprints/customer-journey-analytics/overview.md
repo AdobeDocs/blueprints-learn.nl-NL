@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 translation-type: tm+mt
-source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
+source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,13 @@ Veelvoorkomende analyses zijn:
 |---|---|---|
 | **[Reisanalyse Kanaal](digital-behavioral-data-consolidation.md)** | <ul><li>Eén geconsolideerde weergave van het gedrag van klanten op verschillende kanalen hebben door gegevens van verschillende web-, mobiele en offline eigenschappen te verenigen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optioneel)</li></ul> |
 | **[De Analyse van de Vervorming van de vraag](call-deflect.md)** | <ul><li>Bepaal welk gedrag het meest indicatief in het resulteren in agent begeleide vraag door de gegevens van het Centrum van de Vraag samen met Web, mobiele, en andere interactiegegevens te brengen is.</li><li>Deze inzichten kunnen dan worden gebruikt om de klantenervaring te optimaliseren en de weg aan agent bijgewoonde interactie door geoptimaliseerde zelf-dienst inhoud en hulpmiddelen te verminderen.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+
+## Guardrails voor Customer Journey Analytics blauwdrukken
+
+### Guardrail Diagram
+
+<img src="assets/cja_guardrails.svg" alt="Guardrail-diagram voor de Customer Journey Analytics-blauwdrukken" style="border:1px solid #4a4a4a" />
+
 
 ## Verwante blogberichten
 
