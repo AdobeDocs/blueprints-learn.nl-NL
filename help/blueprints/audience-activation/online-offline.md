@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
+source-git-commit: 61cb72965cd528cf264231058b1010829a87df9e
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,13 @@ Activeer het publiek naar bekende, op profielen gebaseerde bestemmingen, zoals e
 
 ## Architectuur
 
+### Online/offline Audience Activation met doelen
+
 <img src="assets/online_offline_activation.svg" alt="Referentiearchitectuur voor de blauwdruk voor online/offline Audience Activation" style="border:1px solid #4a4a4a" />
+
+### Online/offline Audience Activation met Experience Cloud-toepassingen
+
+<img src="assets/activation+apps.svg" alt="Referentiearchitectuur voor de online/offline Audience Activation blauwdruk met Experience Cloud-toepassingen" style="border:1px solid #4a4a4a" />
 
 ## Guardrails
 
