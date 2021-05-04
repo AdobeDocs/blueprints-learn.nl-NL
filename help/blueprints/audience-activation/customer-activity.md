@@ -5,9 +5,9 @@ solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c,4f15aa5d-9ee3-4d92-8012-3e2f0c0d615f
 translation-type: tm+mt
-source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
+source-git-commit: 762836aba236ed78f4f396e8521a99c775dd52fc
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,15 @@ Met dit vermogen, kon u rijke context oppervlakte wanneer een klant uw vraagcent
 1. Vorm datasets en schema&#39;s.
 1. [!UICONTROL Real-time klantprofiel] configureren: vorm het schema en de dataset voor [!UICONTROL Real-time Profiel van de Klant], en opstelling een fusiebeleid en identiteiten.
 1. Gegevens in Platform opnemen en verwerken naar [!UICONTROL Real-time klantprofiel].
-1. Gebruik de Entiteit-API om een profielkenmerk op te zoeken, hetzij van de verslagentiteit of de ervaringsgebeurtenisentiteit.
+
+
+1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) schema&#39;s voor gegevens die moeten worden ingevoerd.
+1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) gegevenssets voor gegevens die moeten worden ingevoerd.
+1. [Vorm de correcte identiteiten en de identiteit ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html) namespacesop het schema om ervoor te zorgen dat de ingebedde gegevens in een verenigd profiel kunnen vastmaken.
+1. [Schakel het schema en de datasets voor Profiel](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html) in.
+1. [Gegevens opnemen in Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
+1. [Samenvoegbeleid instellen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html)
+1. Gebruik de [Entities-API om een profielkenmerk](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html) op te zoeken, hetzij van de recordentiteit, hetzij van de ervaringsgebeurtenisentiteit.
 
 ## Verwante documentatie
 
