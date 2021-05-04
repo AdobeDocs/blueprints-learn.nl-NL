@@ -5,9 +5,9 @@ solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
+source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,6 @@ Eén geconsolideerde weergave van het gedrag van klanten op verschillende kanale
 ## Architectuur
 
 <img src="assets/CJA.svg" alt="Referentiearchitectuur voor de Customer Journey Analytics Blueprint" style="border:1px solid #4a4a4a" />
-
-## Guardrails
-
-Gegevensinname in Customer Journey Analytics:
-
-* Gegevensopname naar meer: API ~ 7 GB/uur, bronaansluiting ~ 200 GB/uur, streaming naar meer ~ 15 minuten, Adobe Analytics-bronaansluiting naar meer ~ 45 minuten.
-* Nadat er gegevens zijn gepubliceerd naar het datumpeer, kan het tot 90 minuten duren om in Customer Journey Analytics te verwerken.
 
 ## Implementatiestappen
 
