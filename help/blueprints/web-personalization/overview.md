@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
+source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Het Web en de Mobiele Personalisering richt de capaciteit om publiekssegmentatie
 
 ## Guardrails voor web en mobiele personalisatie
 
-Voor instructies voor publiek en profielactivering raadpleegt u de hulplijnen onder de sectie Blauwdrukken voor activering van publiek en profiel - [LINK](../audience-activation/overview.md)
+[Zie de handleidingen onder de sectie Blauwdrukinstellingen voor doelgroepen en profielactivering voor instructies over activering van publiek en profiel.](../audience-activation/overview.md)
 
 ### Grafiek met instructies voor online/offline personalisatie
 
