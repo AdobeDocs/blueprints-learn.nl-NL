@@ -5,9 +5,9 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
+source-git-commit: b8770bdc4db581be11b347e3788b1d6e6534fe10
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
    + [Anoniem Audience Activation](/help/blueprints/audience-activation/anonymous.md)
    + [Online/offline Audience Activation](/help/blueprints/audience-activation/online-offline.md)
    + [Activering naar zakelijke doelen](/help/blueprints/audience-activation/enterprise-destinations.md)
-   + [Publiek met Experience Cloud-toepassingen](/help/blueprints/audience-activation/platform-and-applications.md)
+   + [Activering met Experience Cloud-toepassingen](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Hub voor klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [Overzicht](/help/blueprints/customer-journey-analytics/overview.md)
