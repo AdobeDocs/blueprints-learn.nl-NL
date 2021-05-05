@@ -5,9 +5,9 @@ solution: Experience Platform, Customer Journey Analytics
 kt: 7209
 exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
 translation-type: tm+mt
-source-git-commit: 6365fa00a77ba22774b2d6de3e882a3e09dcae0f
+source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Analyseer het gedrag van een klant op desktop en mobiel voordat deze contact opn
 
 1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) schema&#39;s voor gegevens die moeten worden ingevoerd.
 1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) gegevenssets voor gegevens die moeten worden ingevoerd.
-1. [Gegevens opnemen in Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
+1. [Gegevens ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in Experience Platform opnemen.
 Gegevens moeten in het Platform worden ingenomen voordat ze in Customer Journey Analytics worden opgenomen.
 1. Analyseer de gegevenssets voor kanaalgebeurtenissen.
 Datasets die in union worden geanalyseerd, moeten een gemeenschappelijke naamruimte-id hebben of opnieuw worden weergegeven via de op velden gebaseerde stitching-mogelijkheid van Customer Journey Analytics. 
