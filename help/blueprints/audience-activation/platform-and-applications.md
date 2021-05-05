@@ -5,7 +5,7 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7722
 exl-id: null
 translation-type: tm+mt
-source-git-commit: c1a281f0808a0f081b2b63927a8bddb6377bbbad
+source-git-commit: 0f69d5b2422cc9750ed9c71ea0c10e3271973bf2
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Activering van publiek en profiel met blauwdruk voor Experience Cloud-toepassingen
 
-Profielen en publiek in Experience Platform beheren en deze delen met Experience Cloud-toepassingen. Bouw en deel rijke klantensegmenten en inzichten in Experience Platform en deel hen met de Toepassingen van de Experience Cloud.
+Profielen en publiek in Experience Platform beheren en deze delen met Experience Cloud-toepassingen. Bouw en deel rijke klantensegmenten en inzichten in Experience Platform en deel hen met de toepassingen van de Experience Cloud.
 
 Activering met Experience Cloud-toepassingen wordt nauw uitgelijnd met de [Onlineblauwdruk/Offline Audience Activation](online-offline.md). Deze blauwdruk bevat meer details die specifiek zijn voor integratie tussen Experience Platform- en Experience Cloud-toepassingen.
 
 ## Gevallen gebruiken
 
-* Personalisatie en het richten over de kanalen van de klanteninteractie aangedreven door Experience Cloud.
-* Het delen van publiek en profielgegevens met Experience Platform aan en van de Toepassingen van Experience Cloud.
+* Personaliseer en richt zich over de kanalen van de klanteninteractie die door Experience Cloud worden aangedreven.
+* Deel publiek- en profielgegevens tussen Experience Platform- en Experience Cloud-toepassingen.
 
 ## Toepassingen
 
@@ -29,9 +29,9 @@ Activering met Experience Cloud-toepassingen wordt nauw uitgelijnd met de [Onlin
 * [!UICONTROL Real-time Platform voor klantgegevens]
 * Experience Platform activeren
 * Experience Cloud-toepassingen
-   * Audience Manager
-   * Doel
-   * Campagne
+   * Adobe Audience Manager
+   * Adobe Target
+   * Adobe Campaign
    * Journey Optimizer
 
 ## Architectuur
@@ -40,7 +40,7 @@ Activering met Experience Cloud-toepassingen wordt nauw uitgelijnd met de [Onlin
 
 <img src="assets/activation+apps.svg" alt="Referentiearchitectuur voor de activering van publiek en profiel met Experience Cloud-toepassingen" style="border:1px solid #4a4a4a" />
 
-Zie [Adobe Experience Platform &amp; het diagram van Toepassingen](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html) voor een extra architectuurdiagram met betrekking tot Experience Platform en zijn integratie met de Toepassingen van Experience Cloud.
+Zie [Adobe Experience Platform &amp; het diagram van Toepassingen](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html) voor een extra architectuurdiagram met betrekking tot Experience Platform en zijn integratie met de toepassingen van Experience Cloud.
 
 ## Guardrails
 
