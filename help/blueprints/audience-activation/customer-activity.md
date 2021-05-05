@@ -5,7 +5,7 @@ solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c,4f15aa5d-9ee3-4d92-8012-3e2f0c0d615f
 translation-type: tm+mt
-source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
+source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Met dit vermogen, kon u rijke context oppervlakte wanneer een klant uw vraagcent
 1. [Vorm de correcte identiteiten en de identiteit ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html) namespacesop het schema om ervoor te zorgen dat de ingebedde gegevens in een verenigd profiel kunnen vastmaken.
 1. [Laat de schema&#39;s en datasets voor profiel](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html) toe.
 1. [Gegevens ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in Experience Platform opnemen.
-1. [Samenvoegbeleid instellen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html)
+1. [Samenvoegbeleid](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) instellen.
 1. Gebruik de [Entities-API om een profielkenmerk](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html) op te zoeken, hetzij van de recordentiteit, hetzij van de ervaringsgebeurtenisentiteit.
 
 ## Verwante documentatie
