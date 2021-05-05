@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
+source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 Gebruik offlinekenmerken en -gebeurtenissen zoals offline bestellingen, transacties, CRM of loyaliteitsgegevens, samen met onlinegedrag voor het online aanwijzen en personaliseren.
 
 Activeer het publiek naar bekende, op profielen gebaseerde bestemmingen, zoals e-mailproviders, sociale netwerken en advertentiebestemmingen.
+
+De Audience Activation blauwdruk voor online/offline wordt nauwkeurig uitgelijnd met [Audience and Profile Activation with Experience Cloud Applications Blueprint](platform-and-applications.md). Extra detail wordt verstrekt in [de Activering van het publiek en van het Profiel met de Blauwdruk van de Toepassingen van de Experience Cloud](platform-and-applications.md)   specifiek voor de integratie tussen Experience Platform- en Experience Cloud-toepassingen.
 
 ## Gevallen gebruiken
 
@@ -42,7 +44,7 @@ Activeer het publiek naar bekende, op profielen gebaseerde bestemmingen, zoals e
 
 ## Guardrails
 
-Verwijs naar de gidsen zoals die op de pagina van het Overzicht van de Activering van het Publiek en van het Profiel - [LINK](overview.md) worden geschetst
+[Raadpleeg de hulplijnen die worden beschreven op de pagina Overzicht van publiek- en profielactivering.](overview.md)
 
 ## Implementatiestappen
 
