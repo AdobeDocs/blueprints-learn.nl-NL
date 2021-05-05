@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7722
 exl-id: null
 translation-type: tm+mt
-source-git-commit: 0f69d5b2422cc9750ed9c71ea0c10e3271973bf2
+source-git-commit: d81329f6e90a0bdc0b76a41e4045b8e1aa5f89cd
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Profielen en publiek in Experience Platform beheren en deze delen met Experience Cloud-toepassingen. Bouw en deel rijke klantensegmenten en inzichten in Experience Platform en deel hen met de toepassingen van de Experience Cloud.
 
-Activering met Experience Cloud-toepassingen wordt nauw uitgelijnd met de [Onlineblauwdruk/Offline Audience Activation](online-offline.md). Deze blauwdruk bevat meer details die specifiek zijn voor integratie tussen Experience Platform- en Experience Cloud-toepassingen.
+Activering met Experience Cloud-toepassingen wordt nauw uitgelijnd met de [Onlineblauwdruk/Offline Audience Activation](online-offline.md).
 
 ## Gevallen gebruiken
 
@@ -35,8 +35,6 @@ Activering met Experience Cloud-toepassingen wordt nauw uitgelijnd met de [Onlin
    * Journey Optimizer
 
 ## Architectuur
-
-### Activering van publiek en profiel met Experience Cloud-toepassingen
 
 <img src="assets/activation+apps.svg" alt="Referentiearchitectuur voor de activering van publiek en profiel met Experience Cloud-toepassingen" style="border:1px solid #4a4a4a" />
 
