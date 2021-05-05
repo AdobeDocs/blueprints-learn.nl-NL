@@ -5,9 +5,9 @@ solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
+source-git-commit: 6365fa00a77ba22774b2d6de3e882a3e09dcae0f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,9 @@ Eén geconsolideerde weergave van het gedrag van klanten op verschillende kanale
 
 ## Implementatiestappen
 
-1. Vorm datasets en schema&#39;s.
-1. Gegevens opnemen in Platform.
+1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) schema&#39;s voor gegevens die moeten worden ingevoerd.
+1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) gegevenssets voor gegevens die moeten worden ingevoerd.
+1. [Gegevens opnemen in Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
 De gegevens moeten in Platform worden opgenomen alvorens tot Customer Journey Analytics te verwerken.
 1. Analyseer de gegevenssets voor kanaaloverschrijdende gebeurtenissen die worden geanalyseerd om er zeker van te zijn dat deze een gemeenschappelijke naamruimte-id hebben of opnieuw worden weergegeven via de op velden gebaseerde stitching-mogelijkheid van Customer Journey Analytics. 
 
