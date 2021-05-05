@@ -5,9 +5,9 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 37416aafc997838888edec2658d2621d20839f94
+source-git-commit: 81df87f850b7ac4be9dce7a3b96d39a3a47685c5
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -68,23 +68,23 @@ Voer teweeggebrachte berichten en ervaringen uit gebruikend Adobe Experience Pla
 
 #### Schema/gegevensset
 
-1. Vorm individuele profiel, ervaringsgebeurtenis, en multi-entiteitsschema&#39;s in Experience Platform die op klant-geleverde gegevens worden gebaseerd.
-1. Adobe Campaign-schema&#39;s maken voor het volgende: wideLog, trackingLog, niet-te leveren adressen en profielvoorkeuren (optioneel).
-1. Voeg labels voor gegevensgebruik toe aan de dataset voor beheer.
-1. Beleid maken om bestuur op bestemmingen af te dwingen.
+1. [Vorm individueel profiel, ervaringsgebeurtenis, en multi-entiteitsschema&#39;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) s in Experience Platform, die op klant-geleverde gegevens wordt gebaseerd.
+1. Maak Adobe Campaign-schema&#39;s voor wideLog, trackingLog, niet-te leveren adressen en profielvoorkeuren (optioneel).
+1. [Creeer ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) datasetsin Experience Platform voor gegevens die moeten worden opgenomen.
+1. [Voeg ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) labels voor gegevensgebruik in Experience Platform toe aan de dataset voor bestuur.
+1. [Creeer ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html) beleid dat bestuur op bestemmingen afdwingt.
 
 #### Profiel/identiteit
 
-1. Maak klantspecifieke naamruimten.
-1. Identiteiten toevoegen aan schema&#39;s.
-1. Laat schema&#39;s en datasets voor profiel toe.
-1. Stel samenvoegregels in voor verschillende weergaven van [!UICONTROL Real-time klantprofiel] (optioneel).
+1. [Maak klantspecifieke naamruimten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Identiteiten toevoegen aan schema&#39;s](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Schakel het schema en de datasets voor Profiel](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html) in.
+1. [Stel samenvoegbeleid ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) in voor verschillende weergaven van  [!UICONTROL realtime klantprofiel]  (optioneel).
 1. Maak segmenten voor Adobe Campaign-gebruik.
 
 #### Bronnen/bestemmingen
 
-1. Gegevens in Experience Platform opnemen met streaming API&#39;s en bronconnectors.
-1. Vorm [!DNL Azure] blob opslagbestemming voor gebruik met Adobe Campaign.
+1. [Gegevens opnemen in Experience ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) Platform met streaming API&#39;s en bronconnectors.1. Vorm  [!DNL Azure] blob opslagbestemming voor gebruik met Adobe Campaign.
 
 #### Implementatie van mobiele apps
 
