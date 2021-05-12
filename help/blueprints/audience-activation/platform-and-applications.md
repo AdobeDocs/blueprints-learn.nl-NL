@@ -4,10 +4,9 @@ description: Profielen en publiek in Experience Platform beheren en deze delen m
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: null
-translation-type: tm+mt
-source-git-commit: d81329f6e90a0bdc0b76a41e4045b8e1aa5f89cd
+source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -36,9 +35,12 @@ Activering met Experience Cloud-toepassingen wordt nauw uitgelijnd met de [Onlin
 
 ## Architectuur
 
-<img src="assets/activation+apps.svg" alt="Referentiearchitectuur voor de activering van publiek en profiel met Experience Cloud-toepassingen" style="border:1px solid #4a4a4a" />
+[Zie de sectie van de Architectuur van het Experience Platform en van Toepassingen voor extra architectuurdiagrammen met betrekking tot de integratie van het Experience Platform met de Toepassingen van Experience Cloud.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html)
 
-Zie [Adobe Experience Platform &amp; het diagram van Toepassingen](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html) voor een extra architectuurdiagram met betrekking tot Experience Platform en zijn integratie met de toepassingen van Experience Cloud.
+### Activering van publiek en profiel met Experience Cloud-toepassingen
+
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Referentiearchitectuur voor de activering van publiek en profiel met Experience Cloud-toepassingen" style="border:1px solid #4a4a4a" />
+<br>
 
 ## Guardrails
 
