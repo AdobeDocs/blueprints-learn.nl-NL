@@ -1,29 +1,16 @@
 ---
-source-git-commit: 8225c25ca54acb10ff9e9dd07d869b0c9a626c0b
+source-git-commit: fd8321418050ba90c6628955b72209cb654e2bd2
 workflow-type: tm+mt
-translation-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
 
 ---
 # MIT-licentie
 
-© Copyright 2020 Adobe. Alle rechten voorbehouden.
+© Copyright 2021 Adobe. all rights reserved.
 
-De machtiging wordt kosteloos verleend aan eenieder die een afschrift ontvangt
-van deze software en bijbehorende documentatiebestanden (de &quot;Software&quot;), voor de verwerking van
-in de Software zonder beperking, met inbegrip van zonder beperking van de rechten
-gebruiken, kopiëren, wijzigen, samenvoegen, publiceren, distribueren, sublicentiëren en/of verkopen
-kopieën van de software, en om personen aan wie de software is toe te staan
-daartoe onder de volgende voorwaarden zijn verplicht:
+Hierbij wordt kosteloos een machtiging verleend aan eenieder die een kopie van deze software en de bijbehorende documentatiebestanden (de &quot;Software&quot;) ontvangt, om zonder beperking in de Software te handelen, met inbegrip van de rechten om, onder de volgende voorwaarden, kopieën van de Software te gebruiken, te kopiëren, te wijzigen, samen te voegen, te publiceren, te sublicentiëren en/of te verkopen, en om personen aan wie de Software wordt geleverd, toe te staan dit te doen:
 
-De bovenstaande copyrightkennisgeving en deze machtigingskennisgeving worden in alle
-kopieën of belangrijke delen van de software.
+De bovenstaande copyrightkennisgeving en deze machtigingskennisgeving worden opgenomen in alle exemplaren of belangrijke delen van de Software.
 
-DE SOFTWARE WORDT &quot;AS IS&quot; VERSTREKT, ZONDER ENIGE GARANTIE, EXPRESS OF
-GEÏMPLICEERD, INCLUSIEF MAAR NIET BEPERKT TOT DE GARANTIES VAN MERKANTABILITEIT,
-GESCHIKTHEID VOOR EEN BEPAALD DOEL EN NIET-INBREUK. IN GEEN GEVAL DIENT DE
-AUTEURS OF HOUDERS VAN COPYRIGHT ZIJN AANSPRAKELIJK VOOR AANVRAGEN, SCHADE OF ANDERE
-AANSPRAKELIJKHEID, ONGEACHT IN HET KADER VAN EEN CONTRACT, TORT OF ANDERS, DIE VOORTVLOEIT UIT:
-UIT OF IN VERBAND MET DE SOFTWARE OF HET GEBRUIK OF ANDERE DEALINGS IN DE
-SOFTWARE.
+DE SOFTWARE WORDT &quot;AS IS&quot; VERSTREKT, ZONDER ENIGE SOORT GARANTIE, UITDRUKKELIJK OF IMPLICIET, INCLUSIEF MAAR NIET BEPERKT TOT DE GARANTIES VAN MERKANTABILITEIT, PLAATSBAARHEID VOOR EEN BEPAALD DOEL EN NIET-INBREUK. IN GEEN GEVAL ZIJN DE AUTEURS OF DE HOUDERS VAN HET COPYRIGHT AANSPRAKELIJK VOOR EEN AANVRAAG, SCHADE OF ANDERE AANSPRAKELIJKHEID, OF HET EEN ACTIE VAN CONTRACT, TEORT OF ANDERS IS, DIE VOORTVLOEIT UIT, UIT OF IN VERBAND MET DE SOFTWARE OF HET GEBRUIK OF ANDERE AFWIJKINGEN IN DE SOFTWARE.
