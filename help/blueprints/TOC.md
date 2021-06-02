@@ -4,10 +4,9 @@ breadcrumb-title: 'Blauwdrukken '
 user-guide-description: De blauwdrukken zijn herhaalbare implementaties om gevestigde bedrijfsproblemen aan te pakken en architectuurdiagrammen, technische overwegingen, en relevante documentatiekoppelingen te bevatten.
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-translation-type: tm+mt
-source-git-commit: b8770bdc4db581be11b347e3788b1d6e6534fe10
+source-git-commit: 70b3bf294741888c3d109a2d4ef710d428800abf
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -15,7 +14,7 @@ ht-degree: 0%
 # Digitale beleving blauwdrukken {#architecture}
 
 + [Overzicht](/help/blueprints/overview.md)
-+ Diagrammen van architectuuroverzicht{#architecture-overview}
++ Architectuuroverzichten{#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform en toepassingen](/help/blueprints/experience-platform/platform-applications.md)
    + [Gegevensstroom Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
