@@ -1,23 +1,20 @@
 ---
-title: 'Multi-channel Message Orchestration '
+title: 'Klantenreizen '
 description: Lever individuele, just-in-time klantenervaringen over schermen.
 solution: Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
+source-git-commit: faf65f9cd457982baea0a94275a441cd8b5c0b3a
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Multi-channel Message Orchestration
+# Klantenreizen
 
-Multi-channel Message Orchestration laat zien hoe merken proactief met hun klanten kunnen communiceren via kanalen zoals e-mail, SMS en mobiele waarschuwingen.
-
-Orchestration tools kunnen met andere interactiekanalen (zoals met binnenkomende kanalen) voor web en mobiele personalisatie integreren door de publieksstatus te delen met de besluitvormingsengines van de andere kanalen. Diverse factoren helpen bepalen welke toepassingen en plaatsingsopties te gebruiken, zoals of de klanteninteractie op trekker-gebaseerd of gepland is, welke gegevens voor het richten en verpersoonlijking, etc. noodzakelijk zijn. Deze factoren resulteren in diverse mogelijke scenario&#39;s en plaatsingsopties wanneer het opbouwen van het vermogen van de berichtorganisatie.
-
+De Reizen van de klant verhelpen de capaciteit voor merken om proactief met hun klanten door kanalen zoals e-mail, SMS, en mobiele alarm in gesprek te gaan en te communiceren. Orchestration-gereedschappen kunnen ook worden geïntegreerd met andere interactiekanalen, zoals met binnenkomende kanalen voor web/mobiele personalisatie, door de status van het publiek te delen met de andere kanaal-specifieke beslissingsengines. Een aantal factoren gaat in welke toepassingen en plaatsingsopties voor de Reizen van de Klant zouden moeten worden gebruikt maar het kan in twee verschillende benaderingen worden samengevat:  reageren op een klant wanneer deze zich engageren (geactiveerd) OF reageren op een groep klanten terwijl deze zich engageren (gepland).
 
 | Blauwdruk | Beschrijving | Experience Cloud-toepassingen |
 |---|---|---|
