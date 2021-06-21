@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 6c4b72159d4ba2a171215678e4e4842956d82745
+source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 0%
@@ -126,7 +126,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/batch-messaging.html?lang=en">Batchberichten</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Batchberichten</a>
           </li>
         </ul>
       </td>
@@ -146,7 +146,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/batch-messaging.html?lang=en">Batchberichten</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Batchberichten</a>
           </li>
         </ul>
       </td>
@@ -198,7 +198,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html?lang=en">Gekoppeld bericht</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/triggered-messaging.html?lang=en">Gekoppeld bericht</a>
           </li>
         </ul>
       </td>
