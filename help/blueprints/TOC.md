@@ -4,7 +4,7 @@ breadcrumb-title: 'Blauwdrukken '
 user-guide-description: De blauwdrukken zijn herhaalbare implementaties om gevestigde bedrijfsproblemen aan te pakken en architectuurdiagrammen, technische overwegingen, en relevante documentatiekoppelingen te bevatten.
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-source-git-commit: 70b3bf294741888c3d109a2d4ef710d428800abf
+source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -37,10 +37,10 @@ ht-degree: 0%
    + [Overzicht](/help/blueprints/data-insights/overview.md)
    + [Gegevensanalyse en -informatie](/help/blueprints/data-insights/analysis.md)
    + [Aangepaste gegevenswetenschap voor profielverrijking](/help/blueprints/data-insights/data-science.md)
-+ Meerkanaals BerichtOrchestratie{#multi-channel-message-orchestration}
-   + [Overzicht](/help/blueprints/multi-channel-message-orchestration/overview.md)
-   + [Batchberichten en -Experience Platform](/help/blueprints/multi-channel-message-orchestration/batch-messaging.md)
-   + [Gedragsactiveerd overseinen en Experience Platform](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
++ Meerkanaals BerichtOrchestratie{#customer-journeys}
+   + [Overzicht](/help/blueprints/customer-journeys/overview.md)
+   + [Batchberichten en -Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
+   + [Gedragsactiveerd overseinen en Experience Platform](/help/blueprints/customer-journeys/triggered-messaging.md)
 + Web en mobiele personalisatie{#web-personalization}
    + [Overzicht](/help/blueprints/web-personalization/overview.md)
    + [Gedragingen aanpassen](/help/blueprints/web-personalization/behavioral.md)
