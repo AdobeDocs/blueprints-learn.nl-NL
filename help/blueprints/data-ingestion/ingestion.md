@@ -5,8 +5,7 @@ solution: Experience Platform,Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
-translation-type: tm+mt
-source-git-commit: 53914ce36ef0e48734c04818fbf8a5285fbb14ab
+source-git-commit: 45e47c3ac88a67069485952aaa57741820c37143
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -21,7 +20,7 @@ De voorbereiding van gegevens omvat de afbeelding van brongegevens aan het schem
 
 ## Architectuur
 
-<img src="assets/data_ingestion.svg" alt="Referentiearchitectuur voor de blauwdruk voor gegevensvoorbereiding en insluiting" style="border:1px solid #4a4a4a" />
+<img src="assets/data_ingestion.png" alt="Referentiearchitectuur voor de blauwdruk voor gegevensvoorbereiding en insluiting" style="border:1px solid #4a4a4a" />
 
 ## Methoden voor gegevensinname
 
