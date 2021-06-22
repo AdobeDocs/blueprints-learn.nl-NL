@@ -5,10 +5,9 @@ solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-translation-type: tm+mt
-source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
+source-git-commit: 45e47c3ac88a67069485952aaa57741820c37143
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,7 +33,7 @@ Veelvoorkomende analyses zijn:
 
 ### Guardrail Diagram
 
-<img src="assets/cja_guardrails.svg" alt="Guardrail-diagram voor de Customer Journey Analytics-blauwdrukken" style="border:1px solid #4a4a4a" />
+<img src="assets/cja_guardrails.png" alt="Guardrail-diagram voor de Customer Journey Analytics-blauwdrukken" style="border:1px solid #4a4a4a" />
 
 
 ## Verwante blogberichten
