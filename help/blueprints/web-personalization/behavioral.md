@@ -4,7 +4,6 @@ description: Persoonlijk maken op basis van online gedrag en publieksgegevens.
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-translation-type: tm+mt
 source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
 workflow-type: tm+mt
 source-wordcount: '532'
