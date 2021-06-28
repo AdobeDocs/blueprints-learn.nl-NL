@@ -4,9 +4,9 @@ description: Synchroniseer webpersonalisatie met e-mail en andere bekende en ano
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
+source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen wor
 
 ### 1. Platform Web/Mobile SDK en Edge Approach
 
-<img src="assets/web_sdk_flow.svg" alt="Referentiearchitectuur voor de [!UICONTROL Platform Web SDK] of [!UICONTROL Platform Mobile SDK] en de [!UICONTROL Edge Network]-aanpak" style="border:1px solid #4a4a4a" />
+[Verwijs naar het Web van het Experience Platform en Mobiele SDK Blauwdruk](../data-ingestion/websdk.md)
 
 ### 2. Toepassingsspecifieke SDK-benadering
 
