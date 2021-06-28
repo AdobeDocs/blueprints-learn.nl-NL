@@ -5,7 +5,7 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 8cdb08ae29b766adf16877919af82d0691768576
+source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
@@ -31,13 +31,13 @@ Met een kanaal-eerste benadering, handelt elk kanaal als silo waarin de verperso
 
 In de onderstaande afbeelding worden de kernonderdelen van het realtime klantprofiel van het Experience Platform beschreven.
 
+<img src="assets/profile_architecture.jpg" alt="Referentiearchitectuur voor het Real-time Klantprofiel" style="border:1px solid #4a4a4a" width="90%"/>
+
 De eerste gegevensbronnen worden opgenomen in Experience Platform. Als de gegevensbron voor profielverwerking wordt gevormd zal het in het Profiel van de Klant in real time voeren. Er wordt één profielfragment of document gemaakt voor elke gegevensbron en elke primaire id-record die voor elke gegevensbron is geconfigureerd. Aangezien gegevens aan het profiel worden toegevoegd, worden deze ook verwerkt door de identiteitsservice. Om het even welk verslag van de gegevensbronnen die meer dan één identiteit duidelijk in het schema en met de overeenkomstige waarden hebben die in het verslag worden bevolkt zal als identiteitsverhouding binnen de identiteitsdienst worden verwerkt.
 
 Merk op dat de verslagen die slechts één identiteit hebben niet door de identiteitsdienst worden verwerkt aangezien dergelijke verslagen geen identiteitsverbindingen hebben om de grafiek met verder te bevolken. De identiteitsdienst maakt geen onderscheid tussen primaire identiteiten en secundaire identiteiten. Het is gewoon het verwerken van identiteitsrelaties tussen identiteiten.
 
 Het samenvoegen van profielfragmenten gebeurt als de identiteitsgrafiek de relaties tussen de verschillende bronprofielfragmenten biedt die verwant zijn. Het samenvoegbeleid bepaalt welke bronfragmenten en welke identiteitsgrafiek wordt gebruikt als de fragmenten worden samengevoegd. Telkens wanneer het profiel wordt geopend, wordt de samenvoeging van de profielfragmenten uitgevoerd om ervoor te zorgen dat de meest recente gecombineerde weergave van het profiel is. Regels voor bestuur en beleid zorgen ervoor dat alleen de toegestane segmenten en kenmerken kunnen worden geactiveerd voor de opgegeven doelen.
-
-<img src="assets/profile_architecture.jpg" alt="Referentiearchitectuur voor het Real-time Klantprofiel" style="border:1px solid #4a4a4a" />
 
 
 ## Instructies voor doelgroep en activering van profiel
