@@ -4,9 +4,9 @@ description: Persoonlijk maken op basis van online gedrag en publieksgegevens.
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
+source-git-commit: 848f1366f3dd2d7948a31cfc606e906ec7f74fbb
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen wor
 
 ### 1. Platform Web/Mobile SDK en Edge Approach
 
-<img src="assets/web_sdk_flow.svg" alt="Referentiearchitectuur voor de [!UICONTROL Platform Web SDK] of [!UICONTROL Platform Mobile SDK] en de [!UICONTROL Edge Network]-aanpak" style="border:1px solid #4a4a4a" />
+[Verwijs naar het Web van het Experience Platform en Mobiele SDK Blauwdruk](../data-ingestion/websdk.md)
 
 ### 2. Toepassingsspecifieke SDK-benadering
 
