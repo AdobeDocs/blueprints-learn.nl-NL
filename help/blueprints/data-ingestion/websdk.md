@@ -1,18 +1,18 @@
 ---
-title: Voorbereiding van gegevens en vervagingsblauwdruk
+title: Web/Mobile SDK-gegevensverzameling, blauwdruk
 description: Deze blauwdruk toont de architectuur en de opname door het Web van het Experience Platform en Mobiele SDK
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: null
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+source-git-commit: f6f25c1b650445c5c3686de80c80334aacc17db5
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
 
-# Experience Platform WebSDK-gegevensverzameling
+# Experience Platform Web/Mobile SDK-gegevensverzameling
 
 Het onderstaande architectuurdiagram illustreert de integratiewegen en de gegevensinzameling die het Experience Platform WebSDK gebruiken.
 
@@ -20,4 +20,4 @@ Het onderstaande architectuurdiagram illustreert de integratiewegen en de gegeve
 
 ## Referentiedocumentatie
 
-[Experience Platform WebSDK - Overzicht](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
+[Overzicht van Web/Mobile SDK van Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
