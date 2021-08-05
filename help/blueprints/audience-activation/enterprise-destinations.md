@@ -1,17 +1,17 @@
 ---
-title: Activering van publiek en profiel naar Enterprise-doelen - blauwdruk
+title: Activering van publiek en profiel naar streaming doelen voor bestanden en bedrijven, blauwdruk van afdrukken
 description: Activering van publiek en profiel naar Enterprise-doelen
 solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
-source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
+source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
 
-# Activering van publiek en profiel naar Enterprise-doelen - blauwdruk
+# Activering van publiek en profiel naar streaming doelen voor bestanden en bedrijven, blauwdruk van afdrukken
 
 Deel profiel- en publiekswijzigingen en -gebeurtenissen in streaming of batch van [!UICONTROL Real-time Customer Data Platform] naar bedrijfsgegevenswinkels en -toepassingen. Deze profiel- en publieksgebeurtenissen kunnen worden gebruikt om een verkoop- of ondersteuningsactie aan de klant te initiëren, zoals het volgen van een afgebroken toepassingsproces of webinar-registratie, of om bedrijfstoepassingen bij te werken met de nieuwste klantkenmerken en intelligentie van [!UICONTROL Real-time Customer Data Platform].
 
