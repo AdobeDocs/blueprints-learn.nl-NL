@@ -4,9 +4,9 @@ description: Synchroniseer webpersonalisatie met e-mail en andere bekende en ano
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 3e3077c2a5f6dd67ccc4645ad2340efcbb4f4137
+source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen wor
 Identiteitsvoorwaarden
 
 * Voor het delen van het publiek van Adobe Experience Platform naar Adobe Target moet ECID als identiteit worden gebruikt.
-* Alternatieve identiteiten kunnen worden gebruikt om het publiek van het Experience Platform aan Adobe Target via Audience Manager te delen, aangezien de Audience Manager de afwisselende ID&#39;s aan een ECID kan oplossen zolang zowel ECID als de afwisselende identiteitskaart ook aan Audience Manager wordt verzameld. Merk op dat Audience Manager en Doel publiekslidmaatschappen via de identiteit van ECID oplossen, zodat ECID nog voor het definitieve publiek die aan Adobe Target deelt wordt vereist.
+* Alternatieve identiteiten kunnen worden gebruikt om het publiek van het Experience Platform aan Adobe Target via Audience Manager te delen, aangezien de Audience Manager afwisselende IDs aan ECID kan oplossen zolang zowel ECID als afwisselende identiteitskaart ook aan Audience Manager wordt verzameld en de zelfde identiteitsnaamruimte in zowel Audience Manager als Experience Platform gebruikt. Merk op dat Audience Manager en Doel publiekslidmaatschappen via de identiteit van ECID oplossen, zodat ECID nog voor het definitieve publiek die aan Adobe Target deelt wordt vereist.
 
 | Toepassing/service | Vereiste bibliotheek | Notities |
 |---|---|---|
