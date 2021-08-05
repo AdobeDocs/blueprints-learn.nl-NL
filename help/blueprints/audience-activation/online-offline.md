@@ -1,23 +1,23 @@
 ---
-title: Online/offline Audience Activation vervagen
+title: Activering met blauwdruk van online en offline gegevens
 description: Online/offline Audience Activation.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
+source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
 
-# Online/offline Audience Activation vervagen
+# Activering met blauwdruk van online en offline gegevens
 
 Gebruik offlinekenmerken en -gebeurtenissen zoals offline bestellingen, transacties, CRM of loyaliteitsgegevens, samen met onlinegedrag voor het online aanwijzen en personaliseren.
 
 Activeer het publiek naar bekende, op profielen gebaseerde bestemmingen, zoals e-mailproviders, sociale netwerken en advertentiebestemmingen.
 
-De Audience Activation blauwdruk voor online/offline wordt nauwkeurig uitgelijnd met [Audience and Profile Activation with Experience Cloud Applications Blueprint](platform-and-applications.md). Extra detail wordt verstrekt in [de Activering van het publiek en van het Profiel met de Blauwdruk van de Toepassingen van de Experience Cloud](platform-and-applications.md)   specifiek voor de integratie tussen Experience Platform- en Experience Cloud-toepassingen.
+De activering met online en off-line gegevensblauwdruk richt zich dicht op [de Activering van het Publiek en van het Profiel met de Vervaging van de Toepassingen van de Experience Cloud met](platform-and-applications.md). Extra detail wordt verstrekt in [de Activering van het publiek en van het Profiel met de Blauwdruk van de Toepassingen van de Experience Cloud](platform-and-applications.md)   specifiek voor de integratie tussen Experience Platform- en Experience Cloud-toepassingen.
 
 ## Gevallen gebruiken
 
@@ -32,7 +32,7 @@ De Audience Activation blauwdruk voor online/offline wordt nauwkeurig uitgelijnd
 
 ## Architectuur
 
-### Online/offline Audience Activation met doelen
+### Activering met online en offline gegevens met doelen
 
 <img src="assets/online_offline_activation.svg" alt="Referentiearchitectuur voor de blauwdruk voor online/offline Audience Activation" style="border:1px solid #4a4a4a" />
 <br>
