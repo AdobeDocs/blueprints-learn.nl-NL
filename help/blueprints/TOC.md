@@ -4,9 +4,9 @@ breadcrumb-title: 'Blauwdrukken '
 user-guide-description: De blauwdrukken zijn herhaalbare implementaties om gevestigde bedrijfsproblemen aan te pakken en architectuurdiagrammen, technische overwegingen, en relevante documentatiekoppelingen te bevatten.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: c5fd3f33d48d830b5e5058b919e814e7f84ace81
+source-git-commit: 606b209693213c3eb7875cb9eda67f989489114b
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 0%
 + Activering publiek en profiel{#audience-activation}
    + [Overzicht](/help/blueprints/audience-activation/overview.md)
    + [Anoniem Audience Activation](/help/blueprints/audience-activation/anonymous.md)
-   + [Online/offline Audience Activation](/help/blueprints/audience-activation/online-offline.md)
-   + [Activering naar zakelijke doelen](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + [Activering met online en offline gegevens](/help/blueprints/audience-activation/online-offline.md)
+   + [Bestands- en Enterprise-streaming doelen](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Activering met Experience Cloud-toepassingen](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Hub voor klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics{#customer-journey-analytics}
