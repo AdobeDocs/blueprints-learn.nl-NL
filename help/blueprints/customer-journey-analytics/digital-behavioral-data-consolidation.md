@@ -6,7 +6,7 @@ kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 source-git-commit: 2cf3445775b2db827938d2927214a4073da20cdb
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,8 @@ Eén geconsolideerde weergave van het gedrag van klanten op verschillende kanale
 
 1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) schema&#39;s voor gegevens die moeten worden ingevoerd.
 1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) gegevenssets voor gegevens die moeten worden ingevoerd.
-1. [Gegevens ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in Experience Platform opnemen.
-De gegevens moeten in Platform worden opgenomen alvorens tot Customer Journey Analytics te verwerken.
+1. Gegevens opnemen[Gegevenszelfstudie opnemen](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in Experience Platform.
+De gegevens moeten in Platform worden opgenomen alvorens tot Customer Journey Analytics te verwerken. Zie de volgende documentatie voor meer informatie over gegevensinvoer en de typen gegevensbronnen. [Gegevensbronnen ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en) inclusief de  [gegevensconnector Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en)
 1. Analyseer de gegevenssets voor kanaaloverschrijdende gebeurtenissen die worden geanalyseerd om er zeker van te zijn dat deze een gemeenschappelijke naamruimte-id hebben of opnieuw worden weergegeven via de op velden gebaseerde stitching-mogelijkheid van Customer Journey Analytics. Raadpleeg de documentatie van de kanaalanalyse voor meer informatie over identiteitsstitching in Customer Journey Analytics. [Identiteitskoppeling](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en)
 
    >[!NOTE]
