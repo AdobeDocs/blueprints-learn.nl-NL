@@ -1,7 +1,7 @@
 ---
 title: Gebruik van gevallen van Digital Experience Blueprints
 description: Digitale Ervaring blauwdrukken zijn herhaalbare implementaties om strategie aan te pakken en gevestigde bedrijfsproblemen op te lossen. Ze versnellen tijd tot waarde en bieden een snelle weg naar succes.
-source-git-commit: 988861c95a9f138acd8c6107e6c08b7e05e4e537
+source-git-commit: 3a923b26f91b9d40969a182bdd5271f40fb9a1d0
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -23,10 +23,10 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
  <tr>
   <td>Anonieme digitale doelwitten maken en
   personalisatie.</td>
-  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
+  <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">Anoniem
   Audience Activation</a></td>
-  <td rowspan="9" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Publiek
+  <td rowspan="9" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Publiek
   en profiel activeren</td>
  </tr>
  <tr>
@@ -35,7 +35,7 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
  <tr>
   <td>Publiek dat zich richt op bekende doelgroepen op sociale en reclame
   bestemmingen.</td>
-  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
+  <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online/offline
   Audience Activation</a></td>
  </tr>
@@ -49,14 +49,14 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
   <td>Profiel- en publieksactivering naar cloudopslagbestemmingen;
   of streamingdoelen voor het bijhouden, opslaan, analyseren en
   activering van klantgegevens en inzichten.</td>
-  <td><a
+  <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/enterprise-destinations.html?lang=en">Activering
   naar Enterprise-doelen</a></td>
  </tr>
  <tr>
   <td>Personaliseer en doel over de kanalen van de klanteninteractie
   aangedreven door Experience Cloud.</td>
-  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
+  <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activering
   met Experience Cloud-toepassingen</a></td>
  </tr>
@@ -71,7 +71,7 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
   recente aankopen, campagnewisselingen, eigendommen en het lidmaatschap van het publiek;
   en andere attributen en inzichten die in de klant in real time worden opgeslagen
   profiel.</td>
-  <td><a
+  <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/customer-activity.html?lang=en">Klant
   Activiteitenhub</a></td>
  </tr>
@@ -79,10 +79,10 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
   <td>De interactie van klanten op verschillende desktops en mobiele apparaten analyseren tot
   het gedrag van klanten begrijpen en inzichten ophalen om digitaal te optimaliseren
   klantervaringen.</td>
-  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
+  <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=en">Kruisje
   Kanaal</a></td>
-  <td rowspan="4" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Klant
+  <td rowspan="4" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Klant
   Reisanalyse</td>
  </tr>
  <tr>
@@ -92,7 +92,7 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
  </tr>
  <tr>
   <td>Analyseer het gedrag van klanten voordat klanten contact opnemen met de ondersteuningsafdeling.</td>
-  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
+  <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/call-deflect.html?lang=en">Bellen
   Vervorming</a></td>
  </tr>
@@ -101,10 +101,10 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
  </tr>
  <tr>
   <td>Geplande e-mailcampagnes.</td>
-  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
+  <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Batch
   Berichten en Platform</a></td>
-  <td rowspan="6" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Klant
+  <td rowspan="6" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Klant
   Reizen</td>
  </tr>
  <tr>
@@ -112,7 +112,7 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
  </tr>
  <tr>
   <td>Berichten geactiveerd.</td>
-  <td rowspan="4" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
+  <td rowspan="4" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en">Reis
   Optimaliseren</a></td>
  </tr>
@@ -127,17 +127,17 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
  </tr>
  <tr>
   <td></td>
-  <td><a
+  <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/ingestion.html?lang=en">Gegevens
   Prep en insluiting</a></td>
-  <td rowspan="4" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Gegevens
+  <td rowspan="4" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Gegevens
   Verzameling en voorbereiding</td>
  </tr>
  <tr>
   <td>Gegevens verzamelen van internet of mobiele apparaten met behulp van één verzamelingstag,
   het gewicht van de lichtende code op cliëntbrowsers en apps. De verzamelde gegevens doorgeven
   gegevens aan diverse eindpunten voor één enkele bron van gegevensinzameling.</td>
-  <td rowspan="2" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
+  <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/server-side-collection.html?lang=en">AEP
   Collection Enterprise (Event Forwarding)</a></td>
  </tr>
@@ -147,16 +147,16 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
  </tr>
  <tr>
   <td></td>
-  <td><a
+  <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=en">Web SDK
   Gegevensverzameling</a></td>
  </tr>
  <tr>
   <td>Interactieve query en aggregatie van gegevens.</td>
-  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
+  <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/analysis.html?lang=en">Gegevens
   Analyse en intelligentie</a></td>
-  <td rowspan="6" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Gegevens
+  <td rowspan="6" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Gegevens
   Analyse, intelligentie en ML</td>
  </tr>
  <tr>
@@ -170,7 +170,7 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
  <tr>
   <td>Verkrijg inzicht en ontdek patronen van klantengegevens in
   Experience Platform. Train- en scoremodellen van deze gegevens.</td>
-  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
+  <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/data-science.html?lang=en">Klant
   Gegevenswetenschap voor profielverrijking</a></td>
  </tr>
@@ -185,10 +185,10 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
  </tr>
  <tr>
   <td>Optimalisatie landingspagina.</td>
-  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
+  <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=en">Gedrag
   Personalisatie</a></td>
-  <td rowspan="6" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Web
+  <td rowspan="6" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Web
   &amp; Mobiele personalisatie</td>
  </tr>
  <tr>
@@ -201,7 +201,7 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
  </tr>
  <tr>
   <td>Optimalisatie landingspagina.</td>
-  <td rowspan="3" border="1" valign="middle" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
+  <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
   href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=en">Online/offline
   Personalisatie</a></td>
  </tr>
