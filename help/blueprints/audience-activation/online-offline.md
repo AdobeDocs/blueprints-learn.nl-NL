@@ -4,9 +4,9 @@ description: Online/offline Audience Activation.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 0a1cd20e267136df305bba0b740ab57a450cb953
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ De activering met online en off-line gegevensblauwdruk richt zich dicht op [de A
 
 ## Implementatiestappen
 
-1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) schema&#39;s voor gegevens die moeten worden ingevoerd.
+1. [Maak ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) schema&#39;s voor gegevens die moeten worden ingevoerd.
 1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) gegevenssets voor gegevens die moeten worden ingevoerd.
 1. [Vorm de correcte identiteiten en de identiteit ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html) namespacesop het schema om ervoor te zorgen dat de ingebedde gegevens in een verenigd profiel kunnen vastmaken.
 1. [Laat de schema&#39;s en datasets voor profiel](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html) toe.

@@ -4,9 +4,9 @@ description: Voer teweeggebrachte berichten en ervaringen uit gebruikend Adobe E
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: dc13a1fe9a32f70497c5c73485618e6989b7a644
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Adobe Journey Optimizer is een speciaal gebouwd systeem voor marketingteams om i
 
 * De klant moet over een mobiele ontwikkelaar beschikken om de app te maken
 * Adobe Experience Platform Mobile SDK
-* Adobe starten
-   * Mobiele eigenschap
+* Gegevensverzameling
+   * Eigenschap voor mobiele tags
       * Extensies:
          * Adobe Journey Optimizer-extensie
          * Adobe Experience Platform Edge Network
@@ -73,7 +73,7 @@ Adobe Journey Optimizer is een speciaal gebouwd systeem voor marketingteams om i
 
 #### Schema/gegevensset
 
-1. [Vorm individueel profiel, ervaringsgebeurtenis, en multi-entiteitsschema&#39;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) s in Experience Platform, die op klant-geleverde gegevens wordt gebaseerd.
+1. [Vorm individueel profiel, ervaringsgebeurtenis, en multi-entiteitsschema&#39;](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) s in Experience Platform, die op klant-geleverde gegevens wordt gebaseerd.
 1. Maak Adobe Campaign-schema&#39;s voor wideLog, trackingLog, niet-te leveren adressen en profielvoorkeuren (optioneel).
 1. [Creeer ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) datasetsin Experience Platform voor gegevens die moeten worden opgenomen.
 1. [Voeg ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) labels voor gegevensgebruik in Experience Platform toe aan de dataset voor bestuur.

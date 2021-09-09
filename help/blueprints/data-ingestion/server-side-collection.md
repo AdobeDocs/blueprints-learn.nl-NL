@@ -4,16 +4,16 @@ description: Verzamelde gegevens door Experience Platform-SDK's streamen naar do
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 3bcb5d798986e563fda6f40fc730ff62b74b3187
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
 
 # Blauwdruk voor gegevensverzameling op de server
 
-De Vervaging van de Verzameling van Gegevens van de Onderneming van de server toont hoe de gegevens die met het Web van Adobe Experience Platform en Mobiele SDKs worden verzameld van het Netwerk van de Rand van het Experience Platform aan een gewenste bestemming kunnen door:sturen. U kunt alle ruwe gegevens doorsturen die van SDKs of specifieke gegevens worden verzameld die op gebeurtenissen en regels zoals die in Experience Platform Launch worden gevormd worden gebaseerd.
+De Vervaging van de Verzameling van Gegevens van de Onderneming van de server toont hoe de gegevens die met het Web van Adobe Experience Platform en Mobiele SDKs worden verzameld van het Netwerk van de Rand van het Experience Platform aan een gewenste bestemming kunnen door:sturen. U kunt alle onbewerkte gegevens die zijn verzameld van de SDK&#39;s doorsturen, of specifieke gegevens die zijn gebaseerd op gebeurtenissen en regels die zijn geconfigureerd in de eigenschappen van tags (voorheen Starten).
 
 ## Gevallen gebruiken
 
@@ -30,8 +30,8 @@ De Vervaging van de Verzameling van Gegevens van de Onderneming van de server to
 
 ## Verwante documentatie
 
-[Experience Platform Launch Server Side ](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=en#server-side-info)
-[documentationExperience Platform launch Server Side videos](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html)
+* [Documentatie voor doorsturen van gebeurtenissen](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)
+* [Video&#39;s over het doorsturen van gebeurtenissen](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html)
 
 ## Verwante blogberichten
 

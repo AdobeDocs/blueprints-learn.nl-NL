@@ -4,9 +4,9 @@ description: '[!UICONTROL In real time ] Profilelookups van de Klant om context 
 solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 8b055d87a9c55b640bd35e54325977526ce21d94
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Met dit vermogen, kon u rijke context oppervlakte wanneer een klant uw vraagcent
 
 ## Implementatiestappen
 
-1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) schema&#39;s voor gegevens die moeten worden ingevoerd.
+1. [Maak ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) schema&#39;s voor gegevens die moeten worden ingevoerd.
 1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) gegevenssets voor gegevens die moeten worden ingevoerd.
 1. [Vorm de correcte identiteiten en de identiteit ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html) namespacesop het schema om ervoor te zorgen dat de ingebedde gegevens in een verenigd profiel kunnen vastmaken.
 1. [Laat de schema&#39;s en datasets voor profiel](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html) toe.

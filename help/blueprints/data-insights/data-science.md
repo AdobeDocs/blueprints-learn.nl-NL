@@ -4,9 +4,9 @@ description: Deze blauwdruk laat zien hoe de Werkruimte van de Wetenschap van Ge
 solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
+source-git-commit: c26bf7523dc9b3310678a4129ea10ad06ef5e7cb
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,15 @@ De Wetenschap van de Gegevens van de douane voor de Blauwdruk van de Verrijking 
 
 ## Implementatiestappen
 
-1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) schema&#39;s voor gegevens die moeten worden ingevoerd.
+1. [Maak ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) schema&#39;s voor gegevens die moeten worden ingevoerd.
 1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) gegevenssets voor gegevens die moeten worden ingevoerd.
 1. [Gegevens ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in Experience Platform opnemen.
-1. Maak een DSW-laptop.
+1. [Maak een DSW-laptop](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=en).
 1. Kies een taal. Python en PySpark worden ondersteund.
-1. Auteurmodel in laptop.
-1. Teken het model.
-1. Score het model om voorspellingen met de doelgegevens te produceren.
-1. Schakel de gegevensset met modelresultaten voor het profiel in als u het model doorduwt naar het [!UICONTROL Real-time profiel van de klant].
+1. [Auteur ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=en) modelleert in laptop.
+1. [Trein het model](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en).
+1. [Score het ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en) model om voorspellingen met de doelgegevens te produceren.
+1. [Schakel de gegevensset met modelresultaten voor het profiel in als u het model naar het  [!UICONTROL realtime klantprofiel]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=en) verplaatst.
 
 ## Verwante documentatie
 

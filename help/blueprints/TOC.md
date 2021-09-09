@@ -4,9 +4,9 @@ breadcrumb-title: 'Blauwdrukken '
 user-guide-description: De blauwdrukken zijn herhaalbare implementaties om gevestigde bedrijfsproblemen aan te pakken en architectuurdiagrammen, technische overwegingen, en relevante documentatiekoppelingen te bevatten.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: 7c958db2f2bb9cac4d15420d824de0f9722a8135
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
    + [Overzicht](/help/blueprints/data-ingestion/overview.md)
    + [Voorbereiding en inname van gegevens](/help/blueprints/data-ingestion/ingestion.md)
    + [Gegevensverzameling op de server](/help/blueprints/data-ingestion/server-side-collection.md)
-   + [Experience Platform WebSDK](/help/blueprints/data-ingestion/websdk.md)
+   + [Experience Platform Web SDK](/help/blueprints/data-ingestion/websdk.md)
 + Gegevensanalyse, intelligentie en AI/ML{#data-exploration}
    + [Overzicht](/help/blueprints/data-insights/overview.md)
    + [Gegevensanalyse en -informatie](/help/blueprints/data-insights/analysis.md)
