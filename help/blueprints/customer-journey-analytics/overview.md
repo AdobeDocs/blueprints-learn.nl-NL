@@ -5,9 +5,9 @@ solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: 724d4c1016bbbdc7431df159af052f587288d2bf
+source-git-commit: ec32344078e8bad9639d8d11ce93ed68fda186f3
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,12 @@ Veelvoorkomende analyses zijn:
 
 | Blauwdruk | Beschrijving | Experience Cloud-toepassingen |
 |---|---|---|
-| **[Reisanalyse Kanaal](digital-behavioral-data-consolidation.md)** | <ul><li>Eén geconsolideerde weergave van het gedrag van klanten op verschillende kanalen hebben door gegevens van verschillende web-, mobiele en offline eigenschappen te verenigen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optioneel)</li></ul> |
-| **[De Analyse van de Vervorming van de vraag](call-deflect.md)** | <ul><li>Bepaal welk gedrag het meest indicatief in het resulteren in agent begeleide vraag door de gegevens van het Centrum van de Vraag samen met Web, mobiele, en andere interactiegegevens te brengen is.</li><li>Deze inzichten kunnen dan worden gebruikt om de klantenervaring te optimaliseren en de weg aan agent bijgewoonde interactie door geoptimaliseerde zelf-dienst inhoud en hulpmiddelen te verminderen.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+| **[Reisanalyse Kanaal](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html)** | <ul><li>Eén geconsolideerde weergave van het gedrag van klanten op verschillende kanalen hebben door gegevens van verschillende web-, mobiele en offline eigenschappen te verenigen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optioneel)</li></ul> |
+| **[De Analyse van de Vervorming van de vraag](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html)** | <ul><li>Bepaal welk gedrag het meest indicatief in het resulteren in agent begeleide vraag door de gegevens van het Centrum van de Vraag samen met Web, mobiele, en andere interactiegegevens te brengen is.</li><li>Deze inzichten kunnen dan worden gebruikt om de klantenervaring te optimaliseren en de weg aan agent bijgewoonde interactie door geoptimaliseerde zelf-dienst inhoud en hulpmiddelen te verminderen.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
-## Guardrails voor Customer Journey Analytics blauwdrukken
+## Guardrail-diagram voor Customer Journey Analytics blauwdrukken
 
-### Guardrail Diagram
-
-<img src="assets/cja_guardrails.png" alt="Guardrail-diagram voor de Customer Journey Analytics-blauwdrukken" style="border:1px solid #4a4a4a" />
-
+![Guardraildiagram](assets/cja_guardrails.png)
 
 ## Verwante blogberichten
 

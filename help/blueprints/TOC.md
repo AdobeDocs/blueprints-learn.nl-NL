@@ -4,9 +4,9 @@ breadcrumb-title: 'Blauwdrukken '
 user-guide-description: De blauwdrukken zijn herhaalbare implementaties om gevestigde bedrijfsproblemen aan te pakken en architectuurdiagrammen, technische overwegingen, en relevante documentatiekoppelingen te bevatten.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
+source-git-commit: ec32344078e8bad9639d8d11ce93ed68fda186f3
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 0%
    + [Hub voor klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [Overzicht](/help/blueprints/customer-journey-analytics/overview.md)
-   + [Reisanalyse Kanaal](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
-   + [Beleidsbepaling](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + Klantenreizen{#customer-journeys}
    + [Overzicht](/help/blueprints/customer-journeys/overview.md)
    + [Batchberichten en -Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
