@@ -4,8 +4,8 @@ description: Deze blauwdruk toont alle methodes waardoor de gegevens in Adobe Ex
 solution: Experience Platform,Data Collection
 kt: 7204
 thumbnail: null
-exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
+source-git-commit: 761b60e15c518aec2e295be0a45275bafe59479e
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
