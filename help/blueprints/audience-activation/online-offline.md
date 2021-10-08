@@ -4,9 +4,9 @@ description: Online/offline Audience Activation.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
+source-git-commit: e4e4838813d68ed3dc209c71354a86c1af264f1a
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ De activering met online en off-line gegevensblauwdruk richt zich dicht op [de A
 ## Toepassingen
 
 * Adobe Experience Platform
-* [!UICONTROL Real-time Platform voor klantgegevens]
+* [!UICONTROL Real-time Customer Data Platform]
 
 ## Architectuur
 
@@ -56,7 +56,7 @@ De activering met online en off-line gegevensblauwdruk richt zich dicht op [de A
 
 * Wanneer u profielgegevens deelt met bestemmingen, moet u de specifieke identiteitswaarde opnemen die door de bestemming wordt gebruikt in de doellading. Om het even welke identiteit die voor een doelbestemming noodzakelijk is moet in Platform worden opgenomen en als identiteit voor [!UICONTROL Real-time Profiel van de Klant worden gevormd ].
 
-* Voor activeringsscenario&#39;s waarin het publiek van Experience Platform tot Audience Manager wordt gedeeld, worden alle identiteiten inbegrepen in [!UICONTROL Real-time Klantprofiel] gedeeld aan Audience Manager. Het publiek van Experience Platform kan via de bestemmingen van de Audience Manager worden gedeeld wanneer de vereiste bestemmingsidentiteiten in [!UICONTROL Real-time het Profiel van de Klant ] worden omvat, of waar de identiteiten in [!UICONTROL Real-time Klantprofiel] met de vereiste bestemmingsidentiteiten kunnen worden verwant die in Audience Manager worden verbonden.
+* Voor activeringsscenario&#39;s waarbij het publiek van Experience Platform tot Audience Manager wordt gedeeld, worden de volgende identiteiten automatisch gedeeld: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Klantnaamruimten worden momenteel niet gedeeld. Het publiek van Experience Platform kan via de bestemmingen van de Audience Manager worden gedeeld wanneer de vereiste bestemmingsidentiteiten in [!UICONTROL Real-time het Profiel van de Klant ] worden omvat, of waar de identiteiten in [!UICONTROL Real-time Klantprofiel] met de vereiste bestemmingsidentiteiten kunnen worden verwant die in Audience Manager worden verbonden.
 
 ## Verwante documentatie
 
@@ -68,5 +68,5 @@ De activering met online en off-line gegevensblauwdruk richt zich dicht op [de A
 ## Verwante video&#39;s en Tutorials
 
 * [[!UICONTROL Real-time ] overzicht van klantgegevens](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
-* [Demo van het Platform van de Gegevens van de Klant in  [!UICONTROL real time]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
+* [Demo van  [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
 * [Segmenten maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
