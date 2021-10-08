@@ -5,9 +5,9 @@ landing-page-description: Synchroniseer webpersonalisatie met e-mail en andere b
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 5e93d3a5a09a3a20418ec7e563b93d22aef3ddc7
+source-git-commit: fd4ca13589f988605bfd7a3bdf64c43cd9acad68
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
 
 ## Toepassingen
 
-* [!UICONTROL Real-time Platform voor klantgegevens]
+* [!UICONTROL Real-time Customer Data Platform]
 * Adobe Target
 * Adobe Audience Manager (optioneel): Hiermee voegt u publieksgegevens van derden, apparaatgrafieken die op meerdere pagina&#39;s zijn gebaseerd, de mogelijkheid om segmenten van Platforms in Adobe Analytics te laten doorlopen en de mogelijkheid om Adobe Analytics-segmenten in het Platform te laten doorlopen toe
 * Adobe Analytics (optioneel): Hiermee kunt u segmenten samenstellen op basis van historische gedragsgegevens en fijnkorrelige segmentatie van Adobe Analytics-gegevens
@@ -57,7 +57,7 @@ De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen wor
 Identiteitsvoorwaarden
 
 * Voor het delen van het publiek van Adobe Experience Platform naar Adobe Target moet ECID als identiteit worden gebruikt.
-* Alternatieve identiteiten kunnen worden gebruikt om het publiek van het Experience Platform aan Adobe Target via Audience Manager te delen, aangezien de Audience Manager afwisselende IDs aan ECID kan oplossen zolang zowel ECID als afwisselende identiteitskaart ook aan Audience Manager wordt verzameld en de zelfde identiteitsnaamruimte in zowel Audience Manager als Experience Platform gebruikt. Merk op dat Audience Manager en Doel publiekslidmaatschappen via de identiteit van ECID oplossen, zodat ECID nog voor het definitieve publiek die aan Adobe Target deelt wordt vereist.
+* Alternatieve identiteiten kunnen ook worden gebruikt om het publiek van het Experience Platform via Audience Manager naar Adobe Target te delen. Experience Platform activeert publiek naar Audience Manager via de volgende ondersteunde naamruimten: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Merk op dat Audience Manager en Doel publiekslidmaatschappen via de identiteit van ECID oplossen, zodat ECID nog voor het definitieve publiek die aan Adobe Target deelt wordt vereist.
 
 | Toepassing/service | Vereiste bibliotheek | Notities |
 |---|---|---|
