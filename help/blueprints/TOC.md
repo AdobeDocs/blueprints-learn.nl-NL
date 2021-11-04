@@ -4,9 +4,9 @@ breadcrumb-title: 'Blauwdrukken '
 user-guide-description: De blauwdrukken zijn herhaalbare implementaties om gevestigde bedrijfsproblemen aan te pakken en architectuurdiagrammen, technische overwegingen, en relevante documentatiekoppelingen te bevatten.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: ec32344078e8bad9639d8d11ce93ed68fda186f3
+source-git-commit: e8a1ba803fd085a8323830c5013c35ad00a1147e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 + [Overzicht](/help/blueprints/overview.md)
 + [Alle gebruikskwesties bekijken](/help/blueprints/use-cases.md)
-+ Architectuuroverzichten{#architecture-overview}
++ Overzicht van architectuur{#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform en toepassingen](/help/blueprints/experience-platform/platform-applications.md)
    + [Gegevensstroom Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
@@ -26,6 +26,9 @@ ht-degree: 0%
    + [Activering voor streaming van bestanden en bedrijven](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Activering met Experience Cloud-toepassingen](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Hub voor klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)
++ B2B-activering en marketing{#b2b-activation}
+   + [Overzicht](/help/blueprints/b2b/overview.md)
+   + [B2B-activering](/help/blueprints/b2b/b2bactivation.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [Overzicht](/help/blueprints/customer-journey-analytics/overview.md)
 + Klantenreizen{#customer-journeys}

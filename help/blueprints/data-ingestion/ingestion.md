@@ -5,7 +5,7 @@ solution: Experience Platform,Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 761b60e15c518aec2e295be0a45275bafe59479e
+source-git-commit: 642143ea2e2a28f66dd7b56a807fa952c2f5b4ac
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -20,7 +20,7 @@ De voorbereiding van gegevens omvat de afbeelding van brongegevens aan het schem
 
 ## Architectuur
 
-<img src="assets/data_ingestion.png" alt="Referentiearchitectuur voor de blauwdruk voor gegevensvoorbereiding en insluiting" style="border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep_data_flow.png" alt="Referentiearchitectuur voor de blauwdruk voor gegevensvoorbereiding en insluiting" style="border:1px solid #4a4a4a" />
 
 ## Gegevensinname Guardraals
 
@@ -36,7 +36,7 @@ In het onderstaande diagram worden de gemiddelde prestatiegaranties en de latent
 | Streaming bronnen | Latentie:<ul><li>In real time - de zelfde paginainzameling aan het Netwerk van de Rand</li><li>Streaming opname naar profiel ~1 minuut</li><li>Streaming opname naar data Lake (microbatch ~15 minuten)</li></ul>[Documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors) |
 | Streaming-API | Latentie:<ul><li>In real time - de zelfde paginainzameling aan het Netwerk van de Rand</li><li>Streaming opname naar profiel ~1 minuut</li><li>Streaming opname naar data Lake (microbatch ~15 minuten)</li><li>7 GB/uur</li></ul>[Documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=en#what-can-you-do-with-streaming-ingestion%3F) |
 | ETL Tooling | Gebruik de hulpmiddelen van ETL om ondernemingsgegevens te wijzigen en om te zetten alvorens in Experience Platform in te gaan.<br><br>Latentie:<ul><li>De timing is afhankelijk van de externe planning van ETL-gereedschappen, en de standaardinstructies voor inname zijn van toepassing op basis van de gebruikte methode voor inname.</li></ul> |
-| Batchbronnen | Gepland ophalen van bronnen<br>Latentie: ~ 200 GB/uur<br><br>[Documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)<br>[Video-Tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html) |
+| Batchbronnen | Gepland ophalen uit bronnen<br>Latentie: ~ 200 GB/uur<br><br>[Documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)<br>[Video-Tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html) |
 | Batch-API | Latentie:<ul><li>Batchopname in profiel afhankelijk van grootte en verkeersbelasting ~45 minuten</li><li>Batchopname in het datumpigment afhankelijk van grootte en verkeersbelasting</li></ul>[Documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=en#batch) |
 | Adobe Application Connectors | Automatisch gegevens opnemen die afkomstig zijn van Adobe Experience Cloud-toepassingen<ul><li>Adobe Analytics: [Documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#connectors) en [Videozelfstudie](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html)</li><li>Audience Manager: [Documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=en#connectors) en [Videozelfstudie](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html)</li></ul> |
 
@@ -45,9 +45,9 @@ In het onderstaande diagram worden de gemiddelde prestatiegaranties en de latent
 
 | Methoden voor het voorbereiden van gegevens | Beschrijving |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Data Science Workspace]  - Data Prep | Transformatie met behulp van model, transformatie met scripts.<br>[Documentatie](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en) |
-| Extern ETL-gereedschap ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica] enzovoort) | Complexe transformaties uitvoeren in ETL-gereedschappen en standaard Experience Platform [!UICONTROL Flow Service] API&#39;s of bronconnectors gebruiken om de resulterende gegevens in te voeren. |
-| [!UICONTROL Query-service]  - Data Prep | Verbindt, Splits, de gegevens van de Fusie, van de Transformatie, van de Vraag, en van de Filter in een nieuwe dataset. Tabel maken als selectie gebruiken (CTAS) <br>[Documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql) |
+| [!UICONTROL Werkruimte voor gegevenswetenschap] - Data Prep | Transformatie met behulp van model, transformatie met scripts.<br>[Documentatie](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en) |
+| Extern ETL-gereedschap ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica], enzovoort) | Complexe transformaties uitvoeren in ETL-gereedschappen en standaard Experience Platform gebruiken [!UICONTROL Flow Service] API&#39;s of bronconnectors om de resulterende gegevens in te voeren. |
+| [!UICONTROL Query-service] - Data Prep | Verbindt, Splits, de gegevens van de Fusie, van de Transformatie, van de Vraag, en van de Filter in een nieuwe dataset. Tabel maken als selectie gebruiken (CTAS) <br>[Documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql) |
 | XDM Mapper- en Data Prep-functies (streaming en batch) | Wijs bronkenmerken in CSV- of JSON-indeling toe aan XDM-kenmerken tijdens het opnemen van Experience Platforms.<br>rekenfuncties op gegevens terwijl deze worden ingevoerd; dat wil zeggen, gegevens opmaken, splitsen, samenvoegen, enzovoort.<br>[Documentatie](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
 
 ## Verwante blogberichten
