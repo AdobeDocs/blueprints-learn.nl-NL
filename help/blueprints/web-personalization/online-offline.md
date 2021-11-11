@@ -5,7 +5,7 @@ landing-page-description: Synchroniseer webpersonalisatie met e-mail en andere b
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: fd4ca13589f988605bfd7a3bdf64c43cd9acad68
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
 
 ## Architectuur
 
-<img src="assets/online_offline_personalization_with_apps.svg" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_personalization_with_apps.svg" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Guardrails
 
@@ -50,7 +50,7 @@ De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen wor
 
 ### 2. Toepassingsspecifieke SDK-benadering
 
-<img src="assets/app_sdk_flow.png" alt="Referentiearchitectuur voor de toepassingsspecifieke SDK-benadering" style="border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.png" alt="Referentiearchitectuur voor de toepassingsspecifieke SDK-benadering" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Implementatievereisten
 
@@ -66,18 +66,18 @@ Identiteitsvoorwaarden
 | Adobe Analytics (optioneel) | [!UICONTROL Platform Web SDK]* of AppMeasurement.js 1.6.4+ | Bij het bijhouden van Adobe Analytics moet gebruik worden gemaakt van regionale gegevensverzameling (Regional Data Collection, RDC). |
 | Experience Cloud ID-service | [!UICONTROL Platform Web SDK]* of VisitorAPI.js 2.0+ | (Aanbevolen) Gebruik Experience Platform Launch om de dienst van identiteitskaart op te stellen om ervoor te zorgen dat identiteitskaart vóór om het even welke toepassingsvraag wordt geplaatst |
 | Experience Platform Mobile SDK (optioneel) | 4.11 of hoger voor iOS en Android™ |  |
-| Experience Platform Web SDK | 1.0, heeft de huidige versie van Experience Platform SDK [verschillende gebruiksgevallen nog niet ondersteund voor de Experience Cloud toepassingen](https://github.com/adobe/alloy/projects/5) |  |
+| Experience Platform Web SDK | 1.0, heeft de huidige versie van Experience Platform SDK [verschillende gebruiksgevallen die nog niet worden ondersteund voor de Experience Cloud-toepassingen](https://github.com/adobe/alloy/projects/5) |  |
 
 
 
 
 ## Implementatiestappen
 
-1. [Adobe-](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) doel implementeren voor uw web- of mobiele toepassingen
-1. [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html)  implementeren (optioneel)
-1. [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)   implementeren (optioneel)
-1. [Experience Platform en  [!UICONTROL Real-time klantprofiel implementeren]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html)
-1. [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) of [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) implementeren
+1. [Adobe Target implementeren](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) voor uw web- of mobiele toepassingen
+1. [Adobe Audience Manager implementeren](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html) (optioneel)
+1. [Adobe Analytics implementeren](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)  (optioneel)
+1. [Experience Platform uitvoeren en [!UICONTROL Klantprofiel in realtime]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html)
+1. Implementeren [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) of [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
    >[!NOTE]
    >
    >Elke toepassing moet de Experience Cloud-id gebruiken en deel uitmaken van dezelfde Experience Cloud-organisatie om het delen van het publiek tussen toepassingen mogelijk te maken.

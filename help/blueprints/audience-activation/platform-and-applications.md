@@ -4,7 +4,7 @@ description: Profielen en publiek in Experience Platform beheren en deze delen m
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: null
-source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Profielen en publiek in Experience Platform beheren en deze delen met Experience Cloud-toepassingen. Bouw en deel rijke klantensegmenten en inzichten in Experience Platform en deel hen met de toepassingen van de Experience Cloud.
 
-Activering met Experience Cloud-toepassingen wordt nauw uitgelijnd met de [Onlineblauwdruk/Offline Audience Activation](online-offline.md).
+Activering met Experience Cloud-toepassingen wordt nauw afgestemd op de [Online/offline Audience Activation vervagen](online-offline.md).
 
 ## Gevallen gebruiken
 
@@ -25,7 +25,7 @@ Activering met Experience Cloud-toepassingen wordt nauw uitgelijnd met de [Onlin
 ## Toepassingen
 
 * Adobe Experience Platform
-* [!UICONTROL Real-time Platform voor klantgegevens]
+* [!UICONTROL Real-time Customer Data Platform]
 * Experience Platform activeren
 * Experience Cloud-toepassingen
    * Adobe Audience Manager
@@ -39,22 +39,22 @@ Activering met Experience Cloud-toepassingen wordt nauw uitgelijnd met de [Onlin
 
 ### Activering van publiek en profiel met Experience Cloud-toepassingen
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Referentiearchitectuur voor de activering van publiek en profiel met Experience Cloud-toepassingen" style="border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Referentiearchitectuur voor de activering van publiek en profiel met Experience Cloud-toepassingen" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## Guardrails
 
-Raadpleeg de [handleidingen op de pagina Overzicht van publiek- en profielactivering](overview.md)
+Zie de [handleidingen op de pagina Overzicht van activering van publiek en profiel](overview.md)
 
 ## Verwante documentatie
 
-* [[!UICONTROL Real-time Customer Data ] PlatformProductbeschrijving](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
+* [[!UICONTROL Real-time Customer Data Platform] Productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Richtlijnen voor profiel en segmentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [Segmenteringsdocumentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 * [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 
 ## Verwante video&#39;s en Tutorials
 
-* [[!UICONTROL Real-time ] overzicht van klantgegevens](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
-* [Demo van het Platform van de Gegevens van de Klant in  [!UICONTROL real time]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
+* [[!UICONTROL Real-time Customer Data Platform] overzicht](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
+* [Demo van [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
 * [Segmenten maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)

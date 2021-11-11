@@ -4,7 +4,7 @@ description: Voer teweeggebrachte berichten en ervaringen uit gebruikend Adobe E
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: d19f42a181b51135c3cf672eeb957709279fe49a
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Adobe Journey Optimizer is een speciaal gebouwd systeem voor marketingteams om i
 
 ## Architectuur
 
-<img src="assets/journey-optimizer.png" alt="Referentiearchitectuur voor de blauwdruk voor geactiveerd berichtenverkeer en Adobe Experience Platform" style="border:1px solid #4a4a4a" />
+<img src="assets/journey-optimizer.png" alt="Referentiearchitectuur voor de blauwdruk voor geactiveerd berichtenverkeer en Adobe Experience Platform" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Integratiepatronen
 
@@ -53,7 +53,7 @@ Adobe Journey Optimizer is een speciaal gebouwd systeem voor marketingteams om i
 
 ## Guardrails
 
-* Zie de koppeling voor meer informatie over hulplijnen voor Journey Optimizer [LINK](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
+* Zie de koppeling voor meer informatie over hulplijnen voor Journey Optimizer [KOPPELING](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
 * Batchsegmenten - zorg dat u het dagelijkse volume van gekwalificeerde gebruikers begrijpt en ervoor zorgt dat het doelsysteem de burst-doorvoer per reis en over alle reizen kan verwerken
 * Streamingsegmenten - moeten ervoor zorgen dat de eerste uitbarsting van profielkwalificaties kan worden afgehandeld samen met het dagelijks streaming kwalificatievolume per reis en over alle reizen
 * De updateactiviteit van het profiel - het Real-Time Profiel van de Klant kan van binnen een reis worden bijgewerkt.  De verwerking van de update naar de profielopslag duurt maximaal 1 minuten
@@ -73,23 +73,23 @@ Adobe Journey Optimizer is een speciaal gebouwd systeem voor marketingteams om i
 
 #### Schema/gegevensset
 
-1. [Vorm individueel profiel, ervaringsgebeurtenis, en multi-entiteitsschema&#39;](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) s in Experience Platform, die op klant-geleverde gegevens wordt gebaseerd.
+1. [Afzonderlijke profiel-, ervarings- en multientiteitsschema&#39;s configureren](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, op basis van door de klant verstrekte gegevens.
 1. Maak Adobe Campaign-schema&#39;s voor wideLog, trackingLog, niet-te leveren adressen en profielvoorkeuren (optioneel).
-1. [Creeer ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) datasetsin Experience Platform voor gegevens die moeten worden opgenomen.
-1. [Voeg ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) labels voor gegevensgebruik in Experience Platform toe aan de dataset voor bestuur.
-1. [Creeer ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html) beleid dat bestuur op bestemmingen afdwingt.
+1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) in Experience Platform voor gegevens die moeten worden ingevoerd.
+1. [Labels voor gegevensgebruik toevoegen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) in Experience Platform met de dataset voor bestuur.
+1. [Beleid maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html) de handhaving van het bestuur op bestemmingen.
 
 #### Profiel/identiteit
 
 1. [Maak klantspecifieke naamruimten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [Identiteiten toevoegen aan schema&#39;s](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
-1. [Laat de schema&#39;s en datasets voor Profiel](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html) toe.
-1. [Stel samenvoegbeleid ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) in voor verschillende weergaven van  [!UICONTROL realtime klantprofiel]  (optioneel).
+1. [De schema&#39;s en datasets voor Profiel inschakelen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
+1. [Samenvoegbeleid instellen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) voor verschillende weergaven van [!UICONTROL Klantprofiel in realtime] (optioneel).
 1. Maak segmenten voor campagnegebruik.
 
 #### Bronnen/bestemmingen
 
-1. [Gegevens opnemen in Experience ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) Platform met streaming API&#39;s en bronconnectors.1. Vorm  [!DNL Azure] blob opslagbestemming voor gebruik met Adobe Campaign.
+1. [Gegevens in Experience Platform opnemen](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) via streaming API&#39;s en bronconnectors.1. Configureren [!DNL Azure] blob-opslagbestemming voor gebruik met Adobe Campaign.
 
 #### Implementatie van mobiele apps
 

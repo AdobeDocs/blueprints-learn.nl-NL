@@ -1,10 +1,10 @@
 ---
 title: Vervaging van de Hub voor klantactiviteiten
-description: '[!UICONTROL In real time ] Profilelookups van de Klant om context voor agent-gesteunde steun en verkoop te verstrekken.'
+description: '[!UICONTROL Klantprofiel in realtime] raadplegingen om context voor agent-bijgewoonde steun en verkoop te verstrekken.'
 solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Vervaging van de Hub voor klantactiviteiten
 
-De Vervaging van de Hub van de Activiteit van de klant toont hoe de externe toepassingen tot het Profiel van de Klant [!UICONTROL In real time] kunnen toegang hebben.
+Het Vervagen van de Hub van de Activiteit van de Klant toont hoe de externe toepassingen tot Adobe Experience Platform kunnen toegang hebben [!UICONTROL Klantprofiel in realtime].
 
 Externe toepassingen hebben toegang tot profielen met een API-GET-aanvraag. Kenmerken, gebeurtenissen, segmentlidmaatschap en modelgestuurde functies die in het profiel zijn opgeslagen, kunnen vervolgens worden gebruikt in deze externe toepassingen die geen Adobe zijn.
 
@@ -29,25 +29,25 @@ Met dit vermogen, kon u rijke context oppervlakte wanneer een klant uw vraagcent
 
 ## Architectuur
 
-<img src="assets/customer_activity_hub.svg" alt="De Architectuur van de verwijzing voor de Vervaging van de Hub van de Activiteit van de Klant" style="border:1px solid #4a4a4a" />
+<img src="assets/customer_activity_hub.svg" alt="De Architectuur van de verwijzing voor de Vervaging van de Hub van de Activiteit van de Klant" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Guardrails
 
-* [Guardrails voor  [!UICONTROL realtime ] profielgegevens van klanten](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* [Guardrails voor [!UICONTROL Klantprofiel in realtime] data](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 
 ## Implementatiestappen
 
-1. [Maak ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) schema&#39;s voor gegevens die moeten worden ingevoerd.
-1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) gegevenssets voor gegevens die moeten worden ingevoerd.
-1. [Vorm de correcte identiteiten en de identiteit ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html) namespacesop het schema om ervoor te zorgen dat de ingebedde gegevens in een verenigd profiel kunnen vastmaken.
-1. [Laat de schema&#39;s en datasets voor profiel](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html) toe.
-1. [Gegevens ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in Experience Platform opnemen.
-1. [Samenvoegbeleid](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) instellen.
-1. Gebruik de [Entities-API om een profielkenmerk](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html) op te zoeken, hetzij van de recordentiteit, hetzij van de ervaringsgebeurtenisentiteit.
+1. [Schema&#39;s maken](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden ingevoerd.
+1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden ingevoerd.
+1. [De juiste identiteiten en naamruimten configureren](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html) op het schema om ervoor te zorgen dat ingesloten gegevens in een verenigd profiel kunnen vastmaken.
+1. [De schema&#39;s en datasets voor profiel inschakelen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
+1. [Gegevens samenvoegen](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in Experience Platform.
+1. [Samenvoegbeleid instellen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html).
+1. Gebruik de [Entiteiten die API&#39;s gebruiken om een profielkenmerk op te zoeken](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html), hetzij van de recordentiteit of de ervaringsgebeurtenisentiteit.
 
 ## Verwante documentatie
 
 * [Productbeschrijving van Adobe Experience Platform Activation](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform0.html)
-* [[!UICONTROL Real-time ] documentatie van het Profiel van de Klant](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en)
+* [[!UICONTROL Klantprofiel in realtime] documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en)
 * [Profielhulplijnen](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 * [API voor zoeken van profielen](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)

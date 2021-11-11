@@ -5,7 +5,7 @@ landing-page-description: Leer om zich te personaliseren gebaseerd op online ged
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: aa0cb68acc93821b978e58f638f8ab16a33cdfe6
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Persoonlijk maken op basis van online gedrag en publieksgegevens.
 
 ## Architectuur
 
-<img src="assets/behavioral_personalization.svg" alt="Referentiearchitectuur voor de blauwdruk van de Aanpassing van het Web Behavioral" style="border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="Referentiearchitectuur voor de blauwdruk van de Aanpassing van het Web Behavioral" style="width:80%; border:1px solid #4a4a4a" />
 
 
 ## Guardrails
@@ -50,7 +50,7 @@ De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen wor
 
 ### 2. Toepassingsspecifieke SDK-benadering
 
-<img src="assets/app_sdk_flow.png" alt="Referentiearchitectuur voor de toepassingsspecifieke SDK-benadering" style="border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.png" alt="Referentiearchitectuur voor de toepassingsspecifieke SDK-benadering" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Implementatievereisten
 
@@ -61,11 +61,11 @@ De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen wor
 | Adobe Analytics (optioneel) | [!UICONTROL Platform Web SDK]* of AppMeasurement.js 1.6.4+ |  |
 | Experience Cloud Identity Service | [!UICONTROL Platform Web SDK]* of VisitorAPI.js 2.0+ |  |
 | Experience Platform Mobile SDK (optioneel) | 4.11 of hoger voor iOS en Android™ |  |
-| Experience Platform Web SDK | 1.0, heeft de huidige versie van Experience Platform SDK [verschillende gebruiksgevallen nog niet ondersteund voor de Experience Cloud toepassingen](https://github.com/adobe/alloy/projects/5) |  |
+| Experience Platform Web SDK | 1.0, heeft de huidige versie van Experience Platform SDK [verschillende gebruiksgevallen die nog niet worden ondersteund voor de Experience Cloud-toepassingen](https://github.com/adobe/alloy/projects/5) |  |
 
 ## Implementatiestappen
 
-1. [Implementeer de Adobe-](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) doelstelling voor uw web- of mobiele toepassingen.
+1. [Adobe Target implementeren](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) voor uw web- of mobiele toepassingen.
 
    Bij gebruik van Audience Manager of Adobe Analytics:
 
@@ -78,8 +78,8 @@ De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen wor
    >Elke toepassing moet de Experience Cloud-id gebruiken en deel uitmaken van dezelfde Experience Cloud-organisatie om het delen van het publiek tussen toepassingen mogelijk te maken.
 
 1. [De levering van het verzoek voor de Mensen en de Diensten van het Delen van het Publiek (Gedeelde Publiek)](https://www.adobe.com/go/audiences)
-1. Segmenten maken in [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) of [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) en [deze soorten publiek configureren voor delen naar de Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html) (als u Audience Manager of Adobe Analytics gebruikt)
-1. Zodra het publiek in Adobe Target beschikbaar is, kunnen zij voor [het richten ervaringen met Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html) worden gebruikt
+1. Segmenten samenstellen in [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) of [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) en [deze soorten publiek configureren voor het delen naar de Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)  (bij gebruik van Audience Manager of Adobe Analytics)
+1. Zodra het publiek in Adobe Target beschikbaar is, kan het worden gebruikt voor [het richten van ervaringen met Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html)
 
 ## Verwante documentatie
 

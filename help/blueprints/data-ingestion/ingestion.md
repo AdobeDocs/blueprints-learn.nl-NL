@@ -5,7 +5,7 @@ solution: Experience Platform,Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 642143ea2e2a28f66dd7b56a807fa952c2f5b4ac
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -20,7 +20,7 @@ De voorbereiding van gegevens omvat de afbeelding van brongegevens aan het schem
 
 ## Architectuur
 
-<img src="../experience-platform/assets/aep_data_flow.png" alt="Referentiearchitectuur voor de blauwdruk voor gegevensvoorbereiding en insluiting" style="border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep_data_flow.png" alt="Referentiearchitectuur voor de blauwdruk voor gegevensvoorbereiding en insluiting" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Gegevensinname Guardraals
 

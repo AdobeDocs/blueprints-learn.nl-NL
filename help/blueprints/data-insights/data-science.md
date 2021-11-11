@@ -4,7 +4,7 @@ description: Deze blauwdruk laat zien hoe de Werkruimte van de Wetenschap van Ge
 solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: c26bf7523dc9b3310678a4129ea10ad06ef5e7cb
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -13,35 +13,35 @@ ht-degree: 0%
 
 # Aangepaste gegevenswetenschap voor blauwdruk van profielverrijking
 
-De Wetenschap van de Gegevens van de douane voor de Blauwdruk van de Verrijking van het Profiel illustreert hoe de gegevens in Adobe Experience Platform in [!UICONTROL de Werkruimte van de Wetenschap van Gegevens] kunnen worden gebruikt om, modellen op te leiden op te stellen en te scoren om machine het leren inzichten te verstrekken. Deze modellen kunnen direct uitvoeren aan een dataset die voor [!UICONTROL Real-time Profiel van de Klant ] wordt toegelaten om klantenprofielen verder te verrijken. Deze inzichten kunnen dan worden gebruikt voor personalisatie. Voorbeelden van leerinzicht in machines zijn levenslange waardeschaling, product- en categoriaffiniteit, conversiesnelheid of churn.
+De Wetenschap van de Gegevens van de douane voor de Blauwdruk van de Verrijking van het Profiel illustreert hoe de gegevens in Adobe Experience Platform kunnen worden gebruikt in [!UICONTROL Werkruimte voor gegevenswetenschap] om modellen op te leiden, te implementeren en te scoren om computerleerinzicht te bieden. Deze modellen kunnen direct output aan een dataset voor [!UICONTROL Klantprofiel in realtime] om klantprofielen verder te verrijken. Deze inzichten kunnen dan worden gebruikt voor personalisatie. Voorbeelden van leerinzicht in machines zijn levenslange waardeschaling, product- en categoriaffiniteit, conversiesnelheid of churn.
 
 ## Gevallen gebruiken
 
 * Haal inzicht uit en ontdek patronen van klantengegevens in Experience Platform. Train- en scoremodellen van deze gegevens.
-* Verrijk het [!UICONTROL Real-time profiel van de Klant] met model gedreven inzichten en attributen voor meer korrelige verpersoonlijking en geoptimaliseerde reizen.
+* Verrijken de [!UICONTROL Klantprofiel in realtime] met modelgestuurde inzichten en kenmerken voor meer korrelige personalisatie en geoptimaliseerde reizen.
 * Train- en Score-modellen om de inzichten van klanten te bepalen, zoals de levenslange waarde van de klant, de neiging om te converteren of te klonen, de affiniteit van producten en inhoud, en servicescore.
 
 ## Architectuur
 
-<img src="assets/data_science.svg" alt="Referentiearchitectuur voor de Custom Data Science for Profile Enrichment Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/data_science.svg" alt="Referentiearchitectuur voor de Custom Data Science for Profile Enrichment Blueprint" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Implementatiestappen
 
-1. [Maak ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) schema&#39;s voor gegevens die moeten worden ingevoerd.
-1. [Maak ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) gegevenssets voor gegevens die moeten worden ingevoerd.
-1. [Gegevens ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in Experience Platform opnemen.
-1. [Maak een DSW-laptop](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=en).
+1. [Schema&#39;s maken](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden ingevoerd.
+1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden ingevoerd.
+1. [Gegevens samenvoegen](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in Experience Platform.
+1. [Een DSW-laptop maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=en).
 1. Kies een taal. Python en PySpark worden ondersteund.
-1. [Auteur ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=en) modelleert in laptop.
-1. [Trein het model](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en).
-1. [Score het ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en) model om voorspellingen met de doelgegevens te produceren.
-1. [Schakel de gegevensset met modelresultaten voor het profiel in als u het model naar het  [!UICONTROL realtime klantprofiel]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=en) verplaatst.
+1. [Auteursmodel](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=en) in laptop.
+1. [Het model trainen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en).
+1. [Score van het model](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en) om voorspellingen met de doelgegevens te produceren.
+1. [Schakel de gegevensset met modelresultaten voor het profiel in als u de resultaten van het model naar het [!UICONTROL Klantprofiel in realtime]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=en).
 
 ## Verwante documentatie
 
 * [Productbeschrijving Adobe Experience Platform Intelligence](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [[!UICONTROL Data Science ] Workspace-documentatie](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en)
-* [[!UICONTROL Zelfstudies voor ] gegevenswetenschappen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html)
+* [[!UICONTROL Werkruimte voor gegevenswetenschap] documentatie](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en)
+* [[!UICONTROL Werkruimte voor gegevenswetenschap] zelfstudies](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html)
 
 ## Verwante blogberichten
 

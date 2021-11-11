@@ -4,7 +4,7 @@ description: Lever een publiek op basis van accounts en maak een profilering van
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
 exl-id: null
-source-git-commit: d811d82418d477372caa9e5b0b67af197275d459
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Gebruik account-, opportuniteits- en hoofdinformatie die aan een individuele kla
 
 ## Architectuur
 
-<img src="assets/b2b-activation.svg" alt="Referentiearchitectuur voor de blauwdruk voor B2B-activering" style="border:1px solid #4a4a4a" />
+<img src="assets/b2b-activation.svg" alt="Referentiearchitectuur voor de blauwdruk voor B2B-activering" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## Guardrails
@@ -61,7 +61,7 @@ In het volgende voorbeeld worden de ondersteunde patronen voor het toewijzen van
 #### Experience Platform - Marketo Engage Source Connector:
 
 * Het voltooien van een historische back-up kan maximaal 7 dagen duren, afhankelijk van het gegevensvolume.
-* Voortdurende gegevensupdates en wijzigingen van Marketo worden via streaming API naar het Experience Platform verzonden. Deze kunnen tot ongeveer 5 minuten aan het profiel worden doorgegeven en ongeveer 15 minuten aan het datumpomeer, afhankelijk van het volume.
+* Voortdurende gegevensupdates en wijzigingen van Marketo worden via streaming API naar het Experience Platform verzonden, die maximaal ongeveer 5 minuten aan het profiel kunnen worden doorgegeven, en ongeveer 15 minuten aan het datumpomeer, afhankelijk van het volume.
 
 #### Experience Platform - Marketo-bestemmingsconnector:
 
