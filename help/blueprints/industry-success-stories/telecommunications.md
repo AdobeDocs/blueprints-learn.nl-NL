@@ -3,7 +3,7 @@ title: Telecommunicatie-industrie - Journey Optimizer voor getriggerd berichtenv
 description: Verstrek klanten op maat gemaakte overeenkomsten in real time terwijl met efficiënte klant onboarding voor langdurige loyaliteit.
 solution: Experience Platform, Journey Optimizer
 kt: 9486
-source-git-commit: 7a81ea5d71355323a784e12207542fb7dd6b286b
+source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
@@ -13,30 +13,31 @@ ht-degree: 0%
 
 # Bedrijfs Uitdaging van de Telecommunicatie Industrie
 
-Alvorens dit Blauwdruk uit te voeren baseerden de &quot;voeg een nieuwe lijn&quot;e-mailcampagnes van het telecommunicatiebedrijf zich op of de gebruiker had omgezet en slechts op dit na een 7 dagen wachttijd gecontroleerd. Zodra aan deze criteria is voldaan, zijn aanvullende aanraakpunten geopend.
+Alvorens dit Blauwdruk uit te voeren baseerden de &quot;voeg een nieuwe lijn&quot;e-mailcampagnes van het telecommunicatiebedrijf zich op of de gebruiker had omgezet en slechts op dit na een 7 dagen wachttijd gecontroleerd. Zodra aan deze criteria is voldaan, zijn eventuele aanvullende aanraakpunten van start gegaan.
 
 Deze beperking moest worden opgelost om een tijdlijker follow-up te kunnen geven aan gebruikers die eerder een regel wilden toevoegen dan de huidige wachttijd van 7 dagen.
 
 ## Adobe-aanpak
 
 * Adobe Analytics-gegevens waarmee gebruikers kunnen worden geïdentificeerd die niet hebben geconverteerd om een nieuwe regel toe te voegen, worden opgenomen als gegevensbron voor gebruik door Adobe Journey Optimizer.
-* Adobe Journey Optimizer hanteert een regel naar tijd wanneer klanten een aangepast &#39;stopbericht&#39; ontvangen dat is ontworpen om een klant aan te moedigen om te converteren door een nieuwe regel aan hun account toe te voegen.
+* Adobe Journey Optimizer hanteert een regel in de tijd dat klanten een aangepast &#39;stopcontact&#39;-bericht ontvangen dat is ontworpen om een klant aan te moedigen om te converteren door een nieuwe regel aan hun account toe te voegen.
 
 
 ## Bedrijfswaarde geleverd
 
-| Doelen | Tactiek | Waarde niet gelabeld |
+| Doelen | Tactiek | Waarde ontgrendeld |
 |---|---|---|
-| **Hogere conversiekoersen voor campagnes **<br></br>**Opbrengsten van de jaarlijkse rekening vergroten**</ul> | <ul><li>Creeer een nieuw segment in dichtbij real time voor gebruikers die een interesse in het toevoegen van een lijn hebben getoond maar nog niet omgezet.</li><li>De follow-up van de aandrijving voor niet geconverteerde klanten met een tweede aanraakpunt voor geïnteresseerde niet-converters. </li><li>Gebruik een teststrategie om de reisprestaties te meten en te optimaliseren voor conversie via e-mail.</li></ul> | <ul><li><strong>Hoge kwaliteit, relevante ervaring:</strong> Met reisorchestratie op zijn plaats ervaren klanten meer relevant overseinen die e-maillijstkurn verminderen.</li><li><strong>Journey Orchestration op schaal:</strong>Een gepersonaliseerde en tijdlijdende reis kan worden gecreeerd om een verhoging van omzettingen en totale opbrengst te drijven.</li></ul> |
+| **Hogere conversiekoersen voor campagnes **<br></br>**Opbrengsten van de jaarlijkse rekening vergroten**</ul> | <ul><li>Creeer een nieuw segment in dichtbij real time voor gebruikers die een interesse in het toevoegen van een lijn hebben getoond maar nog niet omgezet.</li><li>De follow-up van de aandrijving voor unconvert klanten met een tweede aanraakpunt voor geïnteresseerde niet-converters. </li><li>Gebruik een teststrategie om de reisprestaties te meten en te optimaliseren voor conversie via e-mail.</li></ul> | <ul><li><strong>Hoge kwaliteit, relevante ervaring:</strong> Met reisorchestratie op zijn plaats ervaren klanten meer relevant overseinen die e-maillijstkurn verminderen.</li><li><strong>Journey Orchestration op schaal:</strong>Een gepersonaliseerde en tijdlijdende reis kan worden gecreeerd om een verhoging van omzettingen en totale opbrengst te drijven.</li></ul> |
 
-## Hoofdvervaging: Publiek en activering met Experience Cloud-toepassingen
+## Primair vervagen: Publiek en activering met Experience Cloud-toepassingen
 
-<strong>Beschrijving</strong>
+### Beschrijving
+
 <ul><li>Voer getriggerd en het stromen overseinen uit gebruikend Adobe Experience Platform als centrale hub voor het stromen gegevens, klantenprofielen en segmentatie, met Journey Orchestration voor het stromen van reisorchestratie en berichtlevering</li></ul>
 
-<strong>Experience Cloud-toepassingen</strong>
-<ul><li>Adobe Journey Optimizer</li></ul> 
-<br>
+### Experience Cloud-toepassingen
+
+<ul><li>Adobe Journey Optimizer</li></ul>
 
 ### Blauwdrukarchitectuur
 

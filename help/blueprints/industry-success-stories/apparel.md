@@ -3,7 +3,7 @@ title: Apparel Industry - Activering met Experience Cloud-toepassingen
 description: Gebruikte veelvoudige Blauwdrukken om marketing in real time, dwars-kanaalactivering, en dwars-kanaalanalyse toe te laten.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
-source-git-commit: 41cb8d159c5aa358bb492e722a39ac61e3414dcc
+source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Apparel Industry Business Challenge
 
-Deze specifieke apperal-onderneming is wereldwijd marktleider op het gebied van ontwerp, ontwikkeling, productie en wereldwijde marketing en verkoop van schoeisel, kleding, apparatuur, accessoires en diensten.
+Deze specifieke beroepsonderneming is wereldwijd marktleider op het gebied van ontwerp, ontwikkeling, productie en wereldwijde marketing en verkoop van schoeisel, kleding, apparatuur, accessoires en diensten.
 
 Hun wereldwijde technologieteam gebruikt Adobe Experience Platform en relevante Adobe-oplossingen om de volgende belangrijke knelpunten aan te pakken:
 
@@ -24,24 +24,25 @@ Hun wereldwijde technologieteam gebruikt Adobe Experience Platform en relevante 
 ## Adobe-aanpak
 
 * Creëer een sterke stichting van het Platform om waarde aan de zaken te leveren en resulteert in ondernemingsbrede goedkeuring.
-* Werk samen met technische teams om ervoor te zorgen dat de bedrijfswaarde wordt geleverd met de technologische implementatie.
+* Werk samen met technische teams om ervoor te zorgen dat de bedrijfswaarde met de technologieimplementatie wordt geleverd.
 * Creeer een 360 mening de klanten van dit merkbedrijf om direct te segmenteren, te activeren en over campagnes te rapporteren.
 * Automatiseer triggers en organiseer persoonlijke klantritten.
 
 ## Bedrijfswaarde geleverd
 
-| Doelen | Tactiek | Waarde niet gelabeld |
+| Doelen | Tactiek | Waarde ontgrendeld |
 |---|---|---|
-| **Connected cross-channel ervaringen **<br></br>**Aandacht voor onderhoud en onderhoud **<br></br>**Gegevensdemocratisering en inzichten**</ul> | <ul><li>Aan boord gaan verscheidene ondernemingsdatasets om tientallen miljoenen profielen &amp; honderden segmenten, verscheidene bestemmingen, en rapporterend dashboards te creëren</li><li>Activering voor meerdere doelen met Real-time Customer Data Platform</li><li>Analysecapaciteit op het niveau van de klant ontgrendeld met de analyse van de reis van de klant</li><li>Automatische gebeurtenistriggers voor klantinteracties die via Adobe Journey Optimizer zijn geïmplementeerd</li></ul> | <ul><li><strong> Klantprofiel:</strong>360 Grijsweergave van de klanten voor segmentatie</li><li><strong>Doelacties:</strong>Activering op betaalmedia, e-mail en sociale platforms</li><li><strong>Analyse en attributie van klant:</strong>Analyse van de toewijzing van meerdere kanalen is ad-hocbeschikbaar en eenvoudig verspreid<li><strong>Journey Orchestration:</strong> Geïnteractiveerde campagnes en geplande campagnes maken en exploiteren met realtime-context</li></ul> |
+| **Connected cross-channel ervaringen **<br></br>**Aandacht voor onderhoud en onderhoud **<br></br>**Gegevensdemocratisering en inzichten**</ul> | <ul><li>Aan boord gaan verscheidene ondernemingsdatasets om tientallen miljoenen profielen &amp; honderden segmenten, verscheidene bestemmingen, en rapporterend dashboards te creëren</li><li>Activering voor meerdere doelen met Real-time Customer Data Platform</li><li>Analysecapaciteit op het niveau van de klant ontgrendeld met de analyse van de reis van de klant</li><li>Automatische gebeurtenistriggers voor klantinteracties die via Adobe Journey Optimizer zijn geïmplementeerd</li></ul> | <ul><li><strong> Klantprofiel: </strong>360 Grijsweergave van de klanten voor segmentatie</li><li><strong>Doelacties: </strong>Activering op betaalmedia, e-mail en sociale platforms</li><li><strong>Analyse en attributie van klant: </strong>Analyse van de toewijzing van meerdere kanalen is ad-hocbeschikbaar en eenvoudig verspreid<li><strong>Journey Orchestration: </strong> Geïnteractiveerde campagnes en geplande campagnes maken en exploiteren met realtime-context</li></ul> |
 
-## Hoofdvervaging: Publiek en activering met Experience Cloud-toepassingen
+## Primair vervagen: Publiek en activering met Experience Cloud-toepassingen
 
-<strong>Beschrijving</strong>
+### Beschrijving
+
 <ul><li>Profielen en publiek in Experience Platform beheren en deze delen met Experience Cloud-toepassingen</li><li>Bouw en deel rijke klantensegmenten en inzichten in Experience Platform en deel hen met de Toepassingen van de Experience Cloud</li></ul>
 
-<strong>Experience Cloud-toepassingen</strong>
-<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform activeren</li><li>Experience Cloud-toepassingen</li></ul> 
-<br>
+### Experience Cloud-toepassingen
+
+<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform activeren</li><li>Experience Cloud-toepassingen</li></ul>
 
 ### Blauwdrukarchitectuur
 

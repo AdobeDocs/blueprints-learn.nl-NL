@@ -1,9 +1,9 @@
 ---
 title: Verhalen over succes in de sector van de digitale beleving
 description: De succesverhalen van Digital Experience Blueprints laten zien hoe verschillende industrieën hun bedrijfswaarde realiseren met Adobe Experience Cloud Applications, aangedreven door Adobe Experience Platform.
-source-git-commit: 41cb8d159c5aa358bb492e722a39ac61e3414dcc
+source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -19,23 +19,23 @@ Leer hoe klanten geweldige ervaringen opdoen en succesvol zijn met Digital Exper
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="miniatuurafbeelding voor een Apparel-industrie met behulp van activering van het publiek, analyse van klantentrontaties en blauwdrukken voor klantritten" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><strong>papierindustrie: Activering met Experience Cloud-toepassingen </strong></a></div>
-    <p><em>Gebruikte veelvoudige Blauwdrukken om marketing in real time, dwars-kanaalactivering, en dwars-kanaalanalyse toe te laten.</em></p>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><strong>Apparel-industrie</strong></a></div>
+    <p><em>Real-time marketing, cross-channel activering en cross-channel analyse.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="miniatuurafbeelding voor een detailhandelindustrie die gebruikmaakt van Activering met online/offlinegegevens en Journey Optimizer-blauwdrukken" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><strong>Detailhandel: Activering met Experience Cloud-toepassingen </strong></a></div>
-    <p><em>Lever real-time, klantenervaringen over digitale media, e-mail, duw, en Webkanalen.</em></p>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><strong>Detailhandel</strong></a></div>
+    <p><em>In real time ervaringen van klanten over digitale media, e-mail, duw, en Webkanalen.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="miniatuurafbeelding voor de Journey Optimizer-blauwdruk" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><strong>Telecommunicatie-industrie: Journey Optimizer voor geactiveerd bericht</strong></a></div>
-    <p><em>Verstrek klanten op maat gemaakte overeenkomsten in real time terwijl met efficiënte klant onboarding voor langdurige loyaliteit.</em></p>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><strong>Telecommunicatie-industrie</strong></a></div>
+    <p><em>Het maken van overeenkomsten in real time terwijl met efficiënte klant onboarding voor langdurige loyaliteit.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en"><img alt="miniatuurafbeelding voor activering van de functie Onlinegegevensvervaging/Offlinegegevensvervaging" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en"><strong>Reis- en ziekenhuisindustrie: Activering met online en offline gegevens</strong></a></div>
-    <p><em>Besluiten in real time met één enkele geconsolideerde mening van klantengedrag over diverse kanalen.</em></p>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en"><strong>Reis- en ziekenhuisindustrie</strong></a></div>
+    <p><em>Besluiten in real time met een geconsolideerde mening van klantengedrag over diverse kanalen.</em></p>
   </td>
 </tr>
 </table>
