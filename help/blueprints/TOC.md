@@ -4,9 +4,9 @@ breadcrumb-title: 'Blauwdrukken '
 user-guide-description: De blauwdrukken zijn herhaalbare implementaties om gevestigde bedrijfsproblemen aan te pakken en architectuurdiagrammen, technische overwegingen, en relevante documentatiekoppelingen te bevatten.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: 18c5ac6e01636d4d3b0ea0eb2edb92c949c870c5
+source-git-commit: 12a791205a2d8ee1cd0a7184eba54340f7d9ab1d
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 0%
 
 + [Overzicht](/help/blueprints/overview.md)
 + [Alle gebruikskwesties bekijken](/help/blueprints/use-cases.md)
++ Bekijk alle succesverhalen uit de branche{#industry-success-stories}
+   + [Overzicht](/help/blueprints/industry-success-stories/overview.md)
+   + [Deksel](/help/blueprints/industry-success-stories/apparel.md)
+   + [Detailhandel](/help/blueprints/industry-success-stories/retail.md)
+   + [Telecommunicatie](/help/blueprints/industry-success-stories/telecommunications.md)
+   + [Reizen en verblijf](/help/blueprints/industry-success-stories/travel-hospitality.md)
 + Overzicht van architectuur{#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform en toepassingen](/help/blueprints/experience-platform/platform-applications.md)
@@ -26,10 +32,9 @@ ht-degree: 0%
    + [Activering voor streaming van bestanden en bedrijven](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Activering met Experience Cloud-toepassingen](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Hub voor klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)
-+ B2B-analyse en -activering{#b2b-activation}
++ B2B-activering en marketing{#b2b-activation}
    + [Overzicht](/help/blueprints/b2b/overview.md)
    + [B2B-activering](/help/blueprints/b2b/b2bactivation.md)
-   + [B2B-analyse](/help/blueprints/b2b/b2banalysis.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [Overzicht](/help/blueprints/customer-journey-analytics/overview.md)
 + Klantenreizen{#customer-journeys}
