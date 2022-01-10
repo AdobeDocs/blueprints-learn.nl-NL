@@ -5,9 +5,9 @@ landing-page-description: Synchroniseer webpersonalisatie met e-mail en andere b
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: b52346f224964b50ff5e5e553eca88670b7580f3
+source-git-commit: 0de426911553ae3b7907d7d08b25a07a11b34c0f
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,12 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
 
 
 ## Architectuur
+
+Overzichtsarchitectuur
+
+<img src="assets/RTCDP+Target.png" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:80%; border:1px solid #4a4a4a" />
+
+Gedetailleerde architectuur
 
 <img src="assets/online_offline_personalization_with_apps.svg" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:80%; border:1px solid #4a4a4a" />
 
