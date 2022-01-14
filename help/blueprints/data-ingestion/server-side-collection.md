@@ -4,9 +4,9 @@ description: Verzamelde gegevens door Experience Platform-SDK's streamen naar do
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+source-git-commit: 0415f2fb46b3a8d667c938c6ae13affb683530c6
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,7 @@ De Vervaging van de Verzameling van Gegevens van de Onderneming van de server to
 
 * [Documentatie voor doorsturen van gebeurtenissen](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)
 * [Video&#39;s over het doorsturen van gebeurtenissen](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html)
+* [Gebeurtenis doorsturen, les](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html) van de webSDK-zelfstudie
 
 ## Verwante blogberichten
 
