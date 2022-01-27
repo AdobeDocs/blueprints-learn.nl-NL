@@ -3,7 +3,7 @@ title: B2B-analyse en -activering
 description: Lever een publiek op basis van account en maak een profilering van de belangrijkste ervaringen van klanten met Real-time Customer Data Platform ​.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-source-git-commit: c64aa472624abd7279e9c26e2affa0878796ab33
+source-git-commit: 3b5628d856d754046b7a95ad22b660211c35260d
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -18,6 +18,6 @@ Met een kanaal-eerste benadering, handelt elk kanaal als silo waarin de verperso
 
 | Blauwdruk | Beschrijving | Experience Cloud-toepassingen |
 |---|---|---|
-
-| **[B2B-analyse](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html)** | <ul><li>B2B-accountinformatie opnemen in de analyse van de klantentrining</li></ul>|<ul><li>Adobe Customer Journey Analytics</li></ul>| | **[B2B-Audience Activation](b2bactivation.md)** | <ul><li>Doelpubliek van B2B via web-, e-mail- en reclamekanalen.</li></ul>|<ul><li>Adobe Real-time Customer Data Platform B2B Edition</li></ul>|
+| **[B2B-analyse](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html)** | <ul><li>B2B-accountinformatie opnemen in de analyse van de klantentrining</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
+| **[B2B-Audience Activation](b2bactivation.md)** | <ul><li>Doelpubliek van B2B via web-, e-mail- en reclamekanalen.</li></ul> | <ul><li>Adobe Real-time Customer Data Platform B2B Edition</li></ul> |
 
