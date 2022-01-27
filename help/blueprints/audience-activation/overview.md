@@ -1,11 +1,11 @@
 ---
 title: Activering publiek en profiel
-description: Zorg voor activering van het publiek en profilering van centrale klantervaringen met Real-time ​ van klantgegevens.
+description: Zorg ervoor dat het publiek geactiveerd is en maak een profiel van centric Customer Experience met Real-time Customer Data Platform ​.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: cbeb90f9ed89e91bab45dcb1dbb30f59c5910bbd
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Met een kanaal-eerste benadering, handelt elk kanaal als silo waarin de verperso
 | Blauwdruk | Beschrijving | Experience Cloud-toepassingen |
 |---|---|---|
 | **[Anoniem Audience Activation](anonymous.md)** | <ul><li>Doelpubliek via internet en reclamekanalen voor anonieme en gedragsgegevens van klanten.</li><li>Integreren met publieksgegevens van derden voor een betere personalisatie.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
-| **[Activering met online en offline gegevens](online-offline.md)** | <ul><li>Activeer naar bekende, op profielen gebaseerde bestemmingen, zoals e-mailproviders, sociale netwerken en reclamebestemmingen. </li><li>Gebruik offlinekenmerken en -gebeurtenissen, zoals offlinebestellingen, transacties, CRM of loyaliteitsgegevens, samen met onlinegedrag voor het online aanwijzen en personaliseren.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Platform voor klantgegevens]</li><li>Adobe Audience Manager (optioneel)</li></ul> |
-| **[Activering voor streaming van bestanden en bedrijven](enterprise-destinations.md)** | <ul><li>Activering en toegang van het profiel van de klant in real time over ondernemingssystemen en toepassingen om rijke contextafhankelijke klantenervaringen te drijven. </li></ul><ul><li>Een verkoop- of supportervaring starten met gebruik van inzichten en gebeurtenissen vanuit het realtime profiel van de klant.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Platform voor klantgegevens]</li><li>Experience Platform activeren</li><li>Adobe Audience Manager (optioneel)</li></ul> |
-| **[Activering van publiek en profiel met Experience Cloud-toepassingen](platform-and-applications.md)** | <ul><li>Profielen en publiek in Experience Platform beheren en deze delen met Experience Cloud-toepassingen</li><li>Bouw en deel rijke klantensegmenten en inzichten in Experience Platform en deel hen met de Toepassingen van de Experience Cloud</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Platform voor klantgegevens]</li><li>Experience Platform activeren</li><li>Experience Cloud-toepassingen</li></ul> |
+| **[Activering met online en offline gegevens](online-offline.md)** | <ul><li>Activeer naar bekende, op profielen gebaseerde bestemmingen, zoals e-mailproviders, sociale netwerken en reclamebestemmingen. </li><li>Gebruik offlinekenmerken en -gebeurtenissen, zoals offlinebestellingen, transacties, CRM of loyaliteitsgegevens, samen met onlinegedrag voor het online aanwijzen en personaliseren.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager (optioneel)</li></ul> |
+| **[Activering voor streaming van bestanden en bedrijven](enterprise-destinations.md)** | <ul><li>Activering en toegang van het profiel van de klant in real time over ondernemingssystemen en toepassingen om rijke contextafhankelijke klantenervaringen te drijven. </li></ul><ul><li>Een verkoop- of supportervaring starten met gebruik van inzichten en gebeurtenissen vanuit het realtime profiel van de klant.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform activeren</li><li>Adobe Audience Manager (optioneel)</li></ul> |
+| **[Activering van publiek en profiel met Experience Cloud-toepassingen](platform-and-applications.md)** | <ul><li>Profielen en publiek in Experience Platform beheren en deze delen met Experience Cloud-toepassingen</li><li>Bouw en deel rijke klantensegmenten en inzichten in Experience Platform en deel hen met de Toepassingen van de Experience Cloud</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform activeren</li><li>Experience Cloud-toepassingen</li></ul> |
 | **[Hub voor klantactiviteiten](customer-activity.md)** | <ul><li>Verbeter de context van de consument aan agent-gesteunde interactie, zoals steun en verkoopervaringen. Gebruikend het profielraadpleging in Experience Platform, kunnen de agenten meer context over de consument, zoals recente aankopen, campagneinteractie, eigenschappen, publiekslidmaatschappen, en andere attributen en inzichten ontvangen die in het klantenprofiel in real time worden opgeslagen.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## Architectuur van het Profiel van de Klant in real time
@@ -41,7 +41,7 @@ Het samenvoegen van profielfragmenten gebeurt als de identiteitsgrafiek de relat
 
 ## Overzicht van segmentatie en bestemming
 
-In de onderstaande afbeelding worden de verschillende segmentatiemethoden en de verschillende activeringspatronen voor profielen en doelgroepen beschreven.
+In de onderstaande afbeelding worden de verschillende segmentatiemethoden en de verschillende activeringspatronen voor profiel en publiek beschreven.
 
 <img src="assets/segmentation_destination_overview.png" alt="Referentiearchitectuur voor het Real-time Klantprofiel" style="border:1px solid #4a4a4a" width="90%"/>
 
@@ -52,7 +52,7 @@ In de onderstaande afbeelding worden de verschillende segmentatiemethoden en de 
 
 ### Kenmerken en identiteiten activeren
 
-* [!UICONTROL Het ] platform van de Gegevens van de Klant in real time kan publiekslidmaatschappen evenals attributen en identiteitsveranderingen activeren die voor profielen voorkomen die leden van segmenten zijn die voor activering worden geselecteerd. Als u attributen of identiteiten wilt activeren, moet u een globaal segment definiëren dat alle profielen bevat waarnaar kenmerken en identiteitsupdates worden verzonden. Op dat punt, kunt u het segment en gewenste attributen selecteren om als deel van de bestemmingsconfiguratie te activeren.
+* [!UICONTROL De Real-time Customer Data Platform] U kunt publieksleden en kenmerk- en identiteitswijzigingen activeren die optreden voor profielen die leden zijn van segmenten die zijn geselecteerd voor activering. Als u attributen of identiteiten wilt activeren, moet u een globaal segment definiëren dat alle profielen bevat waarnaar kenmerken en identiteitsupdates worden verzonden. Op dat punt, kunt u het segment en gewenste attributen selecteren om als deel van de bestemmingsconfiguratie te activeren.
 * Merk op dat de partijbestemmingen activering van attribuut-slechts veranderingsgebeurtenissen niet steunen. Volledige of incrementele publieksleden kunnen samen met de geselecteerde kenmerken voor activering worden verzonden.
 
 ### Batchsegmenten activeren voor streamingdoelen
@@ -65,7 +65,7 @@ In de onderstaande afbeelding worden de verschillende segmentatiemethoden en de 
 
 ### Activering van ervaringsgebeurtenissen
 
-* Het activeren van gebeurtenissen voor onbewerkte ervaring wordt niet ondersteund. Om tegen ervaringsgebeurtenissen te activeren, moet een segment met de noodzakelijke regels worden gecreeerd die de logica van de ervaringsgebeurtenis omvatten of uitsluiten. Dit leidt tot een segment dat tegen ervaringsgebeurtenissen wordt bepaald, en het segmentlidmaatschap kan als volmacht voor het activeren van ruwe ervaringsgebeurtenissen worden geactiveerd. Overweeg ook het gebruik van [!UICONTROL Server Side starten] om onbewerkte ervaringsgebeurtenissen te activeren die via SDK zijn verzameld.
+* Het activeren van gebeurtenissen voor onbewerkte ervaring wordt niet ondersteund. Om tegen ervaringsgebeurtenissen te activeren, moet een segment met de noodzakelijke regels worden gecreeerd die de logica van de ervaringsgebeurtenis omvatten of uitsluiten. Dit leidt tot een segment dat tegen ervaringsgebeurtenissen wordt bepaald, en het segmentlidmaatschap kan als volmacht voor het activeren van ruwe ervaringsgebeurtenissen worden geactiveerd. Overweeg ook het gebruik van [!UICONTROL Server-kant starten] om onbewerkte ervaringsgebeurtenissen te activeren die via SDK zijn verzameld.
 
 
 ## Verwante blogberichten

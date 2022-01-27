@@ -4,7 +4,7 @@ description: '[!UICONTROL Klantprofiel in realtime] raadplegingen om context voo
 solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%

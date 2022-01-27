@@ -1,13 +1,13 @@
 ---
 title: Gebruik van gevallen van Digital Experience Blueprints
 description: Digitale Ervaring blauwdrukken zijn herhaalbare implementaties om strategie aan te pakken en gevestigde bedrijfsproblemen op te lossen. Ze versnellen tijd tot waarde en bieden een snelle weg naar succes.
-source-git-commit: 3a923b26f91b9d40969a182bdd5271f40fb9a1d0
+exl-id: 7ec2b5c9-b46c-4434-b0d3-8aba863e9006
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
 
 ---
-
 
 # Gebruik van gevallen van Digital Experience Blueprints
 
@@ -21,23 +21,18 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
   <th>Categorie</th>
  </tr>
  <tr>
-  <td>Anonieme digitale doelwitten maken en
-  personalisatie.</td>
+  <td>Anonieme digitale publieksgerichtheid en verpersoonlijking uitvoeren.</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">Anoniem
-  Audience Activation</a></td>
-  <td rowspan="9" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Publiek
-  en profiel activeren</td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">Anoniem Audience Activation</a></td>
+  <td rowspan="9" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Activering publiek en profiel</td>
  </tr>
  <tr>
   <td>Bouw publiek voor het richten op gesteunde advertentienetwerken.</td>
  </tr>
  <tr>
-  <td>Publiek dat zich richt op bekende doelgroepen op sociale en reclame
-  bestemmingen.</td>
+  <td>Publiek dat zich richt op bekende doelgroepen op sociale en reclamebestemmingen.</td>
   <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online/offline
-  Audience Activation</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online/offline Audience Activation</a></td>
  </tr>
  <tr>
   <td>Online personalisatie met online en offline kenmerken.</td>
@@ -46,55 +41,36 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
   <td>Activeer het publiek naar bekende kanalen, zoals e-mail en SMS.</td>
  </tr>
  <tr>
-  <td>Profiel- en publieksactivering naar cloudopslagbestemmingen;
-  of streamingdoelen voor het bijhouden, opslaan, analyseren en
-  activering van klantgegevens en inzichten.</td>
+  <td>Profiel- en publieksactivering voor cloudopslagdoelen of streamingdoelen voor het bijhouden, opslaan, analyseren en activeren van klantgegevens en -inzichten op bedrijfsniveau.</td>
   <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/enterprise-destinations.html?lang=en">Activering
-  naar Enterprise-doelen</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/enterprise-destinations.html?lang=en">Activering naar zakelijke doelen</a></td>
  </tr>
  <tr>
-  <td>Personaliseer en doel over de kanalen van de klanteninteractie
-  aangedreven door Experience Cloud.</td>
+  <td>Personaliseer en richt zich over de kanalen van de klanteninteractie die door Experience Cloud worden aangedreven.</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activering
-  met Experience Cloud-toepassingen</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activering met Experience Cloud-toepassingen</a></td>
  </tr>
  <tr>
-  <td>Deel publiek- en profielgegevens tussen Experience Platform en
-  Experience Cloud-toepassingen.</td>
+  <td>Deel publiek- en profielgegevens tussen Experience Platform- en Experience Cloud-toepassingen.</td>
  </tr>
  <tr>
-  <td>Een diepere consumentencontext bieden voor door de agent ondersteunde interacties;
-  zoals ondersteuning en verkoopervaring. De profielzoekopdracht gebruiken in
-  Experience Platform, agenten kunnen meer context op de consument krijgen, zoals
-  recente aankopen, campagnewisselingen, eigendommen en het lidmaatschap van het publiek;
-  en andere attributen en inzichten die in de klant in real time worden opgeslagen
-  profiel.</td>
+  <td>Verbeter de context van de consument aan agent-gesteunde interactie, zoals steun en verkoopervaringen. Gebruikend het profielraadpleging in Experience Platform, kunnen de agenten meer context op de consument, zoals recente aankopen, campagneinteractie, eigenschappen, publiekslidmaatschappen, en andere attributen en inzichten ontvangen die in het klantenprofiel in real time worden opgeslagen.</td>
   <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/customer-activity.html?lang=en">Klant
-  Activiteitenhub</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/customer-activity.html?lang=en">Hub voor klantactiviteiten</a></td>
  </tr>
  <tr>
-  <td>De interactie van klanten op verschillende desktops en mobiele apparaten analyseren tot
-  het gedrag van klanten begrijpen en inzichten ophalen om digitaal te optimaliseren
-  klantervaringen.</td>
+  <td>Analyseer de interacties van klanten op verschillende desktops en mobiele apparaten om het gedrag van klanten te begrijpen en inzicht te krijgen in hun ervaringen met digitale klanten.</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=en">Kruisje
-  Kanaal</a></td>
-  <td rowspan="4" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Klant
-  Reisanalyse</td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=en">Kanaal</a></td>
+  <td rowspan="4" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Customer Journey Analytics</td>
  </tr>
  <tr>
-  <td>De interactie tussen klanten via kanalen analyseren, waaronder digitale
-  en offlinekanalen zoals ondersteuningsinteracties en aankopen in de winkel naar
-  de reis van de klant beter begrijpen en optimaliseren.</td>
+  <td>Analyseer de interactie van de klant over kanalen, met inbegrip van digitale en off-line kanalen zoals steuninteractie en in-store aankopen om de klantenreis beter te begrijpen en te optimaliseren.</td>
  </tr>
  <tr>
   <td>Analyseer het gedrag van klanten voordat klanten contact opnemen met de ondersteuningsafdeling.</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/call-deflect.html?lang=en">Bellen
-  Vervorming</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/call-deflect.html?lang=en">Beleidsbepaling</a></td>
  </tr>
  <tr>
   <td>Ontdek mogelijkheden om de mogelijkheden van de zelfbediening te verbeteren.</td>
@@ -102,10 +78,8 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
  <tr>
   <td>Geplande e-mailcampagnes.</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Batch
-  Berichten en Platform</a></td>
-  <td rowspan="6" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Klant
-  Reizen</td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Batchberichten en -Platform</a></td>
+  <td rowspan="6" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Klantenreizen</td>
  </tr>
  <tr>
   <td>Onboarding- en hermarketingcampagnes.</td>
@@ -113,8 +87,7 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
  <tr>
   <td>Berichten geactiveerd.</td>
   <td rowspan="4" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en">Reis
-  Optimaliseren</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en">Journey Optimizer</a></td>
  </tr>
  <tr>
   <td>Bevestigingen van registratie.</td>
@@ -128,90 +101,66 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
  <tr>
   <td></td>
   <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/ingestion.html?lang=en">Gegevens
-  Prep en insluiting</a></td>
-  <td rowspan="4" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Gegevens
-  Verzameling en voorbereiding</td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/ingestion.html?lang=en">Gegevensprep en -insluiting</a></td>
+  <td rowspan="4" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Gegevensverzameling en -voorbereiding</td>
  </tr>
  <tr>
-  <td>Gegevens verzamelen van internet of mobiele apparaten met behulp van één verzamelingstag,
-  het gewicht van de lichtende code op cliëntbrowsers en apps. De verzamelde gegevens doorgeven
-  gegevens aan diverse eindpunten voor één enkele bron van gegevensinzameling.</td>
+  <td>Verzamel gegevens van het web of mobiele apparaten met behulp van één verzamelingstag, zodat de code lichter wordt in clientbrowsers en apps. Verspreid de verzamelde gegevens aan diverse eindpunten voor één enkele bron van gegevensinzameling.</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/server-side-collection.html?lang=en">AEP
-  Collection Enterprise (Event Forwarding)</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/server-side-collection.html?lang=en">AEP Collection Enterprise (Event Forwarding)</a></td>
  </tr>
  <tr>
-  <td>Verzamelde gegevens doorsturen naar partnertoepassingen of gegevensopslag
-  plaatsen voor de bouw van inzichten en toepassingen tegen de verzamelde gegevens.</td>
+  <td>Door:sturen verzamelde gegevens aan partnertoepassingen of de opslagplaatsen van gegevens voor de bouw van inzichten en toepassingen tegen de verzamelde gegevens.</td>
  </tr>
  <tr>
   <td></td>
   <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=en">Web SDK
-  Gegevensverzameling</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=en">Web SDK-gegevensverzameling</a></td>
  </tr>
  <tr>
   <td>Interactieve query en aggregatie van gegevens.</td>
   <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/analysis.html?lang=en">Gegevens
-  Analyse en intelligentie</a></td>
-  <td rowspan="6" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Gegevens
-  Analyse, intelligentie en ML</td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/analysis.html?lang=en">Gegevensanalyse en -informatie</a></td>
+  <td rowspan="6" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Data Analytics, Intelligence &amp; ML</td>
  </tr>
  <tr>
-  <td>De rij en kolomtoegang tot ingebedde gegevens voor exploratie en
-  validatie.</td>
+  <td>De rij en kolomtoegang tot ingebedde gegevens voor exploratie en bevestiging.</td>
  </tr>
  <tr>
-  <td>Dashboarding en visualisatie van gegevens via Business Intelligence
-  gebruiken.</td>
+  <td>Dashboarding en visualisatie van gegevens via Business Intelligence tooling.</td>
  </tr>
  <tr>
-  <td>Verkrijg inzicht en ontdek patronen van klantengegevens in
-  Experience Platform. Train- en scoremodellen van deze gegevens.</td>
+  <td>Haal inzicht uit en ontdek patronen van klantengegevens in Experience Platform. Train- en scoremodellen van deze gegevens.</td>
   <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/data-science.html?lang=en">Klant
-  Gegevenswetenschap voor profielverrijking</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/data-science.html?lang=en">Klantgegevenswetenschap voor profielverrijking</a></td>
  </tr>
  <tr>
-  <td>Verrijk het profiel van de Klant in real time met model gedreven inzichten
-  en kenmerken voor meer korrelige personalisatie en geoptimaliseerde reizen.</td>
+  <td>Verrijk het profiel van de Klant in real time met model gedreven inzichten en attributen voor meer korrelige personalisering en geoptimaliseerde reizen.</td>
  </tr>
  <tr>
-  <td>Train- en Score-modellen om klantinzichten zoals
-  levensduurwaarde van de klant, neiging tot conversie of churn, product en inhoud
-  affiniteiten, en betrokkenheidsscores.</td>
+  <td>Train- en Score-modellen om de inzichten van klanten te bepalen, zoals de levenslange waarde van de klant, de neiging om te converteren of te klonen, de affiniteit van producten en inhoud, en servicescore.</td>
  </tr>
  <tr>
   <td>Optimalisatie landingspagina.</td>
   <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=en">Gedrag
-  Personalisatie</a></td>
-  <td rowspan="6" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Web
-  &amp; Mobiele personalisatie</td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=en">Gedragingen aanpassen</a></td>
+  <td rowspan="6" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Web en mobiele personalisatie</td>
  </tr>
  <tr>
   <td>Gedragsgerichtheid.</td>
  </tr>
  <tr>
-  <td>Personalisatie op basis van eerdere weergaven van producten/inhoud
-  product/inhoud, omgevingskenmerken, publiek van derden
-  gegevens en demografie.</td>
+  <td>Personalisatie op basis van eerdere productweergaven/inhoudsweergaven, affiniteit van product/inhoud, milieukenmerken, publieksgegevens van derden en demografie.</td>
  </tr>
  <tr>
   <td>Optimalisatie landingspagina.</td>
   <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=en">Online/offline
-  Personalisatie</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=en">Online/offline personaliseren</a></td>
  </tr>
  <tr>
   <td>Gedragingen en offlineprofielgerichtheid.</td>
  </tr>
  <tr>
-  <td>Personalisatie op basis van eerdere weergaven van producten/inhoud
-  product/inhoud, omgevingskenmerken, publiek van derden
-  gegevens en demografie, naast offline inzichten zoals transacties;
-  loyaliteits- en CRM-gegevens en gemodelleerde inzichten.</td>
+  <td>Personalisatie op basis van eerdere product/inhoud-weergaven, product/inhoud-affiniteit, milieukenmerken, publieksgegevens van derden en demografie, naast offlineinzichten zoals transacties, loyaliteit- en CRM-gegevens en gemodelleerde inzichten.</td>
  </tr>
 </table>

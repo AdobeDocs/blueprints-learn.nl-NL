@@ -5,9 +5,9 @@ landing-page-description: Synchroniseer webpersonalisatie met e-mail en andere b
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 0746a479d4e651244995a8c355ed4c58b968f0c1
+source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -58,13 +58,13 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
     <td class="tg-0lax">2</td>
     <td class="tg-73oq">RTCDP-streaming en delen van publiek in batches naar doel via Edge-aanpak</td>
     <td class="tg-0lax">- Deel streaming en batchpubliek van RTCDP naar Target via het Edge Network. Het publiek dat in real time wordt geëvalueerd vereist WebSDK en de publieksevaluatie in real time die in integratiepatroon 3 wordt geschetst.</td>
-    <td class="tg-73oq"><span style="text-decoration:none">- Momenteel in bèta</span><br>- De doelbestemming moet in Doelen RTCDP worden gevormd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.<br>WebSDK is niet vereist. WebSDk en AT.js worden gesteund. <br>- Als het gebruiken van AT.js slechts profielraadpleging tegen ECID wordt gesteund. <br>- Voor aangepaste id namespace lookups op de Rand, wordt de plaatsing WebSDK vereist en elke identiteit moet als identiteit in de identiteitskaart worden geplaatst.</td>
+    <td class="tg-73oq">- De doelbestemming moet in Doelen RTCDP worden gevormd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.<br>WebSDK is niet vereist. WebSDk en AT.js worden gesteund. <br>- Als het gebruiken van AT.js slechts profielraadpleging tegen ECID wordt gesteund. <br>- Voor aangepaste id namespace lookups op de Rand, wordt de plaatsing WebSDK vereist en elke identiteit moet als identiteit in de identiteitskaart worden geplaatst.</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-73oq">RTCDP segment evaluatie in real time op Rand die aan Doel via het Netwerk van de Rand wordt gedeeld gebruikend WebSDK.</td>
     <td class="tg-0lax">- Evalueer publiek in real time voor zelfde of volgende paginagrootte op de Rand.</td>
-    <td class="tg-73oq"><span style="text-decoration:none">- Momenteel in bèta</span><br>- De doelbestemming moet in Doelen RTCDP worden gevormd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.<br>- WebSDK moet worden geïmplementeerd.<br>- Wordt ook ondersteund via de API.</td>
+    <td class="tg-73oq">- De doelbestemming moet in Doelen RTCDP worden gevormd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.<br>- WebSDK moet worden geïmplementeerd.<br>- Wordt ook ondersteund via de API.</td>
   </tr>
 </tbody>
 </table>
@@ -79,6 +79,11 @@ Overzichtsarchitectuur
 Processtroomarchitectuur
 
 <img src="assets/RTCDP+Target_flow.png" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:80%; border:1px solid #4a4a4a" />
+
+<br>
+
+<img src="assets/RTCDP+Target_sequence.png" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:80%; border:1px solid #4a4a4a" />
+
 
 Gedetailleerde architectuur
 

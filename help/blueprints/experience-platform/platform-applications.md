@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 0e981eba79a4a99c32598a8d018beff7cec1da0e
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
       <td colspan="1">Ad Cloud</td>
       <td colspan="1">
         <ul>
-          <li>Soorten publiek dat is gedefinieerd in Real-time Customer Data Platform, kunnen worden gedeeld met Ad Cloud voor gebruik via Audience Manager.</li>
+          <li>In Real-time Customer Data Platform gedefinieerde doelgroepen kunnen aan Ad Cloud worden doorgegeven voor doelgroepen via Audience Manager.</li>
         </ul>
       </td>
       <td colspan="1">Geen huidige integratie</td>
@@ -69,7 +69,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
       <td>Geen huidige integratie</td>
       <td>
         <ul>
-          <li>De gegevens die door Analytics worden verzameld kunnen naar de gegevens van het Experience Platform meer en profielopslag worden verzonden. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en">Gegevensconnector voor analyse</a>
+          <li>De gegevens die door Analytics worden verzameld kunnen naar de gegevens van het Experience Platform meer en profielopslag worden verzonden. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en">Gegevensconnector Analytics</a>
           </li>
         </ul>
       </td>
@@ -88,7 +88,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
       <td>Audience Manager</td>
       <td>
         <ul>
-          <li>Het publiek dat in het Platform van de Gegevens van de Klant in real time wordt bepaald kan aan Audience Manager voor activering aan derdekoekjesbestemmingen worden gedeeld.</li>
+          <li>Soorten publiek dat in Real-time Customer Data Platform is gedefinieerd, kunnen worden gedeeld met de Audience Manager voor activering naar cookie-doelen van derden.</li>
         </ul>
       </td>
       <td>
@@ -115,12 +115,12 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
       <td colspan="1">Campaign Classic</td>
       <td colspan="1">
         <ul>
-          <li>Het publiek dat in het Platform van Gegevens van de Klant in real time wordt bepaald kan aan Campaign Classic als publiek worden gedeeld om campagnes in werking te stellen.</li>
+          <li>In Real-time Customer Data Platform gedefinieerde doelgroepen kunnen worden gedeeld met Campaign Classic als publiek om campagnes te starten.</li>
         </ul>
       </td>
       <td colspan="1">
         <ul>
-          <li>De interactie en campagnegegevens die door Campagne worden verzameld kunnen aan Experience Platform als gegevensbron voor verdere gebruik in publieksopbouw via het Platform en de analyse van de Gegevens van de Klant in real time van de Klant via de Dienst van de Vraag van Customer Journey Analytics en van het Experience Platform en de Werkruimte van de Wetenschap van Gegevens worden opgenomen.</li>
+          <li>De interactie en campagnegegevens die door Campaign worden verzameld kunnen aan Experience Platform als gegevensbron voor verdere gebruik in publieksopbouw via Real-time Customer Data Platform en analyse via de Dienst van de Vraag van de Customer Journey Analytics en van het Experience Platform en de Werkruimte van de Wetenschap van Gegevens worden opgenomen.</li>
         </ul>
       </td>
       <td colspan="1">
@@ -135,12 +135,12 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
       <td colspan="1">Campaign Standard</td>
       <td colspan="1">
         <ul>
-          <li>Het publiek dat in het Platform van Gegevens van de Klant in real time wordt bepaald kan aan Campaign Standard als publiek worden gedeeld om campagnes in werking te stellen.</li>
+          <li>In Real-time Customer Data Platform gedefinieerde doelgroepen kunnen worden gedeeld met Campaign Standard als publiek om campagnes te starten.</li>
         </ul>
       </td>
       <td colspan="1">
         <ul>
-          <li>De interactie en campagnegegevens die door Campagne worden verzameld kunnen aan Experience Platform als gegevensbron voor verdere gebruik in publieksopbouw via het Platform en de analyse van de Gegevens van de Klant in real time van de Klant via de Dienst van de Vraag van Customer Journey Analytics en van het Experience Platform en de Werkruimte van de Wetenschap van Gegevens worden opgenomen.</li>
+          <li>De interactie en campagnegegevens die door Campaign worden verzameld kunnen aan Experience Platform als gegevensbron voor verdere gebruik in publieksopbouw via Real-time Customer Data Platform en analyse via de Dienst van de Vraag van de Customer Journey Analytics en van het Experience Platform en de Werkruimte van de Wetenschap van Gegevens worden opgenomen.</li>
         </ul>
       </td>
       <td colspan="1">
@@ -192,7 +192,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
       </td>
       <td colspan="1">
         <ul>
-          <li>Interactie- en campagnegegevens die door Journey Optimizer worden geproduceerd, worden in Experience Platform verzameld voor verder gebruik in publieksopbouw via Real-time Platform en analyse van klantgegevens via Customer Journey Analytics, Query Service voor Experience Platforms en Data Science Workspace.</li>
+          <li>Interactie- en campagnegegevens die door Journey Optimizer worden geproduceerd, worden in Experience Platform verzameld voor verder gebruik in publieksopbouw via Real-time Customer Data Platform en analyse via Customer Journey Analytics, Experience Platform Query Service en Data Science Workspace.</li>
         </ul>
       </td>
       <td colspan="1">
@@ -213,7 +213,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
       <td colspan="1">Marketo</td>
       <td colspan="1">
         <ul>
-          <li>Soorten publiek dat is gedefinieerd in Real-time Customer Data Platform, kunnen worden gedeeld met Marketo als publiek om Marketo-campagnes te starten en Marketo-objecten bij te werken.</li>
+          <li>In Real-time Customer Data Platform gedefinieerde doelgroepen kunnen worden gedeeld met Marketo als publiek om Marketo-campagnes te starten en Marketo-objecten bij te werken.</li>
         </ul>
       </td>
       <td colspan="1">
@@ -232,7 +232,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
       <td colspan="1">Real-time CDP</td>
       <td colspan="1">
         <ul>
-          <li>Gegevens die in het Experience Platform worden ingevoerd en verzameld, zijn de gegevensbron voor het samenstellen van realtime klantprofielen die het Real-time Platform van Gegevens van de Klant aandrijven.</li>
+          <li>Gegevens die in Experience Platform worden ingevoerd en verzameld, zijn de gegevensbron voor het samenstellen van realtime klantprofielen die de Real-time Customer Data Platform van kracht maken.</li>
         </ul>
       </td>
       <td colspan="1">
@@ -256,13 +256,13 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
       <td colspan="1">Doel</td>
       <td colspan="1">
         <ul>
-          <li>Het publiek dat in het Platform van de Gegevens van de Klant in real time wordt bepaald kan aan Doel worden gedeeld en in verpersoonlijking worden gebruikt en het richten van ervaringen die door Doel worden geleverd. </li>
+          <li>De in Real-time Customer Data Platform gedefinieerde doelgroepen kunnen worden gedeeld met Target en worden gebruikt in door Target geleverde verpersoonlijkings- en doelgerichte ervaringen. </li>
           <li>De directe integratie van de Rand van de Ervaring met Doel voor segmentlidmaatschap in real time en profielkenmerktoegang is op de roadmap.</li>
         </ul>
       </td>
       <td colspan="1">
         <ul>
-          <li>De gegevens die voor de ervaringen en de interactie van het Doel worden verzameld kunnen aan Experience Platform via het Web SDK van het Experience Platform worden verzameld. Deze gegevens kunnen worden gebruikt in publieksopbouw via het Real-time Platform van de Gegevens van de Klant en voor analyse via Customer Journey Analytics,  De Dienst van de Vraag van het Experience Platform en de Werkruimte van de Wetenschap van Gegevens.</li>
+          <li>De gegevens die voor de ervaringen en de interactie van het Doel worden verzameld kunnen aan Experience Platform via het Web SDK van het Experience Platform worden verzameld. Deze gegevens kunnen worden gebruikt in publieksopbouw via de Real-time Customer Data Platform en voor analyse via Customer Journey Analytics, de Dienst van de Vraag van het Experience Platform en de Werkruimte van de Wetenschap van Gegevens.</li>
         </ul>
       </td>
       <td colspan="1">

@@ -3,7 +3,7 @@ title: B2B-activering
 description: Lever een publiek op basis van accounts en maak een profilering van de belangrijkste ervaringen van klanten met Real-time Customer Data Platform ​.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-source-git-commit: 733394239c4f8f647291a7dfe198b741cb21ed36
+source-git-commit: c64aa472624abd7279e9c26e2affa0878796ab33
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%

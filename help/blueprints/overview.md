@@ -2,7 +2,7 @@
 title: Digitale beleving blauwdrukken
 description: Digitale Ervaring blauwdrukken zijn herhaalbare implementaties om strategie aan te pakken en gevestigde bedrijfsproblemen op te lossen. Ze versnellen tijd tot waarde en bieden een snelle weg naar succes.
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: d2b0643bd567a10b27591d22480db1bde2a0a36a
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%

@@ -5,7 +5,7 @@ landing-page-description: Leer om zich te personaliseren gebaseerd op online ged
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 070c78ee3cf32e70af90c6cbcdd77d5258a32fb7
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
