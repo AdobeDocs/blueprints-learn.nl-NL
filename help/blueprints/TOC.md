@@ -4,9 +4,9 @@ breadcrumb-title: 'Blauwdrukken '
 user-guide-description: De blauwdrukken zijn herhaalbare implementaties om gevestigde bedrijfsproblemen aan te pakken en architectuurdiagrammen, technische overwegingen, en relevante documentatiekoppelingen te bevatten.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
+source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,13 @@ ht-degree: 0%
    + [Overzicht](/help/blueprints/customer-journey-analytics/overview.md)
 + Klantenreizen{#customer-journeys}
    + [Overzicht](/help/blueprints/customer-journeys/overview.md)
-   + [Batchberichten en -Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
+   + [Door campagne beheerde Cloud Services](/help/blueprints/customer-journeys/campaign.md)
+   + [Campagne v8](/help/blueprints/customer-journeys/campaign-v8.md)
+   + [Campagne v7](/help/blueprints/customer-journeys/campaign-v7.md)
+   + [Campagne met Real-Time CDP](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+   + [Campagne met Journey Optimizer](/help/blueprints/customer-journeys/ajo-and-campaign.md)
    + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
+   + [Berichten van derden](/help/blueprints/customer-journeys/3rd-party-messaging.md)
 + Gegevensverzameling en -voorbereiding{#data-ingestion}
    + [Overzicht](/help/blueprints/data-ingestion/overview.md)
    + [Voorbereiding en inname van gegevens](/help/blueprints/data-ingestion/ingestion.md)
