@@ -3,9 +3,10 @@ title: Campagne met Real-Time CDP Blueprint
 description: Toont hoe de Adobe Experience Platform en zijn Real-Time Klantprofiel en gecentraliseerd segmenteringshulpmiddel met Adobe Campaign kunnen worden gebruikt om gepersonaliseerde gesprekken te leveren.
 solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard
 hidefromtoc: true
-source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
+exl-id: 5bff46c5-00e9-4e0d-a222-d15767159a97
+source-git-commit: 13f750c0ff820ab01ed4fc615aba864bc2dc7b75
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
