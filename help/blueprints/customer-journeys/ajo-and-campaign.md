@@ -2,11 +2,9 @@
 title: Journey Optimizer met Adobe Campaign-blauwdruk
 description: Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om berichten te verzenden door de overseinenserver in real time in Campagne te gebruiken
 solution: Experience Platform, Journey Optimizer, Campaign v8, Campaign Classic v7, Campaign Standard
-hidefromtoc: true
-exl-id: 214126d1-d106-4d1a-9fa3-92c40dc5f187
-source-git-commit: 13f750c0ff820ab01ed4fc615aba864bc2dc7b75
+source-git-commit: 1c46cbdfc395de4fc9139966cf869ba1feeceaaa
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---

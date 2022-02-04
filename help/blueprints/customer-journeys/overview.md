@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standa
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 6ffa7b7025bd143c9c02f4708a96207141b841e6
+source-git-commit: 5e27cc2f0114e404c6b6bb1e6f88a79d762f9e03
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -20,7 +20,8 @@ Tegenwoordig zijn er twee opties voor Adobe voor klanten die een keuze kunnen ma
 
 <ul><li>Adobe Campaign Managed Cloud Services</li><li>Adobe Journey Optimizer</li></ul>
 
-| Blauwdruk | Beschrijving | Experience Cloud-toepassingen |
+| Blauwdruk | Beschrijving | Architectuur |
 |---|---|---|
-| **[Adobe Campaign Managed Cloud Services](campaign.md)** | Onze traditionele campagnetoepassing die wordt gehost en beheerd door de last en complexiteit van het uitvoeren van een systeem voor IT te verminderen en tegelijk marketers in staat te stellen op batch gebaseerde marketingcampagnes te maken via kanalen zoals e-mail, SMS en direct mail. Laat klanten toe om hun complexe processen van het gegevensbeheer met rijke marketing campagnecommunicaties te combineren | Adobe Campaign v8<br>Adobe Campaign v7<br>Adobe Campaign Standard |
-| **[Journey Optimizer](journey-optimizer.md)** | Native gebouwd bovenop het Experience Platforms Real-Time Profiel van de Klant toelatend marketing teams om in real time aan veranderend klantengedrag te reageren en hen te ontmoeten waar zij bij om het even welk kanaal op elk ogenblik zijn | Adobe Experience Platform<br>Adobe Journey Optimizer |
+| **[Journey Optimizer](journey-optimizer.md)** | Native gebouwd bovenop het Experience Platforms Real-Time Profiel van de Klant toelatend marketing teams om in real time aan veranderend klantengedrag te reageren en hen te ontmoeten waar zij bij om het even welk kanaal op elk ogenblik zijn | <img src="assets/ajo-architecture.svg" alt="Referentiearchitectuur voor Journey Optimizer Blueprint" style="width:75%; border:1px solid #4a4a4a" /> |
+| **[Adobe Campaign v8](campaign-v8.md)** | De volgende generatie die campagnehulpmiddel voert dat voor zeer complex gegevensbeheer en campagneprocessen wordt geoptimaliseerd. Laat klanten toe om te combineren ontdekken en rijke marketing campagnecommunicaties tot stand te brengen | <img src="assets/campaign-v8-architecture.svg" alt="Referentiearchitectuur voor blauwdruk van campagne v8" style="width:75%; border:1px solid #4a4a4a" /> |
+| **[Adobe Campaign v7](campaign-v7.md)** | Traditioneel campagneprogramma gebouwd voor op batch gebaseerde marketingcampagnes langs kanalen zoals e-mail, SMS en direct mail. Laat klanten toe om de diverse klantenmededelingen in één enkele plaats te organiseren en te beheren | <img src="assets/campaign-v7-architecture.svg" alt="Referentiearchitectuur voor Campagne v7 Blueprint" style="width:75%; border:1px solid #4a4a4a" /> |
