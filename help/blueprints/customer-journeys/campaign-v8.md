@@ -2,9 +2,10 @@
 title: Campagne v8 Blueprint
 description: Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor traditionele marketing kanalen zoals e-mail en direct mail wordt gebouwd. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma's met een centrale focus op batchgeoriënteerde reizen.  Het komt ook met een scalable Real-Time overseinenserver worden verbonden die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor dingen zoals het terugstellen van het wachtwoord, orderbevestiging, e-ontvangstbewijzen en veel meer worden gebaseerd.
 solution: Campaign v8
-source-git-commit: 1c46cbdfc395de4fc9139966cf869ba1feeceaaa
+exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
+source-git-commit: 0c072465c2cac954631fe3a8dbdcef280ee397ab
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -89,9 +90,7 @@ Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor traditionele m
 ### Real-Time Messaging Server sizing
 
 * Kan tot 1 M berichten per uur verzenden
-* Standaard wordt slechts één (1) real-time communicatieserver ingericht. Dit moet ervoor zorgen dat om het even welke communicatie met de server via een zittingsteken wordt gedaan dat over 24u verloopt
-* Naar keuze kunt u tot acht (8) overseinenservers in real time opstellen maar de authentificatie steunt dan slechts gebruiker/pas
-* De geadviseerde benadering is altijd één Etime overseinenserver te gebruiken om uit zittingssymbolisch gebaseerde auth waar mogelijk voordeel te halen
+* Standaard worden twee realtime communicatieservers ingericht. Mogelijkheid om maximaal acht Real-Time Messaging-servers te schalen.
 
 ### SMS-configuratie
 

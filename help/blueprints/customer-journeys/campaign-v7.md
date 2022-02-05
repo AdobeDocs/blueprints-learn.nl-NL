@@ -2,9 +2,10 @@
 title: Campagne v7 Blueprint
 description: Adobe Campaign v7 is een campagneprogramma dat is ontwikkeld voor traditionele marketingkanalen zoals e-mail en direct mail. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma's met een centrale focus op batchgeoriënteerde reizen.  Het komt ook met een Etime overseinenserver worden verbonden die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor dingen zoals het terugstellen van het wachtwoord, orderbevestiging, e-ontvangstbewijzen en veel meer worden gebaseerd.
 solution: Campaign Classic v7
-source-git-commit: 1c46cbdfc395de4fc9139966cf869ba1feeceaaa
+exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
+source-git-commit: 0c072465c2cac954631fe3a8dbdcef280ee397ab
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,7 @@ Adobe Campaign v7 is een campagneprogramma dat is ontwikkeld voor traditionele m
 | Scenario | Beschrijving | Mogelijkheden |
 | :-- | :--- | :--- |
 | [Journey Optimizer met Adobe Campaign](ajo-and-campaign.md) | Toont hoe u Adobe Journey Optimizer kunt gebruiken om 1:1 ervaringen te ordenen gebruikend het Real-Time Profiel van de Klant en hefboomwerking het inheemse systeem van het de transactionele overseinen van Adobe Campaign om het bericht te verzenden | Gebruik het Real-Time Klantprofiel en de macht van Journey Optimizer om in de huidige ervaringen te ordenen terwijl het gebruiken van de inheemse mogelijkheden van het Overseinen in real time van Adobe Campaign om de laatste mijl mededeling te doen<br><br>Overwegingen:<br><ul><li>Kan tot 50 k berichten per uur via de server van het tijdBericht verzenden<li>Er wordt geen vertraging uitgevoerd vanuit Journey Optimizer, zodat technische controles door een pre-Sales Enterprise Architect worden uitgevoerd</li><li>De offer decisioning wordt niet gesteund in ladloads aan de het overseinenserver van de Campagne v7 in real time</li></ul> |
-| [Real-Time CDP met Adobe Campaign](rtcdp-and-campaign.md) | Toont hoe de Adobe Experience Platform Real-Time CDP en zijn gecentraliseerde segmenteringshulpmiddel met Adobe Campaign kunnen worden gebruikt om gepersonaliseerde gesprekken te leveren | <ul><li>Het delen van publiek van het Experience Platform met Adobe Campaign v8 via een productiebestemming</li><li>De inheemse steun voor het opnemen van de levering en interactiegegevens van klantengesprekken terug in het Experience Platform om zowel het Real-Time Profiel van de Klant te verbeteren en dwars-kanaalrapportering over overseinencampagnes te verstrekken</li></ul> |
+| [Real-Time CDP met Adobe Campaign](rtcdp-and-campaign.md) | Toont hoe de Adobe Experience Platform Real-Time CDP en zijn gecentraliseerde segmenteringshulpmiddel met Adobe Campaign kunnen worden gebruikt om gepersonaliseerde gesprekken te leveren | <ul><li>Het delen van het publiek van de Real-Time CDP naar Adobe Campaign via het gebruik van de workflows voor het uitwisselen van bestanden voor cloudopslag en Adobe Campaign-opname </li><li>Eenvoudig levering en interactiegegevens van klantengesprekken terug in Real-time CDP van Adobe Campaign delen om zowel het Real-Time Profiel van de Klant te verbeteren en dwars-kanaalrapportering over overseinencampagnes te verstrekken</li></ul> |
 
 <br>
 
@@ -88,9 +89,7 @@ Adobe Campaign v7 is een campagneprogramma dat is ontwikkeld voor traditionele m
 ### Real-Time Messaging Server sizing
 
 * Kan maximaal 50.000 berichten per uur verzenden
-* Standaard wordt slechts één (1) real-time communicatieserver ingericht. Dit moet ervoor zorgen dat om het even welke communicatie met de server via een zittingsteken wordt gedaan dat over 24u verloopt
-* Naar keuze kunt u tot acht (8) overseinenservers in real time opstellen maar de authentificatie steunt dan slechts gebruiker/pas
-* De geadviseerde benadering is altijd één Etime overseinenserver te gebruiken om uit zittingssymbolisch gebaseerde auth waar mogelijk voordeel te halen
+* Standaard worden twee realtime communicatieservers ingericht. Mogelijkheid om maximaal acht Real-Time Messaging-servers te schalen.
 
 ### SMS-configuratie
 
