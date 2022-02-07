@@ -4,9 +4,9 @@ description: Online/offline Audience Activation.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
+source-git-commit: c4adcc5d23bb0482a348d7b5b2b70b06ff2873e8
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -58,9 +58,9 @@ De blauwdruk voor activering met online en offline gegevens wordt nauw afgestemd
 
 ### Publiek delen van Real-time Customer Data Platform naar Audience Manager
 
-* Het lidmaatschap van het publiek van RT-CDP wordt gedeeld aan Audience Manager op streamingwijze zodra de segmentbeoordeling volledig is en aan het profiel van de Klant in real time wordt geschreven, of de segmentevaluatie in partij of het stromen voorkwam. Als het gekwalificeerde profiel de regionale verpletterende informatie voor verwante profielapparaten bevat, dan wordt het publiekslidmaatschap van RTCDP gekwalificeerd op het stromen wijze op de bijbehorende Rand van de Audience Manager. Als de profielen van RTCDP geen regionale verpletterende informatie bevatten dan worden de profiellidmaatschappen verzonden naar de hubplaats van de Audience Manager voor partijgebaseerde evaluatie en activering. Profielen die voor Edge-activering in aanmerking komen, worden binnen minuten na segmentkwalificatie geactiveerd vanuit RTCDP. Profielen die niet voor Edge-activering in aanmerking komen, komen in aanmerking voor de hub van de Audience Manager en hebben mogelijk een tijdsbestek van 12-24 uur voor verwerking.
+* Het lidmaatschap van het publiek van RT-CDP wordt gedeeld aan Audience Manager op streamingwijze zodra de segmentbeoordeling volledig is en aan het profiel van de Klant in real time wordt geschreven, of de segmentevaluatie in partij of het stromen voorkwam. Als het gekwalificeerde profiel de regionale verpletterende informatie voor verwante profielapparaten bevat, dan wordt het publiekslidmaatschap van RTCDP gekwalificeerd op het stromen wijze op de bijbehorende Rand van de Audience Manager. Als de regionale verpletterende informatie in de afgelopen 14 dagen op een profiel met een timestamp werd toegepast zal het op de Rand van de Audience Manager in het stromen worden geëvalueerd. Als de profielen van RTCDP geen regionale verpletterende informatie bevatten of de regionale verpletterende informatie is groter dan 14 dagen oud, dan worden de profiellidmaatschappen verzonden naar de hubplaats van de Audience Manager voor partijgebaseerde evaluatie en activering. Profielen die in aanmerking komen voor Edge-activering worden binnen minuten na segmentkwalificatie geactiveerd vanuit RTCDP. Profielen die niet in aanmerking komen voor Edge-activering, komen in aanmerking voor de hub van de Audience Manager en hebben mogelijk een tijdsbestek van 12-24 uur voor verwerking.
 
-* De regionale verpletterende informatie waarvoor de Rand van de Audience Manager de verwante apparateninformatie van het profiel wordt opgeslagen kan van de Verbinding van Gegevens van de Analyse worden verzameld wanneer de gegevens van de Analyse voor inzameling aan profiel worden toegelaten, of direct van SDK van het Web als afzonderlijke dataset van de klasse van het profielverslag die dan voor profiel moet worden toegelaten.
+* De regionale verpletterende informatie waarvoor Rand het profiel van de Audience Manager wordt opgeslagen kan aan Experience Platform van Audience Manager, de Dienst van identiteitskaart van de Bezoeker, Analytics, Lancering, of direct van het Web SDK als afzonderlijke de klassendataset van het profielverslag worden verzameld gebruikend de &quot;gegevens vangen gebiedinformatie&quot;XDM gebiedsgroep.
 
 * Voor activeringsscenario&#39;s waarbij het publiek van Experience Platform tot Audience Manager wordt gedeeld, worden de volgende identiteiten automatisch gedeeld: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Aangepaste naamruimten worden momenteel niet gedeeld.
 
