@@ -5,9 +5,9 @@ landing-page-description: Synchroniseer webpersonalisatie met e-mail en andere b
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 5e27cc2f0114e404c6b6bb1e6f88a79d762f9e03
+source-git-commit: d639a2c76290588f92e443f645e95864caac442a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
 
 * [!UICONTROL Real-time Customer Data Platform]
 * Adobe Target
-* Adobe Audience Manager (optioneel): Hiermee voegt u publieksgegevens van derden, apparaatgrafieken die op meerdere pagina&#39;s zijn gebaseerd, de mogelijkheid om segmenten van Platforms in Adobe Analytics te laten doorlopen en de mogelijkheid om Adobe Analytics-segmenten in het Platform te laten doorlopen toe
+* Adobe Audience Manager (optioneel): Hiermee voegt u publieksgegevens van derden, apparaatgrafieken op basis van een computer, de mogelijkheid om Real-time Customer Data Platform-publiek in Adobe Analytics te laten opstijgen en de mogelijkheid om Adobe Analytics-publiek in Real-time Customer Data Platform te laten opstijgen toe
 * Adobe Analytics (optioneel): Hiermee kunt u segmenten samenstellen op basis van historische gedragsgegevens en fijnkorrelige segmentatie van Adobe Analytics-gegevens
 
 ## Integratiepatronen
@@ -50,21 +50,21 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
 <tbody>
   <tr>
     <td class="tg-0lax">1</td>
-    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">RTCDP-streaming en delen van publiek in batches naar doel en Audience Manager via de benadering voor het delen van services bij publiek</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Deel streaming en batchpubliek van RTCDP naar Target en Audience Manager via de service Publiek delen. Het publiek dat in real time wordt geëvalueerd vereist WebSDK en de publieksevaluatie in real time die in integratiepatroon 3 wordt geschetst.</span></td>
-    <td class="tg-73oq">- Projectie van het publiek via de service voor het delen van het publiek moet worden uitgevoerd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.<br>- Identiteit moet worden omgezet in ECID om aan de rand te delen voordat Doel actie kan ondernemen.<br>- WebSDK-implementatie is niet vereist voor deze integratie.</td>
+<td class="tg-73oq">Real-time Customer Data Platform real-time segmentevaluatie op de Rand die aan Doel wordt gedeeld</td>
+    <td class="tg-0lax">- Evalueer publiek in real time voor zelfde of volgende paginagrootte op de Rand.</td>
+    <td class="tg-73oq">- Het doel van het doel moet in de Doelen van Real-time Customer Data Platform worden gevormd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.<br>- WebSDK moet worden geïmplementeerd.<br>- Mobiele SDK en API-gebaseerde implementatie is momenteel niet beschikbaar</td> 
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
-    <td class="tg-73oq">RTCDP-streaming en delen van publiek in batches naar doel via Edge-aanpak</td>
-    <td class="tg-0lax">- Deel streaming en batchpubliek van RTCDP naar Target via het Edge Network. Het publiek dat in real time wordt geëvalueerd vereist WebSDK en de publieksevaluatie in real time die in integratiepatroon 3 wordt geschetst.</td>
-    <td class="tg-73oq">- De doelbestemming moet in Doelen RTCDP worden gevormd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.<br>WebSDK is niet vereist. <br>- Als het gebruiken van AT.js slechts profielraadpleging tegen ECID wordt gesteund. <br>- Voor aangepaste id namespace lookups op de Rand, wordt de plaatsing WebSDK vereist en elke identiteit moet als identiteit in de identiteitskaart worden geplaatst.</td>
+    <td class="tg-73oq">Real-time Customer Data Platform streaming and batch publiek sharing to Target via Edge-aanpak</td>
+    <td class="tg-0lax">- Deel streaming en batchpubliek van Real-time Customer Data Platform naar Target via het Edge Network. Het publiek dat in real time wordt geëvalueerd vereist WebSDK en de publieksevaluatie in real time die in integratiepatroon 1 wordt geschetst.</td>
+    <td class="tg-73oq">- Het doel van het doel moet in de Doelen van Real-time Customer Data Platform worden gevormd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.<br>WebSDK is niet vereist. <br>- Als het gebruiken van AT.js slechts profielraadpleging tegen ECID wordt gesteund. <br>- Voor de raadplegingen van douanetechaamsnamespace op de Rand, wordt de plaatsing WebSDK vereist en elke identiteit moet als identiteit in de identiteitskaart worden geplaatst.</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
-    <td class="tg-73oq">RTCDP segment evaluatie in real time op de Rand die aan Doel via de Rand wordt gedeeld gebruikend WebSDK.</td>
-    <td class="tg-0lax">- Evalueer publiek in real time voor zelfde of volgende paginagrootte op de Rand.</td>
-    <td class="tg-73oq">- De doelbestemming moet in Doelen RTCDP worden gevormd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.<br>- WebSDK moet worden geïmplementeerd.<br>- Mobiele SDK en API-gebaseerde implementatie is nog niet beschikbaar</td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">Real-time Customer Data Platform streaming and batch publiek sharing to Target and Audience Manager via de Audience Sharing Service Approach</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Deel streaming en batchpubliek van Real-time Customer Data Platform naar Target en Audience Manager via de service Publiek delen. Het publiek dat in real time wordt geëvalueerd vereist WebSDK en de publieksevaluatie in real time die in integratiepatroon 1 wordt geschetst.</span></td>
+    <td class="tg-73oq">- Projectie van het publiek via de service voor het delen van het publiek moet worden uitgevoerd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.<br>- Identiteit moet worden omgezet in ECID om aan de rand te delen voordat Doel actie kan ondernemen.<br>- WebSDK-implementatie is niet vereist voor deze integratie.</td>
   </tr>
 </tbody>
 </table>
@@ -97,37 +97,26 @@ Gedetailleerde architectuur
 
 De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen worden uitgevoerd zoals hieronder geschetst.
 
-1. Met de [!UICONTROL Platform Web SDK] of [!UICONTROL Platform Mobile SDK] en [!UICONTROL Edge Network].
+1. Met de [!UICONTROL Platform Web SDK] of [!UICONTROL Platform Mobile SDK] en [!UICONTROL Edge Network]. [Verwijs naar het Web van het Experience Platform en Mobiele SDK Blauwdruk](../data-ingestion/websdk.md)
 1. Traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AppMeasurement.js)
-
-### 1. Platform Web/Mobile SDK en Edge Approach
-
-[Verwijs naar het Web van het Experience Platform en Mobiele SDK Blauwdruk](../data-ingestion/websdk.md)
-
-### 2. Toepassingsspecifieke SDK-benadering
-
 <img src="assets/app_sdk_flow.png" alt="Referentiearchitectuur voor de toepassingsspecifieke SDK-benadering" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Overwegingen bij de implementatie
 
 Identiteitsvoorwaarden
 
-* Voor het delen van het publiek van Adobe Experience Platform naar Adobe Target moet ECID als identiteit worden gebruikt.
+* Elke primaire identiteit kan worden gebruikt bij het gebruik van het integratiepatroon 1 zoals hierboven beschreven met het Edge-netwerk en WebSDK. Voor de eerste persoonlijke aanmelding is de primaire identiteit van de set met verpersoonlijkingsverzoeken gelijk aan de primaire identiteit van het profiel van Real-time Customer Data Platform. Identiteitsvervlechting tussen anonieme apparaten en bekende klanten wordt verwerkt op de hub en later geprojecteerd aan de rand. Als de primaire identiteit daarom is ingesteld als de apparaat-id, zijn bekende klantgegevens pas van toepassing na volgende sessies waarbij de anonieme en bekende profielen zijn samengevoegd.
+* Voor het delen van het publiek van Adobe Experience Platform naar Adobe Target moet ECID als identiteit worden gebruikt bij het gebruik van de service voor het delen van het publiek, zoals beschreven in integratiepatroon 3 hierboven.
 * Alternatieve identiteiten kunnen ook worden gebruikt om het publiek van het Experience Platform via Audience Manager naar Adobe Target te delen. Experience Platform activeert publiek naar Audience Manager via de volgende ondersteunde naamruimten: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Merk op dat Audience Manager en Doel publiekslidmaatschappen via de identiteit van ECID oplossen, zodat ECID nog voor het definitieve publiek die aan Adobe Target deelt wordt vereist.
 
 ## Implementatiestappen
-
 
 1. [Adobe Target implementeren](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) voor uw web- of mobiele toepassingen
 1. [Adobe Audience Manager implementeren](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html) (optioneel)
 1. [Adobe Analytics implementeren](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)  (optioneel)
 1. [Experience Platform uitvoeren en [!UICONTROL Klantprofiel in realtime]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html)
-1. Implementeren [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) of [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) Experience Platform Web SDK is vereist voor realtime Edge-segmentatie, maar is niet vereist voor het delen van streaming- en batchpubliek van RTCDP naar Target. Merk op dat de steun voor segmentatie in real time via Mobiele SDK nog in ontwikkeling is.
+1. Implementeren [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) of [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDK van het Web van het Experience Platform wordt vereist voor segmentatie in real time van de Rand, maar niet vereist voor het delen van het stromen en partijpubliek van Real-time Customer Data Platform aan Doel. Ondersteuning voor realtime segmentatie via de mobiele SDK en API is momenteel niet beschikbaar.
 1. [Adobe Target inschakelen als bestemming in Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) of voor de aanpak van het delen van het publiek [Verzoek om provisioning voor het delen van publiek tussen Experience Platform en Adobe Target (gedeeld publiek)](https://www.adobe.com/go/audiences) om publiek van Experience Platform aan Doel te delen.
-   >[!NOTE]
-   >
-   >Wanneer het gebruiken van de dienst van het Delen van het Publiek tussen RTCDP en Adobe Target, moet het publiek worden gedeeld gebruikend identiteitskaart van de Experience Cloud en deel van het zelfde Experience Cloud Org uitmaken. Ondersteuning voor andere identiteiten dan ECID vereist het gebruik van de WebSDK en Experience Edge Network.
-
 
 ## Verwante documentatie
 
