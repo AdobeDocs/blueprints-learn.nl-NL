@@ -5,9 +5,9 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 28774e211ceedec2e099abbe0dbfee91267bda21
+source-git-commit: a61fa9d1c6a77e9eb32ff363f724de92fbac8585
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,8 @@ ht-degree: 0%
 + Activering publiek en profiel{#audience-activation}
    + [Overzicht](/help/blueprints/audience-activation/overview.md)
    + [Anoniem Audience Activation](/help/blueprints/audience-activation/anonymous.md)
-   + [Activering op sociale en advertentiekanalen]{#audience-activation}
-      + [Activering met online en offline gegevens](/help/blueprints/audience-activation/online-offline.md)
+   + [Activering met online en offline gegevens](/help/blueprints/audience-activation/online-offline.md)
+   + Activering op sociale en advertentiekanalen{#audience-activation}
       + [Activering voor aangepast publiek van Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
    + [Activering voor streaming van bestanden en bedrijven](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Activering met Experience Cloud-toepassingen](/help/blueprints/audience-activation/platform-and-applications.md)
