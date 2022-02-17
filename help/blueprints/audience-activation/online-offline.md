@@ -4,9 +4,9 @@ description: Online/offline Audience Activation.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: c4adcc5d23bb0482a348d7b5b2b70b06ff2873e8
+source-git-commit: 53ef83cbaa9dde0793e379c0044f449cfca078ab
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Gebruik offlinekenmerken en -gebeurtenissen zoals offline bestellingen, transact
 
 Activeer het publiek naar bekende, op profielen gebaseerde bestemmingen, zoals e-mailproviders, sociale netwerken en advertentiebestemmingen.
 
-De blauwdruk voor activering met online en offline gegevens wordt nauw afgestemd op de [Activering van publiek en profiel met blauwdruk voor Experience Cloud-toepassingen](platform-and-applications.md). De aanvullende details zijn te vinden in het [Activering van publiek en profiel met blauwdruk voor Experience Cloud-toepassingen](platform-and-applications.md)   specifiek voor de integratie tussen Experience Platform- en Experience Cloud-toepassingen.
+De aanvullende details zijn te vinden in het [Activering van publiek en profiel met blauwdruk voor Experience Cloud-toepassingen](platform-and-applications.md) specifiek voor de integratie tussen Experience Platform- en Experience Cloud-toepassingen.
 
 ## Gevallen gebruiken
 
