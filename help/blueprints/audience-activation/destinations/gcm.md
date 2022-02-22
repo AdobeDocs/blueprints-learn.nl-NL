@@ -1,79 +1,93 @@
 ---
-title: Activering met blauwdruk van online en offline gegevens
-description: Online/offline Audience Activation.
-solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+title: Activering voor Google Customer Match
+description: Activering voor FGoogle Customer Match.
+solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
-source-git-commit: f1477d39a2b2349708ad74625bab6c5f4012ae1e
+source-git-commit: 0a0181a5fd84a645344fadefd47838237807c97c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
 
-# Activering met blauwdruk van online en offline gegevens
 
-Gebruik offlinekenmerken en -gebeurtenissen zoals offline bestellingen, transacties, CRM of loyaliteitsgegevens, samen met onlinegedrag voor het online aanwijzen en personaliseren.
+# Activering voor FGoogle Customer Match
 
-Activeer het publiek naar bekende, op profielen gebaseerde bestemmingen, zoals e-mailproviders, sociale netwerken en advertentiebestemmingen.
-
-De aanvullende details zijn te vinden in het [Activering van publiek en profiel met blauwdruk voor Experience Cloud-toepassingen](platform-and-applications.md) specifiek voor de integratie tussen Experience Platform- en Experience Cloud-toepassingen.
+Verzamel klantgegevens uit meerdere bronnen om één profielweergave van de klant te maken, deze profielen te segmenteren naar een samengesteld publiek voor marketing en personalisatie, deze soorten publiek te delen naar sociale advertentienetwerken, zoals klantenservice van Google, om te zoeken naar doelgerichte en personalisatiecampagnes tegen dat publiek. Met Customer Match van Google kunt u uw online- en offline gegevens gebruiken om uw klanten te bereiken en opnieuw contact op te nemen met andere klanten van Google, zoals: Zoeken, winkelen, Gmail en YouTube.
 
 ## Gevallen gebruiken
 
 * Publiek dat zich richt op bekende doelgroepen op sociale en reclamebestemmingen.
 * Online personalisatie met online en offline kenmerken.
-* Activeer het publiek naar bekende kanalen, zoals e-mail en SMS.
 
 ## Toepassingen
 
-* Adobe Experience Platform
-* [!UICONTROL Real-time Customer Data Platform]
+* Real-time Customer Data Platform
 
 ## Architectuur
 
-### Activering met online en offline gegevens met doelen
-
-<img src="assets/online_offline_activation.svg" alt="Referentiearchitectuur voor de blauwdruk voor online/offline Audience Activation" style="width:80%; border:1px solid #4a4a4a" />
-<br>
-
-## Guardrails
-
-[Raadpleeg de hulplijnen die worden beschreven op de pagina Overzicht van publiek- en profielactivering.](overview.md)
+<img src="../assets/gcm.png" alt="Referentiearchitectuur voor Google Customer Match Activation" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Implementatiestappen
 
-1. [Schema&#39;s maken](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden ingevoerd.
-1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden ingevoerd.
-1. [De juiste identiteiten en naamruimten configureren](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html) op het schema om ervoor te zorgen dat ingesloten gegevens in een verenigd profiel kunnen vastmaken.
-1. [De schema&#39;s en datasets voor profiel inschakelen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
-1. [Gegevens samenvoegen](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in Experience Platform.
-1. [Voorziening [!UICONTROL Real-time Customer Data Platform] delen van segmenten](https://www.adobe.com/go/audiences) tussen Experience Platform en Audience Manager voor publiek dat in Experience Platform wordt gedefinieerd en aan Audience Manager wordt gedeeld.
-1. [Segmenten maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html) in Experience Platform. Het systeem bepaalt automatisch of het segment als partij of het stromen wordt geëvalueerd.
-1. [Doelen configureren](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html) voor het delen van profielkenmerken en publieksleden aan gewenste bestemmingen.
+1. Identiteitsnaamruimten configureren die moeten worden gebruikt in profielgegevensbronnen.
+   * Gebruik naamruimten buiten het vak, zoals E-mail, SHA256-hash, indien beschikbaar.
+   * Google Customer Match heeft een lijst met ondersteunde identiteiten. Als u wilt activeren naar Google Customer Match, moet een van de ondersteunde identiteiten aanwezig zijn in de profielen die moeten worden geactiveerd.
+   * De volgende identiteiten worden momenteel ondersteund door Google Customer Match: GAID, IDFA, phone_sha256_e.164, email_lc_sha256, user_id.
+   * Zie voor meer informatie de [Google Customer Match Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html).
+   * Aangepaste naamruimten maken waarin naamruimten buiten het vak niet beschikbaar zijn voor de toepasselijke id&#39;s.
+1. Vorm de schema&#39;s en datasets van de gegevensbron van het Profiel.
+   * Profielrecordschema&#39;s maken voor alle brongegevens van profielrecords.
+      * Geef de primaire identiteit en secundaire identiteiten voor elk schema op.
+      * Schakel het schema in voor profielopname.
+   * Creeer de datasets van het Verslag van het Profiel voor alle brongegevens van het profielverslag, toewijzend het bijbehorende schema.
+      * Schakel de gegevensset in voor het opnemen van profielen.
+   * Creeer de schema&#39;s van de Gebeurtenis van de Ervaring van het Profiel voor alle van de profieltijdreeks gebaseerde brongegevens.
+      * Specificeer de primaire identiteit en secundaire identiteiten voor het schema.
+   * Schakel het schema in voor profielopname.
+   * Creeer de datasets van de Gebeurtenis van de Ervaring van het Profiel voor alle gegevens van de gebeurtenisbron van de profielervaring, toewijzend het bijbehorende schema.
+      * Schakel de gegevensset in voor het opnemen van profielen.
+1. Ontvang de brongegevens gebruikend een bronschakelaar in de bijbehorende dataset hierboven gevormd.
+   * Vorm de rekening van de bronschakelaar met geloofsbrieven.
+   * Vorm een dataflow om de gegevens van het brondossier of omslagplaats bij een gespecificeerd programma aan de gespecificeerde dataset in te voeren.
+   * Wijs om het even welke gebieden van de brongegevens aan het doelschema toe.
+   * Transformeer alle velden naar de juiste indeling voor opname in het Experience Platform.
+      * Datumtransformaties
+      * Transformeren naar kleine letters waar van toepassing - zoals e-mailadres
+      * Patroontransformaties (bijvoorbeeld telefoonnummer)
+      * Voeg unieke record-id&#39;s toe voor ervaringsgebeurtenisrecords als deze niet aanwezig zijn in de brongegevens.
+      * Transformeer arrays en kaarttekstvelden om ervoor te zorgen dat arrays en kaarten correct worden toegewezen en gemodelleerd voor segmentatie in Experience Platform.
+1. Vorm het Beleid van de Fusie van het Profiel om de correcte configuratie van de identiteitsgrafiek te verzekeren en welke datasets in de samenvoeging van profielen zouden moeten worden omvat.
+1. Nadat de gegevensstromen hebben uitgevoerd, zorg ervoor de de gegevensinvoer van het profiel met succes zonder fouten was.
+   * Inspect de identiteitsgrafiek van verscheidene profielen om correcte verwerking van identiteitsverhoudingen te verzekeren.
+   * Inspect de kenmerken en gebeurtenissen van verschillende profielen om ervoor te zorgen dat attributen en gebeurtenissen correct worden opgenomen in de profielen.
+1. Auteurssegmenten om profielpubliek te maken
+   * Bouw segmenten in de segmentbouwer gebruikend regels tegen attributen en gebeurtenissen.
+   * Sparen het segment voor evaluatie. De segmenten zullen bij het gespecificeerde programma eens per dag evalueren.
+      * Als de segmentregels voor het stromen segmentatie verkiesbaar zijn zal het segment worden geëvalueerd aangezien de nieuwe het stromen gegevens voor de profielen worden opgenomen. Streaming segmenten worden ook één keer per dag geëvalueerd tijdens de geplande batchsegmentatie.
+1. Zorg ervoor dat de segmentresultaten naar verwachting zijn.
+   * Herzie de telling van segmentresultaten voor de bepaalde segmenten.
+   * Onderzoek het profiel dat in het segment zou moeten worden omvat om te verifiëren het segmentlidmaatschap is inbegrepen in het gedeelte van het segmentlidmaatschap van het profiel.
+1. Vorm de levering van het publiek aan de bestemming in de configuratie van de Bestemming.
+   * Zie de [Google Customer Match Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html) voor meer informatie over het configureren van de Facebook-bestemming.
+   * Wanneer het vormen van een bestemming, selecteer welk publiek u aan de bestemming wilt activeren.
+   * Bepaal de geplande begindatum u de bestemmingsdataflow zou willen beginnen leverend het publiek aan de bestemming.
+   * Elke bestemming heeft verplichte en optionele kenmerken die worden verzonden.
+      * Voor Google Customer Match moet een van de vereiste identiteiten worden opgenomen en worden gebruikt om de profielen in het publiek in het Experience Platform aan te passen aan een profiel dat door Google Customer Match als doel wordt gesteld.
+   * Elke bestemming heeft ook een opgegeven leveringstype, of het nu gaat om streaming, batch, op bestand gebaseerd of JSON-lading.
+      * Voor Google Customer Match worden abonnementen voor het publiek op streamingwijze geleverd aan een Google Customer Match-eindpunt in JSON-indeling.
+      * De leden van het publiek zullen op streamingwijze na het stromen of partijsegmentatie evaluatie in Experience Platform worden geleverd.
+1. Verzeker de bestemmingsstroom het publiek aan de bestemming zoals verwacht heeft geleverd.
+   * Controleer de controleinterface om te bevestigen dat het publiek met het verwachte aantal profielen is geleverd. De publieksgrootte moet het verwachte aantal geactiveerde profielen weerspiegelen. Voor specifieke doelen, zoals Google Customer Match, zijn bepaalde velden vereist, zoals een e-mailhash-identiteit. Als deze gebieden niet voorkomen in het profiel dat lid is van het publiek, wordt de doellocatie niet geactiveerd.
+   * Controleer of overgeslagen profielen aangeven dat er ontbrekende of verplichte kenmerken ontbreken in de profiel-id.
+   * Controleer op eventuele andere fouten die moeten worden opgelost.
+1. Verifieer het publiek aan de eindbestemming met het verwachte aantal publiekslidmaatschappen werd geactiveerd.
+   * Schakel over naar je Google Ads-account nadat je de activeringsstroom hebt voltooid. De geactiveerde segmenten worden in uw Google-account weergegeven als klantenlijsten. Houd er rekening mee dat sommige doelgroepen, afhankelijk van de grootte van uw segment, alleen worden gevuld als er meer dan 100 actieve gebruikers zijn die u kunt bedienen.
 
-## Overwegingen bij de implementatie
+## Guardrails
 
-* Wanneer u profielgegevens deelt met bestemmingen, moet u de specifieke identiteitswaarde opnemen die door de bestemming wordt gebruikt in de doellading. Om het even welke identiteit die voor een doelbestemming noodzakelijk is moet in Platform worden opgenomen en als identiteit voor worden gevormd [!UICONTROL Klantprofiel in realtime].
-
-### Publiek delen van Real-time Customer Data Platform naar Audience Manager
-
-* Het lidmaatschap van het publiek van RT-CDP wordt gedeeld aan Audience Manager op streamingwijze zodra de segmentbeoordeling volledig is en aan het profiel van de Klant in real time wordt geschreven, of de segmentevaluatie in partij of het stromen voorkwam. Als het gekwalificeerde profiel de regionale verpletterende informatie voor verwante profielapparaten bevat, dan wordt het publiekslidmaatschap van RTCDP gekwalificeerd op het stromen wijze op de bijbehorende Rand van de Audience Manager. Als de regionale verpletterende informatie in de afgelopen 14 dagen op een profiel met een timestamp werd toegepast zal het op de Rand van de Audience Manager in het stromen worden geëvalueerd. Als de profielen van RTCDP geen regionale verpletterende informatie bevatten of de regionale verpletterende informatie is groter dan 14 dagen oud, dan worden de profiellidmaatschappen verzonden naar de hubplaats van de Audience Manager voor partijgebaseerde evaluatie en activering. Profielen die in aanmerking komen voor Edge-activering worden binnen minuten na segmentkwalificatie geactiveerd vanuit RTCDP. Profielen die niet in aanmerking komen voor Edge-activering, komen in aanmerking voor de hub van de Audience Manager en hebben mogelijk een tijdsbestek van 12-24 uur voor verwerking.
-
-* De regionale verpletterende informatie waarvoor Rand het profiel van de Audience Manager wordt opgeslagen kan aan Experience Platform van Audience Manager, de Dienst van identiteitskaart van de Bezoeker, Analytics, Lancering, of direct van het Web SDK als afzonderlijke de klassendataset van het profielverslag worden verzameld gebruikend de &quot;gegevens vangen gebiedinformatie&quot;XDM gebiedsgroep.
-
-* Voor activeringsscenario&#39;s waarbij het publiek van Experience Platform tot Audience Manager wordt gedeeld, worden de volgende identiteiten automatisch gedeeld: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Aangepaste naamruimten worden momenteel niet gedeeld.
-
-Het publiek van Experience Platform kan door de bestemmingen van de Audience Manager worden gedeeld wanneer de vereiste bestemmingsidentiteiten in inbegrepen zijn [!UICONTROL Klantprofiel in realtime]of waar de identiteit in de [!UICONTROL Klantprofiel in realtime] kan worden gerelateerd aan de vereiste doelidentiteiten die in Audience Manager zijn gekoppeld.
+[Profiel en segmentatiehulplijnen](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 
 ## Verwante documentatie
 
-* [[!UICONTROL Real-time Customer Data Platform] Productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
-* [Richtlijnen voor profiel en segmentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
-* [Segmenteringsdocumentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
-* [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
-
-## Verwante video&#39;s en Tutorials
-
-* [[!UICONTROL Real-time Customer Data Platform] overzicht](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
-* [Demo van [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
-* [Segmenten maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+Activering voor Google Customer Match - [Doelconfiguratie](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html)

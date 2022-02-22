@@ -3,13 +3,13 @@ title: Activering voor aangepast publiek van Facebook
 description: Activering voor aangepast publiek van Facebook.
 solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
-source-git-commit: f1477d39a2b2349708ad74625bab6c5f4012ae1e
+exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
+source-git-commit: 051b094412419363e5e2406f2e436cc528bd409e
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
-
 
 # Activering voor aangepast publiek van Facebook
 
@@ -19,7 +19,9 @@ Verzamel klantengegevens uit veelvoudige bronnen om één enkele profielmening v
 
 * Publiek dat zich richt op bekende doelgroepen op sociale en reclamebestemmingen.
 * Online personalisatie met online en offline kenmerken.
-Toepassingen
+
+## Toepassingen
+
 * Real-time Customer Data Platform
 
 ## Architectuur
@@ -32,7 +34,7 @@ Toepassingen
    * Gebruik naamruimten buiten het vak, zoals E-mail, SHA256-hash, indien beschikbaar.
    * Facebook heeft een lijst met ondersteunde identiteiten. Als u een aangepast publiek van Facebook wilt activeren, moet een van de ondersteunde identiteiten aanwezig zijn in de profielen die moeten worden geactiveerd.
    * De volgende identiteiten worden momenteel ondersteund door Facebook: GAID, IDFA, phone_sha256, email_lc_sha256, extern_id.
-   * Zie voor meer informatie de [Facebook-doelgids](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en).
+   * Zie voor meer informatie de [Facebook-doelgids](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html).
    * Aangepaste naamruimten maken waarin naamruimten buiten het vak niet beschikbaar zijn voor de toepasselijke id&#39;s.
 1. Vorm de schema&#39;s en datasets van de gegevensbron van het Profiel.
    * Profielrecordschema&#39;s maken voor alle brongegevens van profielrecords.
@@ -67,7 +69,7 @@ Toepassingen
    * Herzie de telling van segmentresultaten voor de bepaalde segmenten.
    * Onderzoek het profiel dat in het segment zou moeten worden omvat om te verifiëren het segmentlidmaatschap is inbegrepen in het gedeelte van het segmentlidmaatschap van het profiel.
 1. Vorm de levering van het publiek aan de bestemming in de configuratie van de Bestemming.
-   * Zie de [Facebook-doelgids](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en) voor meer informatie over het configureren van de Facebook-bestemming.
+   * Zie de [Facebook-doelgids](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html) voor meer informatie over het configureren van de Facebook-bestemming.
    * Wanneer het vormen van een bestemming, selecteer welk publiek u aan de bestemming wilt activeren.
    * Bepaal de geplande begindatum u de bestemmingsdataflow zou willen beginnen leverend het publiek aan de bestemming.
    * Elke bestemming heeft verplichte en optionele kenmerken die worden verzonden.
@@ -88,4 +90,4 @@ Toepassingen
 
 ## Verwante documentatie
 
-Activering voor aangepast publiek van Facebook - [Doelconfiguratie](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en)
+Activering voor aangepast publiek van Facebook - [Doelconfiguratie](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)
