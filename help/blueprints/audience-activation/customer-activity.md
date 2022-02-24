@@ -1,10 +1,10 @@
 ---
 title: Vervaging van de Hub voor klantactiviteiten
-description: '[!UICONTROL Klantprofiel in realtime] raadplegingen om context voor agent-bijgewoonde steun en verkoop te verstrekken.'
+description: '"[!UICONTROL Klantprofiel in realtime] raadplegingen om context voor agent-bijgewoonde steun en verkoop te verstrekken."'
 solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+source-git-commit: 062701f2ee8d7b2a97db2ee8e75a4d0f42b59b53
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
