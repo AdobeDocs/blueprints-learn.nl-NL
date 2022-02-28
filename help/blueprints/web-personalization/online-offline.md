@@ -5,9 +5,9 @@ landing-page-description: Synchroniseer webpersonalisatie met e-mail en andere b
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 7d614edd9d6db1d6da936c79f4de9bb66db72c0b
+source-git-commit: 4d02197b437c167a90cbadf16b0b19fc733a9f65
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -51,19 +51,19 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
   <tr>
     <td class="tg-0lax">1</td>
 <td class="tg-73oq">Realtime segmentevaluatie op de Rand die van Real-time Customer Data Platform aan Doel wordt gedeeld</td>
-    <td class="tg-0lax">- Evalueer publiek in real time voor zelfde of volgende paginagrootte op de Rand.<br>- Daarnaast worden alle segmenten die in de streaming of batch zijn geëvalueerd, geprojecteerd op het Edge Network, zodat deze worden opgenomen in de evaluatie en personalisatie van het Edge-segment.</td>
+    <td class="tg-0lax">- Evalueer publiek in real time voor zelfde of volgende paginagrootte op de Rand.<br>- Daarnaast worden alle segmenten die op streaming- of batchwijze worden geëvalueerd, geprojecteerd op het Edge Network, zodat deze worden opgenomen in de evaluatie en personalisatie van het Edge-segment.</td>
     <td class="tg-73oq">- DataStream moet in de Rand van de Ervaring met toegelaten de uitbreiding van het Doel en van het Experience Platform worden gevormd, zal identiteitskaart DataStream in de bestemmingsconfiguratie van het Doel worden verstrekt.<br>- Het doel van het doel moet in de Doelen van Real-time Customer Data Platform worden gevormd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.<br>- WebSDK moet worden geïmplementeerd.<br>- Mobiele SDK en API-gebaseerde implementatie is momenteel niet beschikbaar</td> 
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
     <td class="tg-73oq">Streaming en batchverdeling van publiek van Real-time Customer Data Platform naar Target via Edge-aanpak</td>
-    <td class="tg-0lax">- Deel streaming en batchpubliek van Real-time Customer Data Platform naar Target via het Edge Network. Het publiek dat in real time wordt geëvalueerd vereist WebSDK en de publieksevaluatie in real time die in integratiepatroon 1 wordt geschetst.</td>
-    <td class="tg-73oq">- DataStream moet in de Rand van de Ervaring worden gevormd, zal identiteitskaart DataStream in de bestemmingsconfiguratie van het Doel worden verstrekt - hoewel het niet wordt vereist om deze gegevensstroom voor verpersoonlijking of het delen van het stromen en partijpubliek op dit ogenblik uit te voeren als het gebruiken van de AT.js implementatiebenadering, het echter in het Netwerk van de Rand moet worden gevormd.<br>- Het doel van het doel moet in de Doelen van Real-time Customer Data Platform worden gevormd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.<br>- WebSDK wordt niet vereist voor het delen van het stromen en partijpubliek aan Doel hoewel het wordt vereist om de evaluatie van het randsegment in real time zoals die in integratiepatroon 1 wordt geschetst toe te laten. <br>- Als u AT.js gebruikt, wordt alleen profielintegratie met de naamruimte ECID ondersteund. <br>- Voor de raadplegingen van douanetechaamsnamespace op de Rand, wordt de plaatsing WebSDK vereist en elke identiteit moet als identiteit in de identiteitskaart worden geplaatst.</td>
+    <td class="tg-0lax">- Deel streaming en batchpubliek van Real-time Customer Data Platform naar Target via het Edge Network. Het publiek dat in real time wordt geëvalueerd vereist WebSDK en de publieksevaluatie in real time die in integratiepatroon 1 wordt geschetst.<br>- Deze integratie wordt doorgaans gebruikt om streaming- en batchpubliek te delen met behulp van traditionele SDK's in plaats van te migreren naar de Edge Collection en WebSDK, die zowel realtime als streaming- en batchdoelgroepen mogelijk maakt, zoals beschreven in integratiepatroon 1.</td>
+    <td class="tg-73oq">- DataStream moet in de Rand van de Ervaring worden gevormd, zal identiteitskaart DataStream in de bestemmingsconfiguratie van het Doel worden verstrekt.<br>- Het doel van het doel moet in de Doelen van Real-time Customer Data Platform worden gevormd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.<br>- WebSDK wordt niet vereist voor het delen van het stromen en partijpubliek aan Doel hoewel het wordt vereist om de evaluatie van het randsegment in real time zoals die in integratiepatroon 1 wordt geschetst toe te laten. <br>- Als u AT.js gebruikt, wordt alleen profielintegratie met de naamruimte ECID ondersteund. <br>- Voor de raadplegingen van douanetechaamsnamespace op de Rand, wordt de plaatsing WebSDK vereist en elke identiteit moet als identiteit in de identiteitskaart worden geplaatst.</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-73oq"><span style="font-weight:400;font-style:normal">Streaming en batchverdeling van publiek van Real-time Customer Data Platform naar Target en Audience Manager via de benadering voor het delen van services bij het publiek</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Deel streaming en batchpubliek van Real-time Customer Data Platform naar Target en Audience Manager via de service Publiek delen. Dit integratiepatroon kan worden benut wanneer extra verrijking van gegevens van derden en publiek in de Audience Manager gewenst is. Anders hebben integratiepatroon 1 en 2 de voorkeur. Het publiek dat in real time wordt geëvalueerd vereist WebSDK en de publieksevaluatie in real time die in integratiepatroon 1 wordt geschetst.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Deel streaming en batchpubliek van Real-time Customer Data Platform naar Target en Audience Manager via de service Publiek delen.<br> - Dit integratiepatroon kan worden benut wanneer extra verrijking van gegevens van derden en publiek in de Audience Manager gewenst is. Anders hebben integratiepatroon 1 en 2 de voorkeur. Het publiek dat in real time wordt geëvalueerd vereist WebSDK en de publieksevaluatie in real time die in integratiepatroon 1 wordt geschetst.</span></td>
     <td class="tg-73oq">- Projectie van het publiek via de service voor het delen van het publiek moet worden uitgevoerd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.<br>- Identiteit moet worden omgezet in ECID om aan de rand te delen voordat Doel actie kan ondernemen.<br>- WebSDK-implementatie is niet vereist voor deze integratie.</td>
   </tr>
 </tbody>
