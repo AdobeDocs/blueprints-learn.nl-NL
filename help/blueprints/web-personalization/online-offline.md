@@ -5,9 +5,9 @@ landing-page-description: Synchroniseer webpersonalisatie met e-mail en andere b
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 4d02197b437c167a90cbadf16b0b19fc733a9f65
+source-git-commit: 2b2e9a7b849b71ac4b827a3783820a7e4b8ad6f1
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1548'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
 * Adobe Audience Manager (optioneel): Hiermee voegt u publieksgegevens van derden, apparaatgrafieken op basis van een computer, de mogelijkheid om Real-time Customer Data Platform-publiek in Adobe Analytics te laten opstijgen en de mogelijkheid om Adobe Analytics-publiek in Real-time Customer Data Platform te laten opstijgen toe
 * Adobe Analytics (optioneel): Hiermee kunt u segmenten samenstellen op basis van historische gedragsgegevens en fijnkorrelige segmentatie van Adobe Analytics-gegevens
 
-## Integratiepatronen
+## Hoofdletterscenario&#39;s gebruiken
 
 <table class="tg" style="undefined;table-layout: fixed; width: 790px">
 <colgroup>
@@ -42,7 +42,7 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
 <thead>
   <tr>
     <th class="tg-y6fn">Aantal</th>
-    <th class="tg-f7v4">Integratiepatroon</th>
+    <th class="tg-f7v4">Hoofdletterscenario's gebruiken</th>
     <th class="tg-y6fn">Capaciteit</th>
     <th class="tg-f7v4">Voorwaarden</th>
   </tr>
@@ -52,49 +52,38 @@ Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalp
     <td class="tg-0lax">1</td>
 <td class="tg-73oq">Realtime segmentevaluatie op de Rand die van Real-time Customer Data Platform aan Doel wordt gedeeld</td>
     <td class="tg-0lax">- Evalueer publiek in real time voor zelfde of volgende paginagrootte op de Rand.<br>- Daarnaast worden alle segmenten die op streaming- of batchwijze worden geëvalueerd, geprojecteerd op het Edge Network, zodat deze worden opgenomen in de evaluatie en personalisatie van het Edge-segment.</td>
-    <td class="tg-73oq">- DataStream moet in de Rand van de Ervaring met toegelaten de uitbreiding van het Doel en van het Experience Platform worden gevormd, zal identiteitskaart DataStream in de bestemmingsconfiguratie van het Doel worden verstrekt.<br>- Het doel van het doel moet in de Doelen van Real-time Customer Data Platform worden gevormd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.<br>- WebSDK moet worden geïmplementeerd.<br>- Mobiele SDK en API-gebaseerde implementatie is momenteel niet beschikbaar</td> 
+    <td class="tg-73oq"><br>- Implementatiepatroon 1 zoals hieronder beschreven.<br>- Web/Mobile SDK moet worden geïmplementeerd.<br>- Let op: de Mobile SDK en API-gebaseerde ondersteuning voor realtime segmentatie is momenteel niet beschikbaar<br>- DataStream moet in de Rand van de Ervaring met toegelaten de uitbreiding van het Doel en van het Experience Platform worden gevormd, zal identiteitskaart DataStream in de bestemmingsconfiguratie van het Doel worden verstrekt.<br>- Het doel van het doel moet in de Doelen van Real-time Customer Data Platform worden gevormd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.</td> 
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
     <td class="tg-73oq">Streaming en batchverdeling van publiek van Real-time Customer Data Platform naar Target via Edge-aanpak</td>
     <td class="tg-0lax">- Deel streaming en batchpubliek van Real-time Customer Data Platform naar Target via het Edge Network. Het publiek dat in real time wordt geëvalueerd vereist WebSDK en de publieksevaluatie in real time die in integratiepatroon 1 wordt geschetst.<br>- Deze integratie wordt doorgaans gebruikt om streaming- en batchpubliek te delen met behulp van traditionele SDK's in plaats van te migreren naar de Edge Collection en WebSDK, die zowel realtime als streaming- en batchdoelgroepen mogelijk maakt, zoals beschreven in integratiepatroon 1.</td>
-    <td class="tg-73oq">- DataStream moet in de Rand van de Ervaring worden gevormd, zal identiteitskaart DataStream in de bestemmingsconfiguratie van het Doel worden verstrekt.<br>- Het doel van het doel moet in de Doelen van Real-time Customer Data Platform worden gevormd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.<br>- WebSDK wordt niet vereist voor het delen van het stromen en partijpubliek aan Doel hoewel het wordt vereist om de evaluatie van het randsegment in real time zoals die in integratiepatroon 1 wordt geschetst toe te laten. <br>- Als u AT.js gebruikt, wordt alleen profielintegratie met de naamruimte ECID ondersteund. <br>- Voor de raadplegingen van douanetechaamsnamespace op de Rand, wordt de plaatsing WebSDK vereist en elke identiteit moet als identiteit in de identiteitskaart worden geplaatst.</td>
+    <td class="tg-73oq"><br>- Implementatiepatroon 1 of 2 zoals hieronder beschreven.<br>- Web/Mobile SDK wordt niet vereist voor het delen van het stromen en partijpubliek aan Doel hoewel het wordt vereist om de evaluatie van het randsegment in real time zoals die in integratiepatroon 1 wordt geschetst toe te laten. <br>- Als u AT.js gebruikt, wordt alleen profielintegratie met de naamruimte ECID ondersteund. <br>- Voor de raadplegingen van douanetechaamsnamespace op de Rand, wordt de plaatsing WebSDK vereist en elke identiteit moet als identiteit in de identiteitskaart worden geplaatst.<br>- DataStream moet in de Rand van de Ervaring worden gevormd, zal identiteitskaart DataStream in de bestemmingsconfiguratie van het Doel worden verstrekt.<br>- Het doel van het doel moet in de Doelen van Real-time Customer Data Platform worden gevormd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-73oq"><span style="font-weight:400;font-style:normal">Streaming en batchverdeling van publiek van Real-time Customer Data Platform naar Target en Audience Manager via de benadering voor het delen van services bij het publiek</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Deel streaming en batchpubliek van Real-time Customer Data Platform naar Target en Audience Manager via de service Publiek delen.<br> - Dit integratiepatroon kan worden benut wanneer extra verrijking van gegevens van derden en publiek in de Audience Manager gewenst is. Anders hebben integratiepatroon 1 en 2 de voorkeur. Het publiek dat in real time wordt geëvalueerd vereist WebSDK en de publieksevaluatie in real time die in integratiepatroon 1 wordt geschetst.</span></td>
-    <td class="tg-73oq">- Projectie van het publiek via de service voor het delen van het publiek moet worden uitgevoerd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.<br>- Identiteit moet worden omgezet in ECID om aan de rand te delen voordat Doel actie kan ondernemen.<br>- WebSDK-implementatie is niet vereist voor deze integratie.</td>
+    <td class="tg-73oq"><br>- Implementatiepatroon 1 of 2 zoals hieronder beschreven.<br>- Web/Mobile SDK-implementatie is niet vereist voor deze integratie.<br>- Projectie van het publiek via de service voor het delen van het publiek moet worden uitgevoerd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.<br>- Identiteit moet worden omgezet in ECID om aan de rand te delen voordat Doel actie kan ondernemen.</td>
   </tr>
 </tbody>
 </table>
 
+## Architectuur voor Scenario 1 en 2 - Echte tijd, het Streamen, en het Delen van het Publiek van de Partij door het Netwerk van de Rand
 
-## Architectuur voor integratiepatroon 1
-
-
-Gedetailleerde architectuur voor integratiepatroon 1
+Architectuur
 
 <img src="assets/RTCDP+Target.png" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:80%; border:1px solid #4a4a4a" />
 
-Reeksdiagram voor integratiepatroon 1
+Sequentiedetail
 
 <img src="assets/RTCDP+Target_flow.png" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:80%; border:1px solid #4a4a4a" />
-
-<br>
-
-<img src="assets/RTCDP+Target_sequence.png" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:80%; border:1px solid #4a4a4a" />
 
 Overzichtsarchitectuur voor integratiepatroon 1
 
 <img src="assets/personalization_with_apps.png" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:80%; border:1px solid #4a4a4a"/>
 
-
-## Implementatie voor integratiepatroon 1
-
-Voor realtime segmentatie op de rand [!UICONTROL Platform Web SDK] en [!UICONTROL Edge Network] moeten worden uitgevoerd. [Verwijs naar het Web van het Experience Platform en Mobiele SDK Blauwdruk](../data-ingestion/websdk.md)
-
-### Implementatiestappen voor integratiepatroon 1
+### De Stappen van de implementatie voor Scenario 1, steunt ook scenario 2
 
 1. [Adobe Target implementeren](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) voor uw web- of mobiele toepassingen
 1. [Experience Platform uitvoeren en [!UICONTROL Klantprofiel in realtime]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html)
@@ -102,12 +91,13 @@ Voor realtime segmentatie op de rand [!UICONTROL Platform Web SDK] en [!UICONTRO
 1. [Het Edge-netwerk configureren met een Edge DataStream](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)
 1. [Adobe Target inschakelen als bestemming in Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en)
 
-## Implementatie voor integratiepatroon 2 en 3
+## Architectuur voor Scenario 3 - het Stromen en het Delen van het Publiek van de Publiek door de Dienst van het Delen van het Publiek aan Adobe Target en Audience Manager
 
-Traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AT.js en AppMeasurement.js)
-<img src="assets/app_sdk_flow.png" alt="Referentiearchitectuur voor de toepassingsspecifieke SDK-benadering" style="width:80%; border:1px solid #4a4a4a" />
+Architectuur
 
-### Implementatiestappen voor integratiepatroon 2 en 3
+<img src="assets/audience_share_architecture.png" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:80%; border:1px solid #4a4a4a" />
+
+### De Stappen van de implementatie voor Scenario 3, steunen ook scenario 2
 
 1. [Adobe Target implementeren](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) voor uw web- of mobiele toepassingen
 1. [Adobe Audience Manager implementeren](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html) (optioneel)
@@ -117,6 +107,24 @@ Traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AT.js en Ap
 1. [Verzoek om provisioning voor het delen van publiek tussen Experience Platform en Adobe Target (gedeeld publiek)](https://www.adobe.com/go/audiences) om publiek van Experience Platform aan Doel te delen.
 1. (Optioneel) [Het Edge-netwerk configureren met een Edge DataStream](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html) (Dit is alleen vereist voor integratiepatroon 2, waarbij het publiek niet hoeft te worden gedeeld met Audience Manager of verrijkt door het publiek of de gegevens van de Audience Manager).
 1. (Optioneel) [Adobe Target inschakelen als bestemming in Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) om streaming en batchpubliek van Real-time Customer Data Platform rechtstreeks naar Edge te delen, versus via de service en Audience Manager voor het delen van publiek.
+
+### Implementatiepatronen
+
+Online en Offline personalisatie wordt ondersteund via verschillende implementatiemethoden.
+
+### Implementatiepatroon 1 - Ondersteunt scenario 1 en 2 voor gebruik van hoofdletters en kleine letters. Edge Network met Web/Mobile SDK (aanbevolen aanpak)
+
+Het gebruiken van het Netwerk van de Rand met Web/Mobile SDK
+<img src="assets/web_sdk_flow.png" alt="Referentiearchitectuur voor de toepassingsspecifieke SDK-benadering" style="width:80%; border:1px solid #4a4a4a" />
+
+<br>
+Reeksdiagram
+<img src="assets/RTCDP+Target_sequence.png" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:80%; border:1px solid #4a4a4a" />
+
+### Implementatiepatroon 2 - Ondersteunt scenario 3 en 2 van gebruikscase. Toepassingsspecifieke SDK&#39;s
+
+Traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AT.js en AppMeasurement.js)
+<img src="assets/app_sdk_flow.png" alt="Referentiearchitectuur voor de toepassingsspecifieke SDK-benadering" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Guardrails
 
