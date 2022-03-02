@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+source-git-commit: d0fd2d638ad14b1cfd3b48d82093b676de465286
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,8 @@ Met een kanaal-eerste benadering, handelt elk kanaal als silo waarin de verperso
 | Blauwdruk | Beschrijving | Experience Cloud-toepassingen |
 |---|---|---|
 | **[Anoniem Audience Activation](anonymous.md)** | <ul><li>Doelpubliek via internet en reclamekanalen voor anonieme en gedragsgegevens van klanten.</li><li>Integreren met publieksgegevens van derden voor een betere personalisatie.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
-| **[Activering met online en offline gegevens](online-offline.md)** | <ul><li>Activeer naar bekende, op profielen gebaseerde bestemmingen, zoals e-mailproviders, sociale netwerken en reclamebestemmingen. </li><li>Gebruik offlinekenmerken en -gebeurtenissen, zoals offlinebestellingen, transacties, CRM of loyaliteitsgegevens, samen met onlinegedrag voor het online aanwijzen en personaliseren.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager (optioneel)</li></ul> |
-| **[Activering voor streaming van bestanden en bedrijven](enterprise-destinations.md)** | <ul><li>Activering en toegang van het profiel van de klant in real time over ondernemingssystemen en toepassingen om rijke contextafhankelijke klantenervaringen te drijven. </li></ul><ul><li>Een verkoop- of supportervaring starten met gebruik van inzichten en gebeurtenissen vanuit het realtime profiel van de klant.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform activeren</li><li>Adobe Audience Manager (optioneel)</li></ul> |
+| **[Bekende activering van klant](known.md)** | <ul><li>Activeer naar bekende, op profielen gebaseerde bestemmingen, zoals e-mailproviders, sociale netwerken en reclamebestemmingen. </li><li>Gebruik offlinekenmerken en -gebeurtenissen, zoals offlinebestellingen, transacties, CRM of loyaliteitsgegevens, samen met onlinegedrag voor het online aanwijzen en personaliseren.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager (optioneel)</li></ul> |
 | **[Activering van publiek en profiel met Experience Cloud-toepassingen](platform-and-applications.md)** | <ul><li>Profielen en publiek in Experience Platform beheren en deze delen met Experience Cloud-toepassingen</li><li>Bouw en deel rijke klantensegmenten en inzichten in Experience Platform en deel hen met de Toepassingen van de Experience Cloud</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform activeren</li><li>Experience Cloud-toepassingen</li></ul> |
-| **[Hub voor klantactiviteiten](customer-activity.md)** | <ul><li>Verbeter de context van de consument aan agent-gesteunde interactie, zoals steun en verkoopervaringen. Gebruikend het profielraadpleging in Experience Platform, kunnen de agenten meer context over de consument, zoals recente aankopen, campagneinteractie, eigenschappen, publiekslidmaatschappen, en andere attributen en inzichten ontvangen die in het klantenprofiel in real time worden opgeslagen.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## Architectuur van het Profiel van de Klant in real time
 

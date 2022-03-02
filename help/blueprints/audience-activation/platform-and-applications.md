@@ -4,9 +4,9 @@ description: Profielen en publiek in Experience Platform beheren en deze delen m
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
+source-git-commit: 0f0cd7487c67066b3d1d7ec162fadc634b50627b
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Profielen en publiek in Experience Platform beheren en deze delen met Experience Cloud-toepassingen. Bouw en deel rijke klantensegmenten en inzichten in Experience Platform en deel hen met de toepassingen van de Experience Cloud.
 
-Activering met Experience Cloud-toepassingen wordt nauw afgestemd op de [Online/offline Audience Activation vervagen](online-offline.md).
+Activering met Experience Cloud-toepassingen wordt nauw afgestemd op de [Bekende blauwdruk voor activering door klant](known.md).
 
 ## Gevallen gebruiken
 

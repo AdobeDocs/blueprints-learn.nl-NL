@@ -2,9 +2,9 @@
 title: Gebruik van gevallen van Digital Experience Blueprints
 description: Digitale Ervaring blauwdrukken zijn herhaalbare implementaties om strategie aan te pakken en gevestigde bedrijfsproblemen op te lossen. Ze versnellen tijd tot waarde en bieden een snelle weg naar succes.
 exl-id: 7ec2b5c9-b46c-4434-b0d3-8aba863e9006
-source-git-commit: 3afcc2c293242a3b68ee4e4603ab686f6b309232
+source-git-commit: 657e94baf69ba1898a163a082fbfef36fdfd9a3a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Welke van deze gebruiksgevallen zijn belangrijk voor uw zaken? Ontdek welke Digi
  <tr>
   <td>Publiek dat zich richt op bekende doelgroepen op sociale en reclamebestemmingen.</td>
   <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online/offline Audience Activation</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html?lang=en">Bekende activering van klant</a></td>
  </tr>
  <tr>
   <td>Online personalisatie met online en offline kenmerken.</td>

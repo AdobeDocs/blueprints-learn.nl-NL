@@ -2,9 +2,9 @@
 title: Digitale beleving blauwdrukken
 description: Digitale Ervaring blauwdrukken zijn herhaalbare implementaties om strategie aan te pakken en gevestigde bedrijfsproblemen op te lossen. Ze versnellen tijd tot waarde en bieden een snelle weg naar succes.
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: a86df4a1b2de38bcb244a6afe1cea87adc7e26fa
+source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ De Verbluepingen van de Digitale Ervaring zijn herhaalbare implementaties die u 
     <p><em>Verzend berichten en beïnvloedt klantenervaringen in real time gebruikend [!UICONTROL Platform] als centrale hub.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="miniatuurafbeelding voor Onlineafdruk/Offline Audience Activation" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Online/offline Audience Activation</strong></a></div>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html"><img alt="miniatuurafbeelding voor de bekende blauwdruk voor activering door klant" src="audience-activation/assets/online_offline_activation.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html"><strong>Online/offline Audience Activation</strong></a></div>
     <p><em>Lever publiek-geactiveerde dwars-kanaalreclame.</em></p>
   </td>
   <td>
@@ -51,5 +51,5 @@ De Verbluepingen van de Digitale Ervaring zijn herhaalbare implementaties die u 
 
 * [[!DNL Introducing Adobe Experience Platform’s New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
 * [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
-* [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
+* [[!DNL Blueprint for Web/Mobile Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Blueprint for Cross-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)

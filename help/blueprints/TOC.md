@@ -5,9 +5,9 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: bdbf083e60a94b29debb70976aad47a083b41e32
+source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,14 @@ ht-degree: 0%
 + Activering publiek en profiel{#audience-activation}
    + [Overzicht](/help/blueprints/audience-activation/overview.md)
    + [Anoniem Audience Activation](/help/blueprints/audience-activation/anonymous.md)
-   + [Activering met online en offline gegevens](/help/blueprints/audience-activation/online-offline.md)
-   + Activering op sociale en advertentiekanalen{#audience-activation}
-      + [Activering voor aangepast publiek van Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
-      + [Activering voor Google Customer Match](/help/blueprints/audience-activation/destinations/gcm.md)
-   + [Activering voor streaming van bestanden en bedrijven](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + Bekende activering van klant{#known-customer-audience-activation}
+      + [Overzicht](/help/blueprints/audience-activation/known.md)
+      + Activering op sociale en advertentiekanalen{#audience-activation}
+         + [Activering voor aangepast publiek van Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
+         + [Activering voor Google Customer Match](/help/blueprints/audience-activation/destinations/gcm.md)
+      + [Activering voor streaming van bestanden en bedrijven](/help/blueprints/audience-activation/enterprise-destinations.md)
+      + [Hub voor klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)
    + [Activering met Experience Cloud-toepassingen](/help/blueprints/audience-activation/platform-and-applications.md)
-   + [Hub voor klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)
 + B2B-activering en marketing{#b2b-activation}
    + [Overzicht](/help/blueprints/b2b/overview.md)
    + [B2B-activering](/help/blueprints/b2b/b2bactivation.md)
