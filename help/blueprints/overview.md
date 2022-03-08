@@ -2,9 +2,9 @@
 title: Digitale beleving blauwdrukken
 description: Digitale Ervaring blauwdrukken zijn herhaalbare implementaties om strategie aan te pakken en gevestigde bedrijfsproblemen op te lossen. Ze versnellen tijd tot waarde en bieden een snelle weg naar succes.
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
+source-git-commit: 7611084c357e721f954ff980ef88b965609dd5ed
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ De Verbluepingen van de Digitale Ervaring zijn herhaalbare implementaties die u 
     <p><em>Verzend berichten en beïnvloedt klantenervaringen in real time gebruikend [!UICONTROL Platform] als centrale hub.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html"><img alt="miniatuurafbeelding voor de bekende blauwdruk voor activering door klant" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html"><strong>Online/offline Audience Activation</strong></a></div>
+    <a href="/help/blueprints/audience-activation/known.md"><img alt="miniatuurafbeelding voor de bekende blauwdruk voor activering door klant" src="audience-activation/assets/online_offline_activation.svg" /></a>
+    <div><a href="/help/blueprints/audience-activation/known.md"><strong>Online/offline Audience Activation</strong></a></div>
     <p><em>Lever publiek-geactiveerde dwars-kanaalreclame.</em></p>
   </td>
   <td>
