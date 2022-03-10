@@ -3,7 +3,8 @@ title: Activering voor Google Customer Match
 description: Activering voor FGoogle Customer Match.
 solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
-source-git-commit: 0a0181a5fd84a645344fadefd47838237807c97c
+exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
+source-git-commit: 60d99de0ec64a091662f0921b23aea0725965681
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Activering voor FGoogle Customer Match
+# Activering voor Google Customer Match
 
 Verzamel klantgegevens uit meerdere bronnen om één profielweergave van de klant te maken, deze profielen te segmenteren naar een samengesteld publiek voor marketing en personalisatie, deze soorten publiek te delen naar sociale advertentienetwerken, zoals klantenservice van Google, om te zoeken naar doelgerichte en personalisatiecampagnes tegen dat publiek. Met Customer Match van Google kunt u uw online- en offline gegevens gebruiken om uw klanten te bereiken en opnieuw contact op te nemen met andere klanten van Google, zoals: Zoeken, winkelen, Gmail en YouTube.
 
