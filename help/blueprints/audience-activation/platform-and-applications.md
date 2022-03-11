@@ -4,7 +4,7 @@ description: Profielen en publiek in Experience Platform beheren en deze delen m
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 20dd657a85ffeb8ae2f160855369643c2f2743bb
+source-git-commit: 8d9875595cb5cb4a4815fff9213defc2921e647d
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Activering met Experience Cloud-toepassingen wordt nauw afgestemd op de [Bekende
 
 ## Architectuur
 
-[Zie de sectie van de Architectuur van het Experience Platform en van Toepassingen voor extra architectuurdiagrammen met betrekking tot de integratie van het Experience Platform met de Toepassingen van Experience Cloud.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html)
+Zie de [Sectie Experience Platform- en toepassingsarchitectuur](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html) voor extra architectuurdiagrammen met betrekking tot de integratie van het Experience Platform met de Toepassingen van Experience Cloud.
 
 ### Activering van publiek en profiel met Experience Cloud-toepassingen
 
