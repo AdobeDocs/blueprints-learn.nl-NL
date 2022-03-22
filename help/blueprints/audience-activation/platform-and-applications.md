@@ -4,9 +4,9 @@ description: Profielen en publiek in Experience Platform beheren en deze delen m
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 8d9875595cb5cb4a4815fff9213defc2921e647d
+source-git-commit: 2b4e1f7134b240b68a432bfd70fe698ff634857a
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -52,17 +52,19 @@ Zie de [handleidingen op de pagina Overzicht van activering van publiek en profi
 
 ### Publiek delen van Real-time Customer Data Platform naar Audience Manager
 
+* Raadpleeg de volgende documentatie voor meer informatie. [Experience Platform segmentdelen met Audience Manager en andere Experience Cloud-oplossingen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html).
+
 * Het lidmaatschap van het publiek van RT-CDP wordt gedeeld aan Audience Manager op streamingwijze zodra de segmentbeoordeling volledig is en aan het profiel van de Klant in real time wordt geschreven, of de segmentevaluatie in partij of het stromen voorkwam. Als het gekwalificeerde profiel de regionale verpletterende informatie voor verwante profielapparaten bevat, dan wordt het publiekslidmaatschap van RTCDP gekwalificeerd op het stromen wijze op de bijbehorende Rand van de Audience Manager. Als de regionale verpletterende informatie in de afgelopen 14 dagen op een profiel met een timestamp werd toegepast zal het op de Rand van de Audience Manager in het stromen worden geëvalueerd. Als de profielen van RTCDP geen regionale verpletterende informatie bevatten of de regionale verpletterende informatie is groter dan 14 dagen oud, dan worden de profiellidmaatschappen verzonden naar de hubplaats van de Audience Manager voor partijgebaseerde evaluatie en activering. Profielen die in aanmerking komen voor Edge-activering worden binnen minuten na segmentkwalificatie geactiveerd vanuit RTCDP. Profielen die niet in aanmerking komen voor Edge-activering, komen in aanmerking voor de hub van de Audience Manager en hebben mogelijk een tijdsbestek van 12-24 uur voor verwerking.
 
 * De regionale verpletterende informatie waarvoor Rand het profiel van de Audience Manager wordt opgeslagen kan aan Experience Platform van Audience Manager, de Dienst van identiteitskaart van de Bezoeker, Analytics, Lancering, of direct van het Web SDK als afzonderlijke de klassendataset van het profielverslag worden verzameld gebruikend de &quot;gegevens vangen gebiedinformatie&quot;XDM gebiedsgroep.
 
-* Voor activeringsscenario&#39;s waarbij het publiek van Experience Platform tot Audience Manager wordt gedeeld, worden de volgende identiteiten automatisch gedeeld: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Aangepaste naamruimten worden momenteel niet gedeeld.
+* Voor activeringsscenario&#39;s waarbij het publiek van Experience Platform tot Audience Manager wordt gedeeld, worden de volgende identiteiten automatisch gedeeld: ECID, IDFA, GAID, gehashte e-mailadressen (EMAIL_LC_SHA256), AdCloud-id. Aangepaste naamruimten worden momenteel niet gedeeld.
 
 * Het publiek van Experience Platform kan door de bestemmingen van de Audience Manager worden gedeeld wanneer de vereiste bestemmingsidentiteiten in inbegrepen zijn [!UICONTROL Klantprofiel in realtime]of waar de identiteit in de [!UICONTROL Klantprofiel in realtime] kan worden gerelateerd aan de vereiste doelidentiteiten die in Audience Manager zijn gekoppeld.
 
 ### Publiek delen van Real-time Customer Data Platform naar Target
 
-* Zie de [Web/mobiel personaliseren met online en offline gegevensblauwdruk](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html) voor meer informatie over het delen van profielen en publiek van Real-time Customer Data Platform naar Target.
+* Zie de [Web/Mobile Personalization met on line &amp; offline gegevensblauwdruk](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html) voor meer informatie over het delen van profielen en publiek van Real-time Customer Data Platform naar Target.
 
 ### Publiek delen van Real-time Customer Data Platform naar Campagne en Journey Optimizer
 
