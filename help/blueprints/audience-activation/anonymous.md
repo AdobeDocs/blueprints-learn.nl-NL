@@ -6,9 +6,9 @@ solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: f46c09a88cf2b49c816ab27c5daef20c01e99b09
+source-git-commit: 64e7b61c1b4b1d600641fd3299a2b84154873cfb
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,9 @@ De activering van het Anonymou-publiek is de mogelijkheid om doelgericht te zijn
 
 ## Toepassingen
 
+* Audience Manager
+* Real-time Customer Data Platform
+
 Zowel Audience Manager als Real-time Customer Data Platform kunnen worden benut om anonieme Audience Activation voor onsite en reclamebestemmingen aan te drijven. Merk op dat Real-time Customer Data Platform slechts een ondergroep van advertentiebestemmingen met anonieme apparatenherkenningstekens steunt zoals die in [documentatie voor doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en).
 
 Microsoft Bing, Google DV360, en TradeDesk zijn de belangrijkste gesteunde reclamebestemmingen van Real-time Customer Data Platform voor anonieme op apparaat gebaseerde het richten. Daarnaast ondersteunt Real-time Customer Data Platform een groot aantal bekende klantgebaseerde doelen die zijn gecatalogiseerd in de [documentatie voor doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) en zoals beschreven in [bekende blauwdruk voor klantactivering](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
@@ -34,9 +37,9 @@ Microsoft Bing, Google DV360, en TradeDesk zijn de belangrijkste gesteunde recla
 
 <img src="assets/anonymous_activation.svg" alt="Referentiearchitectuur voor de anonieme blauwdruk Audience Activation" style="width:80%; border:1px solid #4a4a4a" />
 
-## Implementatiestappen
+<br>
 
-<!-- These steps should link to help. -->
+## Implementatiestappen
 
 1. [Audience Manager implementeren](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=en#implementation-integration-guides).
 1. Gegevens verzamelen naar Audience Manager.
