@@ -1,13 +1,13 @@
 ---
 title: Verhalen over succes in de sector van de digitale beleving
 description: De succesverhalen van Digital Experience Blueprints laten zien hoe verschillende industrieën hun bedrijfswaarde realiseren met Adobe Experience Cloud Applications, aangedreven door Adobe Experience Platform.
-source-git-commit: 12bf012d41c9a78840da685de14672247e2a1583
+exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
+source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
-
 
 # Bedrijfs Succes met Digitale Ervaring Blauwdrukken
 
@@ -28,7 +28,7 @@ Leer hoe klanten geweldige ervaringen opdoen en succesvol zijn met Digital Exper
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="miniatuurafbeelding voor de Journey Optimizer-blauwdruk" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en" /></a>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en"><img alt="miniatuurafbeelding voor activering van de functie Onlinegegevensvervaging/Offlinegegevensvervaging" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/online_offline_activation.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en"><img alt="miniatuurafbeelding voor activering van de functie Onlinegegevensvervaging/Offlinegegevensvervaging" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/known_activation.svg" /></a>
   </td>
 </tr>
 <tr>
@@ -56,5 +56,3 @@ Leer hoe klanten geweldige ervaringen opdoen en succesvol zijn met Digital Exper
 * <a href="https://business.adobe.com/customer-success-stories/index.html?Products+%26+Services=Experience">Adobe Experience Cloud</a>
 * <a href="https://business.adobe.com/customer-success-stories/index.html?Products+%26+Services=Experience+Platform">Adobe Experience Platform</a>
 * <a href="https://business.adobe.com/customer-success-stories/index.html?Products+%26+Services=Intelligent+Services">Adobe Intelligente services</a>
-
-

@@ -4,9 +4,9 @@ description: Online/offline Audience Activation.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 20dd657a85ffeb8ae2f160855369643c2f2743bb
+source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -29,19 +29,25 @@ De aanvullende details zijn te vinden in het [Activering van publiek en profiel 
 
 * Adobe Experience Platform
 * [!UICONTROL Real-time Customer Data Platform]
+* De Audience Manager Mensen Gebaseerde bestemmingen kunnen ook voor mensen gebaseerd activering aan Facebook, LinkedIn, en Klantovereenkomst van Google worden gebruikt.
 
 ## Architectuur
 
-### Activering met online en offline gegevens met doelen
+### Bekende activering door klant via Real-time Customer Data Platform
 
-<img src="assets/online_offline_activation.svg" alt="Referentiearchitectuur voor de blauwdruk voor online/offline Audience Activation" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="Referentiearchitectuur voor de bekende blauwdruk voor activering van klanten" style="width:80%; border:1px solid #4a4a4a" />
+<br>
+
+### Bekende activering van de Klant via op mensen gebaseerde bestemmingen van de Audience Manager
+
+<img src="assets/AAM_PBD.svg" alt="Referentiearchitectuur voor de bekende blauwdruk voor activering van klanten" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## Guardrails
 
 [Raadpleeg de hulplijnen die worden beschreven op de pagina Overzicht van publiek- en profielactivering](overview.md).
 
-## Implementatiestappen
+## Implementatiestappen voor Real-time Customer Data Platform
 
 1. [Schema&#39;s maken](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden ingevoerd.
 1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden ingevoerd.
@@ -57,6 +63,12 @@ De aanvullende details zijn te vinden in het [Activering van publiek en profiel 
 * Wanneer u profielgegevens deelt met bestemmingen, moet u de specifieke identiteitswaarde opnemen die door de bestemming wordt gebruikt in de doellading. Om het even welke identiteit die voor een doelbestemming noodzakelijk is moet in Platform worden opgenomen en als identiteit voor worden gevormd [!UICONTROL Klantprofiel in realtime].
 
 * Zie de [Activering van publiek en profiel met blauwdruk voor Experience Cloud-toepassingen](platform-and-applications.md) voor meer informatie over het delen van publiek van Real-time Customer Data Platform naar Audience Manager, Analytics, Target, Campaign en Journey Optimizer.
+
+## Implementatiestappen voor op mensen gebaseerde doelen van de Audience Manager
+
+* Zie voor meer informatie over het implementeren van Audience Manager het volgende: [documentatie](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html).
+
+* Voor details over het uitvoeren van Mensen Gebaseerde Doelen in Audience Manager zie het volgende [documentatie](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html).
 
 ## Verwante documentatie
 
