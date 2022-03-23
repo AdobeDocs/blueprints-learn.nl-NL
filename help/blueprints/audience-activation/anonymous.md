@@ -6,25 +6,29 @@ solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+source-git-commit: f46c09a88cf2b49c816ab27c5daef20c01e99b09
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Anonieme Audience Activation blauwdruk
 
-Op basis van anonieme gegevens en gedragsgegevens van klanten kunt u doelgroepen kiezen op het web en de reclamekanalen. Deze capaciteit laat gepersonaliseerde en verenigbare klantenervaringen in real time over apparaten toe.
+De activering van het Anonymou-publiek is de mogelijkheid om doelgericht te zijn op en zich te personaliseren voor het publiek via internet, mobiele media en reclamekanalen op basis van anonieme apparaat- en gedragsgegevens.
 
 ## Gevallen gebruiken
 
-* Anonieme digitale publieksgerichtheid en verpersoonlijking uitvoeren.
-* Bouw publiek voor het richten op gesteunde advertentienetwerken.
+* Anonieme digitale publieksgerichtheid en verpersoonlijking op de website, mobiele app, of op gesteunde reclamekanalen uitvoeren.
+* Optimaliseer openingspagina en pre-authentificatie ervaringen die op bekende apparaat en gedragskenmerken worden gebaseerd.
+* Gebruik het gegevensnetwerk van de derde partij van de Audience Manager om uw publiek voor het richten verder te verfijnen en uit te breiden.
+
 
 ## Toepassingen
 
-* Adobe Audience Manager
+Zowel Audience Manager als Real-time Customer Data Platform kunnen worden benut om anonieme Audience Activation voor onsite en reclamebestemmingen aan te drijven. Merk op dat Real-time Customer Data Platform slechts een ondergroep van advertentiebestemmingen met anonieme apparatenherkenningstekens steunt zoals die in [documentatie voor doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en).
+
+Microsoft Bing, Google DV360, en TradeDesk zijn de belangrijkste gesteunde reclamebestemmingen van Real-time Customer Data Platform voor anonieme op apparaat gebaseerde het richten. Daarnaast ondersteunt Real-time Customer Data Platform een groot aantal bekende klantgebaseerde doelen die zijn gecatalogiseerd in de [documentatie voor doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) en zoals beschreven in [bekende blauwdruk voor klantactivering](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
 
 ## Architectuur
 
@@ -40,9 +44,13 @@ Op basis van anonieme gegevens en gedragsgegevens van klanten kunt u doelgroepen
 1. Maak segmenten in Audience Manager.
 1. Vorm bestemmingen in Audience Manager om publiek te delen.
 
+Voor implementatiestappen van Real-time Customer Data Platform raadpleegt u de [bekende blauwdruk voor klantactivering](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+
 ## Verwante documentatie
 
 * [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=en)
 * [Experience Cloud [!UICONTROL Soorten publiek]](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 * [Audience Manager integreren met doel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * [Adobe Analytics Segment Sharing through Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Bekende blauwdruk voor activering door klant](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+* [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)
