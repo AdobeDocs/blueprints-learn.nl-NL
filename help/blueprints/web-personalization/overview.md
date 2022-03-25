@@ -1,20 +1,20 @@
 ---
 title: Web en mobiele personalisatie
 description: Geniet van gepersonaliseerde web- en mobiele inhoud met [!UICONTROL Klantprofiel in realtime].
-solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: aba3bfcecac07cb51393fef9e6278d9d6af3e377
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
-# Web en Mobiele Personalisatie
+# Web en Mobile Personalization
 
-Het Web en de Mobiele Personalisering richt de capaciteit om profiel en publiekssegmentatie over veelvoudige toepassingen te gebruiken om klantenervaringen te personaliseren en te optimaliseren. Het gedrag van de klant, demografie, loyaliteitsniveau, en vroegere transacties kunnen worden gebruikt om lay-outs, vraag-aan-actie, en inhoud te personaliseren.
+Web en Mobile Personalization gaan over de mogelijkheid om profiel- en publiekssegmentatie in meerdere toepassingen te gebruiken om de ervaringen van klanten aan te passen en te optimaliseren. Het gedrag van de klant, demografie, loyaliteitsniveau, en vroegere transacties kunnen worden gebruikt om lay-outs, vraag-aan-actie, en inhoud te personaliseren.
 
 <br>
 
@@ -25,13 +25,13 @@ Het Web en de Mobiele Personalisering richt de capaciteit om profiel en publieks
 
 <br>
 
-## Guardrails voor web en mobiele personalisatie
+## Guardrails voor het web en Mobile Personalization
 
 [Raadpleeg de documentatie bij het profiel en de segmentatiehulplijnen voor instructies over publiek- en profielactivering.](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 
 <br>
 
-### Grafiek met instructies voor online/offline personalisatie
+### Grafiek voor online/offline Personalization-hulplijn
 
 <img src="assets/personalization_guardrails.png" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:80%; border:1px solid #4a4a4a" />
 

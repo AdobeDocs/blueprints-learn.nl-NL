@@ -1,10 +1,10 @@
 ---
 title: Activering voor aangepast publiek van Facebook
 description: Activering voor aangepast publiek van Facebook.
-solution: Experience Platform, Real-time Customer Data Platform, Data Collection
+solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: 051b094412419363e5e2406f2e436cc528bd409e
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 0%

@@ -1,10 +1,10 @@
 ---
 title: Activering voor Google Customer Match
 description: Activering voor FGoogle Customer Match.
-solution: Experience Platform, Real-time Customer Data Platform, Data Collection
+solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
-source-git-commit: 60d99de0ec64a091662f0921b23aea0725965681
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 0%

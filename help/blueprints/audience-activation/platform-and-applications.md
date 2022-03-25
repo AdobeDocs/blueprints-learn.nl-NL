@@ -1,10 +1,10 @@
 ---
 title: Activering van publiek en profiel met blauwdruk voor Experience Cloud-toepassingen
 description: Profielen en publiek in Experience Platform beheren en deze delen met Experience Cloud-toepassingen.
-solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 2b4e1f7134b240b68a432bfd70fe698ff634857a
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Zie de [handleidingen op de pagina Overzicht van activering van publiek en profi
 
 ### Publiek delen van Real-time Customer Data Platform naar Target
 
-* Zie de [Web/Mobile Personalization met on line &amp; offline gegevensblauwdruk](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html) voor meer informatie over het delen van profielen en publiek van Real-time Customer Data Platform naar Target.
+* Zie de [Web/mobiel personaliseren met online en offline gegevensblauwdruk](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html) voor meer informatie over het delen van profielen en publiek van Real-time Customer Data Platform naar Target.
 
 ### Publiek delen van Real-time Customer Data Platform naar Campagne en Journey Optimizer
 

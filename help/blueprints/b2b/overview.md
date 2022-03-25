@@ -1,9 +1,10 @@
 ---
 title: B2B-analyse en -activering
 description: Lever een publiek op basis van account en maak een profilering van de belangrijkste ervaringen van klanten met Real-time Customer Data Platform ​.
-solution: Experience Platform, Real-time Customer Data Platform
+solution: Real-time Customer Data Platform
 kt: 9311
-source-git-commit: 3b5628d856d754046b7a95ad22b660211c35260d
+exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -20,4 +21,3 @@ Met een kanaal-eerste benadering, handelt elk kanaal als silo waarin de verperso
 |---|---|---|
 | **[B2B-analyse](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html)** | <ul><li>B2B-accountinformatie opnemen in de analyse van de klantentrining</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
 | **[B2B-Audience Activation](b2bactivation.md)** | <ul><li>Doelpubliek van B2B via web-, e-mail- en reclamekanalen.</li></ul> | <ul><li>Adobe Real-time Customer Data Platform B2B Edition</li></ul> |
-

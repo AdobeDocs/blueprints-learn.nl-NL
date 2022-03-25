@@ -2,10 +2,10 @@
 title: Web/mobiel personaliseren met online en offline gegevens
 description: Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalpersonalisatie.
 landing-page-description: Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalpersonalisatie.
-solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 0dda473e727ee367f6fa9ad78c9201d18bc064b9
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 * Online personalisatie met online en offline gegevens en bekende profielen
 * Optimalisatie landingspagina
-* Personalisatie op basis van eerdere product/inhoud-weergaven, product/inhoud-affiniteit, milieukenmerken en demografie, naast offlinegegevens zoals transacties, loyaliteits- en CRM-gegevens, en gemodelleerde inzichten
+* Personalization is gebaseerd op eerdere product/inhoud-weergaven, product/inhoud-affiniteit, milieukenmerken en demografie, naast offlinegegevens zoals transacties, loyaliteits- en CRM-gegevens, en gemodelleerde inzichten
 * Deel en doelpubliek dat in Real-time Customer Data Platform is gedefinieerd op websites en mobiele apps met Adobe Target.
 
 ## Toepassingen
@@ -51,7 +51,7 @@ ht-degree: 0%
     <td class="tg-0lax">1</td>
 <td class="tg-73oq">Realtime segmentevaluatie op de Rand die van Real-time Customer Data Platform aan Doel wordt gedeeld</td>
     <td class="tg-0lax">- Evalueer publiek in real time voor zelfde of volgende paginagrootte op de Rand.<br>- Daarnaast worden alle segmenten die op streaming- of batchwijze worden geëvalueerd, geprojecteerd op het Edge Network, zodat deze worden opgenomen in de evaluatie en personalisatie van het Edge-segment.</td>
-    <td class="tg-73oq">- Implementatiepatroon 1 zoals hieronder beschreven.<br>- Web/Mobile SDK moet worden geïmplementeerd.<br>- Let op: de Mobile SDK en API-gebaseerde ondersteuning voor realtime segmentatie is momenteel niet beschikbaar<br>- DataStream moet in de Rand van de Ervaring met toegelaten de uitbreiding van het Doel en van het Experience Platform worden gevormd, zal identiteitskaart DataStream in de bestemmingsconfiguratie van het Doel worden verstrekt.<br>- Het doel van het doel moet in de Doelen van Real-time Customer Data Platform worden gevormd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.</td> 
+    <td class="tg-73oq">- Implementatiepatroon 1 zoals hieronder beschreven.<br>- Web/Mobile SDK moet worden geïmplementeerd.<br>- De Mobile SDK en API-gebaseerde ondersteuning voor realtime segmentatie is momenteel niet beschikbaar<br>- DataStream moet in de Rand van de Ervaring met toegelaten de uitbreiding van het Doel en van het Experience Platform worden gevormd, zal identiteitskaart DataStream in de bestemmingsconfiguratie van het Doel worden verstrekt.<br>- Het doel van het doel moet in de Doelen van Real-time Customer Data Platform worden gevormd.<br>- Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.</td> 
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
@@ -113,7 +113,7 @@ Architectuur
 
 ## Implementatiepatronen
 
-Online en Offline personalisatie wordt ondersteund via verschillende implementatiemethoden.
+Online en Offline Personalization wordt ondersteund via verschillende implementatiemethoden.
 
 ### Implementatiepatroon 1 - Ondersteunt scenario 1 en 2 voor gebruik van hoofdletters en kleine letters. Edge Network met Web/Mobile SDK (aanbevolen aanpak)
 
@@ -173,7 +173,7 @@ Identiteitsvoorwaarden
 
 ### Verwante blogberichten
 
-* [Adobe kondigt &#39;Same Page Enhanced Personalization&#39; aan met Adobe Target en Real-time Customer Data Platform](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform)
+* [Adobe kondigt Personalization met dezelfde pagina en Real-time Customer Data Platform aan](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform)
 * [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Adobe Experience Platform’s Identity Service — How to Solve the Customer Identity Conundrum]](https://medium.com/adobetech/adobe-experience-platforms-identity-service-how-to-solve-the-customer-identity-conundrum-f95e22d16ea9)
 * [[!DNL Adobe Experience Platform Web SDK for Audience Management]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)

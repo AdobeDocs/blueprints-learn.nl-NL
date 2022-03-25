@@ -1,15 +1,15 @@
 ---
 title: Apparel Industry - Activering met Experience Cloud-toepassingen
 description: Gebruikte veelvoudige Blauwdrukken om marketing in real time, dwars-kanaalactivering, en dwars-kanaalanalyse toe te laten.
-solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
+exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
 
 ---
-
 
 # Apparel Industry Business Challenge
 
@@ -19,7 +19,7 @@ Hun wereldwijde technologieteam gebruikt Adobe Experience Platform en relevante 
 
 * Consistente cross-channel berichten en activeringen
 * Op trigger gebaseerde realtime marketing
-* Personalisatie en capaciteit om de doeltreffendheid van de campagne en het vermogen te meten om klant 360 analyse en attributie uit te voeren
+* Personalization en de mogelijkheid om de doeltreffendheid van de campagne te meten en de mogelijkheid om de klant te analyseren en te toeschrijven
 
 ## Adobe-aanpak
 
@@ -47,7 +47,3 @@ Hun wereldwijde technologieteam gebruikt Adobe Experience Platform en relevante 
 ### Blauwdrukarchitectuur
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="miniatuurafbeelding voor een Apparel-bedrijf met behulp van activering van het publiek, analyse van de klantentransparantie en blauwdrukken voor klantritten" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-
-
-
-
