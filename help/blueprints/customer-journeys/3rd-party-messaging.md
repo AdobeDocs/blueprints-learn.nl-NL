@@ -1,10 +1,11 @@
 ---
 title: Journey Optimizer - Blauwdruk voor berichten van derden
 description: Toont aan hoe Adobe Journey Optimizer met de systemen van het derdeoverseinen kan worden gebruikt om gepersonaliseerde mededelingen te ordenen en te verzenden.
-solution: Experience Platform, Journey Optimizer
-source-git-commit: 1c46cbdfc395de4fc9139966cf869ba1feeceaaa
+solution: Journey Optimizer
+exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
+source-git-commit: d19555201107b6aa827e63eb8ecff8642d9f967c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
