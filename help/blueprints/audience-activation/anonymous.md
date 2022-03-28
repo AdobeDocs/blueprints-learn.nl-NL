@@ -6,9 +6,9 @@ solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 64e7b61c1b4b1d600641fd3299a2b84154873cfb
+source-git-commit: 4a46b7a4c278107c806d3ddd14591c7abe1a13d3
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -39,15 +39,13 @@ Microsoft Bing, Google DV360, en TradeDesk zijn de belangrijkste gesteunde recla
 
 <br>
 
-## Implementatiestappen
+## Implementatiestappen voor Audience Manager
 
-1. [Audience Manager implementeren](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=en#implementation-integration-guides).
-1. Gegevens verzamelen naar Audience Manager.
-1. Vorm signalen en eigenschappen voor gebruik in segmentdefinities.
-1. Maak segmenten in Audience Manager.
-1. Vorm bestemmingen in Audience Manager om publiek te delen.
+* Zie voor meer informatie over het implementeren van Audience Manager het volgende: [documentatie](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html).
 
-Voor implementatiestappen van Real-time Customer Data Platform raadpleegt u de [bekende blauwdruk voor klantactivering](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+## Implementatiestappen voor Real-time Customer Data Platform
+
+* Voor implementatiestappen van Real-time Customer Data Platform raadpleegt u het volgende: [documentatie](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
 
 ## Verwante documentatie
 
