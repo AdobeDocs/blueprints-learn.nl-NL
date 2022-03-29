@@ -1,19 +1,19 @@
 ---
 title: Blauwdruk voor gegevensverzameling op de server
 description: Verzamelde gegevens door Experience Platform-SDK's streamen naar doelen
-solution: Experience Platform,Data Collection
+solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
+source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Blauwdruk voor gegevensverzameling op de server
 
-De Vervaging van de Verzameling van Gegevens van de Onderneming van de server toont hoe de gegevens die met het Web van Adobe Experience Platform en Mobiele SDKs worden verzameld van het Netwerk van de Rand van het Experience Platform aan een gewenste bestemming kunnen door:sturen. U kunt alle onbewerkte gegevens die zijn verzameld van de SDK&#39;s doorsturen, of specifieke gegevens die zijn gebaseerd op gebeurtenissen en regels die zijn geconfigureerd in de eigenschappen van tags (voorheen Starten).
+De Vervaging van de Gegevensverzameling van de Onderneming van de server toont hoe de gegevens die met het Web van Adobe Experience Platform en Mobile SDKs worden verzameld van het Netwerk van de Rand van het Experience Platform aan een gewenste bestemming kunnen door:sturen. U kunt alle onbewerkte gegevens die zijn verzameld van de SDK&#39;s doorsturen, of specifieke gegevens die zijn gebaseerd op gebeurtenissen en regels die zijn geconfigureerd in de eigenschappen van tags (voorheen Starten).
 
 ## Gevallen gebruiken
 

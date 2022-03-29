@@ -1,10 +1,10 @@
 ---
 title: Aangepaste gegevenswetenschap voor blauwdruk van profielverrijking
 description: Deze blauwdruk laat zien hoe de Werkruimte van de Wetenschap van Gegevens van Adobe Experience Platform gegevens binnen Experience Platform kan gebruiken om, modellen op te leiden, op te stellen en te scoren om machine het leren inzichten van de gegevens te verstrekken.
-solution: Experience Platform,Data Collection
+solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%

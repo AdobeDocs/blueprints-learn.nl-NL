@@ -1,11 +1,11 @@
 ---
 title: 'Klantenreizen '
 description: Lever individuele, just-in-time klantenervaringen over schermen.
-solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard, Journey Optimizer
+solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard, Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 5e27cc2f0114e404c6b6bb1e6f88a79d762f9e03
+source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%

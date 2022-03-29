@@ -1,13 +1,13 @@
 ---
 title: Web/Mobile SDK-gegevensverzameling, blauwdruk
 description: Deze blauwdruk toont de architectuur en de opname door het Web van het Experience Platform en Mobiele SDK
-solution: Experience Platform,Data Collection
+solution: Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 992528c2dcde4a0ace0b67cb6c84de4844693304
+source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Het onderstaande architectuurdiagram illustreert de integratiewegen en de gegevensinzameling die SDK van het Web van het Experience Platform gebruiken.
 
-<img src="assets/web_sdk_flow.png" alt="De architectuur van de verwijzing voor implementatie die het Web van het Experience Platform en Mobiele SDK gebruikt" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.png" alt="Referentiearchitectuur voor implementatie met de SDK van het Experience Platform Web en Mobile" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Referentiedocumentatie
 

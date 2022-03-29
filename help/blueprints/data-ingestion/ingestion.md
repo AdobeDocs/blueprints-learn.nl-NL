@@ -1,13 +1,13 @@
 ---
 title: Voorbereiding van gegevens en vervagingsblauwdruk
 description: Deze blauwdruk toont alle methodes waardoor de gegevens in Adobe Experience Platform kunnen worden opgenomen en worden voorbereid.
-solution: Experience Platform,Data Collection
+solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 992528c2dcde4a0ace0b67cb6c84de4844693304
+source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
