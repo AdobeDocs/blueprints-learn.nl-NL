@@ -5,7 +5,7 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
+source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -59,6 +59,7 @@ ht-degree: 0%
    + [Voorbereiding en inname van gegevens](/help/blueprints/data-ingestion/ingestion.md)
    + [Gegevensverzameling op de server](/help/blueprints/data-ingestion/server-side-collection.md)
    + [Experience Platform Web SDK](/help/blueprints/data-ingestion/websdk.md)
+   + [SDK&#39;s voor toepassingen](/help/blueprints/data-ingestion/appsdk.md)
 + Gegevensanalyse, intelligentie en AI/ML{#data-exploration}
    + [Overzicht](/help/blueprints/data-insights/overview.md)
    + [Gegevensanalyse en -informatie](/help/blueprints/data-insights/analysis.md)
@@ -66,4 +67,4 @@ ht-degree: 0%
 + Web en mobiele personalisatie{#web-personalization}
    + [Overzicht](/help/blueprints/web-personalization/overview.md)
    + [Gedragingen aanpassen](/help/blueprints/web-personalization/behavioral.md)
-   + [Persoonlijk maken met online en offline gegevens](/help/blueprints/web-personalization/online-offline.md)
+   + [Bekende Customer Personalization](/help/blueprints/web-personalization/known-personalization.md)

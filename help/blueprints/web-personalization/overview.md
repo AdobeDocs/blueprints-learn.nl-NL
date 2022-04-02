@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+source-git-commit: 4fef6460b305dc01671eeb9a90e58483f42d35e2
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Web en Mobile Personalization
 
-Web en Mobile Personalization gaan over de mogelijkheid om profiel- en publiekssegmentatie in meerdere toepassingen te gebruiken om de ervaringen van klanten aan te passen en te optimaliseren. Het gedrag van de klant, demografie, loyaliteitsniveau, en vroegere transacties kunnen worden gebruikt om lay-outs, vraag-aan-actie, en inhoud te personaliseren.
+Het Web en de Mobiele Personalisering richt de capaciteit om profiel en publiekssegmentatie over veelvoudige toepassingen te gebruiken om klantenervaringen te personaliseren en te optimaliseren. Het gedrag van de klant, demografie, loyaliteitsniveau, en vroegere transacties kunnen worden gebruikt om lay-outs, vraag-aan-actie, en inhoud te personaliseren.
 
 <br>
 
 | Blauwdruk | Beschrijving | Experience Cloud-toepassingen |
 |---|---|---|
-| **[Gedrag web/mobiele personalisatie](behavioral.md)** | <ul><li>Persoonlijk maken op basis van online gedrag en publieksgegevens</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *(optioneel)*</li><li>Adobe Analytics *(optioneel)*</li><li>Adobe Audience Manager *(optioneel)*</li></ul> |
-| **[Web/mobiel personaliseren met online en offline gegevens](online-offline.md)** | <ul><li>Volledige klantprofielen en verbeterde segmentatie bieden betere persoonlijke ervaringen.</li><li>Personaliseer met off-line attributen en gebeurtenissen (transacties, reserveringen, CRM, en loyaliteitsgegevens).</li><li>Synchroniseer personalisatie over Web, e-mail, en andere bekende kanalen.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics *(optioneel)*</li><li>Adobe Audience Manager *(optioneel)*</li></ul> |
+| **[Gedragingen Web/Mobile Personalization](behavioral.md)** | <ul><li>Persoonlijk maken op basis van online gedrag en publieksgegevens</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *(optioneel)*</li><li>Adobe Analytics *(optioneel)*</li><li>Adobe Audience Manager *(optioneel)*</li></ul> |
+| **[Web/Mobile Personalization met bekende klantgegevens](known-personalization.md)** | <ul><li>Volledige klantprofielen en verbeterde segmentatie bieden betere persoonlijke ervaringen.</li><li>Personaliseer met off-line attributen en gebeurtenissen (transacties, reserveringen, CRM, en loyaliteitsgegevens).</li><li>Synchroniseer personalisatie over Web, e-mail, en andere bekende kanalen.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics *(optioneel)*</li><li>Adobe Audience Manager *(optioneel)*</li></ul> |
 
 <br>
 
@@ -31,7 +31,7 @@ Web en Mobile Personalization gaan over de mogelijkheid om profiel- en publiekss
 
 <br>
 
-### Grafiek voor online/offline Personalization-hulplijn
+### Personalization Guardrail-diagram van bekende klant
 
 <img src="assets/personalization_guardrails.png" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:80%; border:1px solid #4a4a4a" />
 
