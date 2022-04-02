@@ -5,9 +5,9 @@ landing-page-description: Leer om zich te personaliseren gebaseerd op online ged
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
+source-git-commit: 99de2ae48ef0b6177193ffbbb9cef71e7bc83e59
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -38,17 +38,8 @@ Persoonlijk maken op basis van online gedrag en publieksgegevens.
 
 De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen worden uitgevoerd zoals hieronder geschetst.
 
-1. Met de [!UICONTROL Platform Web SDK] of [!UICONTROL Platform Mobile SDK] en [!UICONTROL Edge Network].
-1. Traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AppMeasurement.js)
-
-### 1. Platform Web/Mobile SDK en Edge Approach
-
-[Verwijs naar het Web van het Experience Platform en Mobiele SDK Blauwdruk](../data-ingestion/websdk.md)
-
-### 2. Toepassingsspecifieke SDK-benadering
-
-[Raadpleeg de specifieke SDK-blauwdruk voor de toepassing](../data-ingestion/appsdk.md)
-
+1. Met de [!UICONTROL Platform Web SDK] of [!UICONTROL Platform Mobile SDK] en [!UICONTROL Edge Network]. [Verwijs naar het Web van het Experience Platform en Mobiele SDK Blauwdruk](../data-ingestion/websdk.md)
+1. Traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AppMeasurement.js). [Raadpleeg de specifieke SDK-blauwdruk voor de toepassing](../data-ingestion/appsdk.md)
 
 ## Implementatiestappen
 
