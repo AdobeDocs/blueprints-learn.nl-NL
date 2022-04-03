@@ -4,9 +4,9 @@ description: Deze blauwdruk laat zien hoe de Werkruimte van de Wetenschap van Ge
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
+source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ De Wetenschap van de Gegevens van de douane voor de Blauwdruk van de Verrijking 
 
 ## Architectuur
 
-<img src="assets/data_science.svg" alt="Referentiearchitectuur voor de Custom Data Science for Profile Enrichment Blueprint" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/data_science.svg" alt="Referentiearchitectuur voor de Custom Data Science for Profile Enrichment Blueprint" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Implementatiestappen
 

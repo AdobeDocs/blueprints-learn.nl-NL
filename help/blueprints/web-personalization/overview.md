@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: 4fef6460b305dc01671eeb9a90e58483f42d35e2
+source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Het Web en de Mobiele Personalisering richt de capaciteit om profiel en publieks
 
 <br>
 
-## Guardrails voor het web en Mobile Personalization
+## Guardrails voor web en mobiele personalisatie
 
 [Raadpleeg de documentatie bij het profiel en de segmentatiehulplijnen voor instructies over publiek- en profielactivering.](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 
@@ -33,7 +33,7 @@ Het Web en de Mobiele Personalisering richt de capaciteit om profiel en publieks
 
 ### Personalization Guardrail-diagram van bekende klant
 
-<img src="assets/personalization_guardrails.png" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.png" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Verwante blogberichten
 

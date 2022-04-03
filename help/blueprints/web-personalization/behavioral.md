@@ -1,11 +1,11 @@
 ---
-title: Gedrag webpersonalisatie blauwdruk
+title: Behavioral Web Personalization Blueprint
 description: Persoonlijk maken op basis van online gedrag en publieksgegevens.
 landing-page-description: Leer om zich te personaliseren gebaseerd op online gedrag en publieksgegevens.
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 99de2ae48ef0b6177193ffbbb9cef71e7bc83e59
+source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Persoonlijk maken op basis van online gedrag en publieksgegevens.
 
 * Optimalisatie landingspagina
 * Gedragsgerichte acties
-* Personalisatie op basis van eerdere productweergaven/content-weergaven, de affiniteit tussen product en inhoud, milieukenmerken, publieksgegevens van derden en demografie
+* Personalization gebaseerd op eerdere productweergaven/content-weergaven, affiniteit van product/content, milieukenmerken, publieksgegevens van derden en demografie
 
 ## Toepassingen
 
@@ -31,14 +31,14 @@ Persoonlijk maken op basis van online gedrag en publieksgegevens.
 
 ## Architectuur
 
-<img src="assets/behavioral_personalization.svg" alt="Referentiearchitectuur voor de Behavioral Web Personalization Blueprint" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="Referentiearchitectuur voor de Behavioral Web Personalization Blueprint" style="width:90%; border:1px solid #4a4a4a" />
 
 
 ## Implementatiepatronen
 
 De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen worden uitgevoerd zoals hieronder geschetst.
 
-1. Met de [!UICONTROL Platform Web SDK] of [!UICONTROL Platform Mobile SDK] en [!UICONTROL Edge Network]. [Verwijs naar het Web van het Experience Platform en Mobiele SDK Blauwdruk](../data-ingestion/websdk.md)
+1. Met de [!UICONTROL Platform Web SDK] of [!UICONTROL Platform Mobile SDK] en [!UICONTROL Edge Network]. [Verwijs naar het Web van het Experience Platform en SDK van Mobile Blauwdruk](../data-ingestion/websdk.md)
 1. Traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AppMeasurement.js). [Raadpleeg de specifieke SDK-blauwdruk voor de toepassing](../data-ingestion/appsdk.md)
 
 ## Implementatiestappen

@@ -4,7 +4,7 @@ description: Activering voor FGoogle Customer Match.
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
-source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Verzamel klantgegevens uit meerdere bronnen om één profielweergave van de klan
 
 ## Architectuur
 
-<img src="../assets/gcm.png" alt="Referentiearchitectuur voor Google Customer Match Activation" style="width:80%; border:1px solid #4a4a4a" />
+<img src="../assets/gcm.png" alt="Referentiearchitectuur voor Google Customer Match Activation" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Implementatiestappen
 

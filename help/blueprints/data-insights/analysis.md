@@ -5,7 +5,7 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Bepaalde instructies gelden voor de time-out van de query en voor de hoeveelheid
 
 ## Architectuur
 
-<img src="assets/data_exploration.svg" alt="Referentiearchitectuur voor de Enterprise Data Exploration and Reporting Blueprint" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/data_exploration.svg" alt="Referentiearchitectuur voor de Enterprise Data Exploration and Reporting Blueprint" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Guardrails
 
