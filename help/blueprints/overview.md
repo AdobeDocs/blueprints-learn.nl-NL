@@ -2,9 +2,9 @@
 title: Digitale beleving blauwdrukken
 description: Digitale Ervaring blauwdrukken zijn herhaalbare implementaties om strategie aan te pakken en gevestigde bedrijfsproblemen op te lossen. Ze versnellen tijd tot waarde en bieden een snelle weg naar succes.
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
+source-git-commit: 5f35c36d3ef426396aadf0292e291d7738520032
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ De Verbluepingen van de Digitale Ervaring zijn herhaalbare implementaties die u 
   </td>
   <td>
     <a href="/help/blueprints/audience-activation/known.md"><img alt="miniatuurafbeelding voor de bekende blauwdruk voor activering door klant" src="audience-activation/assets/known_activation.svg" /></a>
-    <div><a href="/help/blueprints/audience-activation/known.md"><strong>Online/offline Audience Activation</strong></a></div>
+    <div><a href="/help/blueprints/audience-activation/known.md"><strong>Bekende activering van klant</strong></a></div>
     <p><em>Lever publiek-geactiveerde dwars-kanaalreclame.</em></p>
   </td>
   <td>
