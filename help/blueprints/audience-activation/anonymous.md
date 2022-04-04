@@ -2,11 +2,11 @@
 title: Anonieme Audience Activation blauwdruk
 description: Leer om publiek over Web en reclamekanalen te richten die op anonieme en gedragsklantengegevens worden gebaseerd. Deze capaciteit laat gepersonaliseerde en verenigbare klantenervaringen in real time over apparaten toe.
 landing-page-description: Leer om publiek over Web en reclamekanalen te richten die op anonieme en gedragsklantengegevens worden gebaseerd.
-solution: Audience Manager, Experience Platform
+solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
+source-git-commit: 16c05fcb36fb3f11b0d86ad30710e399cecc05c0
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Anonieme Audience Activation blauwdruk
 
-De activering van het Anonymou-publiek is de mogelijkheid om doelgericht te zijn op en zich te personaliseren voor het publiek via internet, mobiele media en reclamekanalen op basis van anonieme apparaat- en gedragsgegevens.
+De anonieme publieksactivering is de capaciteit om aan publiek over Web, mobiel, en reclamekanalen te richten en te personaliseren die op anonieme apparaat en gedragsgegevens worden gebaseerd.
 
 ## Gevallen gebruiken
 
