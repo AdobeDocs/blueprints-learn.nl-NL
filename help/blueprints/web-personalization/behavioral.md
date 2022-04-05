@@ -1,13 +1,13 @@
 ---
 title: Behavioral Web Personalization Blueprint
-description: Persoonlijk maken op basis van online gedrag en publieksgegevens.
+description: Ontdek hoe u inhoud kunt aanpassen op basis van onlinegedrag en publieksgegevens.
 landing-page-description: Leer om zich te personaliseren gebaseerd op online gedrag en publieksgegevens.
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
+source-git-commit: 16b022263e622c07528329e71f479c63628f6ee0
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Persoonlijk maken op basis van online gedrag en publieksgegevens.
 
 De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen worden uitgevoerd zoals hieronder geschetst.
 
-1. Met de [!UICONTROL Platform Web SDK] of [!UICONTROL Platform Mobile SDK] en [!UICONTROL Edge Network]. [Verwijs naar het Web van het Experience Platform en SDK van Mobile Blauwdruk](../data-ingestion/websdk.md)
+1. Met de [!UICONTROL Platform Web SDK] of [!UICONTROL Platform Mobile SDK] en [!UICONTROL Edge Network]. [Verwijs naar het Web van het Experience Platform en Mobiele SDK Blauwdruk](../data-ingestion/websdk.md)
 1. Traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AppMeasurement.js). [Raadpleeg de specifieke SDK-blauwdruk voor de toepassing](../data-ingestion/appsdk.md)
 
 ## Implementatiestappen
