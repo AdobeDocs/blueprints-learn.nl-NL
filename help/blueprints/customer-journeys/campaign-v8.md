@@ -1,9 +1,9 @@
 ---
 title: Campagne v8 Blueprint
 description: Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor traditionele marketing kanalen zoals e-mail en direct mail wordt gebouwd. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma's met een centrale focus op batchgeoriënteerde reizen.  Het komt ook met een scalable Real-Time overseinenserver worden verbonden die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor dingen zoals het terugstellen van het wachtwoord, orderbevestiging, e-ontvangstbewijzen en veel meer worden gebaseerd.
-solution: Campaign v8
+solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: 0c072465c2cac954631fe3a8dbdcef280ee397ab
+source-git-commit: 24d5ec498d09f6dac443561bd530d58a33dae7af
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 0%
@@ -97,7 +97,7 @@ Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor traditionele m
 * De campagne verstrekt de capaciteit om met een leverancier van SMS te integreren. De leverancier wordt aangekocht door de klant en geïntegreerd met campagne voor het verzenden van SMS-berichten
 * De steun is via het protocol SMPP
 * Er zijn drie (3) verschillende soorten SMS die Adobe kan ondersteunen:
-   * SMS MT (mobiel beëindigd): een SMS dat door Adobe Campaign via de SMPP-provider naar mobiele telefoons wordt gezonden.
+   * SMS MT (Mobile beëindigd): een SMS dat door Adobe Campaign via de SMPP-provider naar mobiele telefoons wordt gezonden.
    * SMS MO (afkomstig van mobiele apparaten): een SMS dat door een mobiele telefoon via de SMPP-provider naar Adobe Campaign wordt verzonden.
    * SMS SR (Status Report) of DR. of DLR (Delivery Receipt): een door de mobiele telefoon via de SMPP-provider aan Adobe Campaign verzonden ontvangstbewijs waaruit blijkt dat het SMS met succes is ontvangen. Adobe Campaign kan ook SR ontvangen om aan te geven dat het bericht niet kan worden verzonden, vaak met een beschrijving van de fout.
 
