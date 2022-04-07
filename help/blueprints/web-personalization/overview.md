@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Web en Mobile Personalization
 
-Het Web en de Mobiele Personalisering richt de capaciteit om profiel en publiekssegmentatie over veelvoudige toepassingen te gebruiken om klantenervaringen te personaliseren en te optimaliseren. Het gedrag van de klant, demografie, loyaliteitsniveau, en vroegere transacties kunnen worden gebruikt om lay-outs, vraag-aan-actie, en inhoud te personaliseren.
+Web en Mobile Personalization gaan over de mogelijkheid om profiel- en publiekssegmentatie in meerdere toepassingen te gebruiken om de ervaringen van klanten aan te passen en te optimaliseren. Het gedrag van de klant, demografie, loyaliteitsniveau, en vroegere transacties kunnen worden gebruikt om lay-outs, vraag-aan-actie, en inhoud te personaliseren.
 
 <br>
 
@@ -25,7 +25,7 @@ Het Web en de Mobiele Personalisering richt de capaciteit om profiel en publieks
 
 <br>
 
-## Guardrails voor web en mobiele personalisatie
+## Guardrails voor het web en Mobile Personalization
 
 [Raadpleeg de documentatie bij het profiel en de segmentatiehulplijnen voor instructies over publiek- en profielactivering.](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 
