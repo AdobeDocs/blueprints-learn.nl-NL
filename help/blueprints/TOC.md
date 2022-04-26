@@ -5,9 +5,9 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: fb981a16bc02190731a7c1dac8cc6bd5f0667304
+source-git-commit: 96d4e0c62b85070e1650adf637519098d227c53d
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -70,3 +70,4 @@ ht-degree: 0%
    + [Overzicht](/help/blueprints/web-personalization/overview.md)
    + [Gedragingen aanpassen](/help/blueprints/web-personalization/behavioral.md)
    + [Bekende klantpersonalisatie](/help/blueprints/web-personalization/known-personalization.md)
+   + [offer decisioning](/help/blueprints/web-personalization/offers-edge.md)
