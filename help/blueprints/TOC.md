@@ -5,7 +5,7 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 5309a5ce986ebf238884df2aac38eb175f3dda11
+source-git-commit: ae12e10c85efaf5d4af2b9d02d3aca6a0378cf2d
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
       + [Journey Optimizer met Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Berichten van derden](/help/blueprints/customer-journeys/3rd-party-messaging.md)
       + offer decisioning{#offer-decisioning}
-      + [offer decisioning op de rand](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
+         + [offer decisioning op de rand](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
    + Campagne v8{#campaign-v8}
       + [Campagne v8](/help/blueprints/customer-journeys/campaign-v8.md)
    + Campagne v7{#campaign-v7}
