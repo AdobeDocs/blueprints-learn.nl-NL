@@ -2,9 +2,10 @@
 title: offer decisioning
 description: Aangepersonaliseerde aanbiedingen aan consumenten aanbieden op verschillende kanalen, waaronder kiosken en door agenten begeleide ervaringen.
 solution: Experience Platform, Journey Optimizer
-source-git-commit: 5309a5ce986ebf238884df2aac38eb175f3dda11
+exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
+source-git-commit: 3e75ce52939c84ce9ae1faf72f7f1508d74c1ecc
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
@@ -71,12 +72,14 @@ Adobe Experience Platform
 ## Implementatiepatronen
 
 * Gebruik het Web of Mobiele SDK voor plaatsing op websites en mobiele toepassingen om Offer decisioning uit te voeren waar SDK opstelde.
+   * [Web/Mobile SDK-blauwdruk](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html)
    * [WebSDK](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/web-sdk.html)
    * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
 of
 
-* Voor een API-server naar een servergebaseerde implementatie gebruikt u de Edge Network Server-API voor directe server-naar-server-implementatie van Offer decisioning. [Koppeling](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
+* Voor een API-server naar een servergebaseerde implementatie gebruikt u de Edge Network Server-API voor directe server-naar-server-implementatie van Offer decisioning.
+   * [Edge Network Server-API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
 
 <br>
 

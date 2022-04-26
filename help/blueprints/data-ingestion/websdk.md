@@ -5,7 +5,7 @@ solution: Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: acef1c8122285cfecdae633ca004ddbf3a0cf719
+source-git-commit: 3e75ce52939c84ce9ae1faf72f7f1508d74c1ecc
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -32,11 +32,11 @@ Voor details met betrekking tot migratie van toepassing specifieke SDKs aan het 
 
 Het onderstaande architectuurdiagram illustreert de plaatsing en de gegevensinzameling die SDK van het Web van het Experience Platform gebruiken.
 
-<img src="assets/web_sdk_flow.svg" alt="Referentiearchitectuur voor implementatie met de SDK van het Experience Platform Web en Mobile" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="De architectuur van de verwijzing voor implementatie die het Web van het Experience Platform en Mobiele SDK gebruikt" style="width:90%; border:1px solid #4a4a4a" />
 
 Diagram van de Opeenvolging van de Rand van de Ervaring, de Diensten van het Experience Platform, en Toepassingen
 
-<img src="assets/web_sdk_sequence.png" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_sequence.svg" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Referentiedocumentatie
 
