@@ -5,9 +5,9 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 8ad119551e25c1f6acb66fec544c8a67b26c0927
+source-git-commit: c840330d6c81831b868e81d3452d0c416bf55938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,9 @@ ht-degree: 0%
    + [Overzicht](/help/blueprints/data-ingestion/overview.md)
    + [Voorbereiding en inname van gegevens](/help/blueprints/data-ingestion/ingestion.md)
    + [Gegevensverzameling op de server](/help/blueprints/data-ingestion/server-side-collection.md)
-   + [Experience Platform Web SDK](/help/blueprints/data-ingestion/websdk.md)
-   + [SDK&#39;s voor toepassingen](/help/blueprints/data-ingestion/appsdk.md)
+   + Implementatie{#deployment}
+      + [Experience Platform Web SDK &amp; Edge Network](/help/blueprints/data-ingestion/websdk.md)
+      + [SDK&#39;s voor toepassingen](/help/blueprints/data-ingestion/appsdk.md)
 + Gegevensanalyse, intelligentie en AI/ML{#data-exploration}
    + [Overzicht](/help/blueprints/data-insights/overview.md)
    + [Gegevensanalyse en -informatie](/help/blueprints/data-insights/analysis.md)

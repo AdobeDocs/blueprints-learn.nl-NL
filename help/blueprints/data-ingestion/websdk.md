@@ -1,13 +1,13 @@
 ---
-title: Web/Mobile SDK-gegevensverzameling, blauwdruk
-description: Deze blauwdruk toont de architectuur en de opname door het Web van het Experience Platform en Mobiele SDK
-solution: Data Collection
+title: Web/Mobile SDK, de Vervaging van de Plaatsing van het Netwerk van de Rand
+description: Deze blauwdruk toont de architectuur en de opname door het Web van het Experience Platform en Mobiele SDK en het Netwerk van de Rand
+solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 3c134d6a4f8afb091631c14b05f34d6133a8865b
+source-git-commit: c840330d6c81831b868e81d3452d0c416bf55938
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
