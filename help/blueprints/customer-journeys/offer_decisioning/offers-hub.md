@@ -1,40 +1,39 @@
 ---
-title: offer decisioning op de rand
-description: Aangepaste aanbiedingen aan consumenten via verschillende kanalen aanbieden, ook in real-time internet en mobiele ervaringen.
+title: offer decisioning op de hub
+description: Aangepersonaliseerde aanbiedingen aan consumenten aanbieden op verschillende kanalen, waaronder kiosken, ervaringen met assistentie van agenten en in e-mail en andere uitgaande leveringen.
 solution: Experience Platform, Journey Optimizer
-exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 86956e351c166bac0aa37deccc18b7dc151d1473
+source-git-commit: 8ad119551e25c1f6acb66fec544c8a67b26c0927
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
 
 ---
 
-# Journey Optimizer - Offer decisioning aan de rand
+# Journey Optimizer - Offer decisioning op de hub
 
 Adobe Beslissingsbeheer is een dienst die wordt verleend als onderdeel van Adobe Journey Optimizer. Deze blauwdruk schetst de gebruiksgevallen en de technische mogelijkheden van de toepassing en verstrekt een diepe duik in de diverse architecturale componenten en overwegingen die omhoog Offer decisioning maken.
 
-Beslissingsbeheer kan op twee manieren worden ingezet. De eerste is via de Hub van Adobe Experience Platform, die één enkele architectuur van het gegevenscentrum is. In de &quot;hub&quot;benadering worden de aanbiedingen uitgevoerd, gepersonaliseerd, en geleverd in tweede latentie. Aldus is de hubarchitectuur het best geschikt voor klantenervaring die geen sub-tweede latentie vereist, omvatten de voorbeelden aanbiedingsbesluiten die voor kiosken of agent bijgewoonde ervaringen zoals in callcenters of in persoonlijke interactie worden verstrekt.
+Beslissingsbeheer kan op twee manieren worden ingezet. De eerste is via de Adobe Experience Platform hub, een centrale datacenterarchitectuur. In de &quot;hub&quot;-benadering worden aanbiedingen uitgevoerd, gepersonaliseerd en geleverd met een latentie van > 500 ms. Aldus is de hubarchitectuur het best geschikt voor klantenervaringen die geen sub-tweede latentie vereisen, omvatten de voorbeelden aanbiedingsbesluiten die voor kiosken of agent bijgewoonde ervaringen zoals in callcenters of in persoonlijke interactie worden verstrekt. Aanbiedingen die in e-mail en uitgaande campagnes worden opgenomen worden ook aangedreven door de hubbenadering.
 
-De tweede benadering is via het Edge Network van de Ervaring, dat een wereldwijd gedistribueerde, geografisch gesitueerde infrastructuur is om snelle sub-seconde en milliseconde ervaringen te dienen. De eindgebruikerservaring die wordt uitgevoerd door de randinfrastructuur die het dichtst bij de geo-locatie van de consument ligt om de latentie te minimaliseren. Beslissingsbeheer op de rand is ontworpen om in real-time de ervaringen van de consument te dienen. Deze omvatten ervaringen zoals Web of mobiele binnenkomende verpersoonlijkingsverzoeken.
+De tweede benadering is via het Edge Network van de Ervaring, dat een wereldwijd gedistribueerde, geografisch gesitueerde infrastructuur is om snelle sub-seconde en milliseconde ervaringen te dienen. De eindgebruikerservaring die wordt uitgevoerd door de randinfrastructuur die het dichtst bij de geo-locatie van de consument ligt om de latentie te minimaliseren. Beslissingsbeheer op de rand is ontworpen om in real-time ervaringen met de consument te bieden, zoals online of mobiele binnenkomende verzoeken om personalisatie.
 
-Deze blauwdruk zal de specifieke details van Beslissingsbeheer op de Rand omvatten.
+Deze blauwdruk zal betrekking hebben op de specifieke kenmerken van het beheer van besluiten op de hub.
 
-Meer informatie over het Beheer van het Besluit op de hub verwijst naar [Beslissingsbeheer op de hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html?lang=en) blauwdruk.
+Raadpleeg voor meer informatie over Beslissingsbeheer op Edge [Beslissingsbeheer aan de rand](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html?lang=en) blauwdruk.
 
-Raadpleeg de productdocumentatie voor meer informatie over Beslissingsbeheer [HIER](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+Raadpleeg de productdocumentatie HIER voor meer informatie over Beslissingsbeheer (https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
 
 ## Gevallen gebruiken
 
-* Online personalisatie via internet of mobiele apparatuur.
-* Binnenkomende offer decisioning en aanbiedingsvoorstellen.
+* Speciale aanbiedingen voor kiosken en winkelervaringen.
+* Persoonlijke aanbiedingen via de hulp van een agent, zoals callcenters of verkoopinteracties.
 * Transactieuitvoering via verschillende kanalen - biedt consistentie via internet, mobiele apparaten, e-mail en andere interactiekanalen via Adobe Journey Optimizer.
 
 <br>
 
 ## Architectuur
 
-<img src="../assets/offers_edge.svg" alt="Referentie architectuur Offer decisioning op de randblauwdruk" style="width:100%; border:1px solid #4a4a4a" />
+<img src="../assets/offers_hub.svg" alt="Referentie architectuur Offer decisioning op de randblauwdruk" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -73,16 +72,9 @@ Adobe Experience Platform
 
 ## Implementatiepatronen
 
-* Gebruik het Web of Mobiele SDK voor plaatsing op websites en mobiele toepassingen om Offer decisioning uit te voeren waar SDK opstelde.
-   * [Web/Mobile SDK-blauwdruk](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html)
-   * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html)
-   * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
-
-of
-
-* Voor een API-server naar een servergebaseerde implementatie gebruikt u de Edge Network Service API voor directe server-naar-server-implementatie van Offer decisioning.
-   * [Edge Network Server-API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
-   * [API voor besluitvorming](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+* Geïmplementeerd in e-mail, SMS, en uitgaande kanalen via directe integratie met Adobe Journey Optimizer.
+* Voor andere kanaalervaringen kunt u [API voor besluitvorming](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+* Voor op rand gebaseerde real-time ervaringen gebruikt u de Web/Mobile SDK of de Edge Decisioning API zoals beschreven in de [offer decisioning op de Edge-blauwdruk](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html).
 
 <br>
 
