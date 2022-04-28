@@ -3,9 +3,9 @@ title: offer decisioning op de rand
 description: Aangepaste aanbiedingen aan consumenten via verschillende kanalen aanbieden, ook in real-time internet en mobiele ervaringen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 9cdb1bf7a8e97fce6a41fb135441c12ed8e477e0
+source-git-commit: fd8762711a6c3b04d0dd991e4dced2fb6be48c13
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,8 @@ Adobe Experience Platform
 
 ## Guardrails
 
-[Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
-
+* Raadpleeg de volgende secties voor Journey Optimizer-handleidingen [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* Raadpleeg de volgende bronnen voor instructies voor Offer decisioning [Productbeschrijving offer decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 ### Gegevensinname Guardraals
 
