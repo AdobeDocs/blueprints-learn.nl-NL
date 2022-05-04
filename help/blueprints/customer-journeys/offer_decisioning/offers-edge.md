@@ -3,9 +3,9 @@ title: offer decisioning op de rand
 description: Aangepaste aanbiedingen aan consumenten via verschillende kanalen aanbieden, ook in real-time internet en mobiele ervaringen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: bfc8133f0a48cb35dd62e74e92eeb041e93be5c7
+source-git-commit: bedfce6f9ded6c168656e8c37c59f85f250481a1
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,6 @@ of
 
 * Voor een API-server naar een servergebaseerde implementatie gebruikt u de Edge Network Service API voor directe server-naar-server-implementatie van Offer decisioning.
    * [Edge Network Server-API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
-   * [API voor besluitvorming](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html)
 
 <br>
 
