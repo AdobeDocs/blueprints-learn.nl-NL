@@ -1,13 +1,13 @@
 ---
 title: Adobe Experience Platform- & Applications-architectuurdiagram
 description: Dit architectuurdiagram toont hoe Adobe Experience Platform op andere toepassingen en toepassingsdiensten van Adobe Experience Cloud betrekking heeft.
-solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Offer Decisioning, Real-time Customer Data Platform
+solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
+source-git-commit: 64c3ae4c706ef24808818af99e65c2f30f4f5c13
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
           <li>Het profiel van het Experience Platform kan direct tot serverkant aan macht gepersonaliseerde ervaringen worden betreden die door Experience Manager worden geleverd. Merk op dat de verpersoonlijkingsactiviteiten meestal via Experience Manager door de integratie van het Doel worden geleverd. </li>
         </ul>
       </td>
-      <td colspan="1">Geen huidige integratie, gedrag en interactie die op de plaatsen van de Experience Manager worden uitgevoerd worden verzameld direct via het Web van het Experience Platform en SDK van Mobile.</td>
+      <td colspan="1">Geen huidige integratie, gedrag en interactie die op de plaatsen van de Experience Manager worden uitgevoerd worden verzameld direct via het Web van het Experience Platform en Mobiele SDK.</td>
       <td colspan="1">
         <ul>
           <li>
