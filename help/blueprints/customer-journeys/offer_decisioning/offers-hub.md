@@ -3,9 +3,9 @@ title: offer decisioning op de hub
 description: Aangepersonaliseerde aanbiedingen aan consumenten aanbieden op verschillende kanalen, waaronder kiosken, ervaringen met assistentie van agenten en in e-mail en andere uitgaande leveringen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
+source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,8 @@ Raadpleeg voor meer informatie over Beslissingsbeheer op Edge [Beslissingsbeheer
 
 * Speciale aanbiedingen voor kiosken en winkelervaringen.
 * Persoonlijke aanbiedingen via de hulp van een agent, zoals callcenters of verkoopinteracties.
-* Aanbiedingen inbegrepen in e-mail, SMS, of andere uitgaande interactie.
+* Aanbiedingen die zijn opgenomen in e-mail, SMS, mobiele pushberichten of andere uitgaande interacties.
+* Aanbiedingen aan externe ESP- en berichtsystemen aanbieden voor levering.
 * Transactieuitvoering via verschillende kanalen - biedt consistentie via internet, mobiele apparaten, e-mail en andere interactiekanalen via Adobe Journey Optimizer.
 
 <br>
@@ -40,12 +41,6 @@ Raadpleeg voor meer informatie over Beslissingsbeheer op Edge [Beslissingsbeheer
 <img src="../assets/offers_hub.svg" alt="Referentie architectuur Offer decisioning op de randblauwdruk" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
-
-## Integratiepatronen
-
-| Integratie | Beschrijving |
-| :-- | :--- |
-| [offer decisioning met Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html) | offer decisioning kan worden geïntegreerd met Adobe Target zodat de aanbiedingen kunnen worden getest en geleverd als ervaringen met het doel. |
 
 ## Vereisten
 

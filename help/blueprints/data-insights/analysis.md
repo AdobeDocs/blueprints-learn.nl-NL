@@ -5,9 +5,9 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
+source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 De Analyse en de Intelligentie van gegevens omvat de capaciteit binnen Adobe Experience Platform om verkennende vraag en analyse van de gegevens uit te voeren die in het gegevensmeer bestaan.
 
-Experience Platform [!UICONTROL Query-service] staat SQL vragen toe om op de gegevens worden uitgevoerd. [!UICONTROL Werkruimte voor gegevenswetenschap] maakt het mogelijk gegevensexploratie, gegevenswetenschap en werklasten voor het leren van machines uit te voeren op de gegevens.
+Experience Platform [!UICONTROL Query-service] staat SQL vragen toe om op de gegevens worden uitgevoerd.
 
-Bovendien staat het Experience Platform verbindingen met derdeSQL cliënten, interfaces, en de hulpmiddelen van de Business Intelligence (BI) toe om met, tot de gegevens binnen Experience Platform direct te verbinden toegang te hebben en te vragen, gebruikend [!DNL PostgreSQL] protocol.
+Het Experience Platform staat verbindingen met derdeSQL cliënten, interfaces, en hulpmiddelen van de Business Intelligence (BI) toe om met, tot de gegevens binnen Experience Platform direct te verbinden toegang te hebben en te vragen, gebruikend [!DNL PostgreSQL] protocol.
 
-Bepaalde instructies gelden voor de time-out van de query en voor de hoeveelheid gegevens die in het queryresultaat is opgenomen, zoals vermeld in de details van de blauwdruk.
+Bepaalde instructies gelden voor de time-out van de query en voor de hoeveelheid gegevens die in het queryresultaat is opgenomen, zoals vermeld in de sectie guardrails hieronder.
 
 ## Gevallen gebruiken
 
