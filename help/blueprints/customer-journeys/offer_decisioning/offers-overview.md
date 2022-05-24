@@ -3,9 +3,9 @@ title: Overzicht van offer decisioning
 description: Aangepaste aanbiedingen leveren voor alle reizen van de klant.
 solution: Experience Platform, Journey Optimizer
 exl-id: f6271802-faab-4ffc-92d6-4c4d7d423ed4
-source-git-commit: 8842b8637a30151577a93653c16b4d37e2cf7c27
+source-git-commit: 7dcbf86b362350312a86445bbe7a020f5ccd1752
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,20 @@ Beslissingsbeheer kan op twee manieren worden ingezet, op de rand of via de hub.
 
 De eerste is via de Adobe Experience Platform hub, een centrale datacenterarchitectuur. In de &quot;hub&quot;-benadering worden aanbiedingen uitgevoerd, gepersonaliseerd en geleverd met een latentie van > 500 ms. Aldus is de hubarchitectuur het best geschikt voor klantenervaringen die geen sub-tweede latentie vereisen, omvatten de voorbeelden aanbiedingsbesluiten die voor kiosken of agent bijgewoonde ervaringen zoals in callcenters of in persoonlijke interactie worden verstrekt. Aanbiedingen die in e-mail, de berichten van SMS, of dupberichten en andere uitgaande campagnes worden opgenomen worden ook aangedreven door de hubbenadering. Meer informatie over het Beheer van het Besluit op de hub verwijst naar [Beslissingsbeheer op de hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html?lang=en) blauwdruk.
 
+* Aanbiedingsgeschiktheid kan werken volgens het volledige real-time klantprofiel, inclusief alle kenmerken en ervaringsgebeurtenissen
+
 ### Gebruik van gevallen voor beslissingsbeheer op de hub
 
 * Speciale aanbiedingen voor kiosken en winkelervaringen.
 * Persoonlijke aanbiedingen via de hulp van een agent, zoals callcenters of verkoopinteracties.
 * Aanbiedingen inbegrepen in e-mail, SMS, of andere uitgaande interactie.
 * Transactieuitvoering via verschillende kanalen - biedt consistentie via internet, mobiele apparaten, e-mail en andere interactiekanalen via Adobe Journey Optimizer.
+
+### Beslissingsbeheer met betrekking tot de technische aspecten van de hub
+
+* Verzoeken per seconde = 2000.
+* Latentie van respons &lt; 500 ms.
+* Toegang tot volledig real-time klantprofiel met inbegrip van publiekslidmaatschappen, attributen en ervaringsgebeurtenissen.
 
 ## Beslissingsbeheer aan de rand
 
@@ -46,6 +54,13 @@ De tweede benadering is via het Edge Network van de Ervaring, dat een wereldwijd
 
 * Online personalisatie via internet of mobiele binnenkomende ervaringen.
 * Transactieuitvoering via verschillende kanalen - biedt consistentie via internet, mobiele apparaten, e-mail en andere interactiekanalen via Adobe Journey Optimizer.
+
+### Beslissingsbeheer op basis van geavanceerde technische overwegingen
+
+* Verzoeken per seconde = 5000.
+* Latentie van respons &lt; 250 ms.
+* Toegang tot real-time randprofiel. In het profiel zijn alleen geprojecteerde soorten publiek en profielkenmerken beschikbaar.
+* Als verpersoonlijking in eerste-tijdervaringen wordt vereist, zal de hub ideaal zijn aangezien het volledige profiel beschikbaar is. Het randprofiel moet voor het eerst worden gesynchroniseerd vanuit de hub. De allereerste ervaring met de rand bevat dus geen eerder geüploade profielgegevens naar de hub.
 
 ## Verwante documentatie
 

@@ -3,9 +3,9 @@ title: offer decisioning op de hub
 description: Aangepersonaliseerde aanbiedingen aan consumenten aanbieden op verschillende kanalen, waaronder kiosken, ervaringen met assistentie van agenten en in e-mail en andere uitgaande leveringen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
+source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,9 @@ Adobe Experience Platform
 
 * Raadpleeg het volgende voor Journey Optimizer-instructies [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
 * Raadpleeg de volgende bronnen voor Offer decisioning [Productbeschrijving offer decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
+* Verzoeken per seconde = 2000.
+* Latentie van respons &lt; 500 ms.
+* Toegang tot volledig real-time klantprofiel met inbegrip van publiekslidmaatschappen, attributen en ervaringsgebeurtenissen.
 
 
 ### Gegevensinname Guardraals

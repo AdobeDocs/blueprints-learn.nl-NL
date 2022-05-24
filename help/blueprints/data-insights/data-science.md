@@ -4,9 +4,9 @@ description: Deze blauwdruk laat zien hoe de Werkruimte van de Wetenschap van Ge
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
+source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,25 @@ De Wetenschap van de Gegevens van de douane voor de Blauwdruk van de Verrijking 
 1. [Schema&#39;s maken](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden ingevoerd.
 1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden ingevoerd.
 1. [Gegevens samenvoegen](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in Experience Platform.
+
+Voor modelresultaten die in het Profiel van de Klant in real time moeten worden opgenomen ben zeker om het volgende te doen alvorens gegevens in te voeren:
+
+1. [De juiste identiteiten en naamruimten configureren](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html) op het schema om ervoor te zorgen dat ingesloten gegevens in een verenigd profiel kunnen vastmaken.
+1. [De schema&#39;s en datasets voor profiel inschakelen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
+
+## Overwegingen bij de implementatie
+
+* In de meeste gevallen moet het modelresultaat worden opgenomen als profielkenmerken en hoeven er geen gebeurtenissen te worden ervaren. De modelresultaten kunnen een eenvoudige kenmerktekenreeks zijn. Als er meerdere modelresultaten zijn die moeten worden opgenomen, wordt aanbevolen een array- of kaarttekstveld te gebruiken.
+* De gegevensset met momentopnamen voor dagelijkse profielen, die een dagelijkse export is van de gegevens van de verenigde profielkenmerken, kan worden gebruikt om modellen voor profielkenmerkgegevens op te leiden. De document van de de momentopnamesdataset van het profiel kan worden betreden [hier](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html#profile-attribute-datasets).
+* Voor het extraheren van gegevens uit Experience Platform kunnen de volgende methoden worden gebruikt
+   * SDK voor gegevenstoegang
+      * Gegevens worden opgeslagen in Raw-bestandsformulier
+      * De gebeurtenisgegevens van de profielervaring blijven in onverenigde onbewerkte toestand staan.
+   * RTCDP-doelen
+      * Alleen profielkenmerken en segmentlidmaatschappen kunnen worden ingedrukt.
+   * Query-service
+      * Het verkrijgen van toegang tot grote hoeveelheden onbewerkte gegevens kan ertoe leiden dat de query uitvalt bij de time-out van 10 minuten. Het wordt aanbevolen incrementeel query&#39;s uit te voeren op gegevens.
+
 
 ## Verwante documentatie
 
