@@ -1,12 +1,12 @@
 ---
-title: Blauwdruk voor gegevensverzameling op de server
+title: Vervaging door gebeurtenis
 description: Verzamelde gegevens door Experience Platform-SDK's streamen naar doelen
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: e6ef8a1e7b90778c0163227e32d2691dfaf9c9d2
+source-git-commit: 7181c1dc3f823a9ea6f0e95f036eb4623b1b6c3b
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
