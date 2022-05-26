@@ -5,9 +5,9 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 3e75ce52939c84ce9ae1faf72f7f1508d74c1ecc
+source-git-commit: 5ee530220cd5928f9ab4aabd50148b963273d67c
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,7 @@ In het onderstaande diagram worden de gemiddelde prestatiegaranties en de latent
 
 | Methoden voor het voorbereiden van gegevens | Beschrijving |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Werkruimte voor gegevenswetenschap] - Data Prep | Transformatie met behulp van model, transformatie met scripts.<br>[Documentatie](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en) |
-| Extern ETL-gereedschap ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica], enzovoort) | Complexe transformaties uitvoeren in ETL-gereedschappen en standaard Experience Platform gebruiken [!UICONTROL Flow Service] API&#39;s of bronconnectors om de resulterende gegevens in te voeren. |
+| Extern ETL-gereedschap ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica], enz.) | Complexe transformaties uitvoeren in ETL-gereedschappen en standaard Experience Platform gebruiken [!UICONTROL Flow Service] API&#39;s of bronconnectors om de resulterende gegevens in te voeren. |
 | [!UICONTROL Query-service] - Data Prep | Verbindt, Splits, de gegevens van de Fusie, van de Transformatie, van de Vraag, en van de Filter in een nieuwe dataset. Tabel maken als selectie gebruiken (CTAS) <br>[Documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql) |
 | XDM Mapper- en Data Prep-functies (streaming en batch) | Wijs bronkenmerken in CSV- of JSON-indeling toe aan XDM-kenmerken tijdens het opnemen van Experience Platforms.<br>rekenfuncties op gegevens terwijl deze worden ingevoerd; dat wil zeggen, gegevens opmaken, splitsen, samenvoegen, enzovoort.<br>[Documentatie](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
 

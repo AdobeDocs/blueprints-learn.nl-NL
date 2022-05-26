@@ -4,16 +4,16 @@ description: Verzamelde gegevens door Experience Platform-SDK's streamen naar do
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
+source-git-commit: e6ef8a1e7b90778c0163227e32d2691dfaf9c9d2
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
 
-# Blauwdruk voor gegevensverzameling op de server
+# Vervaging door gebeurtenis
 
-De Vervaging van de Verzameling van Gegevens van de Onderneming van de server toont hoe de gegevens die met het Web van Adobe Experience Platform en Mobiele SDKs worden verzameld van het Netwerk van de Rand van het Experience Platform aan een gewenste bestemming kunnen door:sturen. U kunt alle onbewerkte gegevens die zijn verzameld van de SDK&#39;s doorsturen, of specifieke gegevens die zijn gebaseerd op gebeurtenissen en regels die zijn geconfigureerd in de eigenschappen van tags (voorheen Starten).
+De gebeurtenis die door:sturen Vervaging toont hoe de gegevens die met het Web van Adobe Experience Platform en Mobiele SDKs worden verzameld van het Netwerk van de Rand van het Experience Platform aan een gewenste bestemming kunnen door:sturen. U kunt alle onbewerkte gegevens die zijn verzameld van de SDK&#39;s doorsturen, of specifieke gegevens die zijn gebaseerd op gebeurtenissen en regels die zijn geconfigureerd in de eigenschappen van tags (voorheen Starten).
 
 ## Gevallen gebruiken
 
@@ -22,7 +22,7 @@ De Vervaging van de Verzameling van Gegevens van de Onderneming van de server to
 
 ## Toepassingen
 
-* Adobe Experience Platform Collection
+* Adobe Experience Platform-gegevensverzameling
 
 ## Architectuur
 
