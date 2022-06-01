@@ -3,9 +3,9 @@ title: Campagne v8 Blueprint
 description: Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor traditionele marketing kanalen zoals e-mail en direct mail wordt gebouwd. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma's met een centrale focus op batchgeoriënteerde reizen.  Het komt ook met een scalable Real-Time overseinenserver worden verbonden die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor dingen zoals het terugstellen van het wachtwoord, orderbevestiging, e-ontvangstbewijzen en veel meer worden gebaseerd.
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: 24d5ec498d09f6dac443561bd530d58a33dae7af
+source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor traditionele m
 
 | Scenario | Beschrijving | Mogelijkheden |
 | :-- | :--- | :--- |
-| [Journey Optimizer met Adobe Campaign](ajo-and-campaign.md) | Toont hoe u Adobe Journey Optimizer kunt gebruiken om 1:1 ervaringen te ordenen gebruikend het Real-Time Profiel van de Klant en hefboomwerking het inheemse systeem van het de transactionele overseinen van Adobe Campaign om het bericht te verzenden | Gebruik het Real-Time Klantprofiel en de macht van Journey Optimizer om in de huidige ervaringen te ordenen terwijl het gebruiken van de inheemse mogelijkheden van het Overseinen in real time van Adobe Campaign om de laatste mijl mededeling te doen<br><br>Overwegingen:<br><ul><li>Kan tot 1M berichten per uur via de Echte - tijd server van het Bericht verzenden<li>Er wordt geen vertraging uitgevoerd vanuit Journey Optimizer, zodat technische controles door een pre-Sales Enterprise Architect worden uitgevoerd</li><li>offer decisioning wordt niet ondersteund in pakketten naar campagne v8</li></ul> |
+| [Journey Optimizer met Adobe Campaign](ajo-and-campaign.md) | Toont hoe u Adobe Journey Optimizer kunt gebruiken om 1:1 ervaringen te ordenen gebruikend het Real-Time Profiel van de Klant en hefboomwerking het inheemse systeem van het de transactionele overseinen van Adobe Campaign om het bericht te verzenden | Gebruik het Real-Time Klantprofiel en de macht van Journey Optimizer om in de huidige ervaringen te ordenen terwijl het gebruiken van de inheemse mogelijkheden van het Overseinen in real time van Adobe Campaign om de laatste mijl mededeling te doen<br><br>Overwegingen:<br><ul><li>Kan tot 1M berichten per uur via de Echte - tijd server van het Bericht verzenden<li>Er wordt geen vertraging uitgevoerd vanuit Journey Optimizer, zodat technische controles door een pre-Sales Enterprise Architect worden uitgevoerd</li><li>Beslissingsbeheer wordt niet ondersteund in pakketten naar campagne v8</li></ul> |
 
 <br>
 
@@ -97,7 +97,7 @@ Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor traditionele m
 * De campagne verstrekt de capaciteit om met een leverancier van SMS te integreren. De leverancier wordt aangekocht door de klant en geïntegreerd met campagne voor het verzenden van SMS-berichten
 * De steun is via het protocol SMPP
 * Er zijn drie (3) verschillende soorten SMS die Adobe kan ondersteunen:
-   * SMS MT (Mobile beëindigd): een SMS dat door Adobe Campaign via de SMPP-provider naar mobiele telefoons wordt gezonden.
+   * SMS MT (mobiel beëindigd): een SMS dat door Adobe Campaign via de SMPP-provider naar mobiele telefoons wordt gezonden.
    * SMS MO (afkomstig van mobiele apparaten): een SMS dat door een mobiele telefoon via de SMPP-provider naar Adobe Campaign wordt verzonden.
    * SMS SR (Status Report) of DR. of DLR (Delivery Receipt): een door de mobiele telefoon via de SMPP-provider aan Adobe Campaign verzonden ontvangstbewijs waaruit blijkt dat het SMS met succes is ontvangen. Adobe Campaign kan ook SR ontvangen om aan te geven dat het bericht niet kan worden verzonden, vaak met een beschrijving van de fout.
 

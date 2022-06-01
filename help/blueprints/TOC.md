@@ -5,7 +5,7 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: f39c916d4b13d17eb3705c7adf01353929ff7956
+source-git-commit: ac995cdb942fd14d87281c4b499239732a1e4019
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -47,10 +47,10 @@ ht-degree: 0%
    + [Overzicht](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer{#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + offer decisioning{#offer-decisioning}
-         + [Overzicht](/help/blueprints/customer-journeys/offer_decisioning/offers-overview.md)
-         + [offer decisioning op de rand](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
-         + [offer decisioning op de hub](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
+      + Beslissingsbeheer{#decision-management}
+         + [Overzicht](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
+         + [Beslissingsbeheer aan de rand](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
+         + [Beslissingsbeheer op de hub](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
       + [Journey Optimizer met Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Berichten van derden](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campagne v8{#campaign-v8}
@@ -74,4 +74,4 @@ ht-degree: 0%
    + [Overzicht](/help/blueprints/web-personalization/overview.md)
    + [Gedragingen aanpassen](/help/blueprints/web-personalization/behavioral.md)
    + [Bekende klantpersonalisatie](/help/blueprints/web-personalization/known-personalization.md)
-   + [offer decisioning](/help/blueprints/web-personalization/offers-edge.md)
+   + [Beslissingsbeheer](/help/blueprints/web-personalization/decision-management-edge.md)

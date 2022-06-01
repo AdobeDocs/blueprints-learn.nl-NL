@@ -3,9 +3,9 @@ title: Journey Optimizer - Blauwdruk voor berichten van derden
 description: Toont aan hoe Adobe Journey Optimizer met de systemen van het derdeoverseinen kan worden gebruikt om gepersonaliseerde mededelingen te ordenen en te verzenden.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: d19555201107b6aa827e63eb8ecff8642d9f967c
+source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Extra Journey Optimizer-instructies:
    * Streaming segmenten (&lt;5mins kwalificatie)
 * Batchsegmenten - zorg dat u het dagelijkse volume van gekwalificeerde gebruikers begrijpt en ervoor zorgt dat het doelsysteem de burst-doorvoer per reis en over alle reizen kan verwerken
 * Streamingsegmenten - moeten ervoor zorgen dat de eerste uitbarsting van profielkwalificaties kan worden afgehandeld samen met het dagelijks streaming kwalificatievolume per reis en over alle reizen
-* offer decisioning wordt niet ondersteund
+* Beslissingsbeheer wordt niet ondersteund
 * Uitgaande integratie in systemen van derden
    * Geen steun voor één enkele Statische IPs aangezien onze infrastructuur multi-huurder is (moet alle datacenter IPs lijsten van gewenste personen)
    * Alleen methoden voor POSTEN en PUTTEN worden ondersteund voor aangepaste handelingen

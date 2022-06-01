@@ -3,7 +3,7 @@ title: Journey Optimizer - geactiveerd berichtenverkeer en Adobe Experience Plat
 description: Voer teweeggebrachte berichten en ervaringen uit gebruikend Adobe Experience Platform als centrale hub van het stromen gegevens, klantenprofielen, en segmentatie.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: d19555201107b6aa827e63eb8ecff8642d9f967c
+source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Adobe Journey Optimizer is een speciaal gebouwd systeem voor marketingteams om i
 
 | Scenario | Beschrijving | Mogelijkheden |
 | :-- | :--- | :--- |
-| [Berichten van derden](3rd-party-messaging.md) | Toont aan hoe Adobe Journey Optimizer met de systemen van het derdeoverseinen kan worden gebruikt om gepersonaliseerde mededelingen te organiseren en te verzenden | Lever 1:1 op het moment gepersonaliseerde mededelingen aan klanten aangezien zij met uw merk of bedrijf in wisselwerking staan<br><br>Overwegingen:<br><ul><li>Het systeem van de derde partij moet dragertokens voor authentificatie steunen</li><li>Geen steun voor statische IPs toe te schrijven aan multi-huurdersarchitectuur</li><li>Houd rekening met architecturale beperkingen op systemen van derden voor API-aanroepen per seconde.  Mogelijk moet de klant extra volume van de externe leverancier kopen om het volume van Journey Optimizer te ondersteunen</li><li>Biedt geen ondersteuning voor Offer decisioning in berichten of ladingen</li></ul> |
+| [Berichten van derden](3rd-party-messaging.md) | Toont aan hoe Adobe Journey Optimizer met de systemen van het derdeoverseinen kan worden gebruikt om gepersonaliseerde mededelingen te organiseren en te verzenden | Lever 1:1 op het moment gepersonaliseerde mededelingen aan klanten aangezien zij met uw merk of bedrijf in wisselwerking staan<br><br>Overwegingen:<br><ul><li>Het systeem van de derde partij moet dragertokens voor authentificatie steunen</li><li>Geen steun voor statische IPs toe te schrijven aan multi-huurdersarchitectuur</li><li>Houd rekening met architecturale beperkingen op systemen van derden voor API-aanroepen per seconde.  Mogelijk moet de klant extra volume van de externe leverancier kopen om het volume van Journey Optimizer te ondersteunen</li><li>Biedt geen ondersteuning voor Beslissingsbeheer in berichten of ladingen</li></ul> |
 
 <br>
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer is een speciaal gebouwd systeem voor marketingteams om i
 
 | Integratie | Beschrijving | Mogelijkheden |
 | :-- | :--- | :--- |
-| [Journey Optimizer met Adobe Campaign](ajo-and-campaign.md) | Toont hoe u Adobe Journey Optimizer kunt gebruiken om 1:1 ervaringen te ordenen gebruikend het Real-Time Profiel van de Klant en hefboomwerking het inheemse systeem van het de transactionele overseinen van Adobe Campaign om het bericht te verzenden | Gebruik het Real-Time Klantprofiel en de macht van Journey Optimizer om in de huidige ervaringen te ordenen terwijl het gebruiken van de inheemse mogelijkheden van het Overseinen in real time van Adobe Campaign om de laatste mijl mededeling te doen<br><br>Overwegingen:<br><ul><li>Campagne-toepassing moet zijn ingeschakeld in versie 7 build >21.1 of v8</li><li>De productie van berichten</li><ul><li>Campagne v7 - tot 50 k per uur</li><li>Campagne v8 - maximaal 1 miljoen per uur</li><li>Campaign Standard - maximaal 50 k per uur</li></ul><li>Er wordt geen vertraging uitgevoerd, dus in geval van gebruik is een technische controle door een Enterprise Architect vereist</li><li>Geen steun voor het gebruiken van Offer decisioning in bericht dat door Campagne wordt verzonden</li></ul> |
+| [Journey Optimizer met Adobe Campaign](ajo-and-campaign.md) | Toont hoe u Adobe Journey Optimizer kunt gebruiken om 1:1 ervaringen te ordenen gebruikend het Real-Time Profiel van de Klant en hefboomwerking het inheemse systeem van het de transactionele overseinen van Adobe Campaign om het bericht te verzenden | Gebruik het Real-Time Klantprofiel en de macht van Journey Optimizer om in de huidige ervaringen te ordenen terwijl het gebruiken van de inheemse mogelijkheden van het Overseinen in real time van Adobe Campaign om de laatste mijl mededeling te doen<br><br>Overwegingen:<br><ul><li>Campagne-toepassing moet zijn ingeschakeld in versie 7 build >21.1 of v8</li><li>De productie van berichten</li><ul><li>Campagne v7 - tot 50 k per uur</li><li>Campagne v8 - maximaal 1 miljoen per uur</li><li>Campaign Standard - maximaal 50 k per uur</li></ul><li>Er wordt geen vertraging uitgevoerd, dus in geval van gebruik is een technische controle door een Enterprise Architect vereist</li><li>Geen steun voor het gebruiken van Beslissingsbeheer in bericht dat door Campagne wordt verzonden</li></ul> |
 
 <br>
 
@@ -78,7 +78,7 @@ Houd rekening met de volgende punten die niet in de bovenstaande koppeling worde
 
 * Batchsegmenten - zorg dat u het dagelijkse volume van gekwalificeerde gebruikers begrijpt en ervoor zorgt dat het doelsysteem de burst-doorvoer per reis en over alle reizen kan verwerken
 * Streamingsegmenten - moeten ervoor zorgen dat de eerste uitbarsting van profielkwalificaties kan worden afgehandeld samen met het dagelijks streaming kwalificatievolume per reis en over alle reizen
-* Offer decisioning wordt alleen in berichten ondersteund (geen aangepaste acties)
+* Native ondersteunt alleen Beslissingsbeheer in berichten (geen aangepaste acties)
 * Ondersteunde berichttypen:
    * E-mail
    * Push (FCM/APNS)
