@@ -4,7 +4,7 @@ description: Activering voor aangepast publiek van Facebook.
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
+source-git-commit: 6fa38772f77ffd565580db55f8f2889b0e703949
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Verzamel klantengegevens uit veelvoudige bronnen om één enkele profielmening van de klant te bouwen, deze profielen te segmenteren aan gebouwd publiek voor marketing en verpersoonlijking, deze toehoorders aan Sociale Advertentienetwerken zoals Facebook aan doel en verpersoonlijkingscampagnes tegen dat publiek te delen.
 
-## Use Cases
+## Gevallen gebruiken
 
 * Publiek dat zich richt op bekende doelgroepen op sociale en reclamebestemmingen.
 * Online personalisatie met online en offline kenmerken.
@@ -26,25 +26,25 @@ Verzamel klantengegevens uit veelvoudige bronnen om één enkele profielmening v
 
 ## Architectuur
 
-<img src="../assets/facebook.png" alt="Referentiearchitectuur voor Facebook Custom Audience Activation" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../assets/facebook.svg" alt="Referentiearchitectuur voor Facebook Custom Audience Activation" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Implementatiestappen
 
 1. Identiteitsnaamruimten configureren die moeten worden gebruikt in profielgegevensbronnen.
    * Gebruik naamruimten buiten het vak, zoals E-mail, SHA256-hash, indien beschikbaar.
-   * Facebook heeft een lijst met ondersteunde identiteiten. In order to activate to Facebook custom audiences, one of the supported identities must be present in the profiles to be activated.
-   * The following identities are currently supported by Facebook: GAID, IDFA, phone_sha256, email_lc_sha256, extern_id.
+   * Facebook heeft een lijst met ondersteunde identiteiten. Als u een aangepast publiek van Facebook wilt activeren, moet een van de ondersteunde identiteiten aanwezig zijn in de profielen die moeten worden geactiveerd.
+   * De volgende identiteiten worden momenteel ondersteund door Facebook: GAID, IDFA, phone_sha256, email_lc_sha256, extern_id.
    * Zie voor meer informatie de [Facebook-doelgids](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html).
    * Aangepaste naamruimten maken waarin naamruimten buiten het vak niet beschikbaar zijn voor de toepasselijke id&#39;s.
 1. Vorm de schema&#39;s en datasets van de gegevensbron van het Profiel.
-   * Create Profile Record schemas for all profile record source data.
+   * Profielrecordschema&#39;s maken voor alle brongegevens van profielrecords.
       * Geef de primaire identiteit en secundaire identiteiten voor elk schema op.
       * Schakel het schema in voor profielopname.
    * Creeer de datasets van het Verslag van het Profiel voor alle brongegevens van het profielverslag, toewijzend het bijbehorende schema.
       * Schakel de gegevensset in voor het opnemen van profielen.
    * Creeer de schema&#39;s van de Gebeurtenis van de Ervaring van het Profiel voor alle van de profieltijdreeks gebaseerde brongegevens.
       * Specificeer de primaire identiteit en secundaire identiteiten voor het schema.
-   * Enable the schema for profile ingestion.
+   * Schakel het schema in voor profielopname.
    * Creeer de datasets van de Gebeurtenis van de Ervaring van het Profiel voor alle gegevens van de gebeurtenisbron van de profielervaring, toewijzend het bijbehorende schema.
       * Schakel de gegevensset in voor het opnemen van profielen.
 1. Ontvang de brongegevens gebruikend een bronschakelaar in de bijbehorende dataset hierboven gevormd.
@@ -52,13 +52,13 @@ Verzamel klantengegevens uit veelvoudige bronnen om één enkele profielmening v
    * Vorm een dataflow om de gegevens van het brondossier of omslagplaats bij een gespecificeerd programma aan de gespecificeerde dataset in te voeren.
    * Wijs om het even welke gebieden van de brongegevens aan het doelschema toe.
    * Transformeer alle velden naar de juiste indeling voor opname in het Experience Platform.
-      * Date transformations
+      * Datumtransformaties
       * Transformeren naar kleine letters waar van toepassing - zoals e-mailadres
       * Patroontransformaties (bijvoorbeeld telefoonnummer)
       * Voeg unieke record-id&#39;s toe voor ervaringsgebeurtenisrecords als deze niet aanwezig zijn in de brongegevens.
       * Transformeer arrays en kaarttekstvelden om ervoor te zorgen dat arrays en kaarten correct worden toegewezen en gemodelleerd voor segmentatie in Experience Platform.
 1. Vorm het Beleid van de Fusie van het Profiel om de correcte configuratie van de identiteitsgrafiek te verzekeren en welke datasets in de samenvoeging van profielen zouden moeten worden omvat.
-1. After dataflows have executed, ensure the profile data ingestion was successful with no errors.
+1. Nadat de gegevensstromen hebben uitgevoerd, zorg ervoor de de gegevensinvoer van het profiel met succes zonder fouten was.
    * Inspect de identiteitsgrafiek van verscheidene profielen om correcte verwerking van identiteitsverhoudingen te verzekeren.
    * Inspect de kenmerken en gebeurtenissen van verschillende profielen om ervoor te zorgen dat attributen en gebeurtenissen correct worden opgenomen in de profielen.
 1. Auteurssegmenten om profielpubliek te maken
@@ -69,20 +69,20 @@ Verzamel klantengegevens uit veelvoudige bronnen om één enkele profielmening v
    * Herzie de telling van segmentresultaten voor de bepaalde segmenten.
    * Onderzoek het profiel dat in het segment zou moeten worden omvat om te verifiëren het segmentlidmaatschap is inbegrepen in het gedeelte van het segmentlidmaatschap van het profiel.
 1. Vorm de levering van het publiek aan de bestemming in de configuratie van de Bestemming.
-   * See the [Facebook Destination Guide](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html) for further details on configuring the Facebook Destination.
+   * Zie de [Facebook-doelgids](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html) voor meer informatie over het configureren van de Facebook-bestemming.
    * Wanneer het vormen van een bestemming, selecteer welk publiek u aan de bestemming wilt activeren.
    * Bepaal de geplande begindatum u de bestemmingsdataflow zou willen beginnen leverend het publiek aan de bestemming.
    * Elke bestemming heeft verplichte en optionele kenmerken die worden verzonden.
       * Voor Facebook moet een van de vereiste identiteiten worden opgenomen en wordt deze gebruikt om de profielen in het publiek binnen het Experience Platform aan te passen aan een profiel dat door Facebook wordt beoogd.
-   * Each destination also has a specified delivery type, whether streaming or batch, file based or JSON payload.
+   * Elke bestemming heeft ook een opgegeven leveringstype, of het nu gaat om streaming, batch, op bestand gebaseerd of JSON-lading.
       * Voor Facebook worden publieksleden op streamingwijze geleverd aan een Facebook-eindpunt in JSON-indeling.
-      * Audience memberships will be delivered in streaming fashion subsequent to the streaming or batch segmentation evaluation in Experience Platform.
+      * De leden van het publiek zullen op streamingwijze na het stromen of partijsegmentatie evaluatie in Experience Platform worden geleverd.
 1. Verzeker de bestemmingsstroom het publiek aan de bestemming zoals verwacht heeft geleverd.
-   * Check the monitoring interface to confirm the audience was delivered with the number of profiles expected. De publieksgrootte moet het verwachte aantal geactiveerde profielen weerspiegelen. Voor specifieke doelen, zoals Facebook, zijn bepaalde velden vereist, zoals een e-mailhash-identiteit. Als deze niet voorkomen in het profiel dat lid is van het publiek, wordt de doelgroep niet geactiveerd.
-   * Check for any skipped profiles for profile identities missing or attributes missing that were mandatory.
-   * Check for any other errors that may need to be resolved.
+   * Controleer de controleinterface om te bevestigen dat het publiek met het verwachte aantal profielen is geleverd. De publieksgrootte moet het verwachte aantal geactiveerde profielen weerspiegelen. Voor specifieke doelen, zoals Facebook, zijn bepaalde velden vereist, zoals een e-mailhash-identiteit. Als deze niet voorkomen in het profiel dat lid is van het publiek, wordt de doelgroep niet geactiveerd.
+   * Controleer of overgeslagen profielen aangeven dat er ontbrekende of verplichte kenmerken ontbreken in de profiel-id.
+   * Controleer op eventuele andere fouten die moeten worden opgelost.
 1. Verifieer het publiek aan de eindbestemming met het verwachte aantal publiekslidmaatschappen werd geactiveerd.
-   * Login to Facebook Custom Audience portal to verify the audience from Real-time Customer Data Platform was delivered and that the match rate of profiles in the audience in Facebook reasonably matches the number of profiles in the audience from Real-time Customer Data Platform.
+   * Meld u aan bij de Facebook Custom Audience-portal om te controleren of het publiek van Real-time Customer Data Platform is geleverd en of de weergavesnelheid van profielen in het publiek in Facebook redelijk overeenkomt met het aantal profielen in het publiek in Real-time Customer Data Platform.
 
 ## Guardrails
 
