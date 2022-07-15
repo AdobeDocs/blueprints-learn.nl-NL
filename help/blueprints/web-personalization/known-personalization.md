@@ -1,5 +1,5 @@
 ---
-title: Overzicht van Web/Mobile Personalization
+title: Overzicht van web-/mobiele personalisatie
 description: Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalpersonalisatie.
 landing-page-description: Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalpersonalisatie.
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
@@ -7,19 +7,19 @@ kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 9d9daf96b9ad36d3f384f486e156a79e679494d9
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Web/Mobile Personalization met bekende klantgegevens
+# Web/Mobiele Personalisatie met bekende klantengegevens
 
 ## Gevallen gebruiken
 
 * Online personalisatie met bekende klantgegevens
 * Optimalisatie landingspagina
-* Personalization is gebaseerd op eerdere product/inhoud-weergaven, product/inhoud-affiniteit, milieukenmerken en demografie, naast offlinegegevens zoals transacties, loyaliteits- en CRM-gegevens, en gemodelleerde inzichten
+* Personalisatie op basis van eerdere product/inhoud-weergaven, product/inhoud-affiniteit, milieukenmerken en demografie, naast offlinegegevens zoals transacties, loyaliteits- en CRM-gegevens, en gemodelleerde inzichten
 * Deel en doelpubliek dat in Real-time Customer Data Platform is gedefinieerd op websites en mobiele apps met Adobe Target.
 
 ## Toepassingen
@@ -53,7 +53,7 @@ Overzichtsarchitectuur
 
 ## Implementatiepatronen
 
-Bekende Customer Personalization wordt ondersteund via verschillende implementatiemethoden.
+Bekende klantpersonalisatie wordt ondersteund via verschillende implementatiemethoden.
 
 ### Implementatiepatroon 1 - Edge Network with Web/Mobile SDK of Edge Network API (aanbevolen aanpak)
 
@@ -71,7 +71,7 @@ traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AT.js en Ap
 
 1. [Adobe Target implementeren](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) voor uw web- of mobiele toepassingen
 1. [Experience Platform uitvoeren en [!UICONTROL Klantprofiel in realtime]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html) zorgen ervoor dat het gemaakte publiek wordt geactiveerd voor de Edge door de toepasselijke [samenvoegingsbeleid](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#create-a-merge-policy) als actief op de rand.
-1. Implementeren [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html). SDK van het Web van het Experience Platform wordt vereist voor segmentatie in real time van de Rand, maar niet vereist voor het delen van het stromen en partijpubliek van Real-time Customer Data Platform aan Doel. Ondersteuning voor realtime segmentatie via de Mobile SDK en API is momenteel niet beschikbaar.
+1. Implementeren [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html). SDK van het Web van het Experience Platform wordt vereist voor segmentatie in real time van de Rand, maar niet vereist voor het delen van het stromen en partijpubliek van Real-time Customer Data Platform aan Doel. Ondersteuning voor realtime segmentatie via de mobiele SDK en API is momenteel niet beschikbaar.
 1. [Het Edge-netwerk configureren met een Edge DataStream](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)
 1. [Adobe Target inschakelen als bestemming in Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en)
 1. (Optioneel) [Adobe Audience Manager implementeren](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html).
@@ -117,7 +117,7 @@ Identiteitsvoorwaarden
 
 ### Verwante blogberichten
 
-* [Adobe kondigt Personalization met dezelfde pagina en Real-time Customer Data Platform aan](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform)
+* [Adobe kondigt &#39;Same Page Enhanced Personalization&#39; aan met Adobe Target en Real-time Customer Data Platform](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform)
 * [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Adobe Experience Platform’s Identity Service — How to Solve the Customer Identity Conundrum]](https://medium.com/adobetech/adobe-experience-platforms-identity-service-how-to-solve-the-customer-identity-conundrum-f95e22d16ea9)
 * [[!DNL Adobe Experience Platform Web SDK for Audience Management]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)

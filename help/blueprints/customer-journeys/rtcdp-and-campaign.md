@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
 source-git-commit: 24d5ec498d09f6dac443561bd530d58a33dae7af
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -111,10 +111,10 @@ Toont hoe de Adobe Experience Platform en zijn Real-Time Klantprofiel en gecentr
    * Wenst een werkende kennis van de Markeringen van Adobe en gegevensinzameling
    * Hebt u mobiele ontwikkelervaring nodig met pushmeldingen in zowel Android als iOS om de SDK te implementeren, te integreren met FCM (Android) en APNS (iOS) om pushtoken te verkrijgen, uw app te configureren voor pushmeldingen en pushinteracties te verwerken
 * Campagne Mobile SDK
-   * Volg de [Campagne-SDK-documentatie](Campagne voor Mobile SDK Volg de hier beschreven implementatiedocumentatie.)
+   * Volg de [Campagne-SDK-documentatie](Campagne Mobile SDK Volg de hier beschreven implementatiedocumentatie.)
 
    >[!IMPORTANT]
-   >Als u de Campagne SDK opstelt en met andere toepassingen van Experience Cloud werkt zullen zij het gebruik van de Experience Platform Mobile SDK voor gegevensinzameling vereisen. Hierdoor worden dubbele aanroepen aan de clientzijde op het apparaat gemaakt.
+   >Als u de Campagne SDK opstelt en met andere toepassingen van Experience Cloud werkt zullen zij het gebruik van het Experience Platform Mobiele SDK voor gegevensinzameling vereisen. Hierdoor worden dubbele aanroepen aan de clientzijde op het apparaat gemaakt.
 
 ## Verwante documentatie
 

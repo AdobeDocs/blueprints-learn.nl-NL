@@ -7,7 +7,7 @@ kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: 24d5ec498d09f6dac443561bd530d58a33dae7af
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Persoonlijk maken op basis van online gedrag en publieksgegevens.
 
 * Optimalisatie landingspagina
 * Gedragsgerichte acties
-* Personalization gebaseerd op eerdere productweergaven/content-weergaven, affiniteit van product/content, milieukenmerken, publieksgegevens van derden en demografie
+* Personalisatie op basis van eerdere productweergaven/content-weergaven, de affiniteit tussen product en inhoud, milieukenmerken, publieksgegevens van derden en demografie
 
 ## Toepassingen
 
@@ -31,7 +31,7 @@ Persoonlijk maken op basis van online gedrag en publieksgegevens.
 
 ## Architectuur
 
-<img src="assets/behavioral_personalization.svg" alt="Referentiearchitectuur voor de Behavioral Web Personalization Blueprint" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="Referentiearchitectuur voor de blauwdruk van de Aanpassing van het Web Behavioral" style="width:90%; border:1px solid #4a4a4a" />
 
 
 ## Implementatiepatronen
