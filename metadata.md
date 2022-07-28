@@ -4,7 +4,7 @@ solution: Experience Platform
 product: experience platform
 type: Tutorial
 mini-toc-levels: 2
-git-repo: https://git.corp.adobe.com/AdobeDocs/blueprints-learn.nl-NL
+git-repo: https://github.com/AdobeDocs/blueprints-learn.nl-NL
 index: true
 source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
 workflow-type: tm+mt
