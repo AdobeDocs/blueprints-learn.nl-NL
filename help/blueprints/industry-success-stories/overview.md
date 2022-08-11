@@ -2,9 +2,9 @@
 title: Verhalen over succes in de sector van de digitale beleving
 description: De succesverhalen van Digital Experience Blueprints laten zien hoe verschillende industrieën hun bedrijfswaarde realiseren met Adobe Experience Cloud Applications, aangedreven door Adobe Experience Platform.
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: 1bea087acd18e4cfe931984731c90d8a0148d363
+source-git-commit: 3de073a8e11dfc228c597f52f494159725eef1ed
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ Leer hoe klanten geweldige ervaringen opdoen en succesvol zijn met Digital Exper
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="miniatuurafbeelding voor een Apparel-industrie met behulp van activering van het publiek, analyse van klantentrontaties en blauwdrukken voor klantritten" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html"><img alt="miniatuurafbeelding voor een Apparel-industrie met behulp van activering van het publiek, analyse van klantentrontaties en blauwdrukken voor klantritten" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="miniatuurafbeelding voor een detailhandelindustrie die gebruikmaakt van Activering met online/offlinegegevens en Journey Optimizer-blauwdrukken" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html"><img alt="miniatuurafbeelding voor een detailhandelindustrie die gebruikmaakt van Activering met online/offlinegegevens en Journey Optimizer-blauwdrukken" src="../experience-platform/assets/aep+apps_vertical.svg"/></a>
 
 </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="miniatuurafbeelding voor de Journey Optimizer-blauwdruk" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/telecommunications.html"><img alt="miniatuurafbeelding voor de Journey Optimizer-blauwdruk" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en"><img alt="miniatuurafbeelding voor activering van de functie Onlinegegevensvervaging/Offlinegegevensvervaging" src="../audience-activation/assets/known_activation.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/travel-hospitality.html"><img alt="miniatuurafbeelding voor activering van de functie Onlinegegevensvervaging/Offlinegegevensvervaging" src="../audience-activation/assets/known_activation.svg" /></a>
   </td>
 </tr>
 <tr>
