@@ -4,7 +4,7 @@ description: Gegevens en klantengedrag van over de klantenreis in Customer Journ
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
-source-git-commit: 0d188a41b6c90bc838eaf4b1d0d1f31b3596e7ca
+source-git-commit: 8a252e0f061bddb14ce1a21b49137a22fdf700da
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -15,6 +15,10 @@ ht-degree: 0%
 
 Creeer en publiceer publiek dat in Customer Journey Analytics (CJA) aan het Profiel van de Klant in real time in Adobe Experience Platform wordt geïdentificeerd voor klant richt en verpersoonlijking. Ideaal voor het maken van soorten publiek met behulp van historische gegevens of meer verfijnde doelgroepen van korrelfilteren en berekende velden in Customer Journey Analytics.
 
+## Customer Journey Analytics Handleiding voor publiek publiceren
+
+Zie de volgende documentatie voor richtlijnen over implementatie en configuratie bij de publicatie van publiek van Customer Journey Analytics naar Real-time Customer Data Platform. [Documentatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)
+
 ## Architectuur voor Customer Journey Analytics blauwdrukken
 
 ![Architectuurdiagram](assets/CJA_RTCDP.svg)
@@ -22,10 +26,6 @@ Creeer en publiceer publiek dat in Customer Journey Analytics (CJA) aan het Prof
 ## Guardrail-diagram voor Customer Journey Analytics blauwdrukken
 
 ![Guardraildiagram](assets/cja_guardrails.svg)
-
-## Customer Journey Analytics Handleiding voor publiek publiceren
-
-Zie de volgende documentatie voor richtlijnen over implementatie en configuratie bij de publicatie van publiek van Customer Journey Analytics naar Real-time Customer Data Platform. [Documentatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)
 
 ## Verwante blogberichten
 
