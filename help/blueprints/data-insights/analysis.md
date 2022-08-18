@@ -5,9 +5,9 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
+source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Experience Platform [!UICONTROL Query-service] staat SQL vragen toe om op de geg
 
 Het Experience Platform staat verbindingen met derdeSQL cliënten, interfaces, en hulpmiddelen van de Business Intelligence (BI) toe om met, tot de gegevens binnen Experience Platform direct te verbinden toegang te hebben en te vragen, gebruikend [!DNL PostgreSQL] protocol.
 
-Bepaalde instructies gelden voor de time-out van de query en voor de hoeveelheid gegevens die in het queryresultaat is opgenomen, zoals vermeld in de sectie guardrails hieronder.
-
 ## Gevallen gebruiken
 
 * Interactieve query en aggregatie van gegevens
 * De rij en kolomtoegang tot ingebedde gegevens voor exploratie en bevestiging
 * Dashboarding en visualisatie van gegevens via Business Intelligence tooling
+
+Hier worden extra veelvoorkomende gebruiksgevallen voor de queryservice beschreven [Gebruik van query-service-aanvragen](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html)
 
 ## Toepassingen
 
@@ -39,15 +39,15 @@ Bepaalde instructies gelden voor de time-out van de query en voor de hoeveelheid
 ## Guardrails
 
 Raadpleeg de documentatie bij het product Query Service voor meer informatie over beste praktijken en instructies.
-[Begeleiding voor zoekservice](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/writing-queries.html?lang=en#best-practices)
+[Begeleiding voor zoekservice](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html)
 
 ## Implementatiestappen
 
 1. [Schema&#39;s maken](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden ingevoerd.
 1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden ingevoerd.
 1. [Gegevens samenvoegen](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in Experience Platform.
-1. Bevestig dat gegevens beschikbaar zijn voor [[!UICONTROL Query-service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=en) en [[!UICONTROL Werkruimte voor gegevenswetenschap]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=en) voor onbewerkte toegang en query.
-1. [Business Intelligence-gereedschappen en SQL-clients verbinden met [!UICONTROL Query-service]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.qsvc.dash) voor visualisatie, gegevensvraag, en exploratie.
+1. Bevestig dat gegevens beschikbaar zijn voor [[!UICONTROL Query-service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=en).
+1. [Business Intelligence-gereedschappen en SQL-clients verbinden met [!UICONTROL Query-service]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html) voor visualisatie, gegevensvraag, en exploratie.
 
 ## Verwante documentatie
 

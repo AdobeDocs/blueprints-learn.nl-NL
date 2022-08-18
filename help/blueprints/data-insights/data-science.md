@@ -1,19 +1,19 @@
 ---
 title: Aangepaste gegevenswetenschap voor blauwdruk van profielverrijking
-description: Deze blauwdruk laat zien hoe de Werkruimte van de Wetenschap van Gegevens van Adobe Experience Platform gegevens binnen Experience Platform kan gebruiken om, modellen op te leiden, op te stellen en te scoren om machine het leren inzichten van de gegevens te verstrekken.
+description: Deze blauwdruk toont hoe de op gegevenswetenschap gebaseerde inzichten in Experience Platform kunnen worden opgenomen om het Profiel van de Klant in real time te verrijken.
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
+source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
 
 # Aangepaste gegevenswetenschap voor blauwdruk van profielverrijking
 
-De Wetenschap van de Gegevens van de douane voor de Blauwdruk van de Verrijking van het Profiel illustreert hoe de gegevens in Adobe Experience Platform kunnen worden gebruikt om, modellen op te leiden op te stellen en te scoren om machine het leren van inzicht in Experience Platform en Real-time Customer Data Platform van gegevens en machine het leren hulpmiddelen te verstrekken. De gemodelleerde inzichten kunnen in Experience Platform worden opgenomen om het klantenprofiel in real time te verrijken. Voorbeelden van leerinzicht in machines zijn levenslange waardeschaling, product- en categoriaffiniteit, conversiesnelheid of churn.
+De Wetenschap van de Gegevens van de douane voor de Blauwdruk van de Verrijking van het Profiel illustreert hoe de gegevens kunnen worden gebruikt om, modellen op te leiden en te scoren om machine het leren inzicht in Experience Platform en de Real-time Customer Data Platform van gegevenswetenschappen en machine het leren hulpmiddelen te verstrekken. De gemodelleerde inzichten kunnen in Experience Platform worden opgenomen om het klantenprofiel in real time te verrijken. Voorbeelden van leerinzicht in machines zijn levenslange waardeschaling, product- en categoriaffiniteit, conversiesnelheid of churn.
 
 ## Gevallen gebruiken
 
@@ -38,17 +38,14 @@ Voor modelresultaten die in het Profiel van de Klant in real time moeten worden 
 
 ## Overwegingen bij de implementatie
 
-* In de meeste gevallen moet het modelresultaat worden opgenomen als profielkenmerken en hoeven er geen gebeurtenissen te worden ervaren. De modelresultaten kunnen een eenvoudige kenmerktekenreeks zijn. Als er meerdere modelresultaten zijn die moeten worden opgenomen, wordt aanbevolen een array- of kaarttekstveld te gebruiken.
+* In de meeste gevallen moet het modelresultaat worden opgenomen als profielkenmerken en hoeven er geen gebeurtenissen te worden ervaren. De modelresultaten kunnen eenvoudige kenmerktekenreeksen zijn. Als er meerdere modelresultaten zijn die moeten worden opgenomen, wordt aanbevolen een array- of kaarttekstveld te gebruiken.
 * De gegevensset met momentopnamen voor dagelijkse profielen, die een dagelijkse export is van de gegevens van de verenigde profielkenmerken, kan worden gebruikt om modellen voor profielkenmerkgegevens op te leiden. De document van de de momentopnamesdataset van het profiel kan worden betreden [hier](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html#profile-attribute-datasets).
 * Voor het extraheren van gegevens uit Experience Platform kunnen de volgende methoden worden gebruikt
    * SDK voor gegevenstoegang
       * Gegevens worden opgeslagen in Raw-bestandsformulier
       * De gebeurtenisgegevens van de profielervaring blijven in onverenigde onbewerkte toestand staan.
    * RTCDP-doelen
-      * Alleen profielkenmerken en segmentlidmaatschappen kunnen worden ingedrukt.
-   * Query-service
-      * Het verkrijgen van toegang tot grote hoeveelheden onbewerkte gegevens kan ertoe leiden dat de query uitvalt bij de time-out van 10 minuten. Het wordt aanbevolen incrementeel query&#39;s uit te voeren op gegevens.
-
+      * Profielkenmerken en segmentlidmaatschap kunnen worden ingedrukt.
 
 ## Verwante documentatie
 
