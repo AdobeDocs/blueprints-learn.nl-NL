@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: f1d2bc62d07b5cd42e5745320dd6371debb41cfe
+source-git-commit: dfd1592c79fd20899705e68cfd4cd1a1bb3ebb87
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,9 @@ ht-degree: 0%
 
 Customer Journey Analytics toont hoe de merken klantengegevens en gedrag van diverse interactiekanalen en bronnen kunnen verenigen om een op reis-gebaseerde mening van alle klanteninteractie tot stand te brengen. De rapportering en de analyse kunnen in de de toepassingsdienst van Customer Journey Analytics worden uitgevoerd om inzicht in klanteninteractie en gedragspatronen te evalueren en te verkrijgen.
 
-Veelvoorkomende analyses zijn:
+Vaak voorkomende gevallen van gebruik zijn:
 
+* Soorten publiek maken en publiceren naar Real-time Customer Data Platform
 * Paden boven/onder omzetten
 * Kanaalbetrokkenheid en conversie
 * Meest bekeken inhoud
@@ -30,7 +31,7 @@ Een volledig overzicht van de gevallen van gebruik van Customer Journey Analytic
 ## [Customer Journey Analytics Gebruik hoofdletters, koppeling](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=en)
 
 Voorbeelden van gevallen van primair gebruik waren:
-| Blauwdruk | Beschrijving | Experience Cloud-aanvragen | |—|—|—| | **[Reisanalyse Kanaal](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html)**  | <ul><li>Eén geconsolideerde weergave van het gedrag van klanten op verschillende kanalen hebben door gegevens van verschillende web-, mobiele en offline eigenschappen te verenigen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optioneel)</li></ul>| | **[De Analyse van de Vervorming van de vraag](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html)** | <ul><li>Bepaal welk gedrag het meest indicatief in het resulteren in agent begeleide vraag door de gegevens van het Centrum van de Vraag samen met Web, mobiele, en andere interactiegegevens te brengen is.</li><li>Deze inzichten kunnen dan worden gebruikt om de klantenervaring te optimaliseren en de weg aan agent bijgewoonde interactie door geoptimaliseerde zelf-dienst inhoud en hulpmiddelen te verminderen.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+| Blauwdruk | Beschrijving | Experience Cloud-aanvragen | |—|—|—| | **[Reisanalyse Kanaal](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html)**  | <ul><li>Eén geconsolideerde weergave van het gedrag van klanten op verschillende kanalen hebben door gegevens van verschillende web-, mobiele en offline eigenschappen te verenigen.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (optioneel)</li></ul>| | **[Soorten publiek publiceren naar Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)** | <ul><li>Maak en publiceer publiek dat in Customer Journey Analytics (CJA) aan het Profiel van de Klant in real time in Adobe Experience Platform wordt geïdentificeerd voor klant richt en verpersoonlijking. Ideaal voor het maken van soorten publiek met behulp van historische gegevens of meer verfijnde doelgroepen van korrelfilteren en berekende velden in Customer Journey Analytics.</li></ul> | <ul><li>Real-time Customer Data Platform</li><li>Customer Journey Analytics</li> | | **[De Analyse van de Vervorming van de vraag](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html)** | <ul><li>Bepaal welk gedrag het meest indicatief in het resulteren in agent begeleide vraag door de gegevens van het Centrum van de Vraag samen met Web, mobiele, en andere interactiegegevens te brengen is.</li><li>Deze inzichten kunnen dan worden gebruikt om de klantenervaring te optimaliseren en de weg aan agent bijgewoonde interactie door geoptimaliseerde zelf-dienst inhoud en hulpmiddelen te verminderen.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Architectuur voor Customer Journey Analytics blauwdrukken
 
