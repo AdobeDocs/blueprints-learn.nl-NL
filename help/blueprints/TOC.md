@@ -5,9 +5,9 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: a5a8de74c2ce176e1ca36fa536ad1c088fccdc27
+source-git-commit: c0994c3f09d854c635049054328abcd2d552c28e
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,8 @@ ht-degree: 0%
    + [Gegevensstroom Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
 + Activering publiek en profiel{#audience-activation}
    + [Overzicht](/help/blueprints/audience-activation/overview.md)
-   + [Anoniem Audience Activation](/help/blueprints/audience-activation/anonymous.md)
-   + Bekende activering van klant{#known-customer-audience-activation}
+   + [Anonieme Audience Activation (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + Bekende activering van de Klant (RTCDP) {#known-customer-audience-activation}
       + [Overzicht](/help/blueprints/audience-activation/known.md)
       + Activering op sociale en advertentiekanalen{#audience-activation}
          + [Activering voor aangepast publiek van Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
@@ -74,6 +74,6 @@ ht-degree: 0%
    + [Aangepaste gegevenswetenschap voor profielverrijking](/help/blueprints/data-insights/data-science.md)
 + Web en mobiele personalisatie{#web-personalization}
    + [Overzicht](/help/blueprints/web-personalization/overview.md)
-   + [Gedragingen aanpassen](/help/blueprints/web-personalization/behavioral.md)
-   + [Bekende klantpersonalisatie](/help/blueprints/web-personalization/known-personalization.md)
+   + [Gedrag aanpassen - Doel](/help/blueprints/web-personalization/behavioral.md)
+   + [Bekende klantpersonalisatie - Doel en RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [Beslissingsbeheer](/help/blueprints/web-personalization/decision-management-edge.md)
