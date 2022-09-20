@@ -1,13 +1,13 @@
 ---
 user-guide-title: Digitale beleving blauwdrukken
-breadcrumb-title: 'Blauwdrukken '
+breadcrumb-title: Blauwdrukken
 user-guide-description: De blauwdrukken zijn herhaalbare implementaties om gevestigde bedrijfsproblemen aan te pakken en architectuurdiagrammen, technische overwegingen, en relevante documentatiekoppelingen te bevatten.
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: c0994c3f09d854c635049054328abcd2d552c28e
+source-git-commit: 4aced09f12b47c0af25af7aaa97085a607d749b3
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 + [Overzicht](/help/blueprints/overview.md)
 + [Alle gebruikskwesties bekijken](/help/blueprints/use-cases.md)
-+ Bekijk alle succesverhalen uit de branche{#industry-success-stories}
++ Verticale industrie blauwdrukken{#vertical-blueprints}
    + [Overzicht](/help/blueprints/industry-success-stories/overview.md)
    + [Deksel](/help/blueprints/industry-success-stories/apparel.md)
    + [Detailhandel](/help/blueprints/industry-success-stories/retail.md)

@@ -3,9 +3,9 @@ title: Journey Optimizer met Adobe Campaign-blauwdruk
 description: Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om berichten te verzenden door de overseinenserver in real time in Campagne te gebruiken
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 076446a9-dfb9-464c-a04f-6864b8cb7b48
-source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
+source-git-commit: a04bd6fe26c9b67a5bfbe753d734882f30f6c047
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om 
    * Reis op basis van gebeurtenissen van het type Audience Read en Business wordt niet ondersteund vanwege het volume dat het kan verzenden naar de uitvoeringsinstanties
 * AC (v7) noch AC (v8) steunt Beslissingsbeheer in berichten
 * Geen vertraging van uitgaande API vraag die aan Campagne wordt gemaakt
-* Transactionele berichtenlogboeken worden niet native gesynchroniseerd met AEP. Hiervoor is consultatie vereist. Aanbeveling voor het exporteren van logbestanden ten hoogste om de vier uur
+* Met Campagne v8.4 is het mogelijk om Adobe Campaign Managed Services Source Connector in Experience Platform te gebruiken voor het synchroniseren van bezorgings- en traceringsgebeurtenissen van Campagne naar Experience Platform. Raadpleeg de documentatie bij de Source Connector voor meer informatie. [Koppeling](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
 
 <br>
 
@@ -126,7 +126,8 @@ Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om 
 ### Campagne v7/v8 of Campaign Standard
 
 * De malplaatjes van het bericht moeten met aangewezen verpersoonlijkingscontext worden gevormd
-* De werkschema&#39;s van de uitvoer moeten worden gevormd om de transactionele overseinenlogboeken terug naar het Experience Platform uit te voeren. De aanbeveling moet ten hoogste om de vier uur worden uitgevoerd
+* Voor de norm van de Campagne - de werkschema&#39;s van de Uitvoer moeten worden gevormd om de transactionele overseinenlogboeken terug naar het Experience Platform uit te voeren. De aanbeveling moet ten hoogste om de vier uur lopen.
+* Voor Campagne v8.4 is het mogelijk om Adobe Campaign Managed Services Source Connector in Experience Platform te gebruiken om bezorgings- en traceringsgebeurtenissen van Campagne in Experience Platform te synchroniseren. Raadpleeg de documentatie bij de Source Connector voor meer informatie. [Koppeling](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
 
 ### Mobiele pushconfiguratie (optioneel)
 
