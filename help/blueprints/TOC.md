@@ -5,7 +5,7 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 9fac27843985da725ffac9c6b01518b595fdb22b
+source-git-commit: fc247d3a933d6df33e43f3a1f55f9dfb1eba35a6
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
@@ -40,8 +40,8 @@ ht-degree: 0%
          + [Activering voor Google Customer Match](/help/blueprints/audience-activation/destinations/gcm.md)
       + [Activering voor streaming van bestanden en bedrijven](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Hub voor klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)
+      + [Segmentovereenkomst](/help/blueprints/audience-activation/segment-match.md)
    + [Activering met Experience Cloud-toepassingen](/help/blueprints/audience-activation/platform-and-applications.md)
-   + [Segmentovereenkomst](/help/blueprints/audience-activation/segment-match.md)
 + B2B-activering en marketing{#b2b-activation}
    + [Overzicht](/help/blueprints/b2b/overview.md)
    + [B2B-activering](/help/blueprints/b2b/b2bactivation.md)
