@@ -5,9 +5,9 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 833524d20fe69a08a299035020e29d2d877b797d
+source-git-commit: 9fac27843985da725ffac9c6b01518b595fdb22b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,9 @@ ht-degree: 0%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform en toepassingen](/help/blueprints/experience-platform/platform-applications.md)
    + [Gegevensstroom Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
+   + Implementatiemodellen{#deployment}
+      + [Experience Platform Web SDK &amp; Edge Network](/help/blueprints/data-ingestion/websdk.md)
+      + [SDK&#39;s voor toepassingen](/help/blueprints/data-ingestion/appsdk.md)
 + Activering publiek en profiel{#audience-activation}
    + [Overzicht](/help/blueprints/audience-activation/overview.md)
    + [Anonieme Audience Activation (AAM)](/help/blueprints/audience-activation/anonymous.md)
@@ -61,14 +64,11 @@ ht-degree: 0%
    + Campagne v7{#campaign-v7}
       + [Campagne v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP met Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
-+ Gegevensverzameling en -voorbereiding{#data-ingestion}
++ Gegevensinsluiting en gegevensexport{#data-ingestion}
    + [Overzicht](/help/blueprints/data-ingestion/overview.md)
    + [Voorbereiding en inname van gegevens](/help/blueprints/data-ingestion/ingestion.md)
    + [Gebeurtenis doorsturen](/help/blueprints/data-ingestion/server-side-collection.md)
    + [Gegevensverzameling van meerdere sandboxen](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
-   + Implementatie{#deployment}
-      + [Experience Platform Web SDK &amp; Edge Network](/help/blueprints/data-ingestion/websdk.md)
-      + [SDK&#39;s voor toepassingen](/help/blueprints/data-ingestion/appsdk.md)
 + Gegevensanalyse, intelligentie en AI/ML{#data-exploration}
    + [Overzicht](/help/blueprints/data-insights/overview.md)
    + [Gegevensanalyse en -informatie](/help/blueprints/data-insights/analysis.md)
