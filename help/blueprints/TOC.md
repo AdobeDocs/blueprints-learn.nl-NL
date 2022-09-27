@@ -5,9 +5,9 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: fc247d3a933d6df33e43f3a1f55f9dfb1eba35a6
+source-git-commit: 84eb7427077a068c3fe3b2cfc4856e115427f4ca
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,12 @@ ht-degree: 0%
 # Digitale beleving blauwdrukken {#architecture}
 
 + [Overzicht](/help/blueprints/overview.md)
-+ [Alle gebruikskwesties bekijken](/help/blueprints/use-cases.md)
 + Verticale industrie blauwdrukken{#vertical-blueprints}
-   + [Overzicht](/help/blueprints/industry-success-stories/overview.md)
-   + [Deksel](/help/blueprints/industry-success-stories/apparel.md)
-   + [Detailhandel](/help/blueprints/industry-success-stories/retail.md)
-   + [Telecommunicatie](/help/blueprints/industry-success-stories/telecommunications.md)
-   + [Reizen en verblijf](/help/blueprints/industry-success-stories/travel-hospitality.md)
+   + [Overzicht](/help/blueprints/vertical-blueprints/overview.md)
+   + [Deksel](/help/blueprints/vertical-blueprints/apparel.md)
+   + [Detailhandel](/help/blueprints/vertical-blueprints/retail.md)
+   + [Telecommunicatie](/help/blueprints/vertical-blueprints/telecommunications.md)
+   + [Reizen en verblijf](/help/blueprints/vertical-blueprints/travel-hospitality.md)
 + Overzicht van architectuur{#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform en toepassingen](/help/blueprints/experience-platform/platform-applications.md)

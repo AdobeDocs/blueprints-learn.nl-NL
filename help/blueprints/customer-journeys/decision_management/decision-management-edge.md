@@ -3,16 +3,16 @@ title: Beslissingsbeheer aan de rand
 description: Aangepaste aanbiedingen aan consumenten via verschillende kanalen aanbieden, ook in real-time internet en mobiele ervaringen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 5b2f7531cc05178127fb08d3fdafcbce70192ecd
+source-git-commit: b3d4e89c7e4170ffee2cc1776ffa26d2e0ce79e6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
 
 # Journey Optimizer - Beslissingsbeheer aan de rand
 
-Raadpleeg de productdocumentatie voor meer informatie over Beslissingsbeheer [HIER](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) en het overzicht van het besluitvormingsbeheer [HIER](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-overview.html)
+Raadpleeg de productdocumentatie voor meer informatie over Beslissingsbeheer [HIER](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) en het overzicht van het besluitvormingsbeheer [HIER](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en)
 
 Adobe Beslissingsbeheer is een dienst die wordt verleend als onderdeel van Adobe Journey Optimizer. Deze blauwdruk schetst de gebruiksgevallen en de technische mogelijkheden van de toepassing en verstrekt een diepe duik in de diverse architecturale componenten en overwegingen die omhoog het Beheer van de Beslissing maken.
 
@@ -22,7 +22,7 @@ De tweede benadering is via het Edge Network van de Ervaring, dat een wereldwijd
 
 Deze blauwdruk zal de specifieke details van Beslissingsbeheer op de Rand omvatten.
 
-Meer informatie over het Beheer van het Besluit op de hub verwijst naar [Beslissingsbeheer op de hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-hub.html) blauwdruk.
+Meer informatie over het Beheer van het Besluit op de hub verwijst naar [Beslissingsbeheer op de hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=en) blauwdruk.
 
 ## Gevallen gebruiken voor Beslissingsbeheer aan de rand
 
@@ -77,7 +77,7 @@ Adobe Experience Platform
 ## Implementatiepatronen
 
 * Gebruik het Web of Mobiele SDK voor plaatsing op websites en mobiele toepassingen om Beslissingsbeheer uit te voeren waar SDK opstelde.
-   * [Web/Mobile SDK-blauwdruk](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html)
+   * [Web/Mobile SDK-blauwdruk](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk.html?lang=en)
    * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html)
    * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 

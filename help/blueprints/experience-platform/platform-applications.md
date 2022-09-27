@@ -5,9 +5,9 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 4c66e906b9faf4bd9b1ee75fcf263b8a35d3b782
+source-git-commit: 83f1f5e0e508d35d6711710cdb4d367f67e4f715
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -57,8 +57,8 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 <td colspan="1">
 <ul>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">Anoniem Audience Activation</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online/offline Audience Activation</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activering met Experience Platform en toepassingen</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html">Bekende activering van klant</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html">Activering met Experience Platform en toepassingen</a></li>
 </ul>
 </td>
 </tr>
@@ -95,7 +95,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 <td>
 <ul>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">Anoniem Audience Activation</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online/offline Audience Activation</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html">Bekende activering van klant</a></li>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activering met Experience Platform en toepassingen</a></li>
 </ul>
 </td>
@@ -114,7 +114,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Batchberichten</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html?lang=en">Klantenreizen</a></li>
 </ul>
 </td>
 </tr>
@@ -132,7 +132,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Batchberichten</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html">Klantenreizen</a></li>
 </ul>
 </td>
 </tr>
@@ -168,7 +168,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online/offline Audience Activation</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">Bekende activering van klant</a></li>
 </ul>
 </td>
 </tr>
@@ -237,7 +237,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online/offline Audience Activation</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">Bekende activering van klant</a></li>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activering met Experience Platform en toepassingen</a></li>
 </ul>
 </td>
@@ -256,7 +256,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Online/offline Audience Activation</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">Bekende activering van klant</a></li>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Activering met Experience Platform en toepassingen</a></li>
 </ul>
 </td>
