@@ -2,16 +2,16 @@
 title: Segmentovereenkomst
 description: Meer informatie over [!UICONTROL Segmentovereenkomst] voor Adobe Experience Platform (AEP). [!UICONTROL Segmentovereenkomst] is een dienst van de gegevenssamenwerking die u toelaat om segmentgegevens uit te wisselen die op gemeenschappelijke industrie herkenningstekens op een beveiligde, beheerde, en privacy-vriendelijke manier worden gebaseerd.
 solution: Experience Platform
-source-git-commit: a4ae1eaa864f85144b8bdfbff23b4389847c8cfa
+source-git-commit: a5bf86b8606d40a0686c667f83516e3b495350b8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1764'
 ht-degree: 0%
 
 ---
 
 # Segmentovereenkomst
 
-De sleutel voor merken is om met klanten te verbinden die op gegevens worden gebaseerd die uit hun directe relaties met consumenten worden verzameld. Met betere governance, toestemmingen, en voorkeurbeheersystemen, kunnen de marketers hun eerste-partij voor authentiek verklaarde publiek met zeer belangrijke partners verder verbeteren.
+De gelijke van het segment laat partnermerken toe om publiek over hun respectieve milieu&#39;s van het Experience Platform te delen. De sleutel voor merken is om met klanten te verbinden die op gegevens worden gebaseerd die uit hun directe relaties met consumenten worden verzameld. Met betere governance, toestemmingen, en voorkeurbeheersystemen, kunnen de marketers hun eerste-partij voor authentiek verklaarde publiek met zeer belangrijke partners verder verbeteren.
 
 [!UICONTROL Segmentovereenkomst] is een dienst van de gegevenssamenwerking om klanten van het Experience Platform (AEP) toe te staan (die als _partners_) om gesegmenteerde gegevens uit te wisselen op basis van gemeenschappelijke industriële identificatoren op een beveiligde, beheerde en privacyvriendelijke manier.
 
