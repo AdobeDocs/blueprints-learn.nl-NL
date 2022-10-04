@@ -1,9 +1,9 @@
 ---
-title: Campagne v8 Blueprint
+title: Campagne v8 Blueprint, Campaign & AEP
 description: Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor traditionele marketing kanalen zoals e-mail en direct mail wordt gebouwd. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma's met een centrale focus op batchgeoriënteerde reizen.  Het komt ook met een scalable Real-Time overseinenserver worden verbonden die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor dingen zoals het terugstellen van het wachtwoord, orderbevestiging, e-ontvangstbewijzen en veel meer worden gebaseerd.
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
+source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -22,6 +22,8 @@ Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor traditionele m
 * Onboarding- en hermarketingcampagnes
 * Reclamecampagnes voor e-mail, brochures en tijdschriften
 * Eenvoudig transactiebericht (bijv. opnieuw instellen van wachtwoord, e-mailontvangstbewijzen, bevestiging van bestelling, enz.)
+* Integratie van Campagnegegevens in Adobe Experience Platform voor analyse en profielopbouw
+* Het delen van het publiek van Real-time Customer Data Platform naar Campaign.
 
 <br>
 
