@@ -1,11 +1,11 @@
 ---
-title: Real-Time CDP met Adobe Campaign v7-integratiepatroon
+title: Real-Time CDP met Adobe Campaign v7 en Campaign Standard-integratiepatroon
 description: Toont hoe de Adobe Experience Platform en zijn Real-Time Klantprofiel en gecentraliseerd segmenteringshulpmiddel met Adobe Campaign kunnen worden gebruikt om gepersonaliseerde gesprekken te leveren.
 solution: Real-time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
+source-git-commit: 163dd644b690c1f5554a3929e1f83c121e132df5
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,8 @@ Toont hoe de Adobe Experience Platform en zijn Real-Time Klantprofiel en gecentr
 
 #### Bronnen/bestemmingen
 
+1. [Experience Platform en Campaign Standard Bronnen en Ontwerpen](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)
+1. [Bronnen en ontwerpen voor Experience Platform en campagne v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html)
 1. [Gegevens in Experience Platform opnemen](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) via streaming API&#39;s en bronconnectors.
 1. Configureren [!DNL Azure] blob-opslagbestemming voor gebruik met Adobe Campaign.
 

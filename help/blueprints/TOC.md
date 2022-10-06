@@ -5,7 +5,7 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
+source-git-commit: 163dd644b690c1f5554a3929e1f83c121e132df5
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform en toepassingen](/help/blueprints/experience-platform/platform-applications.md)
    + [Gegevensstroom Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
-   + Implementatiemodellen{#deployment}
+   + Implementatiepatronen{#deployment}
       + [Experience Platform Web SDK &amp; Edge Network](/help/blueprints/data-ingestion/websdk.md)
       + [SDK&#39;s voor toepassingen](/help/blueprints/data-ingestion/appsdk.md)
 + Activering publiek en profiel{#audience-activation}
