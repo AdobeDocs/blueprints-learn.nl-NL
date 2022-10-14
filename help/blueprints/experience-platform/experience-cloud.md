@@ -5,19 +5,31 @@ solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Comme
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: 64c3ae4c706ef24808818af99e65c2f30f4f5c13
+source-git-commit: 654ec6c8176a446a2a5fb7ffb0aa8a854a31c46b
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Cloud-architectuurdiagram
+# Adobe Experience Cloud-architectuurdiagrammen
 
-In het onderstaande architectuurdiagram wordt geïllustreerd hoe Adobe Experience Platform verbinding maakt met en integreert met de Adobe Experience Cloud-toepassingen om personalisatie op schaal mogelijk te maken voor gegevens, inhoud en levering van ervaring.
+## Adobe Experience Cloud Marketecture
+
+In het volgende diagram worden de verschillende componenten van Adobe Experience Cloud geïllustreerd voor wat betreft gegevensinzicht en publiek, content en handel, reizen van klanten, marketingworkflow, gebouwd en geïntegreerd op de basis van de Adobe Experience Platform.
+
+<img src="assets/AEC.jpg" alt="Overzicht van Experience Cloud" style="width:95%; border:1px solid #4a4a4a" />
+<br>
+
+## Integratie Architectuur van Gegevens &amp; Inzichten, Inhoud &amp; Handel, en Ervaring Levering
+
+In het onderstaande architectuurdiagram ziet u hoe de verschillende componenten van de Adobe Experience Cloud op elkaar aansluiten en integreren om personalisatie op schaal mogelijk te maken voor gegevens, inhoud en beleving.
 
 <img src="assets/pers_at_scale.svg" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a" />
 <br>
-In het onderstaande architectuurdiagram wordt geïllustreerd hoe Adobe Experience Cloud-toepassingen en Adobe Experience Platform passen in de architectuur van een zakelijke klant.
+
+## Adobe Experience Cloud in het landschap Enterprise
+
+In het onderstaande architectuurdiagram wordt geïllustreerd hoe Adobe Experience Cloud-toepassingen en Adobe Experience Platform passen in de architectuur van een zakelijke klant voor de vier categorieën gegevens, inzichten, Orchestratie en Betrokkenheid.
 
 <img src="assets/aec_experience_architecture.svg" alt="Experience Cloud" style="width:95%; border:1px solid #4a4a4a" />
