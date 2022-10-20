@@ -5,10 +5,10 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
+source-git-commit: 4ada1c55ea67a2d723050a2c72b4ab02c9394660
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 0%
+source-wordcount: '249'
+ht-degree: 4%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 0%
 + Verticale industrie blauwdrukken{#vertical-blueprints}
    + [Overzicht](/help/blueprints/vertical-blueprints/overview.md)
    + [Deksel](/help/blueprints/vertical-blueprints/apparel.md)
+   + [Gezondheidszorg](/help/blueprints/vertical-blueprints/healthcare-vertical.md)
    + [Detailhandel](/help/blueprints/vertical-blueprints/retail.md)
    + [Telecommunicatie](/help/blueprints/vertical-blueprints/telecommunications.md)
    + [Reizen en verblijf](/help/blueprints/vertical-blueprints/travel-hospitality.md)
@@ -26,9 +27,10 @@ ht-degree: 0%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform en toepassingen](/help/blueprints/experience-platform/platform-applications.md)
    + [Gegevensstroom Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
-   + Implementatiepatronen{#deployment}
+   + Implementatie{#deployment}
       + [Experience Platform Web SDK &amp; Edge Network](/help/blueprints/data-ingestion/websdk.md)
       + [SDK&#39;s voor toepassingen](/help/blueprints/data-ingestion/appsdk.md)
+      + [Guardrails](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Activering publiek en profiel{#audience-activation}
    + [Overzicht](/help/blueprints/audience-activation/overview.md)
    + [Anonieme Audience Activation (AAM)](/help/blueprints/audience-activation/anonymous.md)
