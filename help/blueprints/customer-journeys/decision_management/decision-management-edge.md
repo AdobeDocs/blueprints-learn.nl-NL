@@ -3,9 +3,9 @@ title: Beslissingsbeheer aan de rand
 description: Aangepaste aanbiedingen aan consumenten via verschillende kanalen aanbieden, ook in real-time internet en mobiele ervaringen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: b3d4e89c7e4170ffee2cc1776ffa26d2e0ce79e6
+source-git-commit: 1c05a017e7729d2be676203c2bc06bddd5f9141a
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,13 @@ Adobe Experience Platform
 
 ### Gegevensinname Guardraals
 
-<img src="../assets/aep-data-ingestion-details-latency.svg" alt="Referentiearchitectuur Journey Optimizer-blauwdruk" style="width:80%; border:1px solid #4a4a4a" />
+<img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Gegevensstroom Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Activeringsinstructies
 
-<img src="../assets/ajo-activation-details-latency.svg" alt="Referentiearchitectuur Journey Optimizer-blauwdruk" style="width:80%; border:1px solid #4a4a4a" />
+<img src="../../experience-platform/assets/activation-latency.svg" alt="Referentiearchitectuur Journey Optimizer-blauwdruk" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 

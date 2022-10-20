@@ -3,9 +3,9 @@ title: Beslissingsbeheer op de hub
 description: Aangepersonaliseerde aanbiedingen aan consumenten aanbieden op verschillende kanalen, waaronder kiosken, ervaringen met assistentie van agenten en in e-mail en andere uitgaande leveringen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: b3d4e89c7e4170ffee2cc1776ffa26d2e0ce79e6
+source-git-commit: 1c05a017e7729d2be676203c2bc06bddd5f9141a
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '906'
 ht-degree: 0%
 
 ---
@@ -63,13 +63,13 @@ Adobe Experience Platform
 
 ### Gegevensinname Guardraals
 
-<img src="../assets/aep-data-ingestion-details-latency.svg" alt="Referentiearchitectuur Journey Optimizer-blauwdruk" style="width:80%; border:1px solid #4a4a4a" />
+<img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Gegevensstroom Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Activeringsinstructies
 
-<img src="../assets/ajo-activation-details-latency.svg" alt="Referentiearchitectuur Journey Optimizer-blauwdruk" style="width:80%; border:1px solid #4a4a4a" />
+<img src="../../experience-platform/assets/activation-latency.svg" alt="Referentiearchitectuur Journey Optimizer-blauwdruk" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
