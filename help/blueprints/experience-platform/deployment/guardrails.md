@@ -3,9 +3,9 @@ title: Experience Platform- en toepassingsinstructies
 description: In de handleidingen worden de prestatieverwachtingen en de gevolgen voor de componenten en services in Adobe Experience Platform en Applications gedefinieerd
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: 8a53151558f4df9d2909d43d13bdbd800adbc79f
+source-git-commit: e75f8b39b52794b61c4efd33df1f658a6615a7b8
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Hulplijnen zijn aanbevolen drempels voor het gebruik van gegevens en systemen, h
 [Identiteitsinstructies](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=en)
 
 [Query Service-handleidingen](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=en)
+
+[Guardrails voor doelactivering](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
 
 [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en)
 
