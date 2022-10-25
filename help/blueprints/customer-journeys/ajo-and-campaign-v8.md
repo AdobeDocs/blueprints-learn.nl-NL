@@ -2,9 +2,9 @@
 title: Journey Optimizer met Adobe Campaign v8-blauwdruk
 description: Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om berichten te verzenden door de overseinenserver in real time in Campagne te gebruiken
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
-source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
+source-git-commit: a74ef566bf468c5508263f4070beaf6d0cd73a0e
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
@@ -68,14 +68,9 @@ Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om 
 ### Campagne (v8)
 
 * De instantie van de uitvoering van het Centrum van het Bericht moet door Adobe Beheerde Cloud Services worden ontvangen
-* Moet aanwezig zijn op v7-build >21.1 of v8
 * De productie van berichten
-   * AC (v7) 50 k per uur
    * AC (v8) tot 1 MB per uur gebaseerd op pakket
-* AC (v7) steunt slechts gebeurtenis geïnitieerde reis
-   * Geen segment- of segmentlidmaatschap gestart voor Journey
-   * Reis op basis van gebeurtenissen van het type Audience Read en Business wordt niet ondersteund vanwege het volume dat het kan verzenden naar de uitvoeringsinstanties
-* AC (v7) noch AC (v8) steunt Beslissingsbeheer in berichten
+* AC (v8) biedt geen ondersteuning voor Beslissingsbeheer in berichten
 * Geen vertraging van uitgaande API vraag die aan Campagne wordt gemaakt
 * Met Campagne v8.4 is het mogelijk om Adobe Campaign Managed Services Source Connector in Experience Platform te gebruiken voor het synchroniseren van bezorgings- en traceringsgebeurtenissen van Campagne naar Experience Platform. Raadpleeg de documentatie bij de Source Connector voor meer informatie. [Koppeling](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
 
@@ -135,11 +130,6 @@ Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om 
 
 ## Verwante documentatie
 
-* [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
-* [Documentatie over Experience Platform-tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
-* [Experience Platform Mobile SDK-documentatie](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
 * [Journey Optimizer-documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en)
 * [Journey Optimizer-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
 * [Campagne v8-documentatie](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=en)
-* [Campagne v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
-* [Campaign Standard-documentatie](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)

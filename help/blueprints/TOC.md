@@ -5,9 +5,9 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 4ada1c55ea67a2d723050a2c72b4ab02c9394660
+source-git-commit: e7a640580038c547cf983956ed155099aa14b159
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '248'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 4%
 + Verticale industrie blauwdrukken{#vertical-blueprints}
    + [Overzicht](/help/blueprints/vertical-blueprints/overview.md)
    + [Deksel](/help/blueprints/vertical-blueprints/apparel.md)
-   + [Gezondheidszorg](/help/blueprints/vertical-blueprints/healthcare-vertical.md)
    + [Detailhandel](/help/blueprints/vertical-blueprints/retail.md)
    + [Telecommunicatie](/help/blueprints/vertical-blueprints/telecommunications.md)
    + [Reizen en verblijf](/help/blueprints/vertical-blueprints/travel-hospitality.md)
