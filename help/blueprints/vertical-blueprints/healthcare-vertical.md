@@ -2,16 +2,16 @@
 title: Gezondheidszorg
 description: Leer meer over Healthcare Shield, een Adobe Experience Platform-invoegtoepassing voor toepassingen op basis van Platforms, zoals Real-Time CDP, Customer Journey Analytics en Adobe Journey Optimizer. De add-on maakt deze toepassingen geschikt voor HIPAA- en PHI-vereisten.
 solution: Experience Platform
-source-git-commit: 3e71aa9ea63e94b9fc0002e2fc879894149e5d0f
+source-git-commit: a7dd0634533110859500e2dab63779014f8cf9b9
 workflow-type: tm+mt
-source-wordcount: '2382'
+source-wordcount: '2367'
 ht-degree: 0%
 
 ---
 
 # Gezondheidsschild
 
-Healthcare Shield is een Adobe Experience Platform-invoegtoepassing voor Adobe Experience Platform-toepassingen zoals Real-Time CDP, Customer Journey Analytics en Adobe Journey Optimizer. Het is ontworpen om deze toepassingen HIPAA-klaar te maken en te voldoen aan de vereisten inzake de verwerking en het gebruik van Protected Health Information (PHI).
+Healthcare Shield is een Adobe Experience Platform-invoegtoepassing voor Adobe Experience Platform-toepassingen zoals Real-time Customer Data Platform, Customer Journey Analytics en Adobe Journey Optimizer. Het is ontworpen om deze toepassingen HIPAA-klaar te maken en te voldoen aan de vereisten inzake de verwerking en het gebruik van Protected Health Information (PHI).
 
 ## Veelgestelde vragen over het gezondheidsschild
 
@@ -41,7 +41,7 @@ Gezondheidszorgschild voor Real-Time CDP is bestemd voor klanten die een onder d
 
 ### Waarom zouden de gezondheidsvooruitzichten van Real-Time CDP het Healthcare Shield kopen?
 
-Als add-on bij Real-Time CDP upgradet het Healthcare Shield de toepassing naar de status &quot;HIPAA-ready&quot;. Dit betekent dat de aanvraag over de nodige waarborgen beschikt om PHI in overeenstemming met de HIPAA-voorschriften te gebruiken. Bovendien is Adobe met het Zorgschild bereid en in staat de klant te machtigen bepaalde soorten Gevoelige Persoonlijke Gegevens toe te laten aan de HIPAA-klaar toepassing. Adobe ondertekent Business Associate-overeenkomsten (BAA&#39;s) met klanten die een vergunning hebben voor het Healthcare Shield voor een compatibele toepassing op basis van Platforms.
+Als add-on bij Real-Time CDP upgradet het Healthcare Shield de toepassing naar de status &quot;HIPAA-ready&quot;. Dit betekent dat de aanvraag over de nodige waarborgen beschikt om PHI in overeenstemming met de HIPAA-voorschriften te gebruiken. Bovendien is Adobe met het Zorgschild bereid en in staat de klant te machtigen om bepaalde soorten Gevoelige Persoonlijke Gegevens toe te laten aan HIPAA-klaar toepassingen. Adobe ondertekent Business Associate-overeenkomsten (BAA&#39;s) met klanten die een vergunning hebben voor het Healthcare Shield voor een compatibele toepassing op basis van Platforms.
 
 ### Welke gegevenstypen zijn toegestaan voor Real-Time CDP met het Healthcare Shield (en welke niet)?
 
@@ -73,16 +73,16 @@ Een klant die een vergunning geeft aan het Gezondheidsschild zou goed oordeel mo
 
 | RTCDP B2C Edition Standard Use-gevallen | Beschrijving |
 |-----|-----|
-| Streaming gegevensverzameling | <ul><li>Genormaliseerde, flexibele gegevensmodellen, bruikbaar voor Adobe- en niet-Adobe-verbindingen<li>Gegevensschema&#39;s voor personen en account die zijn ontworpen voor B2C-marketing<li>Met tagbeheer en het doorsturen van gebeurtenissen worden gegevens op gebeurtenisniveau in real-time verzameld en verspreid.<li> Geoptimaliseerde profielen die de levertijd van de ervaring versnellen</li></ul> |
-| Beheer van vertrouwde profielen | <ul><li>Verenigde profielen die consumentenattributen, gedrag, en voorkeursgegevens bevatten<li> Het kader voor gegevensbeheer is flexibel, transparant en wordt toegepast op uniforme profielen met beleidsvorming en automatische handhaving om misbruik van gegevens te voorkomen. </li></ul> |
-| Real-Time activering | <ul><li>Segmentatie voor slepen en neerzetten ontworpen voor B2C-marketers<li>Identiteitsresolutie op persoon- en accountniveau en profielverrijking voor activering via meerdere kanalen<li> Consistente klantervaringen via publieksorchestratie en realtime activering via kanalen en omgevingen (Adobe en niet-Adobe) </li></ul> |
-| Klantenovername | <ul><li>Inzichten in het omzetten van niet-geverifieerde naar herkende/geverifieerde gebruikers<li>Niet-geregistreerde gebruikers aanmoedigen zich te registreren voor lidmaatschap.<li> Abonnementen verhogen en/of terugwinnen<li> Klantprofielen analyseren om eigenheid te begrijpen (bijvoorbeeld . vergelijk hoogwaardige segmenten met ondermaatse segmenten en optimaliseer deze voor acquisitie)</li></ul> |
-| Betrokkenheid van klanten | <ul><li>Doelaanbiedingen op basis van het consumentengedrag, recensie en frequentiemaatregelen voor aanbiedingen (online en offline)<li>Digitale eigenschappen verenigen voor een verbonden ervaring (bijvoorbeeld het downloaden van mobiele apps aanmoedigen en segmentactivering via kanalen gebruiken om ervaringen met elkaar te verbinden)</li></ul> |
-| Personalisatie op schaal | <ul><li> Segmenten aan de rand evalueren voor realtime aanpassing van dezelfde pagina en volgende pagina<li>Verhoog de betrokkenheid door unieke en doelgerichte ervaringen te bieden aan bezoekers die een sessie over reizen verlaten (bijvoorbeeld een wagen verlaten, bezoekers die zich niet omzetten).<li> Offline en online gedrag verenigen en verbinden om gebruikers te optimaliseren en te betrekken</li></ul> |
-| Crossverkoop/Upsell | <ul><li>Klanten behouden tijdens het uitbreiden en onderhouden van bestaande relaties met gebruikers<li>Nieuwe inkomstenstromen aansturen met de waarde van bedrijfseenheid/merk/aanbieding voor de levensduur van de klant<li>Versterking van AOV-inzichten in producten en SKU&#39;s (bv. frequente bundels, prijsgevoeligheid)</li></ul> |
-| Behoud/Loyalty van klanten | <ul><li> Heractiveer consumenten om loyaliteit te stimuleren en klantenkring te vermijden<li>Maak gepersonaliseerde productaanbevelingen voor klanten met een hoge waarde op basis van voorkeuren en neiging<li>Een standaardcadence voor betrokkenheid en speciale aanbiedingen voor loyale consumenten maken<li> Online- en offline-voorkeuren koppelen om aanbiedingen te optimaliseren voor verschillende kanalen</li></ul> |
-| Samenwerking van gegevens | <ul><li> Maak handgrepen in een gebruikersinterface om workflows voor gegevenssamenwerking op te bouwen.<li>(Gebruik eersteklas gegevens die door verschillende bedrijfstakken worden overlapt om strategische bedrijfsbeslissingen en -campagnes goed te keuren.<li>De gegevenssilo&#39;s van de onderbreking en begrijpen holistische klantenreis<li> Voorkeuren respecteren en toestemming per geval</li></ul> |
-| Efficiëntie en optimalisatie van media/marketing | <ul><li> Verbeter organisatorische efficiency door klantengegevens en activeringskanalen in één systeem van verslag te centraliseren en te handhaven<li>Ondersteuningscampagnes voor effectieve media-uitgaven/efficiëntie<li> Aanpassing aan IT-beleid via bestuur en beleidshandhaving<li>Zonodig toegang tot gegevens bieden in realtime om tijdige campagnes te ondersteunen</li></ul> |
+| Streaming gegevensverzameling | <ul><li>Genormaliseerde, flexibele gegevensmodellen, bruikbaar voor Adobe- en niet-Adobe-verbindingen<li>Gegevensschema&#39;s voor personen en account die zijn ontworpen voor B2C-marketing.<li>Met tagbeheer en het doorsturen van gebeurtenissen worden gegevens op gebeurtenisniveau in real-time verzameld en verspreid.<li> Geoptimaliseerde profielen die de levering versnellen.</li></ul> |
+| Beheer van vertrouwde profielen | <ul><li>Verenigde profielen die consumentenattributen, gedrag, en voorkeursgegevens bevatten.<li> Het kader voor gegevensbeheer is flexibel, transparant en wordt toegepast op uniforme profielen met beleidsvorming en automatische handhaving om misbruik van gegevens te voorkomen. </li></ul> |
+| Real-Time activering | <ul><li>Segmentatie voor slepen en neerzetten ontworpen voor B2C-marketers.<li>Identiteitsresolutie op persoon- en accountniveau en profielverrijking voor activering via meerdere kanalen.<li> Consistente klantervaringen via publieksorchestratie en realtime activering via kanalen en omgevingen (Adobe en niet-Adobe).</li></ul> |
+| Klantenovername | <ul><li>Inzichten in het omzetten van niet-geverifieerde naar herkende/geverifieerde gebruikers.<li>Niet-geregistreerde gebruikers aanmoedigen zich te registreren voor lidmaatschap.<li> Abonnementen verhogen en/of terugwinnen.<li> Klantprofielen analyseren om eigenheid te begrijpen (bijvoorbeeld . vergelijk hoogwaardige segmenten met minder goed presterende segmenten en optimaliseer deze voor acquisitie).</li></ul> |
+| Betrokkenheid van klanten | <ul><li>Doelaanbiedingen die zijn gebaseerd op de recenentie en frequentie van aanbiedingen voor consumentengedrag (online en offline).<li>Digitale eigenschappen verenigen voor een verbonden ervaring (bijvoorbeeld het downloaden van mobiele apps aanmoedigen en segmentactivering via verschillende kanalen gebruiken om ervaringen met elkaar te verbinden).</li></ul> |
+| Personalisatie op schaal | <ul><li> Evalueer segmenten op de rand voor realtime dezelfde pagina en volgende paginaporalisatie.<li>Verhoog de betrokkenheid door unieke en doelgerichte ervaringen te bieden aan bezoekers die een sessie over reizen verlaten (bijvoorbeeld een wagen verlaten, bezoekers die zich niet omzetten).<li> Offline en online gedrag verenigen en verbinden om gebruikers te optimaliseren en erbij te betrekken.</li></ul> |
+| Crossverkoop/Upsell | <ul><li>Behoud klanten terwijl het kweken en bestaande verhoudingen met gebruikers handhaven.<li>Nieuwe inkomstenstromen stimuleren met bedrijfseenheid/merk/aanbieding om de waarde van de levensduur van de klant te verhogen.<li>Verbeter inzicht in AOV over producten en SKU&#39;s (bv. frequente bundels, prijsgevoeligheid).</li></ul> |
+| Behoud/Loyalty van klanten | <ul><li> Consumenten opnieuw activeren om loyaliteit te bevorderen en klantenkring te vermijden&lt;.li>Aangepaste productaanbevelingen voor klanten met een hoge waarde op basis van voorkeuren en eigenheid.<li>Een standaard cadence creëren voor betrokkenheid en speciale aanbiedingen voor loyale consumenten.<li> U kunt voorkeuren online en offline koppelen om aanbiedingen te optimaliseren over kanalen.</li></ul> |
+| Samenwerking van gegevens | <ul><li> Maak handgrepen in een gebruikersinterface om workflows voor gegevenssamenwerking op te bouwen.<li>(Gebruik eersteklas gegevens die door verschillende bedrijfstakken worden overlapt om strategische bedrijfsbeslissingen en -campagnes te informeren.<li>De gegevenssilo&#39;s van de onderbreking en begrijpen holistische klantenreizen.<li> Eerbiediging van voorkeuren en toestemming per geval.</li></ul> |
+| Efficiëntie en optimalisatie van media/marketing | <ul><li> Verbeter organisatorische efficiency door klantengegevens en activeringskanalen in één systeem van verslag te centraliseren en te handhaven.<li>Ondersteuning voor suppressiecampagnes voor effectieve media-uitgaven/efficiëntie.<li> Aanpassing aan het IT-beleid via governance en beleidshandhaving.<li>Indien nodig toegang tot gegevens bieden, in realtime om tijdige campagnes te ondersteunen.</li></ul> |
 
 ## Relevante technische mogelijkheden
 
@@ -178,13 +178,11 @@ Zie [HIPAA en de Producten van de Adobe en de Diensten](https://www.adobe.com/tr
 
 Producten die klaar zijn voor HIPAA (en niet):
 
-![Hippa Ready](assets/hippa-ready.png)
-
 **Marketectiediagram**
 
-![Hippa Ready](assets/HIPAA-readiness.png)
+* Toepassingen die in grijs worden weergegeven, zijn nog niet klaar voor HIPAA.
 
-[Lucidchart-bron](https://lucid.app/lucidchart/8a795213-3bfa-43f3-a542-f0de56123afd/edit?invitationId=inv_d3183739-8c07-4ca2-bfd1-16d819b911a6&amp;page=0_0)
+![Hippa Ready](assets/HIPAA-readiness.png)
 
 ## Benadering
 
