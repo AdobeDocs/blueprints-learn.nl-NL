@@ -4,9 +4,9 @@ description: Lever een publiek op basis van accounts en maak een profilering van
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 2db815520027e3fed71eb1eb5138009fd2ed93a1
+source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,10 @@ Gebruik account-, opportuniteits- en hoofdinformatie die aan een individuele kla
 
 ## Guardrails
 
-Merk op dat aan Marketo Engage gerelateerde instructies en implementatiestappen alleen relevant zijn wanneer Marketo Engage als bron en/of bestemming wordt gebruikt.
+* Merk op dat aan Marketo Engage gerelateerde instructies en implementatiestappen alleen relevant zijn wanneer Marketo Engage als bron en/of bestemming wordt gebruikt.
+
+* Zie voor meer informatie en instructies voor de laatste en laatste latentie de [document met implementatiehandleidingen](../experience-platform/deployment/guardrails.md)
+
 
 ### Ondersteuning voor meerdere instanties en IMS-besturingssystemen:
 
@@ -55,7 +58,7 @@ In het volgende voorbeeld worden de ondersteunde patronen voor het toewijzen van
 
 #### Experience Platform profiel en segmentatiehulplijnen:
 
-* Zie het profiel en de segmentatiehulplijnen voor Experience Platform - [Richtlijnen voor profiel en segmentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+* Zie het profiel en de segmentatiehulplijnen voor Experience Platform - [Profiel en segmentatiehulplijnen](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * B2B-segmenten die accounts, leads en opportuniteiten bevatten, maken gebruik van relaties met meerdere entiteiten die ertoe leiden dat de segmentbeoordeling in batch wordt verwerkt. Streaming segmentatie wordt ondersteund voor segmenten die zijn beperkt tot personen en gebeurtenissen.
 
 #### Experience Platform - Marketo Engage Source Connector:
@@ -74,7 +77,7 @@ In het volgende voorbeeld worden de ondersteunde patronen voor het toewijzen van
 
 #### Guardrails bestemming
 
-* Raadpleeg de doeldocumentatie voor specifieke aanwijzingen over de bestemmingen. [Doelrichtlijnen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en)
+* Raadpleeg de doeldocumentatie voor specifieke aanwijzingen over de bestemmingen. [Guardrails bestemming](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=en)
 
 
 ## Implementatiestappen

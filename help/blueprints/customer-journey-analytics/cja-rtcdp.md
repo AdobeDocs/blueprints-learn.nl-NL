@@ -4,9 +4,10 @@ description: Gegevens en klantengedrag van over de klantenreis in Customer Journ
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
-source-git-commit: 8a252e0f061bddb14ce1a21b49137a22fdf700da
+exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
+source-git-commit: d47efe9bb7d19a745e0d75d21a09cb87912bd60b
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,9 @@ Zie de volgende documentatie voor richtlijnen over implementatie en configuratie
 
 ## Guardrail-diagram voor Customer Journey Analytics blauwdrukken
 
-![Guardraildiagram](assets/cja_guardrails.svg)
+* Voor gedetailleerde instructies en eindlatenties raadpleegt u de [document met implementatiehandleidingen](../experience-platform/deployment/guardrails.md)
+
+![Guardraildiagram](../experience-platform/assets/CJA_guardrails.svg)
 
 ## Verwante blogberichten
 
