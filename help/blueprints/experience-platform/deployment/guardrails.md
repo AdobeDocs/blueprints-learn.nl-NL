@@ -3,9 +3,9 @@ title: Experience Platform- en toepassingsinstructies
 description: In de handleidingen worden de prestatieverwachtingen en de gevolgen voor de componenten en services in Adobe Experience Platform en Applications gedefinieerd
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: e22c01fb768eed22d71748fd1e5bd8d3bc25068c
+source-git-commit: f618f3be083e15ebd0a00fcb242bd2ca07798272
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -38,15 +38,19 @@ Hulplijnen zijn aanbevolen drempels voor het gebruik van gegevens en systemen, h
 
 ### Gegevensinname
 
-In het onderstaande diagram worden de gemiddelde prestatiegaranties en de latentie voor gegevensinvoer in Adobe Experience Platform weergegeven.
-
 <img src="../assets/aep_data_flow_guardrails.svg" alt="Gegevensstroom Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+
+<br>
+
+### Segmentering
+
+<img src="../assets/segmentation_guardrails.svg" alt="Hulplijnen voor segmentatie van Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Journey Optimizer
 
-<img src="../assets/activation-latency.svg" alt="Referentiearchitectuur Journey Optimizer-blauwdruk" style="width:85%; border:1px solid #4a4a4a" />
+<img src="../assets/AJO_guardrails.svg" alt="Referentiearchitectuur Journey Optimizer-blauwdruk" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
