@@ -3,9 +3,9 @@ title: Experience Platform- en toepassingsinstructies
 description: In de handleidingen worden de prestatieverwachtingen en de gevolgen voor de componenten en services in Adobe Experience Platform en Applications gedefinieerd
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: f618f3be083e15ebd0a00fcb242bd2ca07798272
+source-git-commit: a6b0e80c58ae3968b58a607765a45ed846428c71
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Hulplijnen zijn aanbevolen drempels voor het gebruik van gegevens en systemen, h
 
 <br>
 
-## Latentie einde tot einde
+## Diagrammen voor einde tot einde latentie
 
 ### Gegevensinname
 
@@ -45,6 +45,12 @@ Hulplijnen zijn aanbevolen drempels voor het gebruik van gegevens en systemen, h
 ### Segmentering
 
 <img src="../assets/segmentation_guardrails.svg" alt="Hulplijnen voor segmentatie van Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+
+<br>
+
+### Real-time Customer Data Platform en Adobe Target
+
+<img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP en doel" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
