@@ -5,10 +5,10 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: e7a640580038c547cf983956ed155099aa14b159
+source-git-commit: f087e4d4312c7e8e33130a699b43909914252035
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -70,9 +70,10 @@ ht-degree: 4%
       + [Campagne v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP met Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer met Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
-+ Gegevensinsluiting en gegevensexport{#data-ingestion}
++ Gegevensverzameling, Verzameling, Toegang en Exporteren{#data-ingestion}
    + [Overzicht](/help/blueprints/data-ingestion/overview.md)
    + [Voorbereiding en inname van gegevens](/help/blueprints/data-ingestion/ingestion.md)
+   + [Toegang tot gegevens en exporteren](/help/blueprints/data-ingestion/egress.md)
    + [Gebeurtenis doorsturen](/help/blueprints/data-ingestion/server-side-collection.md)
    + [Gegevensverzameling van meerdere sandboxen](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
 + Gegevensanalyse, intelligentie en AI/ML{#data-exploration}
