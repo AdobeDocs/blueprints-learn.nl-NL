@@ -5,9 +5,9 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 83f1f5e0e508d35d6711710cdb4d367f67e4f715
+source-git-commit: 79e349d8b8dcb1626cccfff2ad56160bb9babd76
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 <td>Analyse</td>
 <td>
 <ul>
-<li>Geen huidige integratie</li>
+<li>Gegevens die via de web/mobiele SDK zijn verzameld, kunnen naar Adobe Analytics worden doorgestuurd.</li>
 </ul>
 </td>
 <td>
@@ -89,7 +89,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 </td>
 <td>
 <ul>
-<li>Gegevens verzameld en geëvalueerd publiekslidmaatschap kunnen worden gedeeld aan de gegevens van het Experience Platform meer en profielopslag. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=en">Audience Manager Source Connector</a></li>
+<li>De gegevens die samen met publiekslidmaatschap van Audience Manager worden verzameld en geëvalueerd kunnen aan het meer en profielopslag van de gegevens van het Experience Platform worden gedeeld. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=en">Audience Manager Source Connector</a></li>
 </ul>
 </td>
 <td>
@@ -141,6 +141,9 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 <td colspan="1">
 <ul>
 <li>Gegevens verzameld en opgenomen in het Experience Platform data Lake worden beschikbaar gemaakt voor verwerking tot Customer Journey Analytics. </li>
+<li>Profiel- en publieksgegevens van Real-time Customer Data Platform kunnen worden opgenomen in CJA. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=en">RTCDP naar CJA-integratie</a>.
+</li>
+</ul>
 </ul>
 </td>
 <td colspan="1">
@@ -191,15 +194,15 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 </td>
 </tr>
 <tr>
-<td colspan="1">Magento</td>
+<td colspan="1">Adobe Commerce</td>
 <td colspan="1">
 <ul>
-<li>Geen huidige integratie</li>
+<li>Profielen en publiek die in Real-time Customer Data Platform zijn ingebouwd, kunnen in Adobe Commerce beschikbaar worden gesteld voor omzetting. </li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Native gegevens van Magento kunnen via een Magento-bronconnector naar het Experience Platform worden verzonden. </li>
+<li>Native gegevens voor Adobe Commerce kunnen via een Adobe Commerce-bronaansluiting naar het Experience Platform worden verzonden. </li>
 </ul>
 </td>
 <td colspan="1">Geen huidige integratie</td>
@@ -218,7 +221,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 </td>
 <td colspan="1">
 <ul>
-<li>B2B-activering - in ontwikkeling</li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=en">B2B-blauwdruk voor activering</a></li>
 </ul>
 </td>
 </tr>
