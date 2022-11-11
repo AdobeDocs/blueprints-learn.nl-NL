@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: d47efe9bb7d19a745e0d75d21a09cb87912bd60b
+source-git-commit: 985f7320db7c77b8541ec4ef76b1eb7ad0caae56
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,18 @@ Zie de volgende documentatie voor richtlijnen over implementatie en configuratie
 * Voor gedetailleerde instructies en eindlatenties raadpleegt u de [document met implementatiehandleidingen](../experience-platform/deployment/guardrails.md)
 
 ![Guardraildiagram](../experience-platform/assets/CJA_guardrails.svg)
+
+## Veelgestelde vragen
+
+* Als er geen corresponderend profiel bestaat in een RTCDP-bestand dat door CJA is verzonden, wordt dan een nieuw profiel gemaakt of worden alleen publiek opgenomen van CJA voor profielen die al aanwezig zijn? Ja, er wordt een nieuw profiel gemaakt. Dientengevolge als uw implementatie RTCDP voor bekende klanten slechts is, zouden de CJA publieksregels aan filter voor slechts profielen met bekende identiteiten moeten worden geschreven. Zo voorkomt u dat het aantal RTCDP-profielen desgewenst toeneemt ten opzichte van anonieme profielen.
+
+* Verzendt CJA de publieksgegevens over als pijpleidingsgebeurtenissen of een plat dossier dat ook naar gegevens meer gaat? Het publiek CJA wordt gestroomd over pijpleiding aan de Dienst van het Profiel RTCDP, nochtans worden de gegevens ook opgeslagen in gegevens meer als dataset.
+
+* Welke identiteiten verzendt CJA? CJA verzendt over welke identiteiten als &quot;persoonsidentiteitskaart&quot;tijdens configuratie CJA werden gevormd.
+
+* Wat wordt ingesteld als de primaire identiteit? Welke identiteit de gebruiker ook selecteerde toen hij CJA als primaire &quot;persoon&quot;identiteitskaart opstelde
+
+* Verwerkt de identiteitsdienst ook de CJA- berichten? Kan CJA bijvoorbeeld identiteiten toevoegen aan een profielidentiteitsgrafiek door het delen van het publiek? Nee, de identiteitsservice verwerkt de CJA-berichten niet.
 
 ## Verwante blogberichten
 

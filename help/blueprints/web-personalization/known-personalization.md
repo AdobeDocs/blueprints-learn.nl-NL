@@ -5,9 +5,9 @@ landing-page-description: Synchroniseer webpersonalisatie met e-mail en andere b
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
+source-git-commit: 87679928d2bfcfe74c85bb054341c662999e52a5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -82,13 +82,17 @@ traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AT.js en Ap
 
 [Raadpleeg de handleidingen op de pagina Overzicht van de blauwdrukken voor persoonlijk gebruik op internet en mobiele apparatuur.](overview.md)
 
+* Edge-profielen worden alleen gemaakt wanneer een gebruiker actief is op de Edge-server. Dit houdt in dat in het profiel van de gebruiker streaminggebeurtenissen worden verzonden naar de Edge via de SDK Web/Mobile of de Edge Server-API. Dit komt meestal overeen met het feit dat de gebruiker actief is op een website of mobiele app.
+* Edge-profielen hebben een standaardlevensduur van 14 dagen. Als er geen actieve Edge-gebeurtenissen voor de gebruiker zijn verzameld, verloopt het profiel na 14 dagen inactiviteit op de rand. Het profiel blijft geldig in de hub en wordt gesynchroniseerd met de rand zodra de gebruiker weer aan de rand actief wordt.
+* Wanneer een vers profiel op de rand wordt gecreeerd, wordt een synchronisatievraag asynchroon gemaakt aan de hub om het even welk publiek en attributen te halen die voor randprojectie via een bestemming worden gevormd. Aangezien het een asynchroon proces is, kan het overal van 1 seconde tot verscheidene minuten duren voor het hubprofiel aan synchronisatie aan de rand. Als zodanig kan niet worden gegarandeerd dat nieuwe profielen de profielcontext hebben vanuit de hub voor ervaringen met de eerste pagina. Dit geldt ook voor nieuw verzamelde gegevens naar de hub. Deze gegevens worden asynchroon aan de rand geprojecteerd en daarom zal de timing van wanneer de gegevens aan de aangewezen rand aankomen afzonderlijk van de randactiviteit. Alleen profielen die actief zijn op de rand, behouden kenmerken en publiek die worden geprojecteerd vanuit de hub.
+
 ## Overwegingen bij de implementatie
 
 Identiteitsvoorwaarden
 
 * Elke primaire identiteit kan worden benut wanneer implementatiepatroon 1 wordt gebruikt die hierboven is beschreven met het Edge-netwerk en WebSDK. Voor de eerste persoonlijke aanmelding is de primaire identiteit van de set met verpersoonlijkingsverzoeken gelijk aan de primaire identiteit van het profiel van Real-time Customer Data Platform. Identiteitsvervlechting tussen anonieme apparaten en bekende klanten wordt verwerkt op de hub en later geprojecteerd aan de rand.
 * Merk op dat gegevens die naar de hub worden geüpload voordat een consument een website bezoekt of aanmeldt, niet onmiddellijk beschikbaar zijn voor personalisatie. Er moet eerst een actief randprofiel aanwezig zijn om gegevens in de hub te kunnen synchroniseren. Als u het Edge-profiel hebt gemaakt, wordt het asynchroon gesynchroniseerd met het hubprofiel, wat resulteert in een volgende paginaporalisatie.
-* Voor het delen van het publiek van Adobe Experience Platform naar Adobe Target moet ECID als identiteit worden gebruikt wanneer de service voor het delen van het publiek wordt gebruikt, zoals beschreven in het integratiepatroon 2 en 3 hierboven.
+* Voor het delen van het publiek van Adobe Experience Platform naar Adobe Target moet ECID als identiteit worden gebruikt wanneer de service voor het delen van het publiek wordt gebruikt, zoals beschreven in integratiepatroon 2 en 3 hierboven.
 * Alternatieve identiteiten kunnen ook worden gebruikt om het publiek van het Experience Platform via Audience Manager naar Adobe Target te delen. Experience Platform activeert publiek naar Audience Manager via de volgende ondersteunde naamruimten: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Merk op dat Audience Manager en Doel publiekslidmaatschappen via de identiteit van ECID oplossen, zodat ECID nog in de identiteitsgrafiek voor de consument voor het definitieve publiek moet zijn die aan Adobe Target deelt.
 
 ## Verwante documentatie
