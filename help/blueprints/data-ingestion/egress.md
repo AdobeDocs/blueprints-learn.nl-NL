@@ -3,9 +3,10 @@ title: Gegevenstoegang en Blauwdruk exporteren
 description: Deze blauwdruk biedt een overzicht van alle methoden waarmee gegevens kunnen worden benaderd en geëxporteerd vanuit Adobe Experience Platform en toepassingen.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
-source-git-commit: 67e66068bb8a2106dd8aa9784b5a39377225c045
+exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
+source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -50,7 +51,7 @@ Zie de [Toegang-API voor gebruikersprofiel in realtime](https://experienceleague
 
 * Klantprofiel in realtime [guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) van toepassing.
 * Ontworpen voor één profielzoekopdracht tegelijk. Niet gebruikt voor bulkprofieltoegang of download van de volledige profielpopulatie voor het gebruik van analyse of gegevenswetenschap.
-* De responstijd van de opzoekopdracht van het profiel wordt gekoppeld aan de profielinstructies. Lage latentie-vereisten - bijvoorbeeld voor dezelfde pagina-personalisatievereisten moeten het Edge Profile of de klantgericht aanpassingsdoelen gebruiken voor toegang tot lage latentieprofielen. [Documentatie](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en).
+* De responstijd van de opzoekopdracht van het profiel wordt gekoppeld aan de profielinstructies. Eisen voor realtime lage latentie: voor dezelfde vereisten voor paginagrootte moet u het Edge-profiel gebruiken van de naar [Adobe Target-verbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) of de [Aangepaste aanpassingsverbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en) voor realtime profieltoegang voor in browser en in app-personalisatie.
 
 ### API voor gegevenstoegang {#data-access-api}
 
@@ -129,7 +130,7 @@ Zie de [Real-time Customer Data Platform-doelen](https://experienceleague.adobe.
 
 #### Gevallen gebruiken
 
-* Activeer profielkenmerkgegevens, waaronder het lidmaatschap van het publiek, voor een gegevensopslagsysteem van een interne onderneming, analyseprogramma, e-mailsysteem of supportsysteem.
+* Activeer profielkenmerkinformatie, waaronder het lidmaatschap van het publiek voor een interne bedrijfsgegevensopslagruimte, analyseprogramma&#39;s, e-mailsystemen of supportsystemen.
 * Activeer het lidmaatschap van het profielpubliek voor een externe advertentiemap om inhoud aan het profiel te richten en te personaliseren.
 
 #### Overwegingen
@@ -154,13 +155,3 @@ Zie de [Aangepaste Journey Optimizer-acties](https://experienceleague.adobe.com/
 * Aangepaste acties kunnen voor elke gebeurtenis of elk profiel op een reis één voor één worden gestreamd. Bulkbewerkingen of bulkgegevensegress in de vorm van bestanden of geaggregeerde verzoeken over klantreizen kunnen niet worden uitgevoerd.
 * Streaming toegang tot kenmerken van het realtime-klantprofiel en ervaringsgebeurtenissen die kunnen worden opgenomen in de activeringslading.
 * Gebeurtenisgegevens kunnen worden gefilterd en eenvoudige toewijzingstransformaties kunnen worden toegepast voordat gebeurtenissen naar externe doelen worden verzonden.
-
-
-
-
-
-
-
-
-
-
