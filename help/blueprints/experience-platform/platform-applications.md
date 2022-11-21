@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 79e349d8b8dcb1626cccfff2ad56160bb9babd76
+source-git-commit: 122e317b34c7704dc80da11d08b9a8ff955dfa8c
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 
 ## Gedetailleerd architectuurdiagram voor Adobe Experience Platform en toepassingen
 
-<img src="assets/aep+apps_horizontal.svg" alt="Experience Platform en toepassingen" style="border:1px solid #4a4a4a; width:90%;" />
+<img src="assets/aep-app-architecture.svg" alt="Experience Platform en toepassingen" style="border:1px solid #4a4a4a; width:90%;" />
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
