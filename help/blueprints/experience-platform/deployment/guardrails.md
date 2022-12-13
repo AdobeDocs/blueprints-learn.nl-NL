@@ -3,13 +3,13 @@ title: Experience Platform- en toepassingsinstructies
 description: In de handleidingen worden de prestatieverwachtingen en de gevolgen voor de componenten en services in Adobe Experience Platform en Applications gedefinieerd
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: 24699f79ed4966a72f78138ad9dd9f3763674b4e
+exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
+source-git-commit: f208fcd938bfc12882421f213192a6888f546a79
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
-
 
 # Guardrails
 
@@ -79,6 +79,8 @@ Hulplijnen zijn aanbevolen drempels voor het gebruik van gegevens en systemen, h
 [Experience Platform Intelligence](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 
 [Intelligente services](https://helpx.adobe.com/legal/product-descriptions/intelligent-services.html)
+
+[Data Distiller](https://helpx.adobe.com/legal/product-descriptions/data-distiller.html)
 
 [Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
 
