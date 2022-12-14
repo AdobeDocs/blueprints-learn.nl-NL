@@ -5,10 +5,10 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: d952442d066ea99f5b089f85798129dd0e40daec
+source-git-commit: fd8dd3caee5cbf450c5f00266c74ccdef7cd1de9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '262'
+ht-degree: 4%
 
 ---
 
@@ -79,6 +79,10 @@ ht-degree: 0%
    + [Overzicht](/help/blueprints/data-insights/overview.md)
    + [Gegevensanalyse en -informatie](/help/blueprints/data-insights/analysis.md)
    + [Aangepaste gegevenswetenschap voor profielverrijking](/help/blueprints/data-insights/data-science.md)
++ De voorzieningsketen van de Campagne met Marketo en Workfront optimaliseren{#optimize-campaign-supply-chain-with-marketo-and-workfront}
+   + [Overzicht](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md)
+   + [Artikelen met succes voor klanten](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/customer-success-stories.md)
+   + [Innemen en maken](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/intake-and-create.md)
 + Web en mobiele personalisatie{#web-personalization}
    + [Overzicht](/help/blueprints/web-personalization/overview.md)
    + [Gedrag aanpassen - Doel](/help/blueprints/web-personalization/behavioral.md)
