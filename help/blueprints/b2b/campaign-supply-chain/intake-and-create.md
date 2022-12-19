@@ -2,9 +2,9 @@
 description: Inname en Maken - De voorzieningsketen van de Campagne optimaliseren met Marketo en Workfront
 title: Innemen en maken
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
+source-git-commit: c33790d001c98628fcaa57f0ef8ebf449adb8af2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1325'
 ht-degree: 0%
 
 ---
@@ -157,4 +157,4 @@ Hier is een voorbeeld van hoe de werkschemalogica in Fusion kan worden samengest
 
 * [Adobe Workfront-modules](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target=&quot;_blank&quot;}
 
-* [Overzicht Marketo en Workfront](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md){target=&quot;_blank&quot;}
+* [Overzicht Marketo en Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}
