@@ -2,9 +2,9 @@
 description: Overzicht - De voorzieningsketen van de Campagne met Marketo en Workfront optimaliseren
 title: Overzicht
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
+source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Nu u een fundamenteel inzicht hebt in hoe Workfront en Marketo Engage nieuwe eff
 
 ### Aan de slag met Workfront Fusion-, Workfront- en Marketo Engage-integratie {#getting-started-with-workfront-fusion}
 
-* [Innemen en maken](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/intake-and-create.md){target=&quot;_blank&quot;} - Automatisering van de ontwikkeling van campagnes met Marketo Engage en Workfront
+* [Innemen en maken](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target=&quot;_blank&quot;} - Automatisering van de ontwikkeling van campagnes met Marketo Engage en Workfront
 
 * Bewijs en goedkeuring (binnenkort beschikbaar)
 

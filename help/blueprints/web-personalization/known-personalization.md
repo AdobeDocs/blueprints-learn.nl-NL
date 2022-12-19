@@ -5,9 +5,9 @@ landing-page-description: Synchroniseer webpersonalisatie met e-mail en andere b
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 87679928d2bfcfe74c85bb054341c662999e52a5
+source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Bekende klantpersonalisatie wordt ondersteund via verschillende implementatiemet
 ### Implementatiepatroon 1 - Edge Network with Web/Mobile SDK of Edge Network API (aanbevolen aanpak)
 
 * Het gebruiken van het Netwerk van de Rand met Web/Mobile SDK. Voor Edge-segmentatie in realtime is de Web/Mobile SDK- of Edge API-implementatiebenadering vereist.
-* [Verwijs naar het Web van het Experience Platform en Mobiele SDK Blauwdruk](../data-ingestion/websdk.md) voor de op SDK gebaseerde implementatie.
+* [Verwijs naar het Web van het Experience Platform en Mobiele SDK Blauwdruk](../experience-platform/deployment/websdk.md) voor de op SDK gebaseerde implementatie.
 * Voor gebruik in de mobiele SDK wordt de [Adobe Journey Optimizer - Extensie voor besluitvorming](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) moet worden geïnstalleerd in de mobiele SDK.
 * [Raadpleeg de Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html) voor een API-gebaseerde implementatie van Adobe Target met Edge Profile.
 
@@ -66,7 +66,7 @@ Bekende klantpersonalisatie wordt ondersteund via verschillende implementatiemet
 
 traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AT.js en AppMeturement.js). De evaluatie van het segment in real time van de Rand wordt niet gesteund gebruikend deze implementatiebenadering. Het streamen en het delen van batchgebruikers vanuit de hub van het Experience Platform worden echter ondersteund met deze implementatieaanpak.
 
-[Raadpleeg de specifieke SDK-blauwdruk voor de toepassing](../data-ingestion/appsdk.md)
+[Raadpleeg de specifieke SDK-blauwdruk voor de toepassing](../experience-platform/deployment/appsdk.md)
 
 ### Implementatiestappen
 
@@ -100,7 +100,7 @@ Identiteitsvoorwaarden
 ### SDK-documentatie
 
 * [Experience Platform Web SDK-documentatie](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
-* [Documentatie over Experience Platform-tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
+* [Documentatie over Experience Platform-tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl)
 * [Documentatie Experience Cloud ID-service](https://experienceleague.adobe.com/docs/id-service/using/home.html)
 
 ### Verbindingsdocumentatie

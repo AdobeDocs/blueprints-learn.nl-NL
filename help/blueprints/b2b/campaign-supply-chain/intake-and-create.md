@@ -2,9 +2,9 @@
 description: Inname en Maken - De voorzieningsketen van de Campagne optimaliseren met Marketo en Workfront
 title: Innemen en maken
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
+source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Hieronder ziet u een aanvraag voor een webinar die door een campagnemanager word
 
 >[!TIP]
 >
->Als u meer wilt weten over de verschillende typen objecten in Workfront die worden gebruikt voor het organiseren van de marketingcampagne en over de manier waarop deze zijn toegewezen aan een Marketo Engage-programma, bekijkt u de [Overzicht Marketo en Workfront](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md){target=&quot;_blank&quot;}.
+>Als u meer wilt weten over de verschillende typen objecten in Workfront die worden gebruikt voor het organiseren van de marketingcampagne en over de manier waarop deze zijn toegewezen aan een Marketo Engage-programma, bekijkt u de [Overzicht Marketo en Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}.
 
 ## Uw ontwikkelingsproces voor campagne voorbereiden voor automatisering {#prepare-your-campaign-development-process-for-automation}
 
