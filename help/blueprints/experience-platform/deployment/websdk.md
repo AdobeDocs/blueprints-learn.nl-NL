@@ -5,9 +5,9 @@ solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: e07ff74f901932c42ddaf6cb36b557535b9a2c43
+source-git-commit: 0b0f77eaf903f592993ed8f4abe29827b733c769
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Voor een overzicht en detail op het Web en Mobiele SDK, en de Server API van het Netwerk van de Rand zie het volgende.
 * [Overzicht van WebSDK](https://experienceleague.adobe.com/docs/web-sdk.html)
-* [Overzicht van MobileSDK](https://aep-sdks.gitbook.io/docs/)
+* [Overzicht van MobileSDK](https://developer.adobe.com/client-sdks/documentation/)
 * [Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
 Voor een gedetailleerd overzicht van welke toepassingsfunctionaliteit in WebSDK wordt gesteund zie de volgende documentatie.
