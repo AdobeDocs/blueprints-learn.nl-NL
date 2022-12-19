@@ -5,7 +5,7 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
+source-git-commit: af390011dc068c4289f98d7fc0108ce48a5375c7
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 4%
@@ -47,8 +47,8 @@ ht-degree: 4%
    + [B2B-activering](/help/blueprints/b2b/b2bactivation.md)
    + Aanvoerketen voor campagnes met Marketo en Workfront{#optimize-campaign-supply-chain-with-marketo-and-workfront}
       + [Overzicht](/help/blueprints/b2b/campaign-supply-chain/overview.md)
-      + [Artikelen met succes voor klanten](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
       + [Innemen en maken](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
+      + [Artikelen met succes voor klanten](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [Overzicht](/help/blueprints/customer-journey-analytics/overview.md)
    + [CJA-publiek delen naar RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
