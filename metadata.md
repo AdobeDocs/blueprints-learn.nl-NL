@@ -3,19 +3,20 @@ cloud: Experience Platform
 solution: Experience Platform
 product: experience platform
 type: Tutorial
+sub-type: Blueprints
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/blueprints-learn.nl-NL
 index: true
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+source-git-commit: 386bf5f1a527f6151247032ce1b8f3f15227354a
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 0%
+ht-degree: 78%
 
 ---
 
 
-# Metagegevens voor intern gebruik
+# Metadata voor intern gebruik
 
-Het bestand metadata.md bevat metagegevens op repo-niveau die worden doorgegeven aan de bestanden in de repo in de gebruikershandleiding TOC.md. Als u de inhoud metadata.md voor om het even welke gebruikersgids wilt veranderen, doe dit in om het even welk dossier van TOC.md.
+Het bestand metadata.md bevat metadata op repo-niveau die worden doorgegeven aan de handleiding voor TOC.md-bestanden in de repo. Als u de inhoud van metadata.md voor een handleiding wilt wijzigen, doe dit dan in een TOC.md-bestand.
 
-Zie [Metagegevens](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=en) voor een lijst met geldige waarden voor **oplossing**, **product**, en **type**.
+Zie [Metadata](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=en) voor een lijst met geldige waarden voor **oplossing**, **product** en **type**.
