@@ -1,24 +1,32 @@
 ---
-title: Digitale beleving blauwdrukken
-description: Digitale Ervaring blauwdrukken zijn herhaalbare implementaties om strategie aan te pakken en gevestigde bedrijfsproblemen op te lossen. Ze versnellen tijd tot waarde en bieden een snelle weg naar succes.
+title: Blauwdrukken voor digitale ervaring
+description: De blauwdrukken van de digitale ervaring zijn herhaalbare implementaties om strategie te richten en gevestigde bedrijfsproblemen op te lossen. Ze versnellen tijd tot waarde en bieden een snelle weg naar succes.
+doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 5f35c36d3ef426396aadf0292e291d7738520032
+source-git-commit: f60a787630d68388fc4887f3df1756528fca446d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
 
-# Digitale beleving blauwdrukken
+# Blauwdrukken voor digitale ervaring
 
-De Verbluepingen van de Digitale Ervaring zijn herhaalbare implementaties die u strategie laten behandelen en snel gevestigde bedrijfsproblemen oplossen. Elke blauwdruk verstrekt een reeks artefacten die het high-value bedrijfsprobleem, architectuur, implementatiestappen, technische overwegingen, en verbindingen aan de relevante documentatie verklaren.
+De blauwdrukken van de digitale ervaring zijn herhaalbare implementaties die u strategie laten behandelen en snel gevestigde bedrijfsproblemen oplossen. Elke blauwdruk verstrekt een reeks artefacten die het high-value bedrijfsprobleem, architectuur, implementatiestappen, technische overwegingen, en verbindingen aan de relevante documentatie verklaren.
+
+<div id="recs-overview-body-1"></div>
+<div id="recs-overview-body-2"></div>
+<div id="recs-overview-body-3"></div>
+<div id="recs-overview-body-4"></div>
+<div id="recs-overview-body-5"></div>
+<div id="recs-overview-body-6"></div>
 
 ## Nieuwe functies
 
-* **[Activering van publiek en profiel naar Enterprise-doelen - blauwdruk](/help/blueprints/audience-activation/enterprise-destinations.md)**
+* **[Bewegingsblauwdruk voor publiek- en profielactivering naar Enterprise-doelen](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
    *Houd de profielen van de klant bijgewerkt over alle systemen om uw verkoop en steunteams te machtigen. &#x200B;*
-* **[Vervaging van de Hub voor klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)**
+* **[Hub blauwdruk voor klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Zorg voor context voor ondersteuning en verkoop door agenten.*
 * **[Gegevensanalyse en inlichtingenblauwdruk](/help/blueprints/data-insights/analysis.md)**
@@ -49,7 +57,7 @@ De Verbluepingen van de Digitale Ervaring zijn herhaalbare implementaties die u 
 
 ## Blogberichten
 
-* [[!DNL Introducing Adobe Experience Platform’s New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
+* [[!DNL Introducing Adobe Experience Platform's New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
 * [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
 * [[!DNL Blueprint for Web/Mobile Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Blueprint for Cross-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
