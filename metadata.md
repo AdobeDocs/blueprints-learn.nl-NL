@@ -3,11 +3,11 @@ cloud: Experience Platform
 solution: Experience Platform
 product: experience platform
 type: Tutorial
-sub-type: Blueprints
+doc-type: blueprint
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/blueprints-learn.nl-NL
 index: true
-source-git-commit: 386bf5f1a527f6151247032ce1b8f3f15227354a
+source-git-commit: f673054b9e0c459daed08157b4e05d2bda100470
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 78%
