@@ -4,7 +4,7 @@ description: Deze blauwdruk toont hoe de op gegevenswetenschap gebaseerde inzich
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De Wetenschap van de Gegevens van de douane voor de Blauwdruk van de Verrijking van het Profiel illustreert hoe de gegevens kunnen worden gebruikt om, modellen op te leiden en te scoren om machine het leren inzicht in Experience Platform en de Real-time Customer Data Platform van gegevenswetenschappen en machine het leren hulpmiddelen te verstrekken. De gemodelleerde inzichten kunnen in Experience Platform worden opgenomen om het klantenprofiel in real time te verrijken. Voorbeelden van leerinzicht in machines zijn levenslange waardeschaling, product- en categoriaffiniteit, conversiesnelheid of churn.
 
-## Gevallen gebruiken
+## Gebruik hoofdletters
 
 * Haal inzicht uit en ontdek patronen van klantengegevens, trein en score modellen van deze gegevens.
 * Verrijken de [!UICONTROL Klantprofiel in realtime] met modelgestuurde inzichten en kenmerken voor meer korrelige personalisatie en geoptimaliseerde reizen.
@@ -29,7 +29,7 @@ De Wetenschap van de Gegevens van de douane voor de Blauwdruk van de Verrijking 
 
 * Voor gedetailleerde begeleiding en end-to-end latency bij het opnemen van gegevens de wetenschappelijke resultaten in Experience Platform en het Real-time Profiel van de Klant verwijs naar de gegevens van de binnendringing guardrails en latentiediagram waarnaar in [document met implementatiehandleidingen](../experience-platform/deployment/guardrails.md).
 
-## Implementatiestappen
+## Uitvoeringsstappen
 
 1. [Schema&#39;s maken](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden ingevoerd.
 1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden ingevoerd.
@@ -40,7 +40,7 @@ Voor modelresultaten die in het Profiel van de Klant in real time moeten worden 
 1. [De juiste identiteiten en naamruimten configureren](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html) op het schema om ervoor te zorgen dat ingesloten gegevens in een verenigd profiel kunnen vastmaken.
 1. [De schema&#39;s en datasets voor profiel inschakelen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
 
-## Overwegingen bij de implementatie
+## Implementatieoverwegingen
 
 * In de meeste gevallen moet het modelresultaat worden opgenomen als profielkenmerken en hoeven er geen gebeurtenissen te worden ervaren. De modelresultaten kunnen eenvoudige kenmerktekenreeksen zijn. Als er meerdere modelresultaten zijn die moeten worden opgenomen, wordt aanbevolen een array- of kaarttekstveld te gebruiken.
 * De gegevensset met momentopnamen voor dagelijkse profielen, die een dagelijkse export is van de gegevens van de verenigde profielkenmerken, kan worden gebruikt om modellen voor profielkenmerkgegevens op te leiden. De document van de de momentopnamesdataset van het profiel kan worden betreden [hier](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html#profile-attribute-datasets).
@@ -51,12 +51,12 @@ Voor modelresultaten die in het Profiel van de Klant in real time moeten worden 
    * RTCDP-doelen
       * Profielkenmerken en segmentlidmaatschap kunnen worden ingedrukt.
 
-## Verwante documentatie
+## Gerelateerde documentatie
 
 * [Productbeschrijving Adobe Experience Platform Intelligence](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)
 
-## Verwante blogberichten
+## Gerelateerde blogberichten
 
 * [[!DNL Content and Commerce AI: Personalizing Your Interactions with Customers Through Content Intelligence]](https://medium.com/adobetech/content-and-commerce-ai-personalizing-your-interactions-with-customers-through-content-intelligence-dc182601deab)
 * [[!DNL An Introductory Look at Exploratory Data Analysis on Adobe Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)

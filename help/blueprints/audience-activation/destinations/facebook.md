@@ -4,7 +4,7 @@ description: Activering voor aangepast publiek van Facebook.
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: 6fa38772f77ffd565580db55f8f2889b0e703949
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Verzamel klantengegevens uit veelvoudige bronnen om één enkele profielmening van de klant te bouwen, deze profielen te segmenteren aan gebouwd publiek voor marketing en verpersoonlijking, deze toehoorders aan Sociale Advertentienetwerken zoals Facebook aan doel en verpersoonlijkingscampagnes tegen dat publiek te delen.
 
-## Gevallen gebruiken
+## Gebruik hoofdletters
 
 * Publiek dat zich richt op bekende doelgroepen op sociale en reclamebestemmingen.
 * Online personalisatie met online en offline kenmerken.
@@ -28,7 +28,7 @@ Verzamel klantengegevens uit veelvoudige bronnen om één enkele profielmening v
 
 <img src="../assets/facebook.svg" alt="Referentiearchitectuur voor Facebook Custom Audience Activation" style="width:90%; border:1px solid #4a4a4a" />
 
-## Implementatiestappen
+## Uitvoeringsstappen
 
 1. Identiteitsnaamruimten configureren die moeten worden gebruikt in profielgegevensbronnen.
    * Gebruik naamruimten buiten het vak, zoals E-mail, SHA256-hash, indien beschikbaar.
@@ -88,6 +88,6 @@ Verzamel klantengegevens uit veelvoudige bronnen om één enkele profielmening v
 
 [Profiel en segmentatiehulplijnen](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 
-## Verwante documentatie
+## Gerelateerde documentatie
 
 Activering voor aangepast publiek van Facebook - [Doelconfiguratie](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)

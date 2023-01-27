@@ -1,17 +1,17 @@
 ---
-title: B2B-analyse en -activering
+title: B2B-blauwdrukken voor analyse en activering
 description: Lever een publiek op basis van account en maak een profilering van de belangrijkste ervaringen van klanten met Real-time Customer Data Platform.
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
-source-git-commit: bd0a93ef2efa702b4d4f3eb20d126ee22fb113af
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
 
-# B2B-analyse en -activering
+# B2B-blauwdrukken voor analyse en activering
 
 B2B-activering van publiek en profiel is de sleutel tot succes in een wereld van gegevensgestuurde marketing. Veel merken richten zich echter nog steeds op activering via het kanaal, wat vaak leidt tot inconsistente bereikbaarheid en personalisatie.
 

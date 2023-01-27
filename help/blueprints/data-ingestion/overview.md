@@ -5,14 +5,14 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
-source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
-# Gegevensverzameling en -voorbereiding
+# Blauwdrukken voor gegevensverzameling en -voorbereiding
 
 Gegevensverzameling en -voorbereiding omvatten alle methoden waarmee gegevens in Adobe Experience Platform kunnen worden voorbereid en opgenomen. Naast de capaciteit om gegevens aan het Netwerk van de Rand van Adobe Experience Platform te verzamelen en het verdere door:sturen van gegevens via zij door:sturen aan ondernemingsbestemmingen.
 

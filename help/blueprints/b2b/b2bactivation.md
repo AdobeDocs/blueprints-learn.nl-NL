@@ -1,21 +1,21 @@
 ---
-title: B2B-activering
+title: B2B blauwdruk voor audience and Profile Activation
 description: Lever een publiek op basis van accounts en maak een profilering van de belangrijkste ervaringen van klanten met Real-time Customer Data Platform ​.
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
 
-# B2B-publiek en profielactivering
+# B2B blauwdruk voor audience and Profile Activation
 
 Gebruik account-, opportuniteits- en hoofdinformatie die aan een individuele klant is gekoppeld om actioneerbare b2b-profielen te maken voor een betere personalisatie en doelgerichtheid op verschillende kanalen.
 
-## Gevallen gebruiken
+## Gebruik hoofdletters
 
 * Maak een publiek van mensen voor doelgerichtheid en personalisatie op verschillende kanalen tegen B2B-gegevens, waaronder accounts, mogelijkheden en leads.
 * Activeer publiek aan om het even welke Experience Platform bestemmingen voor het richten en verpersoonlijken.
@@ -80,13 +80,13 @@ In het volgende voorbeeld worden de ondersteunde patronen voor het toewijzen van
 * Raadpleeg de doeldocumentatie voor specifieke aanwijzingen over de bestemmingen. [Guardrails bestemming](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=en)
 
 
-## Implementatiestappen
+## Uitvoeringsstappen
 
 Voor hulp bij het implementeren en configureren van de B2B Edition van de Real-time Customer Data Platform raadpleegt u de B2B Edition van de Real-time Customer Data Platform-documentatie. [B2B Edition van Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 
 Er zijn twee mogelijke implementatiepatronen. Zowel de mogelijkheid om B2B-gegevens en -profielen van Marketo Engage in te nemen als de mogelijkheid om B2B-gegevens van andere CRM-gegevensbronnen in te nemen.
 
-## Overwegingen bij de implementatie
+## Implementatieoverwegingen
 
 Richtlijnen voor belangrijke overwegingen en configuraties van de blauwdruk.
 
@@ -94,7 +94,7 @@ Richtlijnen voor belangrijke overwegingen en configuraties van de blauwdruk.
 * Het starten en verzorgen van lood uit de B2B Edition van Real-time Customer Data Platform alleen wordt niet aanbevolen. Voor dit gebruik wordt het gebruik van een gereedschap voor het koesteren van lood (zoals Marketo Engage) aanbevolen.
 * De de bestemmingsschakelaar van de Marketo Engage voor AEP die publiek aan Marketo Engage voor activering duwt, duwt slechts e-mailadressen en ECIDs. Er wordt geen nieuwe lead gemaakt als de contactpersoon nog niet bestaat. Daarom moet u het profiel invoeren en gegevens naar Marketo Engage leiden.
 
-## Verwante documentatie
+## Gerelateerde documentatie
 
 * [B2B Edition van Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)

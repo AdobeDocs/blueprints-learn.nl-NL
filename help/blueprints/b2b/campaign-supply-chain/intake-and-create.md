@@ -1,21 +1,21 @@
 ---
+title: Opname en ontwerp maken
 description: Inname en Maken - De voorzieningsketen van de Campagne optimaliseren met Marketo en Workfront
-title: Innemen en maken
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: c33790d001c98628fcaa57f0ef8ebf449adb8af2
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---
 
-# Innemen en maken {#intake-and-create}
+# Opname en ontwerp maken {#intake-and-create}
 
 Het aantal marketingverzoeken dat in een marketingoperatieteam komt om nieuwe campagnes te lanceren, kan een goed functionerend team veranderen in een draaideur van herhalende taken, wat leidt tot opstand en stagnerende innovatie.
 
 Door een proces op te zetten voor het indienen van campagneaanvragen en het automatisch maken van veelgevraagde marketingcampagnes, kunt u: vergroot de snelheid van uw campagnes, verminder fouten, routeverzoeken aan het juiste lid van marketing verrichtingen, evenwicht en verbetert middelgebruik, en concentreer meer van uw marketing verrichtingen op meer strategische taken.
 
-Met Workfront en Marketo Engage, staat een systeem-aan-systeem verbinding details van een [Workfront-aanvraagformulier](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html){target=&quot;_blank&quot;} om een Marketo Engage-programma te maken en vul vervolgens de belangrijkste variabelen in, zoals: onderwerpregel, e-mailkopie, afbeeldingen, datums, tijden, gebeurtenisinformatie en meer.
+Met Workfront en Marketo Engage, staat een systeem-aan-systeem verbinding details van een [Workfront-aanvraagformulier](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html){target="_blank"} Als u een Marketo Engage-programma wilt maken, vult u de belangrijkste variabelen in, zoals: onderwerpregel, e-mailkopie, afbeeldingen, datums, tijden, gebeurtenisinformatie en meer.
 
 Om deze integratie te bereiken, zult u Workfront Fusion, een werkautomatiseringslaag gebruiken die u toestaat om werkschema&#39;s tussen Workfront en andere systemen te automatiseren.
 
@@ -25,15 +25,15 @@ Hieronder ziet u een aanvraag voor een webinar die door een campagnemanager word
 
 >[!TIP]
 >
->Als u meer wilt weten over de verschillende typen objecten in Workfront die worden gebruikt voor het organiseren van de marketingcampagne en over de manier waarop deze zijn toegewezen aan een Marketo Engage-programma, bekijkt u de [Overzicht Marketo en Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}.
+>Als u meer wilt weten over de verschillende typen objecten in Workfront die worden gebruikt voor het organiseren van de marketingcampagne en over de manier waarop deze zijn toegewezen aan een Marketo Engage-programma, bekijkt u de [Overzicht Marketo en Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}.
 
-## Uw ontwikkelingsproces voor campagne voorbereiden voor automatisering {#prepare-your-campaign-development-process-for-automation}
+## Bereid uw campagneontwikkelingsproces voor automatisering voor {#prepare-your-campaign-development-process-for-automation}
 
 Achter elke grote automatisering van workflows schuilt een gedefinieerd proces dat ervoor zorgt dat teams en belanghebbenden de meeste waarde van de automatisering krijgen.
 
 **Welke soorten marketingverzoeken ontvangt u?**
 
-Bedenk welke soorten marketing tactieken u zult lopen zoals e-mail, verpleegkunde, eerste partijwebinars, en gebeurtenissen. Werkt u ook Webinars van derden of weergaveadvertenties? Elk van deze verzoeken moet worden overwogen aangezien zij specifieke inputgebieden in het verzoekformulier kunnen nodig hebben en aan verschillende programmamalplaatjes in Marketo Engage in kaart brengen die zullen worden gekloond.
+Bedenk welke soorten marketing tactieken u zult lopen zoals e-mail, verpleegkunde, eerste partijwebinars, en gebeurtenissen. Werkt u ook Webinars of weergaveadvertenties van derden? Elk van deze verzoeken moet worden overwogen aangezien zij specifieke inputgebieden in het verzoekformulier kunnen nodig hebben en aan verschillende programmamalplaatjes in Marketo Engage in kaart brengen die zullen worden gekloond.
 
 U zult ook willen begrijpen als u campagnes in veelvoudige gebieden in werking stelt. Als dit het geval is, zult u voor één Project in Workfront willen rekenschap geven die veelvoudige programma&#39;s in Marketo Engage creeert, met elk programma dat verschillende taalsteun vertegenwoordigt.
 
@@ -87,7 +87,7 @@ Denk aan de belangrijkste gegevens die in uw aanvraagformulier moeten worden vas
 >
 >Vandaag, programmatically bouwend publiek door automatisering is beperkt in Marketo Engage omdat de tekenen niet in slimme lijsten worden gesteund. Dit betekent het publiek of in Marketo Engage door een gebruiker zal moeten worden gecreeerd, of als u een vooraf bepaald publiek hebt u onophoudelijk met communiceren, kunt u een gevormde slimme lijst als deel van uw programmamalplaatje omvatten dat tijdens het automatiseringsproces wordt gekloond.
 
-### Uw excellentiecentrum instellen {#establish-your-center-of-excellence}
+### Uw expertisecentrum instellen {#establish-your-center-of-excellence}
 
 Als u de creatie van programma&#39;s wilt automatiseren, zult u een centrum van excellentie in Marketo Engage nodig hebben. Een expertisecentrum omvat gemoderniseerde programma&#39;s en middelen om het campagneontwikkelingsproces te versnellen en te standaardiseren. U hebt bijvoorbeeld een programmasjabloon voor uw verschillende campagnebehoeften: e-mail, verpleegkunde, persoonlijk evenement, en webinar. Bovendien hebt u mogelijk meerdere sjablonen voor e-mailprogramma&#39;s die u voor verschillende regio&#39;s of verschillende soorten e-mailberichten gebruikt.
 
@@ -95,7 +95,7 @@ Het opbouwen van uw centrum van excellentie met programmamalplaatjes in Marketo 
 
 Zodra u een reeks herbruikbare programmamalplaatjes hebt, kunt u uw inspanningen verder schrapen gebruikend automatisering die in deze blauwdruk wordt geschetst om meer snelheid aan uw campagneontwikkeling te drijven.
 
-Als u meer wilt weten over het maken van uw eigen expertisecentrum, bekijkt u de [Marketo Community](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target=&quot;_blank&quot;} voor aanbevolen procedures.
+Als u meer wilt weten over het maken van uw eigen expertisecentrum, bekijkt u de [Marketo Community](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"} voor beste praktijken.
 
 ### Tokens gebruiken om inhoud te vullen {#use-tokens-to-populate-content}
 
@@ -113,7 +113,7 @@ Herinner me, zult u uw Programma&#39;s en Malplaatjes van het Programma in Marke
 >
 >AEM Assets is niet verplicht deze workflow te ondersteunen, maar kan een meer gestroomlijnd proces voor het beheer van campagnemiddelen in de hele toeleveringsketen van de campagne mogelijk maken.
 
-### Een opzoekbibliotheek samenstellen voor alle aanvraagtypen van het programma {#assemble-a-lookup-library-for-all-program-request-types}
+### Stel een raadplegingsbibliotheek voor alle types van programmaverzoek samen {#assemble-a-lookup-library-for-all-program-request-types}
 
 Wanneer het automatiseren van de verwezenlijking van nieuwe Marketo Engage programma&#39;s van Workfront verzoeken, is het belangrijk om een stap in uw automatisering van de Fusie van Workfront op te nemen die informatie van het verzoek van Workfront kan nemen en de correcte programmamalplaatjes die in Marketo Engage zouden moeten worden gekloond.
 
@@ -145,16 +145,16 @@ Enkele basisgegevens die u wilt opnemen in de opzoekbibliotheek van het programm
   </tbody>
 </table>
 
-## Intake en Create Automation Flow {#intake-and-create-automation-flow}
+## Inname en Maken van automatiseringsstroom {#intake-and-create-automation-flow}
 
-Hier is een voorbeeld van hoe de werkschemalogica in Fusion kan worden samengesteld gebruikend prebuilt [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target=&quot;_blank&quot;} en [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target=&quot;_blank&quot;} modules waarmee u de automatisering sneller kunt uitvoeren.
+Hier is een voorbeeld van hoe de werkschemalogica in Fusion kan worden samengesteld gebruikend prebuilt [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target="_blank"} modules waarmee u sneller automatisering kunt leveren.
 
 ![](assets/intake-and-create-3.png)
 
 ## Bronnen {#resources}
 
-* [Adobe Marketo Engage-modules](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target=&quot;_blank&quot;}
+* [Adobe Marketo Engage-modules](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target="_blank"}
 
-* [Adobe Workfront-modules](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target=&quot;_blank&quot;}
+* [Adobe Workfront-modules](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target="_blank"}
 
-* [Overzicht Marketo en Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}
+* [Overzicht Marketo en Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}

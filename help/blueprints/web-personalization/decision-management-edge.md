@@ -3,14 +3,14 @@ title: Web/Mobiele Personalisatie met Beslissingsbeheer
 description: Aangepersonaliseerde aanbiedingen aan consumenten aanbieden op verschillende kanalen, waaronder kiosken en door agenten begeleide ervaringen.
 solution: Experience Platform, Journey Optimizer
 exl-id: f2a6e7fd-c8bb-4356-8ca1-96956662ecf5
-source-git-commit: 53237df8202aa68599c183572376b529be53fe42
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
 
-# Journey Optimizer - Beslissingsbeheer aan de rand
+# Journey Optimizer - Beslissingsbeheer voor de randblauwdruk
 
 Met Adobe Journey Optimizer-beheer voor beslissingen kunt u aanbiedingen personaliseren en aanbieden op binnenkomende kanalen, zoals websites, mobiele apps, kiosken en andere aanraakpunten voor klanten.
 

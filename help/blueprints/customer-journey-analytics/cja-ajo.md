@@ -1,17 +1,18 @@
 ---
-title: Customer Journey Analytics met Journey Optimizer
+title: Customer Journey Analytics met Journey Optimizer-blauwdruk
 description: Gegevens en klantgedrag van over de reis van de klant in Customer Journey Analytics verenigen en analyseren, inclusief bezorgings- en interactiegegevens van Journey Optimizer.
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
-source-git-commit: 2f0d018f10bedece6d29a3942578dcd489637373
+exl-id: 5ae084bf-a98d-418a-8038-e6f849ff7c1d
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
-# Customer Journey Analytics met Journey Optimizer
+# Customer Journey Analytics met Journey Optimizer-blauwdruk
 
 Gegevens van Journey Optimizer worden doorgegeven aan het datumpeer van Experience Platform en zijn beschikbaar voor opname, analyse en rapportage binnen Customer Journey Analytics. De afgifte, interactie en werkzaamheid van de reis kunnen binnen Customer Journey Analytics worden geanalyseerd en gerapporteerd.
 

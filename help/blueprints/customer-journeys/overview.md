@@ -1,18 +1,18 @@
 ---
-title: 'Klantenreizen '
+title: Verwijzingen naar reizen van klanten
 description: Lever individuele, just-in-time klantenervaringen over schermen.
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard, Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
-# Klantenreizen
+# Verwijzingen naar reizen van klanten
 
 De Reizen van de klant verhelpen de capaciteit voor merken om proactief met hun klanten door kanalen zoals e-mail, SMS, en mobiele alarm in gesprek te gaan en te communiceren. Orchestration-gereedschappen kunnen ook worden geïntegreerd met andere interactiekanalen, zoals met binnenkomende kanalen voor web/mobiele personalisatie, door de status van het publiek te delen met de andere kanaal-specifieke beslissingsengines. Een aantal factoren gaat in welke toepassingen en plaatsingsopties voor de Reizen van de Klant zouden moeten worden gebruikt maar het kan in twee verschillende benaderingen worden samengevat: reageren op een klant wanneer deze zich engageren (geactiveerd) OF reageren op een groep klanten terwijl deze zich engageren (gepland).
 

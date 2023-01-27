@@ -4,9 +4,9 @@ description: Profielen en publiek in Experience Platform beheren en deze delen m
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Profielen en publiek in Experience Platform beheren en deze delen met Experience
 
 Activering met Experience Cloud-toepassingen wordt uitgelijnd op de knop [Bekende blauwdruk voor activering door klant](known.md).
 
-## Gevallen gebruiken
+## Gebruik hoofdletters
 
 * Personaliseer en richt zich over de kanalen van de klanteninteractie die door Experience Cloud worden aangedreven.
 * Deel publiek- en profielgegevens tussen Experience Platform- en Experience Cloud-toepassingen.
@@ -50,7 +50,7 @@ Zie de [Sectie Experience Platform- en toepassingsarchitectuur](https://experien
 
 Zie de [handleidingen op de pagina Overzicht van activering van publiek en profiel](overview.md) en de [implementatiehandleidingen](../experience-platform/deployment/guardrails.md) pagina.
 
-## Overwegingen bij de implementatie
+## Implementatieoverwegingen
 
 * Wanneer u profielgegevens deelt met bestemmingen, moet u de specifieke identiteitswaarde opnemen die door de bestemming wordt gebruikt in de doellading. Om het even welke identiteit die voor een doelbestemming noodzakelijk is moet in Platform worden opgenomen en als identiteit voor worden gevormd [!UICONTROL Klantprofiel in realtime].
 
@@ -81,14 +81,14 @@ Zie de [handleidingen op de pagina Overzicht van activering van publiek en profi
 
 * Zie de [RTCDP-publiek gedeeld met Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=en) voor meer informatie over het delen van het Real-time Customer Data Platform-publiek in Customer Journey Analytics.
 
-## Verwante documentatie
+## Gerelateerde documentatie
 
 * [[!UICONTROL Real-time Customer Data Platform] Productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Richtlijnen voor profiel en segmentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [Segmenteringsdocumentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 * [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 
-## Verwante video&#39;s en Tutorials
+## Verwante video&#39;s en zelfstudies
 
 * [[!UICONTROL Real-time Customer Data Platform] overzicht](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
 * [Demo van [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)

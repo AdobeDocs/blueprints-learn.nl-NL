@@ -1,22 +1,22 @@
 ---
-title: Campagne v8 Blueprint, Campaign & AEP
+title: Campagne v8 blauwdruk, campagne en Platform
 description: Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor traditionele marketing kanalen zoals e-mail en direct mail wordt gebouwd. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma's met een centrale focus op batchgeoriënteerde reizen.  Het komt ook met een scalable Real-Time overseinenserver worden verbonden die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor dingen zoals het terugstellen van het wachtwoord, orderbevestiging, e-ontvangstbewijzen en veel meer worden gebaseerd.
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: c79422931cb4305347a4034ae1cb6bac2be1e229
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 0%
 
 ---
 
-# Campagne v8 Blueprint
+# Campagne v8 blauwdruk
 
 Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor traditionele marketing kanalen zoals e-mail en direct mail wordt gebouwd. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma&#39;s met een centrale focus op batchgeoriënteerde reizen.  Het komt ook met een scalable Real-Time overseinenserver worden verbonden die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor dingen zoals het terugstellen van het wachtwoord, orderbevestiging, e-ontvangstbewijzen en veel meer worden gebaseerd.
 
 <br>
 
-## Gevallen gebruiken
+## Gebruik hoofdletters
 
 * Zeer complexe batchgebaseerde berichtprogramma&#39;s
 * Onboarding- en hermarketingcampagnes
@@ -45,7 +45,7 @@ Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor traditionele m
 ## Vereisten
 
 
-### Toepassingsserver en Real-Time Messaging Server
+### Toepassingsserver en Real-Time Messaging-server
 
 * De Adobe Campaign Client Console is vereist voor interactie en gebruik van de Campaign v8-software. Het is een op vensters gebaseerde client en gebruikt standaard internetprotocollen (SOAP, HTTP, enz.). Zorg ervoor dat u de benodigde rechten hebt die op uw org zijn ingeschakeld voor het distribueren, installeren en uitvoeren van software
 
@@ -86,11 +86,11 @@ Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor traditionele m
    * Gegevens die via de API zijn geladen, worden in de toepassingsdatabase gefaseerd en vervolgens elk uur naar de Cloud-database gerepliceerd
 * API-aanroepen zijn beperkt tot 15 per seconde of 150 k per dag op schaal
 
-### Grootte Batch Messaging Server
+### Grootte van batchcommunicatieserver
 
 * Kan worden geschaald voor verwerking tot berichten van 20 MB per uur
 
-### Real-Time Messaging Server sizing
+### Real-time communicatieservergrootte
 
 * Kan tot 1 M berichten per uur verzenden
 * Standaard worden twee realtime communicatieservers ingericht. Mogelijkheid om maximaal acht Real-Time Messaging-servers te schalen.
@@ -114,12 +114,12 @@ Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor traditionele m
 
 <br>
 
-## Implementatiestappen
+## Uitvoeringsstappen
 
 Zie de gids Aan de slag voor [Adobe Campaign v8 implementeren](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=en)
 
 
-## Verwante documentatie
+## Gerelateerde documentatie
 
 * [Campagne v8-documentatie](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=en)
 * [Campagne v8 Productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)

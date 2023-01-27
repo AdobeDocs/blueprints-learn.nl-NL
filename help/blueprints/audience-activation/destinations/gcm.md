@@ -4,7 +4,7 @@ description: Activering voor FGoogle Customer Match.
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
-source-git-commit: 6fa38772f77ffd565580db55f8f2889b0e703949
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Verzamel klantgegevens uit meerdere bronnen om één profielweergave van de klant te maken, deze profielen te segmenteren naar een samengesteld publiek voor marketing en personalisatie, deze soorten publiek te delen naar sociale advertentienetwerken, zoals klantenservice van Google, om te zoeken naar doelgerichte en personalisatiecampagnes tegen dat publiek. Met Customer Match van Google kunt u uw online- en offline gegevens gebruiken om uw klanten te bereiken en opnieuw contact op te nemen met andere klanten van Google, zoals: Zoeken, winkelen, Gmail en YouTube.
 
-## Gevallen gebruiken
+## Gebruik hoofdletters
 
 * Publiek dat zich richt op bekende doelgroepen op sociale en reclamebestemmingen.
 * Online personalisatie met online en offline kenmerken.
@@ -29,7 +29,7 @@ Verzamel klantgegevens uit meerdere bronnen om één profielweergave van de klan
 
 <img src="../assets/gcm.svg" alt="Referentiearchitectuur voor Google Customer Match Activation" style="width:90%; border:1px solid #4a4a4a" />
 
-## Implementatiestappen
+## Uitvoeringsstappen
 
 1. Identiteitsnaamruimten configureren die moeten worden gebruikt in profielgegevensbronnen.
    * Gebruik naamruimten buiten het vak, zoals E-mail, SHA256-hash, indien beschikbaar.
@@ -89,6 +89,6 @@ Verzamel klantgegevens uit meerdere bronnen om één profielweergave van de klan
 
 [Profiel en segmentatiehulplijnen](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 
-## Verwante documentatie
+## Gerelateerde documentatie
 
 Activering voor Google Customer Match - [Doelconfiguratie](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html)

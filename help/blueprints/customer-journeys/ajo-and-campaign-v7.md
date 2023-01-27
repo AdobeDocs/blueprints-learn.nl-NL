@@ -1,15 +1,16 @@
 ---
-title: Journey Optimizer met Adobe Campaign v7 Blueprint
+title: Journey Optimizer met Adobe Campaign v7-blauwdruk
 description: Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om berichten te verzenden door de overseinenserver in real time in Campagne te gebruiken
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
-source-git-commit: a74ef566bf468c5508263f4070beaf6d0cd73a0e
+exl-id: 6d9bc65c-cca0-453f-8106-d2895d005ada
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 0%
 
 ---
 
-# Journey Optimizer met Adobe Campaign v7
+# Journey Optimizer met Adobe Campaign v7-blauwdruk
 
 Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om berichten te verzenden door de overseinenserver in real time in Campaign te gebruiken.
 
@@ -44,7 +45,7 @@ Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om 
 
 [Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
 
-### Extra Journey Optimizer Guardrails
+### Aanvullende Journey Optimizer-handleidingen
 
 * Het maximum is vandaag via API beschikbaar om ervoor te zorgen dat het bestemmingssysteem niet aan het punt van mislukking wordt verzadigd. Dit betekent dat berichten die het maximum overschrijden volledig worden verwijderd en nooit worden verzonden. Het roteren wordt niet ondersteund.
    * Max. verbindingen - maximumaantal http/s-verbindingen dat een doel kan afhandelen
@@ -79,11 +80,11 @@ Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om 
 
 <br>
 
-## Implementatiestappen
+## Uitvoeringsstappen
 
 ### Adobe Experience Platform
 
-#### Schema/gegevensset
+#### Schema/datasets
 
 1. [Afzonderlijke profiel-, ervarings- en multientiteitsschema&#39;s configureren](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, op basis van door de klant verstrekte gegevens.
 1. Creeer de op klasse-gebaseerde schema&#39;s van de Gebeurtenis van de Ervaring voor Adobe Campaign bredeLog, trackingLog en niet-te leveren adreslijsten (facultatief).
@@ -130,7 +131,7 @@ Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om 
 
 <br>
 
-## Verwante documentatie
+## Gerelateerde documentatie
 
 * [Journey Optimizer-documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en)
 * [Journey Optimizer-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)

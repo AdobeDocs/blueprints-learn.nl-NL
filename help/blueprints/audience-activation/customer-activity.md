@@ -1,19 +1,19 @@
 ---
-title: Vervaging van de Hub voor klantactiviteiten
-description: '"[!UICONTROL Klantprofiel in realtime] raadplegingen om context voor agent-bijgewoonde steun en verkoop te verstrekken."'
+title: Hub blauwdruk voor klantactiviteiten
+description: "[!UICONTROL Klantprofiel in realtime] raadplegingen om context voor agent-bijgewoonde steun en verkoop te verstrekken."
 solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
-# Vervaging van de Hub voor klantactiviteiten
+# Hub blauwdruk voor klantactiviteiten
 
-Het Vervagen van de Hub van de Activiteit van de Klant toont hoe de externe toepassingen tot Adobe Experience Platform kunnen toegang hebben [!UICONTROL Klantprofiel in realtime].
+De blauwdruk van de Hub van de Activiteit van de klant toont hoe de externe toepassingen tot Adobe Experience Platform kunnen toegang hebben [!UICONTROL Klantprofiel in realtime].
 
 Externe toepassingen hebben toegang tot profielen met een API-GET-aanvraag. Kenmerken, gebeurtenissen, segmentlidmaatschap en modelgestuurde functies die in het profiel zijn opgeslagen, kunnen vervolgens worden gebruikt in deze externe toepassingen die geen Adobe zijn.
 
@@ -23,7 +23,7 @@ Met dit vermogen, kon u rijke context oppervlakte wanneer een klant uw vraagcent
 >
 >De huidige latentie die door profiel raadpleging API wordt gesteund is ongeveer 500 milliseconden, die deze benadering ongeschikt maken voor integratie van het profiel met besluitvormingsmotoren in real time zoals het Web van de zelfde pagina of mobiele verpersoonlijking.
 
-## Gevallen gebruiken
+## Gebruik hoofdletters
 
 * Verbeter de context van de consument aan agent-gesteunde interactie, zoals steun en verkoopervaringen. Gebruikend het profielraadpleging in Experience Platform, kunnen de agenten meer context op de consument, zoals recente aankopen, campagneinteractie, eigenschappen, publiekslidmaatschappen, en andere attributen en inzichten ontvangen die in het klantenprofiel in real time worden opgeslagen.
 
@@ -35,7 +35,7 @@ Met dit vermogen, kon u rijke context oppervlakte wanneer een klant uw vraagcent
 
 * [Guardrails voor [!UICONTROL Klantprofiel in realtime] data](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 
-## Implementatiestappen
+## Uitvoeringsstappen
 
 1. [Schema&#39;s maken](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden ingevoerd.
 1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden ingevoerd.
@@ -45,7 +45,7 @@ Met dit vermogen, kon u rijke context oppervlakte wanneer een klant uw vraagcent
 1. [Samenvoegbeleid instellen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html).
 1. Gebruik de [Entiteiten die API&#39;s gebruiken om een profielkenmerk op te zoeken](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html), hetzij van de recordentiteit of de ervaringsgebeurtenisentiteit.
 
-## Verwante documentatie
+## Gerelateerde documentatie
 
 * [Productbeschrijving van Adobe Experience Platform Activation](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform0.html)
 * [[!UICONTROL Klantprofiel in realtime] documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en)

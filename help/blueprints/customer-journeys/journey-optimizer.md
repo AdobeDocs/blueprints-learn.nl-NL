@@ -3,20 +3,20 @@ title: Journey Optimizer - geactiveerd berichtenverkeer en Adobe Experience Plat
 description: Voer teweeggebrachte berichten en ervaringen uit gebruikend Adobe Experience Platform als centrale hub van het stromen gegevens, klantenprofielen, en segmentatie.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
 
-# Journey Optimizer
+# Journey Optimizer-blauwdrukken
 
 Adobe Journey Optimizer is een speciaal gebouwd systeem voor marketingteams om in real-time te reageren op gedragingen van klanten en hen te ontmoeten waar ze zich bevinden. De mogelijkheden voor gegevensbeheer zijn verplaatst naar de Adobe Experience Platform, zodat marketingteams zich kunnen richten op wat ze het beste doen: die klanten van wereldklasse en gepersonaliseerde gesprekken creeert.  Deze blauwdruk beschrijft de technische mogelijkheden van de toepassing en verstrekt een diepe duik in de diverse architecturale componenten die omhoog Adobe Journey Optimizer maken.
 
 <br>
 
-## Gevallen gebruiken
+## Gebruik hoofdletters
 
 * Gekoppelde berichten
 * Bevestigingen van welkom en registratie
@@ -33,7 +33,7 @@ Adobe Journey Optimizer is een speciaal gebouwd systeem voor marketingteams om i
 
 <br>
 
-## Blauwdrukscenario&#39;s
+## Vervagingsscenario&#39;s
 
 | Scenario | Beschrijving | Mogelijkheden |
 | :-- | :--- | :--- |
@@ -89,7 +89,7 @@ Houd rekening met de volgende punten die niet in de bovenstaande koppeling worde
    * Verificatie via gebruikers-/goedkeurings-token
 * Kan afzonderlijke componenten van Adobe Experience Platform of Journey Optimizer niet verpakken en verplaatsen tussen verschillende sandboxen. Moet opnieuw worden geïmplementeerd in nieuwe omgevingen
 
-### Gegevensinname Guardraals
+### Gegevensinvoerinstructies
 
 <img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Gegevensstroom Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
@@ -101,11 +101,11 @@ Houd rekening met de volgende punten die niet in de bovenstaande koppeling worde
 
 <br>
 
-## Implementatiestappen
+## Uitvoeringsstappen
 
 ### Adobe Experience Platform
 
-#### Schema/gegevensset
+#### Schema/datasets
 
 1. [Afzonderlijke profiel-, ervarings- en multientiteitsschema&#39;s configureren](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, op basis van door de klant verstrekte gegevens.
 1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) in Experience Platform voor gegevens die moeten worden ingevoerd.
@@ -142,7 +142,7 @@ Houd rekening met de volgende punten die niet in de bovenstaande koppeling worde
 1. Voor meer informatie volgt u de [Adobe Journey Optimizer Mobile-gids](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
 
 
-## Verwante documentatie
+## Gerelateerde documentatie
 
 * [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
 * [Documentatie over Experience Platform-tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)

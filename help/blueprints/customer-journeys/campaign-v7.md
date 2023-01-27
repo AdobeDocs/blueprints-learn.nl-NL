@@ -1,22 +1,22 @@
 ---
-title: Campagne v7 Blueprint
+title: Campagne v7 blauwdruk
 description: Adobe Campaign v7 is een campagneprogramma dat is ontwikkeld voor traditionele marketingkanalen zoals e-mail en direct mail. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma's met een centrale focus op batchgeoriënteerde reizen.  Het komt ook met een Etime overseinenserver worden verbonden die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor dingen zoals het terugstellen van het wachtwoord, orderbevestiging, e-ontvangstbewijzen en veel meer worden gebaseerd.
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
-source-git-commit: a74ef566bf468c5508263f4070beaf6d0cd73a0e
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 0%
 
 ---
 
-# Campagne v7 Blueprint
+# Campagne v7 blauwdruk
 
 Adobe Campaign v7 is een campagneprogramma dat is ontwikkeld voor traditionele marketingkanalen zoals e-mail en direct mail. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma&#39;s met een centrale focus op batchgeoriënteerde reizen.  Het komt ook met een Etime overseinenserver worden verbonden die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor dingen zoals het terugstellen van het wachtwoord, orderbevestiging, e-ontvangstbewijzen en veel meer worden gebaseerd.
 
 <br>
 
-## Gevallen gebruiken
+## Gebruik hoofdletters
 
 * Berichtenprogramma&#39;s op basis van batchverwerking
 * Onboarding- en hermarketingcampagnes
@@ -42,13 +42,13 @@ Adobe Campaign v7 is een campagneprogramma dat is ontwikkeld voor traditionele m
 
 ## Vereisten
 
-### Toepassingsserver en Real-Time Messaging Server
+### Toepassingsserver en Real-Time Messaging-server
 
 * De Adobe Campaign Client Console is vereist voor interactie en gebruik van de Campaign v8-software. Het is een op vensters gebaseerde client en gebruikt standaard internetprotocollen (SOAP, HTTP, enz.). Zorg ervoor dat u de benodigde rechten hebt die op uw org zijn ingeschakeld voor het distribueren, installeren en uitvoeren van software
 
 * Aanbieding toestaan voor IP-adres
    * Identificeer de IP waaiers die alle gebruikers tijdens toegang tot de cliëntconsole zullen hefboomwerking
-   * Identiteit die de ondernemingssystemen zullen worden toegestaan om met de Real-Time overseinenserver te spreken en ervoor te zorgen zij statisch toegewezen IP of waaier hebben die u kunt lijsten van gewenste personen
+   * Identiteit die de ondernemingssystemen zullen worden toegestaan om met de overseinenserver in real time te spreken en ervoor te zorgen zij statisch toegewezen IP of waaier hebben die u kunt lijsten van gewenste personen
    * Dit kan worden ingesteld en beheerd via het Configuratiescherm van de Campagne
 * sFTP-sleutelbeheer
    * SSH openbare sleutels beschikbaar hebben om met de Campagne te gebruiken verstrekt sFTP. Dit kan worden ingesteld en gecontroleerd via het Configuratiescherm van de Campagne.
@@ -82,11 +82,11 @@ Adobe Campaign v7 is een campagneprogramma dat is ontwikkeld voor traditionele m
    * Het gebruik van API&#39;s voor het lezen van gegevens voor aangepaste toepassingsdoeleinden wordt niet ondersteund
 * API-aanroepen zijn beperkt tot 15 per seconde of 150 k per dag op schaal
 
-### Grootte Batch Messaging Server
+### Grootte van batchcommunicatieserver
 
 * Kan worden geschaald voor verwerking tot berichten van 2,5 MB per uur
 
-### Real-Time Messaging Server sizing
+### Real-Time communicatieservergrootte
 
 * Kan maximaal 50.000 berichten per uur verzenden
 * Standaard worden twee realtime communicatieservers ingericht. Mogelijkheid om maximaal acht Real-Time Messaging-servers te schalen.
@@ -118,12 +118,12 @@ Adobe Campaign v7 is een campagneprogramma dat is ontwikkeld voor traditionele m
 
 <br>
 
-## Implementatiestappen
+## Uitvoeringsstappen
 
 Zie de [Aan de slag](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=en) voor de implementatie van Adobe Campaign v7
 
 
-## Verwante documentatie
+## Gerelateerde documentatie
 
 * [Campagne v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
 * [Campagne v7 productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)

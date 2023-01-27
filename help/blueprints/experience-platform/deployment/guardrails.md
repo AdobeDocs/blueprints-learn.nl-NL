@@ -4,9 +4,9 @@ description: In de handleidingen worden de prestatieverwachtingen en de gevolgen
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: f208fcd938bfc12882421f213192a6888f546a79
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Hulplijnen zijn aanbevolen drempels voor het gebruik van gegevens en systemen, h
 
 ## Guardrails voor Adobe Experience Platform en toepassingen
 
-[Gegevensinname Guardraals](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en)
+[Gegevensinvoerinstructies](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en)
 
 [Edge Network API-handleidingen](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=en)
 
@@ -34,9 +34,9 @@ Hulplijnen zijn aanbevolen drempels voor het gebruik van gegevens en systemen, h
 
 <br>
 
-## Diagrammen voor einde tot einde latentie
+## Diagrammen met latentie van begin tot eind
 
-### Gegevensinname
+### Gegevensinvoer
 
 <img src="../assets/aep_data_flow_guardrails.svg" alt="Gegevensstroom Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 

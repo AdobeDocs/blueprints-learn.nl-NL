@@ -1,18 +1,18 @@
 ---
-title: Toepassingsspecifieke SDK-implementatie
+title: Toepassingsspecifiek SDK-implementatiediagram
 description: Deze blauwdruk toont de architectuur en de opname door Toepassingsspecifieke SDKs
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 05bf0a34-e5c7-498c-8d5d-1d549c00e070
-source-git-commit: e07ff74f901932c42ddaf6cb36b557535b9a2c43
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
-# Toepassingsspecifieke SDK-implementatie
+# Toepassingsspecifiek SDK-implementatiediagram
 
 Het onderstaande architectuurdiagram illustreert de integratiepaden en de gegevensverzameling die Application Specific SDKs voor implementatie gebruiken.
 

@@ -1,22 +1,22 @@
 ---
-title: Customer Journey Analytics met Real-time Customer Data Platform
+title: Customer Journey Analytics met Real-time Customer Data Platform-blauwdruk
 description: Gegevens en klantengedrag van over de klantenreis in Customer Journey Analytics verenigen en analyseren, publiek van CJA aan RTCDP publiceren
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: 985f7320db7c77b8541ec4ef76b1eb7ad0caae56
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
 
-# Customer Journey Analytics met Real-time Customer Data Platform
+# Customer Journey Analytics met Real-time Customer Data Platform-blauwdruk
 
 Creeer en publiceer publiek dat in Customer Journey Analytics (CJA) aan het Profiel van de Klant in real time in Adobe Experience Platform wordt geïdentificeerd voor klant richt en verpersoonlijking. Ideaal voor het maken van soorten publiek met behulp van historische gegevens of meer verfijnde doelgroepen van korrelfilteren en berekende velden in Customer Journey Analytics.
 
-## Customer Journey Analytics Handleiding voor publiek publiceren
+## Customer Journey Analytics publicatiehandleiding voor publiek
 
 Zie de volgende documentatie voor richtlijnen over implementatie en configuratie bij de publicatie van publiek van Customer Journey Analytics naar Real-time Customer Data Platform. [Documentatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)
 
@@ -24,7 +24,7 @@ Zie de volgende documentatie voor richtlijnen over implementatie en configuratie
 
 ![Architectuurdiagram](assets/CJA_RTCDP.svg)
 
-## Guardrail-diagram voor Customer Journey Analytics blauwdrukken
+## Guardraildiagram voor Customer Journey Analytics-blauwdrukken
 
 * Voor gedetailleerde instructies en eindlatenties raadpleegt u de [document met implementatiehandleidingen](../experience-platform/deployment/guardrails.md)
 
@@ -42,11 +42,11 @@ Zie de volgende documentatie voor richtlijnen over implementatie en configuratie
 
 * Verwerkt de identiteitsdienst ook de CJA- berichten? Kan CJA bijvoorbeeld identiteiten toevoegen aan een profielidentiteitsgrafiek door het delen van het publiek? Nee, de identiteitsservice verwerkt de CJA-berichten niet.
 
-## Verwante blogberichten
+## Gerelateerde blogberichten
 
 * [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
 * [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17)
 * [[!DNL Event-Based Triggering on Adobe Experience Platform Orchestration Service using Apache Airflow]](https://medium.com/adobetech/event-based-triggering-on-adobe-experience-platform-orchestration-service-using-apache-airflow-8607b28251f1)
 * [[!DNL Adobe Campaign Classic Integration with Journey Orchestration]](https://medium.com/adobetech/adobe-campaign-classic-integration-with-journey-orchestration-ae577653281)
-* [[!DNL Demonstrating the Power of Adobe’s New Journey Orchestration Service to Build Personalized Omnichannel Experiences in Real-Time]](https://medium.com/adobetech/demonstrating-the-power-of-adobes-new-journey-orchestration-service-to-build-personalized-aa60d88cd34)
+* [[!DNL Demonstrating the Power of Adobe's New Journey Orchestration Service to Build Personalized Omnichannel Experiences in Real-Time]](https://medium.com/adobetech/demonstrating-the-power-of-adobes-new-journey-orchestration-service-to-build-personalized-aa60d88cd34)
 * [[!DNL Journey Orchestration in an Omnichannel World]](https://medium.com/adobetech/journey-orchestration-in-an-omnichannel-world-3a2d32d556d9)

@@ -2,18 +2,18 @@
 title: Verhalen over succes in de sector van de digitale beleving
 description: De succesverhalen van Digital Experience Blueprints laten zien hoe verschillende industrieën hun bedrijfswaarde realiseren met Adobe Experience Cloud Applications, aangedreven door Adobe Experience Platform.
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: b3d4e89c7e4170ffee2cc1776ffa26d2e0ce79e6
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
 
 ---
 
-# Bedrijfs Succes met Digitale Ervaring Blauwdrukken
+# Industriële successen met blauwdrukken voor Digital Experience
 
 Leer hoe klanten geweldige ervaringen opdoen en succesvol zijn met Digital Experience Blueprints. Deze bewezen herhaalbare implementaties laten u strategie richten en snel gevestigde bedrijfsproblemen oplossen.
 
-## Artikelen met succes
+## Aanbevolen succesverhalen
 
 <table style="table-layout:fixed">
 <tr>

@@ -1,16 +1,16 @@
 ---
-title: Beslissingsbeheer op de hub
+title: Beslissingsbeheer op de Hub blauwdruk
 description: Aangepersonaliseerde aanbiedingen aan consumenten aanbieden op verschillende kanalen, waaronder kiosken, ervaringen met assistentie van agenten en in e-mail en andere uitgaande leveringen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '906'
 ht-degree: 0%
 
 ---
 
-# Journey Optimizer - Beslissingsbeheer op de hub
+# Beslissingsbeheer op de Hub blauwdruk
 
 Raadpleeg de productdocumentatie voor meer informatie over Beslissingsbeheer [HIER](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) en het overzicht van het besluitvormingsbeheer [HIER](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en)
 
@@ -61,7 +61,7 @@ Adobe Experience Platform
 * Toegang tot volledig real-time klantprofiel met inbegrip van publiekslidmaatschappen, attributen en ervaringsgebeurtenissen.
 
 
-### Gegevensinname Guardraals
+### Gegevensinvoerinstructies
 
 <img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Gegevensstroom Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
@@ -81,11 +81,11 @@ Adobe Experience Platform
 * Voor op rand gebaseerde real-time ervaringen gebruikt u de Web/Mobile SDK of de Edge Decisioning API zoals beschreven in de [Beslissingsbeheer voor de Edge-blauwdruk](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=en).
 <br>
 
-## Implementatiestappen
+## Uitvoeringsstappen
 
 ### Adobe Experience Platform
 
-#### Schema/gegevensset
+#### Schema/datasets
 
 1. [Afzonderlijke profiel-, ervarings- en multientiteitsschema&#39;s configureren](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, op basis van door de klant verstrekte gegevens.
 1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) in Experience Platform voor gegevens die moeten worden ingevoerd.
@@ -104,7 +104,7 @@ Adobe Experience Platform
 
 1. [Gegevens in Experience Platform opnemen](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) via streaming API&#39;s en bronconnectors.
 
-## Verwante documentatie
+## Gerelateerde documentatie
 
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)

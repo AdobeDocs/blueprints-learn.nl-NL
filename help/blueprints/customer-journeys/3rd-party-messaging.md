@@ -1,16 +1,16 @@
 ---
-title: Journey Optimizer - Blauwdruk voor berichten van derden
+title: Journey Optimizer - blauwdruk voor communicatie van derden
 description: Toont aan hoe Adobe Journey Optimizer met de systemen van het derdeoverseinen kan worden gebruikt om gepersonaliseerde mededelingen te ordenen en te verzenden.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
 
-# Berichten van derden
+# Blauwdruk voor berichten van derden
 
 Toont aan hoe Adobe Journey Optimizer met de systemen van het derdeoverseinen kan worden gebruikt om gepersonaliseerde mededelingen te ordenen en te verzenden.
 
@@ -30,7 +30,7 @@ Adobe Experience Platform
 * Voor op klasse-gebaseerde schema&#39;s van de Gebeurtenis van de Ervaring voegen &quot;Orchestration eventID gebiedsgroep toe wanneer u een gebeurtenis teweeggebracht wilt hebben die geen op regel-gebaseerde gebeurtenis is
 * Voeg voor op individuele profielklassen gebaseerde schema&#39;s de veldgroep &#39;Profielgegevens&#39; toe, zodat testprofielen kunnen worden geladen voor gebruik met Journey Optimizer
 
-Berichtentoepassing van derden
+Andere toepassing voor berichten
 
 * Moet REST API-aanroepen ondersteunen voor het verzenden van transactiebetalingen
 
@@ -60,7 +60,7 @@ Extra Journey Optimizer-instructies:
 
 <br>
 
-Messaging-systeem van derden
+Communicatiesysteem van derden
 
 * Moet begrijpen welke belasting het systeem kan ondersteunen voor transactie-API-aanroepen
    * Aantal toegestane vraag per seconde
@@ -70,15 +70,15 @@ Messaging-systeem van derden
    * De duur van de Auth geheime voorgeheugen: hoe lang is het teken geldig? 
 * Als batch-opname alleen wordt ondersteund, moet deze worden gestreamd naar een cloudopslagengine zoals Amazon Kinesis of Azure Event Grid 1st
    * De gegevens kunnen van deze wolkenopslagmotoren worden gestroomd en in de derde partij worden geleend
-   * Vereiste middleware is de verantwoordelijkheid van de klant of derde partij om
+   * Alle vereiste middleware is de verantwoordelijkheid van de klant of derde partij om
 
 <br>
 
-## Implementatiestappen
+## Uitvoeringsstappen
 
 ### Adobe Experience Platform
 
-#### Schema/gegevensset
+#### Schema/datasets
 
 1. [Afzonderlijke profiel-, ervarings- en multientiteitsschema&#39;s configureren](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, op basis van door de klant verstrekte gegevens.
 1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) in Experience Platform voor gegevens die moeten worden ingevoerd.
@@ -103,7 +103,7 @@ Messaging-systeem van derden
 1. Externe gegevensbronnen configureren
 1. Aangepaste acties configureren voor toepassing van derden
 
-### Mobiele pushconfiguratie (optioneel, zoals tokens van derden worden verzameld)
+### Mobiele pushconfiguratie (optioneel omdat tokens van derden kunnen worden verzameld)
 
 1. Implementeer Experience Platform Mobile SDK om pushtokens en aanmeldingsgegevens te verzamelen en terug te koppelen naar bekende klantprofielen
 1. Gebruik Adobe-tags en maak een mobiele eigenschap met de volgende extensie:
@@ -116,7 +116,7 @@ Messaging-systeem van derden
 
 <br>
 
-## Verwante documentatie
+## Gerelateerde documentatie
 
 * [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
 * [Documentatie over Experience Platform-tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)

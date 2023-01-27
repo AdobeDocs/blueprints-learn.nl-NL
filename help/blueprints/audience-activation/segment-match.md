@@ -1,17 +1,18 @@
 ---
-title: Segmentovereenkomst
+title: Afstemmen van segment, blauwdruk
 description: Meer informatie over [!UICONTROL Segmentovereenkomst] voor Adobe Experience Platform (AEP). [!UICONTROL Segmentovereenkomst] is een dienst van de gegevenssamenwerking die u toelaat om segmentgegevens uit te wisselen die op gemeenschappelijke industrie herkenningstekens op een beveiligde, beheerde, en privacy-vriendelijke manier worden gebaseerd.
 solution: Experience Platform
-source-git-commit: a5bf86b8606d40a0686c667f83516e3b495350b8
+exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1766'
 ht-degree: 0%
 
 ---
 
-# Segmentovereenkomst
+# Afstemmen van segment, blauwdruk
 
-De gelijke van het segment laat partnermerken toe om publiek over hun respectieve milieu&#39;s van het Experience Platform te delen. De sleutel voor merken is om met klanten te verbinden die op gegevens worden gebaseerd die uit hun directe relaties met consumenten worden verzameld. Met betere governance, toestemmingen, en voorkeurbeheersystemen, kunnen de marketers hun eerste-partij voor authentiek verklaarde publiek met zeer belangrijke partners verder verbeteren.
+De Overeenkomst van het segment laat partnermerken toe om publiek over hun respectieve milieu&#39;s van het Experience Platform te delen. De sleutel voor merken is om met klanten te verbinden die op gegevens worden gebaseerd die uit hun directe relaties met consumenten worden verzameld. Met betere governance, toestemmingen, en voorkeurbeheersystemen, kunnen de marketers hun eerste-partij voor authentiek verklaarde publiek met zeer belangrijke partners verder verbeteren.
 
 [!UICONTROL Segmentovereenkomst] is een dienst van de gegevenssamenwerking om klanten van het Experience Platform (AEP) toe te staan (die als _partners_) om gesegmenteerde gegevens uit te wisselen op basis van gemeenschappelijke industriële identificatoren op een beveiligde, beheerde en privacyvriendelijke manier.
 
@@ -165,7 +166,7 @@ De intrekking/schrapping van het segment van de afzender is een proces op bestel
 
 ## Meer informatie
 
-* [Segmentovereenkomst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=en#)
+* [Segmentovereenkomst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=nl#)
 * [Machtigingen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en)
 * [Problemen oplossen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/troubleshooting.html?lang=en)
 * [XID](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=en)

@@ -1,16 +1,16 @@
 ---
-title: Beslissingsbeheer aan de rand
+title: Beslissingsbeheer voor de Edge-blauwdruk
 description: Aangepaste aanbiedingen aan consumenten via verschillende kanalen aanbieden, ook in real-time internet en mobiele ervaringen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
 
-# Journey Optimizer - Beslissingsbeheer aan de rand
+# Journey Optimizer - Beslissingsbeheer voor de Edge-blauwdruk
 
 Raadpleeg de productdocumentatie voor meer informatie over Beslissingsbeheer [HIER](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) en het overzicht van het besluitvormingsbeheer [HIER](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en)
 
@@ -24,7 +24,7 @@ Deze blauwdruk zal de specifieke details van Beslissingsbeheer op de Rand omvatt
 
 Meer informatie over het Beheer van het Besluit op de hub verwijst naar [Beslissingsbeheer op de hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=en) blauwdruk.
 
-## Gevallen gebruiken voor Beslissingsbeheer aan de rand
+## Gebruik gevallen voor Beslissingsbeheer aan de rand
 
 * Online personalisatie via internet of mobiele binnenkomende ervaringen.
 * Transactieuitvoering via verschillende kanalen - biedt consistentie via internet, mobiele apparaten, e-mail en andere interactiekanalen via Adobe Journey Optimizer.
@@ -62,7 +62,7 @@ Adobe Experience Platform
 * Toegang tot real-time randprofiel. In het profiel zijn alleen geprojecteerde soorten publiek en profielkenmerken beschikbaar.
 * Als verpersoonlijking in eerste-tijdervaringen wordt vereist, zal de hub ideaal zijn aangezien het volledige profiel beschikbaar is. Het randprofiel moet voor het eerst worden gesynchroniseerd vanuit de hub. De allereerste ervaring met de rand bevat dus geen eerder geüploade profielgegevens naar de hub.
 
-### Gegevensinname Guardraals
+### Gegevensinvoerinstructies
 
 <img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Gegevensstroom Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
@@ -78,7 +78,7 @@ Adobe Experience Platform
 
 * Gebruik het Web of Mobiele SDK voor plaatsing op websites en mobiele toepassingen om Beslissingsbeheer uit te voeren waar SDK opstelde.
    * [Web/Mobile SDK-blauwdruk](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk.html?lang=en)
-   * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html)
+   * [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html)
    * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
 of
@@ -88,11 +88,11 @@ of
 
 <br>
 
-## Implementatiestappen
+## Uitvoeringsstappen
 
 ### Adobe Experience Platform
 
-#### Schema/gegevensset
+#### Schema/datasets
 
 1. [Afzonderlijke profiel-, ervarings- en multientiteitsschema&#39;s configureren](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, op basis van door de klant verstrekte gegevens.
 1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) in Experience Platform voor gegevens die moeten worden ingevoerd.
@@ -111,7 +111,7 @@ of
 
 1. [Gegevens in Experience Platform opnemen](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) via streaming API&#39;s en bronconnectors.
 
-## Verwante documentatie
+## Gerelateerde documentatie
 
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)

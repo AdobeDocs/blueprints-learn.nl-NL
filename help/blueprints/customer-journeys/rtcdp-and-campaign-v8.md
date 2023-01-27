@@ -2,9 +2,10 @@
 title: Real-Time CDP met Adobe Campaign v8-integratiepatroon
 description: Toont hoe de Adobe Experience Platform en zijn Real-Time Klantprofiel en gecentraliseerd segmenteringshulpmiddel met Adobe Campaign v8 kunnen worden gebruikt om gepersonaliseerde gesprekken te leveren.
 solution: Real-time Customer Data Platform, Campaign
-source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
+exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ Toont hoe de Adobe Experience Platform en zijn Real-Time Klantprofiel en gecentr
 
 ## Architectuur
 
-<img src="assets/rtcdp-campaignv8-architecture.svg" alt="Referentiearchitectuur voor het Batch Messaging- en Adobe Experience Platform-integratiepatroon" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaignv8-architecture.svg" alt="Referentiearchitectuur voor het integratiepatroon Batch Messaging en Adobe Experience Platform" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -38,7 +39,7 @@ Toont hoe de Adobe Experience Platform en zijn Real-Time Klantprofiel en gecentr
 
 <br>
 
-## Implementatiestappen
+## Uitvoeringsstappen
 
 Raadpleeg de volgende documentatie over het configureren van de v8-bronaansluiting voor Campagne naar Adobe Experience Platform en de Real-time Customer Data Platform-doelconnector naar Campaign v8.
 [Campagne en AEP-connectors](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=en)

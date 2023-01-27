@@ -1,18 +1,18 @@
 ---
-title: Overzicht van het beheer van beslissingen
+title: Verwijzingen naar Besluit Management
 description: Aangepaste aanbiedingen leveren voor alle reizen van de klant.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: b3d4e89c7e4170ffee2cc1776ffa26d2e0ce79e6
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
 
-# Journey Optimizer - Overzicht van het beheer van beslissingen
+# Journey Optimizer - blauwdrukken voor besluitvormingsbeheer
 
-Raadpleeg de productdocumentatie voor meer informatie over Beslissingsbeheer [HIER](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+Voor meer informatie over het beheer van beslissingen raadpleegt u de [productdocumentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
 
 Adobe Beslissingsbeheer is een dienst die wordt verleend als onderdeel van Adobe Journey Optimizer. Deze blauwdruk schetst de gebruiksgevallen en de technische mogelijkheden van de toepassing en verstrekt een diepe duik in de diverse architecturale componenten en overwegingen die omhoog het Beheer van de Beslissing maken.
 
@@ -25,7 +25,7 @@ De beslissingsmanagementcapaciteit bestaat uit twee hoofdcomponenten:
 
 <img src="../assets/offers_overview.png" alt="Beslissingsbeheer" style="width:100%; border:1px solid #4a4a4a" />
 
-Beslissingsbeheer kan op twee manieren worden ingezet, op de rand of via de hub. Elk van deze methodes heeft een specifieke reeks interfaces en protocollen voor het werken van de dienst zoals die in de respectieve hieronder vermelde blauwdrukken worden geschetst. Meer informatie is ook te vinden in de documentatie van het besluitvormingsbeheer [HIER](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html).
+Beslissingsbeheer kan op twee manieren worden ingezet, op de rand of via de hub. Elk van deze methodes heeft een specifieke reeks interfaces en protocollen voor het werken van de dienst zoals die in de respectieve hieronder vermelde blauwdrukken worden geschetst. Nadere gegevens zijn ook te vinden in het [Beslissingsbeheerdocumentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html).
 
 ## Beslissingsbeheer op de hub
 
@@ -50,7 +50,7 @@ De eerste is via de Adobe Experience Platform hub, een centrale datacenterarchit
 
 De tweede benadering is via het Edge Network van de Ervaring, dat een wereldwijd gedistribueerde, geografisch gesitueerde infrastructuur is om snelle sub-seconde en milliseconde ervaringen te dienen. De eindgebruikerservaring die wordt uitgevoerd door de randinfrastructuur die het dichtst bij de geo-locatie van de consument ligt om de latentie te minimaliseren. Beslissingsbeheer op de rand is ontworpen om in real-time ervaringen met de consument te bieden, zoals online of mobiele binnenkomende verzoeken om personalisatie. Raadpleeg voor meer informatie over Beslissingsbeheer op Edge [Beslissingsbeheer aan de rand](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=en) blauwdruk.
 
-### Gevallen gebruiken voor Beslissingsbeheer aan de rand
+### Gebruik gevallen voor Beslissingsbeheer aan de rand
 
 * Online personalisatie via internet of mobiele binnenkomende ervaringen.
 * Transactieuitvoering via verschillende kanalen - biedt consistentie via internet, mobiele apparaten, e-mail en andere interactiekanalen via Adobe Journey Optimizer.
@@ -62,7 +62,7 @@ De tweede benadering is via het Edge Network van de Ervaring, dat een wereldwijd
 * Toegang tot real-time randprofiel. In het profiel zijn alleen geprojecteerde soorten publiek en profielkenmerken beschikbaar.
 * Als verpersoonlijking in eerste-tijdervaringen wordt vereist, zal de hub ideaal zijn aangezien het volledige profiel beschikbaar is. Het randprofiel moet voor het eerst worden gesynchroniseerd vanuit de hub. De allereerste ervaring met de rand bevat dus geen eerder geüploade profielgegevens naar de hub.
 
-## Verwante documentatie
+## Gerelateerde documentatie
 
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)

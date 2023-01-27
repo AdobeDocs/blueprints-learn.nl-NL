@@ -1,21 +1,21 @@
 ---
-title: Activering van publiek en profiel naar streaming doelen voor bestanden en bedrijven, blauwdruk van afdrukken
+title: Activering van publiek en profiel naar streaming doelen voor bestanden en bedrijven (blauwdruk)
 description: Activering van publiek en profiel naar Enterprise-doelen
 solution: Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# Activering van publiek en profiel naar streaming doelen voor bestanden en bedrijven, blauwdruk van afdrukken
+# Activering van publiek en profiel naar streaming doelen voor bestanden en bedrijven (blauwdruk)
 
 Profiel- en publiekswijzigingen en gebeurtenissen in streaming of batch delen vanuit [!UICONTROL Real-time Customer Data Platform] aan de opslag van bedrijfsgegevens en toepassingen. Deze profiel- en publieksgebeurtenissen kunnen worden gebruikt om een verkoop- of ondersteuningsactie aan de klant te initiëren, zoals een follow-up van een verlaten toepassingsproces of een webinar-registratie, of om bedrijfstoepassingen bij te werken met de nieuwste klantkenmerken en intelligentie van [!UICONTROL Real-time Customer Data Platform].
 
-## Gevallen gebruiken
+## Gebruik hoofdletters
 
 * Profiel- en publieksactivering voor cloudopslagdoelen of streamingdoelen voor het bijhouden, opslaan, analyseren en activeren van klantgegevens en -inzichten op bedrijfsniveau.
 
@@ -32,7 +32,7 @@ Profiel- en publiekswijzigingen en gebeurtenissen in streaming of batch delen va
 
 [Raadpleeg de hulplijnen die worden beschreven op de pagina Overzicht van publiek- en profielactivering.](overview.md)
 
-## Implementatiestappen
+## Uitvoeringsstappen
 
 1. [Schema&#39;s maken](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden ingevoerd.
 1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden ingevoerd.
@@ -43,7 +43,7 @@ Profiel- en publiekswijzigingen en gebeurtenissen in streaming of batch delen va
 1. [Segmenten maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html) in Experience Platform. Het systeem bepaalt automatisch of het segment als partij of het stromen wordt geëvalueerd.
 1. [Doelen configureren](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html) voor het delen van profielkenmerken en publieksleden aan gewenste bestemmingen.
 
-## Verwante documentatie
+## Gerelateerde documentatie
 
 * [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 * [Overzicht van opslagdoelen voor cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=en#catalog)
@@ -52,7 +52,7 @@ Profiel- en publiekswijzigingen en gebeurtenissen in streaming of batch delen va
 * [Richtlijnen voor profiel en segmentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [Segmenteringsdocumentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 
-## Verwante video&#39;s en Tutorials
+## Verwante video&#39;s en zelfstudies
 
 * [[!UICONTROL Real-time Customer Data Platform] overzicht](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
 * [Demo van [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)

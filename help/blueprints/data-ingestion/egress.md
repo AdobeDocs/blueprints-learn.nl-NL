@@ -1,29 +1,29 @@
 ---
-title: Gegevenstoegang en Blauwdruk exporteren
+title: Blauwdruk voor gegevenstoegang en exporteren
 description: Deze blauwdruk biedt een overzicht van alle methoden waarmee gegevens kunnen worden benaderd en geëxporteerd vanuit Adobe Experience Platform en toepassingen.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 0%
 
 ---
 
-# Gegevenstoegang en Blauwdruk exporteren
+# Blauwdruk voor gegevenstoegang en exporteren
 
 In de blauwdruk voor gegevenstoegang en export worden alle mogelijke methoden beschreven waarmee gegevens kunnen worden benaderd of geëxporteerd vanuit Adobe Experience Platform en toepassingen.
 
 De blauwdruk wordt opgedeeld in twee categorieën voor gegevenstoegang vanuit Experience Platform en toepassingen. Ten eerste, benaderingen voor het verzamelen van gegevens uit Experience Platform en toepassingen; dit zou worden beschouwd als een methode van het push - type van gegevensuitgang . Ten tweede, benaderingen voor toegangsgegevens van Experience Platform en toepassingen; dit zou worden beschouwd als een methode van het pull - type van gegevenstoegang .
 
-Benadering van gegevenstoegang
+Aanpak voor gegevenstoegang:
 
 * [Toegang-API voor gebruikersprofiel in realtime](#rtcp-profile-access-api)
 * [API voor gegevenstoegang](#data-access-api)
 * [Query-service](#query-service)
 
-Aanpak voor gegevensuitvoer
+Methoden voor het exporteren van gegevens:
 
 * [Client Side Tags](#client-side-tags-extensions)
 * [Gebeurtenis doorsturen](#event-forwarding)
@@ -42,7 +42,7 @@ Klanten kunnen toegang krijgen tot één enkel verenigd profiel vanuit de Real-t
 
 Zie de [Toegang-API voor gebruikersprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=en) documentatie voor aanvullende informatie.
 
-#### Gevallen gebruiken
+#### Gebruik hoofdletters
 
 * Zoek één enkel profiel om context aan de interactie van de agentenklant zoals steuninteractie door praatje en vraagcentrum, of een verkoopinteractie op het verkooppunt toe te voegen.
 * Toegevoegde context toestaan aan een verpersoonlijkingsbesluit dat door een extern systeem, bijvoorbeeld een systeem van de Webverpersoonlijking of een systeem van de aanbiedingsbeslissing wordt gemaakt.
@@ -59,7 +59,7 @@ De gebruikers van de API voor gegevenstoegang kunnen rechtstreeks toegang krijge
 
 * Voor meer informatie over het gebruik van de API voor gegevenstoegang raadpleegt u de [documentatie](https://experienceleague.adobe.com/docs/experience-platform/data-access/home.html?lang=en).
 
-#### Gevallen gebruiken
+#### Gebruik hoofdletters
 
 * Trek ruwe en verwerkte gegevensdossiers van Experience Platform voor opslag en evaluatie in ondernemingsmilieu&#39;s.
 
@@ -74,7 +74,7 @@ Gebruikend de klanten van de Dienst van de Vraag van het ervaringsplatform kunne
 
 * Voor extra details over verbinding met SQL cliënten om SQL resultaten van de Dienst van de Vraag van het Experience Platform voort te zetten zie het volgende [documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=en).
 
-#### Gevallen gebruiken
+#### Gebruik hoofdletters
 
 * Vraag ruwe gegevens van de Experience Platform datasets en stelt de vraagresultaten voort.
 * Vraag de dataset van de profielmomentopname om inzichten op het Profiel van de Klant in real time te halen. [Documentatie](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=en#profile-attribute-datasets).
@@ -88,13 +88,13 @@ Gebruikend de klanten van de Dienst van de Vraag van het ervaringsplatform kunne
 
 ## Methoden voor het exporteren van gegevens
 
-### Extensies voor tags aan clientzijde {#client-side-tags-extensions}
+### Tagextensies aan de clientzijde {#client-side-tags-extensions}
 
 Extensies kunnen worden geïmplementeerd met de oplossing Adobe. Zodra een uitbreiding wordt opgesteld worden de gegevensverzoeken opgesteld direct op cliëntbrowser of toepassing en een verzoek kan worden aangehaald om gegevens en verzoeken naar de gewenste bestemming te verzenden.
 
 Zie de [Overzicht van tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) documentatie voor aanvullende informatie.
 
-#### Gevallen gebruiken
+#### Gebruik hoofdletters
 
 * Verzamel onbewerkte streaminggegevens rechtstreeks vanuit clientomgevingen met behulp van tags.
 
@@ -111,24 +111,24 @@ De verzoeken van de inzameling van gegevens worden verzameld direct aan het Netw
 
 Raadpleeg het volgende: [Gebeurtenis doorsturen](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=en) documentatie voor aanvullende informatie.
 
-#### Caseas gebruiken
+#### Gebruik hoofdletters
 
 * Verzamel ruw direct van cliënt zijmilieu&#39;s aan een ondernemingseindpunt gebruikend Adobe server zijgebeurtenis door:sturen.
 
 #### Overwegingen
 
-* Om Gebeurtenis door:sturen te gebruiken, moeten de gegevens naar het Netwerk van de Rand worden verzonden gebruikend WebSDK of MobileSDK.
+* Om Gebeurtenis door:sturen te gebruiken, moeten de gegevens naar het Netwerk van de Rand worden verzonden gebruikend het Web SDK of MobileSDK.
 * De methode voor het doorsturen van gebeurtenissen verkort de laadtijd en het gewicht van de pagina omdat er extra codes op de pagina worden toegevoegd.
 * Er wordt momenteel geen verrijking van het randprofiel of andere gegevensbronnen ondersteund.
 * Beperkte gegevensfiltering en eenvoudige toewijzingstransformaties worden ondersteund.
 
-### Real-time Customer Data Platform-doelen {#RTCDP-destinations}
+### Real-time Customer Data Platform-bestemmingen {#RTCDP-destinations}
 
 De gegevens van de profielattributen en van het publiekslidmaatschap kunnen aan onderneming en reclamebestemmingen worden geactiveerd. Dit betekent dat de gegevens moeten worden opgenomen in het Experience Platform Real-time Klantprofiel.
 
 Zie de [Real-time Customer Data Platform-doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en) documentatie voor aanvullende informatie.
 
-#### Gevallen gebruiken
+#### Gebruik hoofdletters
 
 * Activeer profielkenmerkinformatie, waaronder het lidmaatschap van het publiek voor een interne bedrijfsgegevensopslagruimte, analyseprogramma&#39;s, e-mailsystemen of supportsystemen.
 * Activeer het lidmaatschap van het profielpubliek voor een externe advertentiemap om inhoud aan het profiel te richten en te personaliseren.
@@ -138,13 +138,13 @@ Zie de [Real-time Customer Data Platform-doelen](https://experienceleague.adobe.
 * Profielkenmerken en publiek lidmaatschap kunnen worden geactiveerd. Gebeurtenissen met een ruwe ervaring kunnen momenteel niet worden geactiveerd als onderdeel van RTCDP-doelen.
 * Activaties worden uitgevoerd in streaming of batch, afhankelijk van de aard van de segmentevaluatie en de aard van het inslieprotocollen die de bestemming accepteert.
 
-### Aangepaste Journey Optimizer-handelingen {#jo-custom-actions}
+### Aangepaste Journey Optimizer-acties {#jo-custom-actions}
 
 Het gebruiken van de klanten van Journey Optimizer kan een douaneactie van het reiscanvas aanhalen om een lading of een bericht naar een extern API eindpunt te verzenden dat wordt gevormd. Een actie kan aan om het even welke dienst van om het even welke leverancier worden gevormd die door REST API met een JSON-Geformatteerde lading kan worden geroepen. Deze nuttige lading kan gebeurtenisinformatie, profielattributen en vroegere gebeurtenisgegevens, transformaties en verrijkingen omvatten die in de reis worden gevormd.
 
 Zie de [Aangepaste Journey Optimizer-acties](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-custom-actions.html?lang=en) documentatie voor aanvullende informatie.
 
-#### Gevallen gebruiken
+#### Gebruik hoofdletters
 
 * Activeringsgebeurtenissen van Experience Platform en Journey Optimizer die aanvullende informatie van het Real-time Klantprofiel bevatten.
 * Externe systemen op de hoogte stellen wanneer een klant een specifiek punt van een reis heeft bereikt.

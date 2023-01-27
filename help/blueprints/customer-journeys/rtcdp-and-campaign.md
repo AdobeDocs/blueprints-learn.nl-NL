@@ -3,7 +3,7 @@ title: Real-Time CDP met Adobe Campaign v7 en Campaign Standard-integratiepatroo
 description: Toont hoe de Adobe Experience Platform en zijn Real-Time Klantprofiel en gecentraliseerd segmenteringshulpmiddel met Adobe Campaign kunnen worden gebruikt om gepersonaliseerde gesprekken te leveren.
 solution: Real-time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: 163dd644b690c1f5554a3929e1f83c121e132df5
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Toont hoe de Adobe Experience Platform en zijn Real-Time Klantprofiel en gecentr
 
 ## Architectuur
 
-<img src="assets/rtcdp-campaign-architecture.svg" alt="Referentiearchitectuur voor het Batch Messaging- en Adobe Experience Platform-integratiepatroon" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaign-architecture.svg" alt="Referentiearchitectuur voor het integratiepatroon Batch Messaging en Adobe Experience Platform" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -56,11 +56,11 @@ Toont hoe de Adobe Experience Platform en zijn Real-Time Klantprofiel en gecentr
 
 <br>
 
-## Implementatiestappen
+## Uitvoeringsstappen
 
 ### Adobe Experience Platform
 
-#### Schema/gegevensset
+#### Schema/datasets
 
 1. [Afzonderlijke profiel-, ervarings- en multientiteitsschema&#39;s configureren](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, op basis van door de klant verstrekte gegevens.
 1. Maak Adobe Campaign-schema&#39;s voor wideLog, trackingLog, niet-te leveren adressen en profielvoorkeuren (optioneel).
@@ -118,7 +118,7 @@ Toont hoe de Adobe Experience Platform en zijn Real-Time Klantprofiel en gecentr
    >[!IMPORTANT]
    >Als u de Campagne SDK opstelt en met andere toepassingen van Experience Cloud werkt zullen zij het gebruik van het Experience Platform Mobiele SDK voor gegevensinzameling vereisen. Hierdoor worden dubbele aanroepen aan de clientzijde op het apparaat gemaakt.
 
-## Verwante documentatie
+## Gerelateerde documentatie
 
 * [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
 * [Campaign Classic-documentatie](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)

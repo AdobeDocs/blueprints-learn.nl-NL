@@ -1,29 +1,32 @@
 ---
-title: Web/Mobile SDK, de Vervaging van de Plaatsing van het Netwerk van de Rand
+title: Web/Mobile SDK, het architectuurdiagram van de Plaatsing van het Netwerk van de Rand
 description: Deze blauwdruk toont de architectuur en de opname door het Web van het Experience Platform en Mobiele SDK en het Netwerk van de Rand
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 0b0f77eaf903f592993ed8f4abe29827b733c769
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
 
 
-# Overzicht
+# Experience Platform Web SDK &amp; Edge Network-architectuurdiagram
 
 Voor een overzicht en detail op het Web en Mobiele SDK, en de Server API van het Netwerk van de Rand zie het volgende.
-* [Overzicht van WebSDK](https://experienceleague.adobe.com/docs/web-sdk.html)
-* [Overzicht van MobileSDK](https://developer.adobe.com/client-sdks/documentation/)
+
+* [Overzicht van Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html)
+* [Overzicht van Mobile SDK](https://developer.adobe.com/client-sdks/documentation/)
 * [Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
-Voor een gedetailleerd overzicht van welke toepassingsfunctionaliteit in WebSDK wordt gesteund zie de volgende documentatie.
-* [Ondersteuning voor WebSDK-toepassingsfunctionaliteit](https://github.com/orgs/adobe/projects/18/views/1)
+Voor een gedetailleerd overzicht van welke toepassingsfunctionaliteit in het Web SDK wordt gesteund zie de volgende documentatie.
+
+* [Ondersteuning van Web SDK-toepassingen](https://github.com/orgs/adobe/projects/18/views/1)
 
 Voor details met betrekking tot migratie van toepassing specifieke SDKs aan het Web en Mobiele SDKs zie de volgende documentatie.
+
 * [Identiteitsservices](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html)
 * [Analyse](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/analytics-overview.html)
 * [Doel](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)

@@ -1,19 +1,19 @@
 ---
-title: Activering publiek en profiel
+title: Blauwdrukken voor activering van publiek en profiel
 description: Zorg ervoor dat het publiek geactiveerd is en maak een profiel van centric Customer Experience met Real-time Customer Data Platform ​.
 solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
 
 
-# Activering publiek en profiel
+# Blauwdrukken voor activering van publiek en profiel
 
 Activering van publiek en profiel is de sleutel tot succes in een wereld van gegevensgestuurde marketing. Veel merken richten zich echter nog steeds op activering via het kanaal, wat vaak leidt tot inconsistente bereikbaarheid en personalisatie.
 
@@ -38,13 +38,13 @@ Merk op dat de verslagen die slechts één identiteit hebben niet door de identi
 
 Het samenvoegen van profielfragmenten gebeurt als de identiteitsgrafiek de relaties tussen de verschillende bronprofielfragmenten biedt die verwant zijn. Het samenvoegbeleid bepaalt welke bronfragmenten en welke identiteitsgrafiek wordt gebruikt als de fragmenten worden samengevoegd. Telkens wanneer het profiel wordt geopend, wordt de samenvoeging van de profielfragmenten uitgevoerd om ervoor te zorgen dat de meest recente gecombineerde weergave van het profiel is. Regels voor bestuur en beleid zorgen ervoor dat alleen de toegestane segmenten en kenmerken kunnen worden geactiveerd voor de opgegeven doelen.
 
-## Overzicht van segmentatie en bestemming
+## Overzicht van segmentering en bestemming
 
 In de onderstaande afbeelding worden de verschillende segmentatiemethoden en de verschillende activeringspatronen voor profiel en publiek beschreven.
 
 <img src="assets/segmentation_destination_overview.png" alt="Referentiearchitectuur voor het Real-time Klantprofiel" style="border:1px solid #4a4a4a" width="90%"/>
 
-## Instructies voor doelgroep en activering van profiel
+## Instructies voor blauwdrukken voor publiek en profielactivering
 
 * Voor gedetailleerde instructies en eindlatenties raadpleegt u de [document met implementatiehandleidingen](../experience-platform/deployment/guardrails.md) en de [Profiel en segmentatiehulplijnen](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 
@@ -66,7 +66,7 @@ In de onderstaande afbeelding worden de verschillende segmentatiemethoden en de 
 * Het activeren van gebeurtenissen voor onbewerkte ervaring wordt niet ondersteund. Om tegen ervaringsgebeurtenissen te activeren, moet een segment met de noodzakelijke regels worden gecreeerd die de logica van de ervaringsgebeurtenis omvatten of uitsluiten. Dit leidt tot een segment dat tegen ervaringsgebeurtenissen wordt bepaald, en het segmentlidmaatschap kan als volmacht voor het activeren van ruwe ervaringsgebeurtenissen worden geactiveerd. Overweeg ook het gebruik van [!UICONTROL Server-kant starten] om onbewerkte ervaringsgebeurtenissen te activeren die via SDK zijn verzameld.
 
 
-## Verwante blogberichten
+## Gerelateerde blogberichten
 
 * [[!DNL Blueprints for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
 * [[!DNL Adobe Experience Platform Web SDK for Audience Management]](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)

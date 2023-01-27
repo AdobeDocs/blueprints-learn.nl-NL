@@ -1,12 +1,12 @@
 ---
-title: Bekende activering van klant
+title: Bekende blauwdruk voor activering door klant
 description: Online/offline Audience Activation.
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Gebruik offlinekenmerken en -gebeurtenissen zoals offline bestellingen, transact
 
 Uitgebreide id herkenningstekens met ingebouwde beheerscontroles verstrekken meer kansen om met bekende klanten te communiceren. Activeer het publiek naar bekende, op profielen gebaseerde bestemmingen, zoals e-mailproviders, sociale netwerken en advertentiebestemmingen.
 
-De aanvullende details zijn te vinden in het [Activering van publiek en profiel met blauwdruk voor Experience Cloud-toepassingen](platform-and-applications.md) specifiek voor de integratie tussen Experience Platform- en Experience Cloud-toepassingen.
+De aanvullende details zijn te vinden in het [Activering van publiek en profiel met Experience Cloud-toepassingen Bladeren](platform-and-applications.md) specifiek voor de integratie tussen Experience Platform- en Experience Cloud-toepassingen.
 
-## Gevallen gebruiken
+## Gebruik hoofdletters
 
 * Publiek dat zich richt op bekende doelgroepen op sociale en reclamebestemmingen.
 * Online personalisatie met online en offline kenmerken.
@@ -32,12 +32,12 @@ De aanvullende details zijn te vinden in het [Activering van publiek en profiel 
 
 ## Architectuur
 
-### Bekende activering door klant via Real-time Customer Data Platform
+### Activering van bekende klanten via Real-time Customer Data Platform
 
 <img src="assets/known_activation.svg" alt="Referentiearchitectuur voor de bekende blauwdruk voor activering van klanten" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
-### Bekende activering van de Klant via op mensen gebaseerde bestemmingen van de Audience Manager
+### Bekende klantactivering via Audience Manager People-Based Doelen
 
 <img src="assets/AAM_PBD.svg" alt="Referentiearchitectuur voor de bekende blauwdruk voor activering van klanten" style="width:90%; border:1px solid #4a4a4a" />
 <br>
@@ -57,11 +57,11 @@ De aanvullende details zijn te vinden in het [Activering van publiek en profiel 
 1. [Segmenten maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html) in Experience Platform. Het systeem bepaalt automatisch of het segment als partij of het stromen wordt geëvalueerd.
 1. [Doelen configureren](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html) voor het delen van profielkenmerken en publieksleden aan gewenste bestemmingen.
 
-## Overwegingen bij de implementatie
+## Implementatieoverwegingen
 
 * Wanneer u profielgegevens deelt met bestemmingen, moet u de specifieke identiteitswaarde opnemen die door de bestemming wordt gebruikt in de doellading. Om het even welke identiteit die voor een doelbestemming noodzakelijk is moet in Platform worden opgenomen en als identiteit voor worden gevormd [!UICONTROL Klantprofiel in realtime].
 
-* Zie de [Activering van publiek en profiel met blauwdruk voor Experience Cloud-toepassingen](platform-and-applications.md) voor meer informatie over het delen van publiek van Real-time Customer Data Platform naar Audience Manager, Analytics, Target, Campaign en Journey Optimizer.
+* Zie de [Activering van publiek en profiel met Experience Cloud-toepassingen Bladeren](platform-and-applications.md) voor meer informatie over het delen van publiek van Real-time Customer Data Platform naar Audience Manager, Analytics, Target, Campaign en Journey Optimizer.
 
 ## Implementatiestappen voor op mensen gebaseerde doelen van de Audience Manager
 
@@ -69,14 +69,14 @@ De aanvullende details zijn te vinden in het [Activering van publiek en profiel 
 
 * Voor details over het uitvoeren van Mensen Gebaseerde Doelen in Audience Manager zie het volgende [documentatie](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html).
 
-## Verwante documentatie
+## Gerelateerde documentatie
 
 * [[!UICONTROL Real-time Customer Data Platform] Productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Richtlijnen voor profiel en segmentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 * [Segmenteringsdocumentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 * [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 
-## Verwante video&#39;s en Tutorials
+## Verwante video&#39;s en zelfstudies
 
 * [[!UICONTROL Real-time Customer Data Platform] overzicht](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
 * [Demo van [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)

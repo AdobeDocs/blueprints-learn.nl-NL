@@ -5,7 +5,7 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Experience Platform [!UICONTROL Query-service] staat SQL vragen toe om op de geg
 
 Het Experience Platform staat verbindingen met derdeSQL cliënten, interfaces, en hulpmiddelen van de Business Intelligence (BI) toe om met, tot de gegevens binnen Experience Platform direct te verbinden toegang te hebben en te vragen, gebruikend [!DNL PostgreSQL] protocol.
 
-## Gevallen gebruiken
+## Gebruik hoofdletters
 
 * Interactieve query en aggregatie van gegevens
 * De rij en kolomtoegang tot ingebedde gegevens voor exploratie en bevestiging
@@ -41,7 +41,7 @@ Hier worden extra veelvoorkomende gebruiksgevallen voor de queryservice beschrev
 Raadpleeg de documentatie bij het product Query Service voor meer informatie over beste praktijken en instructies.
 [Begeleiding voor zoekservice](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html)
 
-## Implementatiestappen
+## Uitvoeringsstappen
 
 1. [Schema&#39;s maken](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden ingevoerd.
 1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden ingevoerd.
@@ -49,7 +49,7 @@ Raadpleeg de documentatie bij het product Query Service voor meer informatie ove
 1. Bevestig dat gegevens beschikbaar zijn voor [[!UICONTROL Query-service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=en).
 1. [Business Intelligence-gereedschappen en SQL-clients verbinden met [!UICONTROL Query-service]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html) voor visualisatie, gegevensvraag, en exploratie.
 
-## Verwante documentatie
+## Gerelateerde documentatie
 
 * [Productbeschrijving Adobe Experience Platform Intelligence](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * [[!UICONTROL Query-service] documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
