@@ -1,11 +1,11 @@
 ---
 title: Web & mobiele verpersoonlijkingsblauwdrukken
 description: Geniet van gepersonaliseerde web- en mobiele inhoud met [!UICONTROL Klantprofiel in realtime].
-solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -31,9 +31,9 @@ Het Web en de Mobiele Personalisering richt de capaciteit om profiel en publieks
 
 <br>
 
-### Grafiek met bekende gebruikershandleiding voor personalisatie
+### Bekend diagram met cursiegids voor klantpersonalisatie
 
-<img src="assets/personalization_guardrails.svg" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.svg" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
 ## Gerelateerde blogberichten
 

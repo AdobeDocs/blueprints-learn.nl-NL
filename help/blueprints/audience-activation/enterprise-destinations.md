@@ -1,10 +1,10 @@
 ---
 title: Activering van publiek en profiel naar streaming doelen voor bestanden en bedrijven (blauwdruk)
 description: Activering van publiek en profiel naar Enterprise-doelen
-solution: Real-time Customer Data Platform
+solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%

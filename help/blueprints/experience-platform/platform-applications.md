@@ -1,28 +1,28 @@
 ---
 title: Diagrammen van Adobe Experience Platform- en toepassingsarchitectuur
 description: Dit architectuurdiagram toont hoe Adobe Experience Platform op andere toepassingen en toepassingsdiensten van Adobe Experience Cloud betrekking heeft.
-solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
+solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Platform- en toepassingsarchitectuurdiagrammen
+# Diagrammen van Adobe Experience Platform- en toepassingsarchitectuur
 
-## Architectuurdiagram Adobe Experience Platform &amp; applicaties
+## Adobe Experience Platform- &amp; Applications-architectuurdiagram
 
 Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen en de toepassingsdiensten van Adobe Experience Cloud betrekking heeft.
 
-<img src="assets/aep+apps_vertical.svg" alt="Experience Platform en toepassingen" style="border:1px solid #4a4a4a; width:90%;" />
+<img src="assets/aep+apps_vertical.svg" alt="Experience Platform en toepassingen" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" />
 
-## Grafiek met gedetailleerde architectuur voor Adobe Experience Platform en toepassingen
+## Gedetailleerd architectuurdiagram voor Adobe Experience Platform en toepassingen
 
-<img src="assets/aep-app-architecture.svg" alt="Experience Platform en toepassingen" style="border:1px solid #4a4a4a; width:90%;" />
+<img src="assets/aep-app-architecture.svg" alt="Experience Platform en toepassingen" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" />
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
@@ -226,7 +226,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 </td>
 </tr>
 <tr>
-<td colspan="1">Real-time CDP</td>
+<td colspan="1">Real-Time CDP</td>
 <td colspan="1">
 <ul>
 <li>Gegevens die in Experience Platform worden ingevoerd en verzameld, zijn de gegevensbron voor het samenstellen van realtime klantprofielen die de Real-time Customer Data Platform van kracht maken.</li>

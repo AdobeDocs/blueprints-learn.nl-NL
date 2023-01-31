@@ -2,10 +2,10 @@
 title: Overzicht van web/mobiele personalisatie - Adobe Target en RTCDP
 description: Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalpersonalisatie.
 landing-page-description: Synchroniseer webpersonalisatie met e-mail en andere bekende en anonieme kanaalpersonalisatie.
-solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
+solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1630'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 | Streaming en batchverdeling van publiek van Real-time Customer Data Platform naar Target via Edge-aanpak | <ul><li>Deel streaming en batchpubliek van Real-time Customer Data Platform naar Target via het Edge Network. Het publiek dat in real time wordt geëvalueerd vereist de implementatie van het Netwerk van het Web SDK en van de Rand.</li></ul> | <ul><li>Web/Mobile SDK of de implementatie van de Rand API van Doel wordt niet vereist voor het delen van het stromen en partij RTCDP publiek aan Doel hoewel het wordt vereist om in real time de hierboven geschetste evaluatie van het randsegment toe te laten.</li><li>Als u AT.js gebruikt, wordt alleen profielintegratie met de naamruimte ECID ondersteund.</li><li>Voor de raadplegingen van de douaneidentiteit namespace op de Rand, wordt de plaatsing van SDK/Edge API van het Web vereist en elke identiteit moet als identiteit in de identiteitskaart worden geplaatst.</li><li>De doelbestemming moet in de Doelen van Real-time Customer Data Platform worden gevormd, slechts wordt de standaardproductiestandaard in RTCDP gesteund.</li><li>Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.</li></ul> |
 | Streaming en batchverdeling van publiek van Real-time Customer Data Platform naar Target en Audience Manager via de benadering voor het delen van services bij het publiek | <ul><li>Dit integratiepatroon kan worden benut wanneer extra verrijking van gegevens van derden en publiek in de Audience Manager gewenst is.</li></ul> | <ul><li>Web/Mobile SDK wordt niet vereist voor het delen van het stromen en partijpubliek aan Doel hoewel het wordt vereist om de evaluatie van het randsegment in real time toe te laten.</li><li>Als u AT.js gebruikt, wordt alleen profielintegratie met de naamruimte ECID ondersteund.</li><li>Voor de raadplegingen van de douaneidentiteit namespace op de Rand, wordt de plaatsing van SDK/Edge API van het Web vereist en elke identiteit moet als identiteit in de identiteitskaart worden geplaatst.</li><li>De projectie van het publiek via de dienst voor het delen van het publiek moet worden voorzien.</li><li>Voor integratie met Doel is dezelfde IMS-instelling vereist als voor Experience Platform-instantie.</li><li>Alleen het publiek van de standaardproductiesandbox ondersteunt de hoofdservice voor het delen van het publiek.</li></ul> |
 
-## Real-time, Streaming en Batch Publiek delen met Adobe Target
+## In real time, het stromen, en partijpubliek die aan Adobe Target delen
 
 Architectuur
 
@@ -109,7 +109,7 @@ Identiteitsvoorwaarden
 * [Edge DataStream-configuratie](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)
 * [Experience Platform segmentdelen met Audience Manager en andere Experience Cloud-oplossingen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html)
 
-### Segmentatiedocumentatie
+### Segmenteringsdocumentatie
 
 * [Overzicht van segmentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
 * [Segmentatie in realtime](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html)
@@ -119,7 +119,7 @@ Identiteitsvoorwaarden
 
 ### Tutorials
 
-* [Volgend-klare verpersoonlijking met Real-Time CDP en Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=en)
+* [Volgend-klare personalisatie met Real-Time CDP en Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=en)
 
 ### Gerelateerde blogberichten
 

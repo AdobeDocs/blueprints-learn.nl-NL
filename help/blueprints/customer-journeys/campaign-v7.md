@@ -3,7 +3,7 @@ title: Campagne v7 blauwdruk
 description: Adobe Campaign v7 is een campagneprogramma dat is ontwikkeld voor traditionele marketingkanalen zoals e-mail en direct mail. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma's met een centrale focus op batchgeoriënteerde reizen.  Het komt ook met een Etime overseinenserver worden verbonden die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor dingen zoals het terugstellen van het wachtwoord, orderbevestiging, e-ontvangstbewijzen en veel meer worden gebaseerd.
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Adobe Campaign v7 is een campagneprogramma dat is ontwikkeld voor traditionele m
 
 | Scenario | Beschrijving | Mogelijkheden |
 | :-- | :--- | :--- |
-| [Real-Time CDP met Adobe Campaign](rtcdp-and-campaign.md) | Toont hoe de Adobe Experience Platform Real-Time CDP en zijn gecentraliseerde segmenteringshulpmiddel met Adobe Campaign kunnen worden gebruikt om gepersonaliseerde gesprekken te leveren | <ul><li>Delen van profiel en publiek van de Real-Time CDP naar Adobe Campaign via de workflows voor het uitwisselen van bestanden voor cloudopslag en Adobe Campaign-opname </li><li>Eenvoudig levering en interactiegegevens van klantengesprekken terug in Real-time CDP van Adobe Campaign delen om zowel het Real-Time Profiel van de Klant te verbeteren en dwars-kanaalrapportering over overseinencampagnes te verstrekken</li></ul> |
+| [Real-Time CDP met Adobe Campaign](rtcdp-and-campaign.md) | Toont hoe de Adobe Experience Platform Real-Time CDP en zijn gecentraliseerde segmenteringshulpmiddel met Adobe Campaign kunnen worden gebruikt om gepersonaliseerde gesprekken te leveren | <ul><li>Delen van profiel en publiek van de Real-Time CDP naar Adobe Campaign via de workflows voor het uitwisselen van bestanden voor cloudopslag en Adobe Campaign-opname </li><li>Eenvoudig leverings- en interactiegegevens delen uit gesprekken van klanten terug naar de Real-Time CDP vanuit Adobe Campaign om zowel het Real-Time Klantprofiel te verbeteren als rapportage over communicatiecampagnes via meerdere kanalen te verzorgen</li></ul> |
 | [Journey Optimizer met Adobe Campaign](ajo-and-campaign.md) | Toont hoe u Adobe Journey Optimizer kunt gebruiken om 1:1 ervaringen te ordenen gebruikend het Real-Time Profiel van de Klant en hefboomwerking het inheemse systeem van het de transactionele overseinen van Adobe Campaign om het bericht te verzenden | Gebruik het Real-Time Klantprofiel en de macht van Journey Optimizer om in de huidige ervaringen te ordenen terwijl het gebruiken van de inheemse mogelijkheden van het Overseinen in real time van Adobe Campaign om de laatste mijl mededeling te doen<br><br>Overwegingen:<br><ul><li>Kan tot 50 k berichten per uur via de server van het tijdBericht verzenden<li>Er wordt geen vertraging uitgevoerd vanuit Journey Optimizer, zodat technische controles door een pre-Sales Enterprise Architect worden uitgevoerd</li><li>Het Beheer van het besluit wordt niet gesteund in lading aan de het overseinenserver van de Campagne v7 in real time</li></ul> |
 
 <br>

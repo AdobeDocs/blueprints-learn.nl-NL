@@ -1,10 +1,10 @@
 ---
 title: Detailhandel - Activering met Experience Cloud-toepassingen
 description: Lever real-time, klantenervaringen over digitale media, e-mail, duw, en Webkanalen.
-solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
+solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%

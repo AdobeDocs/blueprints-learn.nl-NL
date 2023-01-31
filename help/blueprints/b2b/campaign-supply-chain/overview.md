@@ -2,7 +2,7 @@
 title: De Keten van de Levering van de campagne met de blauwdrukken van Marketo en van Workfront
 description: Overzicht - De voorzieningsketen van de Campagne met de blauwdrukken van Marketo en Workfront optimaliseren
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # De Keten van de Levering van de campagne met de blauwdrukken van Marketo en van Workfront {#overview}
 
-## Snellere tijd-aan-markt met de geoptimaliseerde ketting van de levering van de Campagne {#achieving-faster-time-to-market-with-optimized-campaign-supply-chain}
+## Snellere time-to-market met geoptimaliseerde campagnetoeleveringsketen {#achieving-faster-time-to-market-with-optimized-campaign-supply-chain}
 
 De baan van marketing blijft met nieuwe kanalen en meer manieren groeien om mededelingen te personaliseren elke dag. Marketing teams hebben manieren nodig om te blijven automatiseren en evolueren om veranderende marketingbehoeften over de hele wereld te ondersteunen.
 
@@ -32,7 +32,7 @@ Door multi-channel marketing activeringssysteem (Marketo Engage) te integreren m
 
 Met Workfront Fusion kunnen marketingteams handmatige en foutgevoelige stappen die het vertalen van een marketingopdracht naar een campagne met zich meebrengen grotendeels elimineren. Workfront Fusion biedt een out of the box integration layer tussen Workfront en Marketo Engage die flexibiliteit en efficiëntie mogelijk maakt bij het ontwikkelen van workflows tussen systemen. Meer informatie over het instellen van de integratie en over de acties die kunnen worden ondernomen om workflows te automatiseren [hier](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target="_blank"}.
 
-## Campagne die aan uitvoering plant - de Gevallen van het Gebruik van de Automatisering {#campaign-planning-to-execution-automation-use-cases}
+## Campagne plannen tot uitvoering - Gebruiksgevallen voor automatisering {#campaign-planning-to-execution-automation-use-cases}
 
 * De handels verrichtingenteams van de steun door de verwezenlijking van campagnes in Marketo Engage door innameverzoeken in Workfront te automatiseren
 * Deel concepten van e-mails en bestemmingspagina&#39;s die in Marketo Engage tot Workfront zijn gemaakt voor een definitieve beoordeling en goedkeuring door alle betrokkenen
@@ -54,7 +54,7 @@ Let op de verschillende fasen van het campagneontwikkelingsproces.
 >
 >In het bovenstaande voorbeeld beheert en plant Workfront de werkzaamheden gedurende de hele levenscyclus van het Marketo Engage-programma. Dit gezegd hebbende, kan de flexibiliteit van Workfront zich tot het beheren van al uw marketing teaminspanningen uitbreiden. Hieronder vallen marketing op basis van account, leveringsketens voor marketinginhoud, agentschapsbeheer, beheer van digitale en sociale campagnes en programma&#39;s voor verkoopmogelijkheden.
 
-## Begrijpen hoe marketinginitiatieven in Workfront worden vertegenwoordigd {#understanding-how-marketing-initiatives-are-represented-in-workfront}
+## Begrijpen hoe marketinginitiatieven in Workfront worden weergegeven {#understanding-how-marketing-initiatives-are-represented-in-workfront}
 
 Adobe Workfront stelt organisaties in staat hun werk te beheren om een efficiëntere uitvoering te bevorderen. Binnen Workfront is er een hiërarchie van voorwerpen die een kader voor planning, middelbeheer, en samenwerking over diverse teams verstrekken.
 
@@ -107,7 +107,7 @@ Het begrip hoe te om uw bedrijfsproces aan deze voorwerpen in kaart te brengen z
   </tbody>
 </table>
 
-## Voorbeeld van zakelijk beheer voor marketinginitiatieven {#marketing-initiative-work-management-example}
+## Voorbeeld van werkbeheer voor marketinginitiatieven {#marketing-initiative-work-management-example}
 
 Laten we eens kijken hoe de portefeuillehiërarchie van Workfront eruit ziet in een echt voorbeeld.
 
@@ -153,7 +153,7 @@ Nu u een fundamenteel inzicht hebt in hoe Workfront en Marketo Engage nieuwe eff
 
 * Rapport en audit (binnenkort beschikbaar)
 
-### Campagnemenamen voor Marketo Engage en de bijbehorende URL&#39;s beheren {#managing-marketo-engage-campaign-names}
+### Namen van Marketo Engage-campagnes en de bijbehorende URL&#39;s beheren {#managing-marketo-engage-campaign-names}
 
 Het standaardiseren van uw naamgevingsconventies voor campagnes en URL&#39;s is een belangrijke basis voor nauwkeurig programmabeheer in Marketo Engage en helpt een consistenter proces in de hele toeleveringsketen van de campagne te bevorderen. Als u hulpmiddelen zoekt om met dit te helpen, adviseren wij controlerend sommige vrije open bronhulpmiddelen van [Adobe Success Services](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} waarmee u een consistente aanpak kunt maken voor het maken en beheren van Marketo Engage-campagnes en de bijbehorende URL&#39;s.
 

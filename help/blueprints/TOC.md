@@ -5,7 +5,7 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 4%
@@ -64,8 +64,8 @@ ht-degree: 4%
       + [Journey Optimizer met Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Berichten van derden](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign Standard{#campaign-standard}
-      + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html)
-      + [Real-Time CDP met Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)
+      + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html){target="_blank"}
+      + [Real-Time CDP met Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html){target="_blank"}
    + Campagne v8{#campaign-v8}
       + [Campagne v8](/help/blueprints/customer-journeys/campaign-v8.md)
       + [Real-Time CDP met Adobe Campaign v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
