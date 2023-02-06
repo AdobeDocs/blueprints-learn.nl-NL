@@ -2,9 +2,9 @@
 title: Opname en ontwerp maken
 description: Inname en Maken - De voorzieningsketen van de Campagne optimaliseren met Marketo en Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1331'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Als u meer wilt weten over het maken van uw eigen expertisecentrum, bekijkt u de
 
 Met Marketo Engage kunnen tokens worden gebruikt om inhoud in uw campagnemiddelen te vullen. Nadat u bijvoorbeeld een e-mailsjabloon hebt gekloond vanuit uw expertisecentrum, kan Workfront Fusion details uit het campagneverzoek in Workfront overnemen en deze doorgeven aan Mijn tokens in het Marketo Engage-programma. De symbolische waarden kunnen dan direct in e-mail worden geërft om e-mail uit te bouwen.
 
-![](assets/intake-and-create-2.png)
+![Tkens gebruiken om inhoudsdiagram te vullen](assets/intake-and-create-2.png){zoomable=&quot;yes&quot;}
 
 ### Afbeeldingen uit AEM Assets vullen {#populate-images-from-aem-assets}
 
@@ -149,7 +149,7 @@ Enkele basisgegevens die u wilt opnemen in de opzoekbibliotheek van het programm
 
 Hier is een voorbeeld van hoe de werkschemalogica in Fusion kan worden samengesteld gebruikend prebuilt [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target="_blank"} modules waarmee u sneller automatisering kunt leveren.
 
-![](assets/intake-and-create-3.png)
+![Inname en Maken van automatiseringsstroom](assets/intake-and-create-3.png)Tokens gebruiken om inhoud te vullen
 
 ## Bronnen {#resources}
 

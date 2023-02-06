@@ -3,9 +3,9 @@ title: Afstemmen van segment, blauwdruk
 description: Meer informatie over [!UICONTROL Segmentovereenkomst] voor Adobe Experience Platform (AEP). [!UICONTROL Segmentovereenkomst] is een dienst van de gegevenssamenwerking die u toelaat om segmentgegevens uit te wisselen die op gemeenschappelijke industrie herkenningstekens op een beveiligde, beheerde, en privacy-vriendelijke manier worden gebaseerd.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '1766'
+source-wordcount: '1774'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Internationale multinationals hebben problemen met de samenwerking van gegevens 
 
 ## Architectuur
 
-![Segmentmatcharchitectuur](assets/architecture-segment-match.png)
+![Segmentmatcharchitectuur](assets/architecture-segment-match.png){zoomable=&quot;yes&quot;}
 
 [!UICONTROL Segmentovereenkomst] is geen datamarkt waar gegevens kunnen worden aangeschaft. In plaats daarvan is het een AEP-functie die werkt met gegevens van de eerste partij met bepaalde partners, die privacycontroles en toestemmingscontroles gebruiken om samen te werken. [!UICONTROL Segmentovereenkomst] helpt de inspanningen richten op het verbeteren van klantenverhoudingen en het verhogen van het merk. Het is nuttig wanneer bestaande merken of partnerrelaties bestaan. [!UICONTROL Segmentovereenkomst] De ervaring is gemakkelijk te beheren, scalable, en staat voor beheerders toe om segmenten op een opt-in, controleerbare manier te delen.
 
@@ -77,7 +77,7 @@ Voorwaarden voor [!UICONTROL Segmentovereenkomst] zijn:
 
 De [!UICONTROL Segmentovereenkomst] De stroom om partners te beheren wordt gewaarborgd door RBAC. Alleen personen met de juiste machtiging kunnen partners initiëren, accepteren of beheren. Dit kan worden gedaan in het gedeelte Gegevensinname van het productprofiel. De volgende machtigingen zijn vereist:
 
-![Verbinding voor delen van publiek](assets/data-ingestion.png)
+![Verbinding voor delen van publiek](assets/data-ingestion.png){zoomable=&quot;yes&quot;}
 
 | Machtiging | Beschrijving |
 |---|---|
@@ -140,13 +140,13 @@ Als deel van dit segment-delend werkschema, kan de verzendende partner potentië
 
 De algemene processtroom is:
 
-![Segment delen](assets/segment-sharing.png)
+![Segment delen](assets/segment-sharing.png){zoomable=&quot;yes&quot;}
 
 Deze overlappende ramingen bieden belangrijke inzichten, partnerontdekking, en gegevens aan de samenwerkingsovereenkomsten van brandstofgegevens. Er worden geen klant- of segmentgegevens over sandboxen verplaatst om deze schattingsgegevens voor overlappingen te verkrijgen. De door de klant geselecteerde, vooraf gehakte toepasselijke identiteiten in een bepaalde sandbox worden toegevoegd aan een probabilistische gegevensstructuur die Adobe in staat stelt samenvoegings- en intersectiebewerkingen tussen hen uit te voeren. Deze bewerkingen helpen [!UICONTROL Segmentovereenkomst] krijgen de geschatte doorsnede van twee gegevensstructuren die bestaat uit identiteiten van twee verschillende sandboxen zonder de werkelijke waarden te hoeven vergelijken
 
 Het overlappingsproces van de identiteit is afhankelijk van **dagelijkse volledige-profielexport** dataset van zowel afzender als ontvangerzandbakken om gemeenschappelijke profielen te identificeren die tot de gedeelde segmenten behoren. De gedetailleerde processtroom voor het overlappingsproces wordt hieronder getoond:
 
-![Overlap van identiteit](assets/overlap-process.png)
+![Overlap van identiteit](assets/overlap-process.png){zoomable=&quot;yes&quot;}
 
 Nadat het delen van segmenten volledig van de verzendende partner is, krijgt de ontvanger een bericht over het gedeelde segmentvoer. Deze segmentvoer moet voor profiel bij de ontvanger worden toegelaten om de gegevens van het segmentlidmaatschap in werking te stellen. Alleen segmentlidmaatschap wordt opgenomen in de overlappende profielfragmenten van de IMS-organisatie van de ontvanger en er wordt geen aanvullende identiteit overgedragen van de afzender naar de ontvanger.
 

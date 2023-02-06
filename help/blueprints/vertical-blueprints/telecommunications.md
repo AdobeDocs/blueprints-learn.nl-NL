@@ -4,9 +4,9 @@ description: Verstrek klanten op maat gemaakte overeenkomsten in real time terwi
 solution: Journey Optimizer
 kt: 9486
 exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ Deze beperking moest worden opgelost om een tijdlijker follow-up te kunnen geven
 
 ### Blauwdrukarchitectuur
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="de duimnagelbeeld voor een zaken van Telecommunicatie biedt specifieke overeenkomsten in real time terwijl met efficiënte klant onboarding voor langdurige loyaliteit aan." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="image voor een telecommunicatiebedrijf biedt op maat gesneden aanbiedingen in real time terwijl met efficiënte klant onboarding voor langdurige loyaliteit." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en"/></a>

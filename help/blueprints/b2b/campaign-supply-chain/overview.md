@@ -2,9 +2,9 @@
 title: De Keten van de Levering van de campagne met de blauwdrukken van Marketo en van Workfront
 description: Overzicht - De voorzieningsketen van de Campagne met de blauwdrukken van Marketo en Workfront optimaliseren
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1778'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Met Workfront Fusion kunnen marketingteams handmatige en foutgevoelige stappen d
 
 Hieronder ziet u een workflowdiagram van het ontwikkelingsproces van de campagne in het geval van een e-mailsnelverzoek. Bovendien kunt u zien hoe Workfront Fusion een rol kan spelen tussen Workfront en Marketo Engage om de workflow en procesautomatisering in de gehele ontwikkelingscyclus van de campagne te stimuleren.
 
-![](assets/overview-1.png)
+![Campagne plannen tot uitvoering - Gebruiksgevallen voor automatisering](assets/overview-1.png){zoomable=&quot;yes&quot;}
 
 Let op de verschillende fasen van het campagneontwikkelingsproces.
 
@@ -60,7 +60,7 @@ Adobe Workfront stelt organisaties in staat hun werk te beheren om een efficiën
 
 Het begrip hoe te om uw bedrijfsproces aan deze voorwerpen in kaart te brengen zal belangrijk zijn om de verhouding tussen Workfront en Marketo Engage te begrijpen.
 
-![](assets/overview-2.png)
+![Begrijpen hoe marketinginitiatieven in Workfront worden weergegeven](assets/overview-2.png){zoomable=&quot;yes&quot;}
 
 ### Portfolio-hiërarchie gedefinieerd {#portfolio-hierarchy-defined}
 
@@ -115,7 +115,7 @@ Het bedrijf Zeplin geeft een bijgewerkte versie van één van hun compacte hulpp
 
 In de onderstaande hiërarchie ziet u hoe de strategie, de tactiek, de taken en de middelen aan Workfront zijn toegewezen voor deze marketingcampagne.
 
-![](assets/overview-3.png)
+![Voorbeeld van werkbeheer voor marketinginitiatieven](assets/overview-3.png){zoomable=&quot;yes&quot;}
 
 ## Workfront toewijzen aan Marketo {#mapping-workfront-to-marketo}
 
@@ -129,7 +129,7 @@ Met Workfront Fusion als integratielaag kunt u uw projecten in Workfront toewijz
 
 Hieronder ziet u een voorbeeld van hoe een Programma veelvoudige projecten kan omvatten en hoe die Projecten van Workfront aan Programma&#39;s in Marketo Engage kunnen in kaart brengen.
 
-![](assets/overview-4.png)
+![Workfront-projecten toewijzen aan Marketo Engage-programma&#39;s](assets/overview-4.png){zoomable=&quot;yes&quot;}
 
 U kunt een groot marketinginitiatief starten waarvoor meerdere Workfront-projecten in een Workfront-programma moeten worden gehuisvest, of u hebt een eenmalige aanvraag voor een webinar of e-mail waarvoor slechts één Workfront-project nodig is. Wat uw behoeften ook zijn, met Workfront, Workfront Fusion en Marketo Engage, uw team beschikt over de flexibiliteit om uw ontwikkelingsproces van de campagne naadloos te integreren, van planning tot uitvoering.
 
