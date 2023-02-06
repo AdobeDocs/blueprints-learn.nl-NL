@@ -5,9 +5,9 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ Zie de volgende documentatie voor richtlijnen over implementatie en configuratie
 
 ## Architectuur voor Customer Journey Analytics blauwdrukken
 
-![Architectuurdiagram](assets/CJA_RTCDP.svg)
+![Architectuurdiagram](assets/CJA_RTCDP.svg){zoomable=&quot;yes&quot;}
 
 ## Guardraildiagram voor Customer Journey Analytics-blauwdrukken
 
 * Voor gedetailleerde instructies en eindlatenties raadpleegt u de [document met implementatiehandleidingen](../experience-platform/deployment/guardrails.md)
 
-![Guardraildiagram](../experience-platform/assets/CJA_guardrails.svg)
+![Guardraildiagram](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
 
 ## Veelgestelde vragen
 

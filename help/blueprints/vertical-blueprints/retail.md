@@ -4,7 +4,7 @@ description: Lever real-time, klantenervaringen over digitale media, e-mail, duw
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
@@ -38,4 +38,4 @@ Deze geïntegreerde ervaringszaken probeerden de volledige klantenreis aan te pa
 
 ### Blauwdrukarchitectuur
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="miniatuurafbeelding voor een detailhandelsbedrijf dat real-time, klantervaringen levert op verschillende digitale media, e-mail, push en webkanalen" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="miniatuurafbeelding voor een detailhandelsbedrijf dat real-time, klantervaringen levert op verschillende digitale media, e-mail, push en webkanalen" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en" class="modal-image" /></a>

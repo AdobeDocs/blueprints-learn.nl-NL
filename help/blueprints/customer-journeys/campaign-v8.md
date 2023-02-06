@@ -3,10 +3,10 @@ title: Campagne v8 blauwdruk, campagne en Platform
 description: Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor traditionele marketing kanalen zoals e-mail en direct mail wordt gebouwd. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma's met een centrale focus op batchgeoriënteerde reizen.  Het komt ook met een scalable Real-Time overseinenserver worden verbonden die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor dingen zoals het terugstellen van het wachtwoord, orderbevestiging, e-ontvangstbewijzen en veel meer worden gebaseerd.
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor traditionele m
 
 ## Architectuur
 
-<img src="assets/campaign-v8-architecture.svg" alt="Referentiearchitectuur voor blauwdruk van campagne v8" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/campaign-v8-architecture.svg" alt="Referentiearchitectuur voor blauwdruk van campagne v8" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -37,7 +37,7 @@ Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor traditionele m
 
 | Scenario | Beschrijving | Mogelijkheden |
 | :-- | :--- | :--- |
-| [Real-time Customer Data Platform met Adobe Campaign](rtcdp-and-campaign-v8.md) | Toon hoe de Adobe Experience Platform en zijn Real-Time Klantprofiel en gecentraliseerd segmenteringshulpmiddel met Adobe Campaign kunnen worden gebruikt om gepersonaliseerde gesprekken te leveren | <ul><li>Delen van profielen en soorten publiek van de Real-Time CDP naar Adobe Campaign via de workflows voor het uitwisselen van bestanden voor cloudopslag en Adobe Campaign-opname </li><li>Eenvoudig leverings- en interactiegegevens delen uit gesprekken van klanten terug naar de Real-Time CDP vanuit Adobe Campaign om zowel het Real-Time Klantprofiel te verbeteren als rapportage over communicatiecampagnes via meerdere kanalen te verzorgen</li></ul> |
+| [Real-time Customer Data Platform met Adobe Campaign](rtcdp-and-campaign-v8.md) | Toont hoe Adobe Experience Platform met zijn realtimeklantprofiel en gecentraliseerde segmenteringstool met Adobe Campaign kunnen worden gebruikt om gepersonaliseerde gesprekken te leveren | <ul><li>Delen van profielen en soorten publiek van de Real-Time CDP naar Adobe Campaign via de workflows voor het uitwisselen van bestanden voor cloudopslag en Adobe Campaign-opname </li><li>Eenvoudig leverings- en interactiegegevens delen uit gesprekken van klanten terug naar de Real-Time CDP vanuit Adobe Campaign om zowel het Real-Time Klantprofiel te verbeteren als rapportage over communicatiecampagnes via meerdere kanalen te verzorgen</li></ul> |
 | [Journey Optimizer met Adobe Campaign](ajo-and-campaign.md) | Toont hoe u Adobe Journey Optimizer kunt gebruiken om 1:1 ervaringen te ordenen gebruikend het Real-Time Profiel van de Klant en hefboomwerking het inheemse systeem van het de transactionele overseinen van Adobe Campaign om het bericht te verzenden | Gebruik het Real-Time Klantprofiel en de macht van Journey Optimizer om in de huidige ervaringen te ordenen terwijl het gebruiken van de inheemse mogelijkheden van het Overseinen in real time van Adobe Campaign om de laatste mijl mededeling te doen<br><br>Overwegingen:<br><ul><li>Kan tot 1M berichten per uur via de Echte - tijd server van het Bericht verzenden<li>Er wordt geen vertraging uitgevoerd vanuit Journey Optimizer, zodat technische controles door een pre-Sales Enterprise Architect worden uitgevoerd</li><li>Beslissingsbeheer wordt niet ondersteund in pakketten naar campagne v8</li></ul> |
 
 <br>

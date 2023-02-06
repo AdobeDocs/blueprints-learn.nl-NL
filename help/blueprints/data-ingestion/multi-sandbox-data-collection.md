@@ -4,7 +4,7 @@ description: Verzamelde gegevens door Experience Platform-SDK's streamen naar me
 solution: Data Collection
 kt: 7202
 exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Uw bestemmingsdropbox zou een gevormde het stromen van HTTP Eindpunt nodig hebbe
 
 ## Architectuur
 
-<img src="assets/multi-Sandbox-Data-Collection.svg" alt="Referentiearchitectuur voor doorsturen van gebeurtenissen met meerdere sandboxen" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/multi-Sandbox-Data-Collection.svg" alt="Referentiearchitectuur voor doorsturen van gebeurtenissen met meerdere sandboxen" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 1. Auteurs van tags definiëren zowel een eigenschap tag als een eigenschap voor het doorsturen van gebeurtenissen. Hier, zullen de auteurs de gegevenselementen, de regels en de acties bepalen die gegevensinzameling beheren. Houd in mening, de looppas van de code van het markeringsbezit op de cliënt en door een Gastheer CDN wordt verdeeld. De door:sturen van de Gebeurtenis de code van het Bezit loopt op de Server van Adobe Edge.
 

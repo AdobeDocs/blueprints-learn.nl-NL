@@ -1,12 +1,12 @@
 ---
 title: Blauwdrukken voor digitale ervaring
-description: De blauwdrukken van de digitale ervaring zijn herhaalbare implementaties om strategie te richten en gevestigde bedrijfsproblemen op te lossen. Ze versnellen tijd tot waarde en bieden een snelle weg naar succes.
+description: De blauwdrukken van de digitale ervaring zijn herhaalbare implementaties om strategie te richten en gevestigde bedrijfsproblemen op te lossen. Ze versnellen de tijd-naar-waarde en bieden een snelle weg naar succes.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -38,17 +38,17 @@ De blauwdrukken van de digitale ervaring zijn herhaalbare implementaties die u s
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><img alt="miniatuurafbeelding voor de triggated Messaging and Experience Platform Blueprint" src="customer-journeys/assets/ajo-architecture.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><img alt="miniatuurafbeelding voor de triggated Messaging and Experience Platform Blueprint" src="customer-journeys/assets/ajo-architecture.svg" class="modal-image" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Cross-Channel Orchestration</strong></a></div>
     <p><em>Verzend berichten en beïnvloedt klantenervaringen in real time gebruikend [!UICONTROL Platform] als centrale hub.</em></p>
   </td>
   <td>
-    <a href="/help/blueprints/audience-activation/known.md"><img alt="miniatuurafbeelding voor de bekende blauwdruk voor activering door klant" src="audience-activation/assets/known_activation.svg" /></a>
+    <a href="/help/blueprints/audience-activation/known.md"><img alt="miniatuurafbeelding voor de bekende blauwdruk voor activering door klant" src="audience-activation/assets/known_activation.svg" class="modal-image" /></a>
     <div><a href="/help/blueprints/audience-activation/known.md"><strong>Bekende activering van klant</strong></a></div>
     <p><em>Lever publiek-geactiveerde dwars-kanaalreclame.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><img alt="miniatuurafbeelding voor de blauwdruk voor gegevensconsolidatie voor Digital Behavioral" src="customer-journey-analytics/assets/CJA.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><img alt="miniatuurafbeelding voor de blauwdruk voor gegevensconsolidatie voor Digital Behavioral" src="customer-journey-analytics/assets/CJA.svg" class="modal-image" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>Reisanalyse Kanaal</strong></a></div>
     <p><em>Eén geconsolideerde weergave van het gedrag van klanten op verschillende kanalen hebben.</em></p>
   </td>

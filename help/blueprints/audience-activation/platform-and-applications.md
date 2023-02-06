@@ -4,7 +4,7 @@ description: Profielen en publiek in Experience Platform beheren en deze delen m
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Zie de [Sectie Experience Platform- en toepassingsarchitectuur](https://experien
 
 ### Activering van publiek en profiel met Experience Cloud-toepassingen
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Referentiearchitectuur voor de activering van publiek en profiel met Experience Cloud-toepassingen" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Referentiearchitectuur voor de activering van publiek en profiel met Experience Cloud-toepassingen" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 <br>
 
 ## Guardrails

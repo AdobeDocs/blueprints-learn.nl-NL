@@ -4,7 +4,7 @@ description: "[!UICONTROL Klantprofiel in realtime] raadplegingen om context voo
 solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 4b09d5e43dba53df2f066917f95eae0f74191de8
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Met dit vermogen, kon u rijke context oppervlakte wanneer een klant uw vraagcent
 
 ## Architectuur
 
-<img src="assets/customer_activity_hub.svg" alt="De Architectuur van de verwijzing voor de Vervaging van de Hub van de Activiteit van de Klant" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
+<img src="assets/customer_activity_hub.svg" alt="De Architectuur van de verwijzing voor de Vervaging van de Hub van de Activiteit van de Klant" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 ## Guardrails
 

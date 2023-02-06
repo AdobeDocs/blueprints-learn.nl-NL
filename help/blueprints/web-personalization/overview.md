@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Het Web en de Mobiele Personalisering richt de capaciteit om profiel en publieks
 
 ### Bekend diagram met cursiegids voor klantpersonalisatie
 
-<img src="assets/personalization_guardrails.svg" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
+<img src="assets/personalization_guardrails.svg" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 ## Gerelateerde blogberichten
 

@@ -2,9 +2,9 @@
 title: Opname en ontwerp maken
 description: Inname en Maken - De voorzieningsketen van de Campagne optimaliseren met Marketo en Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1313'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Om deze integratie te bereiken, zult u Workfront Fusion, een werkautomatiserings
 
 Hieronder ziet u een aanvraag voor een webinar die door een campagnemanager wordt gemaakt met behulp van een Workfront-aanvraagformulier. De details die in het verzoek worden ingediend, activeren vervolgens een programma en e-mail die in Marketo Engage voor het webinar worden gemaakt. Bovendien worden gegevens uit het aanvraagformulier opgehaald om de inhoud van de e-mail te vullen.
 
-![](assets/intake-and-create-1.png)
+![Opname en ontwerp maken](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
 
 >[!TIP]
 >
