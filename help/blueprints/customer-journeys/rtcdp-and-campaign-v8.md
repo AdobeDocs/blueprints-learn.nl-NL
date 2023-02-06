@@ -1,18 +1,18 @@
 ---
 title: Real-Time CDP met Adobe Campaign v8-integratiepatroon
 description: Toont hoe de Adobe Experience Platform en zijn Real-Time Klantprofiel en gecentraliseerd segmenteringshulpmiddel met Adobe Campaign v8 kunnen worden gebruikt om gepersonaliseerde gesprekken te leveren.
-solution: Real-Time Customer Data Platform, Campaign
+solution: Real-time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 # Real-Time CDP met Adobe Campaign v8-integratiepatroon
 
-Toont hoe de Adobe Experience Platform en zijn Real-Time Klantprofiel en gecentraliseerd segmenteringshulpmiddel met Adobe Campaign kunnen worden gebruikt om gepersonaliseerde gesprekken te leveren.
+Toont hoe Adobe Experience Platform met zijn realtimeklantprofiel en gecentraliseerde segmenteringstool met Adobe Campaign kunnen worden gebruikt om gepersonaliseerde gesprekken te leveren.
 
 <br>
 

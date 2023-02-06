@@ -1,10 +1,10 @@
 ---
 title: Activering van publiek en profiel met blauwdruk voor Experience Cloud-toepassingen
 description: Profielen en publiek in Experience Platform beheren en deze delen met Experience Cloud-toepassingen.
-solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Zie de [Sectie Experience Platform- en toepassingsarchitectuur](https://experien
 
 ### Activering van publiek en profiel met Experience Cloud-toepassingen
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Referentiearchitectuur voor de activering van publiek en profiel met Experience Cloud-toepassingen" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Referentiearchitectuur voor de activering van publiek en profiel met Experience Cloud-toepassingen" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 <br>
 
 ## Guardrails

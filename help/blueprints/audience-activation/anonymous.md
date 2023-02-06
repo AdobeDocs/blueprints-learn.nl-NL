@@ -1,15 +1,15 @@
 ---
 title: Anonieme Audience Activation blauwdruk
-description: Leer om publiek over Web en reclamekanalen te richten die op anonieme en gedragsklantengegevens worden gebaseerd. Deze capaciteit laat gepersonaliseerde en verenigbare klantenervaringen in real time over apparaten toe.
-landing-page-description: Leer om publiek over Web en reclamekanalen te richten die op anonieme en gedragsklantengegevens worden gebaseerd.
+description: Leer doelgroepen te targeten via web- en reclamekanalen die op anonieme en klantgedraggegevens worden gebaseerd. Dit maakt gepersonaliseerde en consistente klantenervaringen in real time op verschillende apparaten mogelijk.
+landing-page-description: Leer doelgroepen te targeten via web- en reclamekanalen die op anonieme en klantgedraggegevens worden gebaseerd.
 solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 4b09d5e43dba53df2f066917f95eae0f74191de8
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -35,7 +35,7 @@ Microsoft Bing, Google DV360, en TradeDesk zijn de belangrijkste gesteunde recla
 
 ## Architectuur
 
-<img src="assets/anonymous_activation.svg" alt="Referentiearchitectuur voor de anonieme blauwdruk Audience Activation" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/anonymous_activation.svg" alt="Referentiearchitectuur voor de anonieme blauwdruk Audience Activation" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 
 <br>
 

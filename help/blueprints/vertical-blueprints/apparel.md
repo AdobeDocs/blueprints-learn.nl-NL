@@ -1,10 +1,10 @@
 ---
 title: Apparel Industry - Activering met Experience Cloud-toepassingen
 description: Gebruikte veelvoudige Blauwdrukken om marketing in real time, dwars-kanaalactivering, en dwars-kanaalanalyse toe te laten.
-solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
