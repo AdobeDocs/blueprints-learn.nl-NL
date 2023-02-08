@@ -4,7 +4,7 @@ description: Activering van publiek en profiel naar Enterprise-doelen
 solution: Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: 0d1bb41eb6b70be7c3c8a3196c9974a0d7807404
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Profiel- en publiekswijzigingen en gebeurtenissen in streaming of batch delen va
 
 ## Architectuur
 
-<img src="assets/enterprise_destination_activation.svg" alt="Referentiearchitectuur voor het activeringsscenario voor ondernemingen" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+<img src="assets/known_activation.svg" alt="Referentiearchitectuur voor het activeringsscenario voor ondernemingen" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 
 ## Guardrails

@@ -1,14 +1,14 @@
 ---
 title: Blauwdrukken voor activering van publiek en profiel
-description: Zorg ervoor dat het publiek geactiveerd is en maak een profiel van centric Customer Experience met Real-time Customer Data Platform ​.
+description: Lever doelgroepgeactiveerde en profielgerichte klantervaringen met Real-time Customer Data Platform.
 solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '872'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

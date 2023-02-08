@@ -3,7 +3,7 @@ title: Afstemmen van segment, blauwdruk
 description: Meer informatie over [!UICONTROL Segmentovereenkomst] voor Adobe Experience Platform (AEP). [!UICONTROL Segmentovereenkomst] is een dienst van de gegevenssamenwerking die u toelaat om segmentgegevens uit te wisselen die op gemeenschappelijke industrie herkenningstekens op een beveiligde, beheerde, en privacy-vriendelijke manier worden gebaseerd.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '1774'
 ht-degree: 0%
