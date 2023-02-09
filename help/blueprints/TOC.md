@@ -1,19 +1,19 @@
 ---
-user-guide-title: Digitale beleving blauwdrukken
+user-guide-title: Blauwdrukken voor digitale ervaringen
 breadcrumb-title: Blauwdrukken
-user-guide-description: De blauwdrukken zijn herhaalbare implementaties om gevestigde bedrijfsproblemen aan te pakken en architectuurdiagrammen, technische overwegingen, en relevante documentatiekoppelingen te bevatten.
+user-guide-description: Blauwdrukken zijn herhaalbare implementaties om vastgestelde bedrijfsproblemen aan te pakken en bevatten architectuurdiagrammen, technische overwegingen en relevante documentatiekoppelingen.
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 374f3afa12611b21121e9bfe2fd906342ba1ea4f
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 4%
+source-wordcount: '250'
+ht-degree: 21%
 
 ---
 
 
-# Digitale beleving blauwdrukken {#architecture}
+# Blauwdrukken voor digitale ervaringen {#architecture}
 
 + [Overzicht](/help/blueprints/overview.md)
 + Verticale industrie blauwdrukken{#vertical-blueprints}
@@ -35,9 +35,7 @@ ht-degree: 4%
    + [Anonieme Audience Activation (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + Bekende activering van de Klant (RTCDP) {#known-customer-audience-activation}
       + [Overzicht](/help/blueprints/audience-activation/known.md)
-      + Activering op sociale en advertentiekanalen{#audience-activation}
-         + [Activering voor aangepast publiek van Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
-         + [Activering voor Google Customer Match](/help/blueprints/audience-activation/destinations/gcm.md)
+      + [Activering op sociale en advertentiekanalen](/help/blueprints/audience-activation/advertising-activation.md)
       + [Activering voor streaming van bestanden en bedrijven](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Hub voor klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)
       + [Segmentovereenkomst](/help/blueprints/audience-activation/segment-match.md)
@@ -66,12 +64,12 @@ ht-degree: 4%
    + Campaign Standard{#campaign-standard}
       + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html){target="_blank"}
       + [Real-Time CDP met Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html){target="_blank"}
-   + Campagne v8{#campaign-v8}
-      + [Campagne v8](/help/blueprints/customer-journeys/campaign-v8.md)
+   + Campaign v8{#campaign-v8}
+      + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
       + [Real-Time CDP met Adobe Campaign v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
       + [Journey Optimizer met Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
-   + Campagne v7{#campaign-v7}
-      + [Campagne v7](/help/blueprints/customer-journeys/campaign-v7.md)
+   + Campaign v7{#campaign-v7}
+      + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP met Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer met Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + Gegevensverzameling, Toegang en Exporteren{#data-ingestion}
