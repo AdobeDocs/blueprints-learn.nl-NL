@@ -2,7 +2,7 @@
 title: Verhalen over succes in de sector van de digitale beleving
 description: De succesverhalen van Digital Experience Blueprints laten zien hoe verschillende industrieën hun bedrijfswaarde realiseren met Adobe Experience Cloud Applications, aangedreven door Adobe Experience Platform.
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -18,10 +18,10 @@ Leer hoe klanten geweldige ervaringen opdoen en succesvol zijn met Digital Exper
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html"><img alt="miniatuurafbeelding voor een Apparel-industrie met behulp van activering van het publiek, analyse van klantentrontaties en blauwdrukken voor klantritten" src="../experience-platform/assets/aep+apps_vertical.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html"><img alt="miniatuurafbeelding voor een Apparel-industrie met behulp van activering van het publiek, analyse van klantentrontaties en blauwdrukken voor klantritten" src="../experience-platform/assets/aep+apps.svg" /></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html"><img alt="miniatuurafbeelding voor een detailhandelindustrie die gebruikmaakt van Activering met online/offlinegegevens en Journey Optimizer-blauwdrukken" src="../experience-platform/assets/aep+apps_vertical.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html"><img alt="miniatuurafbeelding voor een detailhandelindustrie die gebruikmaakt van Activering met online/offlinegegevens en Journey Optimizer-blauwdrukken" src="../experience-platform/assets/aep+apps.svg" /></a>
 
 </td>
   <td>
