@@ -1,8 +1,8 @@
 ---
-source-git-commit: b8709e01d7771ac9002fbc286c2d9709ef3d0ca2
+source-git-commit: 139702439c38e3bafe1aa74a129934504aa95352
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 # Bijdragen
@@ -18,7 +18,7 @@ Dit project voldoet aan de Adobe-[gedragscode](code-of-conduct.md). Als u deelne
 
 ## Documentatie voor de bijdragershandleiding
 
-Zie de [Handleiding voor bijdragers](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Zie de [Handleiding voor bijdragers](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl).
 
 ## Hebt u een vraag?
 
@@ -54,3 +54,4 @@ neem dan gerust contact op met bestaande committers om daarover te praten.
 ## Beveiligingsproblemen
 
 Beveiligingsproblemen mogen niet worden gemeld met deze probleemtracker. In plaats daarvan dient u [een probleem in bij onze beveiligingsexperts](https://helpx.adobe.com/nl/security/alertus.html)
+
