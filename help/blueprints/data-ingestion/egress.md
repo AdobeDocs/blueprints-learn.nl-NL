@@ -4,9 +4,9 @@ description: Deze blauwdruk biedt een overzicht van alle methoden waarmee gegeve
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 730b73e56391b8f5ec49a7f570ca32c5cbc65aec
+source-git-commit: f22ff4ac15b21592226f6645ab28f30473996776
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2052'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,307 @@ Methoden voor het exporteren van gegevens:
 ## Overzichtsarchitectuur voor gegevenstoegang en export
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="Referentiearchitectuur voor de blauwdruk voor gegevensvoorbereiding en insluiting" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
+
+## Methoden voor gegevenstoegang en exporteren
+
+<table cellspacing="0" class="Table" style="border-collapse:collapse; width:1133px">
+<tbody>
+<tr>
+<td colspan="4" style="background-color:#308fff; border-bottom:4px solid white; border-left:1px solid white; border-right:1px solid white; border-top:1px solid white; height:39px; vertical-align:top; width:1133px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="color:black">Streaming doelen</span></strong></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Methode</span></span></span></p>
+</td>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Vaak Gebruik</span></span></span></p>
+</td>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Protocollen</span></span></span></p>
+</td>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Overwegingen</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=en" style="color:#0563c1; text-decoration:underline">Gebeurtenis doorsturen</a></span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Doorsturen van onbewerkte gegevens die van SDK's van Adobe zijn verzameld voor analyse en verzameling naar bedrijfssystemen</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Lichtgewicht labelen voor 3<sup>rd</sup> gegevensverzameling van partijen via extensies</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">JSON</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">REST API</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Raw-gebeurtenissen op laag niveau</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Geen samenvoegings- of eerdere recordcontext toegevoegd</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/destination-types.html?lang=en#:~:text=containing%20profile%20exports.-,Streaming%20segment%20export%20bestemmingen,-Segment%20export%20bestemmingen" style="color:#0563c1; text-decoration:underline">RTCDP - Het stromen Segment voert uit</a></span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Activeer het publiek van RTCDP tot marketing en reclame, systemen..</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">JSON</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">REST API</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Geaggregeerde gegevens die het lidmaatschap van het publiek vertegenwoordigen</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Geen activering van onbewerkte ervaringsgebeurtenisgegevens</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/destination-types.html?lang=en#:~:text=file%2Dbased)%20destinations-,Streaming%20profile%20export%20destinations%20(enterprise%20destinations),-IMPORTANT" style="color:#0563c1; text-decoration:underline">RTCDP - Profielen exporteren</a></span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Gebruik RTCDP-rijke gedragsprofielen en -soorten om de ervaringen en marketing van consumenten te verbeteren.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Activeer publiek- en profielkenmerken van RTCDP tot marketing en reclame, systemen die op publiek en profielkenmerken werken. </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Activeer AEP-profielen voor leveranciers van e-mailservices, systemen voor het verzorgen van leads en CRM.</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">JSON</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">REST API</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Geaggregeerde gegevens over publiekslidmaatschap en kenmerken van profielrecords</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Geen activering van onbewerkte ervaringsgebeurtenisgegevens</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en" style="color:#0563c1; text-decoration:underline">RTCDP - Aanpassingsdoelen</a></span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Toegang tot het profiel van de Klant in real time in browser en cliëntervaring om cliëntzijpersonalisatie te verrijken. </span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">JSON</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Vereist plaatsing van WebSDK</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/destination-sdk/overview.html?lang=en" style="color:#0563c1; text-decoration:underline">RTCDP - Destination SDK</a></span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Vorm een aangepaste bestemmingskaart in de bestemmingen RTCDP.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Ondersteunt bestands- en streamingdoelen</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">JSON</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">CSV</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Staat partners en merken toe om de kaarten van de douanebestemming te vormen</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=en" style="color:#0563c1; text-decoration:underline">RTCDP - Profile Lookup Hub API</a></span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Het profiel van de toegang om de ervaringen van de consument voor agent bijgewoonde ervaringen zoals steun of verkoopagent interactie te verrijken.</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Draaien</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">JSON</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">REST API</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">De raadpleging van de hub ideaal voor &gt;500ms+ gebruiksgevallen slechts</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:240px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP - Fase API* Beta voor pagina opzoeken van profiel</span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:467px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Open het profiel aan de rand om de ervaringen van de consument in real-time &lt;200ms-ervaringen zoals personalisatie te verrijken of beslissingen op het web en mobiel aan te bieden.</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:144px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Draaien</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">JSON</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">REST API</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:282px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Voor real time ervaringen en server aan serverintegratie</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-custom-actions.html?lang=en" style="color:#0563c1; text-decoration:underline">Aangepaste Journey Optimizer-handelingen</a></span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Activering van 1:1-reisgebeurtenissen en triggers om een extern systeem op de hoogte te brengen. Winkelbakken, toepassing wordt verlaten, registratie.</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">JSON</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">REST API</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Activering van één gebeurtenis voor een bepaald profiel. Niet voor aggregatie- of bulkbewerkingen</span></span></span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p>
+
+<table cellspacing="0" class="Table" style="border-collapse:collapse; width:1132px">
+<tbody>
+<tr>
+<td colspan="4" style="background-color:#308fff; border-bottom:4px solid white; border-left:1px solid white; border-right:1px solid white; border-top:1px solid white; height:39px; vertical-align:top; width:1132px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="color:black">Batchbestemmingen</span></strong></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:245px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Methode</span></span></span></p>
+</td>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:462px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Vaak Gebruik</span></span></span></p>
+</td>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Protocollen</span></span></span></p>
+</td>
+<td style="background-color:#969696; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:281px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Overwegingen</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:245px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=en" style="color:#0563c1; text-decoration:underline">API voor gegevenstoegang</a></span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:462px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Toegang tot onbewerkte gegevens voor gegevenswetenschap en XML-workflows buiten het Experience Platform.</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Draaien</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">REST API</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Parketbestanden</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:281px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Vereist ontwikkelingsprocessen om tot parketdossiers in bruikbare datasets toegang te hebben en te verwerken</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:245px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en" style="color:#0563c1; text-decoration:underline">Query-service</a></span></span></span></p>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:462px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Blijft vraagresultaten van datasets, voor samengevoegde inzicht en rapportering. </span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Draaien</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">PostgreSQL </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">SQL-client</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:281px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Alleen geaggregeerde gegevens. Zoeklimiet van 10 minuten.</span></span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:245px">
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en" style="color:#0563c1; text-decoration:underline">Dataset exporteren* bèta</a></span></span></span></p>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:462px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">De gebeurtenisgegevens van het Experience Platform van de uitvoer voor toegang in externe rapportering, analyse, en de hulpmiddelen van de gegevenswetenschap. </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Uitvoer van samengevoegde profielinzichten en publiekslidmaatschap voor externe rapportering, analyse, en de hulpmiddelen van de gegevenswetenschap. </span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">REST API </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">CSV</span></span></span></li>
+</ul>
+</td>
+<td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:281px">
+<ul style="list-style-type:square">
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Momenteel in bèta, beginnend met ondergroep van datasettypes</span></span></span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 ## Benadering voor gegevenstoegang
 
