@@ -2,15 +2,15 @@
 title: Gedragingen webpersonalisatie blauwdruk
 description: Ontdek hoe u content kunt aanpassen op basis van online gedrag en publieksdata.
 landing-page-description: Leer personaliseren op basis van online gedrag en doelgroepgegevens.
-short-description: Learn to personalize based on online behavior and audience data.
+short-description: Leer personaliseren op basis van online gedrag en doelgroepgegevens.
 solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7085
 thumbnail: thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: 3a6a98eded28baee2cbb44de2262bbd580fa0c94
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 3%
+source-wordcount: '619'
+ht-degree: 5%
 
 ---
 

@@ -2,15 +2,15 @@
 title: Anonieme Audience Activation blauwdruk
 description: Leer doelgroepen te targeten via web- en reclamekanalen die op anonieme en klantgedraggegevens worden gebaseerd. Dit maakt gepersonaliseerde en consistente klantenervaringen in real time op verschillende apparaten mogelijk.
 landing-page-description: Leer doelgroepen te targeten via web- en reclamekanalen die op anonieme en klantgedraggegevens worden gebaseerd.
-short-description: Learn to target audiences across web and advertising channels based on anonymous and behavioral customer data.
+short-description: Leer doelgroepen te targeten via web- en reclamekanalen die op anonieme en klantgedraggegevens worden gebaseerd.
 solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: 3a6a98eded28baee2cbb44de2262bbd580fa0c94
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 11%
+source-wordcount: '396'
+ht-degree: 14%
 
 ---
 
