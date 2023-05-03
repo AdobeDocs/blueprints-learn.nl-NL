@@ -1,12 +1,12 @@
 ---
 title: Blauwdrukken voor digitale ervaring
-description: De blauwdrukken van de digitale ervaring zijn herhaalbare implementaties om strategie te richten en gevestigde bedrijfsproblemen op te lossen. Ze versnellen de tijd-naar-waarde en bieden een snelle weg naar succes.
+description: Blauwdrukken van digitale ervaringen zijn herhaalbare implementaties om strategie aan te pakken en problemen van bestaande bedrijven op te lossen. Ze versnellen de tijd-naar-waarde en bieden een snelle weg naar succes.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
