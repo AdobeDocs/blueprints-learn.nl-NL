@@ -3,7 +3,7 @@ title: Journey Optimizer - blauwdruk voor communicatie van derden
 description: Toont aan hoe Adobe Journey Optimizer met de systemen van het derdeoverseinen kan worden gebruikt om gepersonaliseerde mededelingen te ordenen en te verzenden.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: 342b039e62ff3a8fc8a42cf292f4fc28781c21de
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -112,7 +112,12 @@ Communicatiesysteem van derden
    * Identiteit voor Edge Network
    * Mobiele kern
 1. Zorg ervoor dat u beschikt over een specifieke gegevensstroom voor implementatie van mobiele apps versus webimplementaties
-1. Voor meer informatie volgt u de [Adobe Journey Optimizer Mobile-gids](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
+1. Voor meer informatie volgt u de [Adobe Journey Optimizer Mobile-gids](https://developer.adobe.com/client-sdks/documentation/mobile-foundation-extensions/)
+
+<!--
+This step with a broken link was replaced by above step.
+1. For more information follow the [Adobe Journey Optimizer Mobile Guide](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
+-->
 
 <br>
 
