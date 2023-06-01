@@ -5,10 +5,10 @@ user-guide-description: Blauwdrukken zijn herhaalbare implementaties om vastgest
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 374f3afa12611b21121e9bfe2fd906342ba1ea4f
+source-git-commit: 079c2e6deeeea0ede0f71a8bdda7e9b9f4d9084c
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 21%
+source-wordcount: '256'
+ht-degree: 20%
 
 ---
 
@@ -74,6 +74,7 @@ ht-degree: 21%
       + [Journey Optimizer met Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + Gegevensverzameling, Toegang en Exporteren{#data-ingestion}
    + [Overzicht](/help/blueprints/data-ingestion/overview.md)
+   + [Multi Sandbox-gebeurtenis die gegevensverzameling doorstuurt](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)
    + [Voorbereiding en inname van gegevens](/help/blueprints/data-ingestion/ingestion.md)
    + [Toegang tot gegevens en exporteren](/help/blueprints/data-ingestion/egress.md)
    + [Gebeurtenis doorsturen](/help/blueprints/data-ingestion/server-side-collection.md)
