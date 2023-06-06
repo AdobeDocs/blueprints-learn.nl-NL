@@ -2,9 +2,9 @@
 title: Overzicht van de integratieblauwdruk van Marketo Engage en Workfront
 description: Overzicht van de integratieblauwdruk van Marketo Engage en Workfront
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
+source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1769'
 ht-degree: 0%
 
 ---
@@ -147,11 +147,9 @@ Nu u een fundamenteel inzicht hebt in hoe Workfront en Marketo Engage nieuwe eff
 
 ### Aan de slag met Workfront Fusion-, Workfront- en Marketo Engage-integratie {#getting-started-with-workfront-fusion}
 
-* [Innemen en maken](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target="_blank"} - Automatisering van de ontwikkeling van campagnes met Marketo Engage en Workfront
+* [Innemen en maken](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} - Automatisering van de ontwikkeling van campagnes met Marketo Engage en Workfront
 
 * Bewijs en goedkeuring (binnenkort beschikbaar)
-
-* Rapport en audit (binnenkort beschikbaar)
 
 ### Namen van Marketo Engage-campagnes en de bijbehorende URL&#39;s beheren {#managing-marketo-engage-campaign-names}
 
