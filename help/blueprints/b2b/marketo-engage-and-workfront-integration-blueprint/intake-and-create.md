@@ -2,7 +2,7 @@
 title: Opname en ontwerp maken
 description: Inname en maken - Marketo Engage en Workfront-integratieblauwdruk
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
+source-git-commit: c4ab702cafa0dcacc4b3919bf70af0c50fa6bea8
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Hieronder ziet u een aanvraag voor een webinar die door een campagnemanager word
 
 >[!TIP]
 >
->Als u meer wilt weten over de verschillende typen objecten in Workfront die worden gebruikt voor het organiseren van de marketingcampagne en over de manier waarop deze zijn toegewezen aan een Marketo Engage-programma, bekijkt u de [Overzicht Marketo en Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}.
+>Als u meer wilt weten over de verschillende typen objecten in Workfront die worden gebruikt voor het organiseren van de marketingcampagne en over de manier waarop deze zijn toegewezen aan een Marketo Engage-programma, bekijkt u de [Overzicht Marketo en Workfront](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}.
 
 ## Bereid uw campagneontwikkelingsproces voor automatisering voor {#prepare-your-campaign-development-process-for-automation}
 
@@ -157,4 +157,4 @@ Hier is een voorbeeld van hoe de werkschemalogica in Fusion kan worden samengest
 
 * [Adobe Workfront-modules](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target="_blank"}
 
-* [Overzicht Marketo en Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}
+* [Overzicht Marketo en Workfront](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}
