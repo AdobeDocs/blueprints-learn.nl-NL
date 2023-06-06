@@ -4,9 +4,9 @@ description: Lever real-time, klantenervaringen over digitale media, e-mail, duw
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
+source-git-commit: f03981dd3fe6ed9e60d2e60ca4eb91e129052a73
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -24,18 +24,53 @@ Deze geïntegreerde ervaringszaken probeerden de volledige klantenreis aan te pa
 
 | Doelen | Tactiek | Waarde ontgrendeld |
 |---|---|---|
-| **Realtime klantreizen ordenen **<br></br>**Aankopen van nieuwe klanten herhalen **<br></br>**Verbeter marketing efficiency en verminder media kosten**</ul> | <ul><li>Robuuste gegevens- en identiteitsstrategie om een alomvattend real-time profiel te voeden.</li><li>Klant en transactionele gegevensstreaming in real-time inclusief een historische belasting van 90 dagen</li><li>Segmentering streamen naar Google en Adobe Target om media-uitgaven en personaliseringsinspanningen te stimuleren.</li><li>Realtime klantritten door Adobe Campaign die een strategie omvatten om prestaties te meten</li></ul> | <ul><li><strong>Real-time Customer Data Platform:</strong> In real-time, ervaringen van klanten op verschillende media, e-mail, push en het web</li><li><strong>Gegevensbronnen:</strong> Streaming gegevens over de profielopslag, het bestelsysteem, de productcatalogus en de detailhandel van deze detailhandelaar.</li><li><strong>Real-time media activeren:</strong>Segmenten streamen naar Google-media voor attributie en onderdrukking van advertenties</li><li><strong>Aanpassing in realtime web:</strong>Streaming segmenten naar Adobe Target om de webbeleving van detailhandelaren te activeren.</li><li><strong>Journey Orchestration op schaal:</strong>Berichten in real-time geactiveerd, verrijkt met alle beschikbare klantgegevens en real-time activeren in e-mail en pushkanalen</li></ul> |
+| **Realtime klantreizen ordenen **<br></br>**Aankopen van nieuwe klanten herhalen **<br></br>**Verbeter marketing efficiency en verminder media kosten**</ul> | <ul><li>Robuuste gegevens- en identiteitsstrategie om een alomvattend real-time profiel te voeden.</li><li>Klant en transactionele gegevensstreaming in real-time inclusief een historische belasting van 90 dagen</li><li>Segmentering streamen naar Advertising Networks en Adobe Target om media-uitgaven en personaliseringsinspanningen te stimuleren.</li><li>Realtime klantritten door Adobe Campaign die een strategie omvatten om prestaties te meten</li></ul> | <ul><li><strong>Real-time Customer Data Platform:</strong> In real-time, ervaringen van klanten op verschillende media, e-mail, push en het web</li><li><strong>Gegevensbronnen:</strong> Streaming gegevens over de profielopslag, het bestelsysteem, de productcatalogus en de detailhandel van deze detailhandelaar.</li><li><strong>Real-time media activeren:</strong>Streaming segmenten naar advertentienetwerken voor toewijzing en onderdrukking van advertenties</li><li><strong>Aanpassing in realtime web:</strong>Streaming segmenten geactiveerd naar Adobe Target om de webbeleving van de detailhandelaar te activeren.</li><li><strong>Journey Orchestration op schaal:</strong>Berichten in real-time geactiveerd, verrijkt met beschikbare klantgegevens en geactiveerd in real-time voor e-mail en pushkanalen</li></ul> |
 
-## Primaire blauwdruk: Publiek en activering met Experience Cloud-toepassingen
 
-### Beschrijving
+## Gebruiksmogelijkheden
 
-<ul><li>Profielen en publiek in Experience Platform beheren en deze delen met Experience Cloud-toepassingen</li><li>Bouw en deel rijke klantensegmenten en inzichten in Experience Platform en deel hen met de Toepassingen van de Experience Cloud</li></ul>
+| Categorie | Goal | Hoofdletters gebruiken | Beschrijving |
+|:----|:----|:----|:----|
+| Klantenreizen | Verwerving | Welkomstserie | Welkom nieuwe abonnees met introductie in het bedrijf, het product en de services |
+|  |  | Eerste aankoopprogramma |  |
+|  | Verkoop verbeteren | Verlaten winkelwagen/bladeren | Herstel van potentiële kopers en opdrijvende verkopen |
+|  |  | Productbeoordeling/Crossselderij | Meer objecten doorverkopen met productherzichten. |
+|  |  | Productpromoties |  |
+|  |  | Tijd voor opnieuw ordenen | Herhaling van herinnering voor cyclische producten/services |
+|  | Brand Loyalty | Win terug | Klanten herstellen die inactief zijn geweest. |
+|  |  | Verjaardagherinneringen | Bevorder een persoonlijkere relatie met uw klanten door deel van hun verjaardagsfeest te zijn! |
+| Merchandising | Inventaris beheren | Terug in voorraad | Verbeter inventaris door klanten te tonen de producten die zij gewild hebben terug in voorraad zijn |
+|  |  | Volgende beste rubriek | Beste categorieën/verkopen voor gebruikers identificeren |
+|  |  | Beste verkopers |  |
+|  |  | Herinneringen voor prijsdaling | Gebruikers laten zien dat objecten die ze leuk vinden een lagere prijs hebben |
+|  |  | Vergelijkbare producten |  |
+| Persoonlijk maken | Conversie verhogen | Coupons/voorstellen | Beste voorstellen/coupons voor klanten weergeven |
+|  |  | Persoonlijke productzoekopdracht | Zoekervaring verbeteren |
+|  |  | Product Recommendations | Ervaring met bladeren door producten verbeteren |
+|  |  | Universeel-kanaalervaring | Klanten op alle kanalen bereiken |
+| Meetlat | Klantreizen begrijpen | Campagne voor meerdere kanalen | Kanaalcampagnes meten |
+|  |  | Segmentprestaties | De prestaties en bijdrage van segmenten begrijpen |
+|  |  | Falloutrapporten | Conversies in elke fase visualiseren |
+|  |  | Cohortanalyse | De betrokkenheid van de maatregel tussen segmentgroepen |
+|  |  | Click-to-Brick-rapporten | Ontdek hoe klantconversies leiden tot ervaringen in de winkel |
+|  |  | Attributie | Weergeven welk aanraakpunt/ervaring de grootste invloed heeft op de conversie van aankopen |
+|  |  | Voorspelende inzichten | Meer informatie over klanteneigenschappen |
 
-### Experience Cloud-toepassingen
+## Architectuur
 
-<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform activeren</li><li>Experience Cloud-toepassingen</li></ul>
+<img src="../vertical-blueprints/assets/retail-architecture.png" alt="Detailreferentiearchitectuur" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
-### Blauwdrukarchitectuur
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><img alt="image voor een detailhandelsbedrijf dat real-time, klantervaringen op digitale media, e-mail, push en webkanalen levert" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps.svg?lang=en" class="modal-image" /></a>
+## Verwante blauwdrukken
+
+
+| Hoofdlettergebruik/integratie gebruiken  | Koppeling |
+|:----|:----|
+| CJA + AEP | [Overzicht van Customer Journey Analytics blauwdrukken](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html?lang=en) |
+|  | [Customer Journey Analytics - Gebruik hoofdletters](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=en) |
+| AJO + AEP | [Adobe Journey Optimizer - Kwesties gebruiken](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer.html?lang=en) |
+|  | [Beslissingsbeheer](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en) |
+| RTCDP + AEP | [Online/offline Audience Activation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en) |
+|  | [Experience Platform + activering van toepassing](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en) |
+| Marketo + AEP | [B2B-activering en marketing](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/overview.html?lang=en) |  |
+| Doel + AEP | [Adobe Target Use case - Behavioral Web/Mobile Personalization](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=en) | [Web/Mobiele Personalisatie met bekende klantengegevens](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=en) |  |
