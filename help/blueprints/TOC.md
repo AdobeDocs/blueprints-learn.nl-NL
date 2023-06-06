@@ -5,9 +5,9 @@ user-guide-description: Blauwdrukken zijn herhaalbare implementaties om vastgest
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 079c2e6deeeea0ede0f71a8bdda7e9b9f4d9084c
+source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '255'
 ht-degree: 20%
 
 ---
@@ -43,10 +43,10 @@ ht-degree: 20%
 + B2B-activering en marketing{#b2b-activation}
    + [Overzicht](/help/blueprints/b2b/overview.md)
    + [B2B-activering](/help/blueprints/b2b/b2bactivation.md)
-   + Aanvoerketen voor campagnes met Marketo en Workfront{#optimize-campaign-supply-chain-with-marketo-and-workfront}
-      + [Overzicht](/help/blueprints/b2b/campaign-supply-chain/overview.md)
-      + [Innemen en maken](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
-      + [Artikelen met succes voor klanten](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
+   + Marketo Engage en Workfront Integration Blueprint{#marketo-engage-and-workfront-integration-blueprint}
+      + [Overzicht](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
+      + [Innemen en maken](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
+      + [Artikelen met succes voor klanten](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [Overzicht](/help/blueprints/customer-journey-analytics/overview.md)
    + [CJA-publiek delen naar RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
