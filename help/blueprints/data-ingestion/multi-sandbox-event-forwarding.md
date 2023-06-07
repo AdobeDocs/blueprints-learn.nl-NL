@@ -1,64 +1,65 @@
 ---
-title: Blauwdruk van gegevensverzameling doorsturen door meerdere sandboxgebeurtenissen
-description: Leer hoe de gegevens die met het Web van het Experience Platform en Mobiele SDKs worden verzameld kunnen worden gevormd om één enkele gebeurtenis te verzamelen en aan veelvoudige Sandboxen door:sturen AEP.
+title: Het gebeurtenis-door:sturen van meerdere sandbox gegevensinzameling
+description: Leer hoe de gegevens die met het Web van het Experience Platform en Mobiele SDKs worden verzameld kunnen worden gevormd om één enkele gebeurtenis te verzamelen en aan veelvoudige zandbakken van het Experience Platform door:sturen.
 solution: Data Collection
 kt: 7202
-source-git-commit: 3410adfd978de2458d257de96a7e484997f268db
+source-git-commit: e9a9abeaa722bb2f9a232f4e861b1b5eae86edd1
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
 
 
-# Blauwdruk van gegevensverzameling doorsturen door meerdere sandboxgebeurtenissen
+# Het gebeurtenis-door:sturen van meerdere sandbox gegevensinzameling
 
-Deze blauwdruk toont hoe de gegevens die met het Web van het Experience Platform en Mobiele SDKs worden verzameld kunnen worden gevormd om één enkele gebeurtenis te verzamelen en aan veelvoudige Sandboxen door:sturen AEP. Deze blauwdruk is een specifiek gebruiksgeval voor de Verzameling van Gegevens Multi Sandbox die Gebeurtenis door:sturen gebruikt om dit doel te verwezenlijken.
+Deze blauwdruk toont hoe de gegevens die met het Web van het Experience Platform en Mobiele SDKs worden verzameld kunnen worden gevormd om één enkele gebeurtenis te verzamelen en aan veelvoudige zandbakken van AEP door:sturen. Deze blauwdruk is specifiek voor gegevensverzameling met meerdere sandboxen die [!UICONTROL Gebeurtenis doorsturen] om dit doel te bereiken.
 
-Naast het repliceren van de gebeurtenis met de door:sturen van de Gebeurtenis eigenschappen, kunt u toevoegen aan, filtreren, of de originele verzamelde gegevens manipuleren die aan vereisten voor andere zandbakken voldoen.
+Naast het repliceren van de gebeurtenis met [!UICONTROL Gebeurtenis doorsturen] kunt u de oorspronkelijk verzamelde gegevens die voldoen aan de vereisten voor andere sandboxen toevoegen, filteren of bewerken.
 
-Gebeurtenis doorsturen gebruikt een afzonderlijke eigenschap die de gegevenselementen, -regels en -extensies bevat die nodig zijn voor uw gegevensvereisten. Met een inkomende gebeurtenis, kan uw Gebeurtenis Door:sturen bezit de gegevens verzamelen en beheren zoals nodig alvorens door:sturen.
+[!UICONTROL Gebeurtenis doorsturen] gebruikt een afzonderlijke eigenschap die het [!UICONTROL Gegevenselementen], [!UICONTROL Regels], en [!UICONTROL Extensies] nodig zijn voor uw gegevensvereisten. Met een binnenkomende gebeurtenis [!UICONTROL Gebeurtenis doorsturen] het bezit kan de gegevens verzamelen en beheren zoals nodig alvorens door:sturen.
 
-Voor uw doelsandbox is een HTTP Streaming End Point vereist dat is geconfigureerd en wordt gebruikt door de extensie Adobe Cloud Connector.
+Voor uw doelsandbox is een HTTP-streamingeindpunt vereist dat door de Adobe wordt gebruikt [!UICONTROL Cloud Connector] extensie.
 
 ## Gebruik hoofdletters
 
-* Globale gegevensrapportage - Bij het gebruik van meerdere sandboxen om besturingsomgevingen te isoleren en de noodzaak om gegevensverzameling te consolideren naar één sandbox voor rapportage tussen sandboxen. Het verpletteren van een Gebeurtenis van de Rand van de Ervaring door:sturen aan een rapporteringszandbak staat elke zandbak werkende milieu toe om gegevens te verzenden aangezien het in echt - tijd aan een rapportzandbak wordt verzameld
+* Globale gegevensrapportage - Bij het gebruik van meerdere sandboxen om besturingsomgevingen te isoleren en de noodzaak om gegevensverzameling te consolideren naar één sandbox voor cross-sandboxrapportage. Het verpletteren van een Gebeurtenis van de Rand van de Ervaring door [!UICONTROL Gebeurtenis doorsturen] naar een rapportsandbox kan elke sandbox-besturingsomgeving gegevens verzenden terwijl deze in real-time worden verzameld naar een rapportsandbox.
+
 * De gegevensverzameling in verschillende sandboxen beheren op basis van verschillende gegevensregels voor elke sandbox-besturingsomgeving.
 
 ## Toepassingen
 
-* Adobe Experience Platform-gegevensverzameling
-* Gebeurtenis doorsturen
-* AEP-extensie
-* Extensie Cloud Connector
+* [!DNL Experience Platform] Gegevensverzameling
+* [!UICONTROL Gebeurtenis doorsturen]
+* AEP [!UICONTROL Extensie]
+* [!UICONTROL Extensie Cloud Connector]
 
 ## Overwegingen
 
-Met Gebeurtenis door:sturen als benadering van het verzenden van gegevens naar veelvoudige zandbakken, zijn er overwegingen die met uw oplossingsarchitectuur moeten worden in overweging genomen.
+Met [!UICONTROL Gebeurtenis doorsturen] als benadering van het verzenden van gegevens naar veelvoudige zandbakken, zijn er overwegingen die met uw oplossingsarchitectuur moeten worden in overweging genomen.
 
 ### Geen HIPAA-gegevens
 
-Gebeurtenis doorsturen wordt niet als HIPAA Ready beschouwd en mag niet worden gebruikt in HIPAA-gebruiksgevallen waarin HIPAA-gegevens worden verzameld. De infrastructuur die wordt gebruikt voor het doorgeven van gebeurtenissen wordt echter als HIPAA-klaar beschouwd en is uitsluitend naar goeddunken van de klant. Terwijl uw eigenschap van de Tag voor het doorsturen van gebeurtenissen zich in het systeem voor het doorsturen van gebeurtenissen bevindt, wordt de volledige verzamelde gegevenslading voor verwerking verzonden naar het systeem voor het doorsturen van gebeurtenissen. Dit proces maakt het doorsturen van gebeurtenissen met betrekking tot HIPAA-gebruiksgevallen. Met de volledige lading die aan het Door:sturen van de Gebeurtenis systeem wordt verscheept, zou dit om het even welke waarden van HIPAA omvatten. Alhoewel de Gebeurtenis door:sturen regels die gegevens zullen filtreren alvorens naar zijn bestemming te verzenden, dat het gegeven HIPAA nog wordt verscheept aan een niet HIPAA klaar infrastructuur. Nochtans, worden de ladingsgegevens nooit opgeslagen en is eenvoudig een pas door.
+[!UICONTROL Gebeurtenis doorsturen] wordt niet beschouwd als HIPAA Ready en mag niet worden gebruikt in HIPAA-gebruiksgevallen waarin HIPAA-gegevens worden verzameld. De voor [!UICONTROL Gebeurtenis doorsturen] wordt als HIPAA-klaar beschouwd en uitsluitend naar goeddunken van de klant. Terwijl uw [!UICONTROL Gebeurtenis doorsturen] Tageigenschap bevindt zich in het deelvenster [!UICONTROL Gebeurtenis doorsturen] het systeem, wordt de volledige verzamelde gegevens verzonden naar [!UICONTROL Gebeurtenis doorsturen] verwerkingssysteem. Het is dit proces dat [!UICONTROL Gebeurtenis doorsturen] met betrekking tot HIPAA-gebruiksgevallen. Met de volledige lading die aan wordt verscheept [!UICONTROL Gebeurtenis doorsturen] systeem, zou dit om het even welke waarden van HIPAA omvatten. Hoewel de [!UICONTROL Gebeurtenis doorsturen] De regels zullen die gegevens filtreren alvorens naar zijn bestemming te verzenden, dat het gegeven HIPAA nog wordt verscheept aan een niet HIPAA klaar infrastructuur. Nochtans, worden de ladingsgegevens nooit opgeslagen en is eenvoudig een pas door.
 
-### Verschillende gegevensstreams en streamingeindpunten
+### Verschillende gegevensstromen en het stromen eindpunten
 
-Aangezien de gegevens door de stromen van Gegevens van het Netwerk van de Rand van het Platform stromen, wanneer het gebruiken van Gebeurtenis die aan een andere zandbak door:sturen AEP, moet een HARD vereiste NOOIT het zelfde Datstream of het Streamen Eindpunt gebruiken zoals DataStream die de originele inzameling produceert. Dit kan schadelijk zijn voor het AEP-exemplaar en kan een DoS-situatie veroorzaken.
+Als de gegevens door gegevensstromen van [!UICONTROL Platform Edge Network], bij gebruik [!UICONTROL Gebeurtenis doorsturen] naar een andere AEP-sandbox, is het vereist dat u nooit dezelfde gegevensstroom of hetzelfde streamingeindpunt gebruikt als de gegevensstroom die de oorspronkelijke verzameling maakt. Dit kan schadelijk zijn voor het AEP-exemplaar en kan een DoS-situatie veroorzaken.
 
-### Geschatte verkeersvolumes
+### Geraamde verkeersvolumes
 
-Verkeersvolumes zijn vereist voor herziening met elk geval van gebruik. Dit is belangrijk, omdat grote volumes tot een vertragingssituatie kunnen leiden en klanten op de hoogte zullen worden gesteld als dit gebeurt.
+Verkeersvolumes zijn vereist voor herziening met elk geval van gebruik. Dit is belangrijk omdat grote volumes kunnen leiden tot een vertragingssituatie en klanten worden op de hoogte gesteld als dit gebeurt.
 
 ## Architectuur
 
-![Gebeurtenis met meerdere sandboxen doorsturen](assets/multi-sandbox-data-collection.png)
+![Meerdere sandboxen [!UICONTROL Gebeurtenis doorsturen]](assets/multi-sandbox-data-collection.png)
 
-1. U moet gebeurtenisgegevens verzamelen en naar het Edge Network-Platform verzenden om de gebeurtenis te kunnen doorsturen. Klanten kunnen Adobe-tags gebruiken voor client-side of de Edge Network Server-API van Platform voor server-naar-server gegevensverzameling. De Platform Edge Network API kan een server-naar-server verzamelingsmogelijkheid bieden. Hiervoor is echter wel een ander programmeringsmodel nodig. Zie [Overzicht van Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=en)
+1. Gebeurtenisgegevens verzamelen en verzenden naar de [!UICONTROL Platform Edge Network] is vereist voor gebruik [!UICONTROL Gebeurtenis doorsturen]. Klanten kunnen Adobe-tags gebruiken voor de client of de [!UICONTROL Platform Edge Network Server-API] voor server-aan-server gegevensinzameling. De [!UICONTROL Platform Edge Network API] kan een server-aan-server inzamelingsvermogen verstrekken. Hiervoor is echter wel een ander programmeringsmodel nodig. Zie [Overzicht van Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=en).
 
-1. De verzamelde nuttige lasten worden verzonden van de implementatie van Codes naar het Netwerk van de Rand van het Platform naar de dienst die van de Gebeurtenis door:sturen en door zijn eigen Elementen, Regels en Acties van Gegevens verwerkt. U kunt meer lezen over de verschillen tussen [Tags en doorsturen van gebeurtenissen](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=en#differences-from-tags).
+1. Verzamelde ladingen worden vanuit de implementatie van tags verzonden naar de [!UICONTROL Platform Edge Network] aan de [!UICONTROL Gebeurtenis doorsturen] diensten en door haar zelf worden verwerkt [!UICONTROL Gegevenselementen], [!UICONTROL Regels] en [!UICONTROL Handelingen]. U kunt meer lezen over de verschillen tussen [Tags en [!UICONTROL Gebeurtenis doorsturen]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=en#differences-from-tags).
 
-1. Een gebeurtenis die Bezit door:sturen wordt ook vereist om verzamelde gegevens van de Gebeurtenis van het Netwerk van de Rand van het Platform te ontvangen. Of die gegevens van de Gebeurtenis naar het Netwerk van de Rand van het Platform door een opgestelde implementatie van Markeringen of een server-aan-server inzameling werd verzonden. Auteurs definiëren de gegevenselementen, regels en handelingen die worden gebruikt om de gebeurtenisgegevens te verrijken voordat deze naar de tweede sandbox worden doorgestuurd. U kunt het JavaScript-gegevenselement Aangepaste code gebruiken om uw gegevens te structureren voor het opnemen van sandboxen. In combinatie met AEP Data Prep-mogelijkheden hebt u verschillende opties om uw gegevensstructuur te beheren.
+1. An [!UICONTROL Gebeurtenis doorsturen] eigenschap is ook vereist voor het ontvangen van verzamelde gebeurtenisgegevens van de [!UICONTROL Platform Edge Network]. Of die gebeurtenisgegevens naar het Netwerk van de Rand van het Platform door een opgestelde implementatie van Markeringen of een server-aan-server inzameling werden verzonden. Auteurs definiëren de gegevenselementen, regels en handelingen die worden gebruikt om de gebeurtenisgegevens te verrijken voordat deze naar de tweede sandbox worden doorgestuurd. Gebruik de aangepaste code [!DNL JavaScript] gegevenselement voor het structureren van uw gegevens voor het opnemen van sandboxen. In combinatie met de mogelijkheden voor prep-gegevens van Platforms hebt u verschillende opties voor het beheer van uw gegevensstructuur.
 
-1. Momenteel is het gebruik van de extensie Adobe Cloud Connector vereist in de eigenschap Event Forwarding. Zodra het proces van Regels of verrijkt de gebeurtenisgegevens, wordt de Verbinding van de Wolk gebruikt binnen een Vraag van de Vetch die voor een POST wordt gevormd die de nuttige lading naar de tweede zandbak verzendt
+1. Momenteel wordt de Adobe gebruikt [!UICONTROL Extensie Cloud Connector] is vereist binnen de [!UICONTROL Gebeurtenis doorsturen] Eigenschap. Zodra de regels de gebeurtenisgegevens verwerken of verrijken, wordt de Verbinding van de Wolk gebruikt binnen een haalvraag die voor een POST wordt gevormd die de nuttige lading naar de tweede zandbak verzendt
 
-1. Voor de tweede sandbox is een Streaming eindpunt voor gegevensinvoer vereist. U kunt ook de mogelijkheden van de Prep van Gegevens in AEP met hulp bij het opnemen en in kaart brengen van Gebeurtenis die lading door:sturen aan XDM overwegen. Raadpleeg de AEP-documentatie Maak een [HTTP API streamingverbinding met de gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=en)
+1. Voor de tweede sandbox is een streamingeindpunt voor gegevensinvoer vereist. U kunt ook de mogelijkheden van de Prep van Gegevens in AEP aan hulp bij het opnemen en in kaart brengen van [!UICONTROL Gebeurtenis doorsturen] laden naar XDM. Raadpleeg de AEP-documentatie Maak een [HTTP API streamingverbinding met de gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=en)
