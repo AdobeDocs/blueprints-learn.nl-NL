@@ -32,29 +32,29 @@ Deze geïntegreerde ervaringszaken probeerden de volledige klantenreis aan te pa
 | Categorie | Goal | Hoofdletters gebruiken | Beschrijving |
 |:----|:----|:----|:----|
 | Klantenreizen | Verwerving | Welkomstserie | Welkom nieuwe abonnees met introductie in het bedrijf, het product en de services |
-|  |  | Eerste aankoopprogramma |  |
-|  | Verkoop verbeteren | Verlaten winkelwagen/bladeren | Herstel van potentiële kopers en opdrijvende verkopen |
-|  |  | Productbeoordeling/Crossselderij | Meer objecten doorverkopen met productherzichten. |
-|  |  | Productpromoties |  |
-|  |  | Tijd voor opnieuw ordenen | Herhaling van herinnering voor cyclische producten/services |
-|  | Brand Loyalty | Win terug | Klanten herstellen die inactief zijn geweest. |
-|  |  | Verjaardagherinneringen | Bevorder een persoonlijkere relatie met uw klanten door deel van hun verjaardagsfeest te zijn! |
+| | | Eerste aankoopprogramma | |
+| | Verkoop verbeteren | Verlaten winkelwagen/bladeren | Herstel van potentiële kopers en opdrijvende verkopen |
+| | | Productbeoordeling/Crossselderij | Meer objecten doorverkopen met productherzichten. |
+| | | Productpromoties |  |
+| | | Tijd voor opnieuw ordenen | Herhaling van herinnering voor cyclische producten/services |
+| | Brand Loyalty | Win terug | Klanten herstellen die inactief zijn geweest. |
+| | | Verjaardagherinneringen | Bevorder een persoonlijkere relatie met uw klanten door deel van hun verjaardagsfeest te zijn! |
 | Merchandising | Inventaris beheren | Terug in voorraad | Verbeter inventaris door klanten te tonen de producten die zij gewild hebben terug in voorraad zijn |
-|  |  | Volgende beste rubriek | Beste categorieën/verkopen voor gebruikers identificeren |
-|  |  | Beste verkopers |  |
-|  |  | Herinneringen voor prijsdaling | Gebruikers laten zien dat objecten die ze leuk vinden een lagere prijs hebben |
-|  |  | Vergelijkbare producten |  |
+| | | Volgende beste rubriek | Beste categorieën/verkopen voor gebruikers identificeren |
+| | | Beste verkopers | |
+| | | Herinneringen voor prijsdaling | Gebruikers laten zien dat objecten die ze leuk vinden een lagere prijs hebben |
+| | | Vergelijkbare producten |  |
 | Persoonlijk maken | Conversie verhogen | Coupons/voorstellen | Beste voorstellen/coupons voor klanten weergeven |
-|  |  | Persoonlijke productzoekopdracht | Zoekervaring verbeteren |
-|  |  | Product Recommendations | Ervaring met bladeren door producten verbeteren |
-|  |  | Universeel-kanaalervaring | Klanten op alle kanalen bereiken |
+| | | Persoonlijke productzoekopdracht | Zoekervaring verbeteren |
+| | | Product Recommendations | Ervaring met bladeren door producten verbeteren |
+| | | Universeel-kanaalervaring | Klanten op alle kanalen bereiken |
 | Meetlat | Klantreizen begrijpen | Campagne voor meerdere kanalen | Kanaalcampagnes meten |
-|  |  | Segmentprestaties | De prestaties en bijdrage van segmenten begrijpen |
-|  |  | Falloutrapporten | Conversies in elke fase visualiseren |
-|  |  | Cohortanalyse | De betrokkenheid van de maatregel tussen segmentgroepen |
-|  |  | Click-to-Brick-rapporten | Ontdek hoe klantconversies leiden tot ervaringen in de winkel |
-|  |  | Attributie | Weergeven welk aanraakpunt/ervaring de grootste invloed heeft op de conversie van aankopen |
-|  |  | Voorspelende inzichten | Meer informatie over klanteneigenschappen |
+| | | Segmentprestaties | De prestaties en bijdrage van segmenten begrijpen |
+| | | Falloutrapporten | Conversies in elke fase visualiseren |
+| | | Cohortanalyse | De betrokkenheid van de maatregel tussen segmentgroepen |
+| | | Click-to-Brick-rapporten | Ontdek hoe klantconversies leiden tot ervaringen in de winkel |
+| | | Attributie | Weergeven welk aanraakpunt/ervaring de grootste invloed heeft op de conversie van aankopen |
+| | | Voorspelende inzichten | Meer informatie over klanteneigenschappen |
 
 ## Architectuur
 
@@ -67,10 +67,10 @@ Deze geïntegreerde ervaringszaken probeerden de volledige klantenreis aan te pa
 | Hoofdlettergebruik/integratie gebruiken  | Koppeling |
 |:----|:----|
 | CJA + AEP | [Overzicht van Customer Journey Analytics blauwdrukken](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html?lang=en) |
-|  | [Customer Journey Analytics - Gebruik hoofdletters](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=en) |
+| | [Customer Journey Analytics - Gebruik hoofdletters](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=en) |
 | AJO + AEP | [Adobe Journey Optimizer - Kwesties gebruiken](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer.html?lang=en) |
-|  | [Beslissingsbeheer](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en) |
+| | [Beslissingsbeheer](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en) |
 | RTCDP + AEP | [Online/offline Audience Activation](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en) |
-|  | [Experience Platform + activering van toepassing](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en) |
-| Marketo + AEP | [B2B-activering en marketing](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/overview.html?lang=en) |  |
-| Doel + AEP | [Adobe Target Use case - Behavioral Web/Mobile Personalization](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=en) | [Web/Mobiele Personalisatie met bekende klantengegevens](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=en) |  |
+| | [Experience Platform + activering van toepassing](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en) |
+| Marketo + AEP | [B2B-activering en marketing](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/overview.html?lang=en) | |
+| Doel + AEP | [Adobe Target Use case - Behavioral Web/Mobile Personalization](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/behavioral.html?lang=en) | [Web/Mobiele Personalisatie met bekende klantengegevens](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=en) | |

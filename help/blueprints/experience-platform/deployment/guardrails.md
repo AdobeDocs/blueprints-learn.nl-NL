@@ -4,9 +4,9 @@ description: In de handleidingen worden de prestatieverwachtingen en de gevolgen
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
+source-git-commit: b3eddbfe943f45e1acbbb108652824df45c6c0e8
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '340'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,10 @@ Hulplijnen zijn aanbevolen drempels voor het gebruik van gegevens en systemen, h
 [Klantprofielhulplijnen in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
 
 [Identiteitsinstructies](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=en)
+
+[Customer Journey Analytics Audience Sharing Guardrails](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency)
+
+[Customer Journey Analytics Data Ingestie Guardrails](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
 
 [Query Service-handleidingen](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=en)
 
