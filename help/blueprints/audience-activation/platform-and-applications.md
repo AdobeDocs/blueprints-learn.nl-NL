@@ -1,10 +1,10 @@
 ---
 title: Activering van publiek en profiel met blauwdruk voor Experience Cloud-toepassingen
 description: Profielen en publiek in Experience Platform beheren en deze delen met Experience Cloud-toepassingen.
-solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 16ca42fdb944e658bfc1fb3e960e81cd67be049c
+source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 0%

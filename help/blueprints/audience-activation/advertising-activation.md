@@ -1,10 +1,10 @@
 ---
 title: Activering naar sociale doelen en advertenties vanuit het Platform voor realtime klantgegevens
 description: Activering naar sociale doelen en advertenties vanuit het Platform voor realtime klantgegevens
-solution: Real-time Customer Data Platform, Data Collection
+solution: Real-Time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: 374f3afa12611b21121e9bfe2fd906342ba1ea4f
+source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
