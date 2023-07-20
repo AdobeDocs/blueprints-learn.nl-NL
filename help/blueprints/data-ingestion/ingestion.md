@@ -5,7 +5,7 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: f22ff4ac15b21592226f6645ab28f30473996776
+source-git-commit: 70e7bfb3a6d7bad858bd72b6329602bdfb822505
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 2%
@@ -26,7 +26,7 @@ De voorbereiding van gegevens omvat de afbeelding van brongegevens aan het schem
 
 In het onderstaande diagram worden de gemiddelde prestatiegaranties en de latentie voor gegevensinvoer in Adobe Experience Platform weergegeven.
 
-<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Gegevensstroom Experience Platform" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" class="modal-image" />
+<img src="../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Gegevensstroom Experience Platform" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" class="modal-image" />
 
 ## Methoden voor gegevensinvoer
 
