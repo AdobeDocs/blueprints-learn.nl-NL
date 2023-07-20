@@ -4,9 +4,9 @@ description: In de handleidingen worden de prestatieverwachtingen en de gevolgen
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: b3eddbfe943f45e1acbbb108652824df45c6c0e8
+source-git-commit: 73815906905fbefa1402a78351076a7da7d4930c
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 Hulplijnen zijn aanbevolen drempels voor het gebruik van gegevens en systemen, het optimaliseren van prestaties en het voorkomen van fouten of onverwachte resultaten in Adobe Experience Platform en toepassingen. De gidsen zijn bedoeld om systeembeperkingen en prestatiesverwachtingen te weerspiegelen om klantenarchitectuur te vergemakkelijken en case performance optimization te gebruiken. Guardrails zijn niet bedoeld als serviceniveau-overeenkomsten. Raadpleeg de documentatie bij Productbeschrijvingen hieronder voor informatie over productspecifieke serviceniveaus.
 
 
-## Guardrails voor Adobe Experience Platform en toepassingen
+## Referentiedocumentatie voor instructies voor Adobe Experience Platform en toepassingen
 
 [Gegevensinvoerinstructies](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en)
 
@@ -42,31 +42,31 @@ Hulplijnen zijn aanbevolen drempels voor het gebruik van gegevens en systemen, h
 
 ### Gegevensinvoer
 
-<img src="../assets/aep_data_flow_guardrails.svg" alt="Gegevensstroom Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/aep_data_flow_guardrails.svg" alt="Gegevensstroom Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Segmentering
 
-<img src="../assets/segmentation_guardrails.svg" alt="Hulplijnen voor segmentatie van Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/segmentation_guardrails.svg" alt="Hulplijnen voor segmentatie van Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Real-time Customer Data Platform en Adobe Target
 
-<img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP &amp; Target Guardrails" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/RTCDP_Target_guardrails.svg" alt="RTCDP &amp; Target Guardrails" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Customer Journey Analytics
 
-<img src="../assets/CJA_guardrails.svg" alt="CJA Guardrails" style="border:1px solid #4a4a4a" width="85%" />
+<img src="assets/CJA_guardrails.svg" alt="CJA Guardrails" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Journey Optimizer
 
-<img src="../assets/AJO_guardrails.svg" alt="Referentiearchitectuur Journey Optimizer-blauwdruk" style="width:85%; border:1px solid #4a4a4a" />
+<img src="assets/AJO_guardrails.svg" alt="Referentiearchitectuur Journey Optimizer-blauwdruk" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
