@@ -3,7 +3,7 @@ title: Journey Optimizer - geactiveerd berichtenverkeer en Adobe Experience Plat
 description: Voer getriggerde berichten en ervaringen uit via Adobe Experience Platform als centrale hub van het streamen van gegevens, klantprofielen en segmentatie.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 1%
@@ -91,13 +91,13 @@ Houd rekening met de volgende punten die niet in de bovenstaande koppeling worde
 
 ### Gegevensinvoerinstructies
 
-<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Gegevensstroom Experience Platform" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
+<img src="../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Gegevensstroom Experience Platform" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
 
 <br>
 
 ### Activeringsinstructies
 
-<img src="../experience-platform/assets/AJO_guardrails.svg" alt="Referentiearchitectuur Journey Optimizer-blauwdruk" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="../experience-platform/deployment/assets/AJO_guardrails.svg" alt="Referentiearchitectuur Journey Optimizer-blauwdruk" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
