@@ -2,9 +2,9 @@
 title: Blauwdruk voor gegevenstoegang en exporteren
 description: Deze blauwdruk biedt een overzicht van alle methoden waarmee gegevens kunnen worden benaderd en geëxporteerd vanuit Adobe Experience Platform en toepassingen.
 product: adobe experience platform
-solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Data Collection
+solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: f22ff4ac15b21592226f6645ab28f30473996776
+source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
 workflow-type: tm+mt
 source-wordcount: '2052'
 ht-degree: 0%

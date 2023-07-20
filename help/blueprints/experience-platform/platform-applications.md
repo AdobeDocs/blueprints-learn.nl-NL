@@ -1,11 +1,11 @@
 ---
 title: Diagrammen van Adobe Experience Platform- en toepassingsarchitectuur
 description: Dit architectuurdiagram toont hoe Adobe Experience Platform op andere toepassingen en toepassingsdiensten van Adobe Experience Cloud betrekking heeft.
-solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
+solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 478a9bf0449e7953d527b5a54580f8eec7a7c30f
+source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 0%
