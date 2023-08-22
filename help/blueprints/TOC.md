@@ -5,9 +5,9 @@ user-guide-description: Blauwdrukken zijn herhaalbare implementaties om vastgest
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
+source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '258'
 ht-degree: 20%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 20%
       + [Guardrails](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Activering publiek en profiel{#audience-activation}
    + [Overzicht](/help/blueprints/audience-activation/overview.md)
-   + [Anonieme Audience Activation (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [Anoniem Audience Activation (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + Bekende activering van de Klant (RTCDP) {#known-customer-audience-activation}
       + [Overzicht](/help/blueprints/audience-activation/known.md)
       + [Activering op sociale en advertentiekanalen](/help/blueprints/audience-activation/advertising-activation.md)
@@ -46,6 +46,7 @@ ht-degree: 20%
    + Marketo Engage en Workfront Integration Blueprint{#marketo-engage-and-workfront-integration-blueprint}
       + [Overzicht](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
       + [Innemen en maken](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
+      + [Reviseren en goedkeuren](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
       + [Artikelen met succes voor klanten](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [Overzicht](/help/blueprints/customer-journey-analytics/overview.md)
@@ -76,11 +77,11 @@ ht-degree: 20%
    + [Overzicht](/help/blueprints/data-ingestion/overview.md)
    + [Multi Sandbox-gebeurtenis die gegevensverzameling doorstuurt](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)
    + [Voorbereiding en inname van gegevens](/help/blueprints/data-ingestion/ingestion.md)
-   + [Toegang tot gegevens en exporteren](/help/blueprints/data-ingestion/egress.md)
+   + [Toegang tot en export van gegevens](/help/blueprints/data-ingestion/egress.md)
    + [Gebeurtenis doorsturen](/help/blueprints/data-ingestion/server-side-collection.md)
 + Gegevensanalyse, intelligentie en AI/ML{#data-exploration}
    + [Overzicht](/help/blueprints/data-insights/overview.md)
-   + [Gegevensanalyse en -informatie](/help/blueprints/data-insights/analysis.md)
+   + [Gegevensanalyse en -intelligentie](/help/blueprints/data-insights/analysis.md)
    + [Aangepaste gegevenswetenschap voor profielverrijking](/help/blueprints/data-insights/data-science.md)
 + Web en mobiele personalisatie{#web-personalization}
    + [Overzicht](/help/blueprints/web-personalization/overview.md)
