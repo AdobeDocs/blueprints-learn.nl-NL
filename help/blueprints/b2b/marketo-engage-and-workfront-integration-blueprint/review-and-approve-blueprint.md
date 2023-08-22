@@ -1,9 +1,9 @@
 ---
 title: Blauwdruk controleren en goedkeuren
 description: Ontwerp controleren en goedkeuren - Marketo Engage en integratieblauwdruk van Workfront
-source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
+source-git-commit: 4c63a1e552c893a2b2ae753bd3eaccab5c673448
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,7 @@ Met Workfront en Marketo Engage, hebben de marketing teams de kans om een strak 
 
 Wanneer wij over het bouwen van marketing campagnes denken, moeten wij in overweging nemen dat de verschillende stappen in kwestie, met inbegrip van planning, bouw, herziening, terugkoppel, goedkeuring, en uitvoering steunen. Met Workfront en Marketo Engage beschikken teams over alle instrumenten die nodig zijn om ze door het volledige planningsproces te leiden en een nieuwe marketingcampagne te starten. Bovendien kunnen teams hun evaluatie- en goedkeuringsproces verder stroomlijnen om de ontwikkelingssnelheid van de campagne te verhogen en ervoor te zorgen dat de nauwkeurigheid en naleving aan de hoogste norm worden gehouden.
 
-![Stroomdiagram controleren en goedkeuren](assets/review-and-approve-blueprint-1.png){zoomable=&quot;yes&quot;}
-
-### Gebruik de juiste gevallen voor het verbinden van Workfront en Marketo Engage {#use-cases-for-connecting-workfront-and-marketo-engage}
+### Gebruiksgevallen bekijken en goedkeuren die zijn ontgrendeld met Marketo Engage en Workfront {#review-and-approve-use-cases-unlocked-with-marketo-engage-and-workfront}
 
 * Elimineer ongelijksoortige feedback en vergroot de samenwerking op een gecentraliseerde locatie door gebruik te maken van Workfront-annotaties en mogelijkheden voor opmerkingen bij Marketo&#39;s Engage.
 
@@ -52,7 +50,7 @@ Hiervoor moet u de onderstaande stappen overwegen als onderdeel van het proces v
 1. Configureer uw Workfront-project met de functie Ready for Review.
 1. Activeer de e-mail van het Marketo Engage om te synchroniseren met Workfront met een wijziging in de taakstatus.
 1. Converteer het e-mailbestand van uw Marketo Engage naar een controleerbare proefdruk in Workfront.
-1. Gebruik Workfront-proefdrukken om samen te werken met opmerkingen en annotaties.
+1. Workfront-proefdrukken gebruiken om samen te werken via opmerkingen en annotaties.
 1. Goedkeuren van de Workfront-proefafdruk om de goedkeuring van bedrijfsmiddelen in Marketo Engage te starten en markeren vervolgens de taak als voltooid.
 
 ### Een Workfront-project configureren met de opdracht Ready for Review {#configure-a-workfront-project-with-a-ready-for-review-task}
@@ -63,7 +61,7 @@ Neem in uw projectsjabloon in Workfront taken op voor het controleren van elemen
 
 Als u een nieuwe e-mailcampagne wilt starten, moet u een projectsjabloon hebben met een taak om de e-mail te controleren en een goedkeuringsproces om ervoor te zorgen dat de e-mail wordt goedgekeurd door de juiste belanghebbende voordat deze kan worden verzonden.
 
-![takenscherm](assets/review-and-approve-blueprint-2.png){zoomable=&quot;yes&quot;}
+![takenscherm](assets/review-and-approve-blueprint-1.png){zoomable=&quot;yes&quot;}
 
 ### De Marketo Engage via e-mail synchroniseren met Workfront met statuswijziging van taak {#trigger-your-marketo-engage-email-to-sync-to-workfront}
 
@@ -71,13 +69,23 @@ Als onderdeel van uw controleproces wilt u e-mails synchroniseren met uw Workfro
 
 Met deze status in uw Workfront-project kunt u uw Workfront Fusion-scenario configureren om te luisteren naar de taak Ready to Review om bij te werken naar &quot;Review Marketo Email&quot;. Zodra bijgewerkt, kan uw scenario Marketo Engage e-mail als dossier terugwinnen van de HTML, het zip omhoog, en sparen een exemplaar van het in de projectdocumenten van Workfront die moeten worden herzien.
 
-![gereed voor revisiescherm](assets/review-and-approve-blueprint-3.png){zoomable=&quot;yes&quot;}
+![gereed voor revisiescherm](assets/review-and-approve-blueprint-2.png){zoomable=&quot;yes&quot;}
 
 ### E-mailadres van uw Marketo Engage converteren naar controleerbare proefdruk in Workfront {#convert-your-marketo-engage-email-to-reviewable-proof-in-workfront}
 
 Zodra uw Ready for Review-taak is verplaatst naar de status &quot;Marketo-e-mail controleren&quot; en het Marketo Engage-mailbericht wordt opgeslagen in Workfront, kunt u uw Workfront Fusion-scenario zodanig configureren dat het e-mailbericht wordt omgezet in een Workfront-proefdruk.
 
-![e-mailscherm converteren](assets/review-and-approve-blueprint-4.png){zoomable=&quot;yes&quot;}
+### Workfront-proefdrukken gebruiken om samen te werken via opmerkingen en annotaties {#use-workfront-proofing-to-collaborate}
+
+[Workfront-proefdrukken](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} Met deze functies kan uw marketingteam een nieuw middel gebruiken, zoals een afbeelding of een e-mail, en samenwerken via opmerkingen en annotaties. Zodra een bewijs klaar is om live te gaan, kunnen besluitvormers het middel van het proefdrukinstrument goedkeuren.
+
+![e-mailscherm converteren](assets/review-and-approve-blueprint-3.png){zoomable=&quot;yes&quot;}
+
+### Workfront-proefafdruk goedkeuren en goedkeuring van bedrijfsmiddelen in Marketo Engage activeren, taak markeren als voltooid {#approve-workfront-proof-and-trigger-asset-approval-in-marketo-engage}
+
+Workfront Fusion kan detecteren wanneer het e-mailbericht door belanghebbenden is goedgekeurd en een aanvraag naar het Marketo Engage verzenden om het e-mailbericht in Marketo goed te keuren.
+
+Als de e-mail is gecontroleerd/goedgekeurd door de juiste teamleden, is de e-mail klaar om in Marketo Engage te gaan wonen!
 
 ## Fusion Scenario-sjablonen {#fusion-scenario-templates}
 
@@ -87,12 +95,12 @@ We hebben Fusion Templates ontwikkeld die u helpen aan de slag te gaan met de in
 
 Het fusiescenario hieronder zal u door de eerste helft van het overzicht en goedkeurt stroom leiden, waarin het e-mailontwerp van Marketo Engage kan worden getrokken en aan Workfront als Bewijs worden bewaard. Als de Workfront-projectdocumenten eenmaal zijn opgeslagen als een proefexemplaar, kunnen ze worden gecontroleerd door belanghebbenden bij de marketing, hierop commentaar worden gegeven en als onderdeel van het revisieproces worden geannoteerd.
 
-![evaluatie van fusiescenario en goedkeuring van stroom](assets/review-and-approve-blueprint-5.png){zoomable=&quot;yes&quot;}
+![evaluatie van fusiescenario en goedkeuring van stroom](assets/review-and-approve-blueprint-4.png){zoomable=&quot;yes&quot;}
 
 ### Goedkeuren van een e-mail in Workfront die de goedkeuring van het element in Marketo Engage activeert {#approve-an-email-in-workfront-that-triggers-approval}
 
 Het fusiescenario hieronder kan worden gebruikt om te ontdekken wanneer een Bewijs in Workfront is goedgekeurd, en die goedkeuring te leiden aan Marketo Engage om het e-mailontwerp bij te werken zodat het levend en klaar om in een programma van de Marketo Engage is te worden gebruikt.
 
-![goedkeuring van testscenario&#39;s voor kernfusie](assets/review-and-approve-blueprint-6.png){zoomable=&quot;yes&quot;}
+![goedkeuring van testscenario&#39;s voor kernfusie](assets/review-and-approve-blueprint-5.png){zoomable=&quot;yes&quot;}
 
 Samen, kunnen deze twee scenario&#39;s worden gebruikt om een bidirectionele weg tot stand te brengen om marketing activa van Marketo Engage aan Workfront te trekken robuuste overzicht en goedkeurt werkschema&#39;s, en goedkeurt goedkeuringen terug naar Marketo Engage van Workfront.
