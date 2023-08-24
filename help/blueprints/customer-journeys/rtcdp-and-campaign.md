@@ -56,7 +56,7 @@ Toont hoe Adobe Experience Platform met zijn realtimeklantprofiel en gecentralis
 
 <br>
 
-## Uitvoeringsstappen
+## Implementatiestappen
 
 ### Adobe Experience Platform
 
@@ -78,7 +78,7 @@ Toont hoe Adobe Experience Platform met zijn realtimeklantprofiel en gecentralis
 
 #### Bronnen/bestemmingen
 
-1. [Experience Platform en Campaign Standard Bronnen en Ontwerpen](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)
+1. [Bronnen en ontwerpen voor Experience Platform en Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)
 1. [Bronnen en ontwerpen voor Experience Platform en campagne v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html)
 1. [Gegevens in Experience Platform opnemen](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) via streaming API&#39;s en bronconnectors.
 1. Configureren [!DNL Azure] blob-opslagbestemming voor gebruik met Adobe Campaign.
@@ -109,19 +109,19 @@ Toont hoe Adobe Experience Platform met zijn realtimeklantprofiel en gecentralis
    * Experience Platform Mobile SDK
    * Campagne Mobile SDK
 * Experience Platform Mobile SDK route:
-   * Gebruik Adobe-tags en de Campaign Classic-extensie om uw integratie met de Experience Platform Mobile SDK in te stellen
-   * Wenst een werkende kennis van de Markeringen van Adobe en gegevensinzameling
+   * De Markeringen van de Adobe van de hefboomwerking en de uitbreiding van het Campaign Classic voor vestiging uw integratie met het Experience Platform Mobile SDK
+   * Wenst een werkende kennis van de Markeringen van de Adobe en gegevensinzameling
    * Hebt u mobiele ontwikkelervaring nodig met pushmeldingen in zowel Android als iOS om de SDK te implementeren, te integreren met FCM (Android) en APNS (iOS) om pushtoken te verkrijgen, uw app te configureren voor pushmeldingen en pushinteracties te verwerken
 * Campagne Mobile SDK
    * Volg de [Campagne-SDK-documentatie](Campagne Mobile SDK Volg de hier beschreven implementatiedocumentatie.)
 
   >[!IMPORTANT]
-  >Als u de Campagne SDK opstelt en met andere toepassingen van Experience Cloud werkt zullen zij het gebruik van het Experience Platform Mobiele SDK voor gegevensinzameling vereisen. Hierdoor worden dubbele aanroepen aan de clientzijde op het apparaat gemaakt.
+  >Als u de Campagne SDK opstelt en met andere toepassingen van het Experience Cloud werkt zullen zij het gebruik van het Experience Platform Mobiele SDK voor gegevensinzameling vereisen. Hierdoor worden dubbele aanroepen aan de clientzijde op het apparaat gemaakt.
 
 ## Gerelateerde documentatie
 
 * [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
-* [Campaign Classic-documentatie](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
-* [Campaign Standard-documentatie](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
+* [Documentatie Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
+* [Documentatie Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
 * [Documentatie Experience Platform Launch](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Platform Mobile SDK-documentatie](https://experienceleague.adobe.com/docs/mobile.html?lang=en)

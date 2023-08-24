@@ -18,7 +18,7 @@ Hulplijnen zijn aanbevolen drempels voor het gebruik van gegevens en systemen, h
 
 ## Referentiedocumentatie voor instructies voor Adobe Experience Platform en toepassingen
 
-[Gegevensinvoerinstructies](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en)
+[Gegevens-innamegardrails](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en)
 
 [Edge Network API-handleidingen](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=en)
 
@@ -76,7 +76,7 @@ Hulplijnen zijn aanbevolen drempels voor het gebruik van gegevens en systemen, h
 
 [Real-time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
 
-[B2B-Platform voor klantgegevens](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-b2b.html)
+[B2B-klantgegevensplatform](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-b2b.html)
 
 [Experience Platform activeren](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform0.html)
 
@@ -92,4 +92,4 @@ Hulplijnen zijn aanbevolen drempels voor het gebruik van gegevens en systemen, h
 
 [Journey Orchestration](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html)
 
-[offer decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
+[Offer decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)

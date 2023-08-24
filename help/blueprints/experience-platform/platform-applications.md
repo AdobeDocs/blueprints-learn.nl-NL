@@ -108,12 +108,12 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 <td colspan="1">Campaign Classic</td>
 <td colspan="1">
 <ul>
-<li>In Real-time Customer Data Platform gedefinieerde doelgroepen kunnen worden gedeeld met Campaign Classic als publiek om campagnes te starten.</li>
+<li>In Real-time Customer Data Platform gedefinieerde doelgroepen kunnen aan het Campaign Classic worden doorgegeven als doelgroep voor het initiëren van campagnes.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>De interactie en campagnegegevens die door Campaign worden verzameld kunnen aan Experience Platform als gegevensbron voor verdere gebruik in publieksopbouw via Real-time Customer Data Platform en analyse via de Dienst van de Vraag van Customer Journey Analytics en van het Experience Platform worden opgenomen.</li>
+<li>De interactie en campagnegegevens die door Campaign worden verzameld kunnen aan Experience Platform als gegevensbron voor verdere gebruik in publieksopbouw via Real-time Customer Data Platform en analyse via de Dienst van de Vraag van de Customer Journey Analytics en van het Experience Platform worden opgenomen.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -126,12 +126,12 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 <td colspan="1">Campaign Standard</td>
 <td colspan="1">
 <ul>
-<li>In Real-time Customer Data Platform gedefinieerde doelgroepen kunnen worden gedeeld met Campaign Standard als publiek om campagnes te starten.</li>
+<li>In Real-time Customer Data Platform gedefinieerde doelgroepen kunnen aan het Campaign Standard worden doorgegeven als doelgroep voor het initiëren van campagnes.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>De interactie en campagnegegevens die door Campaign worden verzameld kunnen aan Experience Platform als gegevensbron voor verdere gebruik in publieksopbouw via Real-time Customer Data Platform en analyse via de Dienst van de Vraag van Customer Journey Analytics en van het Experience Platform worden opgenomen.</li>
+<li>De interactie en campagnegegevens die door Campaign worden verzameld kunnen aan Experience Platform als gegevensbron voor verdere gebruik in publieksopbouw via Real-time Customer Data Platform en analyse via de Dienst van de Vraag van de Customer Journey Analytics en van het Experience Platform worden opgenomen.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -144,7 +144,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 <td colspan="1">Customer Journey Analytics</td>
 <td colspan="1">
 <ul>
-<li>Gegevens verzameld en opgenomen in het Experience Platform data Lake worden beschikbaar gemaakt voor verwerking tot Customer Journey Analytics. </li>
+<li>Gegevens die in het Experience Platform data Lake worden verzameld en geconsumeerd, worden beschikbaar gesteld voor verwerking tot Customer Journey Analytics. </li>
 <li>Profiel- en publieksgegevens van Real-time Customer Data Platform kunnen worden opgenomen in CJA. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=en">RTCDP naar CJA-integratie</a>.
 </li>
 </ul>
@@ -183,7 +183,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 <td colspan="1">Journey Optimizer</td>
 <td colspan="1">
 <ul>
-<li>Gegevensgebeurtenissen en profielen die in Experience Platform worden opgenomen, worden aan Journey Optimizer ter beschikking gesteld om ritten in Journey Optimizer te starten en uit te voeren.</li>
+<li>Gegevensgebeurtenissen en -profielen die in Experience Platform worden opgenomen, worden aan Journey Optimizer ter beschikking gesteld om ritten in Journey Optimizer te starten en uit te voeren.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -258,7 +258,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 </td>
 <td colspan="1">
 <ul>
-<li>De gegevens die voor de ervaringen en de interactie van het Doel worden verzameld kunnen aan Experience Platform via het Experience Platform Web/Mobile SDK worden verzameld. Deze gegevens kunnen worden gebruikt in publieksopbouw via de Real-time Customer Data Platform en voor analyse via Customer Journey Analytics, en de Dienst van de Vraag van het Experience Platform.</li>
+<li>De gegevens die voor de ervaringen en de interactie van het Doel worden verzameld kunnen aan Experience Platform via het Experience Platform Web/Mobile SDK worden verzameld. Deze gegevens kunnen in publieksopbouw via Real-time Customer Data Platform en voor analyse via Customer Journey Analytics, en de Dienst van de Vraag van het Experience Platform worden gebruikt.</li>
 </ul>
 </td>
 <td colspan="1">

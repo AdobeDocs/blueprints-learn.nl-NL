@@ -1,5 +1,5 @@
 ---
-title: Activering van publiek en profiel met blauwdruk voor Experience Cloud-toepassingen
+title: Activering van publiek en profiel met blauwdruk voor toepassingen van het Experience Cloud
 description: Profielen en publiek in Experience Platform beheren en deze delen met Experience Cloud-toepassingen.
 solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
@@ -11,24 +11,24 @@ ht-degree: 0%
 
 ---
 
-# Activering van publiek en profiel met blauwdruk voor Experience Cloud-toepassingen
+# Activering van publiek en profiel met blauwdruk voor toepassingen van het Experience Cloud
 
-Profielen en publiek in Experience Platform beheren en deze delen met Experience Cloud-toepassingen. Bouw en deel rijke klantensegmenten en inzichten in Experience Platform en deel hen met de toepassingen van de Experience Cloud.
+Profielen en doelgroepen in Experience Platform beheren en deze delen met Experience Cloud-toepassingen. Bouw en deel rijke klantensegmenten en inzichten in Experience Platform en deel hen met de toepassingen van het Experience Cloud.
 
-Activering met Experience Cloud-toepassingen wordt uitgelijnd op de knop [Bekende blauwdruk voor activering door klant](known.md).
+Activering met Experience Cloud Toepassingen wordt uitgelijnd op de knop [Bekende blauwdruk voor activering door klant](known.md).
 
 ## Gebruik hoofdletters
 
-* Personaliseer en richt zich over de kanalen van de klanteninteractie die door Experience Cloud worden aangedreven.
+* Personaliseer en richt zich over de kanalen van de klanteninteractie aangedreven door Experience Cloud.
 * Deel publiek- en profielgegevens tussen Experience Platform- en Experience Cloud-toepassingen.
-* Bouw rijke insignes van multi-kanaalgegevens met inbegrip van online gedragsgegevens en gegevenswetenschapsmodellen om klantenprofiel in real time in Experience Platform te verrijken dat dan met Experience Cloud toepassingen kan worden gedeeld.
+* Bouw rijke insignes van multi-kanaalgegevens met inbegrip van online gedragsgegevens en gegevenswetenschapsmodellen om klantenprofiel in real time in Experience Platform te verrijken dat dan met de toepassingen van het Experience Cloud kan worden gedeeld.
 
 ## Toepassingen
 
 * Adobe Experience Platform
 * [!UICONTROL Real-time Customer Data Platform]
 * Experience Platform activeren
-* Experience Cloud-toepassingen
+* Experiencen Cloud
    * Adobe Audience Manager
    * Adobe Target
    * Adobe Campaign
@@ -39,7 +39,7 @@ Activering met Experience Cloud-toepassingen wordt uitgelijnd op de knop [Bekend
 
 ## Architectuur
 
-Zie de [Sectie Experience Platform- en toepassingsarchitectuur](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html) voor extra architectuurdiagrammen met betrekking tot de integratie van het Experience Platform met de Toepassingen van Experience Cloud.
+Zie de [Sectie Experience Platform- en toepassingsarchitectuur](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html) voor extra architectuurdiagrammen met betrekking tot de integratie van het Experience Platform met de Toepassingen van het Experience Cloud.
 
 ### Activering van publiek en profiel met Experience Cloud-toepassingen
 
@@ -52,11 +52,11 @@ Zie de [handleidingen op de pagina Overzicht van activering van publiek en profi
 
 ## Implementatieoverwegingen
 
-* Wanneer u profielgegevens deelt met bestemmingen, moet u de specifieke identiteitswaarde opnemen die door de bestemming wordt gebruikt in de doellading. Om het even welke identiteit die voor een doelbestemming noodzakelijk is moet in Platform worden opgenomen en als identiteit voor worden gevormd [!UICONTROL Klantprofiel in realtime].
+* Wanneer u profielgegevens deelt met bestemmingen, moet u de specifieke identiteitswaarde opnemen die door de bestemming wordt gebruikt in de doellading. Om het even welke identiteit die voor een doelbestemming noodzakelijk is moet in Platform worden opgenomen en als identiteit voor [!UICONTROL Klantprofiel in realtime].
 
 ### Publiek delen van Real-time Customer Data Platform naar Audience Manager
 
-* Raadpleeg de volgende documentatie voor meer informatie. [Experience Platform segmentdelen met Audience Manager en andere Experience Cloud-oplossingen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html).
+* Raadpleeg de volgende documentatie voor meer informatie. [Het segmentdelen van Experience Platforms met Audience Manager en andere oplossingen van Experiencen Cloud](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html).
 
 * Het lidmaatschap van het publiek van RT-CDP wordt gedeeld aan Audience Manager op streamingwijze zodra de segmentbeoordeling volledig is en aan het profiel van de Klant in real time wordt geschreven, of de segmentevaluatie in partij of het stromen voorkwam.
 * Als het gekwalificeerde profiel de regionale verpletterende informatie voor verwante profielapparaten bevat, dan wordt het publiekslidmaatschap van RTCDP gekwalificeerd op het stromen wijze op de bijbehorende Rand van de Audience Manager. Als de regionale verpletterende informatie op een profiel met timestamp in de afgelopen 14 dagen werd toegepast zal het op de Rand van de Audience Manager in het stromen worden geëvalueerd. Als de profielen van RTCDP geen regionale verpletterende informatie bevatten of de regionale verpletterende informatie is groter dan 14 dagen oud, dan worden het RTCDP publiekslidmaatschap verzonden naar de hubplaats van de Audience Manager voor partijgebaseerde evaluatie en activering.

@@ -31,14 +31,14 @@ Toont hoe Adobe Experience Platform met zijn realtimeklantprofiel en gecentralis
 
 ## Vereisten
 
-* De klant moet voor Experience Cloud een geldige IMS-organisatie opgeven
+* De klant moet voor Experience Cloud een geldige IMS-organisatie hebben
 * Adobe Experience Platform en Campagne worden aanbevolen om in dezelfde IMS-organisatie te worden ingericht voor één aanmeldings-URL
 * De klant moet een V8-exemplaar van Campagne leveren
 * De klant moet in aanmerking komen en toegang hebben voor RTCDP, Bronnen, Doelen.
 * Adobe Campaign-productcontext moet bestaan
 <br>
 
-## Uitvoeringsstappen
+## Implementatiestappen
 
 Raadpleeg de volgende documentatie over het configureren van de v8-bronaansluiting voor Campagne naar Adobe Experience Platform en de Real-time Customer Data Platform-doelconnector naar Campaign v8.
 [Campagne en AEP-connectors](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=en)

@@ -15,16 +15,16 @@ ht-degree: 0%
 
 Deze geïntegreerde ervaringszaken probeerden de volledige klantenreis aan te passen om loyaliteit te verhogen, aan bestaande klanten upsell, en marketing uitgaven over hun campagnes te verbeteren. De strategie om het doel te bereiken is door hun digitale capaciteit uit te breiden om off-line klantengegevens &amp; transactiegegevens te omvatten om de groei te drijven.
 
-## Adobe-benadering
+## Adobe
 
 * Genereer een verenigd klantprofiel dat alle relevante online/offline gegevens bevat die in real time kunnen worden geactiveerd
 * Ordeer klantinteracties via internet, media en pushkanalen om het aankoopgedrag voor het eerst of voor de tweede keer te stimuleren.
 
-## Bedrijfswaarde
+## Bedrijfswaarde geleverd
 
 | Doelen | Tactiek | Waarde ontgrendeld |
 |---|---|---|
-| **Realtime klantreizen ordenen **<br></br>**Aankopen van nieuwe klanten herhalen **<br></br>**Verbeter marketing efficiency en verminder media kosten**</ul> | <ul><li>Robuuste gegevens- en identiteitsstrategie om een alomvattend real-time profiel te voeden.</li><li>Klant en transactionele gegevensstreaming in real-time inclusief een historische belasting van 90 dagen</li><li>Segmentering streamen naar Advertising Networks en Adobe Target om media-uitgaven en personaliseringsinspanningen te stimuleren.</li><li>Realtime klantritten door Adobe Campaign die een strategie omvatten om prestaties te meten</li></ul> | <ul><li><strong>Real-time Customer Data Platform:</strong> In real-time, ervaringen van klanten op verschillende media, e-mail, push en het web</li><li><strong>Gegevensbronnen:</strong> Streaming gegevens over de profielopslag, het bestelsysteem, de productcatalogus en de detailhandel van deze detailhandelaar.</li><li><strong>Real-time media activeren:</strong>Streaming segmenten naar advertentienetwerken voor toewijzing en onderdrukking van advertenties</li><li><strong>Aanpassing in realtime web:</strong>Streaming segmenten geactiveerd naar Adobe Target om de webbeleving van de detailhandelaar te activeren.</li><li><strong>Journey Orchestration op schaal:</strong>Berichten in real-time geactiveerd, verrijkt met beschikbare klantgegevens en geactiveerd in real-time voor e-mail en pushkanalen</li></ul> |
+| **Realtime klantreizen ordenen **<br></br>**Aankopen van nieuwe klanten herhalen **<br></br>**Verbeter marketing efficiency en verminder media kosten**</ul> | <ul><li>Robuuste gegevens- en identiteitsstrategie om een alomvattend real-time profiel te voeden.</li><li>Klant en transactionele gegevensstreaming in real-time inclusief een historische belasting van 90 dagen</li><li>Segmentering streamen naar Advertising Networks en Adobe Target om media-uitgaven en personaliseringsinspanningen te stimuleren.</li><li>Realtime klantritten door Adobe Campaign die een strategie omvatten om prestaties te meten</li></ul> | <ul><li><strong>Real-time Customer Data Platform:</strong> In real-time, ervaringen van klanten op verschillende media, e-mail, push en het web</li><li><strong>Gegevensbronnen:</strong> Streaming gegevens over de profielopslag, het bestelsysteem, de productcatalogus en de detailhandel van deze detailhandelaar.</li><li><strong>Real-time media activeren:</strong>Streaming segmenten naar advertentienetwerken voor toewijzing en onderdrukking van advertenties</li><li><strong>Personalisatie in realtime van het web:</strong>Streaming segmenten geactiveerd naar Adobe Target om de webbeleving van de detailhandelaar te activeren.</li><li><strong>Journey Orchestration op schaal:</strong>Berichten in real-time geactiveerd, verrijkt met beschikbare klantgegevens en geactiveerd in real-time voor e-mail en pushkanalen</li></ul> |
 
 
 ## Gebruiksmogelijkheden
@@ -33,8 +33,8 @@ Deze geïntegreerde ervaringszaken probeerden de volledige klantenreis aan te pa
 |:----|:----|:----|:----|
 | Klantenreizen | Verwerving | Welkomstserie | Welkom nieuwe abonnees met introductie in het bedrijf, het product en de services |
 | | | Eerste aankoopprogramma | |
-| | Verkoop verbeteren | Verlaten winkelwagen/bladeren | Herstel van potentiële kopers en opdrijvende verkopen |
-| | | Productbeoordeling/Crossselderij | Meer objecten doorverkopen met productherzichten. |
+| | Verkoop verbeteren | Verlaten winkelwagentje/bladeren | Herstel van potentiële kopers en opdrijvende verkopen |
+| | | Productbeoordeling/Crossselderij | Meer objecten doorverkopen met productherzieningen. |
 | | | Productpromoties |  |
 | | | Tijd voor opnieuw ordenen | Herhaling van herinnering voor cyclische producten/services |
 | | Brand Loyalty | Win terug | Klanten herstellen die inactief zijn geweest. |
@@ -42,7 +42,7 @@ Deze geïntegreerde ervaringszaken probeerden de volledige klantenreis aan te pa
 | Merchandising | Inventaris beheren | Terug in voorraad | Verbeter inventaris door klanten te tonen de producten die zij gewild hebben terug in voorraad zijn |
 | | | Volgende beste rubriek | Beste categorieën/verkopen voor gebruikers identificeren |
 | | | Beste verkopers | |
-| | | Herinneringen voor prijsdaling | Gebruikers laten zien dat objecten die ze leuk vinden een lagere prijs hebben |
+| | | Herinneringen voor neerzetten van prijs | Gebruikers laten zien dat objecten die ze leuk vinden een lagere prijs hebben |
 | | | Vergelijkbare producten |  |
 | Persoonlijk maken | Conversie verhogen | Coupons/voorstellen | Beste voorstellen/coupons voor klanten weergeven |
 | | | Persoonlijke productzoekopdracht | Zoekervaring verbeteren |

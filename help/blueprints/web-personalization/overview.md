@@ -18,10 +18,10 @@ Het Web en de Mobiele Personalisering richt de capaciteit om profiel en publieks
 
 <br>
 
-| Blauwdruk | Beschrijving | Experience Cloud-toepassingen |
+| Blauwdruk | Beschrijving | Experiencen Cloud |
 |---|---|---|
-| **[Gedrag web/mobiele personalisatie](behavioral.md)** | <ul><li>Persoonlijk maken op basis van online gedrag en publieksgegevens</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *(optioneel)*</li><li>Adobe Analytics *(optioneel)*</li><li>Adobe Audience Manager *(optioneel)*</li></ul> |
-| **[Web/Mobiele Personalisatie met bekende klantengegevens](known-personalization.md)** | <ul><li>Volledige klantprofielen en verbeterde segmentatie bieden betere persoonlijke ervaringen.</li><li>Personaliseer met off-line attributen en gebeurtenissen (transacties, reserveringen, CRM, en loyaliteitsgegevens).</li><li>Synchroniseer personalisatie over Web, e-mail, en andere bekende kanalen.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics of Customer Journey Analytics *(optioneel)*</li><li>Adobe Audience Manager *(optioneel)*</li></ul> |
+| **[Gedragingen web/mobiele personalisatie](behavioral.md)** | <ul><li>Persoonlijk maken op basis van online gedrag en publieksgegevens</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *(optioneel)*</li><li>Adobe Analytics *(optioneel)*</li><li>Adobe Audience Manager *(optioneel)*</li></ul> |
+| **[Web/Mobiele Personalisatie met bekende klantengegevens](known-personalization.md)** | <ul><li>Volledige klantprofielen en verbeterde segmentatie bieden betere persoonlijke ervaringen.</li><li>Personaliseren met offlinekenmerken en gebeurtenissen (transacties, reserveringen, CRM en loyaliteitsgegevens).</li><li>Synchroniseer personalisatie over Web, e-mail, en andere bekende kanalen.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics of Customer Journey Analytics *(optioneel)*</li><li>Adobe Audience Manager *(optioneel)*</li></ul> |
 
 <br>
 

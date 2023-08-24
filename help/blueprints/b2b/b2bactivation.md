@@ -42,18 +42,18 @@ Gebruik account-, opportuniteits- en hoofdinformatie die aan een individuele kla
 
 ### Ondersteuning voor meerdere instanties en IMS-besturingssystemen:
 
-In het volgende voorbeeld worden de ondersteunde patronen voor het toewijzen van Experience Platform- en Marketo Engage-instanties beschreven.
+In het volgende voorbeeld worden de ondersteunde patronen voor het toewijzen van instanties van Experience Platforms en Marketo&#39;s Engage beschreven.
 
 #### Marketo als gegevensbron voor Experience Platform:
 
-* Meerdere Marketo Engage-instanties naar één Experience Platform-instantie worden ondersteund.
-* Meerdere Marketo Engage-instanties naar veel Experience Platforms worden niet ondersteund.
-* Eén Marketo Engage-instantie voor veel Experience Platforms wordt niet ondersteund.
+* Meerdere Marketo&#39;s Engage-instanties naar één Experience Platform-instantie worden ondersteund.
+* Meerdere instanties van Marketo&#39;s Engage voor veel Experience Platforms worden niet ondersteund.
+* Eén Marketo Engage-instantie voor veel Experience Platform-instanties wordt niet ondersteund.
 * Eén Marketo Engage-instantie op één Experience Platform-instantie en meerdere sandboxen wordt ondersteund.
 
 #### Marketo als bestemming voor Experience Platform:
 
-* Experience Platform naar veel Marketo Engage-instanties wordt ondersteund
+* Experience Platform naar veel instanties van Marketo&#39;s Engage wordt ondersteund
 * Veel instanties van Experience Platforms naar één instantie Marketo Engage worden ondersteund
 
 #### Experience Platform profiel en segmentatiehulplijnen:
@@ -71,28 +71,28 @@ In het volgende voorbeeld worden de ondersteunde patronen voor het toewijzen van
 * Het delen van streaming segmenten van Real-time Customer Data Platform naar Marketo Engage kan maximaal 5 minuten in beslag nemen.
 * De segmentatie van de partij wordt eens per dag gedeeld die op het Experience Platform segmenteringsprogramma wordt gebaseerd. B2B-segmenten die accounts, leads en opportuniteiten bevatten, maken gebruik van relaties met meerdere entiteiten die ertoe leiden dat het segment in batch wordt weergegeven.
 
-#### Marketo Engage Guardrails:
+#### Marketo&#39;s Engage hulplijnen:
 
-* Contactpersonen en leads moeten worden opgenomen en rechtstreeks in Marketo Engage worden gedefinieerd, zodat het Real-time Customer Data Platform-publiek zich aan een Marketo Engage-contactpersoon en -lead kan aanpassen.
+* Contactpersonen en leads moeten in het Marketo Engage worden opgenomen en rechtstreeks worden gedefinieerd, zodat het Real-time Customer Data Platform-publiek dezelfde naam als het Marketo Engage kan kiezen.
 
 #### Guardrails bestemming
 
 * Raadpleeg de doeldocumentatie voor specifieke aanwijzingen over de bestemmingen. [Guardrails bestemming](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=en)
 
 
-## Uitvoeringsstappen
+## Implementatiestappen
 
 Voor hulp bij het implementeren en configureren van de B2B Edition van de Real-time Customer Data Platform raadpleegt u de B2B Edition van de Real-time Customer Data Platform-documentatie. [B2B Edition van Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 
-Er zijn twee mogelijke implementatiepatronen. Zowel de mogelijkheid om B2B-gegevens en -profielen van Marketo Engage in te nemen als de mogelijkheid om B2B-gegevens van andere CRM-gegevensbronnen in te nemen.
+Er zijn twee mogelijke implementatiepatronen. Zowel de mogelijkheid om B2B-gegevens en -profielen uit Marketo Engage in te nemen als de mogelijkheid om B2B-gegevens uit andere CRM-gegevensbronnen in te nemen.
 
 ## Implementatieoverwegingen
 
 Richtlijnen voor belangrijke overwegingen en configuraties van de blauwdruk.
 
-* CRM-integratie met en zonder Marketo: Als de implementatie Marketo Engage als bron zal gebruiken en Marketo Engage met CRM wordt verbonden, dan gebruik de Marketo bronschakelaar in Experience Platform om de gegevens van CRM in Experience Platform in te voeren. Gebruik de bronschakelaar van het Experience Platform als de extra lijsten moeten worden opgenomen. Als de implementatie geen Marketo Engage als bron zal gebruiken verbind direct CRM bron met AEP gebruikend de bron van CRM Experience Platform schakelaar.
+* De Integratie van CRM met en zonder Marketo: Als de implementatie Marketo Engage als bron zal gebruiken en het Marketo Engage met CRM wordt verbonden, dan gebruik de Marketo bronschakelaar in Experience Platform om de gegevens van CRM in Experience Platform in te voeren. Gebruik de bronschakelaar van het Experience Platform als de extra lijsten moeten worden opgenomen. Als de implementatie geen Marketo Engage als bron zal gebruiken verbind direct CRM bron met AEP gebruikend de bron van CRM Experience Platform schakelaar.
 * Het starten en verzorgen van lood uit de B2B Edition van Real-time Customer Data Platform alleen wordt niet aanbevolen. Voor dit gebruik wordt het gebruik van een gereedschap voor het koesteren van lood (zoals Marketo Engage) aanbevolen.
-* De de bestemmingsschakelaar van de Marketo Engage voor AEP die publiek aan Marketo Engage voor activering duwt, duwt slechts e-mailadressen en ECIDs. Er wordt geen nieuwe lead gemaakt als de contactpersoon nog niet bestaat. Daarom moet u het profiel invoeren en gegevens naar Marketo Engage leiden.
+* De de bestemmingsschakelaar van het Marketo Engage voor AEP die publiek aan Marketo Engage voor activering duwt, duwt slechts e-mailadressen en ECIDs. Er wordt geen nieuwe lead gemaakt als de contactpersoon nog niet bestaat. Daarom moet u het profiel invoeren en gegevens naar het Marketo Engage leiden.
 
 ## Gerelateerde documentatie
 
