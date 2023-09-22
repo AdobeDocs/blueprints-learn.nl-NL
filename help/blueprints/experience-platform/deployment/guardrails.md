@@ -4,19 +4,23 @@ description: In de handleidingen worden de prestatieverwachtingen en de gevolgen
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: df10f49b618804982dd5b72ab4061de619beb72f
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '373'
 ht-degree: 2%
 
 ---
 
 # Guardrails
 
-Hulplijnen zijn aanbevolen drempels voor het gebruik van gegevens en systemen, het optimaliseren van prestaties en het voorkomen van fouten of onverwachte resultaten in Adobe Experience Platform en toepassingen. De gidsen zijn bedoeld om systeembeperkingen en prestatiesverwachtingen te weerspiegelen om klantenarchitectuur te vergemakkelijken en case performance optimization te gebruiken. Guardrails zijn niet bedoeld als serviceniveau-overeenkomsten. Raadpleeg de documentatie bij Productbeschrijvingen hieronder voor informatie over productspecifieke serviceniveaus.
+Hulplijnen zijn aanbevolen drempels voor het gebruik van gegevens en systemen in Adobe Experience Platform en toepassingen. De gidsen weerspiegelen systeembeperkingen en prestatiesverwachtingen om klantenarchitectuur te optimaliseren en caseprestaties te gebruiken, en helpen fouten of onverwachte resultaten te vermijden. Guardrails zijn niet bedoeld als dienstverleningsovereenkomsten.
+
+Voor informatie over specifieke overeenkomsten van het de dienstniveau voor toepassingen en eigenschappen, verwijs naar &quot;toepassing en eigenschapbeschrijvingen&quot;bij de bodem van deze pagina.
 
 
 ## Referentiedocumentatie voor instructies voor Adobe Experience Platform en toepassingen
+
+De volgende pagina&#39;s bevatten informatie over hulplijnen voor Adobe Experience Platform-functies, -services en -toepassingen:
 
 [Gegevens-innamegardrails](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en)
 
@@ -70,7 +74,9 @@ Hulplijnen zijn aanbevolen drempels voor het gebruik van gegevens en systemen, h
 
 <br>
 
-## Productbeschrijvingen
+## Beschrijvingen van toepassingen en functies
+
+Voor informatie over eigenschap-specifieke overeenkomsten van het de dienstniveau, verwijs naar de beschrijvingen hieronder:
 
 [Experience Platform Collection Enterprise](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 
