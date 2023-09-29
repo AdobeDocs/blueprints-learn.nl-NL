@@ -10,7 +10,7 @@ ht-degree: 9%
 
 ---
 
-# Verbluffecten voor digitale beleving
+# Blauwdrukken voor digitale beleving
 
 De blauwdrukken van de digitale ervaring zijn herhaalbare implementaties die u strategie laten behandelen en snel gevestigde bedrijfsproblemen oplossen. Elke blauwdruk verstrekt een reeks artefacten die het high-value bedrijfsprobleem, architectuur, implementatiestappen, technische overwegingen, en verbindingen aan de relevante documentatie verklaren.
 
@@ -24,14 +24,11 @@ De blauwdrukken van de digitale ervaring zijn herhaalbare implementaties die u s
 ## Nieuwe functies
 
 * **[Bewegingsblauwdruk voor publiek- en profielactivering naar Enterprise-doelen](/help/blueprints/audience-activation/enterprise-destinations.md)**
-
-   *Houd de profielen van de klant bijgewerkt over alle systemen om uw verkoop en steunteams te machtigen. &#x200B;*
+  *Houd de profielen van de klant bijgewerkt over alle systemen om uw verkoop en steunteams te machtigen. &#x200B;*
 * **[Hub blauwdruk voor klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)**
-
-   *Zorg voor context voor ondersteuning en verkoop door agenten.*
+  *Zorg voor context voor ondersteuning en verkoop door agenten.*
 * **[Gegevensanalyse en inlichtingenblauwdruk](/help/blueprints/data-insights/analysis.md)**
-
-   *Verkennende vraag en analyse van de gegevens in het gegevensmeer uitvoeren.*
+  *Verkennende vraag en analyse van de gegevens in het gegevensmeer uitvoeren.*
 
 ## Aanbevolen blauwdrukken
 
@@ -45,7 +42,7 @@ De blauwdrukken van de digitale ervaring zijn herhaalbare implementaties die u s
   <td>
     <a href="/help/blueprints/audience-activation/known.md"><img alt="miniatuurafbeelding voor de bekende blauwdruk voor activering door klant" src="audience-activation/assets/known_activation.svg" /></a>
     <div><a href="/help/blueprints/audience-activation/known.md"><strong>Bekende activering van klant</strong></a></div>
-    <p><em>Lever publiek-geactiveerde dwars-kanaalreclame.</em></p>
+    <p><em>Lever publiek-geactiveerde reclame over de kanalen.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><img alt="miniatuurafbeelding voor de blauwdruk voor gegevensconsolidatie voor Digital Behavioral" src="customer-journey-analytics/assets/CJA.svg" /></a>

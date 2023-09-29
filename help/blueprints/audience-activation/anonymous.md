@@ -1,5 +1,5 @@
 ---
-title: Anonieme Audience Activation blauwdruk
+title: Anonieme blauwdruk van Audience Activation
 description: Leer doelgroepen te targeten via web- en reclamekanalen die op anonieme en klantgedraggegevens worden gebaseerd. Dit maakt gepersonaliseerde en consistente klantenervaringen in real time op verschillende apparaten mogelijk.
 landing-page-description: Leer doelgroepen te targeten via web- en reclamekanalen die op anonieme en klantgedraggegevens worden gebaseerd.
 short-description: Leer doelgroepen te targeten via web- en reclamekanalen die op anonieme en klantgedraggegevens worden gebaseerd.
@@ -14,13 +14,13 @@ ht-degree: 14%
 
 ---
 
-# Anonieme Audience Activation blauwdruk
+# Anonieme blauwdruk van Audience Activation
 
 De anonieme publieksactivering is de capaciteit om aan publiek over Web, mobiel, en reclamekanalen te richten en te personaliseren die op anonieme apparaat en gedragsgegevens worden gebaseerd.
 
 ## Gebruik hoofdletters
 
-* Anonieme digitale publieksgerichtheid en verpersoonlijking op de website, mobiele app, of op gesteunde reclamekanalen uitvoeren.
+* Anonieme digitale publieksgerichtheid en personalisatie uitvoeren op de website, de mobiele app of op ondersteunde reclamekanalen.
 * Optimaliseer openingspagina en pre-authentificatie ervaringen die op bekende apparaat en gedragskenmerken worden gebaseerd.
 * Gebruik het gegevensnetwerk van de derde partij van de Audience Manager om uw publiek voor het richten verder te verfijnen en uit te breiden.
 
@@ -30,13 +30,13 @@ De anonieme publieksactivering is de capaciteit om aan publiek over Web, mobiel,
 * Audience Manager
 * Real-time Customer Data Platform
 
-Zowel Audience Manager als Real-time Customer Data Platform kunnen worden benut om anonieme Audience Activation voor onsite en reclamebestemmingen aan te drijven. Merk op dat Real-time Customer Data Platform slechts een ondergroep van advertentiebestemmingen met anonieme apparatenherkenningstekens steunt zoals die in [documentatie voor doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en).
+Zowel Audience Manager als Real-time Customer Data Platform kunnen worden benut om Anoniem Audience Activation voor onsite en reclamebestemmingen aan te drijven. Merk op dat Real-time Customer Data Platform slechts een ondergroep van advertentiebestemmingen met anonieme apparatenherkenningstekens steunt zoals die in [documentatie voor doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en).
 
-Microsoft Bing, Google DV360, en TradeDesk zijn de belangrijkste gesteunde reclamebestemmingen van Real-time Customer Data Platform voor anonieme op apparaat gebaseerde het richten. Daarnaast ondersteunt Real-time Customer Data Platform een groot aantal bekende klantgebaseerde doelen die zijn gecatalogiseerd in de [documentatie voor doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) en zoals beschreven in [Bekende blauwdruk voor activering door klant](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+Microsoft Bing, Google DV360, en TradeDesk zijn de belangrijkste gesteunde reclamebestemmingen van Real-time Customer Data Platform voor anonieme op apparaat gebaseerde het richten. Daarnaast ondersteunt Real-time Customer Data Platform een groot aantal bekende, op klanten gebaseerde doelen die zijn gecatalogiseerd in de [documentatie voor doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) en zoals beschreven in [Bekende blauwdruk voor activering door klant](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
 
 ## Architectuur
 
-<img src="assets/anonymous_activation.svg" alt="Referentiearchitectuur voor de anonieme blauwdruk Audience Activation" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+<img src="assets/anonymous_activation.svg" alt="Referentiearchitectuur voor het anonieme blauwdruk van Audiencen Activation" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 <br>
 
