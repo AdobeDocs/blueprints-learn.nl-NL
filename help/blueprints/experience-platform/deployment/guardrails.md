@@ -4,10 +4,10 @@ description: In de handleidingen worden de prestatieverwachtingen en de gevolgen
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 4379f372241248ea6c70c766f13a182783fcac0c
+source-git-commit: 76ad3dceda37c5f991a43df5828a926f6dfc42a5
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 2%
+source-wordcount: '625'
+ht-degree: 1%
 
 ---
 
@@ -38,39 +38,37 @@ De volgende pagina&#39;s bevatten informatie over hulplijnen voor Adobe Experien
 * [Query Service-handleidingen](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=en)
 * [Guardrails voor doelactivering](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
 
+## Diagrammen met latentie van begin tot eind {#end-to-end-latency}
 
+### Gegevensinvoer {#data-ingestion}
 
-## Diagrammen met latentie van begin tot eind
+In het onderstaande diagram worden de verwachte waarden voor de inlaatlatentie van gegevens weergegeven via [streaming opname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) en [batch-inname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=en) bij het invoeren van gegevens in Real-Time CDP. Klik op de afbeelding om een versie met hoge resolutie weer te geven.
 
-### Gegevensinvoer
+![Het visuele overzicht op hoog niveau van de gegevensinvoer.](/help/blueprints/experience-platform/deployment/assets/aep_data_flow_guardrails.svg "Gegevens op hoog niveau - visueel overzicht en latentiewaarden"){width="1000" zoomable="yes"}
 
-<img src="assets/aep_data_flow_guardrails.svg" alt="Gegevensstroom Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+### Segmentering {#segmentation}
 
-<br>
+In het onderstaande diagram worden de verwachte latentiewaarden weergegeven wanneer u met het publiek werkt in het dialoogvenster [Real-Time CDP-segmenteringsservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html). Klik op de afbeelding om een versie met hoge resolutie weer te geven.
 
-### Segmentering
+![Een visueel overzicht op hoog niveau van segmentatie.](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "Zichtbare overzicht en latentiewaarden op hoog niveau segmenteren"){width="1000" zoomable="yes"}
 
-<img src="assets/segmentation_guardrails.svg" alt="Hulplijnen voor segmentatie van Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+### Real-time Customer Data Platform en Adobe Target {#adobe-target-latency}
 
-<br>
+In het onderstaande diagram worden de verwachte latentiewaarden weergegeven bij het exporteren van soorten publiek van Real-Time CDP naar [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en). Klik op de afbeelding om een versie met hoge resolutie weer te geven.
 
-### Real-time Customer Data Platform en Adobe Target
+![Exporteren naar Adobe Target - visueel overzicht op hoog niveau.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Target_guardrails.svg "Soorten publiek exporteren naar Adobe Target, visueel overzicht op hoog niveau en latentiewaarden"){width="1000" zoomable="yes"}
 
-<img src="assets/RTCDP_Target_guardrails.svg" alt="RTCDP &amp; Target Guardrails" style="border:1px solid #4a4a4a" width="85%" />
+### Customer Journey Analytics {#customer-journey-analytics}
 
-<br>
+In het onderstaande diagram worden de verwachte latentiewaarden weergegeven wanneer u werkt met [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en). Klik op de afbeelding om een versie met hoge resolutie weer te geven.
 
-### Customer Journey Analytics
+![Werken met Customer Journey Analytics op hoog niveau, visueel overzicht.](/help/blueprints/experience-platform/deployment/assets/CJA_guardrails.svg "Werken met visuele overzichtswaarden en latentiewaarden op hoog niveau voor Customers Journey Analytics"){width="1000" zoomable="yes"}
 
-<img src="assets/CJA_guardrails.svg" alt="CJA Guardrails" style="border:1px solid #4a4a4a" width="85%" />
+### Journey Optimizer {#journey-optimizer}
 
-<br>
+In het onderstaande diagram worden de verwachte latentiewaarden weergegeven wanneer u werkt met [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en). Klik op de afbeelding om een versie met hoge resolutie weer te geven.
 
-### Journey Optimizer
-
-<img src="assets/AJO_guardrails.svg" alt="Referentiearchitectuur Journey Optimizer-blauwdruk" style="width:85%; border:1px solid #4a4a4a" />
-
-<br>
+![Werken met Adobe Journey Optimizer-visueel overzicht op hoog niveau.](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "Werken met Adobe Journey Optimizer-waarden voor visueel overzicht en wachttijd op hoog niveau"){width="1000" zoomable="yes"}
 
 ## Beschrijvingen van toepassingen en functies {#application-feature-descriptions}
 
