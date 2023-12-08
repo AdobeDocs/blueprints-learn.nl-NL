@@ -7,8 +7,8 @@ mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: f98f1b6ca56ed1249e9c18ea04935808f4498ed5
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 20%
+source-wordcount: '250'
+ht-degree: 16%
 
 ---
 
@@ -67,12 +67,12 @@ ht-degree: 20%
    + Campaign Standard{#campaign-standard}
       + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html){target="_blank"}
       + [Real-Time CDP met Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html){target="_blank"}
-   + Campaign v8{#campaign-v8}
+   + Campagne v8{#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
       + [Real-Time CDP met Adobe Campaign v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
       + [Journey Optimizer met Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
-   + Campaign v7{#campaign-v7}
-      + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
+   + Campagne v7{#campaign-v7}
+      + [Campagne v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP met Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer met Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + Gegevensverzameling, Toegang en Exporteren{#data-ingestion}

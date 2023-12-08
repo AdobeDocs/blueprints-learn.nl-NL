@@ -5,7 +5,7 @@ solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
 source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2126'
 ht-degree: 0%
 
 ---
@@ -208,7 +208,7 @@ U kunt de Gelijke van de Segment van Adobe Experience Platform in privacy-centri
 
 ## Meer informatie
 
-* [Segmentovereenkomst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=nl#)
+* [Segmentovereenkomst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=en#)
 * [Machtigingen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en)
 * [Problemen oplossen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/troubleshooting.html?lang=en)
 * [XID](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=en)
