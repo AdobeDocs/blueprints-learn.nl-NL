@@ -4,16 +4,16 @@ description: In de handleidingen worden de prestatieverwachtingen en de gevolgen
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 94197d1b450694f96eb1ef17245c0353494859b1
+source-git-commit: a16d7e925b7f5e9a379214d01280e4fef56344af
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
-# Guardrails
+# Hulplijnen en latentie van einde tot einde
 
-Hulplijnen zijn aanbevolen drempels voor het gebruik van gegevens en systemen in Adobe Experience Platform en toepassingen. De gidsen weerspiegelen systeembeperkingen en prestatiesverwachtingen om klantenarchitectuur te optimaliseren en caseprestaties te gebruiken, en helpen fouten of onverwachte resultaten te vermijden. Guardrails zijn niet bedoeld als dienstverleningsovereenkomsten.
+Hulplijnen zijn aanbevolen drempelwaarden voor het gebruik van gegevens, waargenomen vertragingen en systemen in Adobe Experience Platform en toepassingen. De gidsen weerspiegelen systeembeperkingen en prestatiesverwachtingen om klantenarchitectuur te optimaliseren en caseprestaties te gebruiken, en helpen fouten of onverwachte resultaten te vermijden. Guardrails zijn niet bedoeld als dienstverleningsovereenkomsten.
 
 Voor informatie over specifieke overeenkomsten van het de dienstniveau voor toepassingen en eigenschappen, verwijs naar [Beschrijvingen van toepassingen en functies](#application-feature-descriptions) onder aan deze pagina.
 
@@ -25,15 +25,15 @@ De volgende pagina&#39;s bevatten informatie over hulplijnen voor Adobe Experien
 **Experience Platforms**
 
 * [Overzicht van Real-Time CDP-instructies](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
-* [Customer Journey Analytics, begeleiding voor publiek delen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en#latency)
-* [Customer Journey Analytics data-opname guardrails](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [Journey Optimizer guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en)
+* [Customer Journey Analytics, begeleiding voor publiek delen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
+* [Customer Journey Analytics data-opname guardrails](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Journey Optimizer guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
 
 **Experience Platform**
 
-* [Gegevens-innamegardrails](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en)
-* [Edge Network API-handleidingen](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=en)
-* [Klantprofielhulplijnen in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+* [Gegevens-innamegardrails](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
+* [Edge Network API-handleidingen](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [Klantprofiel en segmentatiehandleidingen in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 * [Identiteitsinstructies](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=en)
 * [Query Service-handleidingen](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=en)
 * [Guardrails voor doelactivering](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
