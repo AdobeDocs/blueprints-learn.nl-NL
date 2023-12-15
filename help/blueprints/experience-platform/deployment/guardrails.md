@@ -1,17 +1,17 @@
 ---
-title: Experience Platform- en toepassingsinstructies en end-to-end latentie
+title: Experience Platform- en toepassingsinstructies
 description: In de handleidingen worden de prestatieverwachtingen en de gevolgen voor de componenten en services in Adobe Experience Platform en Applications gedefinieerd
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: a16d7e925b7f5e9a379214d01280e4fef56344af
+source-git-commit: 4cc0eafda6e2670ac5b72b0a0ca59b84e1c0dba1
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
 
-# Hulplijnen en latentie van einde tot einde
+# Guardrails
 
 Hulplijnen zijn aanbevolen drempelwaarden voor het gebruik van gegevens, waargenomen vertragingen en systemen in Adobe Experience Platform en toepassingen. De gidsen weerspiegelen systeembeperkingen en prestatiesverwachtingen om klantenarchitectuur te optimaliseren en caseprestaties te gebruiken, en helpen fouten of onverwachte resultaten te vermijden. Guardrails zijn niet bedoeld als dienstverleningsovereenkomsten.
 
