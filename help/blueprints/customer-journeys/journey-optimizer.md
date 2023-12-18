@@ -3,10 +3,10 @@ title: Journey Optimizer - geactiveerd berichtenverkeer en Adobe Experience Plat
 description: Voer getriggerde berichten en ervaringen uit via Adobe Experience Platform als centrale hub van het streamen van gegevens, klantprofielen en segmentatie.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
+source-git-commit: 3102ab35e48fe51010185ea5a0352c77f068d0d4
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 1%
+source-wordcount: '710'
+ht-degree: 2%
 
 ---
 
@@ -72,9 +72,11 @@ Mobiele push
 
 ## Guardrails
 
-[Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
+[Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-Houd rekening met de volgende punten die niet in de bovenstaande koppeling worden vermeld:
+[Begeleiding voor end-to-end latentie](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+
+Houd rekening met het volgende:
 
 * Batchsegmenten - zorg dat u het dagelijkse volume van gekwalificeerde gebruikers begrijpt en ervoor zorgt dat het doelsysteem de burst-doorvoer per reis en over alle reizen kan verwerken
 * Streamingsegmenten - moeten ervoor zorgen dat de eerste uitbarsting van profielkwalificaties kan worden afgehandeld samen met het dagelijks streaming kwalificatievolume per reis en over alle reizen
@@ -88,59 +90,6 @@ Houd rekening met de volgende punten die niet in de bovenstaande koppeling worde
    * Alleen methoden voor POSTEN en PUTTEN worden ondersteund voor aangepaste handelingen
    * Verificatie via gebruikers-/goedkeurings-token
 * Kan afzonderlijke componenten van Adobe Experience Platform of Journey Optimizer niet verpakken en verplaatsen tussen verschillende sandboxen. Moet opnieuw worden geïmplementeerd in nieuwe omgevingen
-
-### Gegevens-innamegardrails
-
-<img src="../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Gegevensstroom Experience Platform" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
-
-<br>
-
-### Activeringsinstructies
-
-<img src="../experience-platform/deployment/assets/AJO_guardrails.svg" alt="Referentiearchitectuur Journey Optimizer-blauwdruk" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
-
-## Implementatiestappen
-
-### Adobe Experience Platform
-
-#### Schema/datasets
-
-1. [Afzonderlijke profiel-, ervarings- en multientiteitsschema&#39;s configureren](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, op basis van door de klant verstrekte gegevens.
-1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) in Experience Platform voor gegevens die moeten worden ingevoerd.
-1. [Labels voor gegevensgebruik toevoegen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) in Experience Platform met de dataset voor bestuur.
-1. [Beleid maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html) de handhaving van het bestuur op bestemmingen.
-
-#### Profiel/identiteit
-
-1. [Maak klantspecifieke naamruimten](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
-1. [Identiteiten toevoegen aan schema&#39;s](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
-1. [De schema&#39;s en datasets voor Profiel inschakelen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
-1. [Samenvoegbeleid instellen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) voor verschillende weergaven van [!UICONTROL Klantprofiel in realtime] (optioneel).
-1. Maak segmenten voor gebruik in Reis.
-
-#### Bronnen/bestemmingen
-
-1. [Gegevens in Experience Platform opnemen](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) via streaming API&#39;s en bronconnectors.
-
-### Journey Optimizer
-
-1. Configureer de gegevensbron van uw Experience Platform en bepaal welke velden in de cache moeten worden geplaatst als onderdeel van de profileStreaming-gegevens die worden gebruikt om een klantentraject te starten, moeten eerst in Journey Optimizer worden geconfigureerd om een indeling-id te verkrijgen. Deze orchestratie-id wordt vervolgens aan de ontwikkelaar geleverd om met inname te gebruiken
-1. Externe gegevensbronnen configureren.
-1. Aangepaste handelingen configureren.
-
-### Mobiele pushconfiguratie
-
-1. Implementeer Experience Platform Mobile SDK om pushtokens en aanmeldingsgegevens te verzamelen en terug te koppelen naar bekende klantprofielen
-1. Gebruik Adobe-tags en maak een mobiele eigenschap met de volgende extensie:
-1. Adobe Journey Optimizer
-1. Adobe Experience Platform Edge Network
-1. Identiteit voor Edge Network
-1. Mobiele kern
-1. Zorg ervoor dat u beschikt over een specifieke gegevensstroom voor implementatie van mobiele apps versus webimplementaties
-1. Voor meer informatie volgt u de [Adobe Journey Optimizer Mobile-gids](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
-
 
 ## Gerelateerde documentatie
 
