@@ -4,18 +4,20 @@ description: In de handleidingen worden de prestatieverwachtingen en de gevolgen
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 4cc0eafda6e2670ac5b72b0a0ca59b84e1c0dba1
+source-git-commit: 5a4827244b7d8414b1f1a0bf9b3cd8308bde8c60
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
 
 # Guardrails
 
-Hulplijnen zijn aanbevolen drempelwaarden voor het gebruik van gegevens, waargenomen vertragingen en systemen in Adobe Experience Platform en toepassingen. De gidsen weerspiegelen systeembeperkingen en prestatiesverwachtingen om klantenarchitectuur te optimaliseren en caseprestaties te gebruiken, en helpen fouten of onverwachte resultaten te vermijden. Guardrails zijn niet bedoeld als dienstverleningsovereenkomsten.
+Hulplijnen zijn aanbevolen drempelwaarden voor het gebruik van gegevens, waargenomen vertragingen en systemen in Adobe Experience Platform en toepassingen. De gidsen weerspiegelen systeembeperkingen en prestatiesverwachtingen om klantenarchitectuur te optimaliseren en caseprestaties te gebruiken, en helpen fouten of onverwachte resultaten te vermijden. Guardrails zijn niet bedoeld als serviceniveau-overeenkomsten, serviceniveau-overeenkomsten worden gedocumenteerd in de productbeschrijvingen die hieronder en in de licentieovereenkomsten voor klanten zijn gekoppeld. De gidsen zijn bedoeld om begeleiding in het ontwerpen van oplossingen voor specifieke klantengebruiksgevallen te verstrekken om stabiliteit en uitvoering te verzekeren.
 
 Voor informatie over specifieke overeenkomsten van het de dienstniveau voor toepassingen en eigenschappen, verwijs naar [Beschrijvingen van toepassingen en functies](#application-feature-descriptions) onder aan deze pagina.
+
+Merk op dat voor om het even welk geval van het klantengebruik dat strikte latentie of volumevereisten heeft, de Adobe adviseert uw gebruiksgeval in detail met uw Team van de Rekening van de Adobe en partner van de Implementatie te herzien. In bepaalde gevallen is het aan te raden een bepaalde gebruikscase-implementatie te testen en in acht te nemen voordat de gebruikszaak wordt gestart, om het verwachte gedrag te observeren en te begrijpen - aangezien elke implementatie van de klant verschillende factoren te zien heeft, waaronder de aard en de cadentie van gegevensopname, de specifieke kenmerken van de gesegmenteerde regels die worden gebouwd en de verschillende activeringsuitdagingen en nuttige lasten - elke implementatie van het gebruiksgeval zal verschillende waargenomen prestaties hebben. Als zodanig is het het beste om de verwachte prestaties vooraf te bepalen en te testen om correcte architectuur en implementatie overeenkomstig de latentie en prestatiesvereisten van het gebruiksgeval te verzekeren.
 
 
 ## Referentiedocumentatie voor instructies voor Adobe Experience Platform en toepassingen
