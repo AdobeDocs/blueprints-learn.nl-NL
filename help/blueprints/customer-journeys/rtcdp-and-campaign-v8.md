@@ -3,10 +3,10 @@ title: Real-Time CDP met Adobe Campaign v8-integratiepatroon
 description: Toont hoe de Adobe Experience Platform en zijn Real-Time Klantprofiel en gecentraliseerd segmenteringshulpmiddel met Adobe Campaign v8 kunnen worden gebruikt om gepersonaliseerde gesprekken te leveren.
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 7%
+source-wordcount: '231'
+ht-degree: 10%
 
 ---
 
@@ -54,12 +54,5 @@ Raadpleeg de volgende documentatie over het configureren van de v8-bronaansluiti
 ### Delen van Real-time Customer Data Platform-Experience Platform
 
 * Verwijs naar de schakelaar van de Bestemming van de Campagne RTCDP - [RTCDP-cameraverbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html)
-* Aanbeveling voor een limiet van 50 segmenten
-* Merk op dat de verwezenlijking van het segmentlidmaatschap van AEP latent voor zowel partij (1 per dag) als het stromen (~5 min) en gebaseerd op het programma van de segmentbeoordeling is.
-* De activeringsvertraging bedraagt minimaal 3 uur
-* Alleen Unieschema-kenmerken beschikbaar voor activering (geen ondersteuning voor array-/maps-/ervaringsgebeurtenissen)
-* Aanbeveling betreffende maximaal 20 kenmerken per segment
-* Eén bestand per segment van alle profielen met &quot;gerealiseerde&quot; segmentlidmaatschap OF als segmentlidmaatschap is toegevoegd als kenmerk in het bestand, zowel de profielen &quot;gerealiseerde&quot; als &quot;verlaten&quot;
-* De stijgende en volledige segmentuitvoer wordt gesteund
-* Bestandscodering wordt niet ondersteund
+
 * Zie instructies voor het opnemen van profielen en gegevens voor AEP - [Koppeling](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)

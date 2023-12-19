@@ -3,10 +3,10 @@ title: Real-Time CDP met Adobe Campaign v7 en Campaign Standard-integratiepatroo
 description: Toont hoe Adobe Experience Platform met zijn realtimeklantprofiel en gecentraliseerde segmenteringstool met Adobe Campaign kunnen worden gebruikt om gepersonaliseerde gesprekken te leveren.
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 6%
+source-wordcount: '663'
+ht-degree: 7%
 
 ---
 
@@ -46,15 +46,9 @@ Toont hoe Adobe Experience Platform met zijn realtimeklantprofiel en gecentralis
 
 ### CDP-segmentdeling van Experience Platform
 
-* Aanbeveling voor een limiet van 20 segmenten
-* Activering is beperkt tot elke 24 uur
-* Alleen Unieschema-kenmerken beschikbaar voor activering (geen ondersteuning voor array-/maps-/ervaringsgebeurtenissen)
-* Aanbeveling betreffende maximaal 20 kenmerken per segment
-* Eén bestand per segment van alle profielen met &quot;gerealiseerde&quot; segmentlidmaatschap OF als segmentlidmaatschap is toegevoegd als kenmerk in het bestand, zowel de profielen &quot;gerealiseerde&quot; als &quot;verlaten&quot;
-* De stijgende en volledige segmentuitvoer wordt gesteund
-* Bestandscodering wordt niet ondersteund
+* Verwijs naar de schakelaar van de Bestemming van de Campagne RTCDP - [RTCDP-cameraverbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html)
 
-<br>
+* Zie instructies voor het opnemen van profielen en gegevens voor AEP - [Koppeling](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 
 ## Implementatiestappen
 

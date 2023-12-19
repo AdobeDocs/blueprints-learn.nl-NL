@@ -3,10 +3,10 @@ title: Journey Optimizer - geactiveerd berichtenverkeer en Adobe Experience Plat
 description: Voer getriggerde berichten en ervaringen uit via Adobe Experience Platform als centrale hub van het streamen van gegevens, klantprofielen en segmentatie.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 3102ab35e48fe51010185ea5a0352c77f068d0d4
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 2%
+source-wordcount: '563'
+ht-degree: 3%
 
 ---
 
@@ -74,22 +74,7 @@ Mobiele push
 
 [Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-[Begeleiding voor end-to-end latentie](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
-
-Houd rekening met het volgende:
-
-* Batchsegmenten - zorg dat u het dagelijkse volume van gekwalificeerde gebruikers begrijpt en ervoor zorgt dat het doelsysteem de burst-doorvoer per reis en over alle reizen kan verwerken
-* Streamingsegmenten - moeten ervoor zorgen dat de eerste uitbarsting van profielkwalificaties kan worden afgehandeld samen met het dagelijks streaming kwalificatievolume per reis en over alle reizen
-* Native ondersteunt alleen Beslissingsbeheer in berichten (geen aangepaste acties)
-* Ondersteunde berichttypen:
-   * E-mail
-   * Push (FCM/APNS)
-   * Aangepaste handelingen (via de rest-API)
-* Uitgaande integratie in systemen van derden
-   * Geen steun voor één enkele Statische IPs aangezien onze infrastructuur multi-huurder is (moet alle datacenter IPs lijsten van gewenste personen)
-   * Alleen methoden voor POSTEN en PUTTEN worden ondersteund voor aangepaste handelingen
-   * Verificatie via gebruikers-/goedkeurings-token
-* Kan afzonderlijke componenten van Adobe Experience Platform of Journey Optimizer niet verpakken en verplaatsen tussen verschillende sandboxen. Moet opnieuw worden geïmplementeerd in nieuwe omgevingen
+[Hulplijnen en advies voor end-to-end latentie](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Gerelateerde documentatie
 

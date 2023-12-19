@@ -3,9 +3,9 @@ title: Journey Optimizer met Adobe Campaign v8-blauwdruk
 description: Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om berichten te verzenden door de overseinenserver in real time in Campagne te gebruiken
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -29,14 +29,14 @@ Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om 
 
 ### Adobe Experience Platform
 
-* De schema&#39;s en de datasets moeten in het systeem worden gevormd alvorens u de gegevensbronnen van Journey Optimizer kunt vormen
+* De schema&#39;s en de datasets moeten in het systeem worden gevormd alvorens u Journey Optimizer gegevensbronnen kunt vormen
 * Voor op klasse-gebaseerde schema&#39;s van de Gebeurtenis van de Ervaring voegen &quot;Orchestration eventID gebiedsgroep toe wanneer u een gebeurtenis teweeggebracht wilt hebben die geen op regel-gebaseerde gebeurtenis is
 * Voeg voor op individuele profielklassen gebaseerde schema&#39;s de veldgroep &#39;Profielgegevens&#39; toe, zodat testprofielen kunnen worden geladen voor gebruik met Journey Optimizer
 * Journey Optimizer en Campagne worden geleverd in dezelfde IMS Org
 
 ### Campaign v8
 
-* De instantie van de uitvoering van de dienst van het overseinen in real time (d.w.z. het Centrum van het Bericht) moet door Adobe Beheerde Cloud Services worden ontvangen
+* De instantie van de uitvoering van de dienst van het overseinen in real time (d.w.z. het Centrum van het Bericht) moet door Adobe Geleide Cloud Servicen worden ontvangen
 * Alle bericht authoring wordt uitgevoerd binnen de Campagne-instantie zelf
 
 <br>
@@ -45,39 +45,9 @@ Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om 
 
 [Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
 
-### Aanvullende Journey Optimizer-handleidingen
+[Hulplijnen en advies voor end-to-end latentie](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
-* Het maximum is vandaag via API beschikbaar om ervoor te zorgen dat het bestemmingssysteem niet aan het punt van mislukking wordt verzadigd. Dit betekent dat berichten die het maximum overschrijden volledig worden verwijderd en nooit worden verzonden. Het roteren wordt niet ondersteund.
-   * Max. verbindingen - maximumaantal http/s-verbindingen dat een doel kan afhandelen
-   * Max. aantal oproepen - maximumaantal oproepen dat in periodInMp paramater kan worden gedaan
-   * periodInMS - tijd in milliseconden
-* Op gang gebrachte reizen met het lidmaatschap van een segment kunnen in twee modi worden uitgevoerd:
-   * Batchsegmenten (elke 24 uur vernieuwd)
-   * Streaming segmenten (&lt;5mins kwalificatie)
-* Batchsegmenten - zorg dat u het dagelijkse volume van gekwalificeerde gebruikers begrijpt en ervoor zorgt dat het doelsysteem de burst-doorvoer per reis en over alle reizen kan verwerken
-* Streamingsegmenten - moeten ervoor zorgen dat de eerste uitbarsting van profielkwalificaties kan worden afgehandeld samen met het dagelijks streaming kwalificatievolume per reis en over alle reizen
-* Beslissingsbeheer wordt niet ondersteund
-* Zakelijke gebeurtenissen worden niet ondersteund
-* Uitgaande integratie in systemen van derden
-   * Geen steun voor één enkele Statische IPs aangezien onze infrastructuur multi-huurder is (moet alle datacenter IPs lijsten van gewenste personen)
-   * Alleen methoden voor POSTEN en PUTTEN worden ondersteund voor aangepaste handelingen
-   * Verificatieondersteuning: token | wachtwoord | OAuth2
-* Kan afzonderlijke componenten van Adobe Experience Platform of Journey Optimizer niet verpakken en verplaatsen tussen verschillende sandboxen. Moet opnieuw worden geïmplementeerd in nieuwe omgevingen
-
-<br>
-
-### Campagne (v8)
-
-* De instantie van de uitvoering van het Centrum van het Bericht moet door Adobe Beheerde Cloud Services worden ontvangen
-* De productie van berichten
-   * AC (v8) tot 1 MB per uur gebaseerd op pakket
-* AC (v8) biedt geen ondersteuning voor Beslissingsbeheer in berichten
-* Geen vertraging van uitgaande API vraag die aan Campagne wordt gemaakt
-* Met Campagne v8.4 is het mogelijk om Adobe Campaign Managed Services Source Connector in Experience Platform te gebruiken voor het synchroniseren van bezorgings- en traceringsgebeurtenissen van Campagne naar Experience Platform. Raadpleeg de documentatie bij de Source Connector voor meer informatie. [Koppeling](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
-
-<br>
-
-## Uitvoeringsstappen
+## Implementatiestappen
 
 ### Adobe Experience Platform
 
@@ -117,7 +87,7 @@ Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om 
 
 1. Implementeer Experience Platform Mobile SDK om pushtokens en aanmeldingsgegevens te verzamelen en terug te koppelen naar bekende klantprofielen
 1. Gebruik Adobe-tags en maak een mobiele eigenschap met de volgende extensie:
-   * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
+   * Adobe Journey Optimizer | ADOBE CAMPAIGN CLASSIC | ADOBE CAMPAIGN STANDARD
    * Adobe Experience Platform Edge Network
    * Identiteit voor Edge Network
    * Mobiele kern
