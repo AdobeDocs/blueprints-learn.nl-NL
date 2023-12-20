@@ -3,9 +3,9 @@ title: Beslissingsbeheer op de Hub blauwdruk
 description: Aangepersonaliseerde aanbiedingen aan consumenten aanbieden op verschillende kanalen, waaronder kiosken, ervaringen met assistentie van agenten en in e-mail en andere uitgaande leveringen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,16 @@ Raadpleeg voor meer informatie over Beslissingsbeheer op Edge [Beslissingsbeheer
 
 ## Gebruik van gevallen voor beslissingsbeheer op de hub
 
+* Streaming gebruikt gevallen waarbij de latentie van de profielcontext niet strikt is - 15 minuten of hoger dan latentie.
 * Speciale aanbiedingen voor kiosken en winkelervaringen.
 * Persoonlijke aanbiedingen via de hulp van een agent, zoals callcenters of verkoopinteracties.
 * Aanbiedingen die zijn opgenomen in e-mail, SMS, mobiele pushberichten of andere uitgaande interacties.
 * Aanbiedingen aan externe ESP- en berichtsystemen aanbieden voor levering.
 * Transactieuitvoering via verschillende kanalen - biedt consistentie via internet, mobiele apparaten, e-mail en andere interactiekanalen via Adobe Journey Optimizer.
+
+>[!IMPORTANT]
+>
+>Voor aanbiedingen en reisgebruiksgevallen die toegang tot het profiel vereisen voor aanvullende informatie en context. Het is belangrijk om de bijbehorende latentie te overwegen van het opnemen van gegevens aan profiel op de hub om het op beslissingstijd beschikbaar te verzekeren. Voor scenario&#39;s waarin context wordt gestreamd of in profiel wordt opgenomen en het aanbod of de reis moet die context binnen seconden of minuten na het besluit over het aanbod beschikbaar hebben, kunnen deze scenario&#39;s het best worden bediend met Beslissingsbeheer op de rand.
 
 <br>
 

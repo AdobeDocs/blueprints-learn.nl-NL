@@ -3,9 +3,9 @@ title: Beslissingsbeheer voor de Edge-blauwdruk
 description: Aangepaste aanbiedingen aan consumenten via verschillende kanalen aanbieden, ook in real-time internet en mobiele ervaringen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ Meer informatie over het Beheer van het Besluit op de hub verwijst naar [Besliss
 
 ## Gebruik gevallen voor Beslissingsbeheer aan de rand
 
+* Bij streaming gebruik is de latentie van de profielcontext strikt lager dan 15 minuten latentie en de uitvoering van het beslissingsbeheer subseconden.
 * Online personalisatie via internet of mobiele binnenkomende ervaringen.
 * Transactieuitvoering via verschillende kanalen - biedt consistentie via internet, mobiele apparaten, e-mail en andere interactiekanalen via Adobe Journey Optimizer.
 
