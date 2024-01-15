@@ -4,9 +4,9 @@ description: In de handleidingen worden de prestatieverwachtingen en de gevolgen
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 5a4827244b7d8414b1f1a0bf9b3cd8308bde8c60
+source-git-commit: 2ff576ccb4ac3f9e2bdb690b6e9242d674214c33
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Hulplijnen zijn aanbevolen drempelwaarden voor het gebruik van gegevens, waargen
 
 Voor informatie over specifieke overeenkomsten van het de dienstniveau voor toepassingen en eigenschappen, verwijs naar [Beschrijvingen van toepassingen en functies](#application-feature-descriptions) onder aan deze pagina.
 
-Merk op dat voor om het even welk geval van het klantengebruik dat strikte latentie of volumevereisten heeft, de Adobe adviseert uw gebruiksgeval in detail met uw Team van de Rekening van de Adobe en partner van de Implementatie te herzien. In bepaalde gevallen is het aan te raden een bepaalde gebruikscase-implementatie te testen en in acht te nemen voordat de gebruikszaak wordt gestart, om het verwachte gedrag te observeren en te begrijpen - aangezien elke implementatie van de klant verschillende factoren te zien heeft, waaronder de aard en de cadentie van gegevensopname, de specifieke kenmerken van de gesegmenteerde regels die worden gebouwd en de verschillende activeringsuitdagingen en nuttige lasten - elke implementatie van het gebruiksgeval zal verschillende waargenomen prestaties hebben. Als zodanig is het het beste om de verwachte prestaties vooraf te bepalen en te testen om correcte architectuur en implementatie overeenkomstig de latentie en prestatiesvereisten van het gebruiksgeval te verzekeren.
+Merk op dat voor om het even welk geval van het klantengebruik dat strikte latentie of volumevereisten heeft, de Adobe adviseert uw gebruiksgeval in detail met uw Team van de Rekening van de Adobe en partner van de Implementatie te herzien. In bepaalde gevallen is het raadzaam een bepaalde gebruikscase-implementatie te testen en in acht te nemen voordat de gebruikszaak wordt gestart om het verwachte gedrag te observeren en te begrijpen - aangezien elke implementatie van de klant verschillende factoren heeft, waaronder de aard en de snelheid van de gegevensopname, de specifieke kenmerken van de segmentregels die worden gebouwd en de verschillende activeringskanalen en nuttige lasten - elke implementatie van de gebruikscase zal verschillende waargenomen prestaties hebben. Als zodanig is het het beste om de verwachte prestaties vooraf te bepalen en te testen om correcte architectuur en implementatie overeenkomstig de latentie en prestatiesvereisten van het gebruiksgeval te verzekeren.
 
 
 ## Referentiedocumentatie voor instructies voor Adobe Experience Platform en toepassingen
@@ -42,6 +42,12 @@ De volgende pagina&#39;s bevatten informatie over hulplijnen voor Adobe Experien
 
 ## Diagrammen met latentie van begin tot eind {#end-to-end-latency}
 
+### Experience Platform Edge Network and Hub Primary Observed Latences {#edge-hub-latencies}
+
+Het volgende diagram toont de primaire rand en de hub waargenomen latentie om zich van bewust te zijn wanneer het architect gebruiksgeval op het Experience Platform en de Toepassingen.
+
+![Experience Platform Edge Network en hub primaire waargenomen latenties.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Experience Platform Edge Network en hub primaire waargenomen latenties"){width="1000" zoomable="yes"}
+
 ### Gegevensinvoer {#data-ingestion}
 
 In het onderstaande diagram worden de verwachte waarden voor de inlaatlatentie van gegevens weergegeven via [streaming opname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) en [batch-inname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=en) bij het invoeren van gegevens in Real-Time CDP. Klik op de afbeelding om een versie met hoge resolutie weer te geven.
@@ -54,11 +60,11 @@ In het onderstaande diagram worden de verwachte latentiewaarden weergegeven wann
 
 ![Een visueel overzicht op hoog niveau van segmentatie.](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "Zichtbare overzicht en latentiewaarden op hoog niveau segmenteren"){width="1000" zoomable="yes"}
 
-### Real-time Customer Data Platform en Adobe Target {#adobe-target-latency}
+### Real-time Customer Data Platform &amp; Edge Network {#adobe-edge-latency}
 
-In het onderstaande diagram worden de verwachte latentiewaarden weergegeven bij het exporteren van soorten publiek van Real-Time CDP naar [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en). Klik op de afbeelding om een versie met hoge resolutie weer te geven.
+In het onderstaande diagram worden de verwachte latentiewaarden weergegeven wanneer het Edge Network wordt gebruikt, bijvoorbeeld om het RTCDP-publiek te optimaliseren in [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en). Klik op de afbeelding om een versie met hoge resolutie weer te geven.
 
-![Exporteren naar Adobe Target - visueel overzicht op hoog niveau.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Target_guardrails.svg "Soorten publiek exporteren naar Adobe Target, visueel overzicht op hoog niveau en latentiewaarden"){width="1000" zoomable="yes"}
+![Adobe Edge Network and Experience Platform high-level visual overview.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Edge_guardrails.svg "Het exporteren van publiek naar Adobe Target high-level visueel overzicht en latentie"){width="1000" zoomable="yes"}
 
 ### Customer Journey Analytics {#customer-journey-analytics}
 
