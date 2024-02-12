@@ -1,11 +1,11 @@
 ---
 title: Verwijzingen naar reizen van klanten
 description: Lever individuele, just-in-time klantenervaringen over schermen.
-solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard, Experience Platform
+solution: Journey Optimizer, Campaign, Campaign v8 Client Console, Campaign v8 Web User Interface, Campaign Classic v7, Campaign Standard, Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: 5c0f5c5cfd7c3258c6b41fb579fe6c24d1e9a56e
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Verwijzingen naar reizen van klanten
 
-De Reizen van de klant verhelpen de capaciteit voor merken om proactief met hun klanten door kanalen zoals e-mail, SMS, en mobiele alarm in gesprek te gaan en te communiceren. Orchestration-gereedschappen kunnen ook worden geïntegreerd met andere interactiekanalen, zoals met binnenkomende kanalen voor web/mobiele personalisatie, door de status van het publiek te delen met de andere kanaal-specifieke beslissingsengines. Een aantal factoren gaat in welke toepassingen en plaatsingsopties voor de Reizen van de Klant zouden moeten worden gebruikt maar het kan in twee verschillende benaderingen worden samengevat: reageren op een klant wanneer deze zich engageren (geactiveerd) OF reageren op een groep klanten terwijl deze zich engageren (gepland).
+De Reizen van de klant verhelpen de capaciteit voor merken om proactief met hun klanten door kanalen zoals e-mail, SMS, en mobiele alarm in gesprek te gaan en te communiceren. Orchestration-gereedschappen kunnen ook worden geïntegreerd met andere interactiekanalen, zoals met binnenkomende kanalen voor web/mobiele personalisatie, door de status van het publiek te delen met de andere kanaal-specifieke beslissingsengines. Een aantal factoren gaat in welke toepassingen en plaatsingsopties voor de Reizen van de Klant zouden moeten worden gebruikt maar het kan in twee verschillende benaderingen worden samengevat: op een klant reageren aangezien zij (teweeggebracht) of op een groep klanten reageren aangezien zij (gepland) in dienst nemen.
 
-Tegenwoordig zijn er twee opties voor Adobe voor klanten die een keuze kunnen maken wanneer ze een oplossing voor de reis van klanten willen:
+Tegenwoordig zijn er twee mogelijkheden voor Adobe die klanten kunnen kiezen wanneer ze een oplossing voor de reis van klanten willen:
 
 <ul><li>Adobe Campaign Managed Cloud Services</li><li>Adobe Journey Optimizer</li></ul>
 

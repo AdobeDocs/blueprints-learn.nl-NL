@@ -1,9 +1,9 @@
 ---
 title: Journey Optimizer met Adobe Campaign v7-blauwdruk
 description: Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om berichten te verzenden door de overseinenserver in real time in Campagne te gebruiken
-solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
+solution: Journey Optimizer, Campaign, Campaign Classic v7, Campaign Standard
 exl-id: 6d9bc65c-cca0-453f-8106-d2895d005ada
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 5c0f5c5cfd7c3258c6b41fb579fe6c24d1e9a56e
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om 
 
 1. Implementeer Experience Platform Mobile SDK om pushtokens en aanmeldingsgegevens te verzamelen en terug te koppelen naar bekende klantprofielen
 1. Gebruik Adobe-tags en maak een mobiele eigenschap met de volgende extensie:
-   * Adobe Journey Optimizer | ADOBE CAMPAIGN CLASSIC | ADOBE CAMPAIGN STANDARD
+   * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
    * Adobe Experience Platform Edge Network
    * Identiteit voor Edge Network
    * Mobiele kern
