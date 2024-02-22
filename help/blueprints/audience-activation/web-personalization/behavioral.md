@@ -7,7 +7,7 @@ solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data C
 kt: 7085
 thumbnail: thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: b0f106c4dce59137086c8806def34e98b554bb61
+source-git-commit: 7d043f3245c131ee4dd6085dd4d15e38188a1884
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 7%
@@ -40,8 +40,8 @@ Persoonlijk maken op basis van online gedrag en publieksgegevens.
 
 De Web/Mobiele verpersoonlijkingsblauwdruk kan door de volgende benaderingen worden uitgevoerd zoals hieronder geschetst.
 
-1. Met de [!UICONTROL Platform Web SDK] of [!UICONTROL Platform Mobile SDK] en [!UICONTROL Edge Network]. [Verwijs naar het Web van het Experience Platform en Mobiele SDK Blauwdruk](..//experience-platform/deployment/websdk.md)
-1. traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AppMeasurement.js). [Raadpleeg de specifieke SDK-blauwdruk voor de toepassing](..//experience-platform/deployment/appsdk.md)
+1. Met de [!UICONTROL Platform Web SDK] of [!UICONTROL Platform Mobile SDK] en [!UICONTROL Edge Network]. [Verwijs naar het Web van het Experience Platform en Mobiele SDK Blauwdruk](../../experience-platform/deployment/websdk.md)
+1. traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AppMeasurement.js). [Raadpleeg de specifieke SDK-blauwdruk voor de toepassing](../../experience-platform/deployment/appsdk.md)
 
 ## Implementatiestappen
 
