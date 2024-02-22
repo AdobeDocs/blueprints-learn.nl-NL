@@ -5,7 +5,7 @@ user-guide-description: Blauwdrukken zijn herhaalbare implementaties om vastgest
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: f98f1b6ca56ed1249e9c18ea04935808f4498ed5
+source-git-commit: 404c0d42fd29cb13f933bf74ad375476868a59ad
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 16%
@@ -40,6 +40,11 @@ ht-degree: 16%
       + [Hub voor klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)
       + [Segmentovereenkomst](/help/blueprints/audience-activation/segment-match.md)
    + [Activering met Experience Cloud-toepassingen](/help/blueprints/audience-activation/platform-and-applications.md)
+   + Web en mobiele personalisatie{#web-personalization}
+      + [Overzicht](/help/blueprints/audience-activation/web-personalization/overview.md)
+      + [Gedrag aanpassen - Doel](/help/blueprints//audience-activation/web-personalization/behavioral.md)
+      + [Bekende klantpersonalisatie - Doel en RTCDP](/help/blueprints/audience-activation/web-personalization/known-personalization.md)
+      + [Beslissingsbeheer](/help/blueprints/audience-activation/web-personalization/decision-management-edge.md)
 + B2B-activering en marketing{#b2b-activation}
    + [Overzicht](/help/blueprints/b2b/overview.md)
    + [B2B-activering](/help/blueprints/b2b/b2bactivation.md)
@@ -85,8 +90,3 @@ ht-degree: 16%
    + [Overzicht](/help/blueprints/data-insights/overview.md)
    + [Gegevensanalyse en -intelligentie](/help/blueprints/data-insights/analysis.md)
    + [Aangepaste gegevenswetenschap voor profielverrijking](/help/blueprints/data-insights/data-science.md)
-+ Web en mobiele personalisatie{#web-personalization}
-   + [Overzicht](/help/blueprints/web-personalization/overview.md)
-   + [Gedrag aanpassen - Doel](/help/blueprints/web-personalization/behavioral.md)
-   + [Bekende klantpersonalisatie - Doel en RTCDP](/help/blueprints/web-personalization/known-personalization.md)
-   + [Beslissingsbeheer](/help/blueprints/web-personalization/decision-management-edge.md)
