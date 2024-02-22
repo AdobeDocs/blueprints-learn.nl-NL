@@ -7,7 +7,7 @@ solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 1ee81e6e2e9847f53f51bc96e55ea434a0a1cbda
+source-git-commit: b0f106c4dce59137086c8806def34e98b554bb61
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 2%
@@ -60,7 +60,7 @@ Bekende klantpersonalisatie wordt ondersteund via verschillende implementatiemet
 ### Implementatiepatroon 1 - Edge Network with Web/Mobile SDK of Edge Network API (aanbevolen aanpak)
 
 * Het gebruiken van het Netwerk van de Rand met Web/Mobile SDK. Voor Edge-segmentatie in realtime is de Web/Mobile SDK- of Edge API-implementatiebenadering vereist.
-* [Verwijs naar het Web van het Experience Platform en Mobiele SDK Blauwdruk](//experience-platform/deployment/websdk.md) voor de op SDK gebaseerde implementatie.
+* [Verwijs naar het Web van het Experience Platform en Mobiele SDK Blauwdruk](..//experience-platform/deployment/websdk.md) voor de op SDK gebaseerde implementatie.
 * Voor gebruik in de mobiele SDK wordt de [Adobe Journey Optimizer - Extensie voor besluitvorming](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) moet worden geïnstalleerd in de mobiele SDK.
 * [Raadpleeg de Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html) voor een API-gebaseerde implementatie van Adobe Target met Edge Profile.
 
@@ -68,7 +68,7 @@ Bekende klantpersonalisatie wordt ondersteund via verschillende implementatiemet
 
 traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AT.js en AppMeasurement.js). De evaluatie van het segment in real time van de Rand wordt niet gesteund gebruikend deze implementatiebenadering. Het streamen en het delen van batchgebruikers vanuit de hub van het Experience Platform worden echter ondersteund met deze implementatieaanpak.
 
-[Raadpleeg de specifieke SDK-blauwdruk voor de toepassing](//experience-platform/deployment/appsdk.md)
+[Raadpleeg de specifieke SDK-blauwdruk voor de toepassing](..//experience-platform/deployment/appsdk.md)
 
 ### Implementatiestappen
 
