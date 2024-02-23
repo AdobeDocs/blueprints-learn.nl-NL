@@ -4,9 +4,9 @@ description: Profielen en publiek in Experience Platform beheren en deze delen m
 solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 2dab717d638bdbc0a903861ec743a81f2aed986d
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Zie de [handleidingen op de pagina Overzicht van activering van publiek en profi
 
 ### Publiek delen van Real-time Customer Data Platform naar Target
 
-* Zie de [Bekende klantpersonalisatie - Doel en RTCDP-blauwdruk](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html) voor meer informatie over het delen van profielen en publiek van Real-time Customer Data Platform naar Target.
+* Zie de [Bekende klantpersonalisatie - Doel en RTCDP-blauwdruk](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/web-personalization/known-personalization.html) voor meer informatie over het delen van profielen en publiek van Real-time Customer Data Platform naar Target.
 
 ### Publiek delen van Real-time Customer Data Platform naar Campagne en Journey Optimizer
 
