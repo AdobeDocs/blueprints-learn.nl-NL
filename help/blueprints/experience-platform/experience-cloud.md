@@ -5,7 +5,7 @@ solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Comme
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: 655545ab9e1b173244a239967b6c173d66f74633
+source-git-commit: acbf600dbfb711c99eda2029bd48549e673f0361
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Deze diagrammen tonen hoe de toepassingen van het Experience Cloud, de toepassin
 
 In het volgende diagram worden de verschillende componenten van Adobe Experience Cloud geïllustreerd voor wat betreft gegevensinzicht en publiek, content en handel, reizen van klanten, marketingworkflow, gebouwd en geïntegreerd op de basis van de Adobe Experience Platform.
 
-<img src="assets/AEC.jpg" alt="Overzicht van Experience Cloud" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
+<img src="assets/AEC.png" alt="Overzicht van Experience Cloud" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 
 ## Integratiearchitectuur van gegevens en inzichten, content en handel, en Experience Delivery
