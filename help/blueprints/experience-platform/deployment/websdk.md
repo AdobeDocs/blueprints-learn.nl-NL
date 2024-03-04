@@ -1,13 +1,13 @@
 ---
-title: Web/Mobile SDK, het architectuurdiagram van de Plaatsing van het Netwerk van de Rand
+title: Web/Mobile SDK, het architectuurdiagram van de Plaatsing van het Netwerk van Edge
 description: Deze blauwdruk toont de architectuur en de opname door het Web van het Experience Platform en Mobiele SDK en het Netwerk van de Rand
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 3bd7a73786fee42ec14d98fc4362e7a9609f12a3
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Voor een overzicht en detail op het Web en Mobiele SDK, en de Server API van het
 
 Voor een gedetailleerd overzicht van welke toepassingsfunctionaliteit in het Web SDK wordt gesteund zie de volgende documentatie.
 
-* [Ondersteuning van Web SDK-toepassingen](https://github.com/orgs/adobe/projects/18/views/1)
+* [Ondersteuning voor Web SDK-toepassingsfunctionaliteit](https://github.com/orgs/adobe/projects/18/views/1)
 
 Voor details met betrekking tot migratie van toepassing specifieke SDKs aan het Web en Mobiele SDKs zie de volgende documentatie.
 
@@ -36,11 +36,11 @@ Voor details met betrekking tot migratie van toepassing specifieke SDKs aan het 
 
 Het onderstaande architectuurdiagram illustreert de plaatsing en de gegevensinzameling die SDK van het Web van het Experience Platform gebruiken.
 
-<img src="assets/web_sdk_flow.svg" alt="De architectuur van de verwijzing voor implementatie die het Web van het Experience Platform en Mobiele SDK gebruikt" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="De architectuur van de verwijzing voor implementatie die het Web van het Experience Platform en Mobiele SDK gebruikt" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
-Diagram van de Opeenvolging van de Rand van de Ervaring, de Diensten van het Experience Platform, en Toepassingen
+Diagram van de opeenvolging van de Rand van de Ervaring, de Diensten van het Experience Platform, en Toepassingen
 
-<img src="assets/web_sdk_sequence.svg" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_sequence.svg" alt="Referentiearchitectuur voor de blauwdruk voor online/offline webpersonalisatie" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## Referentiedocumentatie
 
