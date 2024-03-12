@@ -5,17 +5,17 @@ user-guide-description: Blauwdrukken zijn herhaalbare implementaties om vastgest
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 404c0d42fd29cb13f933bf74ad375476868a59ad
+source-git-commit: 3cb8d1566e0ce1356c864e360f660a739d0a472a
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 16%
+source-wordcount: '252'
+ht-degree: 15%
 
 ---
 
 
 # Blauwdrukken voor digitale ervaringen {#architecture}
 
-+ [Overzicht](/help/blueprints/overview.md)
++ [Digitale ervaringen blauwdrukken](/help/blueprints/overview.md)
 + Verticale industrie blauwdrukken{#vertical-blueprints}
    + [Overzicht](/help/blueprints/vertical-blueprints/overview.md)
    + [Deksel](/help/blueprints/vertical-blueprints/apparel.md)
