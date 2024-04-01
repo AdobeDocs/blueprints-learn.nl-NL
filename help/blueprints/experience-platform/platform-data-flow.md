@@ -1,13 +1,13 @@
 ---
-title: Adobe Experience Platform-diagrammen voor gegevensstroomarchitectuur
+title: Diagrammen van de Experience Platform gegevensstroomarchitectuur
 description: Dit architectuurdiagram toont hoe de gegevens in en uit Adobe Experience Platform stromen.
 solution: Data Collection
 kt: 7198
 thumbnail: null
 exl-id: 5016f657-dd55-4ab7-859d-c97bc5edff76
-source-git-commit: 70e7bfb3a6d7bad858bd72b6329602bdfb822505
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ In het onderstaande diagram worden de verschillende paden weergegeven voor het o
 
 <img src="assets/aep_data_flow.svg" alt="Gegevensstroom Experience Platform" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
-## Gegevensingress- en egress-patronen
+## Invoerpatronen en egress-patronen van gegevens
 
 Voor een gedetailleerde lijst van alle gegevensinvoer, inzameling, en ingangspatronen zie [Gegevensvoorbereiding en congestieblauwdruk](../data-ingestion/ingestion.md).
 
 Voor een gedetailleerde lijst van alle gegevensuitgang en toegangspatters zie [Blauwdruk voor gegevenstoegang en exporteren](../data-ingestion/egress.md).
 
-## Gegevensinvoerinstructies
+## Gegevens-innamegardrails
 
 In het onderstaande diagram worden de gemiddelde prestatiegaranties en de latentie voor gegevensinvoer in Adobe Experience Platform weergegeven.
 

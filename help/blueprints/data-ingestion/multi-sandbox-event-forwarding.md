@@ -4,9 +4,9 @@ description: Leer hoe de gegevens die met het Web van het Experience Platform en
 solution: Data Collection
 kt: 7202
 exl-id: ecc94fc8-9fad-4b88-a153-3d0fc00d8d58
-source-git-commit: 3d6a2416cdb9956e59be4b2918ba19f88cd2150b
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Met [!UICONTROL Gebeurtenis doorsturen] als benadering van het verzenden van geg
 
 ### Verschillende gegevensstromen en het stromen eindpunten
 
-Als de gegevens door gegevensstromen van [!UICONTROL Platform Edge Network], bij gebruik [!UICONTROL Gebeurtenis doorsturen] naar een andere AEP-sandbox, is het vereist dat u nooit dezelfde gegevensstroom of hetzelfde streamingeindpunt gebruikt als de gegevensstroom die de oorspronkelijke verzameling maakt. Dit kan schadelijk zijn voor het AEP-exemplaar en kan een DoS-situatie veroorzaken.
+Als de gegevens door gegevensstromen van [!DNL Platform Edge Network], bij gebruik [!UICONTROL Gebeurtenis doorsturen] naar een andere AEP-sandbox, is het vereist dat u nooit dezelfde gegevensstroom of hetzelfde streamingeindpunt gebruikt als de gegevensstroom die de oorspronkelijke verzameling maakt. Dit kan schadelijk zijn voor het AEP-exemplaar en kan een DoS-situatie veroorzaken.
 
 ### Geraamde verkeersvolumes
 
@@ -54,11 +54,11 @@ Verkeersvolumes zijn vereist voor herziening met elk geval van gebruik. Dit is b
 
 ![Multisandbox [!UICONTROL Gebeurtenis doorsturen]](assets/multi-sandbox-data-collection.png)
 
-1. Gebeurtenisgegevens verzamelen en verzenden naar de [!UICONTROL Platform Edge Network] is vereist voor gebruik [!UICONTROL Gebeurtenis doorsturen]. Klanten kunnen Adobe-tags gebruiken voor de client of de [!UICONTROL Platform Edge Network Server-API] voor server-aan-server gegevensinzameling. De [!UICONTROL Platform Edge Network API] kan een server-aan-server inzamelingsvermogen verstrekken. Hiervoor is echter wel een ander programmeringsmodel nodig. Zie [Overzicht van Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=en).
+1. Gebeurtenisgegevens verzamelen en verzenden naar de [!DNL Platform Edge Network] is vereist voor gebruik [!UICONTROL Gebeurtenis doorsturen]. Klanten kunnen Adobe-tags gebruiken voor de client of de [!DNL Platform Edge Network Server API] voor server-aan-server gegevensinzameling. De [!DNL Platform Edge Network API] kan een server-aan-server inzamelingsvermogen verstrekken. Hiervoor is echter wel een ander programmeringsmodel nodig. Zie [Overzicht van Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=en).
 
-1. Verzamelde ladingen worden vanuit de implementatie van tags verzonden naar de [!UICONTROL Platform Edge Network] aan de [!UICONTROL Gebeurtenis doorsturen] diensten en door haar zelf worden verwerkt [!UICONTROL Gegevenselementen], [!UICONTROL Regels] en [!UICONTROL Handelingen]. U kunt meer lezen over de verschillen tussen [Tags en [!UICONTROL Gebeurtenis doorsturen]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=en#differences-from-tags).
+1. Verzamelde ladingen worden vanuit de implementatie van tags verzonden naar de [!DNL Platform Edge Network] aan de [!UICONTROL Gebeurtenis doorsturen] diensten en door haar zelf worden verwerkt [!UICONTROL Gegevenselementen], [!UICONTROL Regels] en [!UICONTROL Handelingen]. U kunt meer lezen over de verschillen tussen [Tags en [!UICONTROL Gebeurtenis doorsturen]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=en#differences-from-tags).
 
-1. An [!UICONTROL Gebeurtenis doorsturen] eigenschap is ook vereist voor het ontvangen van verzamelde gebeurtenisgegevens van de [!UICONTROL Platform Edge Network]. Of die gebeurtenisgegevens naar het Netwerk van de Rand van het Platform door een opgestelde implementatie van Markeringen of een server-aan-server inzameling werden verzonden. Auteurs definiëren de gegevenselementen, regels en handelingen die worden gebruikt om de gebeurtenisgegevens te verrijken voordat deze naar de tweede sandbox worden doorgestuurd. Gebruik de aangepaste code [!DNL JavaScript] gegevenselement voor het structureren van uw gegevens voor het opnemen van sandboxen. In combinatie met de mogelijkheden voor platformgegevensprep beschikt u over verschillende opties voor het beheer van uw gegevensstructuur.
+1. An [!UICONTROL Gebeurtenis doorsturen] eigenschap is ook vereist voor het ontvangen van verzamelde gebeurtenisgegevens van de [!DNL Platform Edge Network]. Of die gebeurtenisgegevens naar de [!DNL Platform Edge Network] door een opgesteld implementatie van Markeringen of een server-aan-server inzameling. Auteurs definiëren de gegevenselementen, regels en handelingen die worden gebruikt om de gebeurtenisgegevens te verrijken voordat deze naar de tweede sandbox worden doorgestuurd. Gebruik de aangepaste code [!DNL JavaScript] gegevenselement voor het structureren van uw gegevens voor het opnemen van sandboxen. In combinatie met de mogelijkheden voor platformgegevensprep beschikt u over verschillende opties voor het beheer van uw gegevensstructuur.
 
 1. Momenteel wordt de Adobe gebruikt [!UICONTROL Extensie Cloud Connector] is vereist binnen de [!UICONTROL Gebeurtenis doorsturen] Eigenschap. Zodra de regels de gebeurtenisgegevens verwerken of verrijken, wordt de Verbinding van de Wolk gebruikt binnen een haalvraag die voor een POST wordt gevormd die de nuttige lading naar de tweede zandbak verzendt
 

@@ -1,12 +1,12 @@
 ---
-title: Reis- en ziekenhuisindustrie - Activering met online en offline gegevens
-description: Besluiten in real time met één enkele geconsolideerde mening van klantengedrag over diverse kanalen.
+title: Reizen en gastvrijheid - Activering met online en offline gegevens
+description: Leer om besluiten in real time met één enkele geconsolideerde mening van klantengedrag over diverse kanalen te nemen.
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Deze organisatie is nu bereid om gebruik te maken van technologieën en services
 |---|---|---|
 | **Maak elke ervaring relevant voor die gast **<br></br>**Bedrijfsklare inzichten en gegevensdemocratie via dashboards **<br></br>**Organisatorische en operationele efficiëntie**</ul> | <ul><li>Geïntegreerde beloningsprogramma&#39;s voor gastprofielen gebaseerd op online en offline gegevens voor activering en meting</li><li>Real-time activering via kanalen bij snelheid en schaal</li><li>Analysecapaciteit op het niveau van de klant ontgrendeld met de analyse van de reis van de klant</li><li>Ontwikkel intelligentie om activering te verbeteren door van de historische gegevens van de klikstroom te leren interactie.</li><li>Gebruik online en offline gegevens om de weergave van een klant te verenigen voor inzichten over reizen en kanalen van klanten.</li></ul> | <ul><li><strong> Kanaaloverschrijdende activering: </strong>Drievoudige e-mailbetrokkenheid, adresseerbare groei van het publiek en beeldgroei, zeer gepersonaliseerde webervaringen </li><li><strong>Inlichtingen: </strong>Gastbeloningsprogramma voert een activeringscampagne om het aantal leden met een lagere prijs te verlagen</li><li><strong>Rapportage: </strong>Online/offline gegevens samengevoegd met AI/ML-lessen in een commercieel vriendelijk reis- en attributiedashboard en tegelijk de latentie (met dagen) te verminderen</li><li><strong>Technologiestapel voor de toekomst: </strong>Tientallen miljoenen profielen via 7 kanalen die klaar zijn om te worden uitgevoerd voor scenario&#39;s voor cross-sell, up-sell en spuitoptimalisatie</li></ul> |
 
-## Primaire blauwdruk: activering met online- en offlinegegevens
+## Primaire blauwdruk: activering met online en offline gegevens
 
 ### Beschrijving
 

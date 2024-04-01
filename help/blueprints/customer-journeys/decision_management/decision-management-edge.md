@@ -3,22 +3,24 @@ title: Beslissingsbeheer voor de Edge-blauwdruk
 description: Aangepaste aanbiedingen aan consumenten via verschillende kanalen aanbieden, ook in real-time internet en mobiele ervaringen.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
 
-# Journey Optimizer - Beslissingsbeheer voor de Edge-blauwdruk
+# JOURNEY OPTIMIZER - [!DNL Decision Management] op de rand
 
-Raadpleeg de productdocumentatie voor meer informatie over de besluitvorming [HIER](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) en het overzicht van het besluitvormingsbeheer [HIER](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en)
+[!DNL Decision Management] een dienst is die wordt verleend als onderdeel van [!DNL Journey Optimizer]. Deze blauwdruk schetst de gebruiksgevallen en de technische mogelijkheden van de toepassing en verstrekt een diepe duik in de diverse architecturale componenten en overwegingen die omhoog het Beheer van de Beslissing maken.
 
-Beslissingsbeheer van de Adobe is een dienst die wordt verleend als onderdeel van Adobe Journey Optimizer. Deze blauwdruk schetst de gebruiksgevallen en de technische mogelijkheden van de toepassing en verstrekt een diepe duik in de diverse architecturale componenten en overwegingen die omhoog het Beheer van de Beslissing maken.
+>[!MORELIKETHIS]
+>
+>Meer informatie over [!DNL Decision Management], zie de [blauwdruk](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en) of ga naar [productdocumentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html).
 
-Beslissingsbeheer kan op twee manieren worden ingezet. De eerste is via de Hub van Adobe Experience Platform, die één enkele architectuur van het gegevenscentrum is. In de &quot;hub&quot;benadering worden de aanbiedingen uitgevoerd, gepersonaliseerd, en geleverd in tweede latentie. Aldus is de hubarchitectuur het best geschikt voor klantenervaring die geen sub-tweede latentie vereist, omvatten de voorbeelden aanbiedingsbesluiten die voor kiosken of agent bijgewoonde ervaringen zoals in callcenters of in persoonlijke interactie worden verstrekt.
+[!DNL Decision Management] kan op twee manieren worden ingezet. De eerste is via de [!DNL Experience Platform] Hub, die één enkele architectuur van het gegevenscentrum is. In de &quot;hub&quot;benadering worden de aanbiedingen uitgevoerd, gepersonaliseerd, en geleverd in tweede latentie. Aldus is de hubarchitectuur het best geschikt voor klantenervaring die geen sub-tweede latentie vereist, omvatten de voorbeelden aanbiedingsbesluiten die voor kiosken of agent bijgewoonde ervaringen zoals in callcenters of in persoonlijke interactie worden verstrekt.
 
-De tweede benadering is via het Edge Network van de Ervaring, dat een wereldwijd gedistribueerde, geografisch gesitueerde infrastructuur is om snelle sub-seconde en milliseconde ervaringen te dienen. De eindgebruikerservaring die wordt uitgevoerd door de randinfrastructuur die het dichtst bij de geo-locatie van de consument ligt om de latentie te minimaliseren. Beslissingsbeheer op de rand is ontworpen om in real-time de ervaringen van de consument te dienen. Deze omvatten ervaringen zoals Web of mobiele binnenkomende verpersoonlijkingsverzoeken.
+De tweede aanpak is via het Experience Platform [!DNL Edge Network], een wereldwijd gedistribueerde geografisch gesitueerde infrastructuur om snelle sub-seconde en millisecondenervaringen te dienen. De eindgebruikerservaring die wordt uitgevoerd door de Edge-infrastructuur die het dichtst bij de geo-locatie van de consument ligt om de latentie te minimaliseren. [!DNL Decision Management] op de Edge-server is ontworpen om in real-time de ervaringen van de consument te dienen. Deze omvatten ervaringen zoals Web of mobiele binnenkomende verpersoonlijkingsverzoeken.
 
 Deze blauwdruk zal de specifieke details van Beslissingsbeheer op de Rand omvatten.
 

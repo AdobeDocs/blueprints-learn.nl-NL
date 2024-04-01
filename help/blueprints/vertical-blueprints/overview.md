@@ -1,17 +1,17 @@
 ---
-title: Verhalen over succes in de sector van de digitale beleving
-description: De succesverhalen van Digital Experience Blueprints laten zien hoe verschillende industrieën hun bedrijfswaarde realiseren met Adobe Experience Cloud Applications, aangedreven door Adobe Experience Platform.
+title: Digitale ervaring blauwdrukken - succesverhalen uit de industrie
+description: In deze video over succesverhalen wordt uitgelegd hoe verschillende bedrijven hun bedrijfswaarde realiseren met behulp van Experience Cloud applicaties, aangedreven door Adobe Experience Platform.
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
 
 # Industriële successen met blauwdrukken voor Digital Experience
 
-Leer hoe klanten geweldige ervaringen opdoen en succesvol zijn met Digital Experience Blueprints. Deze bewezen herhaalbare implementaties laten u strategie richten en snel gevestigde bedrijfsproblemen oplossen.
+Leer hoe klanten geweldige ervaringen creëren en succes hebben met Digital Experience Blueprints. Deze bewezen herhaalbare implementaties laten u strategie richten en snel gevestigde bedrijfsproblemen oplossen.
 
 ## Aanbevolen succesverhalen
 
@@ -28,7 +28,7 @@ Leer hoe klanten geweldige ervaringen opdoen en succesvol zijn met Digital Exper
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/telecommunications.html"><img alt="miniatuurafbeelding voor de Journey Optimizer-blauwdruk" src="../customer-journeys/assets/ajo-architecture.svg" /></a>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/travel-hospitality.html"><img alt="miniatuurafbeelding voor activering van de functie Onlinegegevensvervaging/Offlinegegevensvervaging" src="../audience-activation/assets/known_activation.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/travel-hospitality.html"><img alt="miniatuurafbeelding voor activering van blauwdruk van online/offline gegevens" src="../audience-activation/assets/known_activation.svg" /></a>
   </td>
 </tr>
 <tr>
@@ -41,7 +41,7 @@ Leer hoe klanten geweldige ervaringen opdoen en succesvol zijn met Digital Exper
     <p><em>In real time ervaringen van klanten over digitale media, e-mail, duw, en Webkanalen.</em></p>
   </td>
   <td>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/telecommunications.html"><strong>Telecommunicatie-industrie</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/telecommunications.html"><strong>Telecommunicatie</strong></a></div>
     <p><em>Het maken van overeenkomsten in real time terwijl met efficiënte klant onboarding voor langdurige loyaliteit.</em></p>
   </td>
   <td>
@@ -55,4 +55,4 @@ Leer hoe klanten geweldige ervaringen opdoen en succesvol zijn met Digital Exper
 
 * <a href="https://business.adobe.com/customer-success-stories/index.html?Products+%26+Services=Experience">Adobe Experience Cloud</a>
 * <a href="https://business.adobe.com/customer-success-stories/index.html?Products+%26+Services=Experience+Platform">Adobe Experience Platform</a>
-* <a href="https://business.adobe.com/customer-success-stories/index.html?Products+%26+Services=Intelligent+Services">Adobe Intelligente services</a>
+* <a href="https://business.adobe.com/customer-success-stories/index.html?Products+%26+Services=Intelligent+Services">Adobe Intelligente Diensten</a>

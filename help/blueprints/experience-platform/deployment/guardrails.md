@@ -4,9 +4,9 @@ description: In de handleidingen worden de prestatieverwachtingen en de gevolgen
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 2ff576ccb4ac3f9e2bdb690b6e9242d674214c33
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ De volgende pagina&#39;s bevatten informatie over hulplijnen voor Adobe Experien
 **Experience Platform**
 
 * [Gegevens-innamegardrails](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
-* [Edge Network API-handleidingen](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [[!DNL Edge Network] API-instructies](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
 * [Klantprofiel en segmentatiehandleidingen in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 * [Identiteitsinstructies](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=en)
 * [Query Service-handleidingen](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=en)
@@ -46,7 +46,7 @@ De volgende pagina&#39;s bevatten informatie over hulplijnen voor Adobe Experien
 
 Het volgende diagram toont de primaire rand en de hub waargenomen latentie om zich van bewust te zijn wanneer het architect gebruiksgeval op het Experience Platform en de Toepassingen.
 
-![Experience Platform Edge Network en hub primaire waargenomen latenties.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Experience Platform Edge Network en hub primaire waargenomen latenties"){width="1000" zoomable="yes"}
+![Experience Platform [!DNL Edge Network] en hub primary waargenomen latency.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Experience Platform Edge Network en hub primaire waargenomen latenties"){width="1000" zoomable="yes"}
 
 ### Gegevensinvoer {#data-ingestion}
 
@@ -60,9 +60,9 @@ In het onderstaande diagram worden de verwachte latentiewaarden weergegeven wann
 
 ![Een visueel overzicht op hoog niveau van segmentatie.](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "Zichtbare overzicht en latentiewaarden op hoog niveau segmenteren"){width="1000" zoomable="yes"}
 
-### Real-time Customer Data Platform &amp; Edge Network {#adobe-edge-latency}
+### REAL-TIME CUSTOMER DATA PLATFORM &amp; [!DNL Edge Network] {#adobe-edge-latency}
 
-In het onderstaande diagram worden de verwachte latentiewaarden weergegeven wanneer het Edge Network wordt gebruikt, bijvoorbeeld om het RTCDP-publiek te optimaliseren in [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en). Klik op de afbeelding om een versie met hoge resolutie weer te geven.
+In het onderstaande diagram worden de verwachte latentiewaarden weergegeven wanneer u de [!DNL Edge Network] - bijvoorbeeld om het RTCDP-publiek te helpen [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en). Klik op de afbeelding om een versie met hoge resolutie weer te geven.
 
 ![Adobe Edge Network and Experience Platform high-level visual overview.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Edge_guardrails.svg "Het exporteren van publiek naar Adobe Target high-level visueel overzicht en latentie"){width="1000" zoomable="yes"}
 

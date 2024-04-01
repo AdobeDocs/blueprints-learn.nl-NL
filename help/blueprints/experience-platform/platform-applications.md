@@ -1,36 +1,43 @@
 ---
-title: Diagrammen van Adobe Experience Platform- en toepassingsarchitectuur
-description: Dit architectuurdiagram toont hoe Adobe Experience Platform op andere toepassingen en toepassingsdiensten van Adobe Experience Cloud betrekking heeft.
+title: Experience Platform (AEP) en de diagrammen van de toepassingsarchitectuur
+description: Bekijk architectuurdiagrammen die tonen hoe Adobe Experience Platform (AEP) zich op andere toepassingen en toepassingsdiensten van het Experience Cloud verhoudt.
 solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
 
-# Diagrammen van Adobe Experience Platform- en toepassingsarchitectuur
+# Adobe Experience Platform- en toepassingsarchitectuurdiagrammen
 
-## Adobe Experience Platform- &amp; Applications-architectuurdiagram
+Deze architectuurdiagrammen tonen hoe het Experience Platform (AEP) op andere toepassingen en toepassingsdiensten van het Experience Cloud betrekking heeft.
+
+>[!MORELIKETHIS]
+>
+>[Integratie-configuraties voor integratie van Experience Cloud-toepassingen](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en).
+
+
+## Architectuurdiagram
 
 Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen en de toepassingsdiensten van Adobe Experience Cloud betrekking heeft.
 
 <img src="assets/aep+apps.svg" alt="Experience Platform en toepassingen" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
-## Overzicht Adobe Experience Platform &amp; Applications
+## Overzichtsdiagram
 
 <img src="assets/aep+apps_overview.svg" alt="Experience Platform en toepassingen" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
-## Gedetailleerd architectuurdiagram voor Adobe Experience Platform en toepassingen
+## Gedetailleerd architectuurdiagram
 
 <img src="assets/aep+apps_detailed.svg" alt="Experience Platform en toepassingen" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
 >[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
 
-## Integratie van Adobe Experience Platform- en Experience Cloud-toepassingen
+## Integratie van AEP- en Experience Cloud-toepassingen
 
 <table class="relative-table wrapped" style="width: 100%;">
 <colgroup>

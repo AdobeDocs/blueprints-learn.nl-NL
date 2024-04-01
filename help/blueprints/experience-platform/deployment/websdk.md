@@ -1,25 +1,25 @@
 ---
-title: Web/Mobile SDK, het architectuurdiagram van de Plaatsing van het Netwerk van Edge
-description: Deze blauwdruk toont de architectuur en de opname door het Web van het Experience Platform en Mobiele SDK en het Netwerk van de Rand
+title: Web/Mobile SDK, [!DNL Edge Network] Schema voor implementatiearchitectuur
+description: Deze blauwdruk toont de architectuur en de opname door het Web van het Experience Platform en Mobiele SDK en [!DNL Edge Network]
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 3bd7a73786fee42ec14d98fc4362e7a9609f12a3
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
 
 
-# Experience Platform Web SDK &amp; Edge Network-architectuurdiagram
+# Experience Platform Web SDK &amp; [!DNL Edge Network] architectuurdiagram
 
-Voor een overzicht en detail op het Web en Mobiele SDK, en de Server API van het Netwerk van de Rand zie het volgende.
+Voor een overzicht en detail op het Web en Mobiele SDK, en [!DNL Edge Network] Server-API ziet het volgende.
 
 * [Overzicht van Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html)
 * [Overzicht van Mobile SDK](https://developer.adobe.com/client-sdks/documentation/)
-* [Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
+* [[!DNL Edge Network] Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
 Voor een gedetailleerd overzicht van welke toepassingsfunctionaliteit in het Web SDK wordt gesteund zie de volgende documentatie.
 
@@ -32,7 +32,7 @@ Voor details met betrekking tot migratie van toepassing specifieke SDKs aan het 
 * [Doel](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)
 * [Analyses voor doel](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html)
 
-## Experience Platform Web/Mobile SDK of Edge Network Server API-implementatie
+## Experience Platform Web/Mobile SDK of [!DNL Edge Network] Server-API-implementatie
 
 Het onderstaande architectuurdiagram illustreert de plaatsing en de gegevensinzameling die SDK van het Web van het Experience Platform gebruiken.
 

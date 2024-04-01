@@ -3,25 +3,21 @@ title: Real-Time CDP met Adobe Campaign v8-integratiepatroon
 description: Toont hoe de Adobe Experience Platform en zijn Real-Time Klantprofiel en gecentraliseerd segmenteringshulpmiddel met Adobe Campaign v8 kunnen worden gebruikt om gepersonaliseerde gesprekken te leveren.
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: a1f3aef5b508575019bd651b9706efc7d6db5306
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 10%
+source-wordcount: '218'
+ht-degree: 0%
 
 ---
 
-# Real-Time CDP met Adobe Campaign v8-integratiepatroon
+# [!DNL Real-Time CDP] met Adobe [!DNL Campaign] v8-integratiepatroon
 
-Toont hoe Adobe Experience Platform met zijn realtimeklantprofiel en gecentraliseerde segmenteringstool met Adobe Campaign kunnen worden gebruikt om gepersonaliseerde gesprekken te leveren.
-
-<br>
+De Adobe tonen [!DNL Experience Platform] en zijn Real-Time Klantprofiel en gecentraliseerd segmentatiehulpmiddel kunnen met Adobe Campaign worden gebruikt om gepersonaliseerde gesprekken te leveren.
 
 ## Toepassingen
 
-* Adobe Experience Platform Real-Time CDP
-* Adobe Campaign v8
-
-<br>
+* Adobe [!DNL Experience Platform Real-Time CDP]
+* Adobe [!DNL Campaign] v8
 
 ## Architectuur
 
@@ -32,10 +28,10 @@ Toont hoe Adobe Experience Platform met zijn realtimeklantprofiel en gecentralis
 ## Vereisten
 
 * De klant moet voor Experience Cloud een geldige IMS-organisatie hebben
-* Adobe Experience Platform en Campagne worden aanbevolen om in dezelfde IMS-organisatie te worden ingericht voor één aanmeldings-URL
-* De klant moet een V8-exemplaar van Campagne leveren
+* Adobe Experience Platform en [!DNL Campaign] wordt aangeraden om voor één aanmeldings-URL in dezelfde IMS-organisatie te worden ingericht
+* De klant moet een V8-exemplaar van [!DNL Campaign]
 * De klant moet in aanmerking komen en toegang hebben voor RTCDP, Bronnen, Doelen.
-* Adobe Campaign-productcontext moet bestaan
+* Adobe [!DNL Campaign] productcontext moet bestaan
 <br>
 
 ## Implementatiestappen

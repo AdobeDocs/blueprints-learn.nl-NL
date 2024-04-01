@@ -1,23 +1,27 @@
 ---
 title: Blauwdruk voor gegevenstoegang en exporteren
-description: Deze blauwdruk biedt een overzicht van alle methoden waarmee gegevens kunnen worden benaderd en geëxporteerd vanuit Adobe Experience Platform en toepassingen.
+description: Leer hoe u gegevens kunt openen en exporteren vanuit Adobe Experience Platform en toepassingen.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: 2b555728ddf570e236c0c54a8c17f85a6942618f
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '1838'
 ht-degree: 0%
 
 ---
 
 # Blauwdruk voor gegevenstoegang en exporteren
 
-In de blauwdruk voor gegevenstoegang en export worden alle mogelijke methoden beschreven waarmee gegevens kunnen worden benaderd of geëxporteerd vanuit Adobe Experience Platform en toepassingen.
+In het blauwdruk voor gegevenstoegang en export worden alle mogelijke methoden beschreven waarmee gegevens kunnen worden benaderd of geëxporteerd [!DNL Experience Platform] en toepassingen.
 
-De blauwdruk wordt opgedeeld in twee categorieën voor gegevenstoegang vanuit Experience Platform en toepassingen. Ten eerste, benaderingen om gegevens van Experience Platform en toepassingen te verwijderen; dit zou als een duw type methode van gegevensuitgang worden beschouwd. Ten tweede, benaderingen voor toegangsgegevens van Experience Platform en toepassingen; dit zou als trekkrachttype methode van gegevenstoegang worden beschouwd.
+De blauwdruk is opgedeeld in twee categorieën voor gegevenstoegang van [!DNL Experience Platform] en toepassingen.
 
-Aanpak voor gegevenstoegang:
+Het eerste omvat benaderingen voor het verwijderen van gegevens uit Experience Platform en toepassingen. Dit zou als een _duwen_ type methode van gegevensuitgang.
+
+Het tweede omvat benaderingen voor toegangsgegevens van Experience Platform en toepassingen. Dit zou als een _trekken_ type methode van gegevenstoegang.
+
+Methoden voor gegevenstoegang:
 
 * [Toegang-API voor gebruikersprofiel in realtime](#rtcp-profile-access-api)
 * [API voor gegevenstoegang](#data-access-api)
@@ -30,11 +34,11 @@ Methoden voor het exporteren van gegevens:
 * [Real-time Customer Data Platform-doelen](#RTCDP-destinations)
 * [Aangepaste Journey Optimizer-handelingen](#jo-custom-actions)
 
-## Overzichtsarchitectuur voor gegevenstoegang en export
+## De toegang van gegevens en de architectuur van het uitvoeroverzicht
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="Referentiearchitectuur voor de blauwdruk voor gegevensvoorbereiding en insluiting" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
-## Methoden voor gegevenstoegang en exporteren
+## Toegang tot gegevens en exportmethoden
 
 <table cellspacing="0" class="Table" style="border-collapse:collapse; width:1133px">
 <tbody>
@@ -408,7 +412,7 @@ Zie de [Overzicht van tags](https://experienceleague.adobe.com/docs/experience-p
 
 ### Gebeurtenis doorsturen {#event-forwarding}
 
-De verzoeken van de gegevensinzameling worden verzameld direct aan het Netwerk van de Rand van de Adobe. Van de verzoeken van het Netwerk van de Rand aan externe RESTful eindpunten kunnen worden gevormd om deze verzoeken op de externe bestemming door:sturen.
+Verzoeken om gegevensverzameling worden rechtstreeks bij de Adobe verzameld [!DNL Edge Network]. Van de [!DNL Edge Network] De verzoeken aan externe RESTful eindpoints kunnen worden gevormd om deze verzoeken op de externe bestemming door te sturen.
 
 Raadpleeg het volgende: [Gebeurtenis doorsturen](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=en) aanvullende informatie.
 
@@ -418,7 +422,7 @@ Raadpleeg het volgende: [Gebeurtenis doorsturen](https://experienceleague.adobe.
 
 #### Overwegingen
 
-* Om Gebeurtenis door:sturen te gebruiken, moeten de gegevens naar het Netwerk van de Rand worden verzonden gebruikend het Web SDK of MobileSDK.
+* Als u Gebeurtenis doorsturen wilt gebruiken, moeten gegevens naar de [!DNL Edge Network] het gebruiken van de SDK van het Web of MobileSDK.
 * De methode voor het doorsturen van gebeurtenissen verkort de laadtijd en het gewicht van de pagina omdat er extra codes op de pagina worden toegevoegd.
 * Er wordt momenteel geen verrijking van het randprofiel of andere gegevensbronnen ondersteund.
 * Beperkte gegevensfiltering en eenvoudige toewijzingstransformaties worden ondersteund.

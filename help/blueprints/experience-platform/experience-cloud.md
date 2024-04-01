@@ -5,7 +5,7 @@ solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Comme
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: 20ec9197752bbafea6e601d7a36406b5786f372b
+source-git-commit: 48b34b05b83f693395b71bcabb16dffa548a1b00
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -23,7 +23,7 @@ In het volgende diagram worden de verschillende componenten van Adobe Experience
 <img src="assets/AEC.jpg" alt="Overzicht van Experience Cloud" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 
-## Integratiearchitectuur van gegevens en inzichten, content en handel, en Experience Delivery
+## Integratiearchitectuur van gegevens en inzichten, inhoud en handel en levering van ervaring
 
 In het onderstaande architectuurdiagram ziet u hoe de verschillende componenten van de Adobe Experience Cloud op elkaar aansluiten en integreren om personalisatie op schaal mogelijk te maken voor gegevens, inhoud en beleving.
 

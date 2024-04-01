@@ -1,12 +1,12 @@
 ---
-title: Detailhandel - Activering met Experience Cloud-toepassingen
-description: Lever real-time, klantenervaringen over digitale media, e-mail, duw, en Webkanalen.
+title: Detailhandel - Activering met Experience Cloud toepassingen
+description: Leer hoe u in real-time ervaringen met klanten kunt opdoen via digitale media, e-mail, push en webkanalen.
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: 2dab717d638bdbc0a903861ec743a81f2aed986d
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Deze geïntegreerde ervaringszaken probeerden de volledige klantenreis aan te pa
 | **Realtime klantreizen ordenen **<br></br>**Aankopen van nieuwe klanten herhalen **<br></br>**Verbeter marketing efficiency en verminder media kosten**</ul> | <ul><li>Robuuste gegevens- en identiteitsstrategie om een alomvattend real-time profiel te voeden.</li><li>Klant en transactionele gegevensstreaming in real-time inclusief een historische belasting van 90 dagen</li><li>Segmentering streamen naar Advertising Networks en Adobe Target om media-uitgaven en personaliseringsinspanningen te stimuleren.</li><li>Realtime klantritten door Adobe Campaign die een strategie omvatten om prestaties te meten</li></ul> | <ul><li><strong>Real-time Customer Data Platform:</strong> In real-time, ervaringen van klanten op verschillende media, e-mail, push en het web</li><li><strong>Gegevensbronnen:</strong> Streaming gegevens over de profielopslag, het bestelsysteem, de productcatalogus en de detailhandel van deze detailhandelaar.</li><li><strong>Real-time media activeren:</strong>Streaming segmenten naar advertentienetwerken voor toewijzing en onderdrukking van advertenties</li><li><strong>Personalisatie in realtime van het web:</strong>Streaming segmenten geactiveerd naar Adobe Target om de webbeleving van de detailhandelaar te activeren.</li><li><strong>Journey Orchestration op schaal:</strong>Berichten in real-time geactiveerd, verrijkt met beschikbare klantgegevens en geactiveerd in real-time voor e-mail en pushkanalen</li></ul> |
 
 
-## Gebruiksmogelijkheden
+## Gebruik hoofdletters
 
 | Categorie | Goal | Hoofdletters gebruiken | Beschrijving |
 |:----|:----|:----|:----|
@@ -62,7 +62,6 @@ Deze geïntegreerde ervaringszaken probeerden de volledige klantenreis aan te pa
 
 
 ## Verwante blauwdrukken
-
 
 | Hoofdlettergebruik/integratie gebruiken  | Koppeling |
 |:----|:----|

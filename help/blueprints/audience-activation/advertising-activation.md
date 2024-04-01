@@ -1,19 +1,19 @@
 ---
-title: Activering van sociale doelen en advertenties vanuit het realtime-gegevensplatform van klanten
-description: Activering van sociale doelen en advertenties vanuit het realtime-gegevensplatform van klanten
+title: Activiteiten vanuit het RTCDP naar sociale en reclamebestemmingen
+description: Leer hoe te om klantengegevens van veelvoudige bronnen in te voeren om één enkele profielmening van de klant te bouwen.
 solution: Real-Time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1130'
 ht-degree: 0%
 
 ---
 
-# Activering van sociale doelen en advertenties vanuit het realtime-gegevensplatform van klanten
+# Activiteiten vanuit het RTCDP naar sociale en reclamebestemmingen
 
-Verzamel klantgegevens van veelvoudige bronnen om één enkele profielmening van de klant te bouwen, deze profielen te segmenteren aan gebouwd publiek voor marketing en verpersoonlijking, deze publiek aan Netwerken van de Advertentie zoals Facebook en Google te delen om en verpersoonlijkingscampagnes tegen dat publiek te richten.
+Verzamel klantgegevens uit meerdere bronnen om één profielweergave van de klant te maken. U kunt deze profielen segmenteren aan gebouwd publiek voor marketing en verpersoonlijking, deze toehoorders aan Netwerken van de Advertentie zoals Facebook en Google aan doel en verpersoonlijkingscampagnes tegen dat publiek delen.
 
 ## Gebruik hoofdletters
 
