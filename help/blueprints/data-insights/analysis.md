@@ -1,24 +1,24 @@
 ---
 title: Gegevensanalyse en inlichtingenblauwdruk
-description: Deze blauwdruk toont de capaciteit binnen Adobe Experience Platform om verkennende vraag en analyse van de gegevens uit te voeren die in het gegevensmeer bestaan.
+description: Adobe gebruiken [!DNL Experience Platform] (AEM) verkennende vraag en analyse van de gegevens uitvoeren die in het gegevensmeer bestaan.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 7f3bc307f74aa88a7a73f3e50cc48bd16f58b37f
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
 
 # Gegevensanalyse en inlichtingenblauwdruk
 
-De Analyse en de Intelligentie van gegevens omvat de capaciteit binnen Adobe Experience Platform om verkennende vraag en analyse van de gegevens uit te voeren die in het gegevensmeer bestaan.
+Gegevensanalyse en -intelligentie omvat het vermogen binnen [!DNL Experience Platform] om verkennende vraag en analyse van de gegevens uit te voeren die in het gegevensmeer bestaan.
 
-Experience Platform [!UICONTROL Query-service] staat SQL vragen toe om op de gegevens worden uitgevoerd.
+[!DNL Experience Platform]s [!UICONTROL Query-service] staat SQL vragen toe om op de gegevens worden uitgevoerd.
 
-Het Experience Platform staat verbindingen met derdeSQL cliënten, interfaces, en hulpmiddelen van de Business Intelligence (BI) toe om met, tot de gegevens binnen Experience Platform direct te verbinden toegang te hebben en te vragen, gebruikend [!DNL PostgreSQL] protocol.
+[!DNL Experience Platform] staat verbindingen met derdeSQL cliënten, interfaces, en Business Intelligence (BI) hulpmiddelen toe om met, tot de gegevens binnen direct toegang te hebben en te vragen [!DNL Experience Platform], met de [!DNL PostgreSQL] protocol.
 
 ## Gebruik hoofdletters
 
@@ -30,7 +30,7 @@ Hier worden extra veelvoorkomende gebruiksgevallen voor de queryservice beschrev
 
 ## Toepassingen
 
-* Adobe Experience Platform
+* Adobe [!DNL Experience Platform]
 
 ## Architectuur
 
@@ -41,15 +41,15 @@ Hier worden extra veelvoorkomende gebruiksgevallen voor de queryservice beschrev
 Raadpleeg de documentatie bij het product Query Service voor meer informatie over beste praktijken en instructies.
 [Begeleiding voor zoekservice](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html)
 
-## Uitvoeringsstappen
+## Implementatiestappen
 
 1. [Schema&#39;s maken](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden ingevoerd.
 1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden ingevoerd.
-1. [Gegevens samenvoegen](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in Experience Platform.
+1. [Samenvattingsgegevens](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in [!DNL Experience Platform].
 1. Bevestig dat gegevens beschikbaar zijn voor [[!UICONTROL Query-service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=en).
 1. [Business Intelligence-gereedschappen en SQL-clients verbinden met [!UICONTROL Query-service]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html) voor visualisatie, gegevensvraag, en exploratie.
 
 ## Gerelateerde documentatie
 
-* [Productbeschrijving Adobe Experience Platform Intelligence](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Adobe [!DNL Experience Platform] Omschrijving van het inlichtingenproduct](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * [[!UICONTROL Query-service] documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)

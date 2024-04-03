@@ -4,22 +4,22 @@ description: Leer hoe u gegevens kunt openen en exporteren vanuit Adobe Experien
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 2b555728ddf570e236c0c54a8c17f85a6942618f
+source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
 
-# Blauwdruk voor gegevenstoegang en exporteren
+# Toegang tot gegevens en blauwdruk exporteren
 
-In het blauwdruk voor gegevenstoegang en export worden alle mogelijke methoden beschreven waarmee gegevens kunnen worden benaderd of geëxporteerd [!DNL Experience Platform] en toepassingen.
+In de blauwdruk voor gegevenstoegang en exporteren worden alle mogelijke methoden beschreven waarmee gegevens kunnen worden benaderd of geëxporteerd [!DNL Experience Platform] en toepassingen.
 
 De blauwdruk is opgedeeld in twee categorieën voor gegevenstoegang van [!DNL Experience Platform] en toepassingen.
 
-Het eerste omvat benaderingen voor het verwijderen van gegevens uit Experience Platform en toepassingen. Dit zou als een _duwen_ type methode van gegevensuitgang.
+Het eerste omvat benaderingen voor het verwijderen van gegevens uit [!DNL Experience Platform] en toepassingen. Dit zou als een _duwen_ type methode van gegevensuitgang.
 
-Het tweede omvat benaderingen voor toegangsgegevens van Experience Platform en toepassingen. Dit zou als een _trekken_ type methode van gegevenstoegang.
+Het tweede omvat benaderingen van toegangsgegevens van [!DNL Experience Platform] en toepassingen. Dit zou als een _trekken_ type methode van gegevenstoegang.
 
 Methoden voor gegevenstoegang:
 

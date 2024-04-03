@@ -1,24 +1,24 @@
 ---
-title: Gegevensanalyse, inlichtingendiensten en blauwdrukken voor AI/ML
-description: Deze blauwdruk toont de capaciteit binnen Adobe Experience Platform om verkennende vraag en analyse van de gegevens uit te voeren die in het gegevensmeer bestaan.
+title: Gegevensanalyse, Intelligentie en AI/ML-blauwdrukken
+description: Leer hoe te om verkennende vraag en analyse van de gegevens uit te voeren die in het gegevensmeer bestaan.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
-source-git-commit: 802507291f54dc3f253d469e7a64d78e34b75c6a
+source-git-commit: 7f3bc307f74aa88a7a73f3e50cc48bd16f58b37f
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
 
-# Gegevensanalyse, inlichtingendiensten en blauwdrukken voor AI/ML
+# Gegevensanalyse, intelligentie en AI/ML blauwdrukken
 
-De Analyse van gegevens, de Intelligentie, en AI/ML omvat de capaciteit binnen Adobe Experience Platform om verkennende vraag en analyse van de gegevens uit te voeren die in het gegevensmeer bestaan.
+Gegevensanalyse, intelligentie en AI/ML omvat de mogelijkheid binnen de Adobe [!DNL Experience Platform] om verkennende vraag en analyse van de gegevens uit te voeren die in het gegevensmeer bestaan.
 
-Experience Platform [!UICONTROL Query-service] staat SQL vragen toe om op de gegevens worden uitgevoerd. Bovendien staat het Experience Platform verbindingen met derdeSQL cliënten, interfaces, en de hulpmiddelen van de Business Intelligence (BI) toe om met, tot de gegevens binnen Experience Platform direct te verbinden toegang te hebben en te vragen, gebruikend [!DNL PostgreSQL] protocol.
+[!DNL Experience Platform]s [!UICONTROL Query-service] staat SQL vragen toe om op de gegevens worden uitgevoerd. Daarnaast [!DNL Experience Platform] staat verbindingen met derdeSQL cliënten, interfaces, en Business Intelligence (BI) hulpmiddelen toe om met, tot de gegevens binnen direct toegang te hebben en te vragen [!DNL Experience Platform], met de [!DNL PostgreSQL] protocol.
 
-| Blauwdruk | Beschrijving | Experience Cloud-toepassingen |
+| Blauwdruk | Beschrijving | Experiencen Cloud |
 |---|---|---|
-| **[Gegevensanalyse en -informatie](analysis.md)** | <ul><li>Gegevensanalyse en inlichtingenblauwdruk omvatten de methoden waarmee gegevens kunnen worden gecontroleerd en geanalyseerd voor dieper inzicht in Adobe Experience Platform</ul></li> | <ul><li> Adobe Experience Platform Intelligence</ul></li> |
-| **[Aangepaste gegevenswetenschap voor profielverrijking](data-science.md)** | <ul><li>Train, score, en operationeel maken modellen om klantenprofielen en actiemodelgestuurde klanteninzichten verder te verrijken</li></ul> | <ul><li>Adobe Experience Platform Intelligence</li><li> [!UICONTROL Real-time Customer Data Platform]</li></ul> |
+| **[Gegevensanalyse en -intelligentie](analysis.md)** | <ul><li>De Analyse van gegevens en de Blauwdruk van de Intelligentie omvat de methodes waardoor de gegevens kunnen worden gevraagd en voor dieper inzicht binnen worden geanalyseerd [!DNL Experience Platform]</ul></li> | <ul><li> [!DNL Experience Platform] Intelligentie</ul></li> |
+| **[Aangepaste gegevenswetenschap voor profielverrijking](data-science.md)** | <ul><li>Train, score, en operationeel maken modellen om klantenprofielen en actiemodelgestuurde klanteninzichten verder te verrijken</li></ul> | <ul><li>[!DNL Experience Platform] Intelligentie</li><li> [!UICONTROL Real-time Customer Data Platform]</li></ul> |

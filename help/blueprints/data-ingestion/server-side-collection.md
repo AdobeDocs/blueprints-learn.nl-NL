@@ -1,19 +1,19 @@
 ---
-title: Verblauwdruk voor doorsturen van gebeurtenissen
-description: Door Experience Platform-SDK's verzamelde gegevens streamen naar bestemmingen
+title: Vervaging van doorgave van gebeurtenissen
+description: Verzamelde gegevens streamen door [!DNL Experience Platform] SDK's voor bestemmingen
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 3%
+source-wordcount: '217'
+ht-degree: 0%
 
 ---
 
-# Verblauwdruk voor doorsturen van gebeurtenissen
+# Blauwdruk voor doorzending van gebeurtenissen
 
-De door:sturen van de Gebeurtenis Blauwdruk toont hoe de gegevens die met het Web van Adobe Experience Platform en Mobiele SDKs worden verzameld van Experience Platform kunnen door:sturen [!DNL [!DNL Edge Network]] naar een gewenst doel. U kunt alle onbewerkte gegevens die zijn verzameld van de SDK&#39;s doorsturen, of specifieke gegevens die zijn gebaseerd op gebeurtenissen en regels die zijn geconfigureerd in de eigenschappen van tags (voorheen Starten).
+De gebeurtenis die blauwdruk door:sturen toont hoe de gegevens met Adobe worden verzameld [!DNL Experience Platform] Web en Mobiele SDKs kan van door:sturen [!DNL Experience Platform] [!DNL Edge Network] naar een gewenst doel. U kunt alle onbewerkte gegevens die zijn verzameld van de SDK&#39;s doorsturen, of specifieke gegevens die zijn gebaseerd op gebeurtenissen en regels die zijn geconfigureerd in de eigenschappen van tags (voorheen Starten).
 
 ## Gebruik hoofdletters
 
@@ -22,7 +22,7 @@ De door:sturen van de Gebeurtenis Blauwdruk toont hoe de gegevens die met het We
 
 ## Toepassingen
 
-* Adobe Experience Platform-gegevensverzameling
+* Adobe [!DNL Experience Platform] Gegevensverzameling
 
 ## Architectuur
 
@@ -36,11 +36,11 @@ De door:sturen van de Gebeurtenis Blauwdruk toont hoe de gegevens die met het We
 
 ## Gerelateerde blogberichten
 
-* [Websiteprestaties verhogen met Adobe Experience Platform Web SDK en [!DNL Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
-* [Implementatiepunten oplossen met Adobe Experience Platform Web SDK en [!DNL Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
-* [Adobe Experience Platform Web SDK voor Audience Management](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
-* [Adobe Experience Platform Web SDK - Adobe Target](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
-* [Adobe Experience Platform Web SDK Migration Scenario&#39;s voor Adobe Analytics](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
-* [Verenigen met Adobe Experience Platform Services met Adobe Experience Platform Web SDK](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
-* [Werk sneller met het ontwikkelen van mobiele toepassingen met Adobe Experience Platform Mobile SDK en Starten](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
-* [Workflows van klanten vereenvoudigen met Adobe Experience Platform Web SDK](https://medium.com/adobetech/simplifying-customer-workflows-with-adobe-experience-platform-web-sdk-4e54fe134f4a)
+* [Websiteprestaties verhogen met Adobe [!DNL Experience Platform] Web SDK en [!DNL Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
+* [Implementatiepunten oplossen met Adobe [!DNL Experience Platform] Web SDK en [!DNL Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
+* [Adobe [!DNL Experience Platform] Web SDK voor Audience Management](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
+* [Adobe [!DNL Experience Platform] Web SDK - Adobe Target](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
+* [Adobe [!DNL Experience Platform] Web SDK-migratiescenario&#39;s voor Adobe Analytics](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
+* [Uw Adobe verenigen [!DNL Experience Platform] Diensten met Adobe [!DNL Experience Platform] Web SDK](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
+* [De ontwikkeling van mobiele toepassingen versnellen met Adobe [!DNL Experience Platform] Mobile SDK en Launch](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
+* [Workflows van klanten vereenvoudigen met Adobe [!DNL Experience Platform] Web SDK](https://medium.com/adobetech/simplifying-customer-workflows-with-adobe-experience-platform-web-sdk-4e54fe134f4a)
