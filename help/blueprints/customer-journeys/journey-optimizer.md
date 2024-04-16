@@ -1,6 +1,6 @@
 ---
 title: "[!DNL Journey Optimizer] - geactiveerd berichtenverkeer en Adobe Experience Platform-blauwdruk"
-description: Voer getriggerde berichten en ervaringen uit via Adobe Experience Platform als centrale hub van het streamen van gegevens, klantprofielen en segmentatie.
+description: Voer geactiveerde berichten en ervaringen uit via het Adobe Experience Platform als centrale hub voor het streamen van gegevens, klantprofielen en segmentatie.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: a1f3aef5b508575019bd651b9706efc7d6db5306
