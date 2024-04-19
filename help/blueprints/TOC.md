@@ -5,9 +5,9 @@ user-guide-description: Blauwdrukken zijn herhaalbare implementaties om vastgest
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 62dc3dff69bbf88b025373b4fdc893cc77b73594
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '240'
 ht-degree: 16%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 16%
       + [Guardrails](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Activering publiek en profiel{#audience-activation}
    + [Overzicht](/help/blueprints/audience-activation/overview.md)
-   + [Anoniem Audience Activation (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [Anoniem Audience Activation](/help/blueprints/audience-activation/anonymous.md)
    + Bekende activering van de Klant (RTCDP) {#known-customer-audience-activation}
       + [Overzicht](/help/blueprints/audience-activation/known.md)
       + [Activering op sociale en reclamekanalen](/help/blueprints/audience-activation/advertising-activation.md)
@@ -53,7 +53,7 @@ ht-degree: 16%
       + [Innemen en maken](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
       + [Reviseren en goedkeuren](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
       + [Succesverhalen van klanten](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
-+ Inhoud en handel{#content-commerce}
++ Inhoud en Commerce{#content-commerce}
    + [Adobe Commerce &amp; RTCDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [Overzicht](/help/blueprints/customer-journey-analytics/overview.md)
