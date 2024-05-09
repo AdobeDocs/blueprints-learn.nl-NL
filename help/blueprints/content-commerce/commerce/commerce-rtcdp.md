@@ -3,7 +3,7 @@ title: Adobe Commerce - RTCDP-vervaging
 description: Adobe Experience Platform-integratie met Adobe Commerce om één weergave van klanten te maken en op intelligente wijze ervaringen aan te passen aan een digitale winkel en aan verschillende kanalen.
 solution: Real-Time Customer Data Platform, Commerce
 exl-id: e2fc5e1c-c865-4c24-9b82-861a34aba487
-source-git-commit: 993836cda90ce169602cc6a4eec9a7477fc67172
+source-git-commit: 80a4716a7ed64ec30b9c60b3444affc5bd8984e4
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -69,4 +69,4 @@ Voor een volledige lijst met ondersteunde gebeurtenissen raadpleegt u [Commerce 
 |:----|:----|
 | Platformaansluiting | [Overzicht Adobe Commerce Experience Platform connector](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/overview.html) |
 | Commerce-bestemming | [Adobe Commerce-verbinding in RTCDP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) |
-| Edge-personalisatie | [Het publiek activeren voor verpersoonlijkingsdoelen van randen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) | |
+| Edge-personalisatie | [Het publiek activeren voor verpersoonlijkingsdoelen van randen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) |
