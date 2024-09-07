@@ -4,9 +4,9 @@ description: In de handleidingen worden de prestatieverwachtingen en de gevolgen
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 7e37677280c27302e650a96786035169573d9709
+source-git-commit: 8ab82995ad7762f8ed6f706aa4c4fe59d47abb20
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '612'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ De gidsen weerspiegelen systeembeperkingen, verwachte latentie, en prestatiesver
 
 >[!NOTE]
 >
-> Voor gebruiksgevallen met strikte latentie of prestatiesbehoeften, stelt de Adobe voor de details met uw Team van de Rekening van de Adobe en Partner van de Implementatie te bespreken. Elke klantenopstelling kan over de patronen van de gegevensopname, segmentregels, en activeringskanalen variëren. Het is belangrijk om uw gebruiksgeval te testen en te herzien alvorens te lanceren om te begrijpen hoe het zich zal gedragen.
+> Voor gebruiksgevallen met strikte latentie of prestatiesbehoeften, stelt de Adobe voor de details met uw Team van de Rekening van de Adobe en Partner van de Implementatie te bespreken. Elke klantenopstelling kan over de patronen van de gegevensopname, profieltellingen en rijkdom, segmentregels, en activeringskanalen variëren. Daarom is het belangrijk om uw gebruiksscenario te ontwerpen en te testen om de prestaties te optimaliseren en de verwachte prestatiekenmerken volledig te begrijpen.
 
 ## Referentiedocumentatie voor instructies voor Adobe Experience Platform en toepassingen
 
