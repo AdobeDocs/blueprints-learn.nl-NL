@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
+source-git-commit: 9fe44d93dcc05711c77ce1325b6549bb6c27a860
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ Deze architectuurdiagrammen tonen hoe het Experience Platform (AEP) op andere to
 
 >[!MORELIKETHIS]
 >
->[Integratie-configuraties voor integratie van Experience Cloud-toepassingen](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en).
+>[ de Configuraties van de Integratie voor de Integratie van de Toepassingen van het Experience Cloud ](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en).
 
 
 ## Architectuurdiagram
@@ -74,7 +74,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 </td>
 </tr>
 <tr>
-<td>Analyse</td>
+<td>Analytics</td>
 <td>
 <ul>
 <li>Gegevens die via de web/mobiele SDK zijn verzameld, kunnen naar Adobe Analytics worden doorgestuurd.</li>
@@ -82,7 +82,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 </td>
 <td>
 <ul>
-<li>De gegevens die door Analytics worden verzameld kunnen naar de gegevens van het Experience Platform meer en profielopslag worden verzonden. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en">Gegevensconnector Analytics</a></li>
+<li>De gegevens die door Analytics worden verzameld kunnen naar de gegevens van het Experience Platform meer en profielopslag worden verzonden. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en"> Verbinding van Gegevens van Analytics </a></li>
 </ul>
 </td>
 <td>
@@ -100,7 +100,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 </td>
 <td>
 <ul>
-<li>De gegevens die samen met publiekslidmaatschap van Audience Manager worden verzameld en geëvalueerd kunnen aan het meer en profielopslag van de gegevens van het Experience Platform worden gedeeld. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=en">Audience Manager Source Connector</a></li>
+<li>De gegevens die samen met publiekslidmaatschap van Audience Manager worden verzameld en geëvalueerd kunnen aan het meer en profielopslag van de gegevens van het Experience Platform worden gedeeld. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=en"> de Schakelaar van Source van de Audience Manager </a></li>
 </ul>
 </td>
 <td>
@@ -152,14 +152,14 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 <td colspan="1">
 <ul>
 <li>Gegevens die in het Experience Platform data Lake worden verzameld en geconsumeerd, worden beschikbaar gesteld voor verwerking tot Customer Journey Analytics. </li>
-<li>Profiel- en publieksgegevens van Real-time Customer Data Platform kunnen worden opgenomen in CJA. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=en">RTCDP naar CJA-integratie</a>.
+<li>Profiel- en publieksgegevens van Real-time Customer Data Platform kunnen worden opgenomen in CJA. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=en"> RTCDP aan integratie CJA </a>.
 </li>
 </ul>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Bouw publiek in de Analtyics van de Reis van de Klant en deel de publieksresultaten aan Real-time Customer Data Platform. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en">CJA Audience Publishing</a></li>
+<li>Bouw publiek in de Analtyics van de Reis van de Klant en deel de publieksresultaten aan Real-time Customer Data Platform. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=en"> het Publiceren van het Publiek van CJA </a></li>
 </ul>
 </td>
 <td colspan="1">
@@ -208,7 +208,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 <td colspan="1">Adobe Commerce</td>
 <td colspan="1">
 <ul>
-<li>Profielen en publiek die in Real-time Customer Data Platform zijn ingebouwd, kunnen in Adobe Commerce beschikbaar worden gesteld voor omzetting. </li>
+<li>Profielen en publiek die in Real-time Customer Data Platform zijn ingebouwd, kunnen in Adobe Commerce voor personalisatie beschikbaar worden gesteld. </li>
 </ul>
 </td>
 <td colspan="1">
@@ -227,7 +227,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 </td>
 <td colspan="1">
 <ul>
-<li>Marketo-accounts, contactpersonen en opportuniteitsgegevens worden samen met Interactie- en campagnegegevens die door Marketo worden geproduceerd, in Experience Platform opgenomen voor verder gebruik in publieksopbouw via B2B-CDP en analyse via Customer Journey Analytics en Experience Platform Query Service. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=en">Marketo Engage Connector</a></li>
+<li>Marketo-accounts, contactpersonen en opportuniteitsgegevens worden samen met Interactie- en campagnegegevens die door Marketo worden geproduceerd, in Experience Platform opgenomen voor verder gebruik in publieksopbouw via B2B-CDP en analyse via Customer Journey Analytics en Experience Platform Query Service. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=en"> Verbinding van het Marketo Engage </a></li>
 </ul>
 </td>
 <td colspan="1">

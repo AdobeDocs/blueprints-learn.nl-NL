@@ -4,22 +4,22 @@ description: Leer hoe u gegevens kunt openen en exporteren vanuit Adobe Experien
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
+source-git-commit: 9fe44d93dcc05711c77ce1325b6549bb6c27a860
 workflow-type: tm+mt
 source-wordcount: '1834'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 # Toegang tot gegevens en blauwdruk exporteren
 
-In de blauwdruk voor gegevenstoegang en exporteren worden alle mogelijke methoden beschreven waarmee gegevens kunnen worden benaderd of geëxporteerd [!DNL Experience Platform] en toepassingen.
+De blauwdruk voor gegevenstoegang en exporteren beschrijft alle mogelijke methoden waarmee gegevens kunnen worden benaderd of geëxporteerd vanuit [!DNL Experience Platform] en toepassingen.
 
-De blauwdruk is opgedeeld in twee categorieën voor gegevenstoegang van [!DNL Experience Platform] en toepassingen.
+De blauwdruk bestaat uit twee categorieën voor gegevenstoegang vanuit [!DNL Experience Platform] en toepassingen.
 
-Het eerste omvat benaderingen voor het verwijderen van gegevens uit [!DNL Experience Platform] en toepassingen. Dit zou als een _duwen_ type methode van gegevensuitgang.
+Het eerste voorbeeld omvat benaderingen voor het verwijderen van gegevens uit [!DNL Experience Platform] en toepassingen. Dit zou als a _duw_ type methode van gegevensuitgang worden beschouwd.
 
-Het tweede omvat benaderingen van toegangsgegevens van [!DNL Experience Platform] en toepassingen. Dit zou als een _trekken_ type methode van gegevenstoegang.
+De tweede methode omvat benaderingen voor toegang tot gegevens van [!DNL Experience Platform] en toepassingen. Dit zou als a _type van het type van 1} trek methode van gegevenstoegang worden beschouwd._
 
 Methoden voor gegevenstoegang:
 
@@ -68,7 +68,7 @@ Methoden voor het exporteren van gegevens:
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Doorsturen van onbewerkte gegevens die zijn verzameld bij Adobe-SDK's voor analyse en verzameling naar bedrijfssystemen</span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Lichtgewicht labelen voor 3<sup>rd</sup> gegevensverzameling van partijen via extensies</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Licht gewicht etiketterend voor 3 <sup> derde </sup> de inzameling van partijgegevens door uitbreidingen</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:144px">
@@ -135,7 +135,7 @@ Methoden voor het exporteren van gegevens:
 </tr>
 <tr>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:240px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en" style="color:#0563c1; text-decoration:underline">RTCDP - Aanpassingsdoelen</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en" style="color:#0563c1; text-decoration:underline">RTCDP - Personalization-doelen</a></span></span></span></p>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
@@ -199,7 +199,7 @@ Methoden voor het exporteren van gegevens:
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:240px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP - Fase API* Beta voor pagina opzoeken van profiel</span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">RTCDP - Edge API voor opzoeken van profielen</span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:27px; vertical-align:top; width:467px">
 <ul style="list-style-type:square">
@@ -313,7 +313,7 @@ Methoden voor het exporteren van gegevens:
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:245px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en" style="color:#0563c1; text-decoration:underline">Dataset exporteren* bèta</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=en" style="color:#0563c1; text-decoration:underline">Gegevensset exporteren</a></span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:462px">
 <ul style="list-style-type:square">
@@ -330,7 +330,7 @@ Methoden voor het exporteren van gegevens:
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:281px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Momenteel in bèta, beginnend met ondergroep van datasettypes</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Subset van gegevenssets wordt ondersteund, zoals wordt beschreven in de productdocumentatie.</span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -345,26 +345,26 @@ Methoden voor het exporteren van gegevens:
 
 Klanten kunnen toegang krijgen tot één enkel verenigd profiel vanuit de Real-time opslag van het Profiel van de Klant, met inbegrip van alle profielidentiteiten, publiekslidmaatschappen, attributen en ervaringsgebeurtenissen die de Toegang API van het Profiel van de Klant in real time gebruiken.
 
-Zie de [Toegang-API voor gebruikersprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=en) aanvullende informatie.
+Verwijs naar de ](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=en) documentatie van de Toegang API van de Toegang van het Profiel van de Klant in real time [ voor extra informatie.
 
-#### Gebruik hoofdletters
+#### Gebruiksscenario&#39;s
 
 * Zoek één enkel profiel om context aan de interactie van de agentenklant zoals steuninteractie door praatje en vraagcentrum, of een verkoopinteractie op het verkooppunt toe te voegen.
 * Toegevoegde context toestaan aan een verpersoonlijkingsbesluit dat door een extern systeem, bijvoorbeeld een systeem van de Webverpersoonlijking of een systeem van de aanbiedingsbeslissing wordt gemaakt.
 
 #### Overwegingen
 
-* Klantprofiel in realtime [guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) van toepassing.
+* Realtime de guardrails van het Profiel van de Klant [ ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) zijn van toepassing.
 * Ontworpen voor één profielzoekopdracht tegelijk. Niet gebruikt voor bulkprofieltoegang of download van de volledige profielpopulatie voor het gebruik van analyse of gegevenswetenschap.
-* De responstijd van de opzoekopdracht van het profiel wordt gekoppeld aan de profielinstructies. Eisen voor realtime lage latentie: voor dezelfde vereisten voor paginagrootte moet u het Edge-profiel gebruiken van de naar [Adobe Target-verbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) of de [Aangepaste aanpassingsverbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en) voor realtime profieltoegang voor in browser en in app-personalisatie.
+* De responstijd van de opzoekopdracht van het profiel wordt gekoppeld aan de profielinstructies. In real time lage latentievereisten - bijvoorbeeld voor de zelfde vereisten van de paginagrootte zouden het Profiel van Edge van de [ Verbinding van Adobe Target ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en) of de [ Verbinding van Personalization van de Douane ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en) voor profieltoegang in real time voor in browser en in app verpersoonlijking moeten gebruiken.
 
 ### API voor gegevenstoegang {#data-access-api}
 
 De gebruikers van de API voor gegevenstoegang kunnen rechtstreeks toegang krijgen tot de onbewerkte gegevenssetbestanden die in het gegevenspeer van het Experience Platform zijn opgeslagen.
 
-* Voor meer informatie over het gebruik van de API voor gegevenstoegang raadpleegt u de [documentatie](https://experienceleague.adobe.com/docs/experience-platform/data-access/home.html?lang=en).
+* Voor extra details bij het gebruiken van de gegevens toegang API gelieve te verwijzen naar de [ documentatie ](https://experienceleague.adobe.com/docs/experience-platform/data-access/home.html?lang=en).
 
-#### Gebruik hoofdletters
+#### Gebruiksscenario&#39;s
 
 * Trek ruwe en verwerkte gegevensdossiers van Experience Platform voor opslag en evaluatie in ondernemingsmilieu&#39;s.
 
@@ -377,19 +377,19 @@ De gebruikers van de API voor gegevenstoegang kunnen rechtstreeks toegang krijge
 
 Gebruikend de klanten van de Dienst van de Vraag van het ervaringsplatform kunnen datasets binnen Experience Platform vragen en de resultaten van de vraag voortzetten. Een SQL Cliënt kan worden gebruikt om de vraagreactie in de gewenste opslagbestemming te vragen en voort te zetten die de SQL cliënt kan steunen. De dienst UI van de Vraag kan worden gebruikt om het SQL resultaat in een doeldataset in het Experience Platform op te slaan of de resultaten kunnen aan de lokale machine worden bewaard.
 
-* Voor extra details over verbinding met SQL cliënten om SQL resultaten van de Dienst van de Vraag van het Experience Platform voort te zetten zie het volgende [documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=en).
+* Voor extra details op verbinding met SQL cliënten om SQL resultaten van de Dienst van de Vraag van het Experience Platform voort te zetten zie de volgende [ documentatie ](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=en).
 
-#### Gebruik hoofdletters
+#### Gebruiksscenario&#39;s
 
 * Vraag ruwe gegevens van de Experience Platform datasets en stelt de vraagresultaten voort.
-* Vraag de dataset van de profielmomentopname om inzichten op het Profiel van de Klant in real time te halen. [Documentatie](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=en#profile-attribute-datasets).
+* Vraag de dataset van de profielmomentopname om inzichten op het Profiel van de Klant in real time te halen. [ Documentatie ](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=en#profile-attribute-datasets).
 * De vraagresultaten van de opslag in een afzonderlijke dataset voor toegang of in een profiel toegelaten dataset die later door RTCDP en andere toepassingen van het Experience Cloud kan worden geïntegreerd die tot het Profiel van de Klant in real time toegang hebben.
 
 #### Overwegingen
 
 * Aangezien de gegevens op een batch asynchrone manier worden gevraagd, zal de toegang tot de gegevens inherent latent zijn in vergelijking met het stromen van de benaderingen van de gegevensuitgang zoals het gebruiken van Markeringen, Gebeurtenis door:sturen, of RTCDP Doelen.
 * Slechts kunnen de gegevens die in het de gegevensmeer van de Experience Platform beschikbaar zijn worden gevraagd gebruikend de Dienst van de Vraag. De opslag van het Profiel van de Klant in real time, de identiteitsgrafiek, de Customer Journey Analytics kan niet direct worden gevraagd gebruikend de Dienst van de Vraag. Slechts wanneer de datasets aan het gegevenshoek worden uitgevoerd kan deze datasets worden gevraagd, zoals in het voorbeeld van de dataset van de profielmomentopname.
-* Merk op dat de gidsen voor het aantal vraagresultaten en vraagonderbreking zoals die in worden geschetst van toepassing zijn [Query Services-handleidingen](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=en) documentatie.
+* Merk op dat de gidsen voor het aantal vraagresultaten en vraagonderbreking zoals die in de [ handleidingen van de Diensten van de Vraag ](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=en) worden geschetst documentatie van toepassing zijn.
 
 ## Methoden voor het exporteren van gegevens
 
@@ -397,9 +397,9 @@ Gebruikend de klanten van de Dienst van de Vraag van het ervaringsplatform kunne
 
 Extensies kunnen worden geïmplementeerd met de oplossing Tags van de Adobe. Zodra een uitbreiding wordt opgesteld worden de gegevensverzoeken opgesteld direct op cliëntbrowser of toepassing en een verzoek kan worden aangehaald om gegevens en verzoeken naar de gewenste bestemming te verzenden.
 
-Zie de [Overzicht van tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) aanvullende informatie.
+Verwijs naar de [ documentatie van het Overzicht van Markeringen ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) voor extra informatie.
 
-#### Gebruik hoofdletters
+#### Gebruiksscenario&#39;s
 
 * Verzamel onbewerkte streaminggegevens rechtstreeks vanuit clientomgevingen met behulp van tags.
 
@@ -412,17 +412,17 @@ Zie de [Overzicht van tags](https://experienceleague.adobe.com/docs/experience-p
 
 ### Gebeurtenis doorsturen {#event-forwarding}
 
-Verzoeken om gegevensverzameling worden rechtstreeks bij de Adobe verzameld [!DNL Edge Network]. Van de [!DNL Edge Network] De verzoeken aan externe RESTful eindpoints kunnen worden gevormd om deze verzoeken op de externe bestemming door te sturen.
+Verzoeken om gegevensverzameling worden rechtstreeks verzameld bij de Adobe [!DNL Edge Network] . Van [!DNL Edge Network] verzoeken aan externe RESTful eindpunten kunnen worden gevormd om deze verzoeken op de externe bestemming door:sturen.
 
-Raadpleeg het volgende: [Gebeurtenis doorsturen](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=en) aanvullende informatie.
+Verwijs naar de volgende [ Gebeurtenis door:sturen ](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=en) documentatie voor extra informatie.
 
-#### Gebruik hoofdletters
+#### Gebruiksscenario&#39;s
 
 * Verzamel ruwe het stromen informatie van cliënt zijmilieu&#39;s aan een ondernemingseindpunt direct gebruikend de server van de Adobe gebeurtenis door:sturen.
 
 #### Overwegingen
 
-* Als u Gebeurtenis doorsturen wilt gebruiken, moeten gegevens naar de [!DNL Edge Network] het gebruiken van de SDK van het Web of MobileSDK.
+* Als u Gebeurtenis doorsturen wilt gebruiken, moeten gegevens naar de [!DNL Edge Network] worden verzonden met de SDK van het Web of de MobileSDK.
 * De methode voor het doorsturen van gebeurtenissen verkort de laadtijd en het gewicht van de pagina omdat er extra codes op de pagina worden toegevoegd.
 * Er wordt momenteel geen verrijking van het randprofiel of andere gegevensbronnen ondersteund.
 * Beperkte gegevensfiltering en eenvoudige toewijzingstransformaties worden ondersteund.
@@ -431,9 +431,9 @@ Raadpleeg het volgende: [Gebeurtenis doorsturen](https://experienceleague.adobe.
 
 De gegevens van de profielattributen en van het publiekslidmaatschap kunnen aan onderneming en reclamebestemmingen worden geactiveerd. Dit betekent dat de gegevens moeten worden opgenomen in het Experience Platform Real-time Klantprofiel.
 
-Zie de [Real-time Customer Data Platform-doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en) aanvullende informatie.
+Verwijs naar de [ documentatie van de Doelen van Real-time Customer Data Platform ](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=en) voor extra informatie.
 
-#### Gebruik hoofdletters
+#### Gebruiksscenario&#39;s
 
 * Activeer profielkenmerkinformatie, waaronder het lidmaatschap van het publiek voor een interne bedrijfsgegevensopslagruimte, analyseprogramma&#39;s, e-mailsystemen of supportsystemen.
 * Activeer het lidmaatschap van het profielpubliek voor een externe advertentiemap om inhoud aan het profiel te richten en te personaliseren.
@@ -447,16 +447,16 @@ Zie de [Real-time Customer Data Platform-doelen](https://experienceleague.adobe.
 
 Het gebruiken van de klanten van Journey Optimizer kan een douaneactie van het reiscanvas aanhalen om een lading of een bericht naar een extern API eindpunt te verzenden dat wordt gevormd. Een actie kan aan om het even welke dienst van om het even welke leverancier worden gevormd die door REST API met een JSON-Geformatteerde lading kan worden geroepen. Deze nuttige lading kan gebeurtenisinformatie, profielattributen en vroegere gebeurtenisgegevens, transformaties en verrijkingen omvatten die in de reis worden gevormd.
 
-Zie de [Aangepaste Journey Optimizer-acties](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-custom-actions.html?lang=en) aanvullende informatie.
+Verwijs naar de [ de douaneacties van Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-custom-actions.html?lang=en) documentatie voor extra informatie.
 
-#### Gebruik hoofdletters
+#### Gebruiksscenario&#39;s
 
 * Activeringsgebeurtenissen van Experience Platform en Journey Optimizer die aanvullende informatie van het Real-time Klantprofiel bevatten.
 * Externe systemen op de hoogte stellen wanneer een klant een specifiek punt van een reis heeft bereikt.
 
 #### Overwegingen
 
-* Guardrails op de doorvoer ondersteund door [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en) en door de [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) van toepassing.
+* De begeleiding op de productie die door [ wordt gesteund Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en) en de verrijkingen die door het [ in real time Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) worden gesteund zijn van toepassing.
 * Aangepaste acties kunnen voor elke gebeurtenis of elk profiel op een reis één voor één worden gestreamd. Bulkbewerkingen of bulkgegevensegress in de vorm van bestanden of geaggregeerde verzoeken over klantreizen kunnen niet worden uitgevoerd.
 * Streaming toegang tot kenmerken van het realtime-klantprofiel en ervaringsgebeurtenissen die kunnen worden opgenomen in de activeringslading.
 * Gebeurtenisgegevens kunnen worden gefilterd en eenvoudige toewijzingstransformaties kunnen worden toegepast voordat gebeurtenissen naar externe doelen worden verzonden.
