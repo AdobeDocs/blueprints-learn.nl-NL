@@ -1,17 +1,17 @@
 ---
-title: B2B-blauwdrukken voor analyse en activering
+title: B2B-blauwdrukken voor analyse, activering en marketing
 description: Lever een publiek op basis van account en maak een profilering van de belangrijkste ervaringen van klanten met Real-time Customer Data Platform.
 solution: Real-Time Customer Data Platform
 kt: 9311
 exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 6a13de73d7f61295092faccfc21172f5e188331d
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
 
-# B2B-blauwdrukken voor analyse en activering
+# B2B-blauwdrukken voor analyse, activering en marketing
 
 B2B-activering van publiek en profiel is de sleutel tot succes in een wereld van gegevensgestuurde marketing. Veel merken richten zich echter nog steeds op activering via het kanaal, wat vaak leidt tot inconsistente bereikbaarheid en personalisatie.
 
@@ -19,7 +19,8 @@ Met een kanaal-eerste benadering, handelt elk kanaal als silo waarin de verperso
 
 | Blauwdruk | Beschrijving | Experiencen Cloud |
 |---|---|---|
-| **[B2B-analyse](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html)** | <ul><li>B2B-accountinformatie opnemen in de analyse van de klantentrining</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
-| **[B2B-Audience Activation](b2bactivation.md)** | <ul><li>Doelpubliek voor B2B via web-, e-mail- en reclamekanalen</li></ul> | <ul><li>Adobe Real-time Customer Data Platform B2B Edition</li></ul> |
-| **[Marketo Engage en Workfront Integration Blueprint: overzicht](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)** | <ul><li>Planning, ontwikkeling en uitvoering van de B2B-marketingcampagne optimaliseren</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
-| **[Marketo Engage en Workfront Integration Blueprint: Intake and Create](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)** | <ul><li>Automatiseer B2B-verzoek om opname van een marketingcampagne om de ontwikkeling van de campagne uit te voeren</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
+| **[B2B Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html)** | <ul><li>B2B-accountinformatie opnemen in de analyse van de klantentrining</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
+| **[B2B Audience Activation](b2bactivation.md)** | <ul><li>Doelpubliek voor B2B via web-, e-mail- en reclamekanalen</li></ul> | <ul><li>Adobe Real-time Customer Data Platform B2B edition</li></ul> |
+| **[het Kopen op groep-Gebaseerde Marketing en het Beheer van de Reis](./b2b-buying-group-journeys.md)** | <ul><li>Ontwerp en bouw een rekeningreis die voor een koopgedrag kwalificeert die de doeltreffendheid van de marketing activiteit in kwalificeert leidt tot verkoopkansen verhoogt</li></ul> | <ul><li>Adobe Journey Optimizer B2B edition</li><li>Adobe Real-time Customer Data Platform B2B edition</li><li>Adobe Marketo Engage</li></ul> |
+| **[Marketo Engage en de Vervaging van de Integratie van Workfront: Overzicht](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)** | <ul><li>Planning, ontwikkeling en uitvoering van de B2B-marketingcampagne optimaliseren</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
+| **[Marketo Engage en de Vervaging van de Integratie van Workfront: Inname en creeer](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)** | <ul><li>Automatiseer B2B-verzoek om opname van een marketingcampagne om de ontwikkeling van de campagne uit te voeren</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
