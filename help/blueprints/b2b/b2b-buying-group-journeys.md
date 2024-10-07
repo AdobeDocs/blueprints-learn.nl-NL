@@ -2,9 +2,9 @@
 title: Op groep-gebaseerde Bladeren van de Marketing en van het Beheer van de Reis
 description: Leer hoe u een reis kunt herkennen, ontwerpen en maken die in aanmerking komt voor een inkoopgroep in Adobe Journey Optimizer B2B edition.
 solution: Journey Optimizer B2B Edition
-source-git-commit: 5035c869aa5181fff66cbc20b03922f82832f126
+source-git-commit: b514d7a639d4d624875552c892ae266fdfe089f3
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2118'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ De volgende KPIs richt zich goed op het meten van het succes van gebruiksgevalle
 
 ## Op account gebaseerde marketing
 
-Een algemeen gebruiksgeval, en de nadruk in deze blauwdruk, is een op rekening-gebaseerd marketing initiatief dat het punt onderzoekt waar uw gecreeerde koopgroep met een lood bevolkt is wanneer zij met een rol en oplossingsbelang worden geassocieerd.
+Een veel voorkomend geval van gebruik, en de nadruk in deze blauwdruk, is een op rekening-gebaseerd marketing initiatief. Deze gebruikszaak verkent het punt waar de door u gemaakte inkoopgroep is gevuld met een lead wanneer deze is gekoppeld aan een rol- en oplossingsbelang.
 
 Terwijl u een individu door de reis leidt, verzamelt u meer informatie over de lead (de Workflow van de Groep van de Kopende), door vormen, de Synchronisatie van CRM, en de activering van LinkedIn.
 
-Wanneer een lood duidelijk de oplossingsrente toont, wijst het op een bedrijfsgebeurtenis die door een bedrijfslens wordt bepaald. Op dit moment is het bedrijf ervan overtuigd dat deze voorsprong echt geïnteresseerd is in een product en in Journey Optimizer B2B edition is de leider geassocieerd met een inkoopgroep voor die oplossing in een rolsjabloon (zoals invloeden, besluitvormers, kampioenen en sponsors).
+Wanneer een lood duidelijk de oplossingsrente toont, wijst het op een bedrijfsgebeurtenis die door een bedrijfslens wordt bepaald. Op dit moment is het bedrijf ervan overtuigd dat deze voorsprong echt geïnteresseerd is in een product. In Journey Optimizer B2B edition is de lead gekoppeld aan een inkoopgroep voor die oplossing in een rolsjabloon (zoals invloeden, besluitvormers, kampioenen en sponsors).
 
 Zoals in het volgende diagram wordt geïllustreerd, kunt u gegevens verzamelen in formulieren of via activering van LinkedIn en kunt u een oplossingsintentie kwalificeren wanneer interactie met een chatsbalk heeft plaatsgevonden.
 
@@ -85,7 +85,7 @@ Bij elke implementatie van gegevensgestuurde automatisering van de marketing is 
 
 De schema&#39;s zijn specifiek verrijkt met B2B-gegevenselementen ter ondersteuning van de rijke relatie in profielen en omvatten het perspectief van de account via `sourceKey` om gebeurtenissen en profielen aan het accountschema te koppelen. De schema&#39;s zijn een vertegenwoordiging van uw organisatorische vereisten en de verzamelde en geprofileerde gegevens. Om aan deze behoeften te voldoen, zijn B2B-schema&#39;s flexibel en vormen zij een uitbreiding van de vereiste B2B-elementen.
 
-Wanneer het ontwerpen van het gegevensschema voor uw organisatie, is het beste praktijken om de belangrijkste entiteiten in uw ERD met de entiteiten op hoog niveau in het eerste diagram in de [ RTCDP B2B schemadocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b) te vertegenwoordigen en te etiketteren. Dit proces is zeer nuttig voor het begrip van de vereiste gegevenselementen die u in elk schema moet bepalen.
+Wanneer het ontwerpen van het gegevensschema voor uw organisatie, is het een beste praktijk om de belangrijkste entiteiten in uw ERD met de entiteiten op hoog niveau te vertegenwoordigen en te etiketteren. (Verwijs naar het eerste diagram in de [ RTCDP B2B schemadocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)). Dit proces is zeer nuttig voor het begrip van de vereiste gegevenselementen die u in elk schema moet bepalen.
 
 Op dit moment kunnen de ervaringsgebeurtenissen nog geen invloed hebben op de reizen. Naast de schema&#39;s van de Gebeurtenis van de Ervaring, adviseert men dat u eigenschappen aan de rekening toevoegt die belangrijke besluiten vertegenwoordigen die op gebruikersactiviteiten worden gebaseerd. Deze eigenschappen worden gebruikt voor gesplitste wegelementen in de reisontwerper.
 
@@ -97,7 +97,7 @@ Op dit moment kunnen de ervaringsgebeurtenissen nog geen invloed hebben op de re
 
 Om de elementen van rekeningsgegevens te verrijken, kunt u Marketo Engage en zijn B2B- gegevens gebruiken om de mening van de Rekening van RTCDP en van Journey Optimizer te verrijken B2B edition. Door de Source Connector voor het Marketo Engage in te stellen en gegevens van het Marketo Engage toe te wijzen aan RTCDP-schemakenmerken, kunnen gegevens van Marketo Engage naar RTCDP en, indien aangewezen, naar het profiel stromen.
 
-Verwijs naar de [ documentatie van de de schakelaarverbinding van het Marketo Engage ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) voor gedetailleerde informatie over de schakelaarconfiguratie en de vereiste gebiedsafbeelding over aan het schema dat bij de vorige stap wordt bepaald.
+Voor gedetailleerde informatie over de schakelaarconfiguratie en de vereiste gebiedstoewijzing aan het schema, verwijs naar de [ documentatie van de de schakelaarverbinding van de Marketo Engage ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
 
 ### Beveiligingsmechanismen
 
@@ -118,7 +118,7 @@ Herzie de [ documentatie van de Grafieken van Real-Time CDP ](https://experience
 
 ## Implementatie
 
-De volgende stappen bieden hulp bij het inschakelen van de functie voor kopersgroep in uw Journey Optimizer B2B edition-exemplaar en bevatten een extra activering ter ondersteuning van de uitbreiding van uw accountbasis, waarbij u zich richt op het kopen van groepen met ontbrekende rolsjablonen.
+De volgende stappen bieden hulp bij het inschakelen van inkoopgroepen in uw Journey Optimizer B2B edition-exemplaar, waaronder activering van het publiek ter ondersteuning van de uitbreiding van uw accountbasis met de focus op ontbrekende rollensjablonen voor inkoopgroepen.
 
 ### Vooraf vereiste stappen
 
@@ -131,7 +131,7 @@ De volgende stappen bieden hulp bij het inschakelen van de functie voor kopersgr
    * Gebruik het [ RTCDP B2B- schemaschepingsmanuscript ](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) om het aanvankelijke schema te produceren
    * Voeg gebruikscase-specifieke velden toe aan de schema&#39;s die worden gegenereerd om het schema te voltooien en aan te passen aan de behoeften van de organisatie.
 
-   In dit stadium, hebt u de verbinding tussen Marketo Engage en opstelling RTCDP en de schemastructuur om de Rekening en persoongegevens goed te keuren om de datasets voor de Segmenten van de Rekening te bevolken wordt bepaald. De volgende stap bestaat uit het verbinden van RTCDP met Marketo Engage en Journey Optimizer B2B edition.
+   In dit stadium, hebt u de verbinding tussen Marketo Engage en RTCDP en de schemastructuur om de rekening en persoongegevens goed te keuren om de datasets voor de Segmenten van de Rekening te bevolken wordt bepaald. De volgende stap bestaat uit het verbinden van RTCDP met Marketo Engage en Journey Optimizer B2B edition.
 
 1. Vorm de schakelaar van het Marketo Engage, met inbegrip van de afbeelding van Marketo Engage aan de structuur XDM.
 
@@ -141,7 +141,7 @@ De volgende stappen bieden hulp bij het inschakelen van de functie voor kopersgr
 
 1. Maak een accountpubliek in Journey Optimizer B2B edition of RTCDP.
 
-   Schakel de optie voor het plannen van alle soorten publiek in de klant → Soorten publiek → Bladeren op pagina in om accountpubliek in te schakelen. (In gevallen waarin dit niet werkt, moet u een segment van het Profiel van de Klant creëren om accountpubliek te kunnen creëren)
+   Schakel de optie voor het plannen van alle soorten publiek in de klant → Soorten publiek → Bladeren op pagina in om accountpubliek in te schakelen. (Als dit niet werkt, moet u een segment Klantprofiel maken om accountpubliek te kunnen maken.)
 
    Om een segment tot stand te brengen, volg de stappen in de [ documentatie van het rekeningspubliek ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/account-audience-overview). Het gebruik van Segment Builder met de gegevensvelden die u als sleutel voor uw accountpubliek hebt geïdentificeerd, zou de belangrijkste activiteit zijn bij het definiëren van het publiek.
 
