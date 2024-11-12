@@ -2,7 +2,8 @@
 title: Op groep-gebaseerde Bladeren van de Marketing en van het Beheer van de Reis
 description: Leer hoe u een reis kunt herkennen, ontwerpen en maken die in aanmerking komt voor een inkoopgroep in Adobe Journey Optimizer B2B edition.
 solution: Journey Optimizer B2B Edition
-source-git-commit: b514d7a639d4d624875552c892ae266fdfe089f3
+exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
+source-git-commit: b777ea5c301fb1fac39bc243b09a02a2f411f40e
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
@@ -26,7 +27,7 @@ De het kopen groepen vertegenwoordigen een groep mensen bij het bedrijf die in e
 Dankzij de verbeterde B2B-mogelijkheden die Journey Optimizer B2B edition biedt, kunt u nu de volgende uitdagingen aangaan:
 
 * Een gebrek van _klant-eerste_ marketing campagnes.
-* Inconsistente MQL (Marketing Qualified lead)-conversie naar SQL (Sales Qualified lead), waarbij de afstemming van initiatieven op de verkoop op MQL (nurture) is vereist
+* Inconsistente MQL (Marketing Qualified Lead)-conversie naar SQL (Sales Qualified Lead), waardoor het nodig is initiatieven af te stemmen op de verkoop om MQL te voeden
 * Gebrek van een verkoopbaar mechanisme om _te identificeren en te richten beconcurreren_ rekeningen.
 * Concentratierisico in inkomsten en pijplijnen.
 
