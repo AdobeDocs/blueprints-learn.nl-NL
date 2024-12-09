@@ -1,10 +1,10 @@
 ---
 title: Experience Platform- en toepassingsinstructies
 description: In de handleidingen worden de prestatieverwachtingen en de gevolgen voor de componenten en services in Adobe Experience Platform en Applications gedefinieerd
-solution: Experience Platform, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
+solution: Experience Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
+source-git-commit: a5d127c2a9e18ebbf25012475b9f474c07575362
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 1%
