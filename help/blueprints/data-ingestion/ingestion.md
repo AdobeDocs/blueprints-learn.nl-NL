@@ -1,20 +1,20 @@
 ---
 title: Gegevensvoorbereiding en congestieblauwdruk
-description: In deze blauwdruk worden alle methoden getoond waarmee gegevens in Adobe kunnen worden opgenomen en voorbereid [!DNL Experience Platform].
+description: Deze blauwdruk toont alle methodes waardoor de gegevens in Adobe  [!DNL Experience Platform] kunnen worden opgenomen en worden voorbereid.
 solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
+source-git-commit: 1b35f6955a7bb10d07c6ce796e80a18b92f25d18
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
 
 # Blauwdruk over het voorbereiden en innemen van gegevens
 
-Gegevensvoorbereiding en inname Blauwdruk omvat alle methoden waarmee gegevens in Adobe kunnen worden bereid en opgenomen [!DNL Experience Platform].
+Gegevensvoorbereiding en inname Blauwdruk omvat alle methoden waarmee gegevens kunnen worden voorbereid en in Adobe kunnen worden opgenomen [!DNL Experience Platform] .
 
 De voorbereiding van gegevens omvat de afbeelding van brongegevens aan het schema van het Model van de Gegevens van de Ervaring (XDM). Het omvat ook het uitvoeren van transformaties op gegevens, waaronder datumopmaak, veldsplitsen/samenvoegen/conversies en het samenvoegen/samenvoegen/opnieuw koppelen van records. De voorbereiding van gegevens helpt klantengegevens verenigen om bijeengevoegde/gefilterde analyse te verstrekken, met inbegrip van het melden van of het voorbereiden van gegevens voor de assemblage van het klantenprofiel/gegevenswetenschap/activering.
 
@@ -24,7 +24,7 @@ De voorbereiding van gegevens omvat de afbeelding van brongegevens aan het schem
 
 ## Gegevens-innamegardrails
 
-In het onderstaande diagram worden de gemiddelde prestatiegaranties en latentie voor gegevensinvoer in Adobe weergegeven [!DNL Experience Platform].
+In het onderstaande diagram ziet u de gemiddelde prestatiegaranties en latentie voor gegevensinvoer in Adobe [!DNL Experience Platform] .
 
 <img src="../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="[!DNL Experience Platform] Gegevensstroom" style="border:1px solid #4a4a4a; margin-bottom: 15px;" width="90%" class="modal-image" />
 
@@ -66,7 +66,7 @@ In het onderstaande diagram worden de gemiddelde prestatiegaranties en latentie 
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Voer veelvoudige Adobe toepassingen uit leveraging één enkele SDK.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Implementeer meerdere Adobe-toepassingen met behulp van één SDK.</span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -84,7 +84,7 @@ In het onderstaande diagram worden de gemiddelde prestatiegaranties en latentie 
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Het gegeven wordt gestroomd direct aan de hub zodat geen segmentatie in real time van de Rand of gebeurtenis door:sturen.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Gegevens worden rechtstreeks naar de hub gestreamd, zodat er geen realtime Edge-segmentatie of gebeurtenisdoorzending plaatsvindt.</span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -102,13 +102,13 @@ In het onderstaande diagram worden de gemiddelde prestatiegaranties en latentie 
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Gegevens worden gestreamd via de [!DNL Edge Network]. Ondersteuning voor realtime segmentatie op de rand. </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Gegevens worden gestreamd via [!DNL Edge Network] . Ondersteuning voor realtime segmentering op de Edge. </span></span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en" style="color:#0563c1; text-decoration:underline">Adobe-toepassingen</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en" style="color:#0563c1; text-decoration:underline">Adobe-applicaties</a></span></span></span></p>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
 <ul style="list-style-type:square">
@@ -116,17 +116,17 @@ In het onderstaande diagram worden de gemiddelde prestatiegaranties en latentie 
 </ul>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push, Source Connectors en API</span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push, Source-connectors en API</span></span></span></p>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Aanbevolen aanpak is migratie naar Web/Mobile SDK boven traditionele SDK's voor toepassingen.</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Aanbevolen aanpak is de migratie naar Web/Mobile SDK boven traditionele SDK's voor toepassingen.</span></span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=en" style="color:#0563c1; text-decoration:underline">Streaming-bronconnectors</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=en" style="color:#0563c1; text-decoration:underline">Streaming Source-connectors</a></span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
 <ul style="list-style-type:square">
@@ -144,7 +144,7 @@ In het onderstaande diagram worden de gemiddelde prestatiegaranties en latentie 
 </tr>
 <tr>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Streaming Sources SDK</span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Streaming bronnen SDK</span></span></span></p>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
 <ul style="list-style-type:square">
@@ -204,7 +204,7 @@ In het onderstaande diagram worden de gemiddelde prestatiegaranties en latentie 
 </tr>
 <tr>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:217px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob-s3.html?lang=en" style="color:#0563c1; text-decoration:underline">Batchbronaansluitingen</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob-s3.html?lang=en" style="color:#0563c1; text-decoration:underline">Batch Source-connectors</a></span></span></span></p>
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:397px">
 <ul style="list-style-type:square">
@@ -219,7 +219,6 @@ In het onderstaande diagram worden de gemiddelde prestatiegaranties en latentie 
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
 <ul>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Niet altijd aan, onmiddellijke inname. </span></span></span></li>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Het terugkeren van frequentiecontroles om deltadossiers minstens om de 15 minuten in te gaan.</span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -236,7 +235,6 @@ In het onderstaande diagram worden de gemiddelde prestatiegaranties en latentie 
 <p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Push, CSV, JSON, Parquet</span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">- Bestanden worden geleverd met een TTL van 7 dagen</span></span></span></p>
 </td>
 </tr>
 <tr>
@@ -254,7 +252,6 @@ In het onderstaande diagram worden de gemiddelde prestatiegaranties en latentie 
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:62px; vertical-align:top; width:277px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Minimumfrequentie van 15 minuten</span></span></span></li>
 <li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Voorbeelden: MailChimp, One Trust, Zendesk</span></span></span></li>
 </ul>
 
@@ -263,33 +260,3 @@ In het onderstaande diagram worden de gemiddelde prestatiegaranties en latentie 
 </tr>
 </tbody>
 </table>
-
-
-
-| Methoden van inname | Beschrijving |
-|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Web/Mobile SDK | Latentie:<ul><li>In real time - dezelfde paginaszameling aan [!DNL Edge Network]</li><li>Streaming opname naar profiel &lt; 15 minuten op het 95e percentiel</li><li>Streaming opname naar data Lake (microbatch ~15 minuten)</ul>Documentatie: <ul><li>[Web SDK](https://experienceleague.adobe.com/docs/web-sdk.html)</li><li>[Zelfstudie Adobe Experience Cloud implementeren met Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html)</li><li>[Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=en)</li><li>[Zelfstudie Adobe Experience Cloud implementeren in mobiele apps](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)</li></ul> |
-| Streaming bronnen | [Streaming bronnen](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)<br>Latentie:<ul><li>In real time - dezelfde paginaszameling aan [!DNL Edge Network]</li><li>Streaming opname naar profiel ~1 minuut</li><li>Streaming opname naar data Lake (microbatch ~15 minuten)</li></ul> |
-| Streaming-API | [[!DNL Edge Network] Server-API (voorkeur)](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) - biedt ondersteuning voor Edge Services, waaronder Edge Segmentation en <br>[Core-service-API voor gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html) - biedt geen ondersteuning voor Edge Services, routeert rechtstreeks naar de hub.<br>Latentie:<ul><li>In real time - dezelfde paginaszameling aan [!DNL Edge Network]</li><li>Streaming opname naar profiel ~1 minuut</li><li>Streaming opname naar data Lake (microbatch ~15 minuten)</li><li>7 GB/uur</li></ul>[Documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=en#what-can-you-do-with-streaming-ingestion%3F) |
-| ETL Tooling | Gebruik de hulpmiddelen van ETL om ondernemingsgegevens te wijzigen en om te zetten alvorens in [!DNL Experience Platform].<br><br>Latentie:<ul><li>De timing is afhankelijk van de externe planning van ETL-gereedschappen, en de standaardinstructies voor inname zijn van toepassing op basis van de gebruikte methode voor inname.</li></ul> |
-| Batchbronnen | Gepland ophalen uit bronnen<br>Latentie: ~ 200 GB/uur<br><br>[Documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)<br>[Video-Tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html) |
-| Batch-API | Latentie:<ul><li>Batchopname in profiel afhankelijk van grootte en verkeersbelasting ~45 minuten</li><li>Batchopname in het datumpigment afhankelijk van grootte en verkeersbelasting</li></ul>[Documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=en#batch) |
-| Adobe Application Connectors | Automatisch gegevens opnemen die afkomstig zijn van Adobe Experience Cloud-toepassingen<ul><li>Adobe Analytics: [Documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#connectors) en [Videozelfstudie](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html)</li><li>Audience Manager: [Documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=en#connectors) en [Videozelfstudie](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html)</li></ul> |
-
-
-## Methoden voor gegevensvoorbereiding
-
-| Methoden voor het voorbereiden van gegevens | Beschrijving |
-|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Extern ETL-gereedschap ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica], enz.) | Complexe transformaties uitvoeren in ETL-gereedschappen en standaard gebruiken [!DNL Experience Platform] [!UICONTROL Flow Service] API&#39;s of bronconnectors om de resulterende gegevens in te voeren. |
-| [!UICONTROL Query-service] - Data Prep | Verbindt, Splits, de gegevens van de Fusie, van de Transformatie, van de Vraag, en van de Filter in een nieuwe dataset. Tabel maken als selectie gebruiken (CTAS) <br>[Documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql) |
-| XDM Mapper- en Data Prep-functies (streaming en batch) | Bronkenmerken in CSV- of JSON-indeling toewijzen aan XDM-kenmerken tijdens [!DNL Experience Platform] ingestie.<br>Compute functions on data as it is ingested (gegevens opmaken, splitsen, samenvoegen, enzovoort).<br>[Documentatie](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
-
-## Gerelateerde blogberichten
-
-* [Het gebruik van externe gegevensplatforms in Adobe [!DNL Experience Platform] [!DNL Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page)
-* [Hoge doorvoerinname met Iceberg](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page)
-* [De Tricks van de Dienst van de vraag in Adobe [!DNL Experience Platform] (Het schrijven van Vragen en het Opslaan Voortgekomen Datasets)](https://medium.com/adobetech/query-service-tricks-in-adobe-experience-platform-writing-queries-and-storing-derived-datasets-eaee0d6d683e?source=your_stories_page)
-* [Digitaliseren in Adobe [!DNL Experience Platform]Het gegevensmodel van de Ervaring om de Macht van het Klantprofiel in real time volledig te begrijpen](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page)
-* [Een Inleiding bekijkt de Verkennende Analyse van Gegevens over Adobe [!DNL Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page)
-* [XDM-gegevens modelleren voor gegevenswetenschap op schaal bij Adobe [!DNL Experience Platform]](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7?source=your_stories_page)
