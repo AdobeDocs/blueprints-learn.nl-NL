@@ -5,10 +5,10 @@ user-guide-description: Blauwdrukken zijn herhaalbare implementaties om vastgest
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 616f2ba96d18b682d92e58dc06ae1b61a6c46ab4
+source-git-commit: 67c3debf5224cecf88d69ae1e2ba09765b8a575a
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 20%
+source-wordcount: '203'
+ht-degree: 19%
 
 ---
 
@@ -27,7 +27,6 @@ ht-degree: 20%
 + Activering publiek en profiel {#audience-activation}
    + [Audience Manager](/help/blueprints/audience-activation/AAM.md)
    + Real-time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
-      + [Overzicht](/help/blueprints/audience-activation/known.md)
       + [Activering op sociale en reclamekanalen](/help/blueprints/audience-activation/advertising-activation.md)
       + [Activering voor streaming van bestanden en bedrijven](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)
