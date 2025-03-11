@@ -5,7 +5,7 @@ user-guide-description: Blauwdrukken zijn herhaalbare implementaties om vastgest
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: ec6778d0b3cd37442be2731cafba26388e4355ea
+source-git-commit: bb3d3ec11809dceb9ecf46561b608e22bff855b9
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 19%
@@ -25,13 +25,13 @@ ht-degree: 19%
       + [SDK&#39;s voor toepassingen](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [Beveiligingsmechanismen](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Activering publiek en profiel {#audience-activation}
-   + [Audience Manager](/help/blueprints/audience-activation/audience_manager.md)
+   + [Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
    + Real-time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
       + [Activering op sociale en reclamekanalen](/help/blueprints/audience-activation/advertising-activation.md)
       + [Activering voor streaming van bestanden en bedrijven](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)
-      + [Doel en RTCDP](/help/blueprints/audience-activation/rtcdp-target.md)
       + [Segmentovereenkomst](/help/blueprints/audience-activation/segment-match.md)
+      + [Doel en RTCDP](/help/blueprints/audience-activation/rtcdp-target.md)
 + B2B-activering en -marketing {#b2b-activation}
    + [Overzicht](/help/blueprints/b2b/overview.md)
    + [B2B-activering](/help/blueprints/b2b/b2bactivation.md)
