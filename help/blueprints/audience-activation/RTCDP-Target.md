@@ -7,7 +7,7 @@ solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 613c22fd6882144515bd91da64bb305be98dccf3
+source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Bekende Customer Personalization wordt ondersteund via verschillende implementat
 ### Implementatiepatroon 1 - [!DNL Edge Network] met Web/Mobile SDK of [!DNL Edge Network] API (aanbevolen aanpak)
 
 * De [!DNL Edge Network] gebruiken met de SDK Web/Mobile. Voor Edge-segmentatie in realtime is de implementatiebenadering van Web/Mobile SDK of Edge API vereist.
-* [ verwijs naar het Web van Experience Platform en de Mobiele Vervaging van SDK ](../../experience-platform/deployment/websdk.md) voor de op SDK gebaseerde implementatie.
+* [ verwijs naar het Web van Experience Platform en de Mobiele Vervaging van SDK ](../experience-platform/deployment/websdk.md) voor de op SDK gebaseerde implementatie.
 * Voor gebruik in Mobiele SDK moet de [ Adobe Journey Optimizer - beslissingsuitbreiding ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/) worden geïnstalleerd.
 * [ verwijs naar  [!DNL Edge Network]  Server API ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html) voor een API gebaseerde implementatie van Adobe Target met het Profiel van Edge.
 
@@ -72,7 +72,7 @@ Bekende Customer Personalization wordt ondersteund via verschillende implementat
 traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AT.js en AppMeasurement.js). Edge-segmentevaluatie in realtime wordt niet ondersteund met deze implementatiebenadering. Streaming en het delen van batchgebruikers vanuit de Experience Platform-hub worden echter ondersteund met deze implementatieaanpak.
 
 [ verwijs naar de Documentatie van de Verbinding van Adobe Target ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
-[ Verwijs naar de toepassing specifieke Vervaging van SDK ](../../experience-platform/deployment/appsdk.md)
+[ Verwijs naar de toepassing specifieke Vervaging van SDK ](../experience-platform/deployment/appsdk.md)
 
 ## Implementatieoverwegingen
 
