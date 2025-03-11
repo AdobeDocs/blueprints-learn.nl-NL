@@ -5,7 +5,7 @@ user-guide-description: Blauwdrukken zijn herhaalbare implementaties om vastgest
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
+source-git-commit: ec6778d0b3cd37442be2731cafba26388e4355ea
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 19%
@@ -30,8 +30,8 @@ ht-degree: 19%
       + [Activering op sociale en reclamekanalen](/help/blueprints/audience-activation/advertising-activation.md)
       + [Activering voor streaming van bestanden en bedrijven](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)
-      + [Segmentovereenkomst](/help/blueprints/audience-activation/segment-match.md)
       + [Doel en RTCDP](/help/blueprints/audience-activation/rtcdp-target.md)
+      + [Segmentovereenkomst](/help/blueprints/audience-activation/segment-match.md)
 + B2B-activering en -marketing {#b2b-activation}
    + [Overzicht](/help/blueprints/b2b/overview.md)
    + [B2B-activering](/help/blueprints/b2b/b2bactivation.md)
