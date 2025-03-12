@@ -7,7 +7,7 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: bb3d3ec11809dceb9ecf46561b608e22bff855b9
+source-git-commit: 7cdafaa39e5f46a2d777219be519efca31d3830b
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 20%
@@ -36,7 +36,7 @@ Microsoft Bing, Google DV360, en TradeDesk zijn de primaire gesteunde in real ti
 
 ## Architectuur
 
-<img src="assets/anonymous_activation.svg" alt="Referentiearchitectuur voor het anonieme Audience Activation-blauwdruk" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+![ architectuur van de Verwijzing voor de Anonieme Vervaging van Audience Activation ](assets/anonymous_activation.svg)
 
 <br>
 
