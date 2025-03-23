@@ -1,9 +1,10 @@
 ---
 title: Journey Optimizer met Adobe Campaign v8-blauwdruk
 description: Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om berichten te verzenden door de overseinenserver in real time in Campagne te gebruiken
-solution: Journey Optimizer, Campaign, Campaign v8 Client Console
+solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
+version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
+source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 2%
@@ -12,7 +13,7 @@ ht-degree: 2%
 
 # Journey Optimizer met Adobe Campaign v8-blauwdruk
 
-Toont aan hoe de Adobe [!DNL Journey Optimizer] met Adobe [!DNL Campaign] kan worden gebruikt om berichten te verzenden door de overseinenserver in real time in [!DNL Campaign] te gebruiken.
+Toont aan hoe Adobe [!DNL Journey Optimizer] met Adobe [!DNL Campaign] kan worden gebruikt om berichten op native wijze te verzenden door de berichtenserver in real time in [!DNL Campaign] te gebruiken.
 
 ## Architectuur
 
@@ -34,7 +35,7 @@ Controleer de volgende voorwaarden voor elke toepassing.
 
 ### Campaign v8
 
-* De instantie van de uitvoering van de dienst van het overseinen in real time (d.w.z. het Centrum van het Bericht) moet door Adobe Geleide Cloud Servicen worden ontvangen
+* De instantie van de uitvoering van de Real-Time Messaging-service (dus Message Center) moet worden gehost door Adobe Managed Cloud Services
 * Alle bericht authoring wordt uitgevoerd binnen de Campagne-instantie zelf
 
 ## Beveiligingsmechanismen
@@ -51,7 +52,7 @@ Volg de implementaties voor elke hieronder beschreven toepassing.
 
 #### Schema/datasets
 
-1. [ vorm individueel profiel, ervaringsgebeurtenis, en multi-entiteitsschema&#39;s ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, dat op klant-geleverde gegevens wordt gebaseerd.
+1. [ vorm individueel profiel, ervaringsgebeurtenis, en multi-entiteitsschema&#39;s ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, die op klant-geleverde gegevens wordt gebaseerd.
 1. (Optioneel) Maak op de klasse gebaseerde schema&#39;s voor Experience Event voor Adobe Campaign wideLog, trackingLog en niet-leverbare adrestabellen.
 1. [ creeer datasets ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) in Experience Platform voor gegevens die moeten worden opgenomen.
 1. [ voegt de etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) in Experience Platform aan de dataset voor bestuur toe.
@@ -78,12 +79,12 @@ Volg de implementaties voor elke hieronder beschreven toepassing.
 ### Campaign v8
 
 * De malplaatjes van het overseinen moeten met aangewezen verpersoonlijkingscontext worden gevormd.
-* Voor [!DNL Campaign] standard: de werkschema&#39;s van de uitvoer moeten worden gevormd om de transactionele overseinenlogboeken terug naar het Experience Platform uit te voeren. De aanbeveling is om ten hoogste om de vier uur te lopen.
-* Voor [!DNL Campaign] v8.4 is het mogelijk om de Adobe [!DNL Campaign] Managed Services Source Connector in Experience Platform te gebruiken voor het synchroniseren van bezorgings- en volggebeurtenissen van Campagne naar Experience Platform. Verwijs naar de [ 1} documentatie van de Schakelaar van Source {voor details.](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* Voor [!DNL Campaign] standard: de werkschema&#39;s van de uitvoer moeten worden gevormd om de transactionele overseinenlogboeken terug naar Experience Platform uit te voeren. De aanbeveling is om ten hoogste om de vier uur te lopen.
+* Voor [!DNL Campaign] v8.4 is het mogelijk om Adobe [!DNL Campaign] Managed Services Source Connector in Experience Platform te gebruiken voor het synchroniseren van bezorgings- en volggebeurtenissen van Campagne naar Experience Platform. Verwijs naar de [ 1} documentatie van de Schakelaar van Source {voor details.](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
 
 ### Mobiele pushconfiguratie (optioneel)
 
-1. Implementeer [!DNL Experience Platform] Mobile SDK om pushtokens en aanmeldingsgegevens te verzamelen en terug te koppelen naar bekende klantprofielen.
+1. Implementeer [!DNL Experience Platform] Mobile SDK voor het verzamelen van push-tokens en aanmeldingsgegevens om terug te koppelen naar bekende klantprofielen.
 1. Gebruik Adobe-tags en maak een mobiele eigenschap met de volgende extensie:
    * Adobe [!DNL Journey Optimizer] | Adobe [!DNL Campaign Classic] | Adobe [!DNL Campaign Standard]
    * Adobe [!DNL Experience Platform] [!DNL Edge Network]
@@ -93,7 +94,7 @@ Volg de implementaties voor elke hieronder beschreven toepassing.
 1. Voor meer informatie volg de [ Mobiele Gids van Adobe Journey Optimizer ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
 
    >[!IMPORTANT]
-   >Mobiele tokens moeten mogelijk zowel in Journey Optimizer als in Campagne worden verzameld als er behoefte is aan realtime communicatie via Journey Optimizer en batchpushberichten via Campagne. Voor campagne v8 is het exclusieve gebruik van de Campagne SDK vereist voor het vastleggen van push-tokens.
+   >Mobiele tokens moeten mogelijk zowel in Journey Optimizer als in Campagne worden verzameld als er behoefte is aan realtime communicatie via Journey Optimizer en batchpushberichten via Campagne. Voor Campaign v8 is het exclusieve gebruik van de Campagne SDK vereist voor het vastleggen van push-tokens.
 
 ## Gerelateerde documentatie
 
