@@ -1,6 +1,6 @@
 ---
 title: Experience Platform-diagrammen voor gegevensstroomarchitectuur
-description: Dit architectuurdiagram toont hoe de gegevens in en uit Adobe Experience Platform stromen.
+description: Dit architectuurdiagram toont hoe gegevens in en uit Adobe Experience Platform stromen.
 solution: Data Collection
 kt: 7198
 thumbnail: null
@@ -8,7 +8,7 @@ exl-id: 5016f657-dd55-4ab7-859d-c97bc5edff76
 source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 0%
+ht-degree: 18%
 
 ---
 

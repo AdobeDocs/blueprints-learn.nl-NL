@@ -1,8 +1,8 @@
 ---
 title: Gegevensplatform voor realtime klanten en Adobe Target
-description: RTCDP-profielen en -soorten publiek integreren met Adobe Target.
-landing-page-description: RTCDP-profielen en -soorten publiek integreren met Adobe Target.
-short-description: RTCDP-profielen en -soorten publiek integreren met Adobe Target.
+description: Integreer RTCDP-profielen en -doelgroepen met Adobe Target.
+landing-page-description: Integreer RTCDP-profielen en -doelgroepen met Adobe Target.
+short-description: Integreer RTCDP-profielen en -doelgroepen met Adobe Target.
 solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
@@ -10,7 +10,7 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: b634e14af3ea60e0f4cc9e84a0ef896df293a8c7
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
