@@ -7,10 +7,10 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 7cdafaa39e5f46a2d777219be519efca31d3830b
+source-git-commit: 495a2480828e2c6b4caa41226f4fe67437b081c1
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 20%
+source-wordcount: '236'
+ht-degree: 27%
 
 ---
 
@@ -32,8 +32,6 @@ De anonieme publieksactivering is de capaciteit om aan publiek over Web, mobiel,
 
 Zowel het Audience Manager- als het Real-Time Customer Data Platform kunnen worden gebruikt om Anonymous Audience Activation voor onsite en advertentiedoelen te stimuleren. Merk op dat het Platform van Gegevens in real time van de Klant slechts een ondergroep van advertentiebestemmingen met anonieme apparatenherkenningstekens zoals die in de [ bestemmingsdocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) worden gecatalogiseerd steunt.
 
-Microsoft Bing, Google DV360, en TradeDesk zijn de primaire gesteunde in real time reclameruimten van het Platform van de Gegevens van de Klant voor anonieme apparaat gebaseerd het richten. Buiten deze, steunt het Platform van Gegevens van de Klant in real time talrijke bekende klant gebaseerde bestemmingen zoals die in de [ documentatie van bestemmingen ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) worden gecatalogiseerd en zoals die in [ wordt beschreven Bekende blauwdruk van de Activering van de Klant ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
-
 ## Architectuur
 
 ![ architectuur van de Verwijzing voor de Anonieme Vervaging van Audience Activation ](assets/anonymous_activation.svg)
@@ -46,13 +44,4 @@ Microsoft Bing, Google DV360, en TradeDesk zijn de primaire gesteunde in real ti
 
 ## Implementatiestappen voor het Real-Time Customer Data Platform
 
-* Voor implementatiestappen van het Platform van Gegevens van de Klant in real time zie de volgende [ documentatie ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
-
-## Gerelateerde documentatie
-
-* [ Audience Manager ](https://experienceleague.adobe.com/docs/audience-manager.html?lang=en)
-* [ Experience Cloud [!UICONTROL  Soorten publiek ] ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
-* [ integreer Audience Manager met Doel ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
-* [ het Segment dat van Adobe Analytics door Audience Manager ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html) deelt
-* [ Bekende blauwdruk van de Activering van de Klant ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
-* [ Real-time Platform van Gegevens van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)
+* Voor implementatiestappen van het Platform van Gegevens van de Klant in real time zie de volgende [ documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home).
