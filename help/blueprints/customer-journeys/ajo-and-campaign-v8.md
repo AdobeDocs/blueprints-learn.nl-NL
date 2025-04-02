@@ -4,7 +4,7 @@ description: Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
 version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
+source-git-commit: 7547cdc57e50d63f4a7949c00a77b82c86da831e
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 2%
@@ -91,7 +91,7 @@ Volg de implementaties voor elke hieronder beschreven toepassing.
    * Identiteit voor [!DNL Edge Network]
    * Mobiele kern
 1. Zorg ervoor dat u beschikt over een specifieke gegevensstroom voor implementatie van mobiele apps versus webimplementaties.
-1. Voor meer informatie volg de [ Mobiele Gids van Adobe Journey Optimizer ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer).
+1. Voor meer informatie volg de [ Mobiele Gids van Adobe Journey Optimizer ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/).
 
    >[!IMPORTANT]
    >Mobiele tokens moeten mogelijk zowel in Journey Optimizer als in Campagne worden verzameld als er behoefte is aan realtime communicatie via Journey Optimizer en batchpushberichten via Campagne. Voor Campaign v8 is het exclusieve gebruik van de Campagne SDK vereist voor het vastleggen van push-tokens.
