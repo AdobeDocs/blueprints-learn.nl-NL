@@ -35,7 +35,7 @@ Dit architectuurdiagram toont hoe Adobe Experience Platform op de toepassingen e
 
 <img src="assets/aep+apps_detailed.svg" alt="Experience Platform en toepassingen" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
->[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432347/?quality=12&learn=on&captions=dut)
 
 ## Integratie van AEP- en Experience Cloud-toepassingen
 
