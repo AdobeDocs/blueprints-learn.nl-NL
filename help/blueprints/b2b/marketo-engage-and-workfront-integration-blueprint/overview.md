@@ -30,7 +30,7 @@ Campagnebewerkingsteams hebben systemen nodig waarmee ze op efficiënte en effec
 
 Door het systeem voor activering van multi-channel marketing (Marketo Engage) te integreren met de marketingplanning en het recordsysteem (Workfront), kunt u de campagneleidheid verhogen en belanghebbenden een betere zichtbaarheid geven.
 
-Met Workfront Fusion kunnen marketingteams handmatige en foutgevoelige stappen die het vertalen van een marketingopdracht naar een campagne met zich meebrengen grotendeels elimineren. Workfront Fusion biedt een out of the box integration layer tussen Workfront en Marketo Engage die flexibiliteit en efficiëntie mogelijk maakt bij het ontwikkelen van workflows tussen systemen. Meer informatie over het instellen van de integratie en over de acties die kunnen worden ondernomen om workflows te automatiseren [hier](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target="_blank"}.
+Met Workfront Fusion kunnen marketingteams handmatige en foutgevoelige stappen die het vertalen van een marketingopdracht naar een campagne met zich meebrengen grotendeels elimineren. Workfront Fusion biedt een out of the box integration layer tussen Workfront en Marketo Engage die flexibiliteit en efficiëntie mogelijk maakt bij het ontwikkelen van workflows tussen systemen. Meer informatie over het instellen van de integratie en over de acties die kunnen worden ondernomen om workflows te automatiseren [hier](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=nl-NL){target="_blank"}.
 
 ## Campagne plannen tot uitvoering - Gebruiksgevallen voor automatisering {#campaign-planning-to-execution-automation-use-cases}
 
@@ -157,6 +157,6 @@ Het standaardiseren van uw naamgevingsconventies voor campagnes en URL&#39;s is 
 
 ### Bronnen {#resources}
 
-* [Workfront Fusion for Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target="_blank"}
+* [Workfront Fusion for Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=nl-NL){target="_blank"}
 
-* [Workfront Fusion voor Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target="_blank"}
+* [Workfront Fusion voor Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=nl-NL){target="_blank"}

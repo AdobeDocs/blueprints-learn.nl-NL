@@ -28,7 +28,7 @@ Het komt ook met een scalable Real-Time overseinenserver worden verbonden die ma
 
 ## Architectuurdiagrammen
 
-Leer meer over [ de plaatsingsmodellen van de Campagne v8 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"} .
+Leer meer over [ de plaatsingsmodellen van de Campagne v8 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=nl-NL#ac-deployment){target="_blank"} .
 
 ### Implementatie van Campagne Enterprise (FFDA)
 
@@ -88,7 +88,7 @@ De instructies worden hieronder beschreven.
    * Ondersteuning voor het laden van API-gegevens is voornamelijk bedoeld voor het beheer van profielen of eenvoudige objecten in de database (d.w.z. maken en bijwerken). Het is niet bedoeld voor het laden van grote hoeveelheden gegevens of batchbewerkingen.
    * Het gebruik van API&#39;s voor het lezen van gegevens voor aangepaste toepassingsdoeleinden wordt niet ondersteund
    * Gegevens die via de API zijn geladen, worden in de toepassingsdatabase gefaseerd en vervolgens elk uur naar de Cloud-database gerepliceerd
-* Beperkingen op API-aanroepen zijn van toepassing. Leer meer in de [ Beschrijving van het Product van Adobe Campaign ](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} .
+* Beperkingen op API-aanroepen zijn van toepassing. Leer meer in de [ Beschrijving van het Product van Adobe Campaign ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} .
 
 ### Grootte van batchcommunicatieserver
 
@@ -110,11 +110,11 @@ De instructies worden hieronder beschreven.
 
 ## Implementatiestappen
 
-Zie de begonnen gids voor [ Uitvoeren Adobe Campaign v8 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=en)
+Zie de begonnen gids voor [ Uitvoeren Adobe Campaign v8 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=nl-NL)
 
 ## Gerelateerde documentatie
 
-* [ Campagne v8 documentatie ](https://experienceleague.adobe.com/docs/campaign-v8.html)
-* [ Campagne v8 Beschrijving van het Product ](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-* [ de documentatie van de Markeringen van Experience Platform ](https://experienceleague.adobe.com/docs/launch.html)
-* [ Experience Platform Mobile SDK documentatie ](https://experienceleague.adobe.com/docs/mobile.html)
+* [ Campagne v8 documentatie ](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=nl-NL)
+* [ Campagne v8 Beschrijving van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
+* [ de documentatie van de Markeringen van Experience Platform ](https://experienceleague.adobe.com/docs/launch.html?lang=nl-NL)
+* [ Experience Platform Mobile SDK documentatie ](https://experienceleague.adobe.com/docs/mobile.html?lang=nl-NL)

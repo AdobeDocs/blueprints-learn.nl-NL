@@ -37,18 +37,18 @@ De Adobe tonen [!DNL Experience Platform] en zijn Real-Time Klantprofiel en gece
 ## Implementatiestappen
 
 Raadpleeg de volgende documentatie over het configureren van de v8-bronaansluiting voor Campagne naar Adobe Experience Platform en de Real-time Customer Data Platform-doelconnector naar Campaign v8.
-[Campagne en AEP-connectors](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=en)
+[Campagne en AEP-connectors](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=nl-NL)
 
 ## Guardrails
 
 ### Adobe Campaign
 
-* Raadpleeg de documentatie bij de bronaansluiting van de campagne - [Campagne Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/campaign.html?lang=en)
+* Raadpleeg de documentatie bij de bronaansluiting van de campagne - [Campagne Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/campaign.html?lang=nl-NL)
 * Alleen ondersteuning voor implementatie van één organisatie in Adobe Campaign
 
 
 ### Delen van Real-time Customer Data Platform-Experience Platform
 
-* Verwijs naar de schakelaar van de Bestemming van de Campagne RTCDP - [RTCDP-cameraverbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html)
+* Verwijs naar de schakelaar van de Bestemming van de Campagne RTCDP - [RTCDP-cameraverbinding](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=nl-NL)
 
-* Zie instructies voor het opnemen van profielen en gegevens voor AEP - [Koppeling](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* Zie instructies voor het opnemen van profielen en gegevens voor AEP - [Koppeling](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL)

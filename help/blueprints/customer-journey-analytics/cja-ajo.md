@@ -20,7 +20,7 @@ Daarnaast kunnen publiek dat in Customer Journey Analytics is ontworpen, worden 
 
 ## Implementatiehandleiding
 
-Zie de volgende documentatie voor richtlijnen over implementatie en configuratie van Journey Optimizer-gegevens binnen Customer Journey Analytics. [Documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-overview.html)
+Zie de volgende documentatie voor richtlijnen over implementatie en configuratie van Journey Optimizer-gegevens binnen Customer Journey Analytics. [Documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-overview.html?lang=nl-NL)
 
 ## Architectuur voor Customer Journey Analytics met Journey Optimizer
 

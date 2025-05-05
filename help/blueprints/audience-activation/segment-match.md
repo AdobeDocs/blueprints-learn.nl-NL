@@ -84,7 +84,7 @@ De [!UICONTROL Segmentovereenkomst] De stroom om partners te beheren wordt gewaa
 | **Verbindingen voor delen van publiek beheren** | Deze toestemming staat u toe om het proces van de partnerhanddruk te voltooien, dat twee organisaties IMS verbindt om toe te laten [!UICONTROL Segmentovereenkomst] stromen. |
 | **Aandelen van publiek beheren** | Met deze machtiging kunt u feeds maken, bewerken en publiceren (het pakket gegevens dat wordt gebruikt voor [!UICONTROL Segmentovereenkomst]) met actieve partners (partners die door de admin gebruiker met **Aansluitingen voor delen van publiek** toegang). |
 
-Verwijs de [officiële documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=en#understanding-segment-match-permissions) voor meer informatie over de machtigingen.
+Verwijs de [officiële documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=nl-NL#understanding-segment-match-permissions) voor meer informatie over de machtigingen.
 
 ### Connect-id
 
@@ -102,7 +102,7 @@ De toestemmingsmontages voor [!UICONTROL Segmentovereenkomst] kan op de volgende
 
   Deze instelling bepaalt of gebruikersgegevens kunnen worden gedeeld. De standaardinstelling is ingesteld op Weigeren om aan te geven dat gebruikersgegevens kunnen worden gedeeld met de aanname dat de AEP-klant al over de vereiste toestemmingsovereenkomst voor het gebruik van gegevens voor gegevensuitwisseling beschikt. Deze instelling kan worden gewijzigd in aanmelden door contact op te nemen met de accountmanager van de Adobe en een extra controle uit te voeren om AEP-klanten te dwingen hun toestemming expliciet bij te houden.
 
-* Het kenmerk share dat specifiek is voor identiteiten (idSpecific) instellen met de optie [Inhoud en Veldgroep voorkeuren](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=en).
+* Het kenmerk share dat specifiek is voor identiteiten (idSpecific) instellen met de optie [Inhoud en Veldgroep voorkeuren](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=nl-NL).
 
   Deze veldgroep biedt één objecttype veld, toestemmingen, voor het vastleggen van toestemmings- en voorkeursgegevens. [!UICONTROL Segmentovereenkomst]Alle identiteiten die niet expliciet zijn uitgesloten, worden standaard opgenomen, bijvoorbeeld:
 
@@ -208,7 +208,7 @@ U kunt de Gelijke van de Segment van Adobe Experience Platform in privacy-centri
 
 ## Meer informatie
 
-* [Segmentovereenkomst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=en#)
-* [Machtigingen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en)
-* [Problemen oplossen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/troubleshooting.html?lang=en)
-* [XID](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=en)
+* [Segmentovereenkomst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=nl-NL#)
+* [Machtigingen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=nl-NL)
+* [Problemen oplossen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/troubleshooting.html?lang=nl-NL)
+* [XID](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=nl-NL)

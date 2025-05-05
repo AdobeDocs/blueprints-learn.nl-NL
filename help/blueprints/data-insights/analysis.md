@@ -26,7 +26,7 @@ Gegevensanalyse en -intelligentie omvat het vermogen binnen [!DNL Experience Pla
 * De rij en kolomtoegang tot ingebedde gegevens voor exploratie en bevestiging
 * Dashboarding en visualisatie van gegevens via Business Intelligence tooling
 
-Hier worden extra veelvoorkomende gebruiksgevallen voor de queryservice beschreven [Gebruik van query-service-aanvragen](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html)
+Hier worden extra veelvoorkomende gebruiksgevallen voor de queryservice beschreven [Gebruik van query-service-aanvragen](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=nl-NL)
 
 ## Toepassingen
 
@@ -39,17 +39,17 @@ Hier worden extra veelvoorkomende gebruiksgevallen voor de queryservice beschrev
 ## Guardrails
 
 Raadpleeg de documentatie bij het product Query Service voor meer informatie over beste praktijken en instructies.
-[Begeleiding voor zoekservice](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html)
+[Begeleiding voor zoekservice](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=nl-NL)
 
 ## Implementatiestappen
 
-1. [Schema&#39;s maken](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden ingevoerd.
-1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden ingevoerd.
-1. [Samenvattingsgegevens](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in [!DNL Experience Platform].
-1. Bevestig dat gegevens beschikbaar zijn voor [[!UICONTROL Query-service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=en).
-1. [Business Intelligence-gereedschappen en SQL-clients verbinden met [!UICONTROL Query-service]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html) voor visualisatie, gegevensvraag, en exploratie.
+1. [Schema&#39;s maken](https://experienceleague.adobe.com/?lang=nl&recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden ingevoerd.
+1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=nl-NL) voor gegevens die moeten worden ingevoerd.
+1. [Samenvattingsgegevens](https://experienceleague.adobe.com/?lang=nl&recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in [!DNL Experience Platform].
+1. Bevestig dat gegevens beschikbaar zijn voor [[!UICONTROL Query-service]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=nl-NL).
+1. [Business Intelligence-gereedschappen en SQL-clients verbinden met [!UICONTROL Query-service]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=nl-NL) voor visualisatie, gegevensvraag, en exploratie.
 
 ## Gerelateerde documentatie
 
-* [Adobe [!DNL Experience Platform] Omschrijving van het inlichtingenproduct](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [[!UICONTROL Query-service] documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
+* [Adobe [!DNL Experience Platform] Omschrijving van het inlichtingenproduct](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [[!UICONTROL Query-service] documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl-NL)

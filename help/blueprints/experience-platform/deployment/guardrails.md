@@ -21,7 +21,7 @@ De gidsen weerspiegelen systeembeperkingen, verwachte latentie, en prestatiesver
 | Het type Guardrail | Beschrijving |
 |---|---|
 | Prestatiegarantie (Zachte limiet) | Prestatiegaranties zijn gebruikslimieten die betrekking hebben op het bereik van uw gebruiksgevallen en een overzicht van de verwachte prestaties onder normale omstandigheden. Als deze waarde wordt overschreden, kunnen de prestaties achteruitgaan en de latentie toenemen. De Grafieken van prestaties worden gedocumenteerd in de documenten van het Experience League onder de guardrailsecties voor elke Oplossing zoals hieronder geschetst. |
-| Statische limiet (harde limiet) | Dit zijn door het systeem opgelegde beperkingen die niet mogen worden overschreden. De statische grenzen zijn typisch contractueel gebonden en geschetst in het klantencontract en de [ Beschrijvingen van het Product ](https://helpx.adobe.com/legal/product-descriptions.html). |
+| Statische limiet (harde limiet) | Dit zijn door het systeem opgelegde beperkingen die niet mogen worden overschreden. De statische grenzen zijn typisch contractueel gebonden en geschetst in het klantencontract en de [ Beschrijvingen van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions.html). |
 
 >[!NOTE]
 >
@@ -37,19 +37,19 @@ De volgende pagina&#39;s bevatten informatie over hulplijnen voor Adobe Experien
 
 **toepassingen van het Experience Platform**
 
-* [ Real-Time CDP guardrails overzicht ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
-* [ het publiek dat van de Customer Journey Analytics guardrails deelt ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
-* [ de guardrails van de gegevensopname van de Customer Journey Analytics ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [ de guardrails van Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
+* [ Real-Time CDP guardrails overzicht ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html?lang=nl-NL)
+* [ het publiek dat van de Customer Journey Analytics guardrails deelt ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=nl-NL#latency)
+* [ de guardrails van de gegevensopname van de Customer Journey Analytics ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=nl-NL#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [ de guardrails van Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=nl-NL)
 
 **de diensten van het Experience Platform**
 
-* [ de guardrails van de Inname van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
-* [[!DNL Edge Network]  API Guardrails ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
-* [ Realtime Gidsen van het Profiel en van de Segmentatie van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
-* [ De Grafieken van de Identiteit ](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=en)
-* [ Guardrails van de Dienst van de Vraag ](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=en)
-* [ Guardrails van de Activering van de Bestemming ](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
+* [ de guardrails van de Inname van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=nl-NL)
+* [[!DNL Edge Network]  API Guardrails ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=nl-NL)
+* [ Realtime Gidsen van het Profiel en van de Segmentatie van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL)
+* [ De Grafieken van de Identiteit ](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=nl-NL)
+* [ Guardrails van de Dienst van de Vraag ](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=nl-NL)
+* [ Guardrails van de Activering van de Bestemming ](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=nl-NL)
 
 ## Diagrammen met latentie van begin tot eind {#end-to-end-latency}
 
@@ -61,30 +61,30 @@ Het volgende diagram toont de primaire rand en de hub waargenomen latentie om zi
 
 ### Gegevensinvoer {#data-ingestion}
 
-Het diagram hieronder toont verwachte waarden van de de latentie van de gegevensopname door [ het stromen ingeslikken ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) en [ partij ingeslikt ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=en) wanneer het brengen van gegevens in Real-Time CDP. Klik op de afbeelding om een versie met hoge resolutie weer te geven.
+Het diagram hieronder toont verwachte waarden van de de latentie van de gegevensopname door [ het stromen ingeslikken ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl-NL) en [ partij ingeslikt ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=nl-NL) wanneer het brengen van gegevens in Real-Time CDP. Klik op de afbeelding om een versie met hoge resolutie weer te geven.
 
 ![ de Inname van Gegevens high-level visueel overzicht.](/help/blueprints/experience-platform/deployment/assets/aep_data_flow_guardrails.svg " het Inslikken van Gegevens high-level visuele overzicht en latentiewaarden "){width="1000" zoomable="yes"}
 
 ### Segmentatie {#segmentation}
 
-Het diagram hieronder toont verwachte latentiewaarden wanneer het werken met publiek in de [ de segmentatiedienst van Real-Time CDP ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html). Klik op de afbeelding om een versie met hoge resolutie weer te geven.
+Het diagram hieronder toont verwachte latentiewaarden wanneer het werken met publiek in de [ de segmentatiedienst van Real-Time CDP ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL). Klik op de afbeelding om een versie met hoge resolutie weer te geven.
 
 ![ Van de segmentatie hoog-vlakke visueel overzicht.](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg " de visuele overzicht en latentiewaarden van de Segmentatie op hoog niveau "){width="1000" zoomable="yes"}
 
 ### Real-time Customer Data Platform &amp; [!DNL Edge Network] {#adobe-edge-latency}
 
-Het diagram hieronder toont verwachte latentiewaarden wanneer het leveraging van [!DNL Edge Network] - bijvoorbeeld aan hefboomwerkingRTCDP publiek in [ Adobe Target ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en). Klik op de afbeelding om een versie met hoge resolutie weer te geven.
+Het diagram hieronder toont verwachte latentiewaarden wanneer het leveraging van [!DNL Edge Network] - bijvoorbeeld aan hefboomwerkingRTCDP publiek in [ Adobe Target ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=nl-NL). Klik op de afbeelding om een versie met hoge resolutie weer te geven.
 
 ![ het Netwerk en Experience Platform van Adobe Edge high-level visueel overzicht.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Edge_guardrails.svg " Exporterend publiek naar Adobe Target high-level visueel overzicht en latentie "){width="1000" zoomable="yes"}
 
 ### Customer Journey Analytics {#customer-journey-analytics}
 
-Het diagram toont hieronder verwachte latentiewaarden wanneer het werken met [ Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en). Klik op de afbeelding om een versie met hoge resolutie weer te geven.
+Het diagram toont hieronder verwachte latentiewaarden wanneer het werken met [ Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL). Klik op de afbeelding om een versie met hoge resolutie weer te geven.
 
 ![ Werkend met Customer Journey Analytics hoog-vlakke visueel overzicht.](/help/blueprints/experience-platform/deployment/assets/CJA_guardrails.svg " Werkend met Customer Journey Analytics hoog-vlakke visuele overzicht en latentiewaarden "){width="1000" zoomable="yes"}
 
 ### Journey Optimizer {#journey-optimizer}
 
-Het diagram toont hieronder verwachte latentiewaarden wanneer het werken met [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en). Klik op de afbeelding om een versie met hoge resolutie weer te geven.
+Het diagram toont hieronder verwachte latentiewaarden wanneer het werken met [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=nl-NL). Klik op de afbeelding om een versie met hoge resolutie weer te geven.
 
 ![ het Werken met Adobe Journey Optimizer high-level visueel overzicht.](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg " Werkend met Adobe Journey Optimizer hoog-vlakke visuele overzicht en latentiewaarden "){width="1000" zoomable="yes"}

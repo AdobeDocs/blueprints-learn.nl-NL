@@ -15,7 +15,7 @@ Het aantal marketingverzoeken dat in een marketingoperatieteam komt om nieuwe ca
 
 Door een proces op te zetten voor het indienen van campagneverzoeken en het automatiseren van het creëren van algemeen gevraagde marketing campagnes, kunt u: de snelheid van uw campagnes verhogen, fouten verminderen, verzoeken leiden aan het juiste lid van marketing verrichtingen, evenwicht en verbetert middelgebruik, en meer van uw marketing verrichtingen op meer strategische taken concentreren.
 
-Met Workfront en Marketo Engage zijn via een systeem-naar-systeem verbinding gegevens van een [Workfront-aanvraagformulier](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html){target="_blank"} om een Programma van het Marketo Engage tot stand te brengen, dan vul zeer belangrijke variabelen zoals in: onderwerpreeksen, e-mailexemplaar, beelden, data, tijden, gebeurtenisinformatie, en meer.
+Met Workfront en Marketo Engage zijn via een systeem-naar-systeem verbinding gegevens van een [Workfront-aanvraagformulier](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=nl-NL){target="_blank"} om een Programma van het Marketo Engage tot stand te brengen, dan vul zeer belangrijke variabelen zoals in: onderwerpreeksen, e-mailexemplaar, beelden, data, tijden, gebeurtenisinformatie, en meer.
 
 Om deze integratie te bereiken, zult u Workfront Fusion, een werkautomatiseringslaag gebruiken die u toestaat om werkschema&#39;s tussen Workfront en andere systemen te automatiseren.
 
@@ -147,14 +147,14 @@ Enkele basisgegevens die u wilt opnemen in de opzoekbibliotheek van het programm
 
 ## Inname en automatische doorloop maken {#intake-and-create-automation-flow}
 
-Hier is een voorbeeld van hoe de werkschemalogica in Fusion kan worden samengesteld gebruikend prebuilt [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target="_blank"} modules waarmee u sneller automatisering kunt leveren.
+Hier is een voorbeeld van hoe de werkschemalogica in Fusion kan worden samengesteld gebruikend prebuilt [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=nl-NL){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=nl-NL){target="_blank"} modules waarmee u sneller automatisering kunt leveren.
 
 ![Inname en automatische doorloop maken](assets/intake-and-create-3.png)
 
 ## Bronnen {#resources}
 
-* [Adobe Marketo Engage-modules](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target="_blank"}
+* [Adobe Marketo Engage-modules](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=nl-NL){target="_blank"}
 
-* [Adobe Workfront-modules](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target="_blank"}
+* [Adobe Workfront-modules](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=nl-NL){target="_blank"}
 
 * [Overzicht Marketo en Workfront](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}

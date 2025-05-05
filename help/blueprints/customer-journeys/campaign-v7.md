@@ -109,19 +109,19 @@ Bekijk de volgende instructies.
    * Hebt u mobiele ontwikkelervaring nodig met pushmeldingen in zowel Android als iOS om de SDK te implementeren, te integreren met FCM (Android) en APNS (iOS) om pushtoken te verkrijgen, uw app te configureren voor pushmeldingen en pushinteracties te verwerken
 * Campagne Mobile SDK
    * Neem contact op met de klantenservice van de Adobe om toegang te krijgen
-   * Volg de [Campagne-SDK-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=en) leren hoe u de SDK kunt installeren en configureren
+   * Volg de [Campagne-SDK-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=nl-NL) leren hoe u de SDK kunt installeren en configureren
 
   >[!IMPORTANT]
   >Als u de Campagne SDK opstelt en met andere toepassingen van het Experience Cloud werkt zullen zij het gebruik van het Experience Platform Mobiele SDK voor gegevensinzameling vereisen. Dit is een andere SDK en moet worden geïnstalleerd naast de campagne-SDK
 
 ## Implementatiestappen
 
-Zie de [Aan de slag](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=en) voor de implementatie van Adobe Campaign v7.
+Zie de [Aan de slag](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=nl-NL) voor de implementatie van Adobe Campaign v7.
 
 
 ## Gerelateerde documentatie
 
-* [Campagne v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
-* [Campagne v7 productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-* [Documentatie over Experience Platform-tags](https://experienceleague.adobe.com/docs/launch.html?lang=en)
-* [Experience Platform Mobile SDK-documentatie](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
+* [Campagne v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=nl-NL)
+* [Campagne v7 productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
+* [Documentatie over Experience Platform-tags](https://experienceleague.adobe.com/docs/launch.html?lang=nl-NL)
+* [Experience Platform Mobile SDK-documentatie](https://experienceleague.adobe.com/docs/mobile.html?lang=nl-NL)

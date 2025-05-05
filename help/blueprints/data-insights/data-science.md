@@ -33,19 +33,19 @@ Modelleerde inzichten kunnen worden opgenomen in [!DNL Experience Platform] om h
 
 ## Implementatiestappen
 
-1. [Schema&#39;s maken](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden ingevoerd.
-1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden ingevoerd.
-1. [Samenvattingsgegevens](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in [!DNL Experience Platform].
+1. [Schema&#39;s maken](https://experienceleague.adobe.com/?lang=nl&recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden ingevoerd.
+1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=nl-NL) voor gegevens die moeten worden ingevoerd.
+1. [Samenvattingsgegevens](https://experienceleague.adobe.com/?lang=nl&recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in [!DNL Experience Platform].
 
 Voor modelresultaten die in het Profiel van de Klant in real time moeten worden opgenomen ben zeker om het volgende te doen alvorens gegevens in te voeren:
 
-1. [De juiste identiteiten en naamruimten configureren](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html) op het schema om ervoor te zorgen dat ingesloten gegevens in een verenigd profiel kunnen vastmaken.
-1. [De schema&#39;s en datasets voor profiel inschakelen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
+1. [De juiste identiteiten en naamruimten configureren](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=nl-NL) op het schema om ervoor te zorgen dat ingesloten gegevens in een verenigd profiel kunnen vastmaken.
+1. [De schema&#39;s en datasets voor profiel inschakelen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=nl-NL).
 
 ## Implementatieoverwegingen
 
 * In de meeste gevallen moet het modelresultaat worden opgenomen als profielkenmerken en hoeven er geen gebeurtenissen te worden ervaren. De modelresultaten kunnen eenvoudige kenmerktekenreeksen zijn. Als er meerdere modelresultaten zijn die moeten worden opgenomen, is het raadzaam een array- of kaarttekstveld te gebruiken.
-* De gegevensset met momentopnamen voor dagelijkse profielen, die een dagelijkse export is van de gegevens van de verenigde profielkenmerken, kan worden gebruikt om modellen voor profielkenmerkgegevens op te leiden. De document van de de momentopnamesdataset van het profiel kan worden betreden [hier](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html#profile-attribute-datasets).
+* De gegevensset met momentopnamen voor dagelijkse profielen, die een dagelijkse export is van de gegevens van de verenigde profielkenmerken, kan worden gebruikt om modellen voor profielkenmerkgegevens op te leiden. De document van de de momentopnamesdataset van het profiel kan worden betreden [hier](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=nl-NL#profile-attribute-datasets).
 * Voor het extraheren van gegevens uit [!DNL Experience Platform] de volgende methoden kunnen worden gebruikt
    * SDK voor gegevenstoegang
       * Gegevens worden opgeslagen in Raw-bestandsformulier
@@ -55,8 +55,8 @@ Voor modelresultaten die in het Profiel van de Klant in real time moeten worden 
 
 ## Gerelateerde documentatie
 
-* [Adobe [!DNL Experience Platform] Omschrijving van het inlichtingenproduct](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Adobe [!DNL Experience Platform] Query-service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)
+* [Adobe [!DNL Experience Platform] Omschrijving van het inlichtingenproduct](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Adobe [!DNL Experience Platform] Query-service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl-NL)
 
 ## Gerelateerde blogberichten
 

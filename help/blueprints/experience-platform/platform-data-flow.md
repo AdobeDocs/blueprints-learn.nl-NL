@@ -22,4 +22,4 @@ In het onderstaande diagram worden de verschillende paden weergegeven voor het o
 
 ## Invoerpatronen en egress-patronen van gegevens
 
-Voor een gedetailleerde lijst van alle gegevensopname, zien de inzameling, de ingang en de egress patronen de [ Documentatie van de Ingestie van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home).
+Voor een gedetailleerde lijst van alle gegevensopname, zien de inzameling, de ingang en de egress patronen de [ Documentatie van de Ingestie van Gegevens ](https://experienceleague.adobe.com/nl/docs/experience-platform/collection/home).

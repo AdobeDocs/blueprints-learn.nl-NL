@@ -20,6 +20,6 @@ Het onderstaande architectuurdiagram illustreert de integratiepaden en de gegeve
 
 ## Referentiedocumentatie
 
-* [Overzicht van Web/Mobile SDK van Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
-* [Zelfstudie Adobe Experience Cloud implementeren met Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html)
-* [Zelfstudie Adobe Experience Cloud implementeren in mobiele apps](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)
+* [Overzicht van Web/Mobile SDK van Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL)
+* [Zelfstudie Adobe Experience Cloud implementeren met Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL)
+* [Zelfstudie Adobe Experience Cloud implementeren in mobiele apps](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=nl-NL)
