@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Beslissingsbeheer op de Hub blauwdruk
 
-Om meer over het Beheer van het Besluit te leren verwijs naar de productdocumentatie [ ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) HIER en het Overzicht van het Beheer van het Besluit [ ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en)
+Om meer over het Beheer van het Besluit te leren verwijs naar de productdocumentatie [&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) HIER en het Overzicht van het Beheer van het Besluit [&#128279;](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=en)
 
 Beslissingsbeheer van de Adobe is een dienst die wordt verleend als onderdeel van Adobe Journey Optimizer. Deze blauwdruk schetst de gebruiksgevallen en de technische mogelijkheden van de toepassing en verstrekt een diepe duik in de diverse architecturale componenten en overwegingen die omhoog het Beheer van de Beslissing maken.
 

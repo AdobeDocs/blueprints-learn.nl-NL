@@ -21,7 +21,7 @@ Om deze integratie te bereiken, zult u Workfront Fusion, een werkautomatiserings
 
 In de onderstaande workflow ziet u een aanvraag voor een webinar die door een campagnemanager wordt gemaakt met behulp van een Workfront-aanvraagformulier. De details die in het verzoek worden ingediend, activeren vervolgens een programma en e-mail die in Marketo Engage voor het webinar worden gemaakt. Bovendien worden gegevens uit het aanvraagformulier opgehaald om de inhoud van de e-mail te vullen.
 
-![Opname en ontwerp maken](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
+![Opname en ontwerp maken](assets/intake-and-create-1.png){zoomable="yes"}
 
 >[!TIP]
 >
@@ -101,7 +101,7 @@ Als u meer wilt weten over het maken van uw eigen expertisecentrum, bekijkt u de
 
 Met Marketo Engage kunnen tokens worden gebruikt om inhoud in uw campagnemiddelen te vullen. Nadat u bijvoorbeeld een e-mailsjabloon hebt gekloond vanuit uw expertisecentrum, kan Workfront Fusion details uit het campagneverzoek in Workfront overnemen en deze doorgeven aan Mijn tokens in het programma Marketo Engage. De symbolische waarden kunnen dan direct in e-mail worden geërft om e-mail uit te bouwen.
 
-![Tkens gebruiken om inhoudsdiagram te vullen](assets/intake-and-create-2.png){zoomable=&quot;yes&quot;}
+![Tkens gebruiken om inhoudsdiagram te vullen](assets/intake-and-create-2.png){zoomable="yes"}
 
 ### Afbeeldingen uit AEM Assets vullen {#populate-images-from-aem-assets}
 

@@ -32,7 +32,7 @@ Een volledige lijst van de gevallen van het gebruik van de Customer Journey Anal
 
 ## Architectuur voor Customer Journey Analytics
 
-![Architectuurdiagram](assets/CJA.svg){zoomable=&quot;yes&quot;}
+![Architectuurdiagram](assets/CJA.svg){zoomable="yes"}
 
 Voorbeelden van gevallen van primair gebruik waren:
 
@@ -46,7 +46,7 @@ Voorbeelden van gevallen van primair gebruik waren:
 
 * Voor gedetailleerde instructies en eindlatenties raadpleegt u de [document met implementatiehandleidingen](../experience-platform/deployment/guardrails.md)
 
-![Guardrail-diagram](../experience-platform/deployment/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
+![Guardrail-diagram](../experience-platform/deployment/assets/CJA_guardrails.svg){zoomable="yes"}
 
 ## Gerelateerde blogberichten
 

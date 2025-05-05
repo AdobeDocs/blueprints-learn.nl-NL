@@ -24,4 +24,4 @@ Zie de volgende documentatie voor richtlijnen over implementatie en configuratie
 
 ## Architectuur voor Customer Journey Analytics met Journey Optimizer
 
-![Architectuurdiagram](assets/CJA_AJO.svg){zoomable=&quot;yes&quot;}
+![Architectuurdiagram](assets/CJA_AJO.svg){zoomable="yes"}

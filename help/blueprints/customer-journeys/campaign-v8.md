@@ -28,7 +28,7 @@ Het komt ook met een scalable Real-Time overseinenserver worden verbonden die ma
 
 ## Architectuurdiagrammen
 
-Leer meer over [ de plaatsingsmodellen van de Campagne v8 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment) {target="_blank"}.
+Leer meer over [ de plaatsingsmodellen van de Campagne v8 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"} .
 
 ### Implementatie van Campagne Enterprise (FFDA)
 
@@ -88,7 +88,7 @@ De instructies worden hieronder beschreven.
    * Ondersteuning voor het laden van API-gegevens is voornamelijk bedoeld voor het beheer van profielen of eenvoudige objecten in de database (d.w.z. maken en bijwerken). Het is niet bedoeld voor het laden van grote hoeveelheden gegevens of batchbewerkingen.
    * Het gebruik van API&#39;s voor het lezen van gegevens voor aangepaste toepassingsdoeleinden wordt niet ondersteund
    * Gegevens die via de API zijn geladen, worden in de toepassingsdatabase gefaseerd en vervolgens elk uur naar de Cloud-database gerepliceerd
-* Beperkingen op API-aanroepen zijn van toepassing. Leer meer in de [ Beschrijving van het Product van Adobe Campaign ](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html) {target="_blank"}.
+* Beperkingen op API-aanroepen zijn van toepassing. Leer meer in de [ Beschrijving van het Product van Adobe Campaign ](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} .
 
 ### Grootte van batchcommunicatieserver
 

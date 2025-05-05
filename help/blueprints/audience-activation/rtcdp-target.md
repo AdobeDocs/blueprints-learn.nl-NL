@@ -26,7 +26,7 @@ ht-degree: 3%
 
 ## Applicaties
 
-* [!UICONTROL  Real-time Platform van Gegevens van de Klant ]
+* [!UICONTROL &#x200B; Real-time Platform van Gegevens van de Klant &#x200B;]
 * Adobe Target
 
 ### Referentiedocumentatie

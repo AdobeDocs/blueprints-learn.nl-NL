@@ -63,7 +63,7 @@ Volg de implementaties voor elke hieronder beschreven toepassing.
 1. [ creeer om het even welke klant-specifieke namespaces ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [ voegt identiteiten aan schema&#39;s ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html) toe.
 1. [ laat de schema&#39;s en datasets voor Profiel ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html) toe.
-1. [ opstelling voegt beleid ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) voor verschillende meningen van [!UICONTROL  in real time het Profiel van de Klant ] (facultatief) samen.
+1. [ opstelling voegt beleid ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) voor verschillende meningen van [!UICONTROL &#x200B; in real time het Profiel van de Klant &#x200B;] (facultatief) samen.
 1. Maak segmenten voor gebruik in Reis.
 
 #### Bronnen/bestemmingen
@@ -80,7 +80,7 @@ Volg de implementaties voor elke hieronder beschreven toepassing.
 
 * De malplaatjes van het overseinen moeten met aangewezen verpersoonlijkingscontext worden gevormd.
 * Voor [!DNL Campaign] standard: de werkschema&#39;s van de uitvoer moeten worden gevormd om de transactionele overseinenlogboeken terug naar Experience Platform uit te voeren. De aanbeveling is om ten hoogste om de vier uur te lopen.
-* Voor [!DNL Campaign] v8.4 is het mogelijk om Adobe [!DNL Campaign] Managed Services Source Connector in Experience Platform te gebruiken voor het synchroniseren van bezorgings- en volggebeurtenissen van Campagne naar Experience Platform. Verwijs naar de [ 1} documentatie van de Schakelaar van Source {voor details.](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* Voor [!DNL Campaign] v8.4 is het mogelijk om Adobe [!DNL Campaign] Managed Services Source Connector in Experience Platform te gebruiken voor het synchroniseren van bezorgings- en volggebeurtenissen van Campagne naar Experience Platform. Verwijs naar de [ 1&rbrace; documentatie van de Schakelaar van Source &lbrace;voor details.](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
 
 ### Mobiele pushconfiguratie (optioneel)
 
