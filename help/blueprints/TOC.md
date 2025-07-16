@@ -60,8 +60,8 @@ ht-degree: 25%
       + [Journey Optimizer met Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Berichten van derden](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign Standard{#campaign-standard}
-      + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard.html){target="_blank"}
-      + [ Real-Time CDP met Adobe  [!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html){target="_blank"}
+      + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=nl-NL){target="_blank"}
+      + [ Real-Time CDP met Adobe  [!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=nl-NL){target="_blank"}
    + Campaign v8{#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
       + [Real-Time CDP met Adobe  [!DNL Campaign]  v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
