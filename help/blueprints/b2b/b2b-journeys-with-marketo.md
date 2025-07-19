@@ -121,7 +121,7 @@ Deze query retourneert het aantal persoonrecords dat wordt samengevoegd als onde
 >[!NOTE]
 >
 >De datasetlijst marketo_person_ajo_b2b wordt gebruikt om een volledig voorbeeld van te verstrekken hoe te met de dataset van de Persoon van Marketo te werken.
->>U kunt de dataset van uw zandbak in de [ Datasets ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide) werkruimte vinden.
+>&#x200B;>U kunt de dataset van uw zandbak in de [ Datasets ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide) werkruimte vinden.
 
 ```sql
 select
