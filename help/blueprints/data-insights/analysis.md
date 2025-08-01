@@ -26,7 +26,7 @@ Met [!DNL Experience Platform] kunt u via het [!DNL Experience Platform] -protoc
 * De rij en kolomtoegang tot ingebedde gegevens voor exploratie en bevestiging
 * Dashboarding en visualisatie van gegevens via Business Intelligence-tools
 
-De extra gemeenschappelijke gebruiksgevallen voor de vraagdienst worden geschetst hier [ Gevallen van het Gebruik van de Dienst van de Vraag ](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html)
+De extra gemeenschappelijke gebruiksgevallen voor de vraagdienst worden geschetst hier [ Gevallen van het Gebruik van de Dienst van de Vraag ](https://experienceleague.adobe.com/docs/experience-platform/query/use-cases/abandoned-browse.html?lang=nl-NL)
 
 ## Applicaties
 
@@ -39,9 +39,9 @@ De extra gemeenschappelijke gebruiksgevallen voor de vraagdienst worden geschets
 ## Beveiligingsmechanismen
 
 Raadpleeg de documentatie bij het product Query Service voor meer informatie over beste praktijken en instructies.
-[ Begeleiding van de Dienst van de Vraag ](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html)
+[ Begeleiding van de Dienst van de Vraag ](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=nl-NL)
 
 ## Gerelateerde documentatie
 
-* [ Adobe  [!DNL Experience Platform]  het productbeschrijving van de Intelligentie ](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [[!UICONTROL &#x200B; documentatie &#x200B;] van de Dienst van de 1&rbrace; Vraag](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
+* [ Adobe  [!DNL Experience Platform]  het productbeschrijving van de Intelligentie ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [[!UICONTROL &#x200B; documentatie &#x200B;] van de Dienst van de 1&rbrace; Vraag](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl-NL)

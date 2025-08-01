@@ -58,7 +58,7 @@ In het volgende voorbeeld worden de ondersteunde patronen beschreven voor het to
 
 #### Experience Platform Profile and Segmentation Guardrails:
 
-* Zie het profiel en de segmentbegeleiding voor Experience Platform - [ de Grafieken van het Profiel en van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+* Zie het profiel en de segmentbegeleiding voor Experience Platform - [ de Grafieken van het Profiel en van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL)
 * B2B-segmenten die accounts, leads en opportuniteiten bevatten, maken gebruik van relaties met meerdere entiteiten die ertoe leiden dat de segmentbeoordeling in batch wordt verwerkt. Streaming segmentatie wordt ondersteund voor segmenten die zijn beperkt tot personen en gebeurtenissen.
 * Neem een batch b2b-segment op als invoer voor een streaming- of Edge-segment ter ondersteuning van Gebruiksgevallen van streaming b2b-segment. Het lidmaatschap van het segment van de partij is gebaseerd op het recentste dagelijkse resultaat van de partijsegmentatie.
 
@@ -79,12 +79,12 @@ In het volgende voorbeeld worden de ondersteunde patronen beschreven voor het to
 
 #### Guardrails bestemming
 
-* Raadpleeg de doeldocumentatie voor specifieke aanwijzingen over de bestemmingen. [ Guardrails van de Bestemming ](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=en)
+* Raadpleeg de doeldocumentatie voor specifieke aanwijzingen over de bestemmingen. [ Guardrails van de Bestemming ](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=nl-NL)
 
 
 ## Implementatiestappen
 
-Raadpleeg de B2B edition van de documentatie van het Real-time Customer Data Platform voor hulp bij het implementeren en configureren van de B2B edition van het Real-Time Customer Data Platform. [ B2B edition van het Platform van Gegevens van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
+Raadpleeg de B2B edition van de documentatie van het Real-time Customer Data Platform voor hulp bij het implementeren en configureren van de B2B edition van het Real-Time Customer Data Platform. [ B2B edition van het Platform van Gegevens van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=nl-NL)
 
 Er zijn twee mogelijke implementatiepatronen. Zowel de mogelijkheid om B2B-gegevens en -profielen van Marketo Engage in te nemen als de mogelijkheid om B2B-gegevens van andere CRM-gegevensbronnen in te nemen.
 
@@ -98,10 +98,10 @@ Als de implementatie Marketo Engage als bron gebruikt en Marketo Engage is verbo
 
 ## Gerelateerde documentatie
 
-* [ B2B edition van het Platform van Gegevens van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
-* [ Begonnen het worden met het Platform van Gegevens van de Klant in real time B2B edition ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
-* [ Grafieken voor het Platform van Gegevens van de Klant in real time B2B edition ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
-* [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
-* [ Marketo Engage ](https://experienceleague.adobe.com/docs/marketo/using/home.html)
-* [ Adobe Experience Platform - de Schakelaar van Marketo Source ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=en)
-* [ Adobe Experience Platform - de Schakelaar van de Bestemming van Marketo ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-cloud-segment-to-a-marketo-static-list.html)
+* [ B2B edition van het Platform van Gegevens van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=nl-NL)
+* [ Begonnen het worden met het Platform van Gegevens van de Klant in real time B2B edition ](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
+* [ Grafieken voor het Platform van Gegevens van de Klant in real time B2B edition ](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
+* [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=nl-NL)
+* [ Marketo Engage ](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=nl-NL)
+* [ Adobe Experience Platform - de Schakelaar van Marketo Source ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=nl-NL)
+* [ Adobe Experience Platform - de Schakelaar van de Bestemming van Marketo ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/push-an-adobe-experience-cloud-segment-to-a-marketo-static-list.html?lang=nl-NL)
