@@ -13,7 +13,7 @@ ht-degree: 7%
 
 # Activering van publiek en profiel naar streaming doelen voor bestanden en bedrijven (blauwdruk)
 
-Het profiel van het aandeel en publieksveranderingen en gebeurtenissen in het stromen of partij van [!UICONTROL  Real-time Platform van de Gegevens van de Klant ] aan de opslag en de toepassingen van ondernemingsgegevens. Deze profiel en publieksgebeurtenissen kunnen worden gebruikt om een verkoop of steunactie aan de klant zoals follow-up op een verlaten toepassingsproces of webinar registratie in werking te stellen of ondernemingstoepassingen met de recentste klantenattributen en intelligentie van [!UICONTROL  Real-time het Platform van Gegevens van de Klant ] bij te werken.
+Het profiel van het aandeel en publieksveranderingen en gebeurtenissen in het stromen of partij van [!UICONTROL &#x200B; Real-time Platform van de Gegevens van de Klant &#x200B;] aan de opslag en de toepassingen van ondernemingsgegevens. Deze profiel en publieksgebeurtenissen kunnen worden gebruikt om een verkoop of steunactie aan de klant zoals follow-up op een verlaten toepassingsproces of webinar registratie in werking te stellen of ondernemingstoepassingen met de recentste klantenattributen en intelligentie van [!UICONTROL &#x200B; Real-time het Platform van Gegevens van de Klant &#x200B;] bij te werken.
 
 ## Gebruiksscenario&#39;s
 

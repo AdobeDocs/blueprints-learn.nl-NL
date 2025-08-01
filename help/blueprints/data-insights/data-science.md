@@ -20,7 +20,7 @@ Modelleerde inzichten kunnen in [!DNL Experience Platform] worden opgenomen om h
 ## Gebruiksscenario&#39;s
 
 * Pak insight uit en ontdek patronen uit klantgegevens, trein- en scoremodellen van deze gegevens.
-* Verrijk het [!UICONTROL  Real-time Profiel van de Klant ] met model gedreven inzichten en attributen voor meer korrelige verpersoonlijking en geoptimaliseerde reizen.
+* Verrijk het [!UICONTROL &#x200B; Real-time Profiel van de Klant &#x200B;] met model gedreven inzichten en attributen voor meer korrelige verpersoonlijking en geoptimaliseerde reizen.
 * Train- en Score-modellen om de inzichten van klanten te bepalen, zoals de levenslange waarde van de klant, de neiging om te converteren of te klonen, de affiniteit van producten en inhoud, en servicescore.
 
 ## Architectuur

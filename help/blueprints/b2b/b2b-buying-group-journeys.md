@@ -68,11 +68,11 @@ De rekening-geconcentreerde oplossing vereist de volgende toepassingen en de die
 >
 >De licentie voor Journey Optimizer B2B edition moet de volgende items bevatten:
 ><ul><li>Journey Optimizer B2B edition-instantie die is verbonden met Experience Platform B2B</li><li>Marketo Engage-instantie die wordt gesynchroniseerd met RTCDP</li></ul>
-&gt;<br/>
-&gt;Voor bestaande Marketo Engage-klanten is een verbinding met het bestaande exemplaar de aanbevolen aanpak.
-&gt;<br/><br/>
-&gt;Er zijn aanvullende extensies beschikbaar voor de oplossing om de rijkheid van profielen te verbeteren:
-&gt;<ul><li>Extra bronnen naar RTCDP om het profiel te verrijken</li><li>RTCDP-bestemming naar Marketo Engage</li></ul>
+>&gt;<br/>
+>&gt;Voor bestaande Marketo Engage-klanten is een verbinding met het bestaande exemplaar de aanbevolen aanpak.
+>&gt;<br/><br/>
+>&gt;Er zijn aanvullende extensies beschikbaar voor de oplossing om de rijkheid van profielen te verbeteren:
+>&gt;<ul><li>Extra bronnen naar RTCDP om het profiel te verrijken</li><li>RTCDP-bestemming naar Marketo Engage</li></ul>
 
 De implementatie van deze oplossing vereist ook een duidelijk inzicht in het concept _Rekening_ en _het Kopen groep_, en hoe zij uw kwalificatie van het verkooplood versterken en versnellen. Op deze manier moet u ook de gewenste volledigheidsscore voor de koopgroep identificeren.
 

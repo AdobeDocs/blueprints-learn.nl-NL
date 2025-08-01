@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Gegevensanalyse en -intelligentie bestaat uit de mogelijkheid binnen [!DNL Experience Platform] om verkennende query&#39;s en analyses uit te voeren van de gegevens die in het datumpeer aanwezig zijn.
 
-[!DNL Experience Platform] de Dienst van de Vraag van 0} [!UICONTROL  staat SQL vragen toe om op de gegevens worden uitgevoerd.]
+[!DNL Experience Platform] de Dienst van de Vraag van 0&rbrace; [!UICONTROL &#x200B; staat SQL vragen toe om op de gegevens worden uitgevoerd.]
 
 Met [!DNL Experience Platform] kunt u via het [!DNL Experience Platform] -protocol verbindingen tot stand brengen met SQL-clients, -interfaces en Business Intelligence-programma&#39;s (BI). U kunt hiermee rechtstreeks verbinding maken met en toegang krijgen tot de gegevens en er query&#39;s op uitvoeren binnen [!DNL PostgreSQL] .
 
@@ -44,4 +44,4 @@ Raadpleeg de documentatie bij het product Query Service voor meer informatie ove
 ## Gerelateerde documentatie
 
 * [ Adobe  [!DNL Experience Platform]  het productbeschrijving van de Intelligentie ](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [[!UICONTROL  documentatie ] van de Dienst van de 1} Vraag](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
+* [[!UICONTROL &#x200B; documentatie &#x200B;] van de Dienst van de 1&rbrace; Vraag](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en)
