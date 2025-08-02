@@ -42,7 +42,7 @@ Controleer de volgende voorwaarden voor elke toepassing.
 
 * [ Journey Optimizer Guardrails productbeperkingen ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/get-started/guardrails)
 
-* [ Guardrails en de begeleiding van begin tot eind van de latentie ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
+* [ Guardrails en de begeleiding van begin tot eind van de latentie ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=nl-NL)
 
 ## Implementatiestappen
 

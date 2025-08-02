@@ -45,7 +45,7 @@ Toont aan hoe Adobe Journey Optimizer met Adobe Campaign kan worden gebruikt om 
 
 [ Journey Optimizer Guardrails Product Link ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/get-started/guardrails)
 
-[ Guardrails en de Begeleiding van de Latentie van Eind tot Eind ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
+[ Guardrails en de Begeleiding van de Latentie van Eind tot Eind ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=nl-NL)
 
 ## Implementatiestappen
 

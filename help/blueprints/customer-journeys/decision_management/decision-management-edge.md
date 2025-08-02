@@ -48,7 +48,7 @@ Meer over het Beheer van het Besluit op de hub leren verwijs naar het [ Beheer v
 
 * Voor de gidsen van het Beheer van het Besluit verwijzen naar de volgende [ Beschrijving van het Product van het Beheer van het Besluit ](https://helpx.adobe.com/nl/legal/product-descriptions/offer-decisioning-app-service.html).
 
-[ Guardrails en de Begeleiding van de Latentie van Eind tot Eind ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
+[ Guardrails en de Begeleiding van de Latentie van Eind tot Eind ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=nl-NL)
 
 ## Gerelateerde documentatie
 
