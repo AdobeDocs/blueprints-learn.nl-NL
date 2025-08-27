@@ -1,27 +1,39 @@
 ---
 title: Verwijzingen naar reizen van klanten
-description: Lever individuele, just-in-time klantenervaringen over schermen.
+description: Lever individuele, just-in-time en georkestreerde klantenervaringen over schermen.
 solution: Journey Optimizer, Campaign, Experience Platform
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
+source-git-commit: 8ee7fe8d38343a669f5ad57e69367fbe6a3e1024
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
 
-# Verwijzingen naar reizen van klanten
+# Blauwpatronen voor reizen van klanten
 
-De Reizen van de klant verhelpen de capaciteit voor merken om proactief met hun klanten door kanalen zoals e-mail, SMS, en mobiele alarm in gesprek te gaan en te communiceren.
+Moderne marketing teams vereisen platforms die zowel reactieve betrokkenheid-antwoordend aan individueel klantengedrag-en pro-actieve voorlichting-initiërend campagnes kunnen steunen die publiek in omzettingskanalen begeleiden. Deze gebruiksscenario&#39;s bestrijken kanalen zoals e-mail, SMS, push en in toenemende mate, internet en toepassingen.
 
-Orchestration-gereedschappen kunnen ook worden geïntegreerd met andere interactiekanalen, zoals met binnenkomende kanalen voor web/mobiele personalisatie, door de status van het publiek te delen met de andere kanaal-specifieke beslissingsengines. Een aantal factoren gaat in welke toepassingen en plaatsingsopties voor de Reizen van de Klant zouden moeten worden gebruikt maar het kan in twee verschillende benaderingen worden samengevat: op een klant reageren aangezien zij (teweeggebracht) of op een groep klanten reageren aangezien zij (gepland) in dienst nemen.
+Adobe Journey Optimizer en Adobe Campaign v8 ondersteunen beide twee basismodellen voor de betrokkenheid van klanten:
 
-Tegenwoordig zijn er twee mogelijkheden voor Adobe die klanten kunnen kiezen bij het zoeken naar een oplossing voor de reis van klanten:
+- Door de klant geïnitieerde reizen: gebeurtenisgestuurde, real-time orchestratie op basis van individueel gedrag en signalen.
+- Brand-geïnitieerde campagnes: Strategisch getimed duwt die publiek in betrokkenheidstrechters introduceren die op segmentatie of bedrijfslogica worden gebaseerd.
 
-<ul><li>Adobe [!DNL Campaign] Managed Cloud Services</li><li>Adobe Journey Optimizer</li></ul>
+Beide oplossingen laten uitgaande mededeling over traditionele en digitale kanalen toe. AJO biedt daarnaast ondersteuning voor integratie met binnenkomende kanalen (bv. web- en mobiele apps) via services voor het delen van de doelstatus en het nemen van beslissingen, zodat iedereen dezelfde taal kan gebruiken.
+
+De keuze tussen deze gereedschappen is afhankelijk van architecturale overwegingen, zoals tolerantie voor latentie, kanaalvereisten, strategie voor gegevensintegratie en schaalbaarheid.
+
+<br>
 
 | Blauwdruk | Beschrijving | Architectuur |
-|---|---|---|
-| **[Journey Optimizer](journey-optimizer.md)** | Native gebouwd bovenop het [!DNL Experience Platforms] Real-Time Klantprofiel dat marketingteams in staat stelt in real time te reageren op veranderende gedragingen van klanten en deze op elk gewenst moment te ontmoeten op de locatie waar ze zich bevinden | <img src="assets/ajo-architecture.svg" alt="Referentiearchitectuur voor Journey Optimizer Blueprint" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
-| **[Adobe  [!DNL Campaign]  v8](campaign-v8.md)** | De volgende generatie die campagnehulpmiddel voert dat voor zeer complex gegevensbeheer en campagneprocessen wordt geoptimaliseerd. Laat klanten toe om te combineren ontdekken en rijke marketing campagnecommunicaties tot stand te brengen | <img src="assets/campaign-v8-architecture.svg" alt="Referentiearchitectuur voor blauwdruk van campagne v8" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
-| **[Adobe  [!DNL Campaign]  v7](campaign-v7.md)** | Traditioneel campagneprogramma gebouwd voor op batch gebaseerde marketingcampagnes langs kanalen zoals e-mail, SMS en direct mail. Laat klanten toe om de diverse klantenmededelingen in één enkele plaats te organiseren en te beheren | <img src="assets/campaign-v7-architecture.svg" alt="Referentiearchitectuur voor Campagne v7 Blueprint" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+|---|---|:---:|
+| **[Adobe Journey Optimizer](journey-optimizer/journey-optimizer-overview.md)** | Combineert gebeurtenis-gedreven, 1 :1 profielorganisatie, met op publiek-gebaseerde merkmededelingen over veelvoudige kanalen zoals e-mail, sms, Web, duw, in-app overseinen, Desktop, enz. | <img src="journey-optimizer/images/ajo-architecture.svg" alt="Referentiearchitectuur voor Journey Optimizer Blueprint" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Adobe  [!DNL Campaign]  v8](campaign-v8/campaign-v8-overview.md)** | Gericht op batchgewijs beheer van meerdere kanalen voor campagnes, ideaal voor traditionele marketingkanalen zoals e-mail, SMS en direct mail. | <img src="campaign-v8/images/campaign-v8-architecture.svg" alt="Referentiearchitectuur voor blauwdruk van campagne v8" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+
+<br>
+
+## Verouderde blauwdrukken
+
+| Blauwdruk | Architectuur |
+|---|:---:|
+| **[Adobe  [!DNL Campaign]  v7](campaign-v7/campaign-v7-overview.md)** | <img src="campaign-v7/images/campaign-v7-architecture.svg" alt="Referentiearchitectuur voor Campagne v7 Blueprint" style="width:50%; border:1px solid #4a4a4a" class="modal-image" /> |
