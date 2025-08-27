@@ -40,9 +40,9 @@ In de volgende secties worden de instructies voor deze integratie beschreven.
 
 ### Real-Time Customer Data Platform-segmentdeling
 
-* Verwijs naar de schakelaar van de Bestemming van RTCDP [!DNL Campaign] - [ Verbinding van de Campagne van RTCDP ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html)
+* Verwijs naar de schakelaar van de Bestemming van RTCDP [!DNL Campaign] - [ Verbinding van de Campagne van RTCDP ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=nl-NL)
 
-* Zie [ Standaardgidsen voor  [!DNL Real-Time Customer Profile Data]  en segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* Zie [ Standaardgidsen voor  [!DNL Real-Time Customer Profile Data]  en segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL)
 
 ## Implementatiestappen
 
@@ -52,25 +52,25 @@ In de volgende secties worden de implementatiestappen voor elke toepassing besch
 
 #### Schema/datasets
 
-1. [ vorm individueel profiel, ervaringsgebeurtenis, en multi-entiteitsschema&#39;s ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, die op klant-geleverde gegevens wordt gebaseerd.
+1. [ vorm individueel profiel, ervaringsgebeurtenis, en multi-entiteitsschema&#39;s ](https://experienceleague.adobe.com/?lang=nl&recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, die op klant-geleverde gegevens wordt gebaseerd.
 1. Maak Adobe [!DNL Campaign] -schema&#39;s voor wideLog, trackingLog, niet-te leveren adressen en profielvoorkeuren (optioneel).
-1. [ creeer datasets ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) in Experience Platform voor gegevens die moeten worden opgenomen.
-1. [ voegt de etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) in Experience Platform aan de dataset voor bestuur toe.
-1. [ creeer beleid ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html) dat bestuur op bestemmingen afdwingt.
+1. [ creeer datasets ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=nl-NL) in Experience Platform voor gegevens die moeten worden opgenomen.
+1. [ voegt de etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=nl-NL) in Experience Platform aan de dataset voor bestuur toe.
+1. [ creeer beleid ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=nl-NL) dat bestuur op bestemmingen afdwingt.
 
 #### Profiel/identiteit
 
-1. [ creeer om het even welke klant-specifieke namespaces ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
-1. [ voegt identiteiten aan schema&#39;s ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html) toe.
-1. [ laat de schema&#39;s en datasets voor Profiel ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html) toe.
-1. [ opstelling voegt beleid ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) voor verschillende meningen van [!UICONTROL &#x200B; in real time het Profiel van de Klant &#x200B;] (facultatief) samen.
+1. [ creeer om het even welke klant-specifieke namespaces ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=nl-NL).
+1. [ voegt identiteiten aan schema&#39;s ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=nl-NL) toe.
+1. [ laat de schema&#39;s en datasets voor Profiel ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=nl-NL) toe.
+1. [ opstelling voegt beleid ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=nl-NL) voor verschillende meningen van [!UICONTROL &#x200B; in real time het Profiel van de Klant &#x200B;] (facultatief) samen.
 1. Maak segmenten voor gebruik in Adobe [!DNL Campaign] .
 
 #### Bronnen/bestemmingen
 
-1. [ Experience Platform en  [!DNL Campaign]  StandaardBronnen en Ontvangingen ](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)
-1. [ Experience Platform en  [!DNL Campaign]  v7 Bronnen en Ontvangingen ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html)
-1. [ Samenvatting gegevens in Experience Platform ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) gebruikend het stromen APIs &amp; bronschakelaars.
+1. [ Experience Platform en  [!DNL Campaign]  StandaardBronnen en Ontvangingen ](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=nl-NL)
+1. [ Experience Platform en  [!DNL Campaign]  v7 Bronnen en Ontvangingen ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=nl-NL)
+1. [ Samenvatting gegevens in Experience Platform ](https://experienceleague.adobe.com/?lang=nl&recommended=ExperiencePlatform-D-1-2020.1.dataingestion) gebruikend het stromen APIs &amp; bronschakelaars.
 1. Configureer [!DNL Azure] blob storage destination for use with Adobe [!DNL Campaign] .
 
 #### Adobe [!DNL Campaign]
@@ -110,8 +110,8 @@ In de volgende secties worden de implementatiestappen voor elke toepassing besch
 
 ## Gerelateerde documentatie
 
-* [ Adobe  [!DNL Experience Platform]  documentatie ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
-* [[!DNL Campaign Classic]  documentatie ](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
-* [[!DNL Campaign Standard]  documentatie ](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
-* [[!DNL Experience Platform]  documentatie van de Lancering ](https://experienceleague.adobe.com/docs/launch.html?lang=en)
-* [[!DNL Experience Platform]  Mobiele documentatie van SDK ](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
+* [ Adobe  [!DNL Experience Platform]  documentatie ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=nl-NL)
+* [[!DNL Campaign Classic]  documentatie ](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=nl-NL)
+* [[!DNL Campaign Standard]  documentatie ](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=nl-NL)
+* [[!DNL Experience Platform]  documentatie van de Lancering ](https://experienceleague.adobe.com/docs/launch.html?lang=nl-NL)
+* [[!DNL Experience Platform]  Mobiele documentatie van SDK ](https://experienceleague.adobe.com/docs/mobile.html?lang=nl-NL)

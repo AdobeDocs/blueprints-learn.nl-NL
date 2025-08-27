@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ## Gerelateerde documentatie
 
-* [ de documentatie van de Campagne v7 ](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
-* [ Campagne v7 Beschrijving van het Product ](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-* [ de documentatie van de Markeringen van Experience Platform ](https://experienceleague.adobe.com/docs/launch.html?lang=en)
-* [ Experience Platform Mobile SDK documentatie ](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
+* [ de documentatie van de Campagne v7 ](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=nl-NL)
+* [ Campagne v7 Beschrijving van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
+* [ de documentatie van de Markeringen van Experience Platform ](https://experienceleague.adobe.com/docs/launch.html?lang=nl-NL)
+* [ Experience Platform Mobile SDK documentatie ](https://experienceleague.adobe.com/docs/mobile.html?lang=nl-NL)

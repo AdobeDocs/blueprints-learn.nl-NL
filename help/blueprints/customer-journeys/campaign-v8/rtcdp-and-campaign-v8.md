@@ -38,18 +38,18 @@ Toont hoe de Adobe [!DNL Experience Platform] en zijn Real-Time Klantprofiel en 
 ## Implementatiestappen
 
 Raadpleeg de volgende documentatie over het configureren van de v8-bronaansluiting voor Campagne naar Adobe Experience Platform en de doelconnector voor het Real-time Customer Data Platform naar Campaign v8.
-[ Campagne en de Connectors van AEP ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=en)
+[ Campagne en de Connectors van AEP ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=nl-NL)
 
 ## Beveiligingsmechanismen
 
 ### Adobe Campaign
 
-* Verwijs naar de de bronschakelaardocumentatie van de Campagne - [ Verbinding van Source van de Campagne ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/campaign.html?lang=en)
+* Verwijs naar de de bronschakelaardocumentatie van de Campagne - [ Verbinding van Source van de Campagne ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/campaign.html?lang=nl-NL)
 * Alleen ondersteuning voor implementatie van één organisatie in Adobe Campaign
 
 
 ### Experience Platform Real-time delen van klantgegevens Platform
 
-* Verwijs naar de schakelaar van de Bestemming van de Campagne van RTCDP - [ Verbinding van de Campagne van RTCDP ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html)
+* Verwijs naar de schakelaar van de Bestemming van de Campagne van RTCDP - [ Verbinding van de Campagne van RTCDP ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=nl-NL)
 
-* Zie profiel en gegevensingestition guardrails voor AEP - [ Verbinding ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* Zie profiel en gegevensingestition guardrails voor AEP - [ Verbinding ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL)

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Beslissingsbeheer op de Hub Blueprint
 
-Om meer over het Beheer van het Besluit te leren verwijs naar de productdocumentatie [&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) HIER en het Overzicht van het Beheer van het Besluit [&#128279;](decision-management-overview.md)
+Om meer over het Beheer van het Besluit te leren verwijs naar de productdocumentatie [&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=nl-NL) HIER en het Overzicht van het Beheer van het Besluit [&#128279;](decision-management-overview.md)
 
 Adobe Decision Management is een dienst die wordt verleend als onderdeel van Adobe Journey Optimizer. Deze blauwdruk schetst de gebruiksgevallen en de technische mogelijkheden van de toepassing en verstrekt een diepe duik in de diverse architecturale componenten en overwegingen die omhoog het Beheer van de Beslissing maken.
 
@@ -45,22 +45,22 @@ Meer over het Beheer van het Besluit op Edge leren verwijs naar het [ Beheer van
 
 ## Beveiligingsmechanismen
 
-* Voor de guardrails van Journey Optimizer verwijzen naar de volgende [ Guardrails van Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
-* Voor de gidsen van het Beheer van het Besluit verwijzen naar de volgende [ Beschrijving van het Product van het Beheer van het Besluit ](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
+* Voor de guardrails van Journey Optimizer verwijzen naar de volgende [ Guardrails van Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=nl-NL).
+* Voor de gidsen van het Beheer van het Besluit verwijzen naar de volgende [ Beschrijving van het Product van het Beheer van het Besluit ](https://helpx.adobe.com/nl/legal/product-descriptions/offer-decisioning-app-service.html).
 
 [Hulplijnen en advies voor end-to-end latentie](/help/blueprints/experience-platform/guardrails.md)
 
 ## Implementatiepatronen
 
-* Geïmplementeerd in e-mail, SMS, en uitgaande kanalen via directe integratie met [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/offers-e2e.html).
-* Voor server API gebaseerde implementatie van de hefboomwerking van het Beheer van het Besluit [ Beslissing API ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
-* Voor implementatie van partij gebaseerd besluit om aanbiedingen in bulk aan een toepassing van de berichtlevering te leveren gebruik [ de Beslissing API van de Partij ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/batch-decisioning-api.html).
+* Geïmplementeerd in e-mail, SMS, en uitgaande kanalen via directe integratie met [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/offers-e2e.html?lang=nl-NL).
+* Voor server API gebaseerde implementatie van de hefboomwerking van het Beheer van het Besluit [ Beslissing API ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html?lang=nl-NL).
+* Voor implementatie van partij gebaseerd besluit om aanbiedingen in bulk aan een toepassing van de berichtlevering te leveren gebruik [ de Beslissing API van de Partij ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/batch-decisioning-api.html?lang=nl-NL).
 * Voor op Edge gebaseerde real-time ervaringen gebruiken het Web/Mobile SDK of de Edge Decisioning API zoals die in het [ Beheer van het Besluit op de blauwdruk van Edge ](decision-management-edge.md) worden geschetst
 
 ## Gerelateerde documentatie
 
-* [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform.html)
-* [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer.html)
-* [ Adobe Journey Optimizer Beslissingsbeheer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-* [ de Beschrijving van het Product van Adobe Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
-* [ de Beschrijving van het Product van het Beheer van het Besluit van Adobe ](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
+* [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=nl-NL)
+* [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=nl-NL)
+* [ Adobe Journey Optimizer Beslissingsbeheer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=nl-NL)
+* [ de Beschrijving van het Product van Adobe Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html)
+* [ de Beschrijving van het Product van het Beheer van het Besluit van Adobe ](https://helpx.adobe.com/nl/legal/product-descriptions/offer-decisioning-app-service.html)

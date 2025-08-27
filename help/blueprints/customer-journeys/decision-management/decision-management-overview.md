@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Journey Optimizer - Beslissingsbeheerblauwdrukken
 
-Gelieve te verwijzen naar de volgende documentatie voor [ Beheer van het Besluit ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+Gelieve te verwijzen naar de volgende documentatie voor [ Beheer van het Besluit ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=nl-NL)
 
-Raadpleeg de volgende documentatie voor handleidingen met betrekking tot Beslissingsbeheer. [ Gidsen van het Beheer van het Besluit ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
+Raadpleeg de volgende documentatie voor handleidingen met betrekking tot Beslissingsbeheer. [ Gidsen van het Beheer van het Besluit ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
 
 Adobe Decision Management is een dienst die wordt verleend als onderdeel van Adobe Journey Optimizer. Deze blauwdruk schetst de gebruiksgevallen en de technische mogelijkheden van de toepassing en verstrekt een diepe duik in de diverse architecturale componenten en overwegingen die omhoog het Beheer van de Beslissing maken.
 
@@ -27,7 +27,7 @@ De beslissingsmanagementcapaciteit bestaat uit twee hoofdcomponenten:
 
 <img src="images/offers_overview.png" alt="Besluitbeheer" style="width:100%; border:1px solid #4a4a4a" />
 
-Beslissingsbeheer kan op twee manieren worden ingezet, op de rand of via de hub. Elk van deze methodes heeft een specifieke reeks interfaces en protocollen voor het werken van de dienst zoals geschetst in de respectieve hieronder vermelde blauwdrukken. De extra details kunnen ook in de [ documentatie van het Beheer van het Besluit ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html) worden verkregen.
+Beslissingsbeheer kan op twee manieren worden ingezet, op de rand of via de hub. Elk van deze methodes heeft een specifieke reeks interfaces en protocollen voor het werken van de dienst zoals geschetst in de respectieve hieronder vermelde blauwdrukken. De extra details kunnen ook in de [ documentatie van het Beheer van het Besluit ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html?lang=nl-NL) worden verkregen.
 
 ## Beslissingsbeheer op de hub
 
@@ -61,8 +61,8 @@ De tweede aanpak is via de Experience [!DNL Edge Network] , een wereldwijd gedis
 
 ## Gerelateerde documentatie
 
-* [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform.html)
-* [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer.html)
-* [ Adobe Journey Optimizer Beslissingsbeheer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-* [ de Beschrijving van het Product van Adobe Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
-* [ de Beschrijving van het Product van het Beheer van het Besluit van Adobe ](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
+* [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=nl-NL)
+* [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=nl-NL)
+* [ Adobe Journey Optimizer Beslissingsbeheer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=nl-NL)
+* [ de Beschrijving van het Product van Adobe Journey Optimizer ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html)
+* [ de Beschrijving van het Product van het Beheer van het Besluit van Adobe ](https://helpx.adobe.com/nl/legal/product-descriptions/offer-decisioning-app-service.html)
