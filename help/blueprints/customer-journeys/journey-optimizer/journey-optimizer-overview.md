@@ -3,9 +3,9 @@ title: '[!DNL Journey Optimizer] - Transparantie vervagen'
 description: Voer geactiveerde berichten en ervaringen uit via het Adobe Experience Platform als centrale hub voor het streamen van gegevens, klantprofielen en segmentatie.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+source-git-commit: e96b48e55c0fe2f48dc83f48ad41f5b686ec8dc1
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '640'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ Deze blauwdruk beschrijft de technische mogelijkheden van de toepassing en verst
 ## Gebruiksscenario&#39;s
 
 >[!BEGINTABS]
->[!TAB  Gevallen van het Gebruik van de Reis (gebeurtenis-Gedreven, Echt - tijd) ]
+>[!TAB  Reis (gebeurtenis-gedreven, Echt - tijd) ]
 
 - **Terugwinning van de ontbinding:** Trigger gepersonaliseerde berichten wanneer een gebruiker een kar, een vorm, of zitting-via e-mail, duw, of in-app verlaat.
 - **Nieuwe Teken-up van de Gebruiker:** verbind nieuwe gebruikers onmiddellijk nadat zij met nieuwe rekeningsvoorkeur, relevante bevorderingen of voordelen registreren
@@ -29,7 +29,7 @@ Deze blauwdruk beschrijft de technische mogelijkheden van de toepassing en verst
 - **Contextale het richten:** communiceer met gebruikers in het ogenblik dat op hun signalen en plaats wordt gebaseerd om hun ervaring te helpen begeleiden en te leiden
 - **Contextafhankelijke Upsell/Cross-Sell:** lever gepersonaliseerde aanbiedingen die op profielattributen in real time en recente interactie worden gebaseerd.
 
->[!TAB &lbrace;de Gevallen van het Gebruik van het Organiseren van de Campagne (Gepland, merk-in werking gesteld)]  
+>[!TAB  Bezwaren van de Campagne (Gepland, merk-in werking gesteld) ]
 
 - **Bevorderende Campagnes**: Start multi-step, multi-channel campagnes voor productlanceringen, seizoensaanbiedingen, of verkoopgebeurtenissen.
 - **Levenscyclusmarketing**: Automatiseer terugkomende campagnes zoals verjaardagsberichten, vernieuwingsherinneringen, of loyaliteitsmijlpalen.
@@ -94,12 +94,12 @@ Mobiel duwtje:
 
 [[!DNL Journey Optimizer]  Guardrails Product Link ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[ Guardrails en de Begeleiding van de Latentie van Eind tot Eind ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=nl-NL)
+[ Guardrails en de Begeleiding van de Latentie van Eind tot Eind ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Gerelateerde documentatie
 
-- [[!DNL Experience Platform]  documentatie ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=nl-NL)
+- [[!DNL Experience Platform]  documentatie ](https://experienceleague.adobe.com/docs/experience-platform.html)
 - [[!DNL Experience Platform]  documentatie van Markeringen ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl)
-- [[!DNL Experience Platform Mobile SDK]  documentatie ](https://experienceleague.adobe.com/docs/mobile.html?lang=nl-NL)
-- [[!DNL Journey Optimizer]  documentatie ](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=nl-NL)
-- [[!DNL Journey Optimizer]  productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html)
+- [[!DNL Experience Platform Mobile SDK]  documentatie ](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer]  documentatie ](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
+- [[!DNL Journey Optimizer]  productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
