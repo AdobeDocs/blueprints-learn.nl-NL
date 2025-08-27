@@ -29,7 +29,7 @@ Deze blauwdruk beschrijft de technische mogelijkheden van de toepassing en verst
 - **Contextale het richten:** communiceer met gebruikers in het ogenblik dat op hun signalen en plaats wordt gebaseerd om hun ervaring te helpen begeleiden en te leiden
 - **Contextafhankelijke Upsell/Cross-Sell:** lever gepersonaliseerde aanbiedingen die op profielattributen in real time en recente interactie worden gebaseerd.
 
->{de Gevallen van het Gebruik van het Organiseren van de Campagne (Gepland, merk-in werking gesteld) [!TAB ]
+>[!TAB &lbrace;de Gevallen van het Gebruik van het Organiseren van de Campagne (Gepland, merk-in werking gesteld)]  
 
 - **Bevorderende Campagnes**: Start multi-step, multi-channel campagnes voor productlanceringen, seizoensaanbiedingen, of verkoopgebeurtenissen.
 - **Levenscyclusmarketing**: Automatiseer terugkomende campagnes zoals verjaardagsberichten, vernieuwingsherinneringen, of loyaliteitsmijlpalen.
