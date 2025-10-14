@@ -18,12 +18,12 @@ Maak en publiceer publiek dat in Customer Journey Analytics (CJA) is geïdentifi
 
 ## Publicatiehandleiding voor Customer Journey Analytics-publiek
 
-Zie de volgende documentatie voor hulp bij de implementatie en configuratie bij de publicatie van publiek van Customer Journey Analytics naar Real-time Customer Data Platform. [ Documentatie ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=nl-NL)
+Zie de volgende documentatie voor hulp bij de implementatie en configuratie bij de publicatie van publiek van Customer Journey Analytics naar Real-time Customer Data Platform. [&#x200B; Documentatie &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=nl-NL)
 
 ## Architectuur voor Customer Journey Analytics-blauwdrukken
 
-![ diagram van de Architectuur ](assets/CJA.svg){zoomable="yes"}
+![&#x200B; diagram van de Architectuur &#x200B;](assets/CJA.svg){zoomable="yes"}
 
 ## Guardrail-diagram voor Customer Journey Analytics-blauwdrukken
 
-* Voor gedetailleerde gidsen en eind om latentie te beëindigen verwijs naar het [ document van de plaatsingsgidsen ](../experience-platform/guardrails.md)
+* Voor gedetailleerde gidsen en eind om latentie te beëindigen verwijs naar het [&#x200B; document van de plaatsingsgidsen &#x200B;](../experience-platform/guardrails.md)

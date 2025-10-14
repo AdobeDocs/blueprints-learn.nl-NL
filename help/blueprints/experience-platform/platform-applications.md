@@ -18,7 +18,7 @@ Deze architectuurdiagrammen tonen hoe Experience Platform (AEP) zich verhoudt to
 
 >[!MORELIKETHIS]
 >
->[ de Configuraties van de Integratie voor de Integraties van de Toepassingen van Experience Cloud ](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=nl-NL).
+>[&#x200B; de Configuraties van de Integratie voor de Integraties van de Toepassingen van Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=nl-NL).
 
 
 ## Architectuurdiagram

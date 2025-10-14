@@ -16,7 +16,7 @@ ht-degree: 1%
 >
 > Deze blauwdruk voor Adobe Campaign v7 is vervangen en wordt niet meer ondersteund. Raadpleeg de blauwdruk voor Adobe Campaign v8 voor de meest recente richtlijnen, architectuur en best practices.
 > 
-> 👉 Mening [ Adobe  [!DNL Campaign]  v8 Vervaging ](../campaign-v8/campaign-v8-overview.md))
+> 👉 Mening [&#x200B; Adobe  [!DNL Campaign]  v8 Vervaging &#x200B;](../campaign-v8/campaign-v8-overview.md))
 
 <br>
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ## Gerelateerde documentatie
 
-* [ de documentatie van de Campagne v7 ](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=nl-NL)
-* [ Campagne v7 Beschrijving van het Product ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-* [ de documentatie van de Markeringen van Experience Platform ](https://experienceleague.adobe.com/docs/launch.html?lang=nl-NL)
-* [ Experience Platform Mobile SDK documentatie ](https://experienceleague.adobe.com/docs/mobile.html?lang=nl-NL)
+* [&#x200B; de documentatie van de Campagne v7 &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=nl-NL)
+* [&#x200B; Campagne v7 Beschrijving van het Product &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
+* [&#x200B; de documentatie van de Markeringen van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/launch.html?lang=nl-NL)
+* [&#x200B; Experience Platform Mobile SDK documentatie &#x200B;](https://experienceleague.adobe.com/docs/mobile.html?lang=nl-NL)

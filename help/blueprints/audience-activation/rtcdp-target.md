@@ -31,8 +31,8 @@ ht-degree: 3%
 
 ### Referentiedocumentatie
 
-* [ Verbinding van Adobe Target voor het Platform van Gegevens van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=nl-NL)
-* [ Configuratie van Edge DataStream ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=nl-NL)
+* [&#x200B; Verbinding van Adobe Target voor het Platform van Gegevens van de Klant in real time &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=nl-NL)
+* [&#x200B; Configuratie van Edge DataStream &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=nl-NL)
 
 ## Integratiepatronen
 
@@ -46,15 +46,15 @@ ht-degree: 3%
 
 Architectuur
 
-![ architectuur van de Verwijzing voor de Online/Off-line Vervaging van Personalization van het Web ](assets/RTCDP+Target.svg)
+![&#x200B; architectuur van de Verwijzing voor de Online/Off-line Vervaging van Personalization van het Web &#x200B;](assets/RTCDP+Target.svg)
 
 Sequentiedetail
 
-![ architectuur van de Verwijzing voor de Online/Off-line Vervaging van Personalization van het Web ](assets/RTCDP+Target_flow.svg)
+![&#x200B; architectuur van de Verwijzing voor de Online/Off-line Vervaging van Personalization van het Web &#x200B;](assets/RTCDP+Target_flow.svg)
 
 Overzicht architectuur
 
-![ architectuur van de Verwijzing voor de Online/Off-line Vervaging van Personalization van het Web ](assets/personalization_with_apps.svg)
+![&#x200B; architectuur van de Verwijzing voor de Online/Off-line Vervaging van Personalization van het Web &#x200B;](assets/personalization_with_apps.svg)
 
 ## Implementatiepatronen
 
@@ -63,16 +63,16 @@ Bekende Customer Personalization wordt ondersteund via verschillende implementat
 ### Implementatiepatroon 1 - [!DNL Edge Network] met Web/Mobile SDK of [!DNL Edge Network] API (aanbevolen aanpak)
 
 * De [!DNL Edge Network] gebruiken met de SDK Web/Mobile. Voor Edge-segmentatie in realtime is de implementatiebenadering van Web/Mobile SDK of Edge API vereist.
-* [ verwijs naar het Web van Experience Platform en de Mobiele Vervaging van SDK ](../experience-platform/deployment/websdk.md) voor de op SDK gebaseerde implementatie.
-* Voor gebruik in Mobiele SDK moet de [ Adobe Journey Optimizer - beslissingsuitbreiding ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/) worden geïnstalleerd.
-* [ verwijs naar  [!DNL Edge Network]  Server API ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=nl-NL) voor een API gebaseerde implementatie van Adobe Target met het Profiel van Edge.
+* [&#x200B; verwijs naar het Web van Experience Platform en de Mobiele Vervaging van SDK &#x200B;](../experience-platform/deployment/websdk.md) voor de op SDK gebaseerde implementatie.
+* Voor gebruik in Mobiele SDK moet de [&#x200B; Adobe Journey Optimizer - beslissingsuitbreiding &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/) worden geïnstalleerd.
+* [&#x200B; verwijs naar  [!DNL Edge Network]  Server API &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=nl-NL) voor een API gebaseerde implementatie van Adobe Target met het Profiel van Edge.
 
 ### Implementatiepatroon 2 - Toepassingsspecifieke SDK&#39;s
 
 traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AT.js en AppMeasurement.js). Edge-segmentevaluatie in realtime wordt niet ondersteund met deze implementatiebenadering. Streaming en het delen van batchgebruikers vanuit de Experience Platform-hub worden echter ondersteund met deze implementatieaanpak.
 
-[ verwijs naar de Documentatie van de Verbinding van Adobe Target ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
-[ Verwijs naar de toepassing specifieke Vervaging van SDK ](../experience-platform/deployment/appsdk.md)
+[&#x200B; verwijs naar de Documentatie van de Verbinding van Adobe Target &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[&#x200B; Verwijs naar de toepassing specifieke Vervaging van SDK &#x200B;](../experience-platform/deployment/appsdk.md)
 
 ## Implementatieoverwegingen
 
@@ -84,18 +84,18 @@ traditionele toepassingsspecifieke SDK&#39;s gebruiken (bijvoorbeeld AT.js en Ap
 
 ### SDK-documentatie
 
-* [ de documentatie van SDK van het Web van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL)
-* [ de documentatie van de Markeringen van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl)
-* [ de documentatie van de Dienst van identiteitskaart van Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL)
+* [&#x200B; de documentatie van SDK van het Web van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL)
+* [&#x200B; de documentatie van de Markeringen van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl)
+* [&#x200B; de documentatie van de Dienst van identiteitskaart van Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL)
 
 ### Segmenteringsdocumentatie
 
-* [ het Overzicht van de Segmentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL)
-* [ Realtime Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=nl-NL)
-* [ het stromen Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=nl-NL)
-* [ het Segment dat van Adobe Analytics door Adobe Audience Manager ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=nl-NL) deelt
-* [ Configuratie van het Beleid van de Fusie ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=nl-NL#create-a-merge-policy)
+* [&#x200B; het Overzicht van de Segmentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL)
+* [&#x200B; Realtime Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=nl-NL)
+* [&#x200B; het stromen Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=nl-NL)
+* [&#x200B; het Segment dat van Adobe Analytics door Adobe Audience Manager &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=nl-NL) deelt
+* [&#x200B; Configuratie van het Beleid van de Fusie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=nl-NL#create-a-merge-policy)
 
 ### Tutorials
 
-* [ Volgorde verpersoonlijking met Real-Time CDP en Adobe Target ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=nl-NL)
+* [&#x200B; Volgorde verpersoonlijking met Real-Time CDP en Adobe Target &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=nl-NL)

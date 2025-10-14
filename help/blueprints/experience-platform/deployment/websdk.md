@@ -17,20 +17,20 @@ ht-degree: 0%
 
 Voor een overzicht en detail op het Web en Mobiele SDK, en [!DNL Edge Network] Server API zie het volgende.
 
-* [ overzicht van SDK van het Web ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home)
-* [ Mobiele SDK overzicht ](https://developer.adobe.com/client-sdks/documentation/)
-* [[!DNL Edge Network]  Server API ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=nl-NL)
+* [&#x200B; overzicht van SDK van het Web &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home)
+* [&#x200B; Mobiele SDK overzicht &#x200B;](https://developer.adobe.com/client-sdks/documentation/)
+* [[!DNL Edge Network]  Server API &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=nl-NL)
 
 Voor een gedetailleerd overzicht van welke toepassingsfunctionaliteit in het Web SDK wordt gesteund zie de volgende documentatie.
 
-* [ de toepassingsfunctionaliteit van SDK van het Web steunt ](https://github.com/orgs/adobe/projects/18/views/1)
+* [&#x200B; de toepassingsfunctionaliteit van SDK van het Web steunt &#x200B;](https://github.com/orgs/adobe/projects/18/views/1)
 
 Voor details met betrekking tot migratie van toepassing specifieke SDKs aan het Web en Mobiele SDKs zie de volgende documentatie.
 
-* [ de Diensten van de Identiteit ](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=nl-NL)
-* [ Analytics ](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/analytics-overview.html?lang=nl-NL)
-* [ Doel ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=nl-NL)
-* [ Analytics voor Doel ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html?lang=nl-NL)
+* [&#x200B; de Diensten van de Identiteit &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=nl-NL)
+* [&#x200B; Analytics &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/analytics-overview.html?lang=nl-NL)
+* [&#x200B; Doel &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=nl-NL)
+* [&#x200B; Analytics voor Doel &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html?lang=nl-NL)
 
 ## Implementatie van Experience Platform Web/Mobile SDK of [!DNL Edge Network] Server API
 
@@ -44,5 +44,5 @@ Diagram van de Opeenvolging Edge, de Diensten van Experience Platform, en Toepas
 
 ## Referentiedocumentatie
 
-* [ voer Adobe Experience Cloud met het Web SDK leerprogramma uit ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL)
-* [ voer Adobe Experience Cloud in mobiele apps leerprogramma uit ](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=nl-NL)
+* [&#x200B; voer Adobe Experience Cloud met het Web SDK leerprogramma uit &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL)
+* [&#x200B; voer Adobe Experience Cloud in mobiele apps leerprogramma uit &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=nl-NL)

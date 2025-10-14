@@ -19,7 +19,7 @@ Met een kanaal-eerste benadering, handelt elk kanaal als silo waarin de verperso
 
 | Blauwdruk | Beschrijving | Experiencen Cloud |
 |---|---|---|
-| **[B2B Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=nl-NL)** | <ul><li>B2B-accountinformatie opnemen in de analyse van de klantentrining</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
+| **[B2B Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=nl-NL)** | <ul><li>B2B-accountinformatie opnemen in de analyse van de klantentrining</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
 | **[B2B Audience Activation](b2bactivation.md)** | <ul><li>Doelpubliek voor B2B via web-, e-mail- en reclamekanalen</li></ul> | <ul><li>Adobe Real-time Customer Data Platform B2B edition</li></ul> |
 | **[het Kopen op groep-Gebaseerde Marketing en het Beheer van de Reis](/help/blueprints/b2b/b2b-buying-group-journeys.md)** | <ul><li>Ontwerp en bouw een rekeningreis die voor een koopgedrag kwalificeert die de doeltreffendheid van de marketing activiteit in kwalificeert leidt tot verkoopkansen verhoogt</li></ul> | <ul><li>Adobe Journey Optimizer B2B edition</li><li>Adobe Real-time Customer Data Platform B2B edition</li><li>Adobe Marketo Engage</li></ul> |
 | **[Marketo Engage en de Vervaging van de Integratie van Workfront: Overzicht](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)** | <ul><li>Planning, ontwikkeling en uitvoering van de B2B-marketingcampagne optimaliseren</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |

@@ -29,21 +29,21 @@ Modelleerde inzichten kunnen in [!DNL Experience Platform] worden opgenomen om h
 
 ## Beveiligingsmechanismen
 
-* Voor gedetailleerde gidsen en eind om latentie te beëindigen bij het opnemen van de resultaten van de gegevenswetenschap in [!DNL Experience Platform] en het Profiel van de Klant In real time verwijst het Profiel van de Klant naar de gidsen van de gegevensopname en het latentieschema dat in het [ document van de plaatsingsgidsen ](../experience-platform/guardrails.md) van verwijzingen wordt voorzien.
+* Voor gedetailleerde gidsen en eind om latentie te beëindigen bij het opnemen van de resultaten van de gegevenswetenschap in [!DNL Experience Platform] en het Profiel van de Klant In real time verwijst het Profiel van de Klant naar de gidsen van de gegevensopname en het latentieschema dat in het [&#x200B; document van de plaatsingsgidsen &#x200B;](../experience-platform/guardrails.md) van verwijzingen wordt voorzien.
 
 ## Implementatieoverwegingen
 
 * In de meeste gevallen moet het modelresultaat worden opgenomen als profielkenmerken en hoeven er geen gebeurtenissen te worden ervaren. De modelresultaten kunnen eenvoudige kenmerktekenreeksen zijn. Als er meerdere modelresultaten zijn die moeten worden opgenomen, is het raadzaam een array- of kaarttekstveld te gebruiken.
-* De gegevensset met momentopnamen voor dagelijkse profielen, die een dagelijkse export is van de gegevens van de verenigde profielkenmerken, kan worden gebruikt om modellen voor profielkenmerkgegevens op te leiden. De document van de momentopnamesdataset van het profiel kan [ hier ](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=nl-NL#profile-attribute-datasets) worden betreden.
+* De gegevensset met momentopnamen voor dagelijkse profielen, die een dagelijkse export is van de gegevens van de verenigde profielkenmerken, kan worden gebruikt om modellen voor profielkenmerkgegevens op te leiden. De document van de momentopnamesdataset van het profiel kan [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=nl-NL#profile-attribute-datasets) worden betreden.
 
 ## Gerelateerde documentatie
 
-* [ Adobe  [!DNL Experience Platform]  het productbeschrijving van de Intelligentie ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [ de Dienst van de Vraag van Adobe  [!DNL Experience Platform]  ](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl-NL)
+* [&#x200B; Adobe  [!DNL Experience Platform]  het productbeschrijving van de Intelligentie &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [&#x200B; de Dienst van de Vraag van Adobe  [!DNL Experience Platform]  &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl-NL)
 
 ## Gerelateerde blogberichten
 
-* [ Inhoud en Commerce AI: Het personaliseren van Uw Interacties met Klanten door Inhoudsintelligentie ](https://medium.com/adobetech/content-and-commerce-ai-personalizing-your-interactions-with-customers-through-content-intelligence-dc182601deab)
-* [ Een Inleiding bekijkt de Verkennende Analyse van Gegevens op Adobe  [!DNL Experience Platform] ](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)
-* [ Het snijden over de Ervaring van Adobe Producten met het Leren van de Machine aan Verhoogde Ervaring van de Gebruiker ](https://medium.com/adobetech/cutting-across-adobe-experience-products-with-machine-learning-to-elevated-user-experience-7c85000510d1)
-* [ Segmentation.AI: Geautomatiseerd publiek-Groeperend-a-Dienst in Adobe  [!DNL Experience Platform] ](https://medium.com/adobetech/segmentation-ai-automated-audience-clustering-as-a-service-in-adobe-experience-platform-261f4099462c)
+* [&#x200B; Inhoud en Commerce AI: Het personaliseren van Uw Interacties met Klanten door Inhoudsintelligentie &#x200B;](https://medium.com/adobetech/content-and-commerce-ai-personalizing-your-interactions-with-customers-through-content-intelligence-dc182601deab)
+* [&#x200B; Een Inleiding bekijkt de Verkennende Analyse van Gegevens op Adobe  [!DNL Experience Platform] &#x200B;](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)
+* [&#x200B; Het snijden over de Ervaring van Adobe Producten met het Leren van de Machine aan Verhoogde Ervaring van de Gebruiker &#x200B;](https://medium.com/adobetech/cutting-across-adobe-experience-products-with-machine-learning-to-elevated-user-experience-7c85000510d1)
+* [&#x200B; Segmentation.AI: Geautomatiseerd publiek-Groeperend-a-Dienst in Adobe  [!DNL Experience Platform] &#x200B;](https://medium.com/adobetech/segmentation-ai-automated-audience-clustering-as-a-service-in-adobe-experience-platform-261f4099462c)
