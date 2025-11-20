@@ -28,7 +28,7 @@ Vaak voorkomende gevallen van gebruik zijn:
 * Welke campagnes resulteerden in conversie en grotere betrokkenheid
 * Analyse van het gebruik van hulpmiddelen om zelfbedieningservaringen te optimaliseren
 
-Een volledige lijst van gebruiksgevallen samen met documentatie kan [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=en) worden gevonden.
+Een volledige lijst van gebruiksgevallen samen met documentatie kan [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=nl-NL) worden gevonden.
 
 ## Architectuur voor Customer Journey Analytics
 
