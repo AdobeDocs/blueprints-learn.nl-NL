@@ -33,7 +33,7 @@ Deze blauwdruk beschrijft de technische mogelijkheden van de toepassing en verst
 
 - **Bevorderende Campagnes**: Start multi-step, multi-channel campagnes voor productlanceringen, seizoensaanbiedingen, of verkoopgebeurtenissen.
 - **Levenscyclusmarketing**: Automatiseer terugkomende campagnes zoals verjaardagsberichten, vernieuwingsherinneringen, of loyaliteitsmijlpalen.
-- **publiek-Gebaseerde Penselen van de Trechter**: Segment en duw publiek in gestructureerde campagnes die op bedrijfslogica of attributen van CRM worden gebaseerd.
+- **publiek-Gebaseerde Pushes van Funnel**: Segment en duw publiek in gestructureerde campagnes die op bedrijfslogica of attributen van CRM worden gebaseerd.
 - **Nieuwsbrief &amp; de Distributie van de Inhoud**: Plan en lever gepersonaliseerde inhoud aan gericht publiek over e-mail en mobiel.
 - **herverbindingsCampagnes**: Identificeer slapende gebruikers en herintroduceer hen in betrokkenheidsstromen die op inactiviteitsdrempels worden gebaseerd.
 
@@ -51,8 +51,8 @@ Deze blauwdruk beschrijft de technische mogelijkheden van de toepassing en verst
 
 | Scenario | Beschrijving |
 | :-- | :-- |
-| [&#x200B; Reizen &#x200B;](journey-optimizer-journeys.md) | De Reizen van AJO in Adobe Journey Optimizer worden geautomatiseerd, gepersonaliseerde klantenervaringen teweeggebracht door gebeurtenissen in real time of publiekssegmenten, toestaand marketers om relevante berichten over kanalen zoals e-mail, SMS, en dupberichten te leveren. |
-| [&#x200B; Campagne Orchestration &#x200B;](journey-optimizer-campaigns.md) | Met AJO Campaign Orchestration kunnen marketers persoonlijke, cross-channel campagnes ontwerpen en uitvoeren met behulp van realtime gegevens en kijkcijfers. Het steunt dynamische het richten, berichtlevering, en reislogica om klantenbetrokkenheid over e-mail, SMS, duw, en douanekanalen te optimaliseren. | |
+| [ Reizen ](journey-optimizer-journeys.md) | De Reizen van AJO in Adobe Journey Optimizer worden geautomatiseerd, gepersonaliseerde klantenervaringen teweeggebracht door gebeurtenissen in real time of publiekssegmenten, toestaand marketers om relevante berichten over kanalen zoals e-mail, SMS, en dupberichten te leveren. |
+| [ Campagne Orchestration ](journey-optimizer-campaigns.md) | Met AJO Campaign Orchestration kunnen marketers persoonlijke, cross-channel campagnes ontwerpen en uitvoeren met behulp van realtime gegevens en kijkcijfers. Het steunt dynamische het richten, berichtlevering, en reislogica om klantenbetrokkenheid over e-mail, SMS, duw, en douanekanalen te optimaliseren. | |
 
 <br>
 
@@ -60,8 +60,8 @@ Deze blauwdruk beschrijft de technische mogelijkheden van de toepassing en verst
 
 | Integratie | Beschrijving | Technische overwegingen |
 | :-- | :-- | :-- |
-| [&#x200B; het Overseinen van de derde partij &#x200B;](3rd-party-messaging.md) | Toont aan hoe Adobe [!DNL Journey Optimizer] met derdeoverseinenplatforms kan integreren om gepersonaliseerde klantenmededelingen te ordenen en te leveren. | <ul><li>Het derdesysteem moet **dragertokenauthentificatie** steunen</li><li>**Statische IPs wordt niet gesteund** toe te schrijven aan de multi-huurdersarchitectuur.</li><li>Ben zich bewust van **API tariefgrenzen** op derdesystemen; de klanten kunnen extra capaciteit moeten kopen om verkeer uit **Adobe Journey Optimizer** te behandelen.</li><li>**het Beheer van het Besluit** wordt niet gesteund binnen berichtlading of leveringslogica.</li></ul> |
-| [[!DNL Journey Optimizer]  met Adobe Campaign v8 &#x200B;](../campaign-v8/ajo-and-campaign-v8.md) | Toont aan hoe Adobe [!DNL Journey Optimizer] met de mogelijkheden van Adobe Campaign v8 voor transactiemeldingen kan integreren om de uiteindelijke berichtlevering uit te voeren. | <ul><li>Er is geen vertraging van berichten. Uiteinde van 4.000 berichten per 5 minuten.</li><li>Alleen ondersteuning voor een reis op initiatief van een gebeurtenis</li><li>Beslissingsbeheer wordt niet ondersteund in berichten die door de campagne worden verzonden</li></ul> |
+| [ het Overseinen van de derde partij ](3rd-party-messaging.md) | Toont aan hoe Adobe [!DNL Journey Optimizer] met derdeoverseinenplatforms kan integreren om gepersonaliseerde klantenmededelingen te ordenen en te leveren. | <ul><li>Het derdesysteem moet **dragertokenauthentificatie** steunen</li><li>**Statische IPs wordt niet gesteund** toe te schrijven aan de multi-huurdersarchitectuur.</li><li>Ben zich bewust van **API tariefgrenzen** op derdesystemen; de klanten kunnen extra capaciteit moeten kopen om verkeer uit **Adobe Journey Optimizer** te behandelen.</li><li>**het Beheer van het Besluit** wordt niet gesteund binnen berichtlading of leveringslogica.</li></ul> |
+| [[!DNL Journey Optimizer]  met Adobe Campaign v8 ](../campaign-v8/ajo-and-campaign-v8.md) | Toont aan hoe Adobe [!DNL Journey Optimizer] met de mogelijkheden van Adobe Campaign v8 voor transactiemeldingen kan integreren om de uiteindelijke berichtlevering uit te voeren. | <ul><li>Er is geen vertraging van berichten. Uiteinde van 4.000 berichten per 5 minuten.</li><li>Alleen ondersteuning voor een reis op initiatief van een gebeurtenis</li><li>Beslissingsbeheer wordt niet ondersteund in berichten die door de campagne worden verzonden</li></ul> |
 
 <br>
 
@@ -92,14 +92,14 @@ Mobiel duwtje:
 
 ## Beveiligingsmechanismen
 
-[[!DNL Journey Optimizer]  Guardrails Product Link &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
+[[!DNL Journey Optimizer]  Guardrails Product Link ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[&#x200B; Guardrails en de Begeleiding van de Latentie van Eind tot Eind &#x200B;](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=nl-NL)
+[ Guardrails en de Begeleiding van de Latentie van Eind tot Eind ](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Gerelateerde documentatie
 
-- [[!DNL Experience Platform]  documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform.html?lang=nl-NL)
-- [[!DNL Experience Platform]  documentatie van Markeringen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl)
-- [[!DNL Experience Platform Mobile SDK]  documentatie &#x200B;](https://experienceleague.adobe.com/docs/mobile.html?lang=nl-NL)
-- [[!DNL Journey Optimizer]  documentatie &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=nl-NL)
-- [[!DNL Journey Optimizer]  productbeschrijving &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html)
+- [[!DNL Experience Platform]  documentatie ](https://experienceleague.adobe.com/docs/experience-platform.html)
+- [[!DNL Experience Platform]  documentatie van Markeringen ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl)
+- [[!DNL Experience Platform Mobile SDK]  documentatie ](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer]  documentatie ](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
+- [[!DNL Journey Optimizer]  productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
