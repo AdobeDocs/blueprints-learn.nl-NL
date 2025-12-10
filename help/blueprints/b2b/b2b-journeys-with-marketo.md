@@ -35,8 +35,8 @@ Deze uitgebreide gids schetst het integratieproces van Marketo Engage met Adobe 
 
 | Integratie | Beschrijving |
 | :-- | :--- |
-| [&#x200B; de schakelaar van Marketo Engage &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) | Adobe Experience Platform vereenvoudigt het opnemen van gegevens van Marketo en biedt mogelijkheden om de gegevens te structureren, te labelen en te verbeteren met behulp van zijn services. |
-| [&#x200B; Journey Optimizer B2B edition - de acties van Marketo Engage &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes#marketo-engage-actions) | Synchroniseer Account-Based Marketing in Journey Optimizer B2B edition met op leads gebaseerde inspanningen in Marketo Engage door op mensen gebaseerde acties te gebruiken om het lidmaatschap van lijsten te beheren en om campagnes aan te vragen. |
+| [&#x200B; de schakelaar van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) | Adobe Experience Platform vereenvoudigt het opnemen van gegevens van Marketo en biedt mogelijkheden om de gegevens te structureren, te labelen en te verbeteren met behulp van zijn services. |
+| [&#x200B; Journey Optimizer B2B edition - de acties van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes#marketo-engage-actions) | Synchroniseer Account-Based Marketing in Journey Optimizer B2B edition met op leads gebaseerde inspanningen in Marketo Engage door op mensen gebaseerde acties te gebruiken om het lidmaatschap van lijsten te beheren en om campagnes aan te vragen. |
 
 ## Architectuur
 
@@ -46,9 +46,9 @@ Deze uitgebreide gids schetst het integratieproces van Marketo Engage met Adobe 
 
 1. Installeer B2B-schema&#39;s en naamruimten met een van de volgende opties:
    * De inzameling van Postman van het gebruik [&#128279;](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"}
-   * Gebruik [&#x200B; malplaatjes &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/templates) in Platform UI
+   * Gebruik [&#x200B; malplaatjes &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/templates) in Platform UI
 1. Maak indien nodig relationele schema&#39;s om bedrijfsentiteiten, zoals aankopen, licenties of registraties van gebeurtenissen, te vertegenwoordigen voor beslissingen over reizen en personalisatie van e-mail.
-1. Voltooi de [&#x200B; configuratie XDM &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/xdm-field-management){target="_blank"}.
+1. Voltooi de [&#x200B; configuratie XDM &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/admin/xdm-field-management/xdm-field-management){target="_blank"}.
    * Herzie de reeks standaardXDM gebieden die door gebrek in Journey Optimizer B2B edition worden geselecteerd, die ook als _wordt bekend beheerde gebieden_. Herzie de reeks beheerde gebieden door naar Configuratie XDM in **[!UICONTROL Beleid]** te gaan > **[!UICONTROL Configuraties]**.
       * Selecteer het **[!UICONTROL Standaard]** lusje, dan klik **[!UICONTROL beheerde gebieden]** voor zowel het Individuele Profiel XDM als Van Bedrijfs XDM Rekening uitgeven.
       * Selecteer **[!UICONTROL tonen slechts geselecteerde gebieden]** optie om de huidige lijst van geselecteerde gebieden te zien.
@@ -64,17 +64,17 @@ Deze uitgebreide gids schetst het integratieproces van Marketo Engage met Adobe 
    * Configureer de ervaringsgebeurtenissen die u tijdens reizen wilt gebruiken.
       * Selecteer het **[!UICONTROL lusje van Gebeurtenissen]**, en klik dan **[!UICONTROL Uitgezochte ervaringsgebeurtenis]**.
       * Selecteer ervaringsgebeurtenis en velden die u wilt gebruiken.
-1. Vorm de [&#x200B; bron van Marketo Engage schakelaar &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
-   * Gebruik het gegevenswoordenboek om de [&#x200B; afbeelding van de Invoer &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-prep/ui/mapping#import-mapping) voor de bronschakelaar te bepalen.
+1. Vorm de [&#x200B; bron van Marketo Engage schakelaar &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
+   * Gebruik het gegevenswoordenboek om de [&#x200B; afbeelding van de Invoer &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-prep/ui/mapping#import-mapping) voor de bronschakelaar te bepalen.
    * Het wordt geadviseerd om het profiel niet toe te laten alvorens de [&#x200B; overwegingen van de Implementatie &#x200B;](#implementation-considerations) rekening te nemen.
    * U wordt ook aangeraden ten minste personen, bedrijven, kansen en activiteiten in te voeren, omdat deze objecten het nuttigst zijn bij het maken van uw accountpubliek.
-1. Voer [&#x200B; Regels van de Grafiek van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) voor Mensen uit:
+1. Voer [&#x200B; Regels van de Grafiek van de Identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) voor Mensen uit:
    * Bepaal hoe de verslagen van de Persoon gebruikend identiteitsnamespaces verbonden zijn.
    * Configureer naamruimten en identiteitsstitching-regels in Experience Platform.
    * Koppelingen valideren met voorbeeld-Personen en voorvertoningsgereedschappen.
-1. Laat de Persoon, Bedrijven, Kansen, en de gegevensreeksen van Activiteiten voor [&#x200B; profielen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile) toe
-1. Bepaal uw eerste [&#x200B; rekeningspubliek &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/audiences/account-audience-overview)
-1. Gebruik het rekeningspubliek om a [&#x200B; het kopen groep &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/buying-groups-overview) of een [&#x200B; rekeningsreis &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview) te bepalen.
+1. Laat de Persoon, Bedrijven, Kansen, en de gegevensreeksen van Activiteiten voor [&#x200B; profielen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#enable-profile) toe
+1. Bepaal uw eerste [&#x200B; rekeningspubliek &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/audiences/account-audience-overview)
+1. Gebruik het rekeningspubliek om a [&#x200B; het kopen groep &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/accounts/buying-groups/buying-groups-overview) of een [&#x200B; rekeningsreis &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/account-journeys/journey-overview) te bepalen.
    * Wanneer een account in aanmerking komt voor het accountpubliek, wordt de inkoopgroeptaak dagelijks uitgevoerd om inkoopgroepen te maken en rollen toe te wijzen aan gekoppelde personen zodra het publiek wordt bijgewerkt.
    * Daarnaast wordt het aanschaffen van groepsonderhoud elke vrijdag om middernacht CT uitgevoerd. Dit wekelijkse proces verwerkt updates, zoals het verwijderen van leden die niet meer in aanmerking komen of het toevoegen van nieuw gekwalificeerde leden die niet zijn vastgelegd tijdens de eerste publieksupdate.
 
@@ -87,11 +87,11 @@ Om de implementatie te stroomlijnen en de compatibiliteit met Adobe Journey Opti
 * **gebruik de standaardafbeeldingen voor de Schakelaar van Marketo Source:**
    * Gebruik de uit-van-de-doos gebiedstoewijzingen die door Adobe worden verstrekt om gegevensopname te vereenvoudigen en configuratieoverheadkosten te verminderen.
 * **standaardafbeeldingen van het Gebruik voor AJO B2B:**
-   * Ga de [&#x200B; standaardgebiedsafbeeldingen &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/field-mapping) voor Journey Optimizer B2B edition aan om verenigbaarheid met het kopen van groepslogica en reisorchestratie te verzekeren.
+   * Ga de [&#x200B; standaardgebiedsafbeeldingen &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/admin/xdm-field-management/field-mapping) voor Journey Optimizer B2B edition aan om verenigbaarheid met het kopen van groepslogica en reisorchestratie te verzekeren.
 * **het gebiedsupdates van het Blok op alle gebieden behalve e-mail:**
-   * In Marketo Engage, vorm gebiedsbeheer aan [&#x200B; blokupdates &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) van Adobe Experience Platform voor alle gebieden behalve _e-mail_. Hierdoor blijft de gegevensintegriteit behouden en blijft het oplossen van identiteiten mogelijk.
+   * In Marketo Engage, vorm gebiedsbeheer aan [&#x200B; blokupdates &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) van Adobe Experience Platform voor alle gebieden behalve _e-mail_. Hierdoor blijft de gegevensintegriteit behouden en blijft het oplossen van identiteiten mogelijk.
 * **voer identiteit het koppelen regels uit gebruikend e-mail als unieke identiteitsnamespace**
-   * Vorm [&#x200B; identiteitsgrafiek die regels &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) verbindt in Adobe Experience Platform om _e-mail_ uitdrukkelijk als unieke identiteit te gebruiken namespace. Deze regels zorgen ervoor dat de profielen nauwkeurig over gegevensbronnen worden vastgezet waar _e-mail_ aanwezig is, toelatend robuuste identiteitsresolutie. Volg de best practices van Adobe en definieer koppelingsregels die e-mail prioriteren als een stabiele en wereldwijd unieke id voor een consistente en privacycompatibele identiteitsgrafiek.
+   * Vorm [&#x200B; identiteitsgrafiek die regels &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-linking-rules/overview) verbindt in Adobe Experience Platform om _e-mail_ uitdrukkelijk als unieke identiteit te gebruiken namespace. Deze regels zorgen ervoor dat de profielen nauwkeurig over gegevensbronnen worden vastgezet waar _e-mail_ aanwezig is, toelatend robuuste identiteitsresolutie. Volg de best practices van Adobe en definieer koppelingsregels die e-mail prioriteren als een stabiele en wereldwijd unieke id voor een consistente en privacycompatibele identiteitsgrafiek.
 Deze instelling zorgt voor een evenwicht tussen het gemak van implementatie en gegevensbeheer, waardoor een betrouwbare basis wordt gelegd voor het organiseren van B2B-reizen.
 
 ## Implementatieoverwegingen
@@ -130,7 +130,7 @@ Deze query retourneert het aantal persoonrecords dat moet worden samengevoegd al
 >[!NOTE]
 >
 >De datasetlijst marketo_person_ajo_b2b wordt gebruikt om een volledig voorbeeld van te verstrekken hoe te met de dataset van de Persoon van Marketo te werken.
->U kunt de dataset van uw zandbak in de [&#x200B; Datasets &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide) werkruimte vinden.
+>U kunt de dataset van uw zandbak in de [&#x200B; Datasets &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide) werkruimte vinden.
 
 ```sql
 select
@@ -160,7 +160,7 @@ from
 
 #### E-mailadressen met dubbele records
 
-Deze query retourneert de e-mails met de meest gedupliceerde records in de gegevensset.  Deze lijst kan worden gebruikt om sommige van deze verslagen te controleren om beter te begrijpen hoe het verbinden van de identiteiten Marketo en CRM kan beïnvloeden.  Zie het [&#x200B; overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) voor meer details over hoe de identiteit het verbinden werkt.
+Deze query retourneert de e-mails met de meest gedupliceerde records in de gegevensset.  Deze lijst kan worden gebruikt om sommige van deze verslagen te controleren om beter te begrijpen hoe het verbinden van de identiteiten Marketo en CRM kan beïnvloeden.  Zie het [&#x200B; overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home) voor meer details over hoe de identiteit het verbinden werkt.
 
 ```sql
 select
@@ -197,33 +197,33 @@ order by
 
 #### E-mail als identiteit verwijderen
 
-Na uw analyse, als u e-mail niet een geldig gebied om als identiteitsgebied bepaalt te gebruiken, dan kan het schema van de Persoon worden gewijzigd om [&#x200B; e-mail als identiteitsgebied &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity) te verwijderen
+Na uw analyse, als u e-mail niet een geldig gebied om als identiteitsgebied bepaalt te gebruiken, dan kan het schema van de Persoon worden gewijzigd om [&#x200B; e-mail als identiteitsgebied &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/fields/identity) te verwijderen
 
 #### Updates blokkeren vanuit Adobe Experience Platform
 
-Als het houden van e-mail als identiteitsgebied voor uw gebruiksgevallen het best is, is er de optie om [&#x200B; gebiedsupdates &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) te blokkeren die uit AJO B2B komen en AJO B2B om hoofdzakelijk op de gegevens van Marketo toe te lopen.
+Als het houden van e-mail als identiteitsgebied voor uw gebruiksgevallen het best is, is er de optie om [&#x200B; gebiedsupdates &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/product-docs/administration/field-management/block-updates-to-a-field) te blokkeren die uit AJO B2B komen en AJO B2B om hoofdzakelijk op de gegevens van Marketo toe te lopen.
 
 ## Beveiligingsmechanismen
 
 Raadpleeg de volgende officiële documentatie voor een volledig begrip van de instructies die van toepassing zijn op B2B-reizen met Marketo Engage:
 
-* [&#x200B; Adobe Journey Optimizer B2B edition - de Beschrijving van het Product &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html)
+* [&#x200B; Adobe Journey Optimizer B2B edition - de Beschrijving van het Product &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html)
 Bevat specifieke instructies en gebruiksparameters voor Journey Optimizer B2B edition.
-* [&#x200B; de Grafieken van de Plaatsing van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
+* [&#x200B; de Grafieken van de Plaatsing van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
 Omvat algemene architecturale en plaatsingsbegeleiding over de oplossingen van Adobe Experience Platform.
-* [&#x200B; Adobe Marketo Engage - de Beschrijving van het Product &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
+* [&#x200B; Adobe Marketo Engage - de Beschrijving van het Product &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
 Details van de prestatie- en gebruiksgaranties voor Marketo Engage, inclusief activerings- en CRM-synchronisatiegegevens.
-* [&#x200B; Real-Time CDP Guardrails &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview?lang=en)
+* [&#x200B; Real-Time CDP Guardrails &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/guardrails/overview?lang=en)
 Biedt richtlijnen voor gegevensinvoer, segmentatie en activeringslimieten binnen de Real-Time Customer Data Platform.
 
 ## Gerelateerde documentatie
 
-* [&#x200B; B2B edition van het Platform van Gegevens van de Klant in real time &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
-* [&#x200B; Begonnen het worden met het Platform van Gegevens van de Klant in real time B2B edition &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
-* [&#x200B; Grafieken voor het Platform van Gegevens van de Klant in real time B2B edition &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
-* [&#x200B; Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform)
-* [&#x200B; de Dienst van de Identiteit van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
-* [&#x200B; Marketo Engage &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/home)
-* [&#x200B; Adobe Experience Platform - de Schakelaar van Marketo Source &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-* [&#x200B; de Documentatie van Adobe Journey Optimizer B2B edition &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
-* [&#x200B; XDM gebiedsbeheer (Journey Optimizer B2B edition) &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/xdm-field-management/xdm-field-management)
+* [&#x200B; B2B edition van het Platform van Gegevens van de Klant in real time &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
+* [&#x200B; Begonnen het worden met het Platform van Gegevens van de Klant in real time B2B edition &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
+* [&#x200B; Grafieken voor het Platform van Gegevens van de Klant in real time B2B edition &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
+* [&#x200B; Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform)
+* [&#x200B; de Dienst van de Identiteit van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home)
+* [&#x200B; Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/marketo/using/home)
+* [&#x200B; Adobe Experience Platform - de Schakelaar van Marketo Source &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+* [&#x200B; de Documentatie van Adobe Journey Optimizer B2B edition &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/guide-overview)
+* [&#x200B; XDM gebiedsbeheer (Journey Optimizer B2B edition) &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/admin/xdm-field-management/xdm-field-management)
