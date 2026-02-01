@@ -34,10 +34,10 @@ Verzamel klantgegevens uit meerdere bronnen om één profielweergave van de klan
    * Gebruik naamruimten buiten het vak, zoals E-mail, SHA256-hash, indien beschikbaar.
    * Facebook bevat een lijst met ondersteunde identiteiten. Als u wilt activeren op het aangepaste publiek van Facebook, moet een van de ondersteunde identiteiten aanwezig zijn in de profielen die moeten worden geactiveerd.
    * De volgende identiteiten worden momenteel ondersteund door Facebook: GAID, IDFA, phone_sha256, email_lc_sha256, extern_id.
-   * Voor extra details zie de [&#x200B; Gids van de Bestemming Facebook &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html).
+   * Voor extra details zie de [&#x200B; Gids van de Bestemming Facebook &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=nl-NL).
    * Google Customer Match heeft een lijst met ondersteunde identiteiten. Als u wilt activeren naar Google Customer Match, moet een van de ondersteunde identiteiten aanwezig zijn in de profielen die moeten worden geactiveerd.
    * De volgende identiteiten worden momenteel ondersteund door Google Customer Match: GAID, IDFA, phone_sha256_e.164, email_lc_sha256, user_id.
-   * Voor extra details zie de [&#x200B; Gids van de Bestemming van de Klant van Google &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html).
+   * Voor extra details zie de [&#x200B; Gids van de Bestemming van de Klant van Google &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=nl-NL).
    * Aangepaste naamruimten maken waarin naamruimten buiten het vak niet beschikbaar zijn voor de toepasselijke id&#39;s.
 1. Configureer schema&#39;s en gegevenssets voor profielgegevens.
    * Profielrecordschema&#39;s maken voor alle brongegevens van profielrecords.
@@ -72,8 +72,8 @@ Verzamel klantgegevens uit meerdere bronnen om één profielweergave van de klan
    * Herzie de telling van segmentresultaten voor de bepaalde segmenten.
    * Onderzoek het profiel dat in het segment zou moeten worden omvat om te verifiëren het segmentlidmaatschap is inbegrepen in het gedeelte van het segmentlidmaatschap van het profiel.
 1. Vorm de levering van het publiek aan de bestemming in de configuratie van de Bestemming.
-   * Zie de [&#x200B; Gids van de Bestemming Facebook &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html) voor verdere details bij het vormen van de Bestemming Facebook.
-   * Zie de [&#x200B; Gids van de Bestemming van de Klant van Google &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html) voor verdere details bij het vormen van de Bestemming van Google.
+   * Zie de [&#x200B; Gids van de Bestemming Facebook &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=nl-NL) voor verdere details bij het vormen van de Bestemming Facebook.
+   * Zie de [&#x200B; Gids van de Bestemming van de Klant van Google &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=nl-NL) voor verdere details bij het vormen van de Bestemming van Google.
    * Wanneer het vormen van een bestemming, selecteer welk publiek u aan de bestemming wilt activeren.
    * Bepaal de geplande begindatum u de bestemmingsdataflow zou willen beginnen leverend het publiek aan de bestemming.
    * Elke bestemming heeft verplichte en optionele kenmerken die worden verzonden.
@@ -93,10 +93,10 @@ Verzamel klantgegevens uit meerdere bronnen om één profielweergave van de klan
 
 ## Beveiligingsmechanismen
 
-[&#x200B; Profiel &amp; de Grafieken van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+[&#x200B; Profiel &amp; de Grafieken van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL)
 
 ## Gerelateerde documentatie
 
-Activering aan de Aangepaste Soorten van Facebook - [&#x200B; Configuratie van de Bestemming &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)
+Activering aan de Aangepaste Soorten van Facebook - [&#x200B; Configuratie van de Bestemming &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=nl-NL)
 
-De activering aan de Gelijke van de Klant van Google - [&#x200B; Configuratie van de Bestemming &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html)
+De activering aan de Gelijke van de Klant van Google - [&#x200B; Configuratie van de Bestemming &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=nl-NL)

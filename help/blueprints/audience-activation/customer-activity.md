@@ -21,7 +21,7 @@ Met dit vermogen, kon u rijke context oppervlakte wanneer een klant uw vraagcent
 
 >[!NOTE]
 >
->De raadpleging van het profiel op de hub is niet voorgenomen voor hoge productie, lage latentiegebruikgevallen zoals Web/mobiele binnenkomende verpersoonlijking. De raadpleging van het profiel op de hub is voorgenomen voor lagere latentiescenario&#39;s zoals agent begeleide steun of verkoopinteractie. Voor lage latentie, hoge productiescenario&#39;s zoals Web/mobiele verpersoonlijking, of het besluit van de aanbieding in real time, zou het profiel van Edge moeten worden gebruikt. Het profiel van Edge laat toegang in real time door de [&#x200B; Verbinding van Personalization van de Douane &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) van het Platform van Gegevens van de Klant in real time toe.
+>De raadpleging van het profiel op de hub is niet voorgenomen voor hoge productie, lage latentiegebruikgevallen zoals Web/mobiele binnenkomende verpersoonlijking. De raadpleging van het profiel op de hub is voorgenomen voor lagere latentiescenario&#39;s zoals agent begeleide steun of verkoopinteractie. Voor lage latentie, hoge productiescenario&#39;s zoals Web/mobiele verpersoonlijking, of het besluit van de aanbieding in real time, zou het profiel van Edge moeten worden gebruikt. Het profiel van Edge laat toegang in real time door de [&#x200B; Verbinding van Personalization van de Douane &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/personalization/custom-personalization) van het Platform van Gegevens van de Klant in real time toe.
 
 ## Gebruiksscenario&#39;s
 
@@ -33,21 +33,21 @@ Met dit vermogen, kon u rijke context oppervlakte wanneer een klant uw vraagcent
 
 ## Beveiligingsmechanismen
 
-* [&#x200B; Guardrails voor [!UICONTROL &#x200B; Real-time gegevens van het Profiel van de Klant &#x200B;] &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* [&#x200B; Guardrails voor [!UICONTROL &#x200B; Real-time gegevens van het Profiel van de Klant &#x200B;] &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL)
 
 ## Implementatiestappen
 
-1. [&#x200B; creeer schema&#39;s &#x200B;](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden opgenomen.
-1. [&#x200B; creeer datasets &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden opgenomen.
-1. [&#x200B; vorm de correcte identiteiten en de identiteit namespaces &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html) op het schema om zeker te zijn dat de ingebedde gegevens in een verenigd profiel kunnen vastmaken.
-1. [&#x200B; laat de schema&#39;s en datasets voor profiel &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html) toe.
-1. [&#x200B; Ingest gegevens &#x200B;](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in Experience Platform.
-1. [&#x200B; opstelling voegt beleid &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) samen.
-1. Gebruik [&#x200B; Entiteiten API om omhoog een profielattributen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html) te kijken.
+1. [&#x200B; creeer schema&#39;s &#x200B;](https://experienceleague.adobe.com/?lang=nl&recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden opgenomen.
+1. [&#x200B; creeer datasets &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=nl-NL) voor gegevens die moeten worden opgenomen.
+1. [&#x200B; vorm de correcte identiteiten en de identiteit namespaces &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=nl-NL) op het schema om zeker te zijn dat de ingebedde gegevens in een verenigd profiel kunnen vastmaken.
+1. [&#x200B; laat de schema&#39;s en datasets voor profiel &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=nl-NL) toe.
+1. [&#x200B; Ingest gegevens &#x200B;](https://experienceleague.adobe.com/?lang=nl&recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in Experience Platform.
+1. [&#x200B; opstelling voegt beleid &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=nl-NL) samen.
+1. Gebruik [&#x200B; Entiteiten API om omhoog een profielattributen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=nl-NL) te kijken.
 
 ## Gerelateerde documentatie
 
-* [&#x200B; het productbeschrijving van de Activering van Adobe Experience Platform &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform0.html)
-* [[!UICONTROL &#x200B; documentatie &#x200B;] van het Profiel van de Klant in real time](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en)
-* [&#x200B; Guardrails van het Profiel &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* [&#x200B; het productbeschrijving van de Activering van Adobe Experience Platform &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-experience-platform0.html)
+* [[!UICONTROL &#x200B; documentatie &#x200B;] van het Profiel van de Klant in real time](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl-NL)
+* [&#x200B; Guardrails van het Profiel &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL)
 * [&#x200B; Opzoekings API van het Profiel &#x200B;](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)

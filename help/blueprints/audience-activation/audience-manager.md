@@ -30,7 +30,7 @@ De anonieme publieksactivering is de capaciteit om aan publiek over Web, mobiel,
 * Audience Manager
 * Gegevensplatform voor realtime klanten
 
-Zowel het Audience Manager- als het Real-Time Customer Data Platform kunnen worden gebruikt om Anonymous Audience Activation voor onsite en advertentiedoelen te stimuleren. Merk op dat het Platform van Gegevens in real time van de Klant slechts een ondergroep van advertentiebestemmingen met anonieme apparatenherkenningstekens zoals die in de [&#x200B; bestemmingsdocumentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) worden gecatalogiseerd steunt.
+Zowel het Audience Manager- als het Real-Time Customer Data Platform kunnen worden gebruikt om Anonymous Audience Activation voor onsite en advertentiedoelen te stimuleren. Merk op dat het Platform van Gegevens in real time van de Klant slechts een ondergroep van advertentiebestemmingen met anonieme apparatenherkenningstekens zoals die in de [&#x200B; bestemmingsdocumentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=nl-NL) worden gecatalogiseerd steunt.
 
 ## Architectuur
 
@@ -40,8 +40,8 @@ Zowel het Audience Manager- als het Real-Time Customer Data Platform kunnen word
 
 ## Implementatiestappen voor Audience Manager
 
-* Voor details bij het uitvoeren van Audience Manager zie de volgende [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html).
+* Voor details bij het uitvoeren van Audience Manager zie de volgende [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=nl-NL).
 
 ## Implementatiestappen voor het Real-Time Customer Data Platform
 
-* Voor implementatiestappen van het Platform van Gegevens van de Klant in real time zie de volgende [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home).
+* Voor implementatiestappen van het Platform van Gegevens van de Klant in real time zie de volgende [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/home).

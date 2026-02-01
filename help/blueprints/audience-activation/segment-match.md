@@ -84,7 +84,7 @@ De [!UICONTROL &#x200B; stroom van de Gelijke van het Segment &#x200B;] om partn
 | **beheer de Verbindingen van het Aandeel van het publiek** | Deze toestemming staat u toe om het proces van de partnerhanddruk te voltooien, dat twee organisaties IMS verbindt om [!UICONTROL &#x200B; de Gelijke van het Segment &#x200B;] stromen toe te laten. |
 | **beheer de Aandelen van het publiek** | Deze toestemming staat u toe om, voer (het pakket van gegevens tot stand te brengen uit te geven die voor [!UICONTROL &#x200B; worden gebruikt de Overeenkomst van het Segment &#x200B;]) met actieve partners (partners die door de admin gebruiker met **toegang van het Aandeel van de Auditie** zijn verbonden). |
 
-Verwijs naar de [&#x200B; officiële documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=en#understanding-segment-match-permissions) om meer over de toestemmingen te leren.
+Verwijs naar de [&#x200B; officiële documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=nl-NL#understanding-segment-match-permissions) om meer over de toestemmingen te leren.
 
 ### Connect-id
 
@@ -102,7 +102,7 @@ De toestemmingsmontages voor [!UICONTROL &#x200B; Overeenkomst van het Segment &
 
   Deze instelling bepaalt of gebruikersgegevens kunnen worden gedeeld. De standaardinstelling is ingesteld op Weigeren om aan te geven dat gebruikersgegevens kunnen worden gedeeld met de aanname dat de AEP-klant al de vereiste toestemming heeft voor het gebruik van gegevensuitwisseling. U kunt deze instelling wijzigen en aanmelden door contact op te nemen met de Adobe-accountmanager en een extra controle in te stellen om AEP-klanten te dwingen hun toestemming expliciet bij te houden.
 
-* Het plaatsen van het aandeelattribuut specifiek voor identiteiten (idSpecific) gebruikend de [&#x200B; Groep van de Inhoud en van het Gebied van de Voorkeur &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=en).
+* Het plaatsen van het aandeelattribuut specifiek voor identiteiten (idSpecific) gebruikend de [&#x200B; Groep van de Inhoud en van het Gebied van de Voorkeur &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=nl-NL).
 
   Deze veldgroep biedt één objecttype veld, toestemmingen, voor het vastleggen van toestemmings- en voorkeursgegevens. [!UICONTROL &#x200B; de Overeenkomst van het Segment &#x200B;], door gebrek, zal alle identiteiten omvatten die niet uitdrukkelijk uit, voorbeeld zijn gekozen:
 
@@ -208,7 +208,7 @@ U kunt de Gelijke van de Segment van Adobe Experience Platform in privacy-centri
 
 ## Meer informatie
 
-* [&#x200B; Overeenkomst van het Segment &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=en#)
-* [&#x200B; Toestemmingen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en)
-* [&#x200B; het Oplossen van problemen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/troubleshooting.html?lang=en)
-* [&#x200B; XID &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=en)
+* [&#x200B; Overeenkomst van het Segment &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=nl-NL#)
+* [&#x200B; Toestemmingen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=nl-NL)
+* [&#x200B; het Oplossen van problemen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/troubleshooting.html?lang=nl-NL)
+* [&#x200B; XID &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=nl-NL)
