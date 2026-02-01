@@ -1,5 +1,5 @@
 ---
-title: Audience Manager blauwdruk
+title: Op apparaat gebaseerd - Anonieme doelgroep voor Audience Manager
 description: Leer doelgroepen te targeten via web- en reclamekanalen die op anonieme en klantgedraggegevens worden gebaseerd. Dit maakt gepersonaliseerde en consistente klantenervaringen in real time op verschillende apparaten mogelijk.
 landing-page-description: Leer doelgroepen te targeten via web- en reclamekanalen die op anonieme en klantgedraggegevens worden gebaseerd.
 short-description: Leer doelgroepen te targeten via web- en reclamekanalen die op anonieme en klantgedraggegevens worden gebaseerd.
@@ -7,14 +7,14 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 495a2480828e2c6b4caa41226f4fe67437b081c1
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 27%
+source-wordcount: '246'
+ht-degree: 26%
 
 ---
 
-# Audience Manager blauwdruk
+# Op apparaat gebaseerd - Anonieme doelgroep voor Audience Manager
 
 De anonieme publieksactivering is de capaciteit om aan publiek over Web, mobiel, en reclamekanalen te richten en te personaliseren die op anonieme apparaat en gedragsgegevens worden gebaseerd.
 
@@ -30,18 +30,18 @@ De anonieme publieksactivering is de capaciteit om aan publiek over Web, mobiel,
 * Audience Manager
 * Gegevensplatform voor realtime klanten
 
-Zowel het Audience Manager- als het Real-Time Customer Data Platform kunnen worden gebruikt om Anonymous Audience Activation voor onsite en advertentiedoelen te stimuleren. Merk op dat het Platform van Gegevens in real time van de Klant slechts een ondergroep van advertentiebestemmingen met anonieme apparatenherkenningstekens zoals die in de [&#x200B; bestemmingsdocumentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=nl-NL) worden gecatalogiseerd steunt.
+Zowel het Audience Manager- als het Real-Time Customer Data Platform kunnen worden gebruikt om Anonymous Audience Activation voor onsite en advertentiedoelen te stimuleren. Merk op dat het Platform van Gegevens in real time van de Klant slechts een ondergroep van advertentiebestemmingen met anonieme apparatenherkenningstekens zoals die in de [ bestemmingsdocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) worden gecatalogiseerd steunt.
 
 ## Architectuur
 
-![&#x200B; architectuur van de Verwijzing voor de Anonieme Vervaging van Audience Activation &#x200B;](assets/anonymous_activation.svg)
+![ architectuur van de Verwijzing voor de Anonieme Vervaging van Audience Activation ](assets/anonymous_activation.svg)
 
 <br>
 
 ## Implementatiestappen voor Audience Manager
 
-* Voor details bij het uitvoeren van Audience Manager zie de volgende [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=nl-NL).
+* Voor details bij het uitvoeren van Audience Manager zie de volgende [ documentatie ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html).
 
 ## Implementatiestappen voor het Real-Time Customer Data Platform
 
-* Voor implementatiestappen van het Platform van Gegevens van de Klant in real time zie de volgende [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/home).
+* Voor implementatiestappen van het Platform van Gegevens van de Klant in real time zie de volgende [ documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home).

@@ -5,10 +5,10 @@ user-guide-description: Blauwdrukken zijn herhaalbare implementaties om vastgest
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 3a3988e93dd9e92f4f564bfedfa314e8e2b5d9ba
+source-git-commit: 0add2a504e6ab8b6bafac78a72fc47a805440869
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 25%
+source-wordcount: '231'
+ht-degree: 21%
 
 ---
 
@@ -25,13 +25,14 @@ ht-degree: 25%
       + [Experience Platform Web SDK &amp; [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
       + [SDK&#39;s voor toepassingen](/help/blueprints/experience-platform/deployment/appsdk.md)
 + Activering publiek en profiel{#audience-activation}
-   + [Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
+   + [Op apparaat gebaseerd - Anonieme doelgroep voor Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
    + Real-time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
-      + [Activering op sociale en reclamekanalen](/help/blueprints/audience-activation/advertising-activation.md)
-      + [Activering voor streaming van bestanden en bedrijven](/help/blueprints/audience-activation/enterprise-destinations.md)
-      + [Klantactiviteiten](/help/blueprints/audience-activation/customer-activity.md)
-      + [Segmentovereenkomst](/help/blueprints/audience-activation/segment-match.md)
-      + [Doel en RTCDP](/help/blueprints/audience-activation/rtcdp-target.md)
+      + [Audience Activation naar sociale bestemmingen en Advertising-bestemmingen](/help/blueprints/audience-activation/advertising-activation.md)
+      + [Bewegingsblauwdruk voor publiek- en profielactivering naar Enterprise-doelen](/help/blueprints/audience-activation/enterprise-destinations.md)
+      + [Toegang in realtime profiel voor support- en verkoopscenario&#39;s](/help/blueprints/audience-activation/customer-activity.md)
+      + [Edge-profieltoegang in realtime voor internet en mobiele Personalization](/help/blueprints/audience-activation/real-time-lookup.md)
+      + [Publiek Collaboration met segmentovereenkomst](/help/blueprints/audience-activation/segment-match.md)
+      + [Bekende Personalization van Klant met Doel](/help/blueprints/audience-activation/rtcdp-target.md)
 + B2B-activering en marketing{#b2b-activation}
    + [Overzicht](/help/blueprints/b2b/overview.md)
    + [B2B-activering](/help/blueprints/b2b/b2bactivation.md)
@@ -66,8 +67,8 @@ ht-degree: 25%
       + [Journey Optimizer met Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + Verouderde blauwdrukken{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/nl/docs/campaign-standard){target="_blank"}
-         + [&#x200B; Real-Time CDP met Adobe  [!DNL Campaign Standard] &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [ Real-Time CDP met Adobe  [!DNL Campaign Standard] ](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campagne v7{#campaign-v7}
          + [Campagne v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + Gegevensanalyse, intelligentie en AI/ML{#data-exploration}

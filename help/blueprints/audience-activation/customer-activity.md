@@ -1,53 +1,53 @@
 ---
-title: Hub blauwdruk voor klantactiviteiten
-description: "[!UICONTROL Klantprofiel in realtime] raadplegingen om context voor agent-bijgewoonde steun en verkoop te verstrekken."
+title: Toegang in realtime profiel voor support- en verkoopscenario's
+description: '[!UICONTROL  raadplegingen van het Profiel van de Klant in real time ] om context voor agent-bijgewoonde steun en verkoop te verstrekken.'
 solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 0%
+source-wordcount: '366'
+ht-degree: 1%
 
 ---
 
-# Hub blauwdruk voor klantactiviteiten
+# Toegang in realtime profiel voor support- en verkoopscenario&#39;s
 
-De blauwdruk van de Hub van de Activiteit van de klant toont hoe de externe toepassingen tot Adobe Experience Platform kunnen toegang hebben [!UICONTROL Klantprofiel in realtime].
+De toegang van het Profiel in real time voor de blauwdruk van Steun en van de Scenario&#39;s van de Verkoop toont hoe de externe toepassingen tot Adobe Experience Platform [!UICONTROL  in real time het Profiel van de Klant ] kunnen toegang hebben.
 
-Externe toepassingen hebben toegang tot profielen met een API-GET-aanvraag. Kenmerken, gebeurtenissen, segmentlidmaatschap en modelgestuurde functies die in het profiel zijn opgeslagen, kunnen vervolgens worden gebruikt in deze externe toepassingen die geen Adobe zijn.
+Externe toepassingen hebben toegang tot profielen met een API GET-aanvraag. Kenmerken, gebeurtenissen, segmentlidmaatschap en modelgestuurde functies die in het profiel zijn opgeslagen, kunnen vervolgens in deze externe, niet-Adobe-toepassingen worden gebruikt.
 
-Met dit vermogen, kon u rijke context oppervlakte wanneer een klant uw vraagcentrum roept. De agenten van de steun zouden zicht in de levenwaarde van de klant, neiging tot kurn of blootstelling aan marketing campagnes kunnen hebben, bijvoorbeeld. De agenten van de verkoop kunnen ook van meer context of inzicht in hun klant profiteren.
+Met dit vermogen, kon u rijke context oppervlakte wanneer een klant uw vraagcentrum roept. De agenten van de steun zouden zicht in de levenwaarde van de klant, neiging tot kurn of blootstelling aan marketing campagnes kunnen hebben, bijvoorbeeld. De agenten van de verkoop kunnen ook van meer context of insight in hun klant profiteren.
 
 >[!NOTE]
 >
->De huidige latentie die door profiel raadpleging API wordt gesteund is ongeveer 500 milliseconden, die deze benadering ongeschikt maken voor integratie van het profiel met besluitvormingsmotoren in real time zoals het Web van de zelfde pagina of mobiele verpersoonlijking.
+>De raadpleging van het profiel op de hub is niet voorgenomen voor hoge productie, lage latentiegebruikgevallen zoals Web/mobiele binnenkomende verpersoonlijking. De raadpleging van het profiel op de hub is voorgenomen voor lagere latentiescenario&#39;s zoals agent begeleide steun of verkoopinteractie. Voor lage latentie, hoge productiescenario&#39;s zoals Web/mobiele verpersoonlijking, of het besluit van de aanbieding in real time, zou het profiel van Edge moeten worden gebruikt. Het profiel van Edge laat toegang in real time door de [ Verbinding van Personalization van de Douane ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) van het Platform van Gegevens van de Klant in real time toe.
 
-## Gebruik hoofdletters
+## Gebruiksscenario&#39;s
 
-* Verbeter de context van de consument aan agent-gesteunde interactie, zoals steun en verkoopervaringen. Gebruikend het profielraadpleging in Experience Platform, kunnen de agenten meer context op de consument, zoals recente aankopen, campagneinteractie, eigenschappen, publiekslidmaatschappen, en andere attributen en inzichten ontvangen die in het klantenprofiel in real time worden opgeslagen.
+* Verbeter de context van de consument aan agent-gesteunde interactie, zoals steun en verkoopervaringen. Met behulp van de profielzoekopdracht in Experience Platform kunnen agenten meer context op de consument ontvangen, zoals recente aankopen, campagneinteracties, eigenschappen, publiekslidmaatschappen en andere kenmerken en inzichten die in het profiel van de klant in real time worden opgeslagen.
 
 ## Architectuur
 
 <img src="assets/customer_activity_hub.svg" alt="De Architectuur van de verwijzing voor de Vervaging van de Hub van de Activiteit van de Klant" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
-## Guardrails
+## Beveiligingsmechanismen
 
-* [Guardrails voor [!UICONTROL Klantprofiel in realtime] data](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL)
+* [ Guardrails voor [!UICONTROL  Real-time gegevens van het Profiel van de Klant ] ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 
-## Uitvoeringsstappen
+## Implementatiestappen
 
-1. [Schema&#39;s maken](https://experienceleague.adobe.com/?lang=nl&recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden ingevoerd.
-1. [Gegevenssets maken](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=nl-NL) voor gegevens die moeten worden ingevoerd.
-1. [De juiste identiteiten en naamruimten configureren](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=nl-NL) op het schema om ervoor te zorgen dat ingesloten gegevens in een verenigd profiel kunnen vastmaken.
-1. [De schema&#39;s en datasets voor profiel inschakelen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=nl-NL).
-1. [Gegevens samenvoegen](https://experienceleague.adobe.com/?lang=nl&recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in Experience Platform.
-1. [Samenvoegbeleid instellen](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=nl-NL).
-1. Gebruik de [Entiteiten die API&#39;s gebruiken om een profielkenmerk op te zoeken](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=nl-NL), hetzij van de recordentiteit of de ervaringsgebeurtenisentiteit.
+1. [ creeer schema&#39;s ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) voor gegevens die moeten worden opgenomen.
+1. [ creeer datasets ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) voor gegevens die moeten worden opgenomen.
+1. [ vorm de correcte identiteiten en de identiteit namespaces ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html) op het schema om zeker te zijn dat de ingebedde gegevens in een verenigd profiel kunnen vastmaken.
+1. [ laat de schema&#39;s en datasets voor profiel ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html) toe.
+1. [ Ingest gegevens ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) in Experience Platform.
+1. [ opstelling voegt beleid ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) samen.
+1. Gebruik [ Entiteiten API om omhoog een profielattributen ](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html) te kijken.
 
 ## Gerelateerde documentatie
 
-* [Productbeschrijving van Adobe Experience Platform Activation](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-experience-platform0.html)
-* [[!UICONTROL Klantprofiel in realtime] documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl-NL)
-* [Profielhulplijnen](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL)
-* [API voor zoeken van profielen](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)
+* [ het productbeschrijving van de Activering van Adobe Experience Platform ](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform0.html)
+* [[!UICONTROL  documentatie ] van het Profiel van de Klant in real time](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=en)
+* [ Guardrails van het Profiel ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* [ Opzoekings API van het Profiel ](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)
