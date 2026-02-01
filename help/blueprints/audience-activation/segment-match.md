@@ -1,6 +1,6 @@
 ---
 title: Publiek Collaboration met segmentovereenkomst
-description: Leer over [!UICONTROL  Overeenkomst van het Segment ] voor Adobe Experience Platform (AEP). [!UICONTROL  de Gelijke van het Segment ] is de dienst van de gegevenssamenwerking die u toelaat om segmentgegevens uit te wisselen die op gemeenschappelijke industriedetails op een beveiligde, beheerde, en privacy-vriendelijke manier worden gebaseerd.
+description: Leer over [!UICONTROL &#x200B; Overeenkomst van het Segment &#x200B;] voor Adobe Experience Platform (AEP). [!UICONTROL &#x200B; de Gelijke van het Segment &#x200B;] is de dienst van de gegevenssamenwerking die u toelaat om segmentgegevens uit te wisselen die op gemeenschappelijke industriedetails op een beveiligde, beheerde, en privacy-vriendelijke manier worden gebaseerd.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
 source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Segment Match stelt partnermerken in staat om soorten publiek te delen in hun respectieve Experience Platform-omgevingen. De sleutel voor merken is om met klanten te verbinden die op gegevens worden gebaseerd die uit hun directe relaties met consumenten worden verzameld. Met betere governance, toestemmingen, en voorkeurbeheersystemen, kunnen de marketers hun eerste-partij voor authentiek verklaarde publiek met zeer belangrijke partners verder verbeteren.
 
-[!UICONTROL  de Gelijke van het Segment ] is de dienst van de gegevenssamenwerking om de klanten van Experience Platform (AEP) (die als _worden bedoeld partners_) toe te staan om segmentgegevens uit te wisselen die op gemeenschappelijke industriedetails op een beveiligde, beheerde, en privacy-vriendelijke manier worden gebaseerd.
+[!UICONTROL &#x200B; de Gelijke van het Segment &#x200B;] is de dienst van de gegevenssamenwerking om de klanten van Experience Platform (AEP) (die als _worden bedoeld partners_) toe te staan om segmentgegevens uit te wisselen die op gemeenschappelijke industriedetails op een beveiligde, beheerde, en privacy-vriendelijke manier worden gebaseerd.
 
 De dienst laat klanten toe om passende IDs veilig te identificeren op een veilige, neutrale manier zonder het moeten hun volledig gegevensbestand openbaarmaken. De partners ontvangen slechts aangewezen attributen (segmentnaam) voor overlappende IDs, toelatend sneller en gemakkelijkere het delen op een controleerbare, toestemming-gestuurde manier.
 
-[!UICONTROL  de Gelijke van het Segment ] gebruikt het gegevensbestuur van AEP en toestemmingskader als zijn backbone. Het is beschikbaar voor alle klanten van het platform van de Gegevens van de Klant van B2C en B2P in real time. De zeer belangrijke eigenschappen van [!UICONTROL [!UICONTROL  Overeenkomst van het Segment ]] omvatten:
+[!UICONTROL &#x200B; de Gelijke van het Segment &#x200B;] gebruikt het gegevensbestuur van AEP en toestemmingskader als zijn backbone. Het is beschikbaar voor alle klanten van het platform van de Gegevens van de Klant van B2C en B2P in real time. De zeer belangrijke eigenschappen van [!UICONTROL [!UICONTROL &#x200B; Overeenkomst van het Segment &#x200B;]] omvatten:
 
 * Segmentdeling voor overlappende klanten met toestemming
 * Rapportage vóór het delen voor inzichten in het geschatte overeenkomstenvolume
@@ -30,25 +30,25 @@ De dienst laat klanten toe om passende IDs veilig te identificeren op een veilig
 
 Merk naar uitgever:
 
-De &#39;uitgeverij-zaak&#39; is het meest beïnvloed door de afleiding van cookies van derden en gegevens van mobiele advertentie-id. Dit gebruiksgeval heeft een grote invloed op de media- en amusementsindustrie, die zich richt op het verkopen van reclame als bedrijfsmodel. [!UICONTROL  de Gelijke van het Segment ] is een weg voor uitgevers met grote eerste partijpubliek die direct met hun adverteerders willen samenwerken. Adverteerders kunnen rechtstreeks met uitgevers samenwerken om advertenties te maken tegen overeenkomende doelgroepen op uitgeverseigenschappen voor gerichte of prospectieve campagnes.
+De &#39;uitgeverij-zaak&#39; is het meest beïnvloed door de afleiding van cookies van derden en gegevens van mobiele advertentie-id. Dit gebruiksgeval heeft een grote invloed op de media- en amusementsindustrie, die zich richt op het verkopen van reclame als bedrijfsmodel. [!UICONTROL &#x200B; de Gelijke van het Segment &#x200B;] is een weg voor uitgevers met grote eerste partijpubliek die direct met hun adverteerders willen samenwerken. Adverteerders kunnen rechtstreeks met uitgevers samenwerken om advertenties te maken tegen overeenkomende doelgroepen op uitgeverseigenschappen voor gerichte of prospectieve campagnes.
 
 ### Merk naar merk
 
-Consumentenreizen zijn nooit lineair. Een klant kan bijvoorbeeld trouw zijn aan een luchtvaartmaatschappij en aan hun creditcardmaatschappij. Door [!UICONTROL  de Gelijke van het Segment ] te gebruiken, kunnen de luchtvaartmaatschappij en het creditcardbedrijf een gegevenspartnerschap tot stand brengen om overlappende publiek te begrijpen en dan aanbiedingen te maken om ervaringen aan loyale consumenten van elk van de bedrijven te personaliseren.
+Consumentenreizen zijn nooit lineair. Een klant kan bijvoorbeeld trouw zijn aan een luchtvaartmaatschappij en aan hun creditcardmaatschappij. Door [!UICONTROL &#x200B; de Gelijke van het Segment &#x200B;] te gebruiken, kunnen de luchtvaartmaatschappij en het creditcardbedrijf een gegevenspartnerschap tot stand brengen om overlappende publiek te begrijpen en dan aanbiedingen te maken om ervaringen aan loyale consumenten van elk van de bedrijven te personaliseren.
 
 ### BU naar BU
 
 Internationale multinationals hebben problemen met de samenwerking van gegevens tussen onafhankelijke bedrijfseenheden. Het combineren van gegevens in één sandbox is mogelijk niet mogelijk vanwege verschillende privacybeleid, overnames of het beheer van machtigingen voor BU&#39;s.
 
-[!UICONTROL  de Gelijke van het Segment ] hulp verdeelt marketing teams over massieve organisaties efficiënter samenwerken, terwijl het blijven onafhankelijk werken
+[!UICONTROL &#x200B; de Gelijke van het Segment &#x200B;] hulp verdeelt marketing teams over massieve organisaties efficiënter samenwerken, terwijl het blijven onafhankelijk werken
 
 ## Architectuur
 
-![ Architectuur van de Gelijke van het Segment ](assets/architecture-segment-match.png){zoomable="yes"}
+![&#x200B; Architectuur van de Gelijke van het Segment &#x200B;](assets/architecture-segment-match.png){zoomable="yes"}
 
-[!UICONTROL  de Gelijke van het Segment ] is geen gegevensmarkt waar de gegevens kunnen worden gekocht. In plaats daarvan is het een AEP-functie die werkt met gegevens van de eerste partij met bepaalde partners, die privacycontroles en toestemmingscontroles gebruiken om samen te werken. [!UICONTROL  de Gelijke van het Segment ] hulp concentreert zich inspanningen op het verbeteren van klantenverhoudingen en het kweken van het merk. Het is nuttig wanneer bestaande merken of partnerrelaties bestaan. [!UICONTROL  ervaring van de Gelijke van het 1} Segment is gemakkelijk te leiden, scalable, en staat voor beheerders toe om segmenten op een opt-in, controleerbare manier te delen.]
+[!UICONTROL &#x200B; de Gelijke van het Segment &#x200B;] is geen gegevensmarkt waar de gegevens kunnen worden gekocht. In plaats daarvan is het een AEP-functie die werkt met gegevens van de eerste partij met bepaalde partners, die privacycontroles en toestemmingscontroles gebruiken om samen te werken. [!UICONTROL &#x200B; de Gelijke van het Segment &#x200B;] hulp concentreert zich inspanningen op het verbeteren van klantenverhoudingen en het kweken van het merk. Het is nuttig wanneer bestaande merken of partnerrelaties bestaan. [!UICONTROL &#x200B; ervaring van de Gelijke van het 1&rbrace; Segment is gemakkelijk te leiden, scalable, en staat voor beheerders toe om segmenten op een opt-in, controleerbare manier te delen.]
 
-[!UICONTROL  de Overeenkomst van het Segment ] laat toe:
+[!UICONTROL &#x200B; de Overeenkomst van het Segment &#x200B;] laat toe:
 
 * Segmentlidmaatschapsgegevens die veilig door organisaties moeten worden geëxporteerd met standaard id&#39;s op mensniveau, zoals gehashte e-mail of telefoonnummer
 * Een gebruikersinterface en workflows delen met meldingen
@@ -60,11 +60,11 @@ Internationale multinationals hebben problemen met de samenwerking van gegevens 
 * DULE-handhaving in workflow voor delen
 * Dagelijkse batchupdates
 
-[!UICONTROL  de Gelijke van het Segment ] staat toe om onderling verbonden klantenervaring tot stand te brengen. De ondersteunde duurzame id&#39;s zijn gehashte e-mails, gehashte telefoonnummers en id&#39;s zoals ECID, IDFA en GAID. Klanten kunnen feeds maken die overeenkomen en publieksgegevens verplaatsen tussen merksandboxen, met een sterke governance, transparantie en intrekkingsmogelijkheden voor gebruik in reclame- en marketingactiviteiten
+[!UICONTROL &#x200B; de Gelijke van het Segment &#x200B;] staat toe om onderling verbonden klantenervaring tot stand te brengen. De ondersteunde duurzame id&#39;s zijn gehashte e-mails, gehashte telefoonnummers en id&#39;s zoals ECID, IDFA en GAID. Klanten kunnen feeds maken die overeenkomen en publieksgegevens verplaatsen tussen merksandboxen, met een sterke governance, transparantie en intrekkingsmogelijkheden voor gebruik in reclame- en marketingactiviteiten
 
 ## Voorwaarden
 
-De pre-vereisten voor [!UICONTROL  Overeenkomst van het Segment ] zijn:
+De pre-vereisten voor [!UICONTROL &#x200B; Overeenkomst van het Segment &#x200B;] zijn:
 
 * RT-CDP actief met licentie
 * Ondersteunde standaard hashed-id&#39;s zijn SHA256-hashed-e-mail, hashed phone, ECID, Apple IDFA en GAID
@@ -75,36 +75,36 @@ De pre-vereisten voor [!UICONTROL  Overeenkomst van het Segment ] zijn:
 
 ### RBAC
 
-De [!UICONTROL  stroom van de Gelijke van het Segment ] om partners te beheren wordt beveiligd door RBAC. Alleen personen met de juiste machtiging kunnen partners initiëren, accepteren of beheren. Dit kan worden gedaan in het gedeelte Gegevensinname van het productprofiel. De volgende machtigingen zijn vereist:
+De [!UICONTROL &#x200B; stroom van de Gelijke van het Segment &#x200B;] om partners te beheren wordt beveiligd door RBAC. Alleen personen met de juiste machtiging kunnen partners initiëren, accepteren of beheren. Dit kan worden gedaan in het gedeelte Gegevensinname van het productprofiel. De volgende machtigingen zijn vereist:
 
-![ Verbinding van het Aandeel van het publiek ](assets/data-ingestion.png){zoomable="yes"}
+![&#x200B; Verbinding van het Aandeel van het publiek &#x200B;](assets/data-ingestion.png){zoomable="yes"}
 
 | Machtiging | Beschrijving |
 |---|---|
-| **beheer de Verbindingen van het Aandeel van het publiek** | Deze toestemming staat u toe om het proces van de partnerhanddruk te voltooien, dat twee organisaties IMS verbindt om [!UICONTROL  de Gelijke van het Segment ] stromen toe te laten. |
-| **beheer de Aandelen van het publiek** | Deze toestemming staat u toe om, voer (het pakket van gegevens tot stand te brengen uit te geven die voor [!UICONTROL  worden gebruikt de Overeenkomst van het Segment ]) met actieve partners (partners die door de admin gebruiker met **toegang van het Aandeel van de Auditie** zijn verbonden). |
+| **beheer de Verbindingen van het Aandeel van het publiek** | Deze toestemming staat u toe om het proces van de partnerhanddruk te voltooien, dat twee organisaties IMS verbindt om [!UICONTROL &#x200B; de Gelijke van het Segment &#x200B;] stromen toe te laten. |
+| **beheer de Aandelen van het publiek** | Deze toestemming staat u toe om, voer (het pakket van gegevens tot stand te brengen uit te geven die voor [!UICONTROL &#x200B; worden gebruikt de Overeenkomst van het Segment &#x200B;]) met actieve partners (partners die door de admin gebruiker met **toegang van het Aandeel van de Auditie** zijn verbonden). |
 
-Verwijs naar de [ officiële documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=en#understanding-segment-match-permissions) om meer over de toestemmingen te leren.
+Verwijs naar de [&#x200B; officiële documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=en#understanding-segment-match-permissions) om meer over de toestemmingen te leren.
 
 ### Connect-id
 
-De partner verbindt proces wordt beheerd door **[!UICONTROL verbind identiteitskaart ],** die een willekeurig geproduceerd herkenningsteken is dat kaarten aan een specifieke zandbak van AEP. Deze Connect-id is vereist voor het initiëren en beheren van partnersandboxen. U kunt ook de Connect-id opnieuw genereren en zo nodig een partnerverbinding opnieuw configureren.
+De partner verbindt proces wordt beheerd door **[!UICONTROL verbind identiteitskaart &#x200B;],** die een willekeurig geproduceerd herkenningsteken is dat kaarten aan een specifieke zandbak van AEP. Deze Connect-id is vereist voor het initiëren en beheren van partnersandboxen. U kunt ook de Connect-id opnieuw genereren en zo nodig een partnerverbinding opnieuw configureren.
 
 ### Beheer
 
-Om het even welke dataset of gegevensattributen met *C11* contractetiket worden beperkt voor de [!UICONTROL  dienst van de Gelijke van het Segment ]. De segmenten die die attributen gebruiken kunnen niet voor [!UICONTROL  de Gelijke van het Segment ] worden gebruikt. Dit verstrekt de controle waarop de segmenten voor [!UICONTROL  gelijke van het Segment ] kunnen of niet kunnen worden gebruikt. Daarnaast worden het aangepaste beleid en de gemaakte marketingacties ook afgedwongen. Het beleid is standaard uitgeschakeld en moet zijn ingeschakeld voor handhaving. Beperkingen zoals e-mailmarketing en onsite reclame die tijdens het delen van segmenten worden gekozen, worden ook verspreid en gedeeld met de partners.
+Om het even welke dataset of gegevensattributen met *C11* contractetiket worden beperkt voor de [!UICONTROL &#x200B; dienst van de Gelijke van het Segment &#x200B;]. De segmenten die die attributen gebruiken kunnen niet voor [!UICONTROL &#x200B; de Gelijke van het Segment &#x200B;] worden gebruikt. Dit verstrekt de controle waarop de segmenten voor [!UICONTROL &#x200B; gelijke van het Segment &#x200B;] kunnen of niet kunnen worden gebruikt. Daarnaast worden het aangepaste beleid en de gemaakte marketingacties ook afgedwongen. Het beleid is standaard uitgeschakeld en moet zijn ingeschakeld voor handhaving. Beperkingen zoals e-mailmarketing en onsite reclame die tijdens het delen van segmenten worden gekozen, worden ook verspreid en gedeeld met de partners.
 
 ### Toestemming
 
-De toestemmingsmontages voor [!UICONTROL  Overeenkomst van het Segment ] kunnen op de volgende manieren worden beheerd:
+De toestemmingsmontages voor [!UICONTROL &#x200B; Overeenkomst van het Segment &#x200B;] kunnen op de volgende manieren worden beheerd:
 
 * Op organisatieniveau, tijdens het instappen, gebruik makend van de opt-out of opt-in-instelling voor toestemmingscontroles.
 
   Deze instelling bepaalt of gebruikersgegevens kunnen worden gedeeld. De standaardinstelling is ingesteld op Weigeren om aan te geven dat gebruikersgegevens kunnen worden gedeeld met de aanname dat de AEP-klant al de vereiste toestemming heeft voor het gebruik van gegevensuitwisseling. U kunt deze instelling wijzigen en aanmelden door contact op te nemen met de Adobe-accountmanager en een extra controle in te stellen om AEP-klanten te dwingen hun toestemming expliciet bij te houden.
 
-* Het plaatsen van het aandeelattribuut specifiek voor identiteiten (idSpecific) gebruikend de [ Groep van de Inhoud en van het Gebied van de Voorkeur ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=en).
+* Het plaatsen van het aandeelattribuut specifiek voor identiteiten (idSpecific) gebruikend de [&#x200B; Groep van de Inhoud en van het Gebied van de Voorkeur &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=en).
 
-  Deze veldgroep biedt één objecttype veld, toestemmingen, voor het vastleggen van toestemmings- en voorkeursgegevens. [!UICONTROL  de Overeenkomst van het Segment ], door gebrek, zal alle identiteiten omvatten die niet uitdrukkelijk uit, voorbeeld zijn gekozen:
+  Deze veldgroep biedt één objecttype veld, toestemmingen, voor het vastleggen van toestemmings- en voorkeursgegevens. [!UICONTROL &#x200B; de Overeenkomst van het Segment &#x200B;], door gebrek, zal alle identiteiten omvatten die niet uitdrukkelijk uit, voorbeeld zijn gekozen:
 
   ```
   "share": {
@@ -128,7 +128,7 @@ Het alarm wordt geproduceerd wanneer een partnerverbinding in werking wordt gest
 
 De workflow voor het instellen van een partnerverbinding wordt beheerd met de RBAC, zoals hierboven vermeld. Als de juiste machtigingen zijn ingesteld, moet de verbinding met een partnersandbox de Connect-id van die sandbox/instantie binnen de org van de partner delen.
 
-Zodra een verbinding van de verzendende partner wordt gevraagd, moet het bij de ontvangende kant worden goedgekeurd om een veilige en veilige partneropstelling te verzekeren. De handdruk van de partnerverbinding zorgt ervoor dat de overeenkomst tussen de twee organisaties bestaat en staat Adobe toe om het [!UICONTROL  proces van de Gelijke van het Segment ] namens de organisatie te vergemakkelijken. Met de goedgekeurde verbinding en in actieve staat, kan het segment delend proces van beide kanten in werking worden gesteld.
+Zodra een verbinding van de verzendende partner wordt gevraagd, moet het bij de ontvangende kant worden goedgekeurd om een veilige en veilige partneropstelling te verzekeren. De handdruk van de partnerverbinding zorgt ervoor dat de overeenkomst tussen de twee organisaties bestaat en staat Adobe toe om het [!UICONTROL &#x200B; proces van de Gelijke van het Segment &#x200B;] namens de organisatie te vergemakkelijken. Met de goedgekeurde verbinding en in actieve staat, kan het segment delend proces van beide kanten in werking worden gesteld.
 
 ### Segment delen
 
@@ -140,13 +140,13 @@ Als deel van dit segment-delend werkschema, kan de verzendende partner potentië
 
 De algemene processtroom is:
 
-![ Segment delend ](assets/segment-sharing.png){zoomable="yes"}
+![&#x200B; Segment delend &#x200B;](assets/segment-sharing.png){zoomable="yes"}
 
-Deze overlappende ramingen bieden belangrijke inzichten, partnerontdekking, en gegevens aan de samenwerkingsovereenkomsten van brandstofgegevens. Er worden geen klant- of segmentgegevens over sandboxen verplaatst om deze schattingsgegevens voor overlappingen te verkrijgen. De door de klant geselecteerde, vooraf gehaaste toepasselijke identiteiten in een bepaalde sandbox worden toegevoegd aan een probabilistische gegevensstructuur die Adobe in staat stelt samenvoegings- en intersectiebewerkingen tussen hen uit te voeren. Deze verrichtingen helpen [!UICONTROL  Overeenkomst van het Segment ] krijgen de geschatte doorsnede van twee gegevensstructuren die uit identiteiten van twee verschillende zandbakken worden samengesteld zonder het moeten de daadwerkelijke waarden vergelijken
+Deze overlappende ramingen bieden belangrijke inzichten, partnerontdekking, en gegevens aan de samenwerkingsovereenkomsten van brandstofgegevens. Er worden geen klant- of segmentgegevens over sandboxen verplaatst om deze schattingsgegevens voor overlappingen te verkrijgen. De door de klant geselecteerde, vooraf gehaaste toepasselijke identiteiten in een bepaalde sandbox worden toegevoegd aan een probabilistische gegevensstructuur die Adobe in staat stelt samenvoegings- en intersectiebewerkingen tussen hen uit te voeren. Deze verrichtingen helpen [!UICONTROL &#x200B; Overeenkomst van het Segment &#x200B;] krijgen de geschatte doorsnede van twee gegevensstructuren die uit identiteiten van twee verschillende zandbakken worden samengesteld zonder het moeten de daadwerkelijke waarden vergelijken
 
 Het proces van de identiteitsoverlap hangt van de **dagelijkse volledige profieluitvoer** dataset van zowel afzender als ontvanger zandbakken af om gemeenschappelijke profielen te identificeren die tot de gedeelde segmenten behoren. De gedetailleerde processtroom voor het overlappingsproces wordt hieronder getoond:
 
-![ Identiteit overlappend proces ](assets/overlap-process.png){zoomable="yes"}
+![&#x200B; Identiteit overlappend proces &#x200B;](assets/overlap-process.png){zoomable="yes"}
 
 Nadat het delen van segmenten volledig van de verzendende partner is, krijgt de ontvanger een bericht over het gedeelde segmentvoer. Deze segmentvoer moet voor profiel bij de ontvanger worden toegelaten om de gegevens van het segmentlidmaatschap in werking te stellen. Alleen segmentlidmaatschap wordt opgenomen in de overlappende profielfragmenten van de IMS-organisatie van de ontvanger en er wordt geen aanvullende identiteit overgedragen van de afzender naar de ontvanger.
 
@@ -170,7 +170,7 @@ Met de toenemende beperkingen rond cookies en apparaat-id&#39;s van derden, zoek
 
 U kunt de Gelijke van de Segment van Adobe Experience Platform in privacy-centric publiekssamenwerking gebruiken en programmatic privé overeenkomsten tussen adverteerders en uitgevers verbeteren. Met Segment afstemmen kunt u:
 
-* Splits **en de handel van de Advertentie** en **3} werkschema&#39;s van het Publiek.**
+* Splits **en de handel van de Advertentie** en **3&rbrace; werkschema&#39;s van het Publiek.**
 * Sta partnermerken toe om publieksmeta-gegevens voor wederzijds gedeelde, en toestemmende identiteiten te delen gebruikend duurzame herkenningstekens zoals gehakt e-mail en gehakt telefoonaantal binnen een toestemming-gedwongen proces.
 
 ### Gebruiksscenario&#39;s
@@ -194,7 +194,7 @@ U kunt de Gelijke van de Segment van Adobe Experience Platform in privacy-centri
 
 >[!ENDSHADEBOX]
 
-![ een diagram van het werkschema tussen merk en uitgever.](./assets/segment-match-blueprints.png)
+![&#x200B; een diagram van het werkschema tussen merk en uitgever.](./assets/segment-match-blueprints.png)
 
 >[!IMPORTANT]
 >
@@ -208,7 +208,7 @@ U kunt de Gelijke van de Segment van Adobe Experience Platform in privacy-centri
 
 ## Meer informatie
 
-* [ Overeenkomst van het Segment ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=en#)
-* [ Toestemmingen ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en)
-* [ het Oplossen van problemen ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/troubleshooting.html?lang=en)
-* [ XID ](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=en)
+* [&#x200B; Overeenkomst van het Segment &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/overview.html?lang=en#)
+* [&#x200B; Toestemmingen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en)
+* [&#x200B; het Oplossen van problemen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match/troubleshooting.html?lang=en)
+* [&#x200B; XID &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/api/list-native-id.html?lang=en)
