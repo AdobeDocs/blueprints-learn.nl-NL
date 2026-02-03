@@ -5,10 +5,10 @@ user-guide-description: Blauwdrukken zijn herhaalbare implementaties om vastgest
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 0add2a504e6ab8b6bafac78a72fc47a805440869
+source-git-commit: d5f3618fd811131e9d9c1fae16d7aab16aecc9e9
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 21%
+source-wordcount: '230'
+ht-degree: 24%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 21%
    + [Op apparaat gebaseerd - Anonieme doelgroep voor Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
    + Real-time Customer Data Platform (RTCDP) {#known-customer-audience-activation}
       + [Audience Activation naar sociale bestemmingen en Advertising-bestemmingen](/help/blueprints/audience-activation/advertising-activation.md)
-      + [Bewegingsblauwdruk voor publiek- en profielactivering naar Enterprise-doelen](/help/blueprints/audience-activation/enterprise-destinations.md)
+      + [Activering van doelgroepen en profielen naar Enterprise-bestemmingen](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Toegang in realtime profiel voor support- en verkoopscenario&#39;s](/help/blueprints/audience-activation/customer-activity.md)
       + [Edge-profieltoegang in realtime voor internet en mobiele Personalization](/help/blueprints/audience-activation/real-time-lookup.md)
       + [Publiek Collaboration met segmentovereenkomst](/help/blueprints/audience-activation/segment-match.md)
@@ -67,8 +67,8 @@ ht-degree: 21%
       + [Journey Optimizer met Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + Verouderde blauwdrukken{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/nl/docs/campaign-standard){target="_blank"}
-         + [&#x200B; Real-Time CDP met Adobe  [!DNL Campaign Standard] &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [ Real-Time CDP met Adobe  [!DNL Campaign Standard] ](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campagne v7{#campaign-v7}
          + [Campagne v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + Gegevensanalyse, intelligentie en AI/ML{#data-exploration}
