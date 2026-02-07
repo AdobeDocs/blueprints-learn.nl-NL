@@ -98,7 +98,7 @@ Voor overzicht of hubpagina&#39;s, gebruik een kortere structuur: intro, gebruik
 ## Verwijzen naar Adobe Experience League
 
 - **wanneer om** te verbinden: Verbinding met Experience League voor productdocumentatie, API verwijzingen, gidsen, leerprogramma&#39;s, en configuratiestappen. Dupliceer lange procedures niet; vat samen en verbind.
-- **formaat URL**: Gebruik volledige URLs. Voorkeur `https://experienceleague.adobe.com/docs/...` of `https://experienceleague.adobe.com/en/docs/...` . Voor ontwikkelaarsdocumenten is `https://developer.adobe.com/...` ook geldig.
+- **formaat URL**: Gebruik volledige URLs. Voorkeur `https://experienceleague.adobe.com/docs/?lang=nl-NL...` of `https://experienceleague.adobe.com/nl/docs/...` . Voor ontwikkelaarsdocumenten is `https://developer.adobe.com/...` ook geldig.
 - **Tekst van de Verbinding**: De beschrijvende tekst van het gebruik (b.v. [ leidt schema&#39;s ] (url)&quot;niet &quot;klik hier&quot;). Gebruik, indien van toepassing, `[!DNL Product Name]` voor productnamen in koppelingstekst.
 - **Verwante documentatiesectie**: Eind blauwdrukken met een &quot;Verwante documentatie&quot;sectie die verbindingen groeperen door categorie (b.v. de configuraties van de Bestemming, de documentatie van SDK, Profiel en segmentatie, Leerprogramma&#39;s).
 

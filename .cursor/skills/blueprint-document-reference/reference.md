@@ -65,7 +65,7 @@ Plak lange procedures van Experience League niet in de blauwdruk. Overzicht en k
 | Contenttype | Basis-URL | Voorbeeldpad |
 |--------------|----------|--------------|
 | Experience Platform-documenten | `https://experienceleague.adobe.com/docs/experience-platform/` | `.../profile/home.html`, `.../destinations/catalog/...` |
-| Experience League (en) | `https://experienceleague.adobe.com/en/docs/` | Dezelfde structuur als hierboven met `/en/` . |
+| Experience League (en) | `https://experienceleague.adobe.com/nl/docs/` | Dezelfde structuur als hierboven met `/en/` . |
 | Journey Optimizer | `https://experienceleague.adobe.com/docs/journey-optimizer/` | `.../using/get-started/guardrails.html` |
 | Web SDK | `https://experienceleague.adobe.com/docs/experience-platform/web-sdk/` | `.../home.html`, `.../commands/command-responses.html` |
 | Edge Network Server-API | `https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/` | `.../overview.html`, `.../guardrails.html` |
@@ -77,7 +77,7 @@ Gebruik het canonieke pad dat overeenkomt met de huidige Experience League-site 
 
 ### Opmaak van koppeling in markering
 
-- **Beschrijvende verbindingstekst**: `[Create schemas](https://experienceleague.adobe.com/...)` &quot;klik hier niet&quot;.
+- **Beschrijvende verbindingstekst**: `[Create schemas](https://experienceleague.adobe.com/nl...)` &quot;klik hier niet&quot;.
 - **de namen van het Product in tekst**: Gebruik `[!DNL Product Name]` per stijl van Adobe (b.v. `[!DNL Real-time Customer Profile]`).
 - **Externe verbindingen**: voeg `{target="_blank"}` slechts toe wanneer het malplaatje of de pijpleiding het vereist (controleer bestaande blauwdrukken in repo).
 
@@ -98,16 +98,16 @@ Voorbeeld:
 ## Related documentation
 
 ### Destination configurations
-* [Custom Personalization Connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
-* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
+* [Custom Personalization Connection](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
+* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
 
 ### SDK documentation
-* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)
-* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
+* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=nl-NL)
+* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=nl-NL)
 
 ### Profile and segmentation
-* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
-* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl-NL)
+* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL)
 ```
 
 &#x200B;---
