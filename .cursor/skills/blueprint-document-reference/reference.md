@@ -15,7 +15,7 @@ ht-degree: 1%
 | **blauwdruk van het Scenario** | Hoofdlettergebruik voor eenmalig gebruik: architectuur, stappen, instructies | bijv. `real-time-lookup.md`, `journey-optimizer-journeys.md` |
 | **TOC** | Navigatie; niet gebruiken als inhoudssjabloon | `help/blueprints/TOC.md` |
 
----
+&#x200B;---
 
 ## Volledige sectieverwijzing
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 - **Scenario&#39;s van de Vervaging** of **de Patronen van de Integratie**: Lijst met scenario naam, korte beschrijving, en verbinding aan de scenario blauwdruk.
 - **Eerste vereisten**, **Grafieken**, **Verwante documentatie**: Gelijk zoals hierboven; houd beknopt.
 
----
+&#x200B;---
 
 ## Adobe Experience League — Agent Directions
 
@@ -110,7 +110,7 @@ Voorbeeld:
 * [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 ```
 
----
+&#x200B;---
 
 ## Repo en inhoudsopgave
 
@@ -118,7 +118,7 @@ Voorbeeld:
 - **Assets**: Cobepaal de plaats met de blauwdruk (b.v. `assets/`, `images/`) of in een gedeelde omslag (b.v. `experience-platform/assets/`).
 - **TOC**: geef `help/blueprints/TOC.md` uit wanneer het toevoegen van, het anders noemen van, of het bewegen van blauwdrukpagina&#39;s. De voorgrond (`user-guide-title`, `breadcrumb-title`, `user-guide-description`, `product`, `mini-toc-levels`, `role`) en de hiërarchie `+` behouden.
 
----
+&#x200B;---
 
 ## Voorbeelden van verwijzingen in dit antwoord
 

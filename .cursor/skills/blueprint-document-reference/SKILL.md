@@ -23,8 +23,8 @@ Gebruik deze vaardigheid wanneer het creëren van of het uitgeven van blauwdrukd
 ## Snelle naslag
 
 1. **doel van het Document**: De blauwdrukken verstrekken systeem en gegevensstroomarchitectuur om te tonen hoe Adobe Experience Platform en de toepassingen worden geïntegreerd. Ze zijn visueel en technisch, niet op de markt.
-2. **Secties**: Gebruik de standaardsecties van het malplaatje; weglaat slechts wanneer niet van toepassing (zie [ reference.md ](reference.md)).
-3. **Experience League**: verkies het verbinden met Experience League voor productdocumenten, APIs, gidsen, en leerprogramma&#39;s. Gebruik volledige URLs; zie [ reference.md ](reference.md) voor patronen URL en het formatteren.
+2. **Secties**: Gebruik de standaardsecties van het malplaatje; weglaat slechts wanneer niet van toepassing (zie [&#x200B; reference.md &#x200B;](reference.md)).
+3. **Experience League**: verkies het verbinden met Experience League voor productdocumenten, APIs, gidsen, en leerprogramma&#39;s. Gebruik volledige URLs; zie [&#x200B; reference.md &#x200B;](reference.md) voor patronen URL en het formatteren.
 4. **Repo structuur**: De levende blauwdrukken onder `help/blueprints/`. `help/blueprints/TOC.md` bijwerken bij het toevoegen of verplaatsen van blauwdrukpagina&#39;s.
 
 ## Documentsjabloon
@@ -99,10 +99,10 @@ Voor overzicht of hubpagina&#39;s, gebruik een kortere structuur: intro, gebruik
 
 - **wanneer om** te verbinden: Verbinding met Experience League voor productdocumentatie, API verwijzingen, gidsen, leerprogramma&#39;s, en configuratiestappen. Dupliceer lange procedures niet; vat samen en verbind.
 - **formaat URL**: Gebruik volledige URLs. Voorkeur `https://experienceleague.adobe.com/docs/...` of `https://experienceleague.adobe.com/en/docs/...` . Voor ontwikkelaarsdocumenten is `https://developer.adobe.com/...` ook geldig.
-- **Tekst van de Verbinding**: De beschrijvende tekst van het gebruik (b.v. [ leidt schema&#39;s ](url)&quot;niet &quot;klik hier&quot;). Gebruik, indien van toepassing, `[!DNL Product Name]` voor productnamen in koppelingstekst.
+- **Tekst van de Verbinding**: De beschrijvende tekst van het gebruik (b.v. [ leidt schema&#39;s ] (url)&quot;niet &quot;klik hier&quot;). Gebruik, indien van toepassing, `[!DNL Product Name]` voor productnamen in koppelingstekst.
 - **Verwante documentatiesectie**: Eind blauwdrukken met een &quot;Verwante documentatie&quot;sectie die verbindingen groeperen door categorie (b.v. de configuraties van de Bestemming, de documentatie van SDK, Profiel en segmentatie, Leerprogramma&#39;s).
 
-Voor gedetailleerde patronen URL, verbinding groeperen, en voorbeelden, zie [ reference.md ](reference.md).
+Voor gedetailleerde patronen URL, verbinding groeperen, en voorbeelden, zie [&#x200B; reference.md &#x200B;](reference.md).
 
 ## Controlelijst voor verzending
 
@@ -116,6 +116,6 @@ Voor gedetailleerde patronen URL, verbinding groeperen, en voorbeelden, zie [ re
 
 ## Aanvullende resources
 
-- Volledige malplaatje en sectienota&#39;s: [ reference.md ](reference.md)
+- Volledige malplaatje en sectienota&#39;s: [&#x200B; reference.md &#x200B;](reference.md)
 - Bestaande blauwdrukken: `help/blueprints/` (bijvoorbeeld `audience-activation/real-time-lookup.md` , `customer-journeys/journey-optimizer/journey-optimizer-overview.md` )
 - Inhoudsopgave en navigatie: `help/blueprints/TOC.md`
