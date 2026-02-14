@@ -19,8 +19,8 @@ Adobe-klanten in verschillende bedrijfstakken zien de waarde van het op één li
 
 * Lumen (brainstormsessie): [Hoe Lumen flexibiliteit drijft voor de ervaringen van klanten van Omnichannel - S710](https://business.adobe.com/nl/summit/2022/sessions/how-lumen-drives-agility-for-omnichannel-customer-s710.html){target="_blank"}
 
-* BNY Mellon (baanbrekende top): [Hoe BNY Mellon de Uitvoering van de Campagne met Mensen, Proces en Technologie van de Adobe verbeterde - S127](https://business.adobe.com/events/experience-makers-live/2022/sessions/how-bny-mellon-improved-campaign-execution-with-pe-s127.html){target="_blank"}
+* BNY Mellon (baanbrekende top): [Hoe BNY Mellon de Uitvoering van de Campagne met Mensen, Proces en Technologie van de Adobe verbeterde - S127](https://business.adobe.com/nl/events/experience-makers-live/2022/sessions/how-bny-mellon-improved-campaign-execution-with-pe-s127.html){target="_blank"}
 
 * Commvault (casestudy): [Commvault creëert een marketingcentrum voor topkwaliteit met Adobe Marketo Engage om 1800+ campagnes per jaar uit te voeren](https://business.adobe.com/nl/customer-success-stories/commvault-case-study){target="_blank"}
 
-* Poly (blog): [Hoe Poly tandwielen heeft verplaatst om een nieuw publiek te bereiken met Adobe Experience Cloud](https://business.adobe.com/blog/basics/how-poly-shifted-gears-reach-new-audiences-adobe-experience-cloud){target="_blank"}
+* Poly (blog): [Hoe Poly tandwielen heeft verplaatst om een nieuw publiek te bereiken met Adobe Experience Cloud](https://business.adobe.com/nl/blog/basics/how-poly-shifted-gears-reach-new-audiences-adobe-experience-cloud){target="_blank"}
