@@ -67,8 +67,8 @@ Met om het even welke gegeven-gedreven organisatie, is het schemaontwerp belangr
 
 ### Beveiligingsmechanismen
 
-- **Journey Optimizer B2B edition** - zie de [&#x200B; productbeschrijving &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) voor reisgrenzen, knoopgrenzen, en bestemmingssteun.
-- **Real-Time CDP** — Zie [&#x200B; de guardrails van RTCDP &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) voor segmentatie en activeringsgrenzen.
+- **Journey Optimizer B2B edition** - zie de [&#x200B; productbeschrijving &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer-b2b.html) voor reisgrenzen, knoopgrenzen, en bestemmingssteun.
+- **Real-Time CDP** — Zie [&#x200B; de guardrails van RTCDP &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/guardrails/overview) voor segmentatie en activeringsgrenzen.
 
 ## Implementatie
 
@@ -121,6 +121,6 @@ Het **Betaalde 1&rbrace; blauwdruk van het Controlemechanisme van Media van Medi
 
 ## Gerelateerde documentatie
 
-- [&#x200B; het Kopen op groep-Gebaseerde Verkoop en de blauwdruk van het Beheer van de Reis &#x200B;](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — De reis van de Rekening en het kopen groepsreizen in AJO B2B.
-- [&#x200B; Adobe Journey Optimizer B2B edition &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — de documentatie van het Product.
+- [&#x200B; het Kopen op groep-Gebaseerde Verkoop en de blauwdruk van het Beheer van de Reis &#x200B;](https://experienceleague.adobe.com/nl/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — De reis van de Rekening en het kopen groepsreizen in AJO B2B.
+- [&#x200B; Adobe Journey Optimizer B2B edition &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b) — de documentatie van het Product.
 - [&#x200B; Real-time het Platform van Gegevens van de Klant B2B edition &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) - het publiek van de Rekening en activering.
