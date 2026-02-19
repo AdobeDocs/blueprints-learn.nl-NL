@@ -9,7 +9,7 @@ ht-degree: 0%
 
 De teams van de marketing die B2B betaalde media bij schaal in werking stellen staan voor een terugkerend probleem: **de rekeningen eindigen omhoog in veelvoudige campagnes tegelijkertijd** (persona, categorierusbewustzijn, oplossing-geleid, nastreven), die overseinen, oorzaken publieksvermoeidheid, en forceert handwerk-uploads, uitsluitingen, en onderdrukking-over LinkedIn Overeenkomst (de Bestemming van de Rekening). Zonder **watervalprioriteit** en **geautomatiseerde campagnetaak**, is er geen enige plaats om te beslissen welke rekening krijgt welk bericht, en de verrichtingen niet schrapen.
 
-Het **Betaalde Controlemechanisme van Media** is een perfecte oplossing in het richten van dit probleem. Het gebruikt **Adobe Journey Optimizer B2B edition (AJO B2B)** en **Adobe Experience Platform (AEP)** samen: één **rekeningsreis** leest een gekwalificeerd-rekeningspubliek van Real-Time CDP, past **spleet-weg (waterval) logica** toe om elke rekening aan precies één campagnerij toe te wijzen, en **activeert direct elke weg** aan betaalde media bestemmingen ({10.g. kedIn Gelijke Soorten publiek **) - zonder handlijsthandboeien.** Het resultaat is precisiecontrole, minder overlapping, en een herhaalbaar patroon voor multichannel B2B betaalde media orchestratie.
+Het **Betaalde Controlemechanisme van Media** is een perfecte oplossing in het richten van dit probleem. Het gebruikt **Adobe Journey Optimizer B2B edition (AJO B2B)** en **Adobe Experience Platform (AEP)** samen: één **rekeningsreis** leest een gekwalificeerd-rekeningspubliek van Real-Time CDP, past **spleet-weg (waterval) logica** toe om elke rekening aan precies één campagnerij toe te wijzen, en **activeert direct elke weg** aan betaalde media bestemmingen (&lbrace;10.g. kedIn Gelijke Soorten publiek **) - zonder handlijsthandboeien.** Het resultaat is precisiecontrole, minder overlapping, en een herhaalbaar patroon voor multichannel B2B betaalde media orchestratie.
 
 ## Gebruiksscenario: Het verhaal van een markeerteken: Waarom een controller belangrijk is
 
@@ -61,14 +61,14 @@ Stroomniveau:
 
 ## Gegevensmodellering in B2B AEP
 
-Met om het even welke gegeven-gedreven organisatie, is het schemaontwerp belangrijk. De rekening en de persoonprofielen in AEP/RTCDP moeten de attributen omvatten die in **worden gebruikt spleet-weg voorwaarden** (b.v., achtervolgingsvlag, oplossingsrente, persona, intentcategorie, betrokkenheidsscore). B2B-schema&#39;s (XDM Business Account, XDM Individual Profile, relationeel) moeten uw hiërarchie en gegevensbronnen vertegenwoordigen. Voor details, zie [ de schema&#39;s van RTCDP B2B ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) en [ documentatie van AJO B2B ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/home).
+Met om het even welke gegeven-gedreven organisatie, is het schemaontwerp belangrijk. De rekening en de persoonprofielen in AEP/RTCDP moeten de attributen omvatten die in **worden gebruikt spleet-weg voorwaarden** (b.v., achtervolgingsvlag, oplossingsrente, persona, intentcategorie, betrokkenheidsscore). B2B-schema&#39;s (XDM Business Account, XDM Individual Profile, relationeel) moeten uw hiërarchie en gegevensbronnen vertegenwoordigen. Voor details, zie [&#x200B; de schema&#39;s van RTCDP B2B &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) en [&#x200B; documentatie van AJO B2B &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/home).
 
 **Nota:** Splitst-weg logica in de reis gebruikt profiel en, waar gesteund, relationele gegevens; zorg ervoor de gebieden u voor watervallogica nodig hebt beschikbaar in de reis zijn.
 
 ### Beveiligingsmechanismen
 
-- **Journey Optimizer B2B edition** - zie de [ productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) voor reisgrenzen, knoopgrenzen, en bestemmingssteun.
-- **Real-Time CDP** — Zie [ de guardrails van RTCDP ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) voor segmentatie en activeringsgrenzen.
+- **Journey Optimizer B2B edition** - zie de [&#x200B; productbeschrijving &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) voor reisgrenzen, knoopgrenzen, en bestemmingssteun.
+- **Real-Time CDP** — Zie [&#x200B; de guardrails van RTCDP &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) voor segmentatie en activeringsgrenzen.
 
 ## Implementatie
 
@@ -117,10 +117,10 @@ In de volgende stappen worden aanwijzingen gegeven voor de implementatie van de 
 
 ## Overzicht
 
-Het **Betaalde 1} blauwdruk van het Controlemechanisme van Media van Media {toont hoe** AJO B2B en AEP **samenwerken om B2B-marketers één enkele, geautomatiseerde manier te geven om rekeningen aan campagnes toe te wijzen en aan betaalde media te activeren: één hoofdpubliek, één reis, watervalgespleten logica, en directe activering aan bestemmingen-geen handlijsthandschoenen.** Het vestigt een herhaalbaar patroon voor uit meerdere kanalen B2B betaalde media orchestratie en helpt overlapping verminderen, relevantie, en schaalverrichtingen verbeteren.
+Het **Betaalde 1&rbrace; blauwdruk van het Controlemechanisme van Media van Media &lbrace;toont hoe** AJO B2B en AEP **samenwerken om B2B-marketers één enkele, geautomatiseerde manier te geven om rekeningen aan campagnes toe te wijzen en aan betaalde media te activeren: één hoofdpubliek, één reis, watervalgespleten logica, en directe activering aan bestemmingen-geen handlijsthandschoenen.** Het vestigt een herhaalbaar patroon voor uit meerdere kanalen B2B betaalde media orchestratie en helpt overlapping verminderen, relevantie, en schaalverrichtingen verbeteren.
 
 ## Gerelateerde documentatie
 
-- [ het Kopen op groep-Gebaseerde Verkoop en de blauwdruk van het Beheer van de Reis ](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — De reis van de Rekening en het kopen groepsreizen in AJO B2B.
-- [ Adobe Journey Optimizer B2B edition ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — de documentatie van het Product.
-- [ Real-time het Platform van Gegevens van de Klant B2B edition ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) - het publiek van de Rekening en activering.
+- [&#x200B; het Kopen op groep-Gebaseerde Verkoop en de blauwdruk van het Beheer van de Reis &#x200B;](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — De reis van de Rekening en het kopen groepsreizen in AJO B2B.
+- [&#x200B; Adobe Journey Optimizer B2B edition &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — de documentatie van het Product.
+- [&#x200B; Real-time het Platform van Gegevens van de Klant B2B edition &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) - het publiek van de Rekening en activering.
