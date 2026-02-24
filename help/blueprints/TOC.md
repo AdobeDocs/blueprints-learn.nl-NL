@@ -5,9 +5,9 @@ user-guide-description: Blauwdrukken zijn herhaalbare implementaties om vastgest
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 4fece5535efcbcdc37a87aedc188c5a8d27269cc
+source-git-commit: fb814fe6f5e4e774a96cbe75fea2499d849716b4
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '239'
 ht-degree: 17%
 
 ---
@@ -39,6 +39,7 @@ ht-degree: 17%
    + [B2B-rekeningactivering](/help/blueprints/b2b/b2b-account-activation.md)
    + [Op groepsbasis kopen van marketing en reisbeheer](/help/blueprints/b2b/b2b-buying-group-journeys.md)
    + [B2B-reizen met Marketo-gegevens](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
+   + [B2B Betaalde mediacontrole](/help/blueprints/b2b/ajo-b2b-paid-media-controller.md)
    + Integratieblauwdruk voor Marketo Engage en Workfront{#marketo-engage-and-workfront-integration-blueprint}
       + [Overzicht](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
       + [Innemen en maken](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
@@ -67,8 +68,8 @@ ht-degree: 17%
       + [Journey Optimizer met Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + Verouderde blauwdrukken{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/nl/docs/campaign-standard){target="_blank"}
-         + [&#x200B; Real-Time CDP met Adobe  [!DNL Campaign Standard] &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [ Real-Time CDP met Adobe  [!DNL Campaign Standard] ](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campagne v7{#campaign-v7}
          + [Campagne v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + Gegevensanalyse, intelligentie en AI/ML{#data-exploration}
