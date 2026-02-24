@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Journey Optimizer - blauwdrukken voor besluitvormingsbeheer
 
-Gelieve te verwijzen naar de volgende documentatie voor [ Beheer van het Besluit ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+Gelieve te verwijzen naar de volgende documentatie voor [&#x200B; Beheer van het Besluit &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
 
-Raadpleeg de volgende documentatie voor handleidingen met betrekking tot Beslissingsbeheer. [ Gidsen van het Beheer van het Besluit ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
+Raadpleeg de volgende documentatie voor handleidingen met betrekking tot Beslissingsbeheer. [&#x200B; Gidsen van het Beheer van het Besluit &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
 
 Adobe Decision Management is een dienst die wordt verleend als onderdeel van Adobe Journey Optimizer. Deze blauwdruk schetst de gebruiksgevallen en de technische mogelijkheden van de toepassing en verstrekt een diepe duik in de diverse architecturale componenten en overwegingen die omhoog het Beheer van de Beslissing maken.
 
@@ -27,11 +27,11 @@ De beslissingsmanagementcapaciteit bestaat uit twee hoofdcomponenten:
 
 <img src="images/offers_overview.png" alt="Beslissingsbeheer" style="width:100%; border:1px solid #4a4a4a" />
 
-Beslissingsbeheer kan op twee manieren worden ingezet, op de rand of via de hub. Elk van deze methodes heeft een specifieke reeks interfaces en protocollen voor het werken van de dienst zoals geschetst in de respectieve hieronder vermelde blauwdrukken. De extra details kunnen ook in de [ documentatie van het Beheer van het Besluit ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html) worden verkregen.
+Beslissingsbeheer kan op twee manieren worden ingezet, op de rand of via de hub. Elk van deze methodes heeft een specifieke reeks interfaces en protocollen voor het werken van de dienst zoals geschetst in de respectieve hieronder vermelde blauwdrukken. De extra details kunnen ook in de [&#x200B; documentatie van het Beheer van het Besluit &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html) worden verkregen.
 
 ## Beslissingsbeheer op de hub
 
-De eerste is via de Adobe Experience Platform hub, een centrale datacenterarchitectuur. De hubarchitectuur is het best geschikt voor klantenervaringen die geen lage latentie en hoge productie vereisen, maar een vollediger mening van het klantenprofiel vereisen, omvatten de voorbeelden aanbiedingsbesluiten die voor kiosken of agent bijgewoonde ervaringen zoals in callcenters of in persoonlijke interactie worden verstrekt. Aanbiedingen die in e-mail, de berichten van SMS, of dupberichten en andere uitgaande campagnes worden opgenomen worden ook aangedreven door de hubbenadering. Meer over het Beheer van het Besluit op de hub leren verwijs naar het [ Beheer van het Besluit over de hub ](decision-management-hub.md) blauwdruk.
+De eerste is via de Adobe Experience Platform hub, een centrale datacenterarchitectuur. De hubarchitectuur is het best geschikt voor klantenervaringen die geen lage latentie en hoge productie vereisen, maar een vollediger mening van het klantenprofiel vereisen, omvatten de voorbeelden aanbiedingsbesluiten die voor kiosken of agent bijgewoonde ervaringen zoals in callcenters of in persoonlijke interactie worden verstrekt. Aanbiedingen die in e-mail, de berichten van SMS, of dupberichten en andere uitgaande campagnes worden opgenomen worden ook aangedreven door de hubbenadering. Meer over het Beheer van het Besluit op de hub leren verwijs naar het [&#x200B; Beheer van het Besluit over de hub &#x200B;](decision-management-hub.md) blauwdruk.
 
 * Aanbiedingsgeschiktheid kan werken volgens het volledige real-time klantprofiel, inclusief alle kenmerken en ervaringsgebeurtenissen
 
@@ -48,7 +48,7 @@ De eerste is via de Adobe Experience Platform hub, een centrale datacenterarchit
 
 ## Beslissingsbeheer aan de rand
 
-De tweede aanpak is via de Experience [!DNL Edge Network] , een wereldwijd gedistribueerde, geografisch gesitueerde infrastructuur die snelle sub-seconde- en millisecondeervaringen kan bieden. De eindgebruikerservaring die wordt uitgevoerd door de randinfrastructuur die het dichtst bij de geo-locatie van de consument ligt om de latentie te minimaliseren. Het beheer van beslissingen op de Edge is ontworpen om in real-time ervaringen van consumenten te dienen, zoals online of mobiele binnenkomende verzoeken om personalisatie. Meer over het Beheer van het Besluit op Edge leren verwijs naar het [ Beheer van het Besluit op de rand ](decision-management-edge.md) blauwdruk.
+De tweede aanpak is via de Experience [!DNL Edge Network] , een wereldwijd gedistribueerde, geografisch gesitueerde infrastructuur die snelle sub-seconde- en millisecondeervaringen kan bieden. De eindgebruikerservaring die wordt uitgevoerd door de randinfrastructuur die het dichtst bij de geo-locatie van de consument ligt om de latentie te minimaliseren. Het beheer van beslissingen op de Edge is ontworpen om in real-time ervaringen van consumenten te dienen, zoals online of mobiele binnenkomende verzoeken om personalisatie. Meer over het Beheer van het Besluit op Edge leren verwijs naar het [&#x200B; Beheer van het Besluit op de rand &#x200B;](decision-management-edge.md) blauwdruk.
 
 ### Gebruik gevallen voor Beslissingsbeheer aan de rand
 
@@ -61,8 +61,8 @@ De tweede aanpak is via de Experience [!DNL Edge Network] , een wereldwijd gedis
 
 ## Gerelateerde documentatie
 
-* [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform.html)
-* [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer.html)
-* [ Adobe Journey Optimizer Beslissingsbeheer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-* [ de Beschrijving van het Product van Adobe Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
-* [ de Beschrijving van het Product van het Beheer van het Besluit van Adobe ](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
+* [&#x200B; Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform.html)
+* [&#x200B; Adobe Journey Optimizer &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer.html)
+* [&#x200B; Adobe Journey Optimizer Beslissingsbeheer &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+* [&#x200B; de Beschrijving van het Product van Adobe Journey Optimizer &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
+* [&#x200B; de Beschrijving van het Product van het Beheer van het Besluit van Adobe &#x200B;](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
