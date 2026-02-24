@@ -3,14 +3,14 @@ title: Verwijzingen naar reizen van klanten
 description: Lever individuele, just-in-time en georkestreerde klantenervaringen over schermen.
 solution: Journey Optimizer, Campaign, Experience Platform
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 8ee7fe8d38343a669f5ad57e69367fbe6a3e1024
+source-git-commit: 49251caac58cd8f62dff977f94ea6a716aa94250
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Blauwpatronen voor reizen van klanten
+# Verwijzingen naar reizen van klanten
 
 Moderne marketing teams vereisen platforms die zowel reactieve betrokkenheid-antwoordend aan individueel klantengedrag-en pro-actieve voorlichting-initiërend campagnes kunnen steunen die publiek in omzettingskanalen begeleiden. Deze gebruiksscenario&#39;s bestrijken kanalen zoals e-mail, SMS, push en in toenemende mate, internet en toepassingen.
 
