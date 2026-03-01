@@ -29,7 +29,7 @@ Het profiel van het aandeel en publieksveranderingen en gebeurtenissen in het st
 
 ## Verwante documentatie
 
-Het extra detail op configuratie van wolkenopslag en ondernemingsbestemmingen kan in de [&#x200B; Documentatie van Doelen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview) worden gevonden.
+Het extra detail op configuratie van wolkenopslag en ondernemingsbestemmingen kan in de [&#x200B; Documentatie van Doelen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/cloud-storage/overview) worden gevonden.
 
 ## Beveiligingsmechanismen
 
