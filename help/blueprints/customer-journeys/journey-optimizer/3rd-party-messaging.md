@@ -3,10 +3,10 @@ title: Journey Optimizer - blauwdruk voor communicatie van derden
 description: Toont aan hoe Adobe Journey Optimizer met de systemen van het derdeoverseinen kan worden gebruikt om gepersonaliseerde mededelingen te verzenden.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: 8fcc71abcc29f5dc7d2e2b3a5afcc60d9e844fcc
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 2%
+source-wordcount: '563'
+ht-degree: 1%
 
 ---
 
@@ -38,9 +38,9 @@ Toont aan hoe Adobe Journey Optimizer met de systemen van het derdeoverseinen ka
 
 ## Beveiligingsmechanismen
 
-[&#x200B; Journey Optimizer Guardrails Product Link &#x200B;](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=nl-NL)
+[Journey Optimizer Guardrails Product Link](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-[&#x200B; Guardrails en de Begeleiding van de Latentie van Eind tot Eind &#x200B;](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=nl-NL)
+[Hulplijnen en advies voor end-to-end latentie](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 <br>
 
@@ -50,22 +50,22 @@ Toont aan hoe Adobe Journey Optimizer met de systemen van het derdeoverseinen ka
 
 #### Schema/datasets
 
-1. [&#x200B; vormt schema&#39;s &#x200B;](https://experienceleague.adobe.com/?lang=nl&recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, die op klant-geleverde gegevens wordt gebaseerd.
-1. [&#x200B; creeer datasets &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=nl-NL) in Experience Platform voor gegevens die moeten worden opgenomen.
-1. [&#x200B; voegt de etiketten van het gegevensgebruik &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=nl-NL) in Experience Platform aan de dataset voor bestuur toe.
-1. [&#x200B; creeer beleid &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=nl-NL) dat bestuur op bestemmingen afdwingt.
+1. [ vormt schema&#39;s ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) in Experience Platform, die op klant-geleverde gegevens wordt gebaseerd.
+1. [ creeer datasets ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) in Experience Platform voor gegevens die moeten worden opgenomen.
+1. [ voegt de etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) in Experience Platform aan de dataset voor bestuur toe.
+1. [ creeer beleid ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html) dat bestuur op bestemmingen afdwingt.
 
 #### Profiel/identiteit
 
-1. [&#x200B; creeer om het even welke klant-specifieke namespaces &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=nl-NL).
-1. [&#x200B; voegt identiteiten aan schema&#39;s &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=nl-NL) toe.
-1. [&#x200B; laat de schema&#39;s en datasets voor Profiel &#x200B;](https://experienceleague.adobe.com/nl/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile) toe.
-1. [&#x200B; opstelling voegt beleid &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=nl-NL) voor verschillende meningen van [!UICONTROL &#x200B; in real time het Profiel van de Klant &#x200B;] (facultatief) samen.
+1. [ creeer om het even welke klant-specifieke namespaces ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [ voegt identiteiten aan schema&#39;s ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html) toe.
+1. [ laat de schema&#39;s en datasets voor Profiel ](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile) toe.
+1. [ opstelling voegt beleid ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) voor verschillende meningen van [!UICONTROL  in real time het Profiel van de Klant ] (facultatief) samen.
 1. Maak segmenten voor gebruik in Reis.
 
 #### Bronnen/bestemmingen
 
-1. [&#x200B; Samenvatting gegevens in Experience Platform &#x200B;](https://experienceleague.adobe.com/?lang=nl&recommended=ExperiencePlatform-D-1-2020.1.dataingestion) gebruikend het stromen APIs &amp; bronschakelaars.
+1. [ Samenvatting gegevens in Experience Platform ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) gebruikend het stromen APIs &amp; bronschakelaars.
 
 ### Journey Optimizer
 
@@ -83,14 +83,14 @@ Toont aan hoe Adobe Journey Optimizer met de systemen van het derdeoverseinen ka
    * Identiteit voor [!DNL Edge Network]
    * Mobiele kern
 1. Zorg ervoor dat u beschikt over een specifieke gegevensstroom voor implementatie van mobiele apps versus webimplementaties
-1. Voor meer informatie volg de [&#x200B; Mobiele Gids van Adobe Journey Optimizer &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/)
+1. Voor meer informatie volg de [ Mobiele Gids van Adobe Journey Optimizer ](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/)
 
 <br>
 
 ## Gerelateerde documentatie
 
-* [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform.html?lang=nl-NL)
-* [&#x200B; de documentatie van de Markeringen van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl)
-* [&#x200B; Experience Platform Mobile SDK documentatie &#x200B;](https://experienceleague.adobe.com/docs/mobile.html?lang=nl-NL)
-* [&#x200B; documentatie van Journey Optimizer &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=nl-NL)
-* [&#x200B; de Beschrijving van het Product van Journey Optimizer &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform.html)
+* [Experience Platform-tagdocumentatie](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
+* [Experience Platform Mobile SDK-documentatie](https://experienceleague.adobe.com/docs/mobile.html)
+* [Journey Optimizer-documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
+* [Journey Optimizer-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)

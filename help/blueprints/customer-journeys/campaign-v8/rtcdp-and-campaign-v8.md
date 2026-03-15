@@ -3,10 +3,10 @@ title: Real-Time CDP met Adobe Campaign v8-integratiepatroon
 description: Toont hoe de Adobe Experience Platform en zijn Real-Time Klantprofiel en gecentraliseerd segmenteringshulpmiddel met Adobe Campaign v8 kunnen worden gebruikt om gepersonaliseerde gesprekken te leveren.
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: 10d49e3b712fc9d4ecdf41defe6e62dde2a86b72
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 3%
+source-wordcount: '264'
+ht-degree: 2%
 
 ---
 
@@ -38,18 +38,18 @@ Toont hoe de Adobe [!DNL Experience Platform] en zijn Real-Time Klantprofiel en 
 ## Implementatiestappen
 
 Raadpleeg de volgende documentatie over het configureren van de v8-bronaansluiting voor Campagne naar Adobe Experience Platform en de doelconnector voor het Real-time Customer Data Platform naar Campaign v8.
-[&#x200B; Campagne en de Connectors van AEP &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=nl-NL)
+[Campagne en de Connectors van AEP ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=en)
 
 ## Beveiligingsmechanismen
 
 ### Adobe Campaign
 
-* Verwijs naar de de bronschakelaardocumentatie van de Campagne - [&#x200B; Verbinding van Source van de Campagne &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/campaign.html?lang=nl-NL)
+* Verwijs naar de de bronschakelaardocumentatie van de Campagne - [ Verbinding van Source van de Campagne ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/campaign.html?lang=en)
 * Alleen ondersteuning voor implementatie van één organisatie in Adobe Campaign
 
 
 ### Experience Platform Real-time delen van klantgegevens Platform
 
-* Verwijs naar de schakelaar van de Bestemming van de Campagne van RTCDP - [&#x200B; Verbinding van de Campagne van RTCDP &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=nl-NL)
+* Verwijs naar de schakelaar van de Bestemming van de Campagne van RTCDP - [ Verbinding van de Campagne van RTCDP ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html)
 
-* Zie profiel en gegevensingestition guardrails voor AEP - [&#x200B; Verbinding &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL)
+* Zie profiel en gegevensingestition guardrails voor AEP - [ Verbinding ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)

@@ -3,10 +3,10 @@ title: Campagne v7 blauwdruk
 description: Leer over de blauwdruk van de Campagne v7 voor op partij-gebaseerde overseinenprogramma's, het aan boord nemen en re-marketing campagnes, directe postreclame, en eenvoudig transactieoverseinen.
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
-source-git-commit: 10d49e3b712fc9d4ecdf41defe6e62dde2a86b72
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 1%
+source-wordcount: '119'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 >
 > Deze blauwdruk voor Adobe Campaign v7 is vervangen en wordt niet meer ondersteund. Raadpleeg de blauwdruk voor Adobe Campaign v8 voor de meest recente richtlijnen, architectuur en best practices.
 > 
-> 👉 Mening [&#x200B; Adobe  [!DNL Campaign]  v8 Vervaging &#x200B;](../campaign-v8/campaign-v8-overview.md))
+> 👉 Mening [ Adobe  [!DNL Campaign]  v8 Vervaging ](../campaign-v8/campaign-v8-overview.md))
 
 <br>
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ## Gerelateerde documentatie
 
-* [&#x200B; de documentatie van de Campagne v7 &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=nl-NL)
-* [&#x200B; Campagne v7 Beschrijving van het Product &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-* [&#x200B; de documentatie van de Markeringen van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/launch.html?lang=nl-NL)
-* [&#x200B; Experience Platform Mobile SDK documentatie &#x200B;](https://experienceleague.adobe.com/docs/mobile.html?lang=nl-NL)
+* [Campagne v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
+* [Campagne v7 productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
+* [Experience Platform-tagdocumentatie](https://experienceleague.adobe.com/docs/launch.html?lang=en)
+* [Experience Platform Mobile SDK-documentatie](https://experienceleague.adobe.com/docs/mobile.html?lang=en)

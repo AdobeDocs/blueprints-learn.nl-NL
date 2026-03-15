@@ -2,10 +2,11 @@
 title: '[!DNL Journey Optimizer] - Campagneorganisatie'
 description: Laat marketers toe om geplande, op publiek-gebaseerde, multi-step marketing mededelingen over uitgaande overseinenkanalen te coördineren.
 solution: Journey Optimizer
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+exl-id: a8ff16f8-146d-4e1f-9bd0-9eda6af0c69b
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 1%
+source-wordcount: '344'
+ht-degree: 0%
 
 ---
 
@@ -46,17 +47,17 @@ Met AJO Campaign Orchestration kunnen marketers geplande, op het publiek gebasee
 
 ## Beveiligingsmechanismen
 
-[&#x200B; Orchestrated Campaigns Product Link &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/guardrails)
+[Geordende productkoppeling voor campagnes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/guardrails)
 
-[&#x200B; Guardrails en de Begeleiding van de Latentie van Eind tot Eind &#x200B;](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails)
+[Hulplijnen en advies voor end-to-end latentie](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails)
 
 <br>
 
 ## Gerelateerde documentatie
 
-- [[!DNL Journey Optimizer]  Geordende Campagnes &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/orchestrated-campaigns-landing-page.html)
-- [[!DNL Experience Platform]  documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform.html?lang=nl-NL)
-- [[!DNL Experience Platform]  documentatie van Markeringen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl)
-- [[!DNL Experience Platform Mobile SDK]  documentatie &#x200B;](https://experienceleague.adobe.com/docs/mobile.html?lang=nl-NL)
-- [[!DNL Journey Optimizer]  documentatie &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=nl-NL)
-- [[!DNL Journey Optimizer]  productbeschrijving &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html)
+- [[!DNL Journey Optimizer] Geordende campagnes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/orchestrated-campaigns-landing-page.html)
+- [[!DNL Experience Platform] documentatie](https://experienceleague.adobe.com/docs/experience-platform.html)
+- [[!DNL Experience Platform] Documentatie over tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
+- [[!DNL Experience Platform Mobile SDK] documentatie](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer] documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
+- [[!DNL Journey Optimizer] productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
