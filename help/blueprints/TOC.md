@@ -1,14 +1,14 @@
 ---
 user-guide-title: Klantenervaring, blauwdrukken voor ordners
 breadcrumb-title: blauwdrukken
-user-guide-description: Blauwdrukken zijn herhaalbare implementaties om vastgestelde bedrijfsproblemen aan te pakken en bevatten architectuurdiagrammen, technische overwegingen en relevante documentatiekoppelingen.
+user-guide-description: De blauwdrukken zijn herhaalbare implementaties om gevestigde bedrijfsproblemen aan te pakken en architectuurdiagrammen, technische overwegingen, en relevante documentatiekoppelingen te bevatten.
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: fb814fe6f5e4e774a96cbe75fea2499d849716b4
+source-git-commit: ffef3a39ae84b85167a3b8b8a3622c76fb6cb251
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 17%
+source-wordcount: '276'
+ht-degree: 8%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 17%
    + [B2B-rekeningactivering](/help/blueprints/b2b/b2b-account-activation.md)
    + [Op groepsbasis kopen van marketing en reisbeheer](/help/blueprints/b2b/b2b-buying-group-journeys.md)
    + [B2B-reizen met Marketo-gegevens](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
+   + [B2B Customer Journey Analytics](/help/blueprints/customer-journey-analytics/b2b-cja.md)
    + [B2B Betaalde mediacontrole](/help/blueprints/b2b/ajo-b2b-paid-media-controller.md)
    + Integratieblauwdruk voor Marketo Engage en Workfront{#marketo-engage-and-workfront-integration-blueprint}
       + [Overzicht](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
@@ -49,6 +50,7 @@ ht-degree: 17%
    + [Adobe Commerce en Real-Time CDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [Overzicht](/help/blueprints/customer-journey-analytics/overview.md)
+   + [B2B Customer Journey Analytics](/help/blueprints/customer-journey-analytics/b2b-cja.md)
    + [CJA-publiek delen met RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
    + [CJA en Journey Optimizer](/help/blueprints/customer-journey-analytics/cja-ajo.md)
 + Reizen van klanten{#customer-journeys}
@@ -68,8 +70,8 @@ ht-degree: 17%
       + [Journey Optimizer met Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + Verouderde blauwdrukken{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/nl/docs/campaign-standard){target="_blank"}
-         + [&#x200B; Real-Time CDP met Adobe  [!DNL Campaign Standard] &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Real-Time CDP met Adobe  [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campagne v7{#campaign-v7}
          + [Campagne v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + Gegevensanalyse, intelligentie en AI/ML{#data-exploration}
