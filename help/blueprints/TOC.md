@@ -5,9 +5,9 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: ffef3a39ae84b85167a3b8b8a3622c76fb6cb251
+source-git-commit: 1b722db275b3360fc443a67e07c7162909c32d72
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '265'
 ht-degree: 8%
 
 ---
@@ -39,15 +39,12 @@ ht-degree: 8%
    + [B2B-rekeningactivering](/help/blueprints/b2b/b2b-account-activation.md)
    + [Op groepsbasis kopen van marketing en reisbeheer](/help/blueprints/b2b/b2b-buying-group-journeys.md)
    + [B2B-reizen met Marketo-gegevens](/help/blueprints/b2b/b2b-journeys-with-marketo.md)
-   + [B2B Customer Journey Analytics](/help/blueprints/customer-journey-analytics/b2b-cja.md)
    + [B2B Betaalde mediacontrole](/help/blueprints/b2b/ajo-b2b-paid-media-controller.md)
    + Integratieblauwdruk voor Marketo Engage en Workfront{#marketo-engage-and-workfront-integration-blueprint}
       + [Overzicht](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md)
       + [Innemen en maken](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
       + [Reviseren en goedkeuren](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
       + [Succesverhalen van klanten](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
-+ Inhoud en handel{#content-commerce}
-   + [Adobe Commerce en Real-Time CDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
 + Customer Journey Analytics{#customer-journey-analytics}
    + [Overzicht](/help/blueprints/customer-journey-analytics/overview.md)
    + [B2B Customer Journey Analytics](/help/blueprints/customer-journey-analytics/b2b-cja.md)
@@ -70,8 +67,8 @@ ht-degree: 8%
       + [Journey Optimizer met Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + Verouderde blauwdrukken{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/nl/docs/campaign-standard){target="_blank"}
-         + [Real-Time CDP met Adobe  [!DNL Campaign Standard]](https://experienceleague.adobe.com/nl/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Real-Time CDP met Adobe  [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campagne v7{#campaign-v7}
          + [Campagne v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + Gegevensanalyse, intelligentie en AI/ML{#data-exploration}
