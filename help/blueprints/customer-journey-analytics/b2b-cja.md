@@ -29,29 +29,29 @@ Customer Journey Analytics B2B edition maakt rapportage en analyse op basis van 
 ## Vereisten
 
 * [!DNL Customer Journey Analytics] B2B edition machtiging.
-* B2B en gedragsgegevens in Adobe Experience Platform: B2B datasets (rekeningen, kansen, personen, campagnes, marketing lijsten, B2B activiteiten) en gebeurtenisgegevens (Web, mobiel, of andere kanalen) beschikbaar in de verbinding van a [ CJA ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html).
-* [ B2B noemend voor CJA ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/b2b.html): B2B-Specifieke montages van de gegevensmening (rekeningsidentiteitskaart, opportuniteidentiteitskaart, en verwante dimensies) die voor de verbinding wordt gevormd.
+* B2B en gedragsgegevens in Adobe Experience Platform: B2B datasets (rekeningen, kansen, personen, campagnes, marketing lijsten, B2B activiteiten) en gebeurtenisgegevens (Web, mobiel, of andere kanalen) beschikbaar in de verbinding van a [&#x200B; CJA &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html).
+* [&#x200B; B2B noemend voor CJA &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/b2b.html): B2B-Specifieke montages van de gegevensmening (rekeningsidentiteitskaart, opportuniteidentiteitskaart, en verwante dimensies) die voor de verbinding wordt gevormd.
 
 ## Architectuur
 
-![ architectuur van Customer Journey Analytics met B2B- rekening en opportuniteitsgegevens verenigd voor reisanalyse ](assets/CJA.svg){zoomable="yes"}
+![&#x200B; architectuur van Customer Journey Analytics met B2B- rekening en opportuniteitsgegevens verenigd voor reisanalyse &#x200B;](assets/CJA.svg){zoomable="yes"}
 
 Gegevens lopen van Experience Platform (B2B en gebeurtenissendatasets) naar [!DNL Customer Journey Analytics] via een CJA-verbinding. B2B-afmetingen worden weergegeven in gegevensweergaven, zodat analyse en publiek kunnen worden opgebouwd op account-, opportuniteits- en persoonniveaus.
 
 ## Beveiligingsmechanismen
 
-* Voor het productgrenzen en de aanspraken van B2B edition, zie [ Customer Journey Analytics B2B productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics-b2b.html).
-* Voor het Platform van Analytics en de technische grenzen van CJA, zie [ de gidsen van het Platform van Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails).
-* Voor CJA gegevensopname en verbindingsgrenzen, zie [ de guardrails van de gegevensopname van Customer Journey Analytics ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F).
-* Als het publiceren van het publiek van CJA aan het Platform van de Gegevens van de Klant in real time, zie [ het publiek dat van Customer Journey Analytics guardrails deelt ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency).
-* Voor de latentie van begin tot eind en platformbegeleiding, verwijs naar het [ document van de plaatsingsgidsen ](../experience-platform/guardrails.md).
+* Voor het productgrenzen en de aanspraken van B2B edition, zie [&#x200B; Customer Journey Analytics B2B productbeschrijving &#x200B;](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics-b2b.html).
+* Voor het Platform van Analytics en de technische grenzen van CJA, zie [&#x200B; de gidsen van het Platform van Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails).
+* Voor CJA gegevensopname en verbindingsgrenzen, zie [&#x200B; de guardrails van de gegevensopname van Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F).
+* Als het publiceren van het publiek van CJA aan het Platform van de Gegevens van de Klant in real time, zie [&#x200B; het publiek dat van Customer Journey Analytics guardrails deelt &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency).
+* Voor de latentie van begin tot eind en platformbegeleiding, verwijs naar het [&#x200B; document van de plaatsingsgidsen &#x200B;](../experience-platform/guardrails.md).
 
 ## Implementatiestappen
 
-1. **Samenvatting B2B en gebeurtenisgegevens in Experience Platform** - breng in rekening, kans, persoon, campagne, en activiteitengegevens, plus gedragsgebeurtenissen, gebruikend [ bronnen ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html) (b.v. [!DNL Marketo Engage], CRM, of andere B2B schakelaars).
-2. **creeer een verbinding van CJA** — [ voeg de relevante datasets van Experience Platform ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) (B2B en gebeurtenis) aan een verbinding van Customer Journey Analytics toe.
-3. **vorm B2B in de gegevensmening** - laat [ B2B het noemen en zeer belangrijke dimensies ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/b2b.html) toe (rekening identiteitskaart, opportuniteidentiteitskaart, enz.) in de gegevensweergave(en) van de verbinding.
-4. **bouwt op rekening-gebaseerde analyse en publiek** - Gebruik [ B2B van CJA gebruiksgevallen en het melden ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html) om rapporten, onderbrekingen, en publiek op rekening en opportuniteitsniveau tot stand te brengen; naar keuze [ publiceer publiek aan Real-time CDP ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html) voor activering.
+1. **Samenvatting B2B en gebeurtenisgegevens in Experience Platform** - breng in rekening, kans, persoon, campagne, en activiteitengegevens, plus gedragsgebeurtenissen, gebruikend [&#x200B; bronnen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html) (b.v. [!DNL Marketo Engage], CRM, of andere B2B schakelaars).
+2. **creeer een verbinding van CJA** — [&#x200B; voeg de relevante datasets van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) (B2B en gebeurtenis) aan een verbinding van Customer Journey Analytics toe.
+3. **vorm B2B in de gegevensmening** - laat [&#x200B; B2B het noemen en zeer belangrijke dimensies &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/b2b.html) toe (rekening identiteitskaart, opportuniteidentiteitskaart, enz.) in de gegevensweergave(en) van de verbinding.
+4. **bouwt op rekening-gebaseerde analyse en publiek** - Gebruik [&#x200B; B2B van CJA gebruiksgevallen en het melden &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html) om rapporten, onderbrekingen, en publiek op rekening en opportuniteitsniveau tot stand te brengen; naar keuze [&#x200B; publiceer publiek aan Real-time CDP &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html) voor activering.
 
 ## Gerelateerde documentatie
 

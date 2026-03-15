@@ -33,7 +33,7 @@ Marketers kunnen drie belangrijke gebruiksgevallen ontgrendelen door op hun acco
 
 ## Architectuur
 
-![ de architectuur van de Verwijzing voor B2B de Blauwdruk van Audience Activation van de Rekening ](assets/b2b-blueprint-account-audience-activation.png)
+![&#x200B; de architectuur van de Verwijzing voor B2B de Blauwdruk van Audience Activation van de Rekening &#x200B;](assets/b2b-blueprint-account-audience-activation.png)
 
 ## Doelstellingen voor accountpubliek
 
@@ -56,14 +56,14 @@ Marketers kunnen drie belangrijke gebruiksgevallen ontgrendelen door op hun acco
    * Tot 30 dagen van gebeurtenis terugblik, bepaalt geen het ordenen van gebeurtenis.
    * AND/OR worden ondersteund (dus je kunt zeggen: &quot;A en B moeten gebeuren&quot;,  maar je kunt niet zeggen: &quot;A moet 3 dagen voor B gebeuren&quot;).
 * Voor de bestemmingen van de wolkenopslag, steunt het uitvoerprogramma de &quot;Na segmentevaluatie&quot;optie.
-* [ B2B het Profiel &amp; de Gidsen van de Segmentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
+* [&#x200B; B2B het Profiel &amp; de Gidsen van de Segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
 
 ## Implementatiestappen voor Real-time Customer Data Platform B2B edition, het creëren van een accountpubliek en activering
 
-* Voor implementatiestappen van het Platform van Gegevens van de Klant in real time B2B edition, zie [ Begonnen worden met Real-Time Customer Data Platform B2B Editiond ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial) documentatie.
-* Voor de stappen van de Aanmaak van het Publiek van de Rekening, zie de [ documentatie van het publiek van de Rekening ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences).
-* Voor de stappen van Audience Activation van de Rekening, zie [ accountpubliek ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences) documentatie activeren.
-   * Vereiste afbeelding voor [ (Bedrijven) doel LinkedIn Gelijke Soorten van publiek ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings).
+* Voor implementatiestappen van het Platform van Gegevens van de Klant in real time B2B edition, zie [&#x200B; Begonnen worden met Real-Time Customer Data Platform B2B Editiond &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial) documentatie.
+* Voor de stappen van de Aanmaak van het Publiek van de Rekening, zie de [&#x200B; documentatie van het publiek van de Rekening &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences).
+* Voor de stappen van Audience Activation van de Rekening, zie [&#x200B; accountpubliek &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences) documentatie activeren.
+   * Vereiste afbeelding voor [&#x200B; (Bedrijven) doel LinkedIn Gelijke Soorten van publiek &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings).
 
 ## Implementatieoverwegingen
 

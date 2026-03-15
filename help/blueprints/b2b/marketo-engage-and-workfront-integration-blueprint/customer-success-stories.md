@@ -13,14 +13,14 @@ ht-degree: 0%
 
 Adobe-klanten in verschillende bedrijfstakken zien de waarde van het op één lijn brengen van marketingplanning met uitvoering om efficiëntie en zichtbaarheid in de hele organisatie te bevorderen. Bekijk de onderstaande koppelingen voor meer informatie.
 
-* Adobe op Adobe (gevallenonderzoek): [ Adobe Marketo Engage en Adobe Workfront combineren om naadloze, succesvolle campagneorchestratie in Adobe tot stand te brengen ](https://business.adobe.com/customer-success-stories/adobe-campaign-orchestration-case-study){target="_blank"}
+* Adobe op Adobe (gevallenonderzoek): [&#x200B; Adobe Marketo Engage en Adobe Workfront combineren om naadloze, succesvolle campagneorchestratie in Adobe tot stand te brengen &#x200B;](https://business.adobe.com/customer-success-stories/adobe-campaign-orchestration-case-study){target="_blank"}
 
-* Nokia (webinar): [ Hoe Nokia hun campagneplanning en uitvoering met Adobe ](https://engage.adobe.com/MarWF22Q4WBR-Registration.html){target="_blank"} oplaadt
+* Nokia (webinar): [&#x200B; Hoe Nokia hun campagneplanning en uitvoering met Adobe &#x200B;](https://engage.adobe.com/MarWF22Q4WBR-Registration.html){target="_blank"} oplaadt
 
-* Lumen (topdoorbraak): [ hoe Lumen behendigheid voor de Ervaringen van de Klant van Omnichannel - S710 ](https://business.adobe.com/summit/2022/sessions/how-lumen-drives-agility-for-omnichannel-customer-s710.html){target="_blank"} drijft
+* Lumen (topdoorbraak): [&#x200B; hoe Lumen behendigheid voor de Ervaringen van de Klant van Omnichannel - S710 &#x200B;](https://business.adobe.com/summit/2022/sessions/how-lumen-drives-agility-for-omnichannel-customer-s710.html){target="_blank"} drijft
 
-* BNY Mellon (topdoorbraak): [ Hoe BNY Mellon Verbeterde Uitvoering van de Campagne met Mensen, Proces en de Technologie van Adobe - S127 ](https://business.adobe.com/events/experience-makers-live/2022/sessions/how-bny-mellon-improved-campaign-execution-with-pe-s127.html){target="_blank"}
+* BNY Mellon (topdoorbraak): [&#x200B; Hoe BNY Mellon Verbeterde Uitvoering van de Campagne met Mensen, Proces en de Technologie van Adobe - S127 &#x200B;](https://business.adobe.com/events/experience-makers-live/2022/sessions/how-bny-mellon-improved-campaign-execution-with-pe-s127.html){target="_blank"}
 
-* Commvault (gevallenanalyse): [ de Commvault leidt tot marketing centrum van excellentie met Adobe Marketo Engage om 1.800+ campagnes per jaar in werking te stellen ](https://business.adobe.com/customer-success-stories/commvault-case-study){target="_blank"}
+* Commvault (gevallenanalyse): [&#x200B; de Commvault leidt tot marketing centrum van excellentie met Adobe Marketo Engage om 1.800+ campagnes per jaar in werking te stellen &#x200B;](https://business.adobe.com/customer-success-stories/commvault-case-study){target="_blank"}
 
-* Poly (blog): [ hoe het Poly vistuig verschoven om nieuw publiek met Adobe Experience Cloud ](https://business.adobe.com/blog/basics/how-poly-shifted-gears-reach-new-audiences-adobe-experience-cloud){target="_blank"} te bereiken
+* Poly (blog): [&#x200B; hoe het Poly vistuig verschoven om nieuw publiek met Adobe Experience Cloud &#x200B;](https://business.adobe.com/blog/basics/how-poly-shifted-gears-reach-new-audiences-adobe-experience-cloud){target="_blank"} te bereiken

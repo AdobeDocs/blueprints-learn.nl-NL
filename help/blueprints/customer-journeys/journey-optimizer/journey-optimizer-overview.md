@@ -51,8 +51,8 @@ Deze blauwdruk beschrijft de technische mogelijkheden van de toepassing en verst
 
 | Scenario | Beschrijving |
 | :-- | :-- |
-| [ Reizen ](journey-optimizer-journeys.md) | De Reizen van AJO in Adobe Journey Optimizer worden geautomatiseerd, gepersonaliseerde klantenervaringen teweeggebracht door gebeurtenissen in real time of publiekssegmenten, toestaand marketers om relevante berichten over kanalen zoals e-mail, SMS, en dupberichten te leveren. |
-| [ Campagne Orchestration ](journey-optimizer-campaigns.md) | Met AJO Campaign Orchestration kunnen marketers persoonlijke, cross-channel campagnes ontwerpen en uitvoeren met behulp van realtime gegevens en kijkcijfers. Het steunt dynamische het richten, berichtlevering, en reislogica om klantenbetrokkenheid over e-mail, SMS, duw, en douanekanalen te optimaliseren. |
+| [&#x200B; Reizen &#x200B;](journey-optimizer-journeys.md) | De Reizen van AJO in Adobe Journey Optimizer worden geautomatiseerd, gepersonaliseerde klantenervaringen teweeggebracht door gebeurtenissen in real time of publiekssegmenten, toestaand marketers om relevante berichten over kanalen zoals e-mail, SMS, en dupberichten te leveren. |
+| [&#x200B; Campagne Orchestration &#x200B;](journey-optimizer-campaigns.md) | Met AJO Campaign Orchestration kunnen marketers persoonlijke, cross-channel campagnes ontwerpen en uitvoeren met behulp van realtime gegevens en kijkcijfers. Het steunt dynamische het richten, berichtlevering, en reislogica om klantenbetrokkenheid over e-mail, SMS, duw, en douanekanalen te optimaliseren. |
 
 <br>
 
@@ -60,8 +60,8 @@ Deze blauwdruk beschrijft de technische mogelijkheden van de toepassing en verst
 
 | Integratie | Beschrijving | Technische overwegingen |
 | :-- | :-- | :-- |
-| [ het Overseinen van de derde partij ](3rd-party-messaging.md) | Toont aan hoe Adobe [!DNL Journey Optimizer] met derdeoverseinenplatforms kan integreren om gepersonaliseerde klantenmededelingen te ordenen en te leveren. | <ul><li>Het derdesysteem moet **dragertokenauthentificatie** steunen</li><li>**Statische IPs wordt niet gesteund** toe te schrijven aan de multi-huurdersarchitectuur.</li><li>Ben zich bewust van **API tariefgrenzen** op derdesystemen; de klanten kunnen extra capaciteit moeten kopen om verkeer uit **Adobe Journey Optimizer** te behandelen.</li><li>**het Beheer van het Besluit** wordt niet gesteund binnen berichtlading of leveringslogica.</li></ul> |
-| [[!DNL Journey Optimizer]  met Adobe Campaign v8 ](../campaign-v8/ajo-and-campaign-v8.md) | Toont aan hoe Adobe [!DNL Journey Optimizer] met de mogelijkheden van Adobe Campaign v8 voor transactiemeldingen kan integreren om de uiteindelijke berichtlevering uit te voeren. | <ul><li>Er is geen vertraging van berichten. Uiteinde van 4.000 berichten per 5 minuten.</li><li>Alleen ondersteuning voor een reis op initiatief van een gebeurtenis</li><li>Beslissingsbeheer wordt niet ondersteund in berichten die door de campagne worden verzonden</li></ul> |
+| [&#x200B; het Overseinen van de derde partij &#x200B;](3rd-party-messaging.md) | Toont aan hoe Adobe [!DNL Journey Optimizer] met derdeoverseinenplatforms kan integreren om gepersonaliseerde klantenmededelingen te ordenen en te leveren. | <ul><li>Het derdesysteem moet **dragertokenauthentificatie** steunen</li><li>**Statische IPs wordt niet gesteund** toe te schrijven aan de multi-huurdersarchitectuur.</li><li>Ben zich bewust van **API tariefgrenzen** op derdesystemen; de klanten kunnen extra capaciteit moeten kopen om verkeer uit **Adobe Journey Optimizer** te behandelen.</li><li>**het Beheer van het Besluit** wordt niet gesteund binnen berichtlading of leveringslogica.</li></ul> |
+| [[!DNL Journey Optimizer]  met Adobe Campaign v8 &#x200B;](../campaign-v8/ajo-and-campaign-v8.md) | Toont aan hoe Adobe [!DNL Journey Optimizer] met de mogelijkheden van Adobe Campaign v8 voor transactiemeldingen kan integreren om de uiteindelijke berichtlevering uit te voeren. | <ul><li>Er is geen vertraging van berichten. Uiteinde van 4.000 berichten per 5 minuten.</li><li>Alleen ondersteuning voor een reis op initiatief van een gebeurtenis</li><li>Beslissingsbeheer wordt niet ondersteund in berichten die door de campagne worden verzonden</li></ul> |
 
 <br>
 

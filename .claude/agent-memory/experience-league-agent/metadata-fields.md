@@ -9,7 +9,7 @@ ht-degree: 1%
 
 *die van de Gids van de Authoring van Adobe ExL (gekropen Feb 2026) + repo analyse van blauwdrukken-learn.nl* wordt ontvangen
 
----
+&#x200B;---
 
 ## Metagegevenshiërarchie
 
@@ -18,7 +18,7 @@ Metagegevenscascades in deze volgorde (artikel overschrijft inhoudsopgave, inhou
 2. TOC.md in de gebruikershandleiding
 3. metadata.md op basis van repo-hoofdmap (laagste prioriteit)
 
----
+&#x200B;---
 
 ## Velden op artikelniveau
 
@@ -69,7 +69,7 @@ Metagegevenscascades in deze volgorde (artikel overschrijft inhoudsopgave, inhou
 | `source-git-url` | URL Source-opslagplaats. | Volledige GitHub-URL |
 | `cloud` | Overschrijven van de categorie Wolk op artikelniveau. | Hoofd-kleine letter; moet overeenkomen met cloud.yml |
 
----
+&#x200B;---
 
 ## TOC.md-velden
 
@@ -83,7 +83,7 @@ Metagegevenscascades in deze volgorde (artikel overschrijft inhoudsopgave, inhou
 | `role` | Standaardrol voor het publiek voor de hulplijn. | Dezelfde waarden als artikel `role`; gescheiden door komma&#39;s |
 | `index` | Of de hulplijn is geïndexeerd. | `yes`/`no` |
 
----
+&#x200B;---
 
 ## Metagegevens op reaniveau.md-velden
 
@@ -98,7 +98,7 @@ Metagegevenscascades in deze volgorde (artikel overschrijft inhoudsopgave, inhou
 | `git-repo` | GitHub repo-URL; schakelt de knoppen &quot;Deze pagina bewerken&quot; en &quot;Logprobleem&quot; in |
 | `index` | Standaardinstelling |
 
----
+&#x200B;---
 
 ## Geldige oplossingswaarden (hoofdlettergevoelig)
 
@@ -123,7 +123,7 @@ In dit antwoord gebruikte gemeenschappelijke waarden:
 
 Meerdere waarden: door komma&#39;s gescheiden, bijvoorbeeld `Real-Time Customer Data Platform, Campaign`
 
----
+&#x200B;---
 
 ## Geldige productwaarden (voor veld `product` — analysetracering)
 
@@ -137,7 +137,7 @@ Zie de vraag van het systeem voor volledige lijst. Hoofdwaarden:
 - `adobe campaign` / `campaign` / `ac`
 - `adobe target` / `target` / `at`
 
----
+&#x200B;---
 
 ## Geldige rolwaarden
 
@@ -149,7 +149,7 @@ Zie de vraag van het systeem voor volledige lijst. Hoofdwaarden:
 - `Leader`
 - `User`
 
----
+&#x200B;---
 
 ## Regels voor sleutelvalidatie
 

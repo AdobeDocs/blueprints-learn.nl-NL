@@ -30,7 +30,7 @@ Campagnebewerkingsteams hebben systemen nodig waarmee ze op efficiënte en effec
 
 Door het multi-channel marketing activeringssysteem (Marketo Engage) te integreren met de marketing planning en het systeem van verslag (Workfront) kunt u de campagnesnelheid verhogen en de belanghebbenden een betere zichtbaarheid geven.
 
-Met Workfront Fusion kunnen marketingteams handmatige en foutgevoelige stappen die het vertalen van een marketingopdracht naar een campagne met zich meebrengen grotendeels elimineren. Workfront Fusion biedt een out of the box integration layer tussen Workfront en Marketo Engage die flexibiliteit en efficiëntie mogelijk maakt bij het ontwikkelen van workflows tussen systemen. U kunt meer over leren hoe te opstelling de integratie en welke acties kunnen worden genomen om werkschema&#39;s [ hier ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target="_blank"} te automatiseren.
+Met Workfront Fusion kunnen marketingteams handmatige en foutgevoelige stappen die het vertalen van een marketingopdracht naar een campagne met zich meebrengen grotendeels elimineren. Workfront Fusion biedt een out of the box integration layer tussen Workfront en Marketo Engage die flexibiliteit en efficiëntie mogelijk maakt bij het ontwikkelen van workflows tussen systemen. U kunt meer over leren hoe te opstelling de integratie en welke acties kunnen worden genomen om werkschema&#39;s [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target="_blank"} te automatiseren.
 
 ## Campagne plannen tot uitvoering - Gebruiksgevallen voor automatisering {#campaign-planning-to-execution-automation-use-cases}
 
@@ -40,7 +40,7 @@ Met Workfront Fusion kunnen marketingteams handmatige en foutgevoelige stappen d
 
 Hieronder ziet u een workflowdiagram van het ontwikkelingsproces van de campagne in het geval van een e-mailsnelverzoek. Bovendien kunt u zien hoe Workfront Fusion een rol kan spelen tussen Workfront en Marketo Engage om de workflow te sturen en automatisering te verwerken tijdens de ontwikkelingscyclus van de campagne.
 
-![ Campagne die aan uitvoering plant - de gevallen van het automatiseringsgebruik ](assets/overview-1.png){zoomable="yes"}
+![&#x200B; Campagne die aan uitvoering plant - de gevallen van het automatiseringsgebruik &#x200B;](assets/overview-1.png){zoomable="yes"}
 
 Houd rekening met de verschillende fasen van het ontwikkelingsproces van de campagne.
 
@@ -60,7 +60,7 @@ Adobe Workfront stelt organisaties in staat hun werk te beheren om een efficiën
 
 Begrijpen hoe u uw bedrijfsproces aan deze voorwerpen in kaart brengt zal belangrijk zijn om de verhouding tussen Workfront en Marketo Engage te begrijpen.
 
-![ Begrijpend hoe de marketing initiatieven in Workfront ](assets/overview-2.png){zoomable="yes"} worden vertegenwoordigd
+![&#x200B; Begrijpend hoe de marketing initiatieven in Workfront &#x200B;](assets/overview-2.png){zoomable="yes"} worden vertegenwoordigd
 
 ### Portfolio-hiërarchie gedefinieerd {#portfolio-hierarchy-defined}
 
@@ -115,7 +115,7 @@ Het bedrijf Zeplin geeft een bijgewerkte versie van één van hun compacte hulpp
 
 In de onderstaande hiërarchie ziet u hoe de strategie, de tactiek, de taken en de middelen aan Workfront zijn toegewezen voor deze marketingcampagne.
 
-![ het beheersvoorbeeld van het het initiatiefwerk van de Marketing initiatief ](assets/overview-3.png){zoomable="yes"}
+![&#x200B; het beheersvoorbeeld van het het initiatiefwerk van de Marketing initiatief &#x200B;](assets/overview-3.png){zoomable="yes"}
 
 ## Workfront toewijzen aan Marketo {#mapping-workfront-to-marketo}
 
@@ -129,7 +129,7 @@ Met Workfront Fusion als integratielaag kunt u uw projecten in Workfront toewijz
 
 Hieronder ziet u een voorbeeld van hoe een Programma veelvoudige projecten kan omvatten en hoe die Projecten van Workfront aan Programma&#39;s in Marketo Engage kunnen in kaart brengen.
 
-![ De projecten van Workfront van de afbeelding aan de Programma&#39;s van Marketo Engage ](assets/overview-4.png){zoomable="yes"}
+![&#x200B; De projecten van Workfront van de afbeelding aan de Programma&#39;s van Marketo Engage &#x200B;](assets/overview-4.png){zoomable="yes"}
 
 U kunt een groot marketinginitiatief starten waarvoor meerdere Workfront-projecten in een Workfront-programma moeten worden gehuisvest, of u hebt een eenmalige aanvraag voor een webinar of e-mail waarvoor slechts één Workfront-project nodig is. Wat uw behoeften ook zijn, met Workfront, Workfront Fusion en Marketo Engage, uw team beschikt over de flexibiliteit om uw ontwikkelingsproces van de campagne naadloos te integreren, van planning tot uitvoering.
 
@@ -147,13 +147,13 @@ Nu u een fundamenteel inzicht hebt in hoe Workfront en Marketo Engage nieuwe eff
 
 ### Aan de slag met de integratie met Workfront Fusion, Workfront en Marketo Engage {#getting-started-with-workfront-fusion}
 
-* [ Inname en creeer ](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} - de Automatisering van de Ontwikkeling van de Campagne met Marketo Engage en Workfront
+* [&#x200B; Inname en creeer &#x200B;](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} - de Automatisering van de Ontwikkeling van de Campagne met Marketo Engage en Workfront
 
 * [Reviseren en goedkeuren](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md){target="_blank"}
 
 ### Marketo Engage-campagnemenamen en de bijbehorende URL&#39;s beheren {#managing-marketo-engage-campaign-names}
 
-Het standaardiseren van uw naamgevingsconventies voor campagnes en URL&#39;s is een belangrijke basis voor een accuraat programmabeheer in Marketo Engage en helpt een consistenter proces in de gehele ontwikkelingscyclus van de campagne te bevorderen. Als u hulpmiddelen zoekt om met dit te helpen, adviseren wij controlerend sommige vrije open bronhulpmiddelen van [ de Succesdiensten van Adobe ](https://main—marketo-campagne-tools—dr-adobe.hlx.live/){target="_blank"} die u toestaan om een verenigbare benadering tot stand te brengen en te leiden van de campagnes van Marketo Engage en hun bijbehorende URLs.
+Het standaardiseren van uw naamgevingsconventies voor campagnes en URL&#39;s is een belangrijke basis voor een accuraat programmabeheer in Marketo Engage en helpt een consistenter proces in de gehele ontwikkelingscyclus van de campagne te bevorderen. Als u hulpmiddelen zoekt om met dit te helpen, adviseren wij controlerend sommige vrije open bronhulpmiddelen van [&#x200B; de Succesdiensten van Adobe &#x200B;](https://main—marketo-campagne-tools—dr-adobe.hlx.live/){target="_blank"} die u toestaan om een verenigbare benadering tot stand te brengen en te leiden van de campagnes van Marketo Engage en hun bijbehorende URLs.
 
 ### Resources {#resources}
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 > Deze blauwdruk voor Adobe Campaign v7 is vervangen en wordt niet meer ondersteund. Raadpleeg de blauwdruk voor Adobe Campaign v8 voor de meest recente richtlijnen, architectuur en best practices.
 > 
-> 👉 Mening [ Adobe  [!DNL Campaign]  v8 Vervaging ](../campaign-v8/campaign-v8-overview.md))
+> 👉 Mening [&#x200B; Adobe  [!DNL Campaign]  v8 Vervaging &#x200B;](../campaign-v8/campaign-v8-overview.md))
 
 <br>
 

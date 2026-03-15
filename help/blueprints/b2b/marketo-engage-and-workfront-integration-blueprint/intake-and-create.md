@@ -15,17 +15,17 @@ Het aantal marketingverzoeken dat in een marketingoperatieteam komt om nieuwe ca
 
 Door een proces op te zetten voor het indienen van campagneverzoeken en het automatiseren van het creëren van algemeen gevraagde marketing campagnes, kunt u: de snelheid van uw campagnes verhogen, fouten verminderen, verzoeken leiden aan het juiste lid van marketing verrichtingen, evenwicht en verbetert middelgebruik, en meer van uw marketing verrichtingen op meer strategische taken concentreren.
 
-Met Workfront en Marketo Engage, staat een systeem-aan-systeem verbinding details van a [ Workfront verzoekvorm ](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html){target="_blank"} toe om een Programma van Marketo Engage tot stand te brengen, dan zeer belangrijke variabelen zoals: onderwerplijnen, e-mailexemplaar, beelden, data, tijden, gebeurtenisinformatie, en meer in te vullen.
+Met Workfront en Marketo Engage, staat een systeem-aan-systeem verbinding details van a [&#x200B; Workfront verzoekvorm &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html){target="_blank"} toe om een Programma van Marketo Engage tot stand te brengen, dan zeer belangrijke variabelen zoals: onderwerplijnen, e-mailexemplaar, beelden, data, tijden, gebeurtenisinformatie, en meer in te vullen.
 
 Om deze integratie te bereiken, zult u Workfront Fusion, een werkautomatiseringslaag gebruiken die u toestaat om werkschema&#39;s tussen Workfront en andere systemen te automatiseren.
 
 In de onderstaande workflow ziet u een aanvraag voor een webinar die door een campagnemanager wordt gemaakt met behulp van een Workfront-aanvraagformulier. De details die in het verzoek worden ingediend, activeren vervolgens een programma en e-mail die in Marketo Engage voor het webinar worden gemaakt. Bovendien worden gegevens uit het aanvraagformulier opgehaald om de inhoud van de e-mail te vullen.
 
-![ Inname en creeer blauwdruk ](assets/intake-and-create-1.png){zoomable="yes"}
+![&#x200B; Inname en creeer blauwdruk &#x200B;](assets/intake-and-create-1.png){zoomable="yes"}
 
 >[!TIP]
 >
->Om meer over de verschillende types van voorwerpen in Workfront te leren die voor het organiseren van het marketing campagnewerk worden gebruikt en hoe het aan een programma van Marketo Engage in kaart wordt gebracht, controleer het [ Overzicht van Marketo en van Workfront ](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}.
+>Om meer over de verschillende types van voorwerpen in Workfront te leren die voor het organiseren van het marketing campagnewerk worden gebruikt en hoe het aan een programma van Marketo Engage in kaart wordt gebracht, controleer het [&#x200B; Overzicht van Marketo en van Workfront &#x200B;](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}.
 
 ## Bereid uw campagneontwikkelingsproces voor automatisering voor {#prepare-your-campaign-development-process-for-automation}
 
@@ -95,13 +95,13 @@ Het opbouwen van uw centrum van excellentie met programmamalplaatjes in Marketo 
 
 Zodra u een reeks herbruikbare programmamalplaatjes hebt, kunt u uw inspanningen verder schrapen gebruikend automatisering die in deze blauwdruk wordt geschetst om meer snelheid aan uw campagneontwikkeling te drijven.
 
-Meer leren bij het creëren van uw eigen centrum van excellentie, controleer de [ Gemeenschap van Marketo ](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"} voor beste praktijken.
+Meer leren bij het creëren van uw eigen centrum van excellentie, controleer de [&#x200B; Gemeenschap van Marketo &#x200B;](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"} voor beste praktijken.
 
 ### Tokens gebruiken om inhoud te vullen {#use-tokens-to-populate-content}
 
 Met Marketo Engage kunnen tokens worden gebruikt om inhoud in uw campagnemiddelen te vullen. Nadat u bijvoorbeeld een e-mailsjabloon hebt gekloond vanuit uw expertisecentrum, kan Workfront Fusion details uit het campagneverzoek in Workfront overnemen en deze doorgeven aan Mijn tokens in het Marketo Engage-programma. De symbolische waarden kunnen dan direct in e-mail worden geërft om e-mail uit te bouwen.
 
-![ tokens van het Gebruik om inhoudsdiagram ](assets/intake-and-create-2.png){zoomable="yes"} te bevolken
+![&#x200B; tokens van het Gebruik om inhoudsdiagram &#x200B;](assets/intake-and-create-2.png){zoomable="yes"} te bevolken
 
 ### Afbeeldingen uit AEM Assets vullen {#populate-images-from-aem-assets}
 
@@ -147,9 +147,9 @@ Enkele basisgegevens die u wilt opnemen in de opzoekbibliotheek van het programm
 
 ## Inname en automatische doorloop maken {#intake-and-create-automation-flow}
 
-Hier is een voorbeeld van hoe de werkschemalogica in Fusie kan worden geassembleerd gebruikend prebuilt [ Workfront ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target="_blank"} en [ Marketo Engage ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target="_blank"} modules die u toelaten om automatisering sneller te leveren.
+Hier is een voorbeeld van hoe de werkschemalogica in Fusie kan worden geassembleerd gebruikend prebuilt [&#x200B; Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target="_blank"} en [&#x200B; Marketo Engage &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html){target="_blank"} modules die u toelaten om automatisering sneller te leveren.
 
-![ Inname en creeer automatiseringsstroom ](assets/intake-and-create-3.png)
+![&#x200B; Inname en creeer automatiseringsstroom &#x200B;](assets/intake-and-create-3.png)
 
 ## Resources {#resources}
 
