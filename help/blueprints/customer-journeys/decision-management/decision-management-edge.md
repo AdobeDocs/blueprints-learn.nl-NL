@@ -16,7 +16,7 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->Meer over [!DNL Decision Management] leren, zie het [&#x200B; blauwdrukoverzicht &#x200B;](decision-management-overview.md) of bezoek de [&#x200B; productdocumentatie &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html).
+>Meer over [!DNL Decision Management] leren, zie het [&#x200B; blauwdrukoverzicht &#x200B;](decision-management-overview.md) of bezoek de [&#x200B; productdocumentatie &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=nl-NL).
 
 [!DNL Decision Management] kan op twee manieren worden geïmplementeerd. De eerste is via de [!DNL Experience Platform] Hub, die één enkele architectuur van het gegevenscentrum is. In de &quot;hub&quot;benadering worden de aanbiedingen uitgevoerd, gepersonaliseerd, en geleverd in tweede latentie. Aldus is de hubarchitectuur het best geschikt voor klantenervaring die geen sub-tweede latentie vereist, omvatten de voorbeelden aanbiedingsbesluiten die voor kiosken of agent bijgewoonde ervaringen zoals in callcenters of in persoonlijke interactie worden verstrekt.
 
@@ -40,20 +40,20 @@ Meer over het Beheer van het Besluit op de hub leren verwijs naar het [&#x200B; 
 
 | Integratie | Beschrijving |
 | :-- | :--- |
-| [&#x200B; Beheer van het Besluit met Adobe Target &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html) | Beslissingsbeheer kan in Adobe Target worden geïntegreerd, zodat aanbiedingen kunnen worden getest en geleverd als ervaringen met het doel. |
+| [&#x200B; Beheer van het Besluit met Adobe Target &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/ajo/offer-decision.html?lang=nl-NL) | Beslissingsbeheer kan in Adobe Target worden geïntegreerd, zodat aanbiedingen kunnen worden getest en geleverd als ervaringen met het doel. |
 
 ## Beveiligingsmechanismen
 
-* Voor de guardrails van Journey Optimizer verwijzen naar de volgende [&#x200B; Guardrails van Journey Optimizer &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
+* Voor de guardrails van Journey Optimizer verwijzen naar de volgende [&#x200B; Guardrails van Journey Optimizer &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=nl-NL).
 
-* Voor de gidsen van het Beheer van het Besluit verwijzen naar de volgende [&#x200B; Beschrijving van het Product van het Beheer van het Besluit &#x200B;](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
+* Voor de gidsen van het Beheer van het Besluit verwijzen naar de volgende [&#x200B; Beschrijving van het Product van het Beheer van het Besluit &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/offer-decisioning-app-service.html).
 
-[Hulplijnen en advies voor end-to-end latentie](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
+[Hulplijnen en advies voor end-to-end latentie](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=nl-NL)
 
 ## Gerelateerde documentatie
 
-* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)
-* [&#x200B; Adobe Journey Optimizer Beslissingsbeheer &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-* [Adobe Journey Optimizer-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Adobe-productbeschrijving voor besluitvormingsbeheer](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
+* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=nl-NL)
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=nl-NL)
+* [&#x200B; Adobe Journey Optimizer Beslissingsbeheer &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=nl-NL)
+* [Adobe Journey Optimizer-productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Adobe-productbeschrijving voor besluitvormingsbeheer](https://helpx.adobe.com/nl/legal/product-descriptions/offer-decisioning-app-service.html)

@@ -113,7 +113,7 @@ De volgende voorwaarden bestaan voor deze blauwdruk.
    - Ondersteuning voor het laden van API-gegevens is voornamelijk bedoeld voor het beheer van profielen of eenvoudige objecten in de database (d.w.z. maken en bijwerken). Het is niet bedoeld voor het laden van grote hoeveelheden gegevens of batchbewerkingen.
    - Het gebruik van API&#39;s voor het lezen van gegevens voor aangepaste toepassingsdoeleinden wordt niet ondersteund
    - Gegevens die via de API zijn geladen, worden in de toepassingsdatabase gefaseerd en vervolgens elk uur naar de Cloud-database gerepliceerd
-- Beperkingen op API-aanroepen zijn van toepassing. Leer meer in de [&#x200B; Beschrijving van het Product van Adobe Campaign &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+- Beperkingen op API-aanroepen zijn van toepassing. Leer meer in de [&#x200B; Beschrijving van het Product van Adobe Campaign &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 ### Grootte van batchcommunicatieserver
 
@@ -137,11 +137,11 @@ De volgende voorwaarden bestaan voor deze blauwdruk.
 
 ## Implementatiestappen
 
-Zie de begonnen gids voor [&#x200B; Uitvoeren Adobe Campaign v8 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html)
+Zie de begonnen gids voor [&#x200B; Uitvoeren Adobe Campaign v8 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=nl-NL)
 
 ## Gerelateerde documentatie
 
-- [Campagne v8-documentatie](https://experienceleague.adobe.com/docs/campaign-v8.html)
-- [Campagne v8 Productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-- [Experience Platform-tagdocumentatie](https://experienceleague.adobe.com/docs/launch.html)
-- [Experience Platform Mobile SDK-documentatie](https://experienceleague.adobe.com/docs/mobile.html)
+- [Campagne v8-documentatie](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=nl-NL)
+- [Campagne v8 Productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
+- [Experience Platform-tagdocumentatie](https://experienceleague.adobe.com/docs/launch.html?lang=nl-NL)
+- [Experience Platform Mobile SDK-documentatie](https://experienceleague.adobe.com/docs/mobile.html?lang=nl-NL)

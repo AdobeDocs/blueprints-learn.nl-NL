@@ -56,7 +56,7 @@ Hiervoor moet u de onderstaande stappen overwegen als onderdeel van het proces v
 
 ### Een Workfront-project configureren met de opdracht Ready for Review {#configure-a-workfront-project-with-a-ready-for-review-task}
 
-Het gebruik [&#x200B; projectmalplaatjes &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/create-and-manage-project-templates/project-template-overview.html){target="_blank"} om de meeste herhaalbare processen, informatie, en montages te vangen verbonden aan de projecten in uw organisatie. U kunt taken definiëren, onderwerpen in een wachtrij plaatsen, aangepaste formulieren maken en documenten toevoegen aan uw sjabloon.
+Het gebruik [&#x200B; projectmalplaatjes &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/create-and-manage-project-templates/project-template-overview.html?lang=nl-NL){target="_blank"} om de meeste herhaalbare processen, informatie, en montages te vangen verbonden aan de projecten in uw organisatie. U kunt taken definiëren, onderwerpen in een wachtrij plaatsen, aangepaste formulieren maken en documenten toevoegen aan uw sjabloon.
 
 Neem in uw projectsjabloon in Workfront taken op voor het controleren van elementen die deel uitmaken van uw marketingcampagne. Bovendien kunt u een goedkeuringsproces toevoegen om enkele goedkeuringen of complexere goedkeuringen op meerdere niveaus af te handelen.
 
@@ -66,7 +66,7 @@ Als u een nieuwe e-mailcampagne wilt starten, moet u een projectsjabloon hebben 
 
 ### Activeer uw Marketo Engage-e-mail voor synchronisatie met Workfront met statuswijziging {#trigger-your-marketo-engage-email-to-sync-to-workfront}
 
-Als onderdeel van uw controleproces wilt u e-mails synchroniseren met uw Workfront-project zodra deze gereed zijn voor controle door uw marketingteam. Om dit te doen, adviseren wij vestiging Klaar om taak met de status van de a [&#x200B; taak &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/update-work-on-a-project/update-task-status.html){target="_blank"} te herzien die betekent wanneer e-mail klaar is om te worden herzien. In ons voorbeeld hebben we een e-mailstatus van Marketo controleren toegevoegd aan onze taak die kan worden geselecteerd wanneer het e-mailconcept gereed is om te worden gecontroleerd door belanghebbenden.
+Als onderdeel van uw controleproces wilt u e-mails synchroniseren met uw Workfront-project zodra deze gereed zijn voor controle door uw marketingteam. Om dit te doen, adviseren wij vestiging Klaar om taak met de status van de a [&#x200B; taak &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/manage-work/projects/update-work-on-a-project/update-task-status.html?lang=nl-NL){target="_blank"} te herzien die betekent wanneer e-mail klaar is om te worden herzien. In ons voorbeeld hebben we een e-mailstatus van Marketo controleren toegevoegd aan onze taak die kan worden geselecteerd wanneer het e-mailconcept gereed is om te worden gecontroleerd door belanghebbenden.
 
 Met deze status in uw Workfront-project kunt u uw Workfront Fusion-scenario configureren om te luisteren naar de taak Ready to Review om bij te werken naar &quot;Review Marketo Email&quot;. Na de update kan uw scenario de Marketo Engage-e-mail ophalen als een HTML-bestand, deze zip omhoog en sla een kopie hiervan op in de Workfront-projectdocumenten die u wilt controleren.
 
@@ -78,7 +78,7 @@ Zodra uw Ready for Review-taak is verplaatst naar de status &quot;Marketo-e-mail
 
 ### Workfront-proefdrukken gebruiken om samen te werken via opmerkingen en annotaties {#use-workfront-proofing-to-collaborate}
 
-[&#x200B; het proefdrukken van Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} mogelijkheden staan uw marketing team toe om nieuwe activa, zoals een beeld of een e-mail te nemen, en via commentaren en aantekening samen te werken. Zodra een bewijs klaar is om live te gaan, kunnen besluitvormers het middel van het proefdrukinstrument goedkeuren.
+[&#x200B; het proefdrukken van Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html?lang=nl-NL){target="_blank"} mogelijkheden staan uw marketing team toe om nieuwe activa, zoals een beeld of een e-mail te nemen, en via commentaren en aantekening samen te werken. Zodra een bewijs klaar is om live te gaan, kunnen besluitvormers het middel van het proefdrukinstrument goedkeuren.
 
 ![&#x200B; zet e-mailscherm &#x200B;](assets/review-and-approve-blueprint-3.png){zoomable="yes"} om
 
