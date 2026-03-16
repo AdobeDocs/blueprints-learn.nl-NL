@@ -110,11 +110,11 @@ Voor dit gebruikspatroon moeten de volgende basisfuncties aanwezig zijn. Voor el
 
 | Foundary, functie | Status | Wat moet er gebeuren? | Experience League-referentie |
 | --- | --- | --- | --- |
-| Beheer en bestuur | Verondersteld op plaats | CJA-productprofiel dat is ingericht voor het maken van werkruimten en toegangsrechten voor gegevensweergave. AEP-gegevenssets toegankelijk voor de CJA-verbinding. Gebruikers die zijn toegewezen aan de juiste CJA-rollen. | [&#x200B; overzicht van het Toegangsbeheer &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Gegevensmodellering en -voorbereiding | Vereist | XDM-schema&#39;s en -gegevenssets die met CJA worden verbonden, moeten in AEP bestaan. Het ontwerp van het schema beïnvloedt direct welke afmetingen en metriek in de gegevensmeningen van CJA beschikbaar zijn. Gebeurtenisschema&#39;s hebben tijdstempelvelden nodig; opzoekschema&#39;s hebben sleutelvelden nodig. | [&#x200B; XDM overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
-| Gegevensbronnen en -verzameling | Vereist | Gegevens moeten in AEP datasets stromen — webgebeurtenissen via Web SDK, app-gebeurtenissen via Mobile SDK, AJO-campagnegebeurtenissen, CRM-gegevens via bronconnectors. De rijkdom van de analyse hangt af van de omvang van de verzamelde gegevens. | [&#x200B; Bronoverzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
-| Identiteit en profielconfiguratie | Vereist | De configuratie van de identiteitskaart van de persoon in de verbinding van CJA bepaalt hoe de gebeurtenissen over datasets worden vastgemaakt. Identiteitsverstrengeling tussen apparaten in AEP verbetert de mogelijkheid van CJA om volledige klantentwitten te bouwen. Naamruimte moet worden geconfigureerd voor het veld Person-id. | [&#x200B; Overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
-| Auditiedefinitie en segmentatie | Niet van toepassing | CJA bouwt zijn eigen filters en publiek binnen de analytische context. RT-CDP-publiek is geen voorwaarde, maar CJA kan een publiek terugsturen naar AEP via publiekspublicaties (Option C). | [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
+| Beheer en bestuur | Verondersteld op plaats | CJA-productprofiel dat is ingericht voor het maken van werkruimten en toegangsrechten voor gegevensweergave. AEP-gegevenssets toegankelijk voor de CJA-verbinding. Gebruikers die zijn toegewezen aan de juiste CJA-rollen. | [&#x200B; overzicht van het Toegangsbeheer &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/home) |
+| Gegevensmodellering en -voorbereiding | Vereist | XDM-schema&#39;s en -gegevenssets die met CJA worden verbonden, moeten in AEP bestaan. Het ontwerp van het schema beïnvloedt direct welke afmetingen en metriek in de gegevensmeningen van CJA beschikbaar zijn. Gebeurtenisschema&#39;s hebben tijdstempelvelden nodig; opzoekschema&#39;s hebben sleutelvelden nodig. | [&#x200B; XDM overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home) |
+| Gegevensbronnen en -verzameling | Vereist | Gegevens moeten in AEP datasets stromen — webgebeurtenissen via Web SDK, app-gebeurtenissen via Mobile SDK, AJO-campagnegebeurtenissen, CRM-gegevens via bronconnectors. De rijkdom van de analyse hangt af van de omvang van de verzamelde gegevens. | [&#x200B; Bronoverzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home) |
+| Identiteit en profielconfiguratie | Vereist | De configuratie van de identiteitskaart van de persoon in de verbinding van CJA bepaalt hoe de gebeurtenissen over datasets worden vastgemaakt. Identiteitsverstrengeling tussen apparaten in AEP verbetert de mogelijkheid van CJA om volledige klantentwitten te bouwen. Naamruimte moet worden geconfigureerd voor het veld Person-id. | [&#x200B; Overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home) |
+| Auditiedefinitie en segmentatie | Niet van toepassing | CJA bouwt zijn eigen filters en publiek binnen de analytische context. RT-CDP-publiek is geen voorwaarde, maar CJA kan een publiek terugsturen naar AEP via publiekspublicaties (Option C). | [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home) |
 
 ## Ondersteunende functies
 
@@ -122,11 +122,11 @@ De volgende mogelijkheden vergroten dit gebruikspatroon, maar zijn niet vereist 
 
 | Ondersteunende functie | Status | Waarom het belangrijk is | Experience League-referentie |
 | --- | --- | --- | --- |
-| Berekend / Afgeleid kenmerk maken | Aanbevolen | AEP berekende kenmerken kunnen de datasets verrijken die met CJA zijn verbonden, waardoor extra dimensies en meetgegevens voor analyse worden verschaft (bijvoorbeeld het aantal levenslange aankopen, het aantal dagen sinds de laatste activiteit). Deze aggregaties op profielniveau worden beschikbaar als afmetingen in CJA-gegevensweergaven. | [&#x200B; Berekende attributen overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| Levenscyclusbeheer van gegevens | Aanbevolen | Het beleid voor het bewaren van gegevenssets is van invloed op de historische gegevens die beschikbaar zijn in CJA. Langdurige retentie is doorgaans gewenst voor analyses om vergelijkingen van jaar tot jaar en trendanalyse op lange termijn mogelijk te maken. Vorm dataset TTLs om adequate historische diepte te te verzekeren. | [&#x200B; het Geavanceerde overzicht van het Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| Etikettering en handhaving van gegevensgebruik | Aanbevolen | Regelgevingslabels op gevoelige velden kunnen de weergave van CJA-gegevensweergaven beperken. Als PII of gevoelige gegevens zijn opgenomen in de CJA-verbinding, zorgen labels voor gegevensbeheer ervoor dat toegang aan de voorschriften voldoet en dat blootstelling door onbevoegden in gedeelde dashboards wordt voorkomen. | [&#x200B; Overzicht van het beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| Bewaking en waarneming | Aanbevolen | De gezondheid van de verbinding van CJA en gegevensversheid zouden moeten worden gecontroleerd. Configureer waarschuwingen voor fouten met brongegevensstroom en inname-problemen om ervoor te zorgen dat de gegevensinvoer van CJA betrouwbaar en actueel is. | [&#x200B; overzicht van de Inzichten van de Waarnemelijkheid &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| Rapportage en analyse | Opgenomen | Dit is de uitvoering van de rapportage en analyse. Als een referentieplan voor een ander patroon S5 bevat, gebruikt u dit klantanalyse- en insight-generatieplan voor de analytische implementatie. | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Berekend / Afgeleid kenmerk maken | Aanbevolen | AEP berekende kenmerken kunnen de datasets verrijken die met CJA zijn verbonden, waardoor extra dimensies en meetgegevens voor analyse worden verschaft (bijvoorbeeld het aantal levenslange aankopen, het aantal dagen sinds de laatste activiteit). Deze aggregaties op profielniveau worden beschikbaar als afmetingen in CJA-gegevensweergaven. | [&#x200B; Berekende attributen overzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/overview) |
+| Levenscyclusbeheer van gegevens | Aanbevolen | Het beleid voor het bewaren van gegevenssets is van invloed op de historische gegevens die beschikbaar zijn in CJA. Langdurige retentie is doorgaans gewenst voor analyses om vergelijkingen van jaar tot jaar en trendanalyse op lange termijn mogelijk te maken. Vorm dataset TTLs om adequate historische diepte te te verzekeren. | [&#x200B; het Geavanceerde overzicht van het Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-lifecycle/home) |
+| Etikettering en handhaving van gegevensgebruik | Aanbevolen | Regelgevingslabels op gevoelige velden kunnen de weergave van CJA-gegevensweergaven beperken. Als PII of gevoelige gegevens zijn opgenomen in de CJA-verbinding, zorgen labels voor gegevensbeheer ervoor dat toegang aan de voorschriften voldoet en dat blootstelling door onbevoegden in gedeelde dashboards wordt voorkomen. | [&#x200B; Overzicht van het beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/home) |
+| Bewaking en waarneming | Aanbevolen | De gezondheid van de verbinding van CJA en gegevensversheid zouden moeten worden gecontroleerd. Configureer waarschuwingen voor fouten met brongegevensstroom en inname-problemen om ervoor te zorgen dat de gegevensinvoer van CJA betrouwbaar en actueel is. | [&#x200B; overzicht van de Inzichten van de Waarnemelijkheid &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/observability/home) |
+| Rapportage en analyse | Opgenomen | Dit is de uitvoering van de rapportage en analyse. Als een referentieplan voor een ander patroon S5 bevat, gebruikt u dit klantanalyse- en insight-generatieplan voor de analytische implementatie. | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Toepassingsfuncties
 
@@ -206,8 +206,8 @@ De gegevensmening wordt gevormd met campagne-specifieke afmetingen (campagnenaam
 
 **Experience League:**
 
-- [AJO + CJA-integratiehandleiding](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
-- [Workspace-overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
+- [AJO + CJA-integratiehandleiding](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [Workspace-overzicht](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home)
 
 ### Optie B: Analyse van de reis van de klant
 
@@ -242,11 +242,11 @@ Dit is de meest uitgebreide analytische optie, die diepe insight in de ervaring 
 
 **Experience League:**
 
-- [Overzicht van verbindingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
-- [Stroomvisualisatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
-- [Uitvalvisualisatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
-- [Cohortingtabel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
-- [Kenmerk, deelvenster](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)
+- [Overzicht van verbindingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/overview)
+- [Stroomvisualisatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
+- [Uitvalvisualisatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
+- [Cohortingtabel](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
+- [Kenmerk, deelvenster](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/panels/attribution)
 
 ### Optie C: Analyse met publiek publiceren
 
@@ -281,8 +281,8 @@ Gepubliceerde doelgroepen worden weergegeven in het AEP Poortenportaal met de oo
 
 **Experience League:**
 
-- [Overzicht publiek](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
-- [Soorten publiek maken en publiceren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Overzicht publiek](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
+- [Soorten publiek maken en publiceren](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/audiences/publish)
 
 ### Optie D: Begeleide analyse voor productteams
 
@@ -317,9 +317,9 @@ De implementatie verbindt AEP datasets met CJA, vormt een gegevensmening met geb
 
 **Experience League:**
 
-- [Overzicht van geleide analyse](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview)
+- [Overzicht van geleide analyse](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/overview)
 - [Funnel-weergave](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/funnel)
-- [Weergave Behouden](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
+- [Weergave Behouden](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
 
 ### Optievergelijking
 
@@ -432,10 +432,10 @@ Belangrijke configuratiedetails:
 
 **documentatie van Experience League:**
 
-- [Overzicht van verbindingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
-- [Verbinding maken of bewerken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
-- [Verbindingen beheren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections)
-- [CJA guardrails](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
+- [Overzicht van verbindingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/overview)
+- [Verbinding maken of bewerken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/create-connection)
+- [Verbindingen beheren](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/manage-connections)
+- [CJA guardrails](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-admin/guardrails)
 
 ### Fase 2: Configuratie gegevensweergave
 
@@ -528,16 +528,16 @@ Afmetingen op gebeurtenisniveau toewijzen en metingen die relevant zijn voor de 
 
 **documentatie van Experience League:**
 
-- [Overzicht van gegevensweergaven](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
-- [Een gegevensweergave maken of bewerken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-- [Overzicht van componentinstellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
-- [Persistinstellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
-- [Attributie-instellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
-- [Indelingsinstellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/format)
-- [Metrische deduplicatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)
-- [Waarden opnemen/uitsluiten](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/include-exclude-values)
-- [Sessieinstellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/session-settings)
-- [Afgeleide velden](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields)
+- [Overzicht van gegevensweergaven](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/data-views)
+- [Een gegevensweergave maken of bewerken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [Overzicht van componentinstellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+- [Persistinstellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
+- [Attributie-instellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
+- [Indelingsinstellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/format)
+- [Metrische deduplicatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)
+- [Waarden opnemen/uitsluiten](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/include-exclude-values)
+- [Sessieinstellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/session-settings)
+- [Afgeleide velden](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/derived-fields)
 
 ### Fase 3: Analyse en metrische creatie
 
@@ -627,28 +627,28 @@ Selecteer het juiste geleide analysetype op basis van de bedrijfsvraag. Configur
 
 **documentatie van Experience League:**
 
-- [Workspace-overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
-- [Een project maken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
-- [Vrije-vormtabel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
-- [Stroomvisualisatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
-- [Uitvalvisualisatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
-- [Cohortingtabel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
-- [Kenmerk, deelvenster](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)
+- [Workspace-overzicht](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home)
+- [Een project maken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
+- [Vrije-vormtabel](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
+- [Stroomvisualisatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
+- [Uitvalvisualisatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
+- [Cohortingtabel](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
+- [Kenmerk, deelvenster](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/panels/attribution)
 - [Afmetingen onderverdelingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/components/dimensions/t-breakdown-fa)
-- [Overzicht van filters](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
-- [Filters maken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
-- [Overzicht van annotaties](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/annotations/overview)
-- [Overzicht van berekende metriek](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
-- [Berekende waarden maken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
-- [Berekende metrische functies](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-functions)
-- [Overzicht van geleide analyse](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview)
+- [Overzicht van filters](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
+- [Filters maken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
+- [Overzicht van annotaties](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/annotations/overview)
+- [Overzicht van berekende metriek](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
+- [Berekende waarden maken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
+- [Berekende metrische functies](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-functions)
+- [Overzicht van geleide analyse](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/overview)
 - [Funnel-weergave](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/funnel)
-- [Trends, weergave](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/trends/usage)
-- [Weergave Behouden](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
-- [Actieve groeiweergave](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/user-growth/active)
-- [Weergave betrokkenheidsfrequentie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/trends/frequency)
-- [Weergave-effect](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/impact/release)
-- [Content-analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics)
+- [Trends, weergave](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/trends/usage)
+- [Weergave Behouden](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
+- [Actieve groeiweergave](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/user-growth/active)
+- [Weergave betrokkenheidsfrequentie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/trends/frequency)
+- [Weergave-effect](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/impact/release)
+- [Content-analytics](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/content-analytics/content-analytics)
 
 ### Fase 4: Publiceren op dashboard
 
@@ -712,12 +712,12 @@ Belangrijke configuratiedetails:
 
 **documentatie van Experience League:**
 
-- [Een mobiele scorecard maken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/create-scorecard)
+- [Een mobiele scorecard maken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dashboards/create-scorecard)
 - [scorecards configureren en beheren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/curate)
-- [Adobe Analytics-dashboards — handleiding](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/set-up-execs)
-- [Projecten delen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
-- [Projecten plannen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
-- [Visualisatie van overzichtsnummers](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)
+- [Adobe Analytics-dashboards — handleiding](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dashboards/set-up-execs)
+- [Projecten delen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
+- [Projecten plannen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
+- [Visualisatie van overzichtsnummers](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)
 - [Datumbereiken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/date-ranges/overview)
 
 ### Fase 5: Publicatie door het publiek (alleen optie C)
@@ -771,10 +771,10 @@ Belangrijke configuratiedetails:
 
 **documentatie van Experience League:**
 
-- [Overzicht publiek](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
-- [Soorten publiek maken en publiceren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
-- [Soorten publiek beheren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/manage)
-- [Overzicht van het portal Publiek](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal)
+- [Overzicht publiek](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
+- [Soorten publiek maken en publiceren](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Soorten publiek beheren](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/audiences/manage)
+- [Overzicht van het portal Publiek](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-portal)
 
 ## Implementatieoverwegingen
 
@@ -784,7 +784,7 @@ In deze sectie worden hulplijnen, valkuilen, beste praktijken en afwegingsbeslis
 
 Voor deze implementatie gelden de volgende instructies en beperkingen.
 
-- **de grenzen van de Verbinding:** Maximum aantal verbindingen per organisatie wordt beperkt door CJA SKU recht. Een enkele verbinding kan gegevenssets van slechts één AEP-sandbox bevatten. — [&#x200B; de guardrails van CJA &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
+- **de grenzen van de Verbinding:** Maximum aantal verbindingen per organisatie wordt beperkt door CJA SKU recht. Een enkele verbinding kan gegevenssets van slechts één AEP-sandbox bevatten. — [&#x200B; de guardrails van CJA &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-admin/guardrails)
 - **de meningsgrenzen van Gegevens:** Maximum van 5.000 dimensies en 5.000 metriek per gegevensmening. Maximaal 100 afgeleide velden per gegevensweergave met maximaal 5 niveaus geneste functies.
 - **de grenzen van Workspace:** Maximum van 40 panelen per project. Vrije-vormtabellen bieden ondersteuning voor maximaal 10 dimensiescheidingen diep. Maximum van 50.000 rijen per rapportverzoek.
 - **Scorecard grenzen:** Maximum van 16 tegels per mobiele scorecard.
@@ -876,99 +876,99 @@ De volgende bronnen bieden aanvullende informatie voor dit gebruikspatroon.
 
 ### [!DNL Customer Journey Analytics] — Aan de slag
 
-- [CJA-overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
-- [CJA guardrails](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
+- [CJA-overzicht](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-overview)
+- [CJA guardrails](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-admin/guardrails)
 
 ### Connecties
 
-- [Overzicht van verbindingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
-- [Verbinding maken of bewerken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
-- [Verbindingen beheren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections)
+- [Overzicht van verbindingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/overview)
+- [Verbinding maken of bewerken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/create-connection)
+- [Verbindingen beheren](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/manage-connections)
 
 ### Gegevensweergaven
 
-- [Overzicht van gegevensweergaven](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
-- [Een gegevensweergave maken of bewerken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-- [Overzicht van componentinstellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
-- [Persistinstellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
-- [Attributie-instellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
-- [Indelingsinstellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/format)
-- [Metrische deduplicatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)
-- [Waarden opnemen/uitsluiten](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/include-exclude-values)
-- [Sessieinstellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/session-settings)
-- [Afgeleide velden](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields)
+- [Overzicht van gegevensweergaven](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/data-views)
+- [Een gegevensweergave maken of bewerken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [Overzicht van componentinstellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+- [Persistinstellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
+- [Attributie-instellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
+- [Indelingsinstellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/format)
+- [Metrische deduplicatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)
+- [Waarden opnemen/uitsluiten](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/include-exclude-values)
+- [Sessieinstellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/session-settings)
+- [Afgeleide velden](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/derived-fields)
 
 ### Workspace en analyse
 
-- [Workspace-overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
-- [Een project maken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
-- [Vrije-vormtabel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
-- [Stroomvisualisatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
-- [Uitvalvisualisatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
-- [Cohortingtabel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
-- [Kenmerk, deelvenster](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)
+- [Workspace-overzicht](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home)
+- [Een project maken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
+- [Vrije-vormtabel](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
+- [Stroomvisualisatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
+- [Uitvalvisualisatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
+- [Cohortingtabel](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
+- [Kenmerk, deelvenster](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/panels/attribution)
 - [Afmetingen onderverdelingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/components/dimensions/t-breakdown-fa)
-- [Projecten delen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
-- [Projecten plannen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
-- [Overzicht van exporteren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/export/export-cloud)
+- [Projecten delen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
+- [Projecten plannen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
+- [Overzicht van exporteren](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/export/export-cloud)
 
 ### Analyse met instructies
 
-- [Overzicht van geleide analyse](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview)
+- [Overzicht van geleide analyse](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/overview)
 - [Funnel-weergave](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/funnel)
-- [Trends, weergave](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/trends/usage)
-- [Weergave betrokkenheidsfrequentie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/trends/frequency)
-- [Weergave Behouden](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
-- [Actieve groeiweergave](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/user-growth/active)
-- [Weergave-effect](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/impact/release)
-- [Botsingweergave voor eerste gebruik](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/impact/first-use)
-- [Tijdlijnweergave](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/streams/timeline)
+- [Trends, weergave](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/trends/usage)
+- [Weergave betrokkenheidsfrequentie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/trends/frequency)
+- [Weergave Behouden](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
+- [Actieve groeiweergave](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/user-growth/active)
+- [Weergave-effect](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/impact/release)
+- [Botsingweergave voor eerste gebruik](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/impact/first-use)
+- [Tijdlijnweergave](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/streams/timeline)
 
 ### Onderdelen
 
-- [Overzicht van filters](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
-- [Filters maken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
-- [Overzicht van berekende metriek](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
-- [Berekende waarden maken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
-- [Berekende metrische functies](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-functions)
-- [Overzicht van annotaties](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/annotations/overview)
+- [Overzicht van filters](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
+- [Filters maken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
+- [Overzicht van berekende metriek](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
+- [Berekende waarden maken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
+- [Berekende metrische functies](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-functions)
+- [Overzicht van annotaties](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/annotations/overview)
 - [Datumbereiken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/date-ranges/overview)
-- [Metrische component](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/apply-create-metrics)
+- [Metrische component](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/apply-create-metrics)
 
 ### Publicatie door het publiek
 
-- [Overzicht publiek](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
-- [Soorten publiek maken en publiceren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
-- [Soorten publiek beheren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/manage)
+- [Overzicht publiek](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
+- [Soorten publiek maken en publiceren](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Soorten publiek beheren](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/audiences/manage)
 
 ### Inhoudsanalyse
 
-- [Content-analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/content-analytics)
+- [Content-analytics](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/content-analytics/content-analytics)
 - [Content Analytics-configuratie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/config/configuration)
 
 ### Dashboards &amp; scorecards
 
-- [Een mobiele scorecard maken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/create-scorecard)
+- [Een mobiele scorecard maken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dashboards/create-scorecard)
 - [scorecards configureren en beheren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/curate)
-- [Adobe Analytics-dashboards — handleiding](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/set-up-execs)
-- [Visualisatie van overzichtsnummers](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)
+- [Adobe Analytics-dashboards — handleiding](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dashboards/set-up-execs)
+- [Visualisatie van overzichtsnummers](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)
 
 ### AEP-stichtingen
 
-- [Overzicht van gegevenssets](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)
-- [XDM System, overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [Overzicht van bronnen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
-- [Overzicht van identiteitsservice](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
-- [Overzicht van het portal Publiek](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal)
+- [Overzicht van gegevenssets](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/overview)
+- [XDM System, overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home)
+- [Overzicht van bronnen](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home)
+- [Overzicht van identiteitsservice](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home)
+- [Overzicht van het portal Publiek](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-portal)
 
 ### Integratie van AJO-rapportage
 
-- [AJO + CJA-integratiehandleiding](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [AJO + CJA-integratiehandleiding](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 - [E-mailrapport campagne voeren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/reporting/campaign-global-report-cja-email)
 - [E-mailrapport reis](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/reporting/journey-global-report-cja-email)
 
 ### Zelfstudies en hulplijnen
 
-- [Grondbeginselen van de schemacompositie](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
-- [Overzicht van Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Gegevensstromen configureren](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [Grondbeginselen van de schemacompositie](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition)
+- [Overzicht van Web SDK](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home)
+- [Gegevensstromen configureren](https://experienceleague.adobe.com/nl/docs/experience-platform/datastreams/configure)

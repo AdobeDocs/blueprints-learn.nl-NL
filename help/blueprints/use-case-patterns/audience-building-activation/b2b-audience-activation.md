@@ -316,7 +316,7 @@ De streamingconnector verzendt incrementele updates wanneer wijzigingen in het p
 
 **Experience League:**
 
-- [Salesforce CRM-bestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/crm/salesforce)
+- [Salesforce CRM-bestemming](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/crm/salesforce)
 - [Microsoft Dynamics 365-bestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/crm/microsoft-dynamics-365)
 
 ### Optievergelijking
@@ -531,7 +531,7 @@ Navigeer naar Doelen > Catalogus > CRM > selecteren [!DNL Salesforce] of [!DNL D
 - [Doelcatalogus](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
 - [Marketo Engage-bestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/adobe/marketo-engage)
 - [Doel van LinkedIn-overeenkomend publiek](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
-- [Salesforce CRM-bestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/crm/salesforce)
+- [Salesforce CRM-bestemming](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/crm/salesforce)
 - [Amazon S3-bestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
 
 ### Fase 4: Activering van het publiek
@@ -666,7 +666,7 @@ Bekijk de volgende platforminstructies en -limieten die van toepassing zijn op d
 - Maximum van 10 samenstellingsblokken per het canvas van de Samenstelling van het Publiek
 - [!DNL LinkedIn] Voor activering is een minimale doelgrootte (meestal 300 leden) vereist voor passend publiek
 - CRM-streamingdoelen zijn onderworpen aan de API-snelheidslimieten van de CRM-provider (bijv. de dagelijkse limieten van [!DNL Salesforce] bulk API)
-- [!DNL RT-CDP] B2B edition vergunning regelt het totale aantal profielen van de bedrijfsrekening — [&#x200B; RT-CDP productbeschrijving &#x200B;](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html)
+- [!DNL RT-CDP] B2B edition vergunning regelt het totale aantal profielen van de bedrijfsrekening — [&#x200B; RT-CDP productbeschrijving &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html)
 
 ### Veelvoorkomende valkuilen
 
@@ -737,7 +737,7 @@ De volgende bronnen bieden aanvullende context en gedetailleerde instructies voo
 - [Real-Time CDP B2B edition - overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#rtcdp-b2b)
 - [B2B-schema&#39;s in Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
 - [Accountpubliek](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences)
-- [RT-CDP B2B edition productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html)
+- [RT-CDP B2B edition productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html)
 
 **de evaluatie en segmentatie van het publiek**
 
@@ -753,7 +753,7 @@ De volgende bronnen bieden aanvullende context en gedetailleerde instructies voo
 - [Doelcatalogus](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
 - [Marketo Engage-bestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/adobe/marketo-engage)
 - [Doel van LinkedIn-overeenkomend publiek](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
-- [Salesforce CRM-bestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/crm/salesforce)
+- [Salesforce CRM-bestemming](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/crm/salesforce)
 - [Microsoft Dynamics 365-bestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/crm/microsoft-dynamics-365)
 - [Amazon S3-bestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
 - [Stimulansen voor het publiek naar streamingdoelen activeren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)

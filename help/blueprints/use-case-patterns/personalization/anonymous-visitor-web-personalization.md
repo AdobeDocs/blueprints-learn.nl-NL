@@ -110,11 +110,11 @@ Voor dit gebruikspatroon moeten de volgende basisfuncties aanwezig zijn. Voor el
 
 | Foundary, functie | Status | Wat moet er gebeuren? | Experience League-referentie |
 | --- | --- | --- | --- |
-| Beheer en bestuur | Verondersteld op plaats | AJO-sandbox met webkanaalmachtigingen geconfigureerd. [!DNL Web SDK] implementatiemachtigingen en datastream toegang verleend aan het implementatieteam. Gebruikers met rollen die webkanaalconfiguratie, publieksbeheer en uitvoering van campagnes toestaan. | [&#x200B; overzicht van het Toegangsbeheer &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Gegevensmodellering en -voorbereiding | Vereist | Ervaar gebeurtenisschema&#39;s waarin webgedragssignalen worden vastgelegd (paginaweergaven, klikken, schuifdiepte, verwijzingsgegevens, UTM-parameters). Het schema moet standaardgroepen van het Web interactiegebied omvatten en voor randprofiel worden toegelaten om evaluatie in real time te steunen. Een overeenkomstige dataset moet worden gecreeerd en profiel-toegelaten. | [&#x200B; XDM overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
-| Gegevensbronnen en -verzameling | Vereist | [!DNL Web SDK] moet worden geïmplementeerd op alle webeigenschappen van het doel met een gegevensstroom geconfigureerd om gegevens door te sturen naar [!DNL AEP Edge Network] . Voor de gegevensstroom moeten de services [!DNL Adobe Experience Platform] en [!DNL Adobe Journey Optimizer] zijn ingeschakeld. Dit is een kritieke afhankelijkheid — zonder [!DNL Web SDK] is geen gedragssignaalverzameling of ervaringslevering mogelijk. | [&#x200B; overzicht van SDK van het Web &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) |
-| Identiteit en profielconfiguratie | Vereist | ECID ([!DNL Experience Cloud ID]) gevormd als primaire identiteitskaart namespace voor anonieme bezoekers. Het samenvoegbeleid van Edge moet met `isActiveOnEdge: true` worden gevormd om anonieme profielgegevens bij de rand op te lossen. Er kan slechts één samenvoegbeleid actief zijn op de rand per sandbox. | [&#x200B; Overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
-| Auditiedefinitie en segmentatie | Vereist | Door Edge beoordeelde publiekssegmenten gedefinieerd op basis van gedragssignalen tijdens de sessie. Edge-segmentatie is verplicht voor een latere evaluatie. De regels van het segment moeten slechts de rand-in aanmerking komende uitdrukkingen van de segmentregel gebruiken (eenvoudige attributencontroles en segmentlidmaatschap — geen tijd-reeksen vragen of complexe samenvoegingen). | [&#x200B; de segmentatie van Edge &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation) |
+| Beheer en bestuur | Verondersteld op plaats | AJO-sandbox met webkanaalmachtigingen geconfigureerd. [!DNL Web SDK] implementatiemachtigingen en datastream toegang verleend aan het implementatieteam. Gebruikers met rollen die webkanaalconfiguratie, publieksbeheer en uitvoering van campagnes toestaan. | [&#x200B; overzicht van het Toegangsbeheer &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/home) |
+| Gegevensmodellering en -voorbereiding | Vereist | Ervaar gebeurtenisschema&#39;s waarin webgedragssignalen worden vastgelegd (paginaweergaven, klikken, schuifdiepte, verwijzingsgegevens, UTM-parameters). Het schema moet standaardgroepen van het Web interactiegebied omvatten en voor randprofiel worden toegelaten om evaluatie in real time te steunen. Een overeenkomstige dataset moet worden gecreeerd en profiel-toegelaten. | [&#x200B; XDM overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home) |
+| Gegevensbronnen en -verzameling | Vereist | [!DNL Web SDK] moet worden geïmplementeerd op alle webeigenschappen van het doel met een gegevensstroom geconfigureerd om gegevens door te sturen naar [!DNL AEP Edge Network] . Voor de gegevensstroom moeten de services [!DNL Adobe Experience Platform] en [!DNL Adobe Journey Optimizer] zijn ingeschakeld. Dit is een kritieke afhankelijkheid — zonder [!DNL Web SDK] is geen gedragssignaalverzameling of ervaringslevering mogelijk. | [&#x200B; overzicht van SDK van het Web &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home) |
+| Identiteit en profielconfiguratie | Vereist | ECID ([!DNL Experience Cloud ID]) gevormd als primaire identiteitskaart namespace voor anonieme bezoekers. Het samenvoegbeleid van Edge moet met `isActiveOnEdge: true` worden gevormd om anonieme profielgegevens bij de rand op te lossen. Er kan slechts één samenvoegbeleid actief zijn op de rand per sandbox. | [&#x200B; Overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home) |
+| Auditiedefinitie en segmentatie | Vereist | Door Edge beoordeelde publiekssegmenten gedefinieerd op basis van gedragssignalen tijdens de sessie. Edge-segmentatie is verplicht voor een latere evaluatie. De regels van het segment moeten slechts de rand-in aanmerking komende uitdrukkingen van de segmentregel gebruiken (eenvoudige attributencontroles en segmentlidmaatschap — geen tijd-reeksen vragen of complexe samenvoegingen). | [&#x200B; de segmentatie van Edge &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/edge-segmentation) |
 
 ## Ondersteunende functies
 
@@ -122,11 +122,11 @@ De volgende mogelijkheden vergroten dit gebruikspatroon, maar zijn niet vereist 
 
 | Ondersteunende functie | Status | Waarom het belangrijk is | Experience League-referentie |
 | --- | --- | --- | --- |
-| Berekend / Afgeleid kenmerk maken | Niet van toepassing | Beperkte waarde voor anonieme bezoekers omdat er minimale historische profielgegevens zijn om samen te voegen. Dit kan van toepassing worden als het Edge-profiel zinvolle gedragsgegevens opneemt van eerdere anonieme bezoeken tijdens meerdere sessies. | [&#x200B; Berekende attributen overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| Levenscyclusbeheer van gegevens | Aanbevolen | Voor anonieme Edge-profielen moet de vervaldatum van een pseudoniem profiel worden geconfigureerd om opslag te beheren en te voldoen aan privacyvereisten. U kunt instellen dat profielen die alleen voor ECID&#39;s zijn bestemd, tussen 14 en 365 dagen verlopen. Het beleid voor toestemming voor cookies moet worden afgedwongen voor het verzamelen van gedragsgegevens. | [&#x200B; het Geavanceerde overzicht van het Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| Etikettering en handhaving van gegevensgebruik | Aanbevolen | De etiketten van de governance op gedragsgegevens verzekeren naleving, met name voor geo-gericht (S2 gevoelig geografisch etiket) en op apparaat-gebaseerde verpersoonlijking. Met labels wordt voorkomen dat beperkte gedragsgegevens worden gebruikt in onbevoegde personalisatiekanalen. | [&#x200B; Overzicht van het beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| Bewaking en waarneming | Aanbevolen | [!DNL Edge Network] en [!DNL Web SDK] de controle van de gegevensstroom helpt verpersoonlijkingskwesties ontdekken. Vorm alarm voor gegevensstroommislukkingen, innamefouten, en randleveringsanomalieën. Kritiek voor productieplaatsingen waar de mislukkingen van de verpersoonlijking de ervaring van de bezoeker degraderen. | [&#x200B; overzicht van de Inzichten van de Waarnemelijkheid &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| Rapportage en analyse | Opgenomen | Personalization-prestatierapportage maakt deel uit van de functieketen (fase 5). De CJA-analyse van de effectiviteit van anonieme personalisatie van bezoekers maakt een diepgaande funnel-analyse, -cohortvergelijking en -conversie-effectmeting mogelijk die verder gaat dan wat in AJO native rapporten wordt geboden. | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Berekend / Afgeleid kenmerk maken | Niet van toepassing | Beperkte waarde voor anonieme bezoekers omdat er minimale historische profielgegevens zijn om samen te voegen. Dit kan van toepassing worden als het Edge-profiel zinvolle gedragsgegevens opneemt van eerdere anonieme bezoeken tijdens meerdere sessies. | [&#x200B; Berekende attributen overzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/overview) |
+| Levenscyclusbeheer van gegevens | Aanbevolen | Voor anonieme Edge-profielen moet de vervaldatum van een pseudoniem profiel worden geconfigureerd om opslag te beheren en te voldoen aan privacyvereisten. U kunt instellen dat profielen die alleen voor ECID&#39;s zijn bestemd, tussen 14 en 365 dagen verlopen. Het beleid voor toestemming voor cookies moet worden afgedwongen voor het verzamelen van gedragsgegevens. | [&#x200B; het Geavanceerde overzicht van het Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-lifecycle/home) |
+| Etikettering en handhaving van gegevensgebruik | Aanbevolen | De etiketten van de governance op gedragsgegevens verzekeren naleving, met name voor geo-gericht (S2 gevoelig geografisch etiket) en op apparaat-gebaseerde verpersoonlijking. Met labels wordt voorkomen dat beperkte gedragsgegevens worden gebruikt in onbevoegde personalisatiekanalen. | [&#x200B; Overzicht van het beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/home) |
+| Bewaking en waarneming | Aanbevolen | [!DNL Edge Network] en [!DNL Web SDK] de controle van de gegevensstroom helpt verpersoonlijkingskwesties ontdekken. Vorm alarm voor gegevensstroommislukkingen, innamefouten, en randleveringsanomalieën. Kritiek voor productieplaatsingen waar de mislukkingen van de verpersoonlijking de ervaring van de bezoeker degraderen. | [&#x200B; overzicht van de Inzichten van de Waarnemelijkheid &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/observability/home) |
+| Rapportage en analyse | Opgenomen | Personalization-prestatierapportage maakt deel uit van de functieketen (fase 5). De CJA-analyse van de effectiviteit van anonieme personalisatie van bezoekers maakt een diepgaande funnel-analyse, -cohortvergelijking en -conversie-effectmeting mogelijk die verder gaat dan wat in AJO native rapporten wordt geboden. | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Toepassingsfuncties
 
@@ -201,8 +201,8 @@ Deze benadering vereist het bepalen van verschillende publiekssegmenten in RT-CD
 
 **Experience League:**
 
-- [Aan de slag met webkanaal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/get-started-web)
-- [Edge-segmentatie](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [Aan de slag met webkanaal](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/web/get-started-web)
+- [Edge-segmentatie](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/edge-segmentation)
 
 ### Optie B: Experimentatiegebaseerde webpersonalisatie
 
@@ -242,7 +242,7 @@ Voor deze optie is geen vooraf gedefinieerde doelsegmenten vereist. Alle bezoeke
 
 **Experience League:**
 
-- [Aan de slag met het experimenteren met inhoud](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
+- [Aan de slag met het experimenteren met inhoud](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
 - [Een inhoudexperiment maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/create-content-experiment)
 - [Rapport voor inhoudexperiment](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-report)
 
@@ -284,8 +284,8 @@ De rangschikkingsstrategie bepaalt hoe in aanmerking komende inhoudsitems worden
 
 **Experience League:**
 
-- [Overzicht van Beslissingsbeheer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
-- [Plaatsingen maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
+- [Overzicht van Beslissingsbeheer](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
+- [Plaatsingen maken](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
 - [Gepersonaliseerde aanbiedingen maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [Beslissingen maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-activities)
 
@@ -364,8 +364,8 @@ Definieer de oppervlakken van het webkanaal die aangeven waar op uw website gepe
 
 **documentatie van Experience League:**
 
-- [Aan de slag met webkanaal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/get-started-web)
-- [Webervaringen maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/create-web)
+- [Aan de slag met webkanaal](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/web/get-started-web)
+- [Webervaringen maken](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/web/create-web)
 - [Code-gebaseerd ervaringskanaal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/get-started-code-based)
 - [Op code gebaseerde ervaringsconfiguratie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/code-based-configuration)
 
@@ -420,10 +420,10 @@ Bepaal publiek voor gebruik als geschiktheidsregels voor inhoudsitems. Deze doel
 
 **documentatie van Experience League:**
 
-- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Edge-segmentatie](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [Profile Query Language-referentie](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
-- [Streaming segmentering](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder)
+- [Edge-segmentatie](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [Profile Query Language-referentie](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/pql/overview)
+- [Streaming segmentering](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/streaming-segmentation)
 
 ### Fase 3: Inhoud van auteur maken en varianten maken
 
@@ -493,7 +493,7 @@ Opstelling de de componentenstapel van de Beslissing en integreert het in de cam
 
 **documentatie van Experience League:**
 
-- [Webervaringen maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/create-web)
+- [Webervaringen maken](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/web/create-web)
 - [Code-gebaseerd ervaringskanaal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/get-started-code-based)
 - [Aanpassing toevoegen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalize)
 - [Dynamische inhoud](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
@@ -543,7 +543,7 @@ Creeer een campagne die het besluitvormingsbeleid inbedt dat in Fase 3 wordt gev
 **documentatie van Experience League:**
 
 - [Een campagne maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
-- [Aan de slag met campagnes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
+- [Aan de slag met campagnes](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
 - [Aanbiedingen in berichten leveren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/deliver-offers/deliver-offers-in-messages)
 
 ### Fase 5: Prestaties rapporteren en analyseren
@@ -590,7 +590,7 @@ Bekijk de maatstaven voor de beslissingsprestaties, zoals de beeldfrequentie, de
 - [Campagne live-rapport](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-live-report)
 - [Globaal verslag campagne voeren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-global-report-cja)
 - [Werken met Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [Analysis Workspace-overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
+- [Analysis Workspace-overzicht](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home)
 - [Statistische berekeningen in het inhoudexperiment](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-calculations)
 
 ## Implementatieoverwegingen
@@ -601,13 +601,13 @@ In deze sectie worden hulplijnen, valkuilen, beste praktijken en afwegingsbeslis
 
 Controleer de volgende instructies voor en tijdens de implementatie.
 
-- De segmenten van Edge zijn beperkt tot eenvoudige attributencontroles en segmentlidmaatschap — geen tijd-reeksen vragen of complexe samenvoegingen — [&#x200B; Edge segmentatiemogelijkheid &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
-- Slechts één samenvoegingsbeleid kan op rand per zandbak actief zijn - [&#x200B; de gidsen van het Profiel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- Maximum van 4.000 segmentdefinities per zandbak - [&#x200B; de gidsen van de Segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- Maximum van 500 actieve levende campagnes per zandbak — [&#x200B; de guardrails van Journey Optimizer &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
-- Maximum van 10 behandelingsvarianten per inhoudexperiment — [&#x200B; de grenzen van het inhoudexperiment &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
-- Maximum van 10.000 goedgekeurde gepersonaliseerde aanbiedingen per zandbak (Optie C) - [&#x200B; de guardrails van het Beheer van het Besluit &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
-- Maximum van 30 plaatsen per besluit (Optie C) — [&#x200B; de guardrails van Journey Optimizer &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- De segmenten van Edge zijn beperkt tot eenvoudige attributencontroles en segmentlidmaatschap — geen tijd-reeksen vragen of complexe samenvoegingen — [&#x200B; Edge segmentatiemogelijkheid &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/edge-segmentation)
+- Slechts één samenvoegingsbeleid kan op rand per zandbak actief zijn - [&#x200B; de gidsen van het Profiel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails)
+- Maximum van 4.000 segmentdefinities per zandbak - [&#x200B; de gidsen van de Segmentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails)
+- Maximum van 500 actieve levende campagnes per zandbak — [&#x200B; de guardrails van Journey Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/get-started/guardrails)
+- Maximum van 10 behandelingsvarianten per inhoudexperiment — [&#x200B; de grenzen van het inhoudexperiment &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/get-started/guardrails)
+- Maximum van 10.000 goedgekeurde gepersonaliseerde aanbiedingen per zandbak (Optie C) - [&#x200B; de guardrails van het Beheer van het Besluit &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/get-started/guardrails)
+- Maximum van 30 plaatsen per besluit (Optie C) — [&#x200B; de guardrails van Journey Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/get-started/guardrails)
 - Voor AI-classificatiemodellen is een minimum van 1.000 conversiegebeurtenissen vereist voor training (Option C)
 - [!DNL Edge Network] reactietijd SLA: &lt; 200 ms voor Edge-geëvalueerde segmenten
 - Vervaldatum van pseudoniem profiel: configureerbaar van 14 tot 365 dagen voor profielen met alleen ECID
@@ -675,39 +675,39 @@ De volgende Experience League-bronnen bieden aanvullende informatie over de moge
 
 **het kanaal van het Web en op code-gebaseerde ervaringen**
 
-- [Aan de slag met webkanaal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/get-started-web)
-- [Webervaringen maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/create-web)
+- [Aan de slag met webkanaal](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/web/get-started-web)
+- [Webervaringen maken](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/web/create-web)
 - [Code-gebaseerd ervaringskanaal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/get-started-code-based)
 - [Op code gebaseerde ervaringsconfiguratie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based/code-based-configuration)
 
 **Soorten publiek en segmentatie**
 
-- [Overzicht van segmentatieservice](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Edge-segmentatie](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [Streaming segmentering](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [Profile Query Language-referentie](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
+- [Overzicht van segmentatieservice](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home)
+- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder)
+- [Edge-segmentatie](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [Streaming segmentering](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Profile Query Language-referentie](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/pql/overview)
 
 **Personalization en inhoud**
 
 - [Aanpassing toevoegen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalize)
 - [Personalization-syntaxis](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalization-syntax)
 - [Dynamische inhoud](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
-- [Werken met inhoudssjablonen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
+- [Werken met inhoudssjablonen](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [Werken met inhoudsfragmenten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
 
 **experimenteren van de Inhoud**
 
-- [Aan de slag met het experimenteren met inhoud](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
+- [Aan de slag met het experimenteren met inhoud](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
 - [Een inhoudexperiment maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/create-content-experiment)
 - [Rapport voor inhoudexperiment](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-report)
 - [Statistische berekeningen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-calculations)
 
 **Beheer van het Besluit**
 
-- [Overzicht van Beslissingsbeheer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
-- [Plaatsingen maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
-- [Beslissingsregels maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
+- [Overzicht van Beslissingsbeheer](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning)
+- [Plaatsingen maken](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-placements)
+- [Beslissingsregels maken](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-decision-rules)
 - [Gepersonaliseerde aanbiedingen maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-personalized-offers)
 - [Alternatieve aanbiedingen maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-fallback-offers)
 - [Verzamelingen maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/create-components/creating-collections)
@@ -717,44 +717,44 @@ De volgende Experience League-bronnen bieden aanvullende informatie over de moge
 
 **Campagnes**
 
-- [Aan de slag met campagnes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
+- [Aan de slag met campagnes](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
 - [Een campagne maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
 
 **[!DNL Web SDK]en gegevensverzameling**
 
-- [Overzicht van Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Web SDK installeren](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview)
-- [Gegevensstromen configureren](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [Overzicht van codes](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)
+- [Overzicht van Web SDK](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home)
+- [Web SDK installeren](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/install/overview)
+- [Gegevensstromen configureren](https://experienceleague.adobe.com/nl/docs/experience-platform/datastreams/configure)
+- [Overzicht van codes](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/home)
 
 **Identiteit en profiel**
 
-- [Overzicht van identiteitsservice](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
-- [Overzicht van naamruimten](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces)
-- [Overzicht van beleid samenvoegen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
-- [Overzicht van het realtime klantprofiel](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [Overzicht van identiteitsservice](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home)
+- [Overzicht van naamruimten](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces)
+- [Overzicht van beleid samenvoegen](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview)
+- [Overzicht van het realtime klantprofiel](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/home)
 
 **modellering van Gegevens**
 
-- [XDM System, overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [Grondbeginselen van de schemacompositie](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+- [XDM System, overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home)
+- [Grondbeginselen van de schemacompositie](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition)
 
 **het Melden en de analyses**
 
 - [Campagne live-rapport](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-live-report)
 - [Globaal verslag campagne voeren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/campaign-global-report-cja)
 - [Werken met Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [Analysis Workspace-overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
-- [CJA-overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Analysis Workspace-overzicht](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home)
+- [CJA-overzicht](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-overview)
 
 **het bestuur van Gegevens en privacy**
 
-- [Datagovernance - Overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [Overzicht van geavanceerd gegevenslevenscyclusbeheer](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
-- [Toestemming en voorkeuren, veldgroep](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
+- [Datagovernance - Overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/home)
+- [Overzicht van geavanceerd gegevenslevenscyclusbeheer](https://experienceleague.adobe.com/nl/docs/experience-platform/data-lifecycle/home)
+- [Toestemming en voorkeuren, veldgroep](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/field-groups/profile/consents)
 
 **Guardrails**
 
-- [Journey Optimizer guardrails](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
-- [Garanties voor realtime klantprofiel](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [Identiteitsservicehandleidingen](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
+- [Journey Optimizer guardrails](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/get-started/guardrails)
+- [Garanties voor realtime klantprofiel](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails)
+- [Identiteitsservicehandleidingen](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/guardrails)

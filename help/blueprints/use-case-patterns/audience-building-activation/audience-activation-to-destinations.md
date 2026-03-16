@@ -93,11 +93,11 @@ Voor dit gebruikspatroon moeten de volgende basisfuncties aanwezig zijn. Voor el
 
 | Foundary, functie | Status | Wat moet er gebeuren? | Experience League-referentie |
 | --- | --- | --- | --- |
-| Beheer en bestuur | Verondersteld op plaats | RT-CDP-sandbox ingericht en actief. Machtigingen voor doelbeheer en activering die zijn toegewezen aan implementatierollen. Referenties van bestemmingsaccount beschikbaar voor de doelplatforms. | [&#x200B; het overzicht van Sandboxen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home), [&#x200B; overzicht van de Toegangscontrole &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Gegevensmodellering en -voorbereiding | Vereist | Profielschema moet kenmerken bevatten die worden toegewezen aan doelvelden (bijvoorbeeld e-mail, telefoon, hashed-id&#39;s, demografische kenmerken). Het schema moet profiel-toegelaten met datasets zijn die actief gegevens ontvangen. | [&#x200B; XDM het overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [&#x200B; de samenstellingsgrondbeginselen van het Schema &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
-| Gegevensbronnen en -verzameling | Verondersteld op plaats | De gegevens van het profiel die publieksevaluatie macht moeten worden ingebed en huidig. Batch- en/of streamingpijpleidingen werken. Web SDK, bronschakelaars, of batch ingestion die gegevens in profiel-toegelaten datasets leveren. | [&#x200B; Bronoverzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home), [&#x200B; het overzicht van SDK van het Web &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) |
-| Identiteit en profielconfiguratie | Vereist | Identiteitsnaamruimten voor bestemmingsovereenkomst moeten worden gevormd (bv. gehakt e-mail voor de Aangepaste Soorten van Facebook, de Gelijke van de Klant van Google Ads). Bij samenvoegingsbeleid moeten uniforme profielen worden gemaakt met alle vereiste kenmerken voor activering. | [&#x200B; overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [&#x200B; overzicht van het beleid van de Fusie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
-| Auditiedefinitie en segmentatie | Vereist | Doelpubliek gedefinieerd met gebruik van Segment Builder, Audience Composition of Federated Audience Composition. Evaluatiemethode (batch, streaming of edge) geselecteerd op basis van de vereiste activeringswachttijd. Deze functie wordt uitgeoefend in Fase 1 van dit plan. | [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [&#x200B; de gids UI van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
+| Beheer en bestuur | Verondersteld op plaats | RT-CDP-sandbox ingericht en actief. Machtigingen voor doelbeheer en activering die zijn toegewezen aan implementatierollen. Referenties van bestemmingsaccount beschikbaar voor de doelplatforms. | [&#x200B; het overzicht van Sandboxen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sandbox/home), [&#x200B; overzicht van de Toegangscontrole &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/home) |
+| Gegevensmodellering en -voorbereiding | Vereist | Profielschema moet kenmerken bevatten die worden toegewezen aan doelvelden (bijvoorbeeld e-mail, telefoon, hashed-id&#39;s, demografische kenmerken). Het schema moet profiel-toegelaten met datasets zijn die actief gegevens ontvangen. | [&#x200B; XDM het overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home), [&#x200B; de samenstellingsgrondbeginselen van het Schema &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition) |
+| Gegevensbronnen en -verzameling | Verondersteld op plaats | De gegevens van het profiel die publieksevaluatie macht moeten worden ingebed en huidig. Batch- en/of streamingpijpleidingen werken. Web SDK, bronschakelaars, of batch ingestion die gegevens in profiel-toegelaten datasets leveren. | [&#x200B; Bronoverzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home), [&#x200B; het overzicht van SDK van het Web &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home) |
+| Identiteit en profielconfiguratie | Vereist | Identiteitsnaamruimten voor bestemmingsovereenkomst moeten worden gevormd (bv. gehakt e-mail voor de Aangepaste Soorten van Facebook, de Gelijke van de Klant van Google Ads). Bij samenvoegingsbeleid moeten uniforme profielen worden gemaakt met alle vereiste kenmerken voor activering. | [&#x200B; overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home), [&#x200B; overzicht van het beleid van de Fusie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview) |
+| Auditiedefinitie en segmentatie | Vereist | Doelpubliek gedefinieerd met gebruik van Segment Builder, Audience Composition of Federated Audience Composition. Evaluatiemethode (batch, streaming of edge) geselecteerd op basis van de vereiste activeringswachttijd. Deze functie wordt uitgeoefend in Fase 1 van dit plan. | [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home), [&#x200B; de gids UI van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## Ondersteunende functies
 
@@ -105,11 +105,11 @@ De volgende mogelijkheden vergroten dit gebruikspatroon, maar zijn niet vereist 
 
 | Ondersteunende functie | Status | Waarom het belangrijk is | Experience League-referentie |
 | --- | --- | --- | --- |
-| Berekend / Afgeleid kenmerk maken | Aanbevolen | De gegevens verwerkte attributen zoals levenwaarde, betrokkenheidsscore, of volheidsscore verbeteren publieksprecisie en verstrekken verrijkingsattributen aan kaart aan bestemmingen. Bijzonder waardevol wanneer de bestemmingen van op waarde-gebaseerde of op score-gebaseerde publiekssegmentatie profiteren. | [&#x200B; Berekende attributen overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| Levenscyclusbeheer van gegevens | Aanbevolen | Beleid voor gegevenssets en het verlopen van profielen zorgt voor gegevensversheid en compatibiliteit. Met de configuratie van het schema voor instemming worden alleen goedgekeurde profielen geactiveerd. Kritiek op naleving van regelgeving bij het exporteren van gegevens naar externe systemen. | [&#x200B; het Geavanceerde overzicht van het Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| Etikettering en handhaving van gegevensgebruik | Aanbevolen | De etiketten en het beleid van de governance verhinderen activering van beperkte gegevens aan onbevoegde bestemmingen (b.v., PII aan en platforms, gevoelige segmenten aan gegevenspartners). Vooral belangrijk voor activering van het publiek naar externe systemen van derden. | [&#x200B; het beheer van Gegevens overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [&#x200B; overzicht van de gebruiksetiketten van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview) |
-| Bewaking en waarneming | Opgenomen | Activeringsbewaking maakt deel uit van de functieketen (fase 5). Omvat dataflow run monitoring, leveringsstatusalarm, publiekspopulatie het volgen, en de zichtbaarheid van het vergunningsgebruik. | [&#x200B; de bestemmingsdataflows van de Monitor &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations), [&#x200B; Overzicht van het Alarm &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
-| Rapportage en analyse | Aanbevolen | De CJA-analyse van de doeltreffendheid van de activering van het publiek maakt het mogelijk de prestaties voor actief publiek te meten (bv. conversielift van onderdrukking, ROAS van lookalike-publiek). | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Berekend / Afgeleid kenmerk maken | Aanbevolen | De gegevens verwerkte attributen zoals levenwaarde, betrokkenheidsscore, of volheidsscore verbeteren publieksprecisie en verstrekken verrijkingsattributen aan kaart aan bestemmingen. Bijzonder waardevol wanneer de bestemmingen van op waarde-gebaseerde of op score-gebaseerde publiekssegmentatie profiteren. | [&#x200B; Berekende attributen overzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/overview) |
+| Levenscyclusbeheer van gegevens | Aanbevolen | Beleid voor gegevenssets en het verlopen van profielen zorgt voor gegevensversheid en compatibiliteit. Met de configuratie van het schema voor instemming worden alleen goedgekeurde profielen geactiveerd. Kritiek op naleving van regelgeving bij het exporteren van gegevens naar externe systemen. | [&#x200B; het Geavanceerde overzicht van het Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-lifecycle/home) |
+| Etikettering en handhaving van gegevensgebruik | Aanbevolen | De etiketten en het beleid van de governance verhinderen activering van beperkte gegevens aan onbevoegde bestemmingen (b.v., PII aan en platforms, gevoelige segmenten aan gegevenspartners). Vooral belangrijk voor activering van het publiek naar externe systemen van derden. | [&#x200B; het beheer van Gegevens overzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/home), [&#x200B; overzicht van de gebruiksetiketten van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview) |
+| Bewaking en waarneming | Opgenomen | Activeringsbewaking maakt deel uit van de functieketen (fase 5). Omvat dataflow run monitoring, leveringsstatusalarm, publiekspopulatie het volgen, en de zichtbaarheid van het vergunningsgebruik. | [&#x200B; de bestemmingsdataflows van de Monitor &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/dataflows/ui/monitor-destinations), [&#x200B; Overzicht van het Alarm &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/observability/alerts/overview) |
+| Rapportage en analyse | Aanbevolen | De CJA-analyse van de doeltreffendheid van de activering van het publiek maakt het mogelijk de prestaties voor actief publiek te meten (bv. conversielift van onderdrukking, ROAS van lookalike-publiek). | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Toepassingsfuncties
 
@@ -176,8 +176,8 @@ De activering van het stromen is het gebrek voor de meeste ad platformbestemming
 
 **Experience League:**
 
-- [Stimulansen voor het publiek naar streamingdoelen activeren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [Streaming doelen in catalogus](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [Stimulansen voor het publiek naar streamingdoelen activeren](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [Streaming doelen in catalogus](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/overview)
 
 ### Optie B: Batchbestemming activeren (bestand exporteren)
 
@@ -215,7 +215,7 @@ Deze aanpak ondersteunt een zo groot mogelijk aantal downstreamconsumenten, omda
 
 **Experience League:**
 
-- [Soorten publiek activeren om exportdoelen voor batchprofielen te gebruiken](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Soorten publiek activeren om exportdoelen voor batchprofielen te gebruiken](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
 - [Catalogus van op bestanden gebaseerde doelen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage)
 
 ### Optie C: Activering van meerdere doelen
@@ -253,8 +253,8 @@ Dit is een gemeenschappelijk productiepatroon voor organisaties die op meerdere 
 
 **Experience League:**
 
-- [Overzicht van doelen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [Doelcatalogus](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [Overzicht van doelen](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/home)
+- [Doelcatalogus](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/overview)
 
 ### Optievergelijking
 
@@ -349,13 +349,13 @@ De evaluatiemethode zou de meest veeleisende bestemming moeten aanpassen. Als om
 
 **documentatie van Experience League:**
 
-- [Overzicht van segmentatieservice](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Profile Query Language-referentie](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
-- [Streaming segmentering](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [Edge-segmentatie](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [Overzicht van Audience Composition](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
-- [Evaluatiemethoden](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home#evaluation-methods)
+- [Overzicht van segmentatieservice](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home)
+- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder)
+- [Profile Query Language-referentie](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/pql/overview)
+- [Streaming segmentering](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Edge-segmentatie](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [Overzicht van Audience Composition](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-composition)
+- [Evaluatiemethoden](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home#evaluation-methods)
 
 
 ### Fase 2: Doelconfiguratie
@@ -427,12 +427,12 @@ Herhaal deze fase voor elke bestemming. Elke verbinding is onafhankelijk — u k
 
 **documentatie van Experience League:**
 
-- [Doelcatalogus](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [Overzicht van doelen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [Soorten publiek activeren om exportdoelen voor batchprofielen te gebruiken](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Stimulansen voor het publiek naar streamingdoelen activeren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [Destination SDK-overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/overview)
-- [Destination SDK-configuratieopties](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
+- [Doelcatalogus](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/overview)
+- [Overzicht van doelen](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/home)
+- [Soorten publiek activeren om exportdoelen voor batchprofielen te gebruiken](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Stimulansen voor het publiek naar streamingdoelen activeren](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [Destination SDK-overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/destination-sdk/overview)
+- [Destination SDK-configuratieopties](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
 
 
 ### Fase 3: Activering van het publiek
@@ -490,10 +490,10 @@ Herhaal de activeringsworkflow voor elke bestemming. Het zelfde publiek kan aan 
 
 **documentatie van Experience League:**
 
-- [Stimulansen voor het publiek naar streamingdoelen activeren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [Soorten publiek activeren om exportdoelen voor batchprofielen te gebruiken](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Het publiek op aanvraag activeren naar batchbestemmingen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/ad-hoc-activation-api)
-- [Dataflows voor doelen controleren](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Stimulansen voor het publiek naar streamingdoelen activeren](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [Soorten publiek activeren om exportdoelen voor batchprofielen te gebruiken](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Het publiek op aanvraag activeren naar batchbestemmingen](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/api/ad-hoc-activation-api)
+- [Dataflows voor doelen controleren](https://experienceleague.adobe.com/nl/docs/experience-platform/dataflows/ui/monitor-destinations)
 
 
 ### Fase 4: Validatie van bestuur
@@ -537,9 +537,9 @@ Herhaal de activeringsworkflow voor elke bestemming. Het zelfde publiek kan aan 
 
 **documentatie van Experience League:**
 
-- [Datagovernance - Overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [Beleidshandhaving](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
-- [Overzicht van labels voor gegevensgebruik](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview)
+- [Datagovernance - Overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/home)
+- [Beleidshandhaving](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/enforcement/overview)
+- [Overzicht van labels voor gegevensgebruik](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview)
 - [Toestemming en voorkeuren](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 - [Toestemming voor beleidshandhaving](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide)
 
@@ -562,9 +562,9 @@ Herhaal de activeringsworkflow voor elke bestemming. Het zelfde publiek kan aan 
 
 **documentatie van Experience League:**
 
-- [Dataflows voor doelen controleren](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [Overzicht van waarschuwingen](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Overzicht van observatiegegevens](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [Dataflows voor doelen controleren](https://experienceleague.adobe.com/nl/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Overzicht van waarschuwingen](https://experienceleague.adobe.com/nl/docs/experience-platform/observability/alerts/overview)
+- [Overzicht van observatiegegevens](https://experienceleague.adobe.com/nl/docs/experience-platform/observability/home)
 - [Het gebruiksdashboard voor licenties](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 ## Implementatieoverwegingen
@@ -573,15 +573,15 @@ Lees de volgende overwegingen voor en tijdens de implementatie.
 
 ### Guardrails en limieten
 
-- **de definitiegrens van het Segment:** Maximum van 4.000 segmentdefinities per zandbak - [&#x200B; de begeleiding van de segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- **Dataflows per bestemming:** Maximum van 100 dataflows per bestemmingsverbinding - [&#x200B; Bedoelingsgidsen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- **de definitiegrens van het Segment:** Maximum van 4.000 segmentdefinities per zandbak - [&#x200B; de begeleiding van de segmentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails)
+- **Dataflows per bestemming:** Maximum van 100 dataflows per bestemmingsverbinding - [&#x200B; Bedoelingsgidsen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/guardrails)
 - **de grootte van het de uitvoerdossier van de Partij:** Op dossier-gebaseerde bestemmingen hebben maximum de groottegrenzen van het de uitvoerdossier; de grote publiek wordt automatisch verdeeld over veelvoudige dossiers
 - **het stromen bestemmingsproductie:** Per-seconde de productiegrenzen worden geplaatst door elke bestemmingspartner; de veranderingen van het hoog-volumepubliek kunnen worden vertraagd
 - **de evaluatiecapaciteit van de Partij:** Tot 24 miljoen profielen per de baan van de segmentevaluatie door gebrek
 - **Samenstelling van het publiek:** Maximum van 10 samenstellingsblokken per canvas; de samengestelde doelgroepen worden slechts batch-geëvalueerd
-- **grafiek van de Identiteit:** Maximum van 50 identiteiten per grafiek - [&#x200B; Garanties van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
+- **grafiek van de Identiteit:** Maximum van 50 identiteiten per grafiek - [&#x200B; Garanties van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/guardrails)
 - **Berekende attributen:** Maximum van 25 gegevens verwerkte attributen per zandbak — [&#x200B; de gegevens verwerkte attributengidsen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview#guardrails)
-- **overzicht van de gidsen van de Activering:** [&#x200B; de guardrails van de Activering &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- **overzicht van de gidsen van de Activering:** [&#x200B; de guardrails van de Activering &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/guardrails)
 
 ### Veelvoorkomende valkuilen
 
@@ -651,72 +651,72 @@ Lees de volgende overwegingen voor en tijdens de implementatie.
 
 **Doelen**
 
-- [Overzicht van doelen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [Doelcatalogus](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [Stimulansen voor het publiek naar streamingdoelen activeren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [Soorten publiek activeren om exportdoelen voor batchprofielen te gebruiken](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Het publiek op aanvraag activeren naar batchbestemmingen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/ad-hoc-activation-api)
-- [Doelgeleidingen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
-- [Destination SDK-overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/overview)
+- [Overzicht van doelen](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/home)
+- [Doelcatalogus](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/overview)
+- [Stimulansen voor het publiek naar streamingdoelen activeren](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [Soorten publiek activeren om exportdoelen voor batchprofielen te gebruiken](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Het publiek op aanvraag activeren naar batchbestemmingen](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/api/ad-hoc-activation-api)
+- [Doelgeleidingen](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/guardrails)
+- [Destination SDK-overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/destination-sdk/overview)
 
 **Soorten publiek en segmentatie**
 
-- [Overzicht van segmentatieservice](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Profile Query Language-referentie](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
-- [Streaming segmentering](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [Edge-segmentatie](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [Overzicht van Audience Composition](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
-- [Segmenteringsgeleiding](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [Overzicht van segmentatieservice](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home)
+- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder)
+- [Profile Query Language-referentie](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/pql/overview)
+- [Streaming segmentering](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Edge-segmentatie](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [Overzicht van Audience Composition](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-composition)
+- [Segmenteringsgeleiding](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails)
 
 **Identiteit en profiel**
 
-- [Overzicht van identiteitsservice](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
-- [Overzicht van naamruimten](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces)
+- [Overzicht van identiteitsservice](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home)
+- [Overzicht van naamruimten](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces)
 - [Koppelingsregels voor identiteitsgrafiek](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)
 - [Profieloverzicht](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
-- [Overzicht van beleid samenvoegen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [Overzicht van beleid samenvoegen](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview)
 
 **modellering en schema&#39;s van Gegevens**
 
-- [XDM System, overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [Grondbeginselen van de schemacompositie](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+- [XDM System, overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home)
+- [Grondbeginselen van de schemacompositie](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition)
 
 **het bestuur van Gegevens**
 
-- [Datagovernance - Overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [Overzicht van labels voor gegevensgebruik](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview)
+- [Datagovernance - Overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/home)
+- [Overzicht van labels voor gegevensgebruik](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview)
 - [Beleid inzake gegevensbeheer](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
-- [Beleidshandhaving](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
+- [Beleidshandhaving](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/enforcement/overview)
 - [Toestemming en voorkeuren](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 
 **Controle en waarneming**
 
-- [Dataflows voor doelen controleren](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [Overzicht van waarschuwingen](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Overzicht van observatiegegevens](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [Dataflows voor doelen controleren](https://experienceleague.adobe.com/nl/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Overzicht van waarschuwingen](https://experienceleague.adobe.com/nl/docs/experience-platform/observability/alerts/overview)
+- [Overzicht van observatiegegevens](https://experienceleague.adobe.com/nl/docs/experience-platform/observability/home)
 - [Het gebruiksdashboard voor licenties](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 **Berekende attributen**
 
-- [Overzicht van berekende kenmerken](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
-- [Gebruikershandleiding voor berekende kenmerken](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
+- [Overzicht van berekende kenmerken](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/overview)
+- [Gebruikershandleiding voor berekende kenmerken](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/ui)
 
 **de inzameling en de bronnen van Gegevens**
 
-- [Overzicht van bronnen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
-- [Overzicht van Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
+- [Overzicht van bronnen](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home)
+- [Overzicht van Web SDK](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home)
 - [Gegevensstromen configureren](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 **Beleid**
 
-- [Overzicht van sandboxen](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home)
-- [Overzicht van toegangsbeheer](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
+- [Overzicht van sandboxen](https://experienceleague.adobe.com/nl/docs/experience-platform/sandbox/home)
+- [Overzicht van toegangsbeheer](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/home)
 - [Toegangsbeheer op basis van kenmerken](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview)
 
 **Guardrails**
 
-- [Garanties voor realtime klantprofiel](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [Identiteitsservicehandleidingen](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
-- [Activeringsinstructies](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
-- [Ingestiegrepen](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- [Garanties voor realtime klantprofiel](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails)
+- [Identiteitsservicehandleidingen](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/guardrails)
+- [Activeringsinstructies](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/guardrails)
+- [Ingestiegrepen](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/guardrails)

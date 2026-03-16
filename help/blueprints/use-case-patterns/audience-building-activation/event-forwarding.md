@@ -253,7 +253,7 @@ Deze benadering maximaliseert dekking terwijl het minimaliseren van onnodige dou
 
 **Experience League:**
 
-- [Overzicht van het doorsturen van gebeurtenissen](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
+- [Overzicht van het doorsturen van gebeurtenissen](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/event-forwarding/overview)
 - [Aan de slag met het doorsturen van gebeurtenissen](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
 
 ### Optievergelijking
@@ -327,7 +327,7 @@ De volgende fasen beschrijven het implementatieproces van begin tot eind voor ge
 
 - [Gegevensstromen configureren](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 - [Overzicht gegevensstromen](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
-- [Overzicht van het doorsturen van gebeurtenissen](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
+- [Overzicht van het doorsturen van gebeurtenissen](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/event-forwarding/overview)
 
 ### Fase 2: Gebeurtenis die bezit en uitbreidingen door:sturen
 
@@ -448,7 +448,7 @@ Maak afzonderlijke regels voor elk doel. De op uitbreiding-gebaseerde regels geb
 
 **documentatie van Experience League:**
 
-- [Regels voor het doorsturen van gebeurtenissen](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
+- [Regels voor het doorsturen van gebeurtenissen](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/event-forwarding/overview)
 - [Gegevenselementen bij het doorsturen van gebeurtenissen](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)
 - [Regels voor gegevensverzameling](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules)
 - [extensie Adobe Cloud Connector](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
@@ -605,7 +605,7 @@ De volgende middelen verstrekken extra detail over de onderwerpen die in deze gi
 
 **Gebeurtenis door:sturen**
 
-- [Overzicht van het doorsturen van gebeurtenissen](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
+- [Overzicht van het doorsturen van gebeurtenissen](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/event-forwarding/overview)
 - [Aan de slag met het doorsturen van gebeurtenissen](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
 - [Toezicht op doorsturen van gebeurtenissen](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
 - [Gebeurtenis die geheimen doorstuurt](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)

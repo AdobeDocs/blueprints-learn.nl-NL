@@ -107,10 +107,10 @@ Voor dit gebruikspatroon moeten de volgende basisfuncties aanwezig zijn. Voor el
 | Foundary, functie | Status | Wat moet er gebeuren? | Experience League-referentie |
 | --- | --- | --- | --- |
 | Beheer en bestuur | Verondersteld op plaats | AJO-sandbox met bevoegdheden voor het maken en publiceren van reizen. Kanaaloppervlakken voor alle kanalen die tijdens de reis worden gebruikt, moeten worden geconfigureerd. De gebruikers moeten de aangewezen rollen (Marketer, de Manager van de Reis) met reis en campagnetoestemmingen hebben. | [&#x200B; het overzicht van Sandboxen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home), [&#x200B; overzicht van de Toegangscontrole &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Gegevensmodellering en -voorbereiding | Vereist | XDM-profielschema met kenmerken die worden gebruikt voor vertakking en personalisatie van voorwaarden in meerdere berichten (bijvoorbeeld een loyaliteitsniveau, de interesse van het product, de betrokkenheidsscore). Ervaar de schema&#39;s van de Gebeurtenis voor omzettingsgebeurtenissen die uitgangscriteria en voorwaardevaluatie drijven (bijvoorbeeld, aankoopgebeurtenissen, vormverklaringen). | [&#x200B; XDM het overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [&#x200B; de samenstellingsgrondbeginselen van het Schema &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
+| Gegevensmodellering en -voorbereiding | Vereist | XDM-profielschema met kenmerken die worden gebruikt voor vertakking en personalisatie van voorwaarden in meerdere berichten (bijvoorbeeld een loyaliteitsniveau, de interesse van het product, de betrokkenheidsscore). Ervaar de schema&#39;s van de Gebeurtenis voor omzettingsgebeurtenissen die uitgangscriteria en voorwaardevaluatie drijven (bijvoorbeeld, aankoopgebeurtenissen, vormverklaringen). | [&#x200B; XDM het overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home), [&#x200B; de samenstellingsgrondbeginselen van het Schema &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
 | Gegevensbronnen en -verzameling | Verondersteld op plaats | Gebeurtenisstreaming moet actief zijn als de afsluitcriteria of -voorwaarden afhankelijk zijn van realtime-gebeurtenissen (bijvoorbeeld koopgebeurtenis om de reis af te sluiten). Batchopname voor profielkenmerken die worden gebruikt in vertakking. Web SDK of server-side API voor gedragsgebeurtenisinzameling. | [&#x200B; het stromen ingegaan overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview), [&#x200B; Bronoverzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
-| Identiteit en profielconfiguratie | Verondersteld op plaats | Profielen moeten kunnen worden opgelost in alle kanalen die tijdens de reis worden gebruikt (e-mail, SMS, push). Identiteit tussen apparaten moet worden gevormd als de reis Web en mobiele aanraakpunten overspant. Het samenvoegingsbeleid moet zijn geconfigureerd voor de sandbox. | [&#x200B; overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [&#x200B; overzicht van het beleid van de Fusie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
-| Auditiedefinitie en segmentatie | Vereist | Toegangspubliek moet worden gedefinieerd voor reizen die door het publiek worden gelezen. Segmenten kunnen ook worden gebruikt in voorwaardenknooppunten voor vertakking. De evaluatiemethode (batch of streaming) moet overeenkomen met de vereisten voor het invoeren van de reis. | [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [&#x200B; de gids UI van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
+| Identiteit en profielconfiguratie | Verondersteld op plaats | Profielen moeten kunnen worden opgelost in alle kanalen die tijdens de reis worden gebruikt (e-mail, SMS, push). Identiteit tussen apparaten moet worden gevormd als de reis Web en mobiele aanraakpunten overspant. Het samenvoegingsbeleid moet zijn geconfigureerd voor de sandbox. | [&#x200B; overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home), [&#x200B; overzicht van het beleid van de Fusie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
+| Auditiedefinitie en segmentatie | Vereist | Toegangspubliek moet worden gedefinieerd voor reizen die door het publiek worden gelezen. Segmenten kunnen ook worden gebruikt in voorwaardenknooppunten voor vertakking. De evaluatiemethode (batch of streaming) moet overeenkomen met de vereisten voor het invoeren van de reis. | [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home), [&#x200B; de gids UI van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## Ondersteunende functies
 
@@ -118,11 +118,11 @@ De volgende mogelijkheden vergroten dit gebruikspatroon, maar zijn niet vereist 
 
 | Ondersteunende functie | Status | Waarom het belangrijk is | Experience League-referentie |
 | --- | --- | --- | --- |
-| Berekend / Afgeleid kenmerk maken | Aanbevolen | Berekende kenmerken zoals betrokkenheidsscores, dagen sinds laatste activiteit of waarde van levenslange aanschaf verbeteren de vertakkende logica voor voorwaarden en maken intelligentere beslissingen over reispaden mogelijk. | [&#x200B; Berekende attributen overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| Berekend / Afgeleid kenmerk maken | Aanbevolen | Berekende kenmerken zoals betrokkenheidsscores, dagen sinds laatste activiteit of waarde van levenslange aanschaf verbeteren de vertakkende logica voor voorwaarden en maken intelligentere beslissingen over reispaden mogelijk. | [&#x200B; Berekende attributen overzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/overview) |
 | Levenscyclusbeheer van gegevens | Aanbevolen | Het bewaren van de gebeurtenisgegevens van de reis zou met het beleid van de gegevensset vervaldatum moeten worden gevormd om opslag te beheren en aan de verordeningen van het gegevensbehoud te voldoen. De handhaving van de toestemming verzekert slechts opted-binnen profielen berichten bij elk kanaal touchpoint ontvangen. | [&#x200B; het Geavanceerde overzicht van het Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [&#x200B; Verlopen Dataset &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
-| Etikettering en handhaving van gegevensgebruik | Aanbevolen | De etiketten van de governance verzekeren volgzame verpersoonlijking over veelvoudige berichten touchpoints, vooral belangrijk wanneer de reizen PII of gevoelige gegevens voor verpersoonlijking over kanalen gebruiken. | [&#x200B; het beheer van Gegevens overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [&#x200B; overzicht van de gebruiksetiketten van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview) |
+| Etikettering en handhaving van gegevensgebruik | Aanbevolen | De etiketten van de governance verzekeren volgzame verpersoonlijking over veelvoudige berichten touchpoints, vooral belangrijk wanneer de reizen PII of gevoelige gegevens voor verpersoonlijking over kanalen gebruiken. | [&#x200B; het beheer van Gegevens overzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/home), [&#x200B; overzicht van de gebruiksetiketten van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview) |
 | Bewaking en waarneming | Opgenomen | De controle van de uitvoering van de reis alarm op verwerkingsmislukkingen, de knelpunten van de profielingang, en leveringskwesties. Essentieel voor productiereizen waarbij vertragingen of storingen van invloed zijn op de gebruikerservaring. | [&#x200B; het overzicht van Alarm &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview), [&#x200B; Overzicht van de Inzichten van de Waarneming &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| Rapportage en analyse | Opgenomen | CJA funnel en de analyse van de gevolgen op de hele reis zorgen voor diepere rapporten van insight dan alleen die van AJO. Hiermee schakelt u stapsgewijze conversieanalyse, cohortvergelijking en optimalisatie van de reis in. | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [&#x200B; overzicht van Analysis Workspace &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) |
+| Rapportage en analyse | Opgenomen | CJA funnel en de analyse van de gevolgen op de hele reis zorgen voor diepere rapporten van insight dan alleen die van AJO. Hiermee schakelt u stapsgewijze conversieanalyse, cohortvergelijking en optimalisatie van de reis in. | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-overview), [&#x200B; overzicht van Analysis Workspace &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home) |
 
 ## Toepassingsfuncties
 
@@ -373,7 +373,7 @@ Kanaaloppervlakken configureren voor ELK kanaal dat tijdens de rit wordt gebruik
 - [SMS-kanaal configureren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 - [Pushmeldingskanaal configureren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/configure-push/push-configuration)
 - [IP-opwarmingsplannen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-warmup/ip-warmup-gs)
-- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder)
 
 
 ### Fase 2: Berichtinhoud maken
@@ -438,7 +438,7 @@ Moeten gedeelde inhoudsblokken (kop- en voetteksten, juridische tekst) worden ge
 - [Werken met inhoudsfragmenten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
 - [Een SMS-bericht maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/create-sms)
 - [Een pushmelding ontwerpen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/design-push)
-- [Inhoud voorvertonen en testen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/preview-test)
+- [Inhoud voorvertonen en testen](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/preview-test/preview-test)
 
 
 ### Fase 3: Ontwerpen en de reis activeren
@@ -622,10 +622,10 @@ Moet een reisbericht een A/B-test of een multivariatie-test bevatten?
 
 - [Frequentieregels](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/frequency-rules)
 - [Overzicht van bedrijfsregels](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/business-rules)
-- [Prioriteitsscores](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
-- [Mogelijke conflicten identificeren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/conflicts)
-- [Afbakening van reizen en arbitrage](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/journey-capping)
-- [Aan de slag met het experimenteren met inhoud](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
+- [Prioriteitsscores](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
+- [Mogelijke conflicten identificeren](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/conflict-prioritization/conflicts)
+- [Afbakening van reizen en arbitrage](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/conflict-prioritization/journey-capping)
+- [Aan de slag met het experimenteren met inhoud](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
 - [Een inhoudexperiment maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/create-content-experiment)
 - [Toestemming in Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted)
 
@@ -681,8 +681,8 @@ Welke trajectmislukkingen zouden alarm moeten veroorzaken?
 - [Journaal algemeen rapport](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
 - [Werken met Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
 - [Overzicht van waarschuwingen](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Analysis Workspace-overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
-- [AJO + CJA-integratiehandleiding](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [Analysis Workspace-overzicht](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home)
+- [AJO + CJA-integratiehandleiding](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 
 ## Implementatieoverwegingen
 
@@ -811,11 +811,11 @@ De volgende bronnen bieden aanvullende informatie over de mogelijkheden die in d
 - [Dynamische inhoud](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
 - [Werken met inhoudssjablonen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [Werken met inhoudsfragmenten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
-- [Inhoud voorvertonen en testen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/preview-test)
+- [Inhoud voorvertonen en testen](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/preview-test/preview-test)
 
 ### Inhoud testen
 
-- [Aan de slag met het experimenteren met inhoud](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
+- [Aan de slag met het experimenteren met inhoud](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
 - [Een inhoudexperiment maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/create-content-experiment)
 - [Rapport voor inhoudexperiment](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-report)
 - [Statistische berekeningen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-calculations)
@@ -824,37 +824,37 @@ De volgende bronnen bieden aanvullende informatie over de mogelijkheden die in d
 
 - [Frequentieregels](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/frequency-rules)
 - [Overzicht van bedrijfsregels](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/business-rules)
-- [Aan de slag met conflict- en prioriteitsbeheer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/gs-conflict-prioritization)
-- [Prioriteitsscores](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
-- [Afbakening van reizen en arbitrage](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/journey-capping)
-- [Mogelijke conflicten identificeren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/conflicts)
+- [Aan de slag met conflict- en prioriteitsbeheer](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/conflict-prioritization/gs-conflict-prioritization)
+- [Prioriteitsscores](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
+- [Afbakening van reizen en arbitrage](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/conflict-prioritization/journey-capping)
+- [Mogelijke conflicten identificeren](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/conflict-prioritization/conflicts)
 
 ### Splitsen en segmenteren
 
-- [Overzicht van segmentatieservice](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Profile Query Language-referentie](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
-- [Streaming segmentering](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/streaming-segmentation)
-- [Edge-segmentatie](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/edge-segmentation)
+- [Overzicht van segmentatieservice](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home)
+- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder)
+- [Profile Query Language-referentie](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/pql/overview)
+- [Streaming segmentering](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/api/streaming-segmentation)
+- [Edge-segmentatie](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/api/edge-segmentation)
 
 ### Rapportage en analyse
 
 - [Journaal live](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-live-report)
 - [Journaal algemeen rapport](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
 - [Werken met Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [AJO + CJA-integratiehandleiding](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
-- [Analysis Workspace-overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
-- [CJA-overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
+- [AJO + CJA-integratiehandleiding](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [Analysis Workspace-overzicht](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home)
+- [CJA-overzicht](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-overview)
 
 ### Toestemming en bestuur
 
 - [Toestemming in Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted)
-- [Datagovernance - Overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [Onderdrukkingslijst beheren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
+- [Datagovernance - Overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/home)
+- [Onderdrukkingslijst beheren](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
 
 ### Gegevensbasis
 
-- [XDM System, overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [Overzicht van identiteitsservice](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
-- [Profieloverzicht](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
-- [Overzicht van berekende kenmerken](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
+- [XDM System, overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home)
+- [Overzicht van identiteitsservice](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home)
+- [Profieloverzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/home)
+- [Overzicht van berekende kenmerken](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/overview)

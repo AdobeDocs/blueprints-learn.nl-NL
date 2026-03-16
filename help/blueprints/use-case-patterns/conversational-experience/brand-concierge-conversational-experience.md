@@ -116,11 +116,11 @@ Voor dit gebruikspatroon moeten de volgende basisfuncties aanwezig zijn. Voor el
 
 | Foundary, functie | Status | Wat moet er gebeuren? | Experience League-referentie |
 | --- | --- | --- | --- |
-| Beheer en bestuur | Vereist | Sandbox provisioned with [!DNL Brand Concierge] toegelaten recht; rollen die voor conversationele ervaringsbeheerders, inhoudsmanagers, en analysegebruikers worden gevormd; ABAC beleid op zijn plaats voor gespreksgegevens die PII of gevoelige klantensignalen bevatten | [&#x200B; overzicht van het Toegangsbeheer &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Gegevensmodellering en -voorbereiding | Vereist | XDM-schema&#39;s voor conversationele gebeurtenissen (klasse ExperienceEvent met conversatiespecifieke veldgroepen die intentie, sentiment, productinteracties en afhandelingsgebeurtenissen vastleggen); profielschema uitgebreid met conversationele voorkeur en intentkenmerken; opzoekschema voor productcatalogus voor oplopende aanbevelingen | [&#x200B; XDM overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
-| Gegevensbronnen en -verzameling | Vereist | [!DNL Web SDK] of [!DNL Mobile SDK] geconfigureerd met gegevensstreams die conversiegebeurtenisgegevens naar AEP-gegevenssets routeren; [!DNL Edge Network] integratie voor realtime-gebeurtenisvastlegging tijdens gesprekken; productcatalogusgegevens die via bronconnectors of batch-opname zijn ingevoerd | [&#x200B; overzicht van SDK van het Web &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) |
-| Identiteit en profielconfiguratie | Vereist | Identiteitsnaamruimten die voor bezoekersidentificatie (ECID voor anonieme, identiteitskaart van CRM of e-mail voor voor authentiek verklaard) worden gevormd; samenvoegbeleid dat met randactivering voor profielraadpleging in real time tijdens gesprekken wordt gevormd; identiteit die regels voor de continuïteit van het interdevice gesprek verbindt | [&#x200B; Overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
-| Auditiedefinitie en segmentatie | Verondersteld op plaats | De soorten publiek niet die voor kern gespreksplaatsing maar nodig voor gepersonaliseerde gespreksstrategieën worden vereist (bijvoorbeeld, ontvangen de high-value klantensegmenten verschillende gespreksstromen); het stromen of randevaluatie die voor gespreksverpersoonlijking in real time wordt geadviseerd | [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
+| Beheer en bestuur | Vereist | Sandbox provisioned with [!DNL Brand Concierge] toegelaten recht; rollen die voor conversationele ervaringsbeheerders, inhoudsmanagers, en analysegebruikers worden gevormd; ABAC beleid op zijn plaats voor gespreksgegevens die PII of gevoelige klantensignalen bevatten | [&#x200B; overzicht van het Toegangsbeheer &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/home) |
+| Gegevensmodellering en -voorbereiding | Vereist | XDM-schema&#39;s voor conversationele gebeurtenissen (klasse ExperienceEvent met conversatiespecifieke veldgroepen die intentie, sentiment, productinteracties en afhandelingsgebeurtenissen vastleggen); profielschema uitgebreid met conversationele voorkeur en intentkenmerken; opzoekschema voor productcatalogus voor oplopende aanbevelingen | [&#x200B; XDM overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home) |
+| Gegevensbronnen en -verzameling | Vereist | [!DNL Web SDK] of [!DNL Mobile SDK] geconfigureerd met gegevensstreams die conversiegebeurtenisgegevens naar AEP-gegevenssets routeren; [!DNL Edge Network] integratie voor realtime-gebeurtenisvastlegging tijdens gesprekken; productcatalogusgegevens die via bronconnectors of batch-opname zijn ingevoerd | [&#x200B; overzicht van SDK van het Web &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home) |
+| Identiteit en profielconfiguratie | Vereist | Identiteitsnaamruimten die voor bezoekersidentificatie (ECID voor anonieme, identiteitskaart van CRM of e-mail voor voor authentiek verklaard) worden gevormd; samenvoegbeleid dat met randactivering voor profielraadpleging in real time tijdens gesprekken wordt gevormd; identiteit die regels voor de continuïteit van het interdevice gesprek verbindt | [&#x200B; Overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home) |
+| Auditiedefinitie en segmentatie | Verondersteld op plaats | De soorten publiek niet die voor kern gespreksplaatsing maar nodig voor gepersonaliseerde gespreksstrategieën worden vereist (bijvoorbeeld, ontvangen de high-value klantensegmenten verschillende gespreksstromen); het stromen of randevaluatie die voor gespreksverpersoonlijking in real time wordt geadviseerd | [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home) |
 
 ## Ondersteunende functies
 
@@ -128,11 +128,11 @@ De volgende mogelijkheden vergroten dit gebruikspatroon, maar zijn niet vereist 
 
 | Ondersteunende functie | Status | Waarom het belangrijk is | Experience League-referentie |
 | --- | --- | --- | --- |
-| Berekend / Afgeleid kenmerk maken | Aanbevolen | Samengevoegde conversatie-signalen in profiel-vlakke attributen (bijvoorbeeld, totale gesprekken, dominante productbelangen, gemiddelde sentimentscore) voor gebruik in downstreamsegmentatie en personalisatie | [&#x200B; Berekende attributen overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| Levenscyclusbeheer van gegevens | Aanbevolen | Vorm behoudbeleid voor gespreksgebeurtenisgegevens, beheer toestemming voor gesprekopname en het profileren van gesprekken, en steun privacy schrappingsverzoeken voor gesprekstranscripties | [&#x200B; het Geavanceerde overzicht van het Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| Etikettering en handhaving van gegevensgebruik | Aanbevolen | Teken gespreksgegevensgebieden die PII, sentiment, of intent signalen bevatten; afdwingen governance beleid verhinderend gevoelige gespreksgegevens om onbevoegde bestemmingen te bereiken | [&#x200B; Overzicht van het beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| Bewaking en waarneming | Aanbevolen | De pijpleidingen van het opnemen van gespreksgebeurtenissen van de controle, de succespercentages van de spoorprofielverrijking, en alarm over de mislukkingen van de gegevensstroom die de kwaliteit van de gespreksverpersoonlijking konden beïnvloeden | [&#x200B; overzicht van de Inzichten van de Waarnemelijkheid &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| Rapportage en analyse | Opgenomen | Analyseer gespreksprestaties, klantenfeedback, conversieattributie en de doeltreffendheid van de agent met behulp van [!DNL Brand Concierge] ingebouwde analyse en [!DNL CJA] voor de analyse van het effect van gesprekken tussen kanalen | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Berekend / Afgeleid kenmerk maken | Aanbevolen | Samengevoegde conversatie-signalen in profiel-vlakke attributen (bijvoorbeeld, totale gesprekken, dominante productbelangen, gemiddelde sentimentscore) voor gebruik in downstreamsegmentatie en personalisatie | [&#x200B; Berekende attributen overzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/overview) |
+| Levenscyclusbeheer van gegevens | Aanbevolen | Vorm behoudbeleid voor gespreksgebeurtenisgegevens, beheer toestemming voor gesprekopname en het profileren van gesprekken, en steun privacy schrappingsverzoeken voor gesprekstranscripties | [&#x200B; het Geavanceerde overzicht van het Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-lifecycle/home) |
+| Etikettering en handhaving van gegevensgebruik | Aanbevolen | Teken gespreksgegevensgebieden die PII, sentiment, of intent signalen bevatten; afdwingen governance beleid verhinderend gevoelige gespreksgegevens om onbevoegde bestemmingen te bereiken | [&#x200B; Overzicht van het beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/home) |
+| Bewaking en waarneming | Aanbevolen | De pijpleidingen van het opnemen van gespreksgebeurtenissen van de controle, de succespercentages van de spoorprofielverrijking, en alarm over de mislukkingen van de gegevensstroom die de kwaliteit van de gespreksverpersoonlijking konden beïnvloeden | [&#x200B; overzicht van de Inzichten van de Waarnemelijkheid &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/observability/home) |
+| Rapportage en analyse | Opgenomen | Analyseer gespreksprestaties, klantenfeedback, conversieattributie en de doeltreffendheid van de agent met behulp van [!DNL Brand Concierge] ingebouwde analyse en [!DNL CJA] voor de analyse van het effect van gesprekken tussen kanalen | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Toepassingsfuncties
 
@@ -362,7 +362,7 @@ Laat zowel specialisaties toe en vorm de intent verpletterende logica van het or
 **documentatie van Experience League:**
 
 - [Brand Concierge-overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
-- [Overzicht van AI-assistent](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
+- [Overzicht van AI-assistent](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home)
 - [AEP Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
 
 ### Fase 2: Instelling van Brand-governance
@@ -408,7 +408,7 @@ Belangrijke configuratiedetails:
 **documentatie van Experience League:**
 
 - [Brand Concierge-merkbeheer](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
-- [Operationele inzichten van AI Assistant](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
+- [Operationele inzichten van AI Assistant](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home)
 
 ### Fase 3: Integratie van inhoud
 
@@ -464,7 +464,7 @@ Configureer zowel de productcatalogus als de inhoudsbronnen van de site. Verzeke
 - [Brand Concierge-inhoudsconfiguratie](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
 - [Brand Concierge productadviseur](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/product-advisor)
 - [Adviseur voor Brand Concierge-sites](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/site-advisor)
-- [Overzicht van bronnen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+- [Overzicht van bronnen](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home)
 
 ### Fase 4: Implementatie van ervaringen tijdens het gesprek
 
@@ -519,10 +519,10 @@ Belangrijke configuratiedetails:
 **documentatie van Experience League:**
 
 - [Brand Concierge-implementatie](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
-- [Overzicht van Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Overzicht Edge Network Server API](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
-- [Het eindpunt van API-entiteiten voor profielen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/api/entities)
-- [Overzicht van het realtime klantprofiel](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [Overzicht van Web SDK](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home)
+- [Overzicht Edge Network Server API](https://experienceleague.adobe.com/nl/docs/experience-platform/edge-network-server-api/overview)
+- [Het eindpunt van API-entiteiten voor profielen](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/api/entities)
+- [Overzicht van het realtime klantprofiel](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/home)
 
 ### Fase 5: Profielverrijking
 
@@ -564,11 +564,11 @@ Belangrijke configuratiedetails:
 
 **documentatie van Experience League:**
 
-- [Overzicht van berekende kenmerken](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
-- [Gebruikershandleiding voor berekende kenmerken](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
-- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Streaming segmentering](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [Overzicht van het realtime klantprofiel](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [Overzicht van berekende kenmerken](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/overview)
+- [Gebruikershandleiding voor berekende kenmerken](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/ui)
+- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder)
+- [Streaming segmentering](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Overzicht van het realtime klantprofiel](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/home)
 
 ### Fase 6: Analyse en optimalisatie
 
@@ -601,9 +601,9 @@ Belangrijke configuratiedetails:
 **documentatie van Experience League:**
 
 - [Brand Concierge Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
-- [CJA Analysis Workspace - overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
-- [Een CJA-verbinding maken of bewerken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
-- [Een CJA-gegevensweergave maken of bewerken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [CJA Analysis Workspace - overzicht](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home)
+- [Een CJA-verbinding maken of bewerken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/create-connection)
+- [Een CJA-gegevensweergave maken of bewerken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/create-dataview)
 
 ## Implementatieoverwegingen
 
@@ -612,11 +612,11 @@ In de volgende secties worden onder andere de volgende secties beschreven: guard
 ### Guardrails en limieten
 
 - [!DNL Brand Concierge] conversatie-ervaringen zijn onderhevig aan de generatielimieten voor AI-respons; gelijktijdige conversatiecapaciteit is afhankelijk van machtigingsniveau
-- Realtime profielraadpleging tijdens gesprekken is onderworpen aan de het tariefgrenzen van het Profiel API per zandbak — [&#x200B; Realtime de guardrails van het Profiel van de Klant &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- Het opnemen van de gebeurtenisgegevens van het gesprek volgt standaard AEP die binnendringingsgrenzen stromen - [&#x200B; de guardrails van de Ingestie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- Realtime profielraadpleging tijdens gesprekken is onderworpen aan de het tariefgrenzen van het Profiel API per zandbak — [&#x200B; Realtime de guardrails van het Profiel van de Klant &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails)
+- Het opnemen van de gebeurtenisgegevens van het gesprek volgt standaard AEP die binnendringingsgrenzen stromen - [&#x200B; de guardrails van de Ingestie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/guardrails)
 - Grootte van productcatalogus en volume van inhoudsindex zijn onderworpen aan [!DNL Brand Concierge] beperkingen voor de integratie van inhoud
-- Maximum van 25 gegevens verwerkte attributen per zandbak is op conversatie signaalsamenvoegingen van toepassing - [&#x200B; de gegevens verwerkte attributengidsen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
-- Maximum van 4.000 segmentdefinities per zandbak is op conversatie publiek van toepassing - [&#x200B; de gidsen van de Segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- Maximum van 25 gegevens verwerkte attributen per zandbak is op conversatie signaalsamenvoegingen van toepassing - [&#x200B; de gegevens verwerkte attributengidsen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/overview)
+- Maximum van 4.000 segmentdefinities per zandbak is op conversatie publiek van toepassing - [&#x200B; de gidsen van de Segmentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails)
 
 ### Veelvoorkomende valkuilen
 
@@ -684,57 +684,57 @@ De volgende bronnen bieden aanvullende informatie voor het implementeren van dit
 - [Brand Concierge-overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
 - [Brand Concierge productadviseur](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/product-advisor)
 - [Adviseur voor Brand Concierge-sites](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/site-advisor)
-- [Overzicht van AI-assistent](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
+- [Overzicht van AI-assistent](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home)
 
 **[!DNL Adobe Experience Platform]**
 
-- [AEP-overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)
-- [XDM System, overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [Grondbeginselen van de schemacompositie](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
-- [Overzicht van het realtime klantprofiel](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [AEP-overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/home)
+- [XDM System, overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home)
+- [Grondbeginselen van de schemacompositie](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition)
+- [Overzicht van het realtime klantprofiel](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/home)
 
 **de inzameling en integratie van Gegevens**
 
-- [Overzicht van Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
+- [Overzicht van Web SDK](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home)
 - [Overzicht van Mobile SDK](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview)
-- [Gegevensstromen configureren](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [Overzicht Edge Network Server API](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
-- [Overzicht van bronnen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+- [Gegevensstromen configureren](https://experienceleague.adobe.com/nl/docs/experience-platform/datastreams/configure)
+- [Overzicht Edge Network Server API](https://experienceleague.adobe.com/nl/docs/experience-platform/edge-network-server-api/overview)
+- [Overzicht van bronnen](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home)
 
 **Identiteit en profiel**
 
-- [Overzicht van identiteitsservice](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
-- [Overzicht van naamruimten](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces)
-- [Overzicht van beleid samenvoegen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
-- [Overzicht van berekende kenmerken](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
+- [Overzicht van identiteitsservice](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home)
+- [Overzicht van naamruimten](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces)
+- [Overzicht van beleid samenvoegen](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview)
+- [Overzicht van berekende kenmerken](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/overview)
 
 **Soorten publiek en segmentatie**
 
-- [Overzicht van segmentatieservice](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Streaming segmentering](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Overzicht van segmentatieservice](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home)
+- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder)
+- [Streaming segmentering](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/streaming-segmentation)
 
 **het bestuur van Gegevens en privacy**
 
-- [Datagovernance - Overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [Toestemming en voorkeuren, veldgroep](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
-- [Privacy Service-overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home)
-- [Overzicht van geavanceerd gegevenslevenscyclusbeheer](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
+- [Datagovernance - Overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/home)
+- [Toestemming en voorkeuren, veldgroep](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/field-groups/profile/consents)
+- [Privacy Service-overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/privacy/home)
+- [Overzicht van geavanceerd gegevenslevenscyclusbeheer](https://experienceleague.adobe.com/nl/docs/experience-platform/data-lifecycle/home)
 
 **Controle en waarneming**
 
-- [Overzicht van observatiegegevens](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
-- [Overzicht van waarschuwingen](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
+- [Overzicht van observatiegegevens](https://experienceleague.adobe.com/nl/docs/experience-platform/observability/home)
+- [Overzicht van waarschuwingen](https://experienceleague.adobe.com/nl/docs/experience-platform/observability/alerts/overview)
 
 **Analytics en het melden**
 
-- [CJA-overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
-- [Overzicht van CJA-verbindingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
-- [Overzicht van CJA-gegevensweergaven](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
-- [Analysis Workspace-overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
+- [CJA-overzicht](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Overzicht van CJA-verbindingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/overview)
+- [Overzicht van CJA-gegevensweergaven](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/data-views)
+- [Analysis Workspace-overzicht](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home)
 
 **Guardrails**
 
-- [Garanties voor realtime klantprofiel](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [Ingestiegrepen](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
-- [Segmenteringsgeleiding](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [Garanties voor realtime klantprofiel](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails)
+- [Ingestiegrepen](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/guardrails)
+- [Segmenteringsgeleiding](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails)

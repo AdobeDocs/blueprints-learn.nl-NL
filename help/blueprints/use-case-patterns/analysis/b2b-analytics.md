@@ -105,11 +105,11 @@ Voor dit gebruikspatroon moeten de volgende basisfuncties aanwezig zijn. Voor el
 
 | Foundary, functie | Status | Wat moet er gebeuren? | Experience League-referentie |
 | --- | --- | --- | --- |
-| Beheer en bestuur | Vereist | Sandbox geconfigureerd met [!DNL CJA] B2B edition- en [!DNL RT-CDP] B2B edition-rechten. Rollen die beschikbaar zijn voor gebruikers van gegevensengineers, analisten en marketingbewerkingen met toegang tot [!DNL CJA] en het B2B-gegevensmodel. | [&#x200B; Overzicht van Sandboxen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home) |
-| Gegevensmodellering en -voorbereiding | Vereist | B2B XDM-schema&#39;s geconfigureerd met B2B-klassen: XDM Business Account, XDM Business Opportunity, XDM Business Account Person Relation, XDM Business Opportunity Person Relation en XDM Business Marketing List-leden. Veldgroepen voor accountkenmerken, opportuniteitsfasen en het aanschaffen van groepsrollen moeten worden gedefinieerd. Datasets gemaakt en ingeschakeld voor Profiel. | [&#x200B; XDM het overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [&#x200B; schema&#39;s van B2B edition &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) |
-| Gegevensbronnen en -verzameling | Vereist | B2B-gegevensbronnen aangesloten, doorgaans via de [!DNL Marketo Engage] bronconnector of [!DNL Salesforce] CRM-bronconnector. De verslagen van de rekening, opportunityverslagen, persoon-rekening verhoudingen, en de gebeurtenissen van de gedragsovereenkomst moeten in de datasets van AEP stromen. [!DNL Web SDK] of [!DNL Marketo] integratie moet gedragsgebeurtenissen vastleggen met accountassociatie. | [&#x200B; Bronoverzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home), [&#x200B; schakelaar van Marketo Engage &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
-| Identiteit en profielconfiguratie | Vereist | B2B-identiteitsresolutie geconfigureerd om relaties van persoon tot account op te lossen. De account-id, de persoon-id ([!DNL Marketo] hoofd-id of CRM-contactpersoon) en de identiteit van de andere apparaten (ECID, e-mail) moeten worden gekoppeld. De grafiek van de identiteit moet vele-aan-vele persoon-aan-rekening afbeelding steunen inherent aan B2B gegevensmodellen. | [&#x200B; Overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [&#x200B; B2B identiteitsresolutie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) |
-| Auditiedefinitie en segmentatie | Verondersteld op plaats | Accountniveau-publieksdefinities moeten beschikbaar zijn als B2B-segmenten van [!DNL CJA] naar AEP worden gepubliceerd voor activering. In gevallen waarin alleen analytische gegevens worden gebruikt, is dit geen strikte voorwaarde, maar wordt het aanbevolen voor segmentanalyse. | [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
+| Beheer en bestuur | Vereist | Sandbox geconfigureerd met [!DNL CJA] B2B edition- en [!DNL RT-CDP] B2B edition-rechten. Rollen die beschikbaar zijn voor gebruikers van gegevensengineers, analisten en marketingbewerkingen met toegang tot [!DNL CJA] en het B2B-gegevensmodel. | [&#x200B; Overzicht van Sandboxen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sandbox/home) |
+| Gegevensmodellering en -voorbereiding | Vereist | B2B XDM-schema&#39;s geconfigureerd met B2B-klassen: XDM Business Account, XDM Business Opportunity, XDM Business Account Person Relation, XDM Business Opportunity Person Relation en XDM Business Marketing List-leden. Veldgroepen voor accountkenmerken, opportuniteitsfasen en het aanschaffen van groepsrollen moeten worden gedefinieerd. Datasets gemaakt en ingeschakeld voor Profiel. | [&#x200B; XDM het overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home), [&#x200B; schema&#39;s van B2B edition &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/schemas/b2b) |
+| Gegevensbronnen en -verzameling | Vereist | B2B-gegevensbronnen aangesloten, doorgaans via de [!DNL Marketo Engage] bronconnector of [!DNL Salesforce] CRM-bronconnector. De verslagen van de rekening, opportunityverslagen, persoon-rekening verhoudingen, en de gebeurtenissen van de gedragsovereenkomst moeten in de datasets van AEP stromen. [!DNL Web SDK] of [!DNL Marketo] integratie moet gedragsgebeurtenissen vastleggen met accountassociatie. | [&#x200B; Bronoverzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home), [&#x200B; schakelaar van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
+| Identiteit en profielconfiguratie | Vereist | B2B-identiteitsresolutie geconfigureerd om relaties van persoon tot account op te lossen. De account-id, de persoon-id ([!DNL Marketo] hoofd-id of CRM-contactpersoon) en de identiteit van de andere apparaten (ECID, e-mail) moeten worden gekoppeld. De grafiek van de identiteit moet vele-aan-vele persoon-aan-rekening afbeelding steunen inherent aan B2B gegevensmodellen. | [&#x200B; Overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home), [&#x200B; B2B identiteitsresolutie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/schemas/b2b) |
+| Auditiedefinitie en segmentatie | Verondersteld op plaats | Accountniveau-publieksdefinities moeten beschikbaar zijn als B2B-segmenten van [!DNL CJA] naar AEP worden gepubliceerd voor activering. In gevallen waarin alleen analytische gegevens worden gebruikt, is dit geen strikte voorwaarde, maar wordt het aanbevolen voor segmentanalyse. | [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home) |
 
 ## Ondersteunende functies
 
@@ -117,11 +117,11 @@ De volgende mogelijkheden vergroten dit gebruikspatroon, maar zijn niet vereist 
 
 | Ondersteunende functie | Status | Waarom het belangrijk is | Experience League-referentie |
 | --- | --- | --- | --- |
-| Berekend / Afgeleid kenmerk maken | Aanbevolen | Berekende kenmerken op accountprofielen (bijvoorbeeld totale betrokkenheidsscore, aantal dagen sinds laatste activiteit, aantal kansen) verrijken de analytische dimensies die beschikbaar zijn in [!DNL CJA] voor accountanalyse. | [&#x200B; Berekende attributen overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| Levenscyclusbeheer van gegevens | Aanbevolen | B2B-gegevenssets, met name gedragsgebeurtenisgegevens van [!DNL Marketo Engage], kunnen snel groeien. Het beleid voor het verlopen van gegevenssets helpt opslag te beheren en ervoor te zorgen dat de vereisten voor gegevensbewaring worden nageleefd. | [&#x200B; het Geavanceerde Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| Etikettering en handhaving van gegevensgebruik | Aanbevolen | B2B-gegevens bevatten vaak gevoelige bedrijfsinformatie (contractwaarden, competitieve intelligentie). Met labels voor gegevensgebruik en het beleid voor beheer wordt ervoor gezorgd dat deze gegevens op de juiste wijze worden gebruikt voor alle workflows voor analyses en activering. | [&#x200B; Overzicht van het beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| Bewaking en waarneming | Aanbevolen | B2B-bronconnectors ([!DNL Marketo], [!DNL Salesforce]) vereisen bewaking voor de gezondheid van inname. Bewaking van de verbindingsstatus in [!DNL CJA] zorgt voor gegevensversheid voor analyses. Waarschuwingsregels voor mislukte inname verhinderen vaststaande dashboards. | [&#x200B; overzicht van de Inzichten van de Waarnemelijkheid &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| Rapportage en analyse | Opgenomen | Dit patroon is zelf een analysepatroon. Deze functie wordt van nature opgenomen omdat de kernfunctieketen rapportage- en analysemogelijkheden biedt. | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Berekend / Afgeleid kenmerk maken | Aanbevolen | Berekende kenmerken op accountprofielen (bijvoorbeeld totale betrokkenheidsscore, aantal dagen sinds laatste activiteit, aantal kansen) verrijken de analytische dimensies die beschikbaar zijn in [!DNL CJA] voor accountanalyse. | [&#x200B; Berekende attributen overzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/overview) |
+| Levenscyclusbeheer van gegevens | Aanbevolen | B2B-gegevenssets, met name gedragsgebeurtenisgegevens van [!DNL Marketo Engage], kunnen snel groeien. Het beleid voor het verlopen van gegevenssets helpt opslag te beheren en ervoor te zorgen dat de vereisten voor gegevensbewaring worden nageleefd. | [&#x200B; het Geavanceerde Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-lifecycle/home) |
+| Etikettering en handhaving van gegevensgebruik | Aanbevolen | B2B-gegevens bevatten vaak gevoelige bedrijfsinformatie (contractwaarden, competitieve intelligentie). Met labels voor gegevensgebruik en het beleid voor beheer wordt ervoor gezorgd dat deze gegevens op de juiste wijze worden gebruikt voor alle workflows voor analyses en activering. | [&#x200B; Overzicht van het beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/home) |
+| Bewaking en waarneming | Aanbevolen | B2B-bronconnectors ([!DNL Marketo], [!DNL Salesforce]) vereisen bewaking voor de gezondheid van inname. Bewaking van de verbindingsstatus in [!DNL CJA] zorgt voor gegevensversheid voor analyses. Waarschuwingsregels voor mislukte inname verhinderen vaststaande dashboards. | [&#x200B; overzicht van de Inzichten van de Waarnemelijkheid &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/observability/home) |
+| Rapportage en analyse | Opgenomen | Dit patroon is zelf een analysepatroon. Deze functie wordt van nature opgenomen omdat de kernfunctieketen rapportage- en analysemogelijkheden biedt. | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Toepassingsfuncties
 
@@ -210,7 +210,7 @@ Accountgerichte analyse biedt de meest natuurlijke weergave voor B2B-organisatie
 **Experience League:**
 
 - [CJA B2B edition - overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
-- [B2B edition-schema&#39;s](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
+- [B2B edition-schema&#39;s](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/schemas/b2b)
 
 ### Optie B: Globale analytische analyse op basis van account
 
@@ -276,8 +276,8 @@ De persoon-centric gegevensmening verstrekt traditionele individuele reis analys
 
 **Experience League:**
 
-- [Een gegevensweergave maken of bewerken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-- [Overzicht van gegevensweergaven](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
+- [Een gegevensweergave maken of bewerken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [Overzicht van gegevensweergaven](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/data-views)
 
 ### Optievergelijking
 
@@ -365,9 +365,9 @@ Creeer één enkele verbinding met alle B2B datasets. Account-id gebruiken als p
 
 **documentatie van Experience League:**
 
-- [Overzicht van verbindingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
-- [Verbinding maken of bewerken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
-- [Verbindingen beheren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections)
+- [Overzicht van verbindingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/overview)
+- [Verbinding maken of bewerken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/create-connection)
+- [Verbindingen beheren](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/manage-connections)
 - [CJA B2B edition - overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
 
 ### Fase 2: Configuratie van weergave accountgegevens
@@ -436,13 +436,13 @@ Maak twee gegevensweergaven via dezelfde verbinding. Gegevensweergave 1 gebruikt
 
 **documentatie van Experience League:**
 
-- [Overzicht van gegevensweergaven](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
-- [Een gegevensweergave maken of bewerken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-- [Overzicht van componentinstellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
-- [Persistinstellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
-- [Attributie-instellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
-- [Afgeleide velden](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields)
-- [Sessieinstellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/session-settings)
+- [Overzicht van gegevensweergaven](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/data-views)
+- [Een gegevensweergave maken of bewerken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [Overzicht van componentinstellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+- [Persistinstellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
+- [Attributie-instellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
+- [Afgeleide velden](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/derived-fields)
+- [Sessieinstellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/session-settings)
 
 ### Fase 3: Workspace-analyse
 
@@ -502,18 +502,18 @@ Belangrijke configuratiedetails:
 
 **documentatie van Experience League:**
 
-- [Workspace-overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
-- [Een project maken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
-- [Vrije-vormtabel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
-- [Kenmerk, deelvenster](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)
-- [Stroomvisualisatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
-- [Uitvalvisualisatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
-- [Cohortingtabel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
-- [Overzicht van filters](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
-- [Overzicht van berekende metriek](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
-- [Berekende waarden maken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
-- [Overzicht van annotaties](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/annotations/overview)
-- [Overzicht van geleide analyse](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview)
+- [Workspace-overzicht](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home)
+- [Een project maken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
+- [Vrije-vormtabel](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
+- [Kenmerk, deelvenster](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/panels/attribution)
+- [Stroomvisualisatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
+- [Uitvalvisualisatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
+- [Cohortingtabel](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
+- [Overzicht van filters](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
+- [Overzicht van berekende metriek](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
+- [Berekende waarden maken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
+- [Overzicht van annotaties](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/annotations/overview)
+- [Overzicht van geleide analyse](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/overview)
 - [Afmetingen onderverdelingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/components/dimensions/t-breakdown-fa)
 
 ### Fase 4: Publiceren op dashboard
@@ -557,13 +557,13 @@ Belangrijke configuratiedetails:
 
 **documentatie van Experience League:**
 
-- [Een mobiele scorecard maken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/create-scorecard)
-- [Projecten delen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
-- [Projecten plannen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
+- [Een mobiele scorecard maken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dashboards/create-scorecard)
+- [Projecten delen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
+- [Projecten plannen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
 - [scorecards configureren en beheren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/curate)
-- [Adobe Analytics-dashboards — handleiding](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/set-up-execs)
-- [Overzicht publiek](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
-- [Soorten publiek maken en publiceren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Adobe Analytics-dashboards — handleiding](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dashboards/set-up-execs)
+- [Overzicht publiek](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
+- [Soorten publiek maken en publiceren](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/audiences/publish)
 
 ## Implementatieoverwegingen
 
@@ -571,7 +571,7 @@ In de volgende secties worden onder andere de volgende secties beschreven: guard
 
 ### Guardrails en limieten
 
-- [!DNL CJA] de verbindingen kunnen datasets van slechts één zandbak van AEP omvatten — [&#x200B; CJA guardrails &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
+- [!DNL CJA] de verbindingen kunnen datasets van slechts één zandbak van AEP omvatten — [&#x200B; CJA guardrails &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-admin/guardrails)
 - Maximaal 5.000 dimensies en 5.000 metriek per gegevensweergave
 - Maximaal 100 afgeleide velden per gegevensweergave
 - B2B-attributie ondersteunt terugzoekvensters tot 13 maanden voor analyse op accountniveau
@@ -638,88 +638,88 @@ De volgende bronnen bieden aanvullende informatie voor het implementeren van dit
 **[!DNL CJA]B2B edition**
 
 - [CJA B2B edition - overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
-- [CJA-overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
-- [CJA guardrails](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
+- [CJA-overzicht](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-overview)
+- [CJA guardrails](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-admin/guardrails)
 
 **Verbindingen**
 
-- [Overzicht van verbindingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
-- [Verbinding maken of bewerken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
-- [Verbindingen beheren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections)
+- [Overzicht van verbindingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/overview)
+- [Verbinding maken of bewerken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/create-connection)
+- [Verbindingen beheren](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/manage-connections)
 
 **de meningen van Gegevens**
 
-- [Overzicht van gegevensweergaven](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
-- [Een gegevensweergave maken of bewerken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-- [Overzicht van componentinstellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
-- [Persistinstellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
-- [Attributie-instellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
-- [Indelingsinstellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/format)
-- [Afgeleide velden](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields)
-- [Sessieinstellingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/session-settings)
+- [Overzicht van gegevensweergaven](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/data-views)
+- [Een gegevensweergave maken of bewerken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [Overzicht van componentinstellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+- [Persistinstellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
+- [Attributie-instellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
+- [Indelingsinstellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/format)
+- [Afgeleide velden](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/derived-fields)
+- [Sessieinstellingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/session-settings)
 
 **Workspace en analyse**
 
-- [Workspace-overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
-- [Een project maken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
-- [Vrije-vormtabel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
-- [Stroomvisualisatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
-- [Uitvalvisualisatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
-- [Cohortingtabel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
-- [Kenmerk, deelvenster](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)
-- [Projecten delen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
-- [Projecten plannen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
+- [Workspace-overzicht](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home)
+- [Een project maken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
+- [Vrije-vormtabel](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
+- [Stroomvisualisatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
+- [Uitvalvisualisatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
+- [Cohortingtabel](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
+- [Kenmerk, deelvenster](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/panels/attribution)
+- [Projecten delen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
+- [Projecten plannen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
 - [Afmetingen onderverdelingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/components/dimensions/t-breakdown-fa)
 
 **Componenten**
 
-- [Overzicht van filters](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
-- [Filters maken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
-- [Overzicht van berekende metriek](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
-- [Berekende waarden maken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
-- [Overzicht van annotaties](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/annotations/overview)
+- [Overzicht van filters](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
+- [Filters maken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
+- [Overzicht van berekende metriek](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
+- [Berekende waarden maken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
+- [Overzicht van annotaties](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/annotations/overview)
 - [Datumbereiken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/date-ranges/overview)
 
 **Soorten publiek**
 
-- [Overzicht publiek](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
-- [Soorten publiek maken en publiceren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
-- [Soorten publiek beheren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/manage)
+- [Overzicht publiek](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
+- [Soorten publiek maken en publiceren](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Soorten publiek beheren](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/audiences/manage)
 
 **dashboards en scorecards**
 
-- [Een mobiele scorecard maken](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/create-scorecard)
+- [Een mobiele scorecard maken](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dashboards/create-scorecard)
 - [scorecards configureren en beheren](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/curate)
-- [Adobe Analytics-dashboards — handleiding](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/set-up-execs)
+- [Adobe Analytics-dashboards — handleiding](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dashboards/set-up-execs)
 
 **Geleide analyse**
 
-- [Overzicht van geleide analyse](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview)
+- [Overzicht van geleide analyse](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/overview)
 - [Funnel-weergave](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/funnel)
-- [Trends, weergave](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/trends/usage)
-- [Weergave Behouden](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
+- [Trends, weergave](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/trends/usage)
+- [Weergave Behouden](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
 
 **[!DNL RT-CDP]B2B edition**
 
 - [RT-CDP B2B edition-overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#702702)
-- [B2B edition-schema&#39;s](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [Overzicht van B2B-bronnen](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/sources/b2b)
+- [B2B edition-schema&#39;s](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/schemas/b2b)
+- [Overzicht van B2B-bronnen](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/sources/b2b)
 
 **de gegevensstichting van AEP**
 
-- [XDM System, overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [Overzicht van bronnen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
-- [Marketo Engage-connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-- [Overzicht van identiteitsservice](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
-- [Overzicht van sandboxen](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home)
+- [XDM System, overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home)
+- [Overzicht van bronnen](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home)
+- [Marketo Engage-connector](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Overzicht van identiteitsservice](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home)
+- [Overzicht van sandboxen](https://experienceleague.adobe.com/nl/docs/experience-platform/sandbox/home)
 
 **het bestuur en de levenscyclus van Gegevens**
 
-- [Datagovernance - Overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [Geavanceerd levenscyclusbeheer van gegevens](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
+- [Datagovernance - Overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/home)
+- [Geavanceerd levenscyclusbeheer van gegevens](https://experienceleague.adobe.com/nl/docs/experience-platform/data-lifecycle/home)
 
 **Leerprogramma&#39;s en gidsen**
 
-- [Grondbeginselen van de schemacompositie](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
-- [Overzicht van berekende kenmerken](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
-- [Overzicht van observatiegegevens](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [Grondbeginselen van de schemacompositie](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition)
+- [Overzicht van berekende kenmerken](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/overview)
+- [Overzicht van observatiegegevens](https://experienceleague.adobe.com/nl/docs/experience-platform/observability/home)

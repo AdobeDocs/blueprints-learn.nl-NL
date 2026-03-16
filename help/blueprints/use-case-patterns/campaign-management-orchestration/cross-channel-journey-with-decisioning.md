@@ -114,7 +114,7 @@ De volgende mogelijkheden vergroten dit gebruikspatroon, maar zijn niet vereist 
 
 | Ondersteunende functie | Status | Waarom het belangrijk is | Experience League-referentie |
 | --- | --- | --- | --- |
-| Berekend / Afgeleid kenmerk maken | Aanbevolen | Berekende kenmerken, zoals AI-propyiteitsscores van de Klant, servicescore, kanaalvoorkeurscores en levenswaardeberekeningen, verbeteren de beslissingskwaliteit aanzienlijk. Deze verrijkte profielkenmerken maken geavanceerdere toelatingsregels en rangschikkingsformules mogelijk. | [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview), [&#x200B; overzicht van de Klant AI van 0&rbrace; Berekende attributen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/intelligent-services/customer-ai/overview) |
+| Berekend / Afgeleid kenmerk maken | Aanbevolen | Berekende kenmerken, zoals AI-propyiteitsscores van de Klant, servicescore, kanaalvoorkeurscores en levenswaardeberekeningen, verbeteren de beslissingskwaliteit aanzienlijk. Deze verrijkte profielkenmerken maken geavanceerdere toelatingsregels en rangschikkingsformules mogelijk. | [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview), [&#x200B; overzicht van de Klant AI van 0&rbrace; Berekende attributen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | Levenscyclusbeheer van gegevens | Aanbevolen | De geschiedenis van de aanbieding en de gegevens van de besluitvormingsgebeurtenis accumuleren zich in tijd en zouden bewaarbeleid moeten hebben. Toegestane handhaving over meerdere kanalen is van essentieel belang — profielen zonder geldige toestemming voor een kanaal moeten worden uitgesloten van het leveringspad van dat kanaal. | [&#x200B; het Geavanceerde overzicht van het Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [&#x200B; Toestemming in Journey Optimizer &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted) |
 | Etikettering en handhaving van gegevensgebruik | Aanbevolen | De handhaving van het bestuur over veelvoudige kanalen en aanbiedingstypes is belangrijk wanneer de beslissing profielen aan verschillende kanalen met verschillende beperkingen van het gegevensgebruik kan leiden. Zorgt voor de levering van de compatibele aanbieding op alle kanalen. | [&#x200B; het beheer van Gegevens overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [&#x200B; de handhaving van het Beleid &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview) |
 | Bewaking en waarneming | Opgenomen | Reis- en beslissingscontrole is van essentieel belang voor productieactiviteiten. De alarm voor de mislukkingen van de reistoegang, beslissingsfallback spikes, en leveringsfouten laten snelle probleemoplossing toe. | [&#x200B; het overzicht van Alarm &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview), [&#x200B; Overzicht van de Inzichten van de Waarneming &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
@@ -828,13 +828,13 @@ De volgende bronnen bieden aanvullende informatie over de mogelijkheden die in d
 - [Overzicht van identiteitsservice](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
 - [Overzicht van beleid samenvoegen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
 - [Overzicht van berekende kenmerken](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
-- [AI-overzicht van klant](https://experienceleague.adobe.com/en/docs/experience-platform/intelligent-services/customer-ai/overview)
+- [AI-overzicht van klant](https://experienceleague.adobe.com/nl/docs/experience-platform/intelligent-services/customer-ai/overview)
 
 ### Beheer van gegevens en toestemming
 
 - [Datagovernance - Overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
 - [Toestemming in Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted)
-- [Onderdrukkingslijst beheren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
+- [Onderdrukkingslijst beheren](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
 
 ### Beveiligingsmechanismen
 

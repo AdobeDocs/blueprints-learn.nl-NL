@@ -112,7 +112,7 @@ De volgende mogelijkheden vergroten dit gebruikspatroon, maar zijn niet vereist 
 | Berekend / Afgeleid kenmerk maken | Aanbevolen | Met berekende kenmerken, zoals de aankoopwaarde tijdens de levensduur, de betrokkenheidsscore of de affiniteit van het product, kunt u nauwkeuriger segmenten voor delen maken. Invoersegmenten van hogere kwaliteit leiden tot een waardevollere samenwerking. | [&#x200B; Berekende attributen overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
 | Levenscyclusbeheer van gegevens | Aanbevolen | Beleid voor inwilliging en gegevensbewaring zorgt ervoor dat gedeelde segmenten voldoen aan privacyregels. Het beleid voor het verlopen van de gegevensset helpt de levenscyclus van ontvangen publieksgegevens te beheren. Met de functie voor het afdwingen van toestemming wordt het delen van profielen die zijn uitgeschakeld, voorkomen. | [&#x200B; het Geavanceerde overzicht van het Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
 | Etikettering en handhaving van gegevensgebruik | Opgenomen | Het beleid inzake gegevensbeheer moet worden geëvalueerd voordat segmenten worden gedeeld om naleving te garanderen. Labels op identiteitsvelden en profielkenmerken bepalen wat kan worden gedeeld. De handhaving van de governance verhindert dat onbevoegde gegevens in segmentaandelen worden opgenomen. | [&#x200B; Overzicht van het beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| Bewaking en waarneming | Aanbevolen | Door het delen van het [!DNL Segment Match] -proces te controleren, schattingstaken te overlappen en activeringsgegevensstromen kunt u fouten vroeg detecteren. Het alarm kan voor aandeelmislukkingen of onverwacht lage gelijke tarieven worden gevormd. | [&#x200B; overzicht van de Inzichten van de Waarnemelijkheid &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| Bewaking en waarneming | Aanbevolen | Door het delen van het [!DNL Segment Match] -proces te controleren, schattingstaken te overlappen en activeringsgegevensstromen kunt u fouten vroeg detecteren. Het alarm kan voor aandeelmislukkingen of onverwacht lage gelijke tarieven worden gevormd. | [&#x200B; overzicht van de Inzichten van de Waarnemelijkheid &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/observability/home) |
 | Rapportage en analyse | Aanbevolen | Wanneer u de prestaties van campagnes met overeenkomende doelgroepen meet, wordt de waarde van het samenwerkingsproject gevalideerd. [!DNL Customer Journey Analytics] de analyse kan gelijke prestaties van de publiekscampagne met controlegroepen vergelijken. | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Toepassingsfuncties
@@ -179,8 +179,8 @@ Deze aanpak is eenvoudig en biedt beide partijen volledige controle. De afzender
 
 **Experience League:**
 
-- [Overzicht van afstemming van segment](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [Problemen met segmentovereenkomst oplossen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
+- [Overzicht van afstemming van segment](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Problemen met segmentovereenkomst oplossen](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### Optie B: De distributie van het multi-partnersegment (één-aan-vele)
 
@@ -217,7 +217,7 @@ Deze benadering gebruikt het zelfde onderliggende [!DNL Segment Match] mechanism
 
 **Experience League:**
 
-- [Overzicht van afstemming van segment](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Overzicht van afstemming van segment](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-match/overview)
 
 ### Optie C: Diverse sandboxpublieksfederatie
 
@@ -254,7 +254,7 @@ Deze benadering is bijzonder waardevol wanneer de vereisten van de gegevensresid
 
 **Experience League:**
 
-- [Overzicht van afstemming van segment](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Overzicht van afstemming van segment](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-match/overview)
 - [Overzicht van sandboxen](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home)
 
 ### Optievergelijking
@@ -344,7 +344,7 @@ Zorg ervoor dat het bronpubliek in de verzendende sandbox identiteitsnaamruimten
 
 **documentatie van Experience League:**
 
-- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder)
 - [Overzicht van Audience Composition](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
 - [Evaluatiemethoden](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home#evaluation-methods)
 - [Profile Query Language-referentie](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
@@ -405,7 +405,7 @@ Sandbox-naar-sandbox-verbindingen tot stand brengen binnen de organisatie. Behee
 
 **documentatie van Experience League:**
 
-- [Overzicht van afstemming van segment](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Overzicht van afstemming van segment](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-match/overview)
 - [Datagovernance - Overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
 - [Beleidshandhaving](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
 - [Toestemming en voorkeuren](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
@@ -443,7 +443,7 @@ Deze fase stelt de overlappende schatting tussen de segmenten van de afzender en
 
 **documentatie van Experience League:**
 
-- [Overzicht van afstemming van segment](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Overzicht van afstemming van segment](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-match/overview)
 
 ### Fase 4: Soorten publiek delen
 
@@ -498,8 +498,8 @@ Het delen van de sandbox uitvoeren. Het overeenkomende publiek wordt weergegeven
 
 **documentatie van Experience League:**
 
-- [Overzicht van afstemming van segment](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [Problemen met segmentovereenkomst oplossen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
+- [Overzicht van afstemming van segment](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Problemen met segmentovereenkomst oplossen](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### Fase 5: overeenkomend publiek activeren
 
@@ -559,7 +559,7 @@ De ontvangende sandbox moet een eigen doelconfiguratie hebben. Doelen kunnen nie
 
 - [Overzicht van doelen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
 - [Doelcatalogus](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [Dataflows voor doelen controleren](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Dataflows voor doelen controleren](https://experienceleague.adobe.com/nl/docs/experience-platform/dataflows/ui/monitor-destinations)
 - [Activeringsinstructies](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
 
 ## Implementatieoverwegingen
@@ -568,7 +568,7 @@ Bekijk de volgende overwegingen voor en tijdens de implementatie om algemene pro
 
 ### Guardrails en limieten
 
-- [!DNL Segment Match] gebruikt gehakte herkenningstekens voor aanpassing — geen PII overschrijdt organisatorische grenzen. Zie [&#x200B; Overzicht van de Overeenkomst van het Segment &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview).
+- [!DNL Segment Match] gebruikt gehakte herkenningstekens voor aanpassing — geen PII overschrijdt organisatorische grenzen. Zie [&#x200B; Overzicht van de Overeenkomst van het Segment &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-match/overview).
 - Alleen batchgeevalueerde soorten publiek kunnen worden gedeeld via [!DNL Segment Match] . Streaming en Edge-geëvalueerde segmenten moeten worden geconverteerd naar batchevaluatie voordat ze kunnen worden gedeeld.
 - Het maximum van 4.000 segmentdefinities per zandbak is op zowel bron als ontvangen segmenten van toepassing. Zie [&#x200B; de guardrails van de Segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails).
 - De nauwkeurigheid van overlap is afhankelijk van het volume van overeenkomende id&#39;s. Kleine doelgroepen kunnen minder nauwkeurige schattingen laten zien.
@@ -630,13 +630,13 @@ De volgende bronnen bieden aanvullende informatie over de mogelijkheden die in d
 
 ### [!DNL Segment Match]
 
-- [Overzicht van afstemming van segment](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/overview)
-- [Problemen met segmentovereenkomst oplossen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
+- [Overzicht van afstemming van segment](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-match/overview)
+- [Problemen met segmentovereenkomst oplossen](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-match/troubleshooting)
 
 ### Segmentering en publiek
 
 - [Overzicht van segmentatieservice](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder)
 - [Overzicht van Audience Composition](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
 - [Profile Query Language-referentie](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
 - [Streaming segmentering](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
@@ -661,7 +661,7 @@ De volgende bronnen bieden aanvullende informatie over de mogelijkheden die in d
 
 - [Overzicht van doelen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
 - [Doelcatalogus](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [Dataflows voor doelen controleren](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Dataflows voor doelen controleren](https://experienceleague.adobe.com/nl/docs/experience-platform/dataflows/ui/monitor-destinations)
 
 ### Gegevensmodellen en -schema
 
@@ -676,7 +676,7 @@ De volgende bronnen bieden aanvullende informatie over de mogelijkheden die in d
 ### Controle en waarneming
 
 - [Overzicht van waarschuwingen](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Overzicht van observatiegegevens](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [Overzicht van observatiegegevens](https://experienceleague.adobe.com/nl/docs/experience-platform/observability/home)
 
 ### Beveiligingsmechanismen
 
