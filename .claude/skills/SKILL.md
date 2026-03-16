@@ -1,7 +1,7 @@
 ---
 name: blueprint-document-reference
 description: Verwijzing voor het maken en bewerken van documenten met de functie Adobe Digital Experience Bluepprint. Gebruik deze optie wanneer u nieuwe blauwdrukken maakt, pagina's met blauwdruk toevoegt of wanneer de gebruiker vragen stelt over de structuur van de blauwdruk, secties, sjablonen of wanneer wordt verwezen naar de Adobe Experience League.
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
@@ -23,8 +23,8 @@ Gebruik deze vaardigheid wanneer het creëren van of het uitgeven van blauwdrukd
 ## Snelle naslag
 
 1. **doel van het Document**: De blauwdrukken verstrekken systeem en gegevensstroomarchitectuur om te tonen hoe Adobe Experience Platform en de toepassingen worden geïntegreerd. Ze zijn visueel en technisch, niet op de markt.
-2. **Secties**: Gebruik de standaardsecties van het malplaatje; weglaat slechts wanneer niet van toepassing (zie [&#x200B; reference.md &#x200B;](reference.md)).
-3. **Experience League**: verkies het verbinden met Experience League voor productdocumenten, APIs, gidsen, en leerprogramma&#39;s. Gebruik volledige URLs; zie [&#x200B; reference.md &#x200B;](reference.md) voor patronen URL en het formatteren.
+2. **Secties**: Gebruik de standaardsecties van het malplaatje; weglaat slechts wanneer niet van toepassing (zie [ reference.md ](reference.md)).
+3. **Experience League**: verkies het verbinden met Experience League voor productdocumenten, APIs, gidsen, en leerprogramma&#39;s. Gebruik volledige URLs; zie [ reference.md ](reference.md) voor patronen URL en het formatteren.
 4. **Repo structuur**: De levende blauwdrukken onder `help/blueprints/`. `help/blueprints/TOC.md` bijwerken bij het toevoegen of verplaatsen van blauwdrukpagina&#39;s.
 
 ## Documentsjabloon
@@ -36,7 +36,7 @@ Elke blauwdrukpagina moet deze structuur volgen. Alleen de desbetreffende sectie
 title: [Short descriptive title]
 description: "[One sentence: what this blueprint shows and why it matters.]"
 solution: [Product name, e.g. Real-Time Customer Data Platform, Journey Optimizer]
-exl-id: [UUID - leave blank if new, this will be auto-generated as part of the Experience League publishing flow]
+exl-id: [UUID - if this is already popultated keep it as is. Disregard and remove this field if it is a new blueprint as blank values will be rejected by the publishing flow. If the field and value are not present, it will be auto-generated as part of the Experience League publishing flow]
 ---
 # [H1 - same as title or expanded]
 
@@ -98,11 +98,11 @@ Voor overzicht of hubpagina&#39;s, gebruik een kortere structuur: intro, gebruik
 ## Verwijzen naar Adobe Experience League
 
 - **wanneer om** te verbinden: Verbinding met Experience League voor productdocumentatie, API verwijzingen, gidsen, leerprogramma&#39;s, en configuratiestappen. Dupliceer lange procedures niet; vat samen en verbind.
-- **formaat URL**: Gebruik volledige URLs. Voorkeur `https://experienceleague.adobe.com/docs/?lang=nl-NL...` of `https://experienceleague.adobe.com/nl/docs/...` . Voor ontwikkelaarsdocumenten is `https://developer.adobe.com/...` ook geldig.
-- **Tekst van de Verbinding**: De beschrijvende tekst van het gebruik (b.v. [ leidt schema&#39;s ] (url)&quot;niet &quot;klik hier&quot;). Gebruik, indien van toepassing, `[!DNL Product Name]` voor productnamen in koppelingstekst.
+- **formaat URL**: Gebruik volledige URLs. Voorkeur `https://experienceleague.adobe.com/docs/...` of `https://experienceleague.adobe.com/en/docs/...` . Voor ontwikkelaarsdocumenten is `https://developer.adobe.com/...` ook geldig.
+- **Tekst van de Verbinding**: De beschrijvende tekst van het gebruik (b.v. [ leidt schema&#39;s ](url)&quot;niet &quot;klik hier&quot;). Gebruik, indien van toepassing, `[!DNL Product Name]` voor productnamen in koppelingstekst.
 - **Verwante documentatiesectie**: Eind blauwdrukken met een &quot;Verwante documentatie&quot;sectie die verbindingen groeperen door categorie (b.v. de configuraties van de Bestemming, de documentatie van SDK, Profiel en segmentatie, Leerprogramma&#39;s).
 
-Voor gedetailleerde patronen URL, verbinding groeperen, en voorbeelden, zie [&#x200B; reference.md &#x200B;](reference.md).
+Voor gedetailleerde patronen URL, verbinding groeperen, en voorbeelden, zie [ reference.md ](reference.md).
 
 ## Controlelijst voor verzending
 
@@ -116,6 +116,6 @@ Voor gedetailleerde patronen URL, verbinding groeperen, en voorbeelden, zie [&#x
 
 ## Aanvullende resources
 
-- Volledige malplaatje en sectienota&#39;s: [&#x200B; reference.md &#x200B;](reference.md)
+- Volledige malplaatje en sectienota&#39;s: [ reference.md ](reference.md)
 - Bestaande blauwdrukken: `help/blueprints/` (bijvoorbeeld `audience-activation/real-time-lookup.md` , `customer-journeys/journey-optimizer/journey-optimizer-overview.md` )
 - Inhoudsopgave en navigatie: `help/blueprints/TOC.md`

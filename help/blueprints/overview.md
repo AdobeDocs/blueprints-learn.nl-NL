@@ -1,12 +1,12 @@
 ---
 title: Klantenervaring, blauwdrukken voor ordners
-description: De de Ervaring van de klant orchestration blauwdrukken zijn herhaalbare implementaties om strategie te richten en gevestigde bedrijfsproblemen op te lossen. Ze versnellen de tijd-naar-waarde en bieden een snelle weg naar succes.
+description: De de Ervaring van de klant orchestration blauwdrukken zijn herhaalbare implementaties om strategie te richten en gevestigde bedrijfsproblemen op te lossen. Ze versnellen tijd tot waarde en bieden een snelle weg naar succes.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 478f2a44974ba36d87300486337b669fa38989f3
+source-git-commit: cf76bfcb0a6d3f2a23f42494f3944934954cac89
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 7%
+source-wordcount: '168'
+ht-degree: 2%
 
 ---
 
@@ -51,4 +51,26 @@ De ervaringen van de klant orchestratie (vroeger, _digitale ervaring_) blauwdruk
 </tr>
 </table>
 
-</div>
+## Verkennen door de industrie
+
+Zoek gebruiksgevallen die zijn afgestemd op uw branche en die elk zijn toegewezen aan implementatiepatronen en bedrijfsdoelstellingen.
+
+<table>
+<tr>
+  <td><a href="industry-use-cases/retail/retail-overview.md"><strong>Retail</strong></a></td>
+  <td><a href="industry-use-cases/financial-services/financial-services-overview.md"><strong>Financiële diensten</strong></a></td>
+  <td><a href="industry-use-cases/healthcare/healthcare-overview.md"><strong>Gezondheidszorg</strong></a></td>
+</tr>
+<tr>
+  <td><a href="industry-use-cases/automotive/automotive-overview.md"><strong>Automobielen</strong></a></td>
+  <td><a href="industry-use-cases/travel-hospitality/travel-hospitality-overview.md"><strong>Reizen en verblijf</strong></a></td>
+  <td><a href="industry-use-cases/telecommunications/telecommunications-overview.md"><strong>Telecommunicatie</strong></a></td>
+</tr>
+<tr>
+  <td><a href="industry-use-cases/media-entertainment/media-entertainment-overview.md"><strong>Media en entertainment</strong></a></td>
+  <td><a href="industry-use-cases/insurance/insurance-overview.md"><strong>Verzekering</strong></a></td>
+  <td><a href="industry-use-cases/b2b/b2b-overview.md"><strong>B2B</strong></a></td>
+</tr>
+</table>
+
+[Alle gebruiksgevallen in de branche weergeven](industry-use-cases/overview.md)

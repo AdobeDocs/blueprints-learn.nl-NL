@@ -5,10 +5,10 @@ user-guide-description: De blauwdrukken zijn herhaalbare implementaties om geves
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 1b722db275b3360fc443a67e07c7162909c32d72
+source-git-commit: cf76bfcb0a6d3f2a23f42494f3944934954cac89
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 8%
+source-wordcount: '449'
+ht-degree: 7%
 
 ---
 
@@ -16,6 +16,68 @@ ht-degree: 8%
 # Klantenervaring met orkesttekeningen {#architecture}
 
 + [Klantenervaring met orkesttekeningen](/help/blueprints/overview.md)
++ Voorbeeld van belangrijke bedrijfsdoelstellingen voor AEP en toepassingen{#business-objectives}
+   + [Overzicht](/help/blueprints/business-objectives/overview.md)
+   + Verwerving en groei{#acquisition-growth}
+      + [Nieuwe klanten ophalen](/help/blueprints/business-objectives/acquisition-growth/acquire-new-customers.md)
+      + [Loodgeneratie verhogen](/help/blueprints/business-objectives/acquisition-growth/increase-lead-generation.md)
+      + [Betrokkenheid van website verhogen](/help/blueprints/business-objectives/acquisition-growth/increase-website-engagement.md)
+   + Opbrengsten en inkomsten{#revenue-monetization}
+      + [Conversietarieven verhogen](/help/blueprints/business-objectives/revenue-monetization/increase-conversion-rates.md)
+      + [Opbrengst en verkoop verhogen](/help/blueprints/business-objectives/revenue-monetization/increase-revenue-sales.md)
+      + [Opbrengsten voor cross-selling en upsell](/help/blueprints/business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)
+      + [Klantengarantie en levensduurwaarde verhogen](/help/blueprints/business-objectives/revenue-monetization/increase-customer-loyalty-lifetime-value.md)
+   + Kosten en efficiëntie{#cost-efficiency}
+      + [Kostprijs voor overname door klant verlagen](/help/blueprints/business-objectives/cost-efficiency/reduce-customer-acquisition-cost.md)
+      + [Marketing-uitgaven en investeringsrendement optimaliseren](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md)
+      + [Kwaliteit en beheer van gegevens verbeteren](/help/blueprints/business-objectives/cost-efficiency/improve-data-quality-governance.md)
+      + [Consolidatie en modernisering van marketingtechnologie](/help/blueprints/business-objectives/cost-efficiency/consolidate-modernize-marketing-technology.md)
+   + Klantervaring{#customer-experience-objectives}
+      + [Lever persoonlijke klantervaring](/help/blueprints/business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
+      + [Behoud van klant verbeteren](/help/blueprints/business-objectives/customer-experience/improve-customer-retention.md)
+      + [Klant beter instappen](/help/blueprints/business-objectives/customer-experience/improve-customer-onboarding.md)
+      + [Verlaten karretjes en reizen herstellen](/help/blueprints/business-objectives/customer-experience/recover-abandoned-carts-journeys.md)
+   + Analyse en inzichten{#analytics-insights}
+      + [Analyse en rapportage verbeteren](/help/blueprints/business-objectives/analytics-insights/improve-analytics-reporting.md)
+      + [Gegevensgestuurde besluitvorming inschakelen](/help/blueprints/business-objectives/analytics-insights/enable-data-driven-decision-making.md)
+      + [Marketingkenmerken verbeteren](/help/blueprints/business-objectives/analytics-insights/improve-marketing-attribution.md)
+   + Kwalificatie en verkoop (B2B){#qualification-sales-b2b}
+      + [Kwalificatie en conversie van lead verbeteren](/help/blueprints/business-objectives/qualification-sales-b2b/improve-lead-qualification-conversion.md)
+      + [Betrokkenheid van klanten verbeteren](/help/blueprints/business-objectives/qualification-sales-b2b/improve-customer-engagement.md)
++ Hoofdletterpatronen gebruiken{#use-case-patterns}
+   + [Overzicht](/help/blueprints/use-case-patterns/overview.md)
+   + Audience Building &amp; Activation{#audience-building-activation}
+      + [Audience Activation naar bestemmingen](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md)
+      + [Publiek Collaboration met segmentovereenkomst](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md)
+      + [Gebeurtenis doorsturen](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md)
+      + [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md)
+   + Personalisatie{#personalization-patterns}
+      + [Anonieme bezoeker van Web Personalization](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md)
+      + [Bekende bezoeker Web/App Personalization](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md)
+      + [Besluitvorming over aanbiedingen](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md)
+      + [Gedragsaanbeveling](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md)
+   + Campagne management &amp; Orchestration{#campaign-orchestration-patterns}
+      + [Batch Outbound Message Activation](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md)
+      + [Gebeurtenisgestuurde berichten](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md)
+      + [Meerdere stappen geordende reis](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md)
+      + [Kanaalreis met beslissing](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
+      + [Op groep gebaseerde marketing en reisbeheer kopen](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md)
+   + Analyse{#analysis-patterns}
+      + [Klantenanalyse en Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md)
+      + [B2B-analyse](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md)
+   + Gesprekkervaring{#conversational-experience-patterns}
+      + [Brand Concierge Conversation Experience](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md)
++ Voorbeelden van gevallen van industriële toepassing{#industry-use-cases}
+   + [Overzicht](/help/blueprints/industry-use-cases/overview.md)
+   + [Automobielen](/help/blueprints/industry-use-cases/automotive/automotive-overview.md)
+   + [B2B](/help/blueprints/industry-use-cases/b2b/b2b-overview.md)
+   + [Financiële diensten](/help/blueprints/industry-use-cases/financial-services/financial-services-overview.md)
+   + [Gezondheidszorg](/help/blueprints/industry-use-cases/healthcare/healthcare-overview.md)
+   + [Verzekering](/help/blueprints/industry-use-cases/insurance/insurance-overview.md)
+   + [Media en entertainment](/help/blueprints/industry-use-cases/media-entertainment/media-entertainment-overview.md)
+   + [Retail](/help/blueprints/industry-use-cases/retail/retail-overview.md)
+   + [Telecommunicatie](/help/blueprints/industry-use-cases/telecommunications/telecommunications-overview.md)
+   + [Reizen en verblijf](/help/blueprints/industry-use-cases/travel-hospitality/travel-hospitality-overview.md)
 + Architectuur-overzichten{#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform en toepassingen](/help/blueprints/experience-platform/platform-applications.md)
@@ -67,8 +129,8 @@ ht-degree: 8%
       + [Journey Optimizer met Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + Verouderde blauwdrukken{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/nl/docs/campaign-standard){target="_blank"}
-         + [Real-Time CDP met Adobe  [!DNL Campaign Standard]](https://experienceleague.adobe.com/nl/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Real-Time CDP met Adobe  [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campagne v7{#campaign-v7}
          + [Campagne v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + Gegevensanalyse, intelligentie en AI/ML{#data-exploration}
