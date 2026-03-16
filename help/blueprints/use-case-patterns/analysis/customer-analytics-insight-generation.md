@@ -34,7 +34,7 @@ Verbeter rapporteringsmogelijkheden voor snellere, actievere marketing inzicht d
 
 - **KPIs:** Efficiëntie, Productiviteit
 
-Zie [ Verbeteren Analytics &amp; het Melden ](/help/blueprints/business-objectives/analytics-insights/improve-analytics-reporting.md) voor meer informatie over dit bedrijfsdoel.
+Zie [&#x200B; Verbeteren Analytics &amp; het Melden &#x200B;](/help/blueprints/business-objectives/analytics-insights/improve-analytics-reporting.md) voor meer informatie over dit bedrijfsdoel.
 
 **laat gegeven-gedreven besluitvorming** toe
 
@@ -42,7 +42,7 @@ De teams van de macht met zelfbedienings analyses, klanteninzicht in real time, 
 
 - **KPIs:** Efficiëntie, Productiviteit
 
-Zie [ Gegevens-Gedreven Beslissing het Maken ](/help/blueprints/business-objectives/analytics-insights/enable-data-driven-decision-making.md) voor meer informatie over dit bedrijfsdoel toelaten.
+Zie [&#x200B; Gegevens-Gedreven Beslissing het Maken &#x200B;](/help/blueprints/business-objectives/analytics-insights/enable-data-driven-decision-making.md) voor meer informatie over dit bedrijfsdoel toelaten.
 
 **verbeter marketing attributie**
 
@@ -50,7 +50,7 @@ Nauwkeurige meting van het effect van marketing touchpoints, kanalen, en campagn
 
 - **KPIs:** Efficiëntie, Incrementele Inkomsten
 
-Zie [ Verbeteren de Attributie van de Marketing ](/help/blueprints/business-objectives/analytics-insights/improve-marketing-attribution.md) voor meer informatie over dit bedrijfsdoel.
+Zie [&#x200B; Verbeteren de Attributie van de Marketing &#x200B;](/help/blueprints/business-objectives/analytics-insights/improve-marketing-attribution.md) voor meer informatie over dit bedrijfsdoel.
 
 **optimaliseer marketing uitgaven &amp; ROI**
 
@@ -58,7 +58,7 @@ Optimaliseer de toewijzing van marketingbudgetten door te begrijpen welke kanale
 
 - **KPIs:** Efficiëntie, Incrementele Inkomsten
 
-Zie [ op de markt gebrachte uitgaven &amp; ROI ](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md) voor meer informatie over dit bedrijfsdoel optimaliseren.
+Zie [&#x200B; op de markt gebrachte uitgaven &amp; ROI &#x200B;](/help/blueprints/business-objectives/cost-efficiency/optimize-marketing-spend-roi.md) voor meer informatie over dit bedrijfsdoel optimaliseren.
 
 ## Voorbeelden van tactische gebruiksgevallen
 
@@ -95,14 +95,14 @@ Bouw de werkruimten van de dwars-kanaalanalyse, gegevens verwerkte metriek, en d
 
 **de ketting van de Functie:** Verbinding van Gegevens > de Configuratie van de Mening van Gegevens > de Analyse van Workspace > Berekende Metrische Creatie > het Publiceren van het Dashboard
 
-Zie de [ opties van de Implementatie ](#implementation-options) sectie voor samenstellingsbegeleiding.
+Zie de [&#x200B; opties van de Implementatie &#x200B;](#implementation-options) sectie voor samenstellingsbegeleiding.
 
 ## Applicaties
 
 In dit gebruikspatroon worden de volgende toepassingen gebruikt.
 
-- **[!DNL Customer Journey Analytics](CJA)** — Verbindingen, gegevensmeningen, werkruimteanalyse, geleide analyse, gegevens gegevens gegevens gegevens gegevens verwerken, dashboards, publiek het publiceren, en inhoudanalyse
-- **[!DNL Adobe Experience Platform](AEP)** — Het meer van gegevens, datasets, XDM schema&#39;s, profiel en gebeurtenisgegevens die de verbindingen van CJA van de input voorzien
+- **[!DNL Customer Journey Analytics] (CJA)** — Verbindingen, gegevensmeningen, werkruimteanalyse, geleide analyse, gegevens gegevens gegevens gegevens gegevens verwerken, dashboards, publiek het publiceren, en inhoudanalyse
+- **[!DNL Adobe Experience Platform] (AEP)** — Het meer van gegevens, datasets, XDM schema&#39;s, profiel en gebeurtenisgegevens die de verbindingen van CJA van de input voorzien
 
 ## Foundbootfuncties
 
@@ -110,11 +110,11 @@ Voor dit gebruikspatroon moeten de volgende basisfuncties aanwezig zijn. Voor el
 
 | Foundary, functie | Status | Wat moet er gebeuren? | Experience League-referentie |
 | --- | --- | --- | --- |
-| Beheer en bestuur | Verondersteld op plaats | CJA-productprofiel dat is ingericht voor het maken van werkruimten en toegangsrechten voor gegevensweergave. AEP-gegevenssets toegankelijk voor de CJA-verbinding. Gebruikers die zijn toegewezen aan de juiste CJA-rollen. | [ overzicht van het Toegangsbeheer ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Gegevensmodellering en -voorbereiding | Vereist | XDM-schema&#39;s en -gegevenssets die met CJA worden verbonden, moeten in AEP bestaan. Het ontwerp van het schema beïnvloedt direct welke afmetingen en metriek in de gegevensmeningen van CJA beschikbaar zijn. Gebeurtenisschema&#39;s hebben tijdstempelvelden nodig; opzoekschema&#39;s hebben sleutelvelden nodig. | [ XDM overzicht van het Systeem ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
-| Gegevensbronnen en -verzameling | Vereist | Gegevens moeten in AEP datasets stromen — webgebeurtenissen via Web SDK, app-gebeurtenissen via Mobile SDK, AJO-campagnegebeurtenissen, CRM-gegevens via bronconnectors. De rijkdom van de analyse hangt af van de omvang van de verzamelde gegevens. | [ Bronoverzicht ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
-| Identiteit en profielconfiguratie | Vereist | De configuratie van de identiteitskaart van de persoon in de verbinding van CJA bepaalt hoe de gebeurtenissen over datasets worden vastgemaakt. Identiteitsverstrengeling tussen apparaten in AEP verbetert de mogelijkheid van CJA om volledige klantentwitten te bouwen. Naamruimte moet worden geconfigureerd voor het veld Person-id. | [ Overzicht van de Dienst van de Identiteit ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
-| Auditiedefinitie en segmentatie | Niet van toepassing | CJA bouwt zijn eigen filters en publiek binnen de analytische context. RT-CDP-publiek is geen voorwaarde, maar CJA kan een publiek terugsturen naar AEP via publiekspublicaties (Option C). | [ overzicht van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
+| Beheer en bestuur | Verondersteld op plaats | CJA-productprofiel dat is ingericht voor het maken van werkruimten en toegangsrechten voor gegevensweergave. AEP-gegevenssets toegankelijk voor de CJA-verbinding. Gebruikers die zijn toegewezen aan de juiste CJA-rollen. | [&#x200B; overzicht van het Toegangsbeheer &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| Gegevensmodellering en -voorbereiding | Vereist | XDM-schema&#39;s en -gegevenssets die met CJA worden verbonden, moeten in AEP bestaan. Het ontwerp van het schema beïnvloedt direct welke afmetingen en metriek in de gegevensmeningen van CJA beschikbaar zijn. Gebeurtenisschema&#39;s hebben tijdstempelvelden nodig; opzoekschema&#39;s hebben sleutelvelden nodig. | [&#x200B; XDM overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
+| Gegevensbronnen en -verzameling | Vereist | Gegevens moeten in AEP datasets stromen — webgebeurtenissen via Web SDK, app-gebeurtenissen via Mobile SDK, AJO-campagnegebeurtenissen, CRM-gegevens via bronconnectors. De rijkdom van de analyse hangt af van de omvang van de verzamelde gegevens. | [&#x200B; Bronoverzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
+| Identiteit en profielconfiguratie | Vereist | De configuratie van de identiteitskaart van de persoon in de verbinding van CJA bepaalt hoe de gebeurtenissen over datasets worden vastgemaakt. Identiteitsverstrengeling tussen apparaten in AEP verbetert de mogelijkheid van CJA om volledige klantentwitten te bouwen. Naamruimte moet worden geconfigureerd voor het veld Person-id. | [&#x200B; Overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
+| Auditiedefinitie en segmentatie | Niet van toepassing | CJA bouwt zijn eigen filters en publiek binnen de analytische context. RT-CDP-publiek is geen voorwaarde, maar CJA kan een publiek terugsturen naar AEP via publiekspublicaties (Option C). | [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
 
 ## Ondersteunende functies
 
@@ -122,11 +122,11 @@ De volgende mogelijkheden vergroten dit gebruikspatroon, maar zijn niet vereist 
 
 | Ondersteunende functie | Status | Waarom het belangrijk is | Experience League-referentie |
 | --- | --- | --- | --- |
-| Berekend / Afgeleid kenmerk maken | Aanbevolen | AEP berekende kenmerken kunnen de datasets verrijken die met CJA zijn verbonden, waardoor extra dimensies en meetgegevens voor analyse worden verschaft (bijvoorbeeld het aantal levenslange aankopen, het aantal dagen sinds de laatste activiteit). Deze aggregaties op profielniveau worden beschikbaar als afmetingen in CJA-gegevensweergaven. | [ Berekende attributen overzicht ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| Levenscyclusbeheer van gegevens | Aanbevolen | Het beleid voor het bewaren van gegevenssets is van invloed op de historische gegevens die beschikbaar zijn in CJA. Langdurige retentie is doorgaans gewenst voor analyses om vergelijkingen van jaar tot jaar en trendanalyse op lange termijn mogelijk te maken. Vorm dataset TTLs om adequate historische diepte te te verzekeren. | [ het Geavanceerde overzicht van het Beheer van de Levenscyclus van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| Etikettering en handhaving van gegevensgebruik | Aanbevolen | Regelgevingslabels op gevoelige velden kunnen de weergave van CJA-gegevensweergaven beperken. Als PII of gevoelige gegevens zijn opgenomen in de CJA-verbinding, zorgen labels voor gegevensbeheer ervoor dat toegang aan de voorschriften voldoet en dat blootstelling door onbevoegden in gedeelde dashboards wordt voorkomen. | [ Overzicht van het beheer van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| Bewaking en waarneming | Aanbevolen | De gezondheid van de verbinding van CJA en gegevensversheid zouden moeten worden gecontroleerd. Configureer waarschuwingen voor fouten met brongegevensstroom en inname-problemen om ervoor te zorgen dat de gegevensinvoer van CJA betrouwbaar en actueel is. | [ overzicht van de Inzichten van de Waarnemelijkheid ](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| Rapportage en analyse | Opgenomen | Dit is de uitvoering van de rapportage en analyse. Als een referentieplan voor een ander patroon S5 bevat, gebruikt u dit klantanalyse- en insight-generatieplan voor de analytische implementatie. | [ overzicht van CJA ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Berekend / Afgeleid kenmerk maken | Aanbevolen | AEP berekende kenmerken kunnen de datasets verrijken die met CJA zijn verbonden, waardoor extra dimensies en meetgegevens voor analyse worden verschaft (bijvoorbeeld het aantal levenslange aankopen, het aantal dagen sinds de laatste activiteit). Deze aggregaties op profielniveau worden beschikbaar als afmetingen in CJA-gegevensweergaven. | [&#x200B; Berekende attributen overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| Levenscyclusbeheer van gegevens | Aanbevolen | Het beleid voor het bewaren van gegevenssets is van invloed op de historische gegevens die beschikbaar zijn in CJA. Langdurige retentie is doorgaans gewenst voor analyses om vergelijkingen van jaar tot jaar en trendanalyse op lange termijn mogelijk te maken. Vorm dataset TTLs om adequate historische diepte te te verzekeren. | [&#x200B; het Geavanceerde overzicht van het Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| Etikettering en handhaving van gegevensgebruik | Aanbevolen | Regelgevingslabels op gevoelige velden kunnen de weergave van CJA-gegevensweergaven beperken. Als PII of gevoelige gegevens zijn opgenomen in de CJA-verbinding, zorgen labels voor gegevensbeheer ervoor dat toegang aan de voorschriften voldoet en dat blootstelling door onbevoegden in gedeelde dashboards wordt voorkomen. | [&#x200B; Overzicht van het beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
+| Bewaking en waarneming | Aanbevolen | De gezondheid van de verbinding van CJA en gegevensversheid zouden moeten worden gecontroleerd. Configureer waarschuwingen voor fouten met brongegevensstroom en inname-problemen om ervoor te zorgen dat de gegevensinvoer van CJA betrouwbaar en actueel is. | [&#x200B; overzicht van de Inzichten van de Waarnemelijkheid &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| Rapportage en analyse | Opgenomen | Dit is de uitvoering van de rapportage en analyse. Als een referentieplan voor een ander patroon S5 bevat, gebruikt u dit klantanalyse- en insight-generatieplan voor de analytische implementatie. | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Toepassingsfuncties
 
@@ -784,7 +784,7 @@ In deze sectie worden hulplijnen, valkuilen, beste praktijken en afwegingsbeslis
 
 Voor deze implementatie gelden de volgende instructies en beperkingen.
 
-- **de grenzen van de Verbinding:** Maximum aantal verbindingen per organisatie wordt beperkt door CJA SKU recht. Een enkele verbinding kan gegevenssets van slechts één AEP-sandbox bevatten. — [ de guardrails van CJA ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
+- **de grenzen van de Verbinding:** Maximum aantal verbindingen per organisatie wordt beperkt door CJA SKU recht. Een enkele verbinding kan gegevenssets van slechts één AEP-sandbox bevatten. — [&#x200B; de guardrails van CJA &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
 - **de meningsgrenzen van Gegevens:** Maximum van 5.000 dimensies en 5.000 metriek per gegevensmening. Maximaal 100 afgeleide velden per gegevensweergave met maximaal 5 niveaus geneste functies.
 - **de grenzen van Workspace:** Maximum van 40 panelen per project. Vrije-vormtabellen bieden ondersteuning voor maximaal 10 dimensiescheidingen diep. Maximum van 50.000 rijen per rapportverzoek.
 - **Scorecard grenzen:** Maximum van 16 tegels per mobiele scorecard.

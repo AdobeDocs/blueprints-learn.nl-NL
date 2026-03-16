@@ -30,6 +30,6 @@ De volgende gebruiks gevalpatronen steunen dit bedrijfsdoel.
 
 | Patroon | Categorie | Hoe zij deze doelstelling ondersteunt |
 | --- | --- | --- |
-| [ Multi-Step Orchestrated Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | Campagne management &amp; Orchestration | Begeleidingen voor klanten met een verhoogd risico door multi-touchretentie-ritten met persoonlijke interventies |
-| [ Reis van het Kanaal met Beslissing ](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | Campagne management &amp; Orchestration | Orchestrates retentie-reizen met realtime beslissingen om optimale inhoud en kanalen voor opnieuw engagement te selecteren |
-| [ Offer Decisioning ](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) | Personalisatie | Aanbiedingsgerichte aanbiedingen en prikkels op basis van de waarde van de klant en het churn-risico |
+| [&#x200B; Multi-Step Orchestrated Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | Campagne management &amp; Orchestration | Begeleidingen voor klanten met een verhoogd risico door multi-touchretentie-ritten met persoonlijke interventies |
+| [&#x200B; Reis van het Kanaal met Beslissing &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | Campagne management &amp; Orchestration | Orchestrates retentie-reizen met realtime beslissingen om optimale inhoud en kanalen voor opnieuw engagement te selecteren |
+| [&#x200B; Offer Decisioning &#x200B;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) | Personalisatie | Aanbiedingsgerichte aanbiedingen en prikkels op basis van de waarde van de klant en het churn-risico |

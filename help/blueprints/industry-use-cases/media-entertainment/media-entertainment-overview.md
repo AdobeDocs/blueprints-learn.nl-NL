@@ -24,7 +24,7 @@ Organisaties die gepersonaliseerde inhoudsaanbevelingen gebruiken, zien doorgaan
 
 ### Uitvoeren
 
-Gebruik het [ patroon van de Aanbeveling van het Gedrag ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Deze aanpak maakt gebruik van door AI gestuurde aanbevolen modellen die voortdurend leren van publieksinteracties om de meest relevante inhoud voor elk individu aan te geven.
+Gebruik het [&#x200B; patroon van de Aanbeveling van het Gedrag &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Deze aanpak maakt gebruik van door AI gestuurde aanbevolen modellen die voortdurend leren van publieksinteracties om de meest relevante inhoud voor elk individu aan te geven.
 
 ### Technische overwegingen
 
@@ -44,7 +44,7 @@ De efficiënte programma&#39;s van de kartonpreventie leveren een vermindering v
 
 ### Uitvoeren
 
-Gebruik de [ Reis van het Kanaal met het Beslissen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon. Deze benadering combineert reisorchestratie met besluitvorming in real time om de beste bewaaraanbieding of inhoudaanbeveling voor elke bij-risicabonnee over elk kanaal te selecteren.
+Gebruik de [&#x200B; Reis van het Kanaal met het Beslissen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon. Deze benadering combineert reisorchestratie met besluitvorming in real time om de beste bewaaraanbieding of inhoudaanbeveling voor elke bij-risicabonnee over elk kanaal te selecteren.
 
 ### Technische overwegingen
 
@@ -64,7 +64,7 @@ Persoonlijke releasemeldingen leiden doorgaans tot een toename van de betrokkenh
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze aanpak reageert op gebeurtenissen voor de release van inhoud, waarbij nieuwe titels worden vergeleken met abonnementsvoorkeursprofielen om tijdige en relevante meldingen te kunnen leveren.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze aanpak reageert op gebeurtenissen voor de release van inhoud, waarbij nieuwe titels worden vergeleken met abonnementsvoorkeursprofielen om tijdige en relevante meldingen te kunnen leveren.
 
 ### Technische overwegingen
 
@@ -84,7 +84,7 @@ Persoonlijke ervaringen met homepage zorgen voor een toename van de betrokkenhei
 
 ### Uitvoeren
 
-Gebruik het [ patroon van de Aanbeveling van het Gedrag ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Deze benadering gebruikt selectiestrategieën en rangschikkingsmodellen om inhoudsrijen en kenmerkte titels op de homepage opnieuw te ordenen op basis van het profiel en het gedrag in real time van elke bezoeker.
+Gebruik het [&#x200B; patroon van de Aanbeveling van het Gedrag &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Deze benadering gebruikt selectiestrategieën en rangschikkingsmodellen om inhoudsrijen en kenmerkte titels op de homepage opnieuw te ordenen op basis van het profiel en het gedrag in real time van elke bezoeker.
 
 ### Technische overwegingen
 
@@ -104,7 +104,7 @@ Herinneringsprogramma&#39;s van de controlelijst behalen doorgaans een stijging 
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze aanpak activeert herinneringen die op activiteit en inactiviteitssignalen worden gebaseerd die van het horlogeoverzicht, die geschikte aanmaningen verzenden wanneer de inhoud is bewaard maar nog niet is begonnen.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze aanpak activeert herinneringen die op activiteit en inactiviteitssignalen worden gebaseerd die van het horlogeoverzicht, die geschikte aanmaningen verzenden wanneer de inhoud is bewaard maar nog niet is begonnen.
 
 ### Technische overwegingen
 
@@ -124,7 +124,7 @@ Goed ontworpen conversiecampagnes leveren een verbetering van 25-35% in de conve
 
 ### Uitvoeren
 
-Gebruik het [ multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Deze multi-touchreis leidt proefgebruikers door een opeenvolging van inhouddetectie, waardedemonstratie, en omzettingsberichten, die zich op hun betrokkenheid tijdens de proef aanpassen.
+Gebruik het [&#x200B; multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Deze multi-touchreis leidt proefgebruikers door een opeenvolging van inhouddetectie, waardedemonstratie, en omzettingsberichten, die zich op hun betrokkenheid tijdens de proef aanpassen.
 
 ### Technische overwegingen
 
@@ -144,7 +144,7 @@ Persoonlijke herinneringen aan livegebeurtenissen drijven doorgaans een toename 
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze aanpak leidt tot meldingen op basis van de gegevens van de gebeurtenisplanning, waarbij komende gebeurtenissen worden vergeleken met de renteprofielen van abonnees om tijdige herinneringen te leveren.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze aanpak leidt tot meldingen op basis van de gegevens van de gebeurtenisplanning, waarbij komende gebeurtenissen worden vergeleken met de renteprofielen van abonnees om tijdige herinneringen te leveren.
 
 ### Technische overwegingen
 
@@ -164,7 +164,7 @@ De gepersonaliseerde playlist generatie drijft een verhoging van 40 tot 50% van 
 
 ### Uitvoeren
 
-Gebruik het [ patroon van de Aanbeveling van het Gedrag ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Deze benadering gebruikt door AI aangedreven modellen die luisterpatronen, overslaan gedrag, en contextafhankelijke signalen analyseren om playlists te produceren en te verfrissen die aan elke gebruiker worden aangepast.
+Gebruik het [&#x200B; patroon van de Aanbeveling van het Gedrag &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Deze benadering gebruikt door AI aangedreven modellen die luisterpatronen, overslaan gedrag, en contextafhankelijke signalen analyseren om playlists te produceren en te verfrissen die aan elke gebruiker worden aangepast.
 
 ### Technische overwegingen
 
@@ -184,7 +184,7 @@ Synchronisatie van inhoud tussen verschillende platforms leidt tot een toename v
 
 ### Uitvoeren
 
-Gebruik het ](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van 0} gekende-Bezoeker Web/App Personalization. [Deze benadering past de ervaring voor geïdentificeerde gebruikers op het web en op app-platforms aan, en zorgt voor consistente inhoudsstatus en aanbevelingen, ongeacht het apparaat.
+Gebruik het [&#128279;](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van 0&rbrace; gekende-Bezoeker Web/App Personalization. Deze benadering past de ervaring voor geïdentificeerde gebruikers op het web en op app-platforms aan, en zorgt voor consistente inhoudsstatus en aanbevelingen, ongeacht het apparaat.
 
 ### Technische overwegingen
 
@@ -204,7 +204,7 @@ Gepersonaliseerd sociaal delen leidt doorgaans tot een verhoging van het percent
 
 ### Uitvoeren
 
-Gebruik het ](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van 0} gekende-Bezoeker Web/App Personalization. [Deze benadering past de ervaringen voor het delen in de app aan voor geïdentificeerde gebruikers, en toont contextafhankelijk relevante herinneringen voor delen op basis van de voorkeuren van de gebruiker en betrokkenheidspatronen.
+Gebruik het [&#128279;](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van 0&rbrace; gekende-Bezoeker Web/App Personalization. Deze benadering past de ervaringen voor het delen in de app aan voor geïdentificeerde gebruikers, en toont contextafhankelijk relevante herinneringen voor delen op basis van de voorkeuren van de gebruiker en betrokkenheidspatronen.
 
 ### Technische overwegingen
 
@@ -224,7 +224,7 @@ Aangepaste upsellingscampagnes met premiumprijzen zorgen voor een 15-25% toename
 
 ### Uitvoeren
 
-Gebruik het [ patroon van Offer Decisioning ](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Deze benadering gebruikt gecentraliseerde besluitvormingslogica om de gebruikspatronen van elke abonnee te evalueren en het meest relevante premieaanbod op het juiste moment te selecteren.
+Gebruik het [&#x200B; patroon van Offer Decisioning &#x200B;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Deze benadering gebruikt gecentraliseerde besluitvormingslogica om de gebruikspatronen van elke abonnee te evalueren en het meest relevante premieaanbod op het juiste moment te selecteren.
 
 ### Technische overwegingen
 
@@ -244,7 +244,7 @@ Met campagnes voor het voltooien van inhoud wordt het voltooiingspercentage van 
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze aanpak activeert herinneringen die op gebeurtenissen van de inhoudsontruiming worden gebaseerd, die geschikte berichten verzenden wanneer een gebruiker partway door een titel heeft gepauzeerd en niet binnen een bepaald venster is teruggekeerd.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze aanpak activeert herinneringen die op gebeurtenissen van de inhoudsontruiming worden gebaseerd, die geschikte berichten verzenden wanneer een gebruiker partway door een titel heeft gepauzeerd en niet binnen een bepaald venster is teruggekeerd.
 
 ### Technische overwegingen
 

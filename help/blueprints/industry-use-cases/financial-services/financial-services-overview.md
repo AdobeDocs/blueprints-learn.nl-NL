@@ -24,7 +24,7 @@ Organisaties die hoogwaardige loodzorg implementeren zien doorgaans een stijging
 
 ### Uitvoeren
 
-Gebruik het [ Multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) om geautomatiseerde opeenvolgingen te bouwen van de Zorg die zich baseert op de signalen van de perspectiefbetrokkenheid en van de bereidheid aanpast.
+Gebruik het [&#x200B; Multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) om geautomatiseerde opeenvolgingen te bouwen van de Zorg die zich baseert op de signalen van de perspectiefbetrokkenheid en van de bereidheid aanpast.
 
 ### Technische overwegingen
 
@@ -44,7 +44,7 @@ De gepersonaliseerde productaanbevelingen drijven een verhoging van 20-30% van p
 
 ### Uitvoeren
 
-Gebruik het [ patroon van Offer Decisioning ](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) om elke klant tegen in aanmerking komende productaanbiedingen in real time te evalueren, die aanbevelingen door relevantie en bedrijfsprioriteit rangschikken.
+Gebruik het [&#x200B; patroon van Offer Decisioning &#x200B;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) om elke klant tegen in aanmerking komende productaanbiedingen in real time te evalueren, die aanbevelingen door relevantie en bedrijfsprioriteit rangschikken.
 
 ### Technische overwegingen
 
@@ -64,7 +64,7 @@ De pro-actieve inspanningen van de kartonpreventie verminderen typisch klantenve
 
 ### Uitvoeren
 
-Gebruik de [ Reis van het Kanaal met Beslissing ](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om bewaarritten teweeg te brengen wanneer de duim-risico scores bepaalde drempels overschrijden, met ingebedde beslissing om de meest dwingende bewaaraanbieding te selecteren.
+Gebruik de [&#x200B; Reis van het Kanaal met Beslissing &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om bewaarritten teweeg te brengen wanneer de duim-risico scores bepaalde drempels overschrijden, met ingebedde beslissing om de meest dwingende bewaaraanbieding te selecteren.
 
 ### Technische overwegingen
 
@@ -84,7 +84,7 @@ Gepersonaliseerde dashboards verhogen de betrokkenheidspercentages met 30-40% en
 
 ### Uitvoeren
 
-Gebruik het ](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van het Web/App Personalization van 0} Known-Bezoeker {om gepersonaliseerde inhoudsblokken, productspots, en financiële inzichten binnen voor authentiek verklaarde digitale ervaringen in real time te leveren.[
+Gebruik het [&#128279;](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van het Web/App Personalization van 0&rbrace; Known-Bezoeker &lbrace;om gepersonaliseerde inhoudsblokken, productspots, en financiële inzichten binnen voor authentiek verklaarde digitale ervaringen in real time te leveren.
 
 ### Technische overwegingen
 
@@ -104,7 +104,7 @@ De levensfase-teweeggebrachte aanbiedingen bereiken een 35-45% productadoptieper
 
 ### Uitvoeren
 
-Gebruik de [ Reis van het Kanaal met Beslissing ](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om de indicatoren van het levensstadium te ontdekken en multi-aanrakingsreizen met ingebedde aanbiedingsselectie te ordenen die aan elke mijlpaal wordt aangepast.
+Gebruik de [&#x200B; Reis van het Kanaal met Beslissing &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om de indicatoren van het levensstadium te ontdekken en multi-aanrakingsreizen met ingebedde aanbiedingsselectie te ordenen die aan elke mijlpaal wordt aangepast.
 
 ### Technische overwegingen
 
@@ -124,7 +124,7 @@ Transactiegerichte waarschuwingen behalen een betrokkenheidspercentage van 50-60
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) om aan transactiegebeurtenissen in echt te antwoorden - tijd met alarm en contextafhankelijke aanbevelingen.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) om aan transactiegebeurtenissen in echt te antwoorden - tijd met alarm en contextafhankelijke aanbevelingen.
 
 ### Technische overwegingen
 
@@ -144,7 +144,7 @@ De campagnes van het terugwinnen van de landingen verbeteren het percentage van 
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) om de gebeurtenissen van de toepassingsontkenning te ontdekken en geschikte follow-up berichten teweeg te brengen die gemeenschappelijke drop-off redenen richten.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) om de gebeurtenissen van de toepassingsontkenning te ontdekken en geschikte follow-up berichten teweeg te brengen die gemeenschappelijke drop-off redenen richten.
 
 ### Technische overwegingen
 
@@ -164,7 +164,7 @@ Aanbevolen aanbevelingen voor gepersonaliseerde investeringen stimuleren een toe
 
 ### Uitvoeren
 
-Gebruik het ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) patroon van de Aanbeveling van het Gedrag [ {om investeringsgedrag en voorkeur te analyseren, dan oppervlakte relevante portefeuillereaanbevelingen door digitale kanalen en adviseurshulpmiddelen.
+Gebruik het [&#128279;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) patroon van de Aanbeveling van het Gedrag  &lbrace;om investeringsgedrag en voorkeur te analyseren, dan oppervlakte relevante portefeuillereaanbevelingen door digitale kanalen en adviseurshulpmiddelen.
 
 ### Technische overwegingen
 
@@ -184,7 +184,7 @@ Gepersonaliseerde fraudewaarschuwingen verbeteren de responspercentages voor waa
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) om fraudealarm door het aangewezen kanaal van elke klant met contextafhankelijke details te leveren die het gemakkelijk maken om activiteit te bevestigen of te bevechten.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) om fraudealarm door het aangewezen kanaal van elke klant met contextafhankelijke details te leveren die het gemakkelijk maken om activiteit te bevestigen of te bevechten.
 
 ### Technische overwegingen
 
@@ -204,7 +204,7 @@ De persoonlijke loyaliteitsbetrokkenheid verhoogt de programmaparticipatie met 3
 
 ### Uitvoeren
 
-Gebruik de [ Reis van het Kanaal met Beslissing ](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om loyaliteitsmededelingen over kanalen, met ingebedde beslissing te ordenen om de meest relevante beloning of de aanbieding voor elk lid te selecteren.
+Gebruik de [&#x200B; Reis van het Kanaal met Beslissing &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om loyaliteitsmededelingen over kanalen, met ingebedde beslissing te ordenen om de meest relevante beloning of de aanbieding voor elk lid te selecteren.
 
 ### Technische overwegingen
 
@@ -224,7 +224,7 @@ Gerichte hypotheekpretoetredingscampagnes verhogen de toepassingspercentages met
 
 ### Uitvoeren
 
-Gebruik het ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) patroon van de Reis van meerdere stappen [ Orchestrated om hypotheekvooruitzichten door een multi-aanraking opeenvolging van de Aansporing van bewustzijn door pre-goedkeuring te begeleiden, die op overeenkomst en kwalificatiesignalen wordt gebaseerd.
+Gebruik het [&#128279;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) patroon van de Reis van meerdere stappen  Orchestrated om hypotheekvooruitzichten door een multi-aanraking opeenvolging van de Aansporing van bewustzijn door pre-goedkeuring te begeleiden, die op overeenkomst en kwalificatiesignalen wordt gebaseerd.
 
 ### Technische overwegingen
 
@@ -244,7 +244,7 @@ Inhoud voor gepersonaliseerd onderwijs verhoogt de betrokkenheid bij inhoud met 
 
 ### Uitvoeren
 
-Gebruik de [ Reis van het Kanaal met Beslissing ](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om een gekrulde opeenvolging van educatieve inhoud over kanalen te leveren, gebruikend besluit om onderwerpen aan de financiële situatie en belangen van elke klant aan te passen.
+Gebruik de [&#x200B; Reis van het Kanaal met Beslissing &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om een gekrulde opeenvolging van educatieve inhoud over kanalen te leveren, gebruikend besluit om onderwerpen aan de financiële situatie en belangen van elke klant aan te passen.
 
 ### Technische overwegingen
 

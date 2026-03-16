@@ -30,5 +30,5 @@ De volgende gebruiks gevalpatronen steunen dit bedrijfsdoel.
 
 | Patroon | Categorie | Hoe zij deze doelstelling ondersteunt |
 | --- | --- | --- |
-| [ B2B Audience Activation ](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) | Audience Building &amp; Activation | Hiermee activeert u een op accounts gebaseerd publiek voor gerichte kwalificatiecampagnes voor leads |
-| [ het Kopen op groep-Gebaseerde Marketing &amp; het Beheer van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | Campagne management &amp; Orchestration | Kwalificeert leiders in het kopen van groepen en orkestaten multi-stakeholder verpleegster om pijpleiding te versnellen |
+| [&#x200B; B2B Audience Activation &#x200B;](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) | Audience Building &amp; Activation | Hiermee activeert u een op accounts gebaseerd publiek voor gerichte kwalificatiecampagnes voor leads |
+| [&#x200B; het Kopen op groep-Gebaseerde Marketing &amp; het Beheer van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | Campagne management &amp; Orchestration | Kwalificeert leiders in het kopen van groepen en orkestaten multi-stakeholder verpleegster om pijpleiding te versnellen |

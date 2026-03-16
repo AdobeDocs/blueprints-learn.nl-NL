@@ -30,6 +30,6 @@ De volgende gebruiks gevalpatronen steunen dit bedrijfsdoel.
 
 | Patroon | Categorie | Hoe zij deze doelstelling ondersteunt |
 | --- | --- | --- |
-| [ Audience Activation aan Doelen ](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) | Audience Building &amp; Activation | Maakt precisie gericht en bestaand-klantenonderdrukking toe om media bestedingsefficiency te maximaliseren |
-| [ Collaboration van het publiek met de Overeenkomst van het Segment ](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | Audience Building &amp; Activation | Verbetert het richten van efficiency door publiek te delen en analyse over organisaties te overlappen |
-| [ Analytics van de Klant &amp; Generation van Insight ](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | Analyse | Biedt prestatieanalyses over meerdere kanalen om beslissingen over begrotingstoewijzing en -optimalisatie te ondersteunen |
+| [&#x200B; Audience Activation aan Doelen &#x200B;](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) | Audience Building &amp; Activation | Maakt precisie gericht en bestaand-klantenonderdrukking toe om media bestedingsefficiency te maximaliseren |
+| [&#x200B; Collaboration van het publiek met de Overeenkomst van het Segment &#x200B;](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | Audience Building &amp; Activation | Verbetert het richten van efficiency door publiek te delen en analyse over organisaties te overlappen |
+| [&#x200B; Analytics van de Klant &amp; Generation van Insight &#x200B;](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | Analyse | Biedt prestatieanalyses over meerdere kanalen om beslissingen over begrotingstoewijzing en -optimalisatie te ondersteunen |

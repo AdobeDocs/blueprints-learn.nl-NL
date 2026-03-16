@@ -24,7 +24,7 @@ Organisaties die de aanbevelingen van de apparatenverbetering uitvoeren zien typ
 
 ### Uitvoeren
 
-Gebruik de [ Reis van het Kanaal met Beslissing ](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om verbeteringsreizen te ordenen die de geschiktheid van elke abonnee, apparatenvoorkeur, en kanaalaffiniteit evalueren om gepersonaliseerde verbeteringsaanbiedingen over e-mail, app berichten, en in-store ervaringen te leveren.
+Gebruik de [&#x200B; Reis van het Kanaal met Beslissing &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om verbeteringsreizen te ordenen die de geschiktheid van elke abonnee, apparatenvoorkeur, en kanaalaffiniteit evalueren om gepersonaliseerde verbeteringsaanbiedingen over e-mail, app berichten, en in-store ervaringen te leveren.
 
 ### Technische overwegingen
 
@@ -44,7 +44,7 @@ De optimalisatiecampagnes van het plan drijven typisch een verhoging van 25-35% 
 
 ### Uitvoeren
 
-Gebruik het [ Multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) om een multi-aanrakingscampagne te bouwen die gebruik-aan-plan wanverhoudingen identificeert, abonnees op betere opties opleidt, en hen door het proces van de planverandering met geschikte follow-ups begeleidt.
+Gebruik het [&#x200B; Multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) om een multi-aanrakingscampagne te bouwen die gebruik-aan-plan wanverhoudingen identificeert, abonnees op betere opties opleidt, en hen door het proces van de planverandering met geschikte follow-ups begeleidt.
 
 ### Technische overwegingen
 
@@ -64,7 +64,7 @@ De programma&#39;s van de Preventie van de Churn die op hoge-waardeabonnees geri
 
 ### Uitvoeren
 
-Gebruik de [ Reis van het Kanaal met het Beslissen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om de signalen van het kanaalrisico in echt te controleren - tijd, de beste bewaaraanbieding voor elke abonnee te bepalen, en gepersonaliseerde outreach over digitale kanalen en het vraagcentrum te orkesteren.
+Gebruik de [&#x200B; Reis van het Kanaal met het Beslissen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om de signalen van het kanaalrisico in echt te controleren - tijd, de beste bewaaraanbieding voor elke abonnee te bepalen, en gepersonaliseerde outreach over digitale kanalen en het vraagcentrum te orkesteren.
 
 ### Technische overwegingen
 
@@ -84,7 +84,7 @@ Goed ontworpen reizen aan boord verhogen doorgaans de activeringspercentages van
 
 ### Uitvoeren
 
-Gebruik het [ Multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) om een gerangschikte onboarding ervaring tot stand te brengen die zich op het plantype van elke abonnee, apparaat, en overeenkomst met vorige onboarding stappen baseert.
+Gebruik het [&#x200B; Multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) om een gerangschikte onboarding ervaring tot stand te brengen die zich op het plantype van elke abonnee, apparaat, en overeenkomst met vorige onboarding stappen baseert.
 
 ### Technische overwegingen
 
@@ -104,7 +104,7 @@ Het pro-actieve alarm van het gegevensgebruik drijft typisch een verhoging van 4
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) om alarm in real time te verzenden wanneer de gebruiksdrempels worden gekruist, met gepersonaliseerde aanbevelingen die op de historische consumptiepatronen van de abonnee en plandetails worden gebaseerd.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) om alarm in real time te verzenden wanneer de gebruiksdrempels worden gekruist, met gepersonaliseerde aanbevelingen die op de historische consumptiepatronen van de abonnee en plandetails worden gebaseerd.
 
 ### Technische overwegingen
 
@@ -124,7 +124,7 @@ De pro-actieve outage berichten bereiken typisch een 60-70% tarief van de berich
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) patroon om netwerkgebeurtenissen te ontdekken en beïnvloede abonnees onmiddellijk door hun aangewezen kanalen met relevante details, geschatte resolutietijden, en aangewezen compensatie op de hoogte te brengen wanneer gerechtvaardigd.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) patroon om netwerkgebeurtenissen te ontdekken en beïnvloede abonnees onmiddellijk door hun aangewezen kanalen met relevante details, geschatte resolutietijden, en aangewezen compensatie op de hoogte te brengen wanneer gerechtvaardigd.
 
 ### Technische overwegingen
 
@@ -144,7 +144,7 @@ De gepersonaliseerde het beheersmededelingen van het gezinsplanning van het gezi
 
 ### Uitvoeren
 
-Gebruik de [ Reis van het Kanaal met Beslissing ](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om gebruik over alle familieleden te analyseren, kansen zoals het toevoegen van lijnen of het aanpassen van individuele grenzen identificeren, en specifieke aanbevelingen aan de planbeheerder te leveren.
+Gebruik de [&#x200B; Reis van het Kanaal met Beslissing &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om gebruik over alle familieleden te analyseren, kansen zoals het toevoegen van lijnen of het aanpassen van individuele grenzen identificeren, en specifieke aanbevelingen aan de planbeheerder te leveren.
 
 ### Technische overwegingen
 
@@ -164,7 +164,7 @@ Gerichte 5G verbeteringscampagnes drijven typisch een verhoging van 25-35% van 5
 
 ### Uitvoeren
 
-Gebruik het [ Uitgaande patroon van de Activering van het Bericht van de Partij ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) aan segmentabonnees die op 5G dekkingsbeschikbaarheid, apparatenverenigbaarheid, en plangeschiktheid worden gebaseerd, dan leveren gepersonaliseerde verbeteringscampagnes die de voordelen benadrukken het meest relevant voor het gebruiksprofiel van elke abonnee.
+Gebruik het [&#x200B; Uitgaande patroon van de Activering van het Bericht van de Partij &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) aan segmentabonnees die op 5G dekkingsbeschikbaarheid, apparatenverenigbaarheid, en plangeschiktheid worden gebaseerd, dan leveren gepersonaliseerde verbeteringscampagnes die de voordelen benadrukken het meest relevant voor het gebruiksprofiel van elke abonnee.
 
 ### Technische overwegingen
 
@@ -184,7 +184,7 @@ De gepersonaliseerde herinneringen van de rekeningsbetaling verbeteren typisch o
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) om herinneringen op optimale tijden vóór de vervaldatum te verzenden, gepersonaliseerd met het saldo van de abonnee, aangewezen betalingsmethode, en een directe verbinding om de betaling te voltooien.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) om herinneringen op optimale tijden vóór de vervaldatum te verzenden, gepersonaliseerd met het saldo van de abonnee, aangewezen betalingsmethode, en een directe verbinding om de betaling te voltooien.
 
 ### Technische overwegingen
 
@@ -204,7 +204,7 @@ De gepersonaliseerde add-on de dienstaanbevelingen drijven typisch een verhoging
 
 ### Uitvoeren
 
-Gebruik het [ patroon van Offer Decisioning ](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) om het profiel van elke abonnee, de huidige diensten, en gedragssignalen te evalueren om de meest relevante add-on aanbieding te bepalen en het door het optimale kanaal en het moment voor te stellen.
+Gebruik het [&#x200B; patroon van Offer Decisioning &#x200B;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) om het profiel van elke abonnee, de huidige diensten, en gedragssignalen te evalueren om de meest relevante add-on aanbieding te bepalen en het door het optimale kanaal en het moment voor te stellen.
 
 ### Technische overwegingen
 
@@ -224,7 +224,7 @@ De gepersonaliseerde ervaringen van netwerkprestaties verhogen typisch toepassin
 
 ### Uitvoeren
 
-Gebruik het ](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van het Web/App Personalization van 0} Known-Bezoeker {om gepersonaliseerde dashboards van netwerkprestaties, dekkingsinformatie, en optimaliseringsaanbevelingen binnen de app van de abonnee en Web-rekeningservaring te leveren.[
+Gebruik het [&#128279;](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van het Web/App Personalization van 0&rbrace; Known-Bezoeker &lbrace;om gepersonaliseerde dashboards van netwerkprestaties, dekkingsinformatie, en optimaliseringsaanbevelingen binnen de app van de abonnee en Web-rekeningservaring te leveren.
 
 ### Technische overwegingen
 
@@ -244,7 +244,7 @@ De gepersonaliseerde loyaliteitsprogrammabetrokkenheid verhoogt typisch programm
 
 ### Uitvoeren
 
-Gebruik de [ Reis van het Kanaal met Beslissende ](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om gepersonaliseerde loyaliteitsmededelingen te ordenen die relevante beloningen benadrukken, abonnees van rijvooruitgang, en huidige terugbetalingskansen op één lijn brengen met hun voorkeur en gedrag op.
+Gebruik de [&#x200B; Reis van het Kanaal met Beslissende &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om gepersonaliseerde loyaliteitsmededelingen te ordenen die relevante beloningen benadrukken, abonnees van rijvooruitgang, en huidige terugbetalingskansen op één lijn brengen met hun voorkeur en gedrag op.
 
 ### Technische overwegingen
 

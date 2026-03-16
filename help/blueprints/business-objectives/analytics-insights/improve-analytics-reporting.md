@@ -29,5 +29,5 @@ De volgende gebruiks gevalpatronen steunen dit bedrijfsdoel.
 
 | Patroon | Categorie | Hoe zij deze doelstelling ondersteunt |
 | --- | --- | --- |
-| [ Analytics van de Klant &amp; Generation van Insight ](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | Analyse | Bouwt werkruimten voor kanaalanalyse, berekende metriek, en dashboards voor uitvoerige gedrag en prestatiesrapportering |
-| [ B2B Analytics ](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md) | Analyse | Biedt rapportagemogelijkheden op accountniveau en mogelijkheden voor B2B-reisanalyse over het kanaal |
+| [&#x200B; Analytics van de Klant &amp; Generation van Insight &#x200B;](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | Analyse | Bouwt werkruimten voor kanaalanalyse, berekende metriek, en dashboards voor uitvoerige gedrag en prestatiesrapportering |
+| [&#x200B; B2B Analytics &#x200B;](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md) | Analyse | Biedt rapportagemogelijkheden op accountniveau en mogelijkheden voor B2B-reisanalyse over het kanaal |

@@ -30,6 +30,6 @@ De volgende gebruiks gevalpatronen steunen dit bedrijfsdoel.
 
 | Patroon | Categorie | Hoe zij deze doelstelling ondersteunt |
 | --- | --- | --- |
-| [ Uitgaande Activering van het Bericht van de Partij ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | Campagne management &amp; Orchestration | Biedt doelgerichte batchcampagnes om de verkoop via e-mail, SMS en pushkanalen te sturen |
-| [ gebeurtenis-teweeggebracht Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | Campagne management &amp; Orchestration | Vangt opbrengstkansen door het overseinen van de gedragsreactie in real time |
-| [ het Kopen op groep-Gebaseerde Marketing &amp; het Beheer van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | Campagne management &amp; Orchestration | Orchestrates B2B die groepsreizen koopt om de voortgang van de verkooppijpleiding te versnellen |
+| [&#x200B; Uitgaande Activering van het Bericht van de Partij &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | Campagne management &amp; Orchestration | Biedt doelgerichte batchcampagnes om de verkoop via e-mail, SMS en pushkanalen te sturen |
+| [&#x200B; gebeurtenis-teweeggebracht Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | Campagne management &amp; Orchestration | Vangt opbrengstkansen door het overseinen van de gedragsreactie in real time |
+| [&#x200B; het Kopen op groep-Gebaseerde Marketing &amp; het Beheer van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | Campagne management &amp; Orchestration | Orchestrates B2B die groepsreizen koopt om de voortgang van de verkooppijpleiding te versnellen |

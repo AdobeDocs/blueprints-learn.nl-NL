@@ -30,5 +30,5 @@ De volgende gebruiks gevalpatronen steunen dit bedrijfsdoel.
 
 | Patroon | Categorie | Hoe zij deze doelstelling ondersteunt |
 | --- | --- | --- |
-| [ gebeurtenis-teweeggebracht Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | Campagne management &amp; Orchestration | Triggert contextafhankelijke instapberichten op basis van aanmeldingsgebeurtenissen en activeringsmijlpalen |
-| [ Multi-Step Orchestrated Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | Campagne management &amp; Orchestration | Begeleidt nieuwe klanten door een gestructureerde multi-step onboarding reis met getimed touchpoints |
+| [&#x200B; gebeurtenis-teweeggebracht Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | Campagne management &amp; Orchestration | Triggert contextafhankelijke instapberichten op basis van aanmeldingsgebeurtenissen en activeringsmijlpalen |
+| [&#x200B; Multi-Step Orchestrated Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | Campagne management &amp; Orchestration | Begeleidt nieuwe klanten door een gestructureerde multi-step onboarding reis met getimed touchpoints |

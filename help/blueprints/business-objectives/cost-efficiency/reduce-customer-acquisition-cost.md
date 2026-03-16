@@ -30,5 +30,5 @@ De volgende gebruiks gevalpatronen steunen dit bedrijfsdoel.
 
 | Patroon | Categorie | Hoe zij deze doelstelling ondersteunt |
 | --- | --- | --- |
-| [ Audience Activation aan Doelen ](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) | Audience Building &amp; Activation | Onderdrukt bestaande klanten van aanschafcampagnes en publiceert een op precisie gericht publiek om verspilde advertentie-uitgaven te verminderen |
-| [ Collaboration van het publiek met de Overeenkomst van het Segment ](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | Audience Building &amp; Activation | Zorgt voor overlappende analyse en het delen van publiek om de efficiëntie van verschillende organisaties te verbeteren |
+| [&#x200B; Audience Activation aan Doelen &#x200B;](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) | Audience Building &amp; Activation | Onderdrukt bestaande klanten van aanschafcampagnes en publiceert een op precisie gericht publiek om verspilde advertentie-uitgaven te verminderen |
+| [&#x200B; Collaboration van het publiek met de Overeenkomst van het Segment &#x200B;](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | Audience Building &amp; Activation | Zorgt voor overlappende analyse en het delen van publiek om de efficiëntie van verschillende organisaties te verbeteren |

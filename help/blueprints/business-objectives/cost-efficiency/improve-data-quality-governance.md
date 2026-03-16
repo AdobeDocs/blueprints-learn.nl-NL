@@ -29,4 +29,4 @@ De volgende gebruiks gevalpatronen steunen dit bedrijfsdoel.
 
 | Patroon | Categorie | Hoe zij deze doelstelling ondersteunt |
 | --- | --- | --- |
-| [ Gebeurtenis door:sturen ](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md) | Audience Building &amp; Activation | Zorgt voor consistente, beheerde distributie van gebeurtenisgegevens naar niet-Adobe-doelen voor uniforme gegevenskwaliteit |
+| [&#x200B; Gebeurtenis door:sturen &#x200B;](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md) | Audience Building &amp; Activation | Zorgt voor consistente, beheerde distributie van gebeurtenisgegevens naar niet-Adobe-doelen voor uniforme gegevenskwaliteit |

@@ -9,4 +9,4 @@ ht-degree: 0%
 
 ## Geheugenbestanden
 
-- [ adobe-authoring-guidelines.md ](./adobe-authoring-guidelines.md) — Volledige de auteursregels van de Liga van de Ervaring van Adobe: meta-gegevensgebieden, prijsdalingssyntaxis, callouts, lijsten, verbindingen, beelden, dossier noemend, SEO, localisatie, de structuur van TOC
+- [&#x200B; adobe-authoring-guidelines.md &#x200B;](./adobe-authoring-guidelines.md) — Volledige de auteursregels van de Liga van de Ervaring van Adobe: meta-gegevensgebieden, prijsdalingssyntaxis, callouts, lijsten, verbindingen, beelden, dossier noemend, SEO, localisatie, de structuur van TOC

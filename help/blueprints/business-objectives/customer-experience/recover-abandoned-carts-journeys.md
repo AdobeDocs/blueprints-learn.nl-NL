@@ -30,5 +30,5 @@ De volgende gebruiks gevalpatronen steunen dit bedrijfsdoel.
 
 | Patroon | Categorie | Hoe zij deze doelstelling ondersteunt |
 | --- | --- | --- |
-| [ gebeurtenis-teweeggebracht Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | Campagne management &amp; Orchestration | Detecteert gebeurtenissen voor het verlaten van winkelwagentjes en de reis in real time en activeert herstelberichten |
-| [ Multi-Step Orchestrated Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | Campagne management &amp; Orchestration | Orchestrates multistep terugwinningsreizen met toenemende prikkels en kanaalfallbacks |
+| [&#x200B; gebeurtenis-teweeggebracht Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | Campagne management &amp; Orchestration | Detecteert gebeurtenissen voor het verlaten van winkelwagentjes en de reis in real time en activeert herstelberichten |
+| [&#x200B; Multi-Step Orchestrated Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | Campagne management &amp; Orchestration | Orchestrates multistep terugwinningsreizen met toenemende prikkels en kanaalfallbacks |

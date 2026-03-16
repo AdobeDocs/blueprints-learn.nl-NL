@@ -15,7 +15,7 @@ ht-degree: 0%
 Source: https://experienceleague.adobe.com/en/docs/authoring-guide/using/home
 Gekwurd: 2026-03-15
 
----
+&#x200B;---
 
 ## &#x200B;1. METAGEGEVENS/VOORWERP
 
@@ -54,7 +54,7 @@ Gekwurd: 2026-03-15
 ### Verouderde velden
 seo-title, seo-description, publiek, moeilijkheid, uuid (uit migratietijdperk)
 
----
+&#x200B;---
 
 ## &#x200B;2. VERKEERDE SYNTAXIS (ADOBE-FLAVORED)
 
@@ -120,10 +120,13 @@ seo-title, seo-description, publiek, moeilijkheid, uuid (uit migratietijdperk)
 
   ```
   ```javascript
+
   code here
+
   ```
 
   ```
+
   
   
 - Opties: `{line-numbers="true"}`, `{start-line="7"}`, `{highlight="11-13, 16"}`
@@ -140,7 +143,7 @@ seo-title, seo-description, publiek, moeilijkheid, uuid (uit migratietijdperk)
 - Optie voor lay-out tabel met opmaak weghalen: `{style="table-layout:auto"}` toevoegen na tabel met lege regels
 - Vermijd zeer brede/hoge tabellen vanwege problemen met de zichtbaarheid van de horizontale schuifbalk
 
----
+&#x200B;---
 
 ## &#x200B;3. SPECIALE ADOBE SYNTAXISEXTENSIES
 
@@ -174,7 +177,8 @@ seo-title, seo-description, publiek, moeilijkheid, uuid (uit migratietijdperk)
 >[!ERROR]
 >[!SUCCESS]
 ```
-- KRITIEK: geen ruimte tussen `>` en `[!` — gebruik `>[!NOTE]` NOT `> [!NOTE]`
+
+- KRITIEK: geen ruimte tussen `>` en `[ !` — gebruik `>[!NOTE]` NOT `> [!NOTE]`
 - Lege regel toevoegen tussen `>[!NOTE]` en de tekstregel van de hoofdtekst
 
 ### Tabs
@@ -198,6 +202,7 @@ Content here
 Content inside
 +++
 ```
+
 Opmerking: geneste inklapbare secties worden NIET ondersteund.
 
 ### Schaduwvakken
@@ -213,6 +218,7 @@ Content here
 ```
 >[!VIDEO](https://video.tv.adobe.com/v/ID/?quality=12&learn=on)
 ```
+
 Voeg `{transcript=true}` toe voor transcripties.
 
 ### Meer als dit
@@ -238,6 +244,7 @@ Voeg `{transcript=true}` toe voor transcripties.
 ```
 [!BADGE Label]{type=Informative url="https://example.com" tooltip="text"}
 ```
+
 Typen: `Informative` (blauw), `Positive` (groen), `Negative` (rood), `Neutral` (grijs), `Caution` (geel)
 
 ### Tekstmarkering (voorvertoning)
@@ -271,7 +278,7 @@ Typen: `Informative` (blauw), `Positive` (groen), `Negative` (rood), `Neutral` (
 - Horizontale lijnen
 - Geneste inklapbare secties
 
----
+&#x200B;---
 
 ## &#x200B;4. BESTANDSNAAM EN MAPSTRUCTUUR
 
@@ -301,7 +308,7 @@ Typen: `Informative` (blauw), `Positive` (groen), `Negative` (rood), `Neutral` (
 - Metagegevens van inhoudsopgave: `user-guide-description` (optioneel) `breadcrumb-title`
 - `mini-toc-levels`: besturingselementen voor de weergave van kop rechts-nav (1-6, standaard 2)
 
----
+&#x200B;---
 
 ## &#x200B;5. INHOUDSKWALITEIT EN BEWERKINGSNORMEN
 
@@ -347,7 +354,7 @@ Typen: `Informative` (blauw), `Positive` (groen), `Negative` (rood), `Neutral` (
 - ALLEEN titelhoofdletters/kleine letters voor het metagegevensveld `title`
 - Gepaste getallen worden altijd met hoofdletters weergegeven
 
----
+&#x200B;---
 
 ## &#x200B;6. BESTE PRAKTIJKEN VOOR SEO
 
@@ -364,7 +371,7 @@ Typen: `Informative` (blauw), `Positive` (groen), `Negative` (rood), `Neutral` (
 - Hulpmiddelen van het gebruik zoals AnswerThePublic, Google probeert aan onderzoekstrefwoorden
 - Inhoud moet E-E-A-T aantonen (ervaring, deskundigheid, gezaghebbendheid, betrouwbaarheid)
 
----
+&#x200B;---
 
 ## &#x200B;7. LOKALISATIE
 
@@ -384,7 +391,7 @@ Typen: `Informative` (blauw), `Positive` (groen), `Negative` (rood), `Neutral` (
 - `[!DNL ProductName]` — Voorkomt dat productnamen/merknamen worden vertaald
 - Afbeeldingen in een map &#39;do-not-localize&#39; zijn uitgesloten van lokalisatie
 
----
+&#x200B;---
 
 ## &#x200B;8. INHOUDSTYPEN
 
@@ -395,13 +402,13 @@ Typen: `Informative` (blauw), `Positive` (groen), `Negative` (rood), `Neutral` (
 - **de Artikelen van de Kennisbank**: Kort, tijdelijk relevante het oplossen van problemeninhoud
 - **Landing Pagina/Homepage**: Beheerd afzonderlijk (SCCM)
 
----
+&#x200B;---
 
 ## &#x200B;9. ALGEMENE VALIDATIEFOUTEN OM TE VOORKOMEN
 
 - Ontbrekende of lege `title` of `description` metagegevens
 - `description` begint niet met &quot;Meer informatie over..&quot; of &quot;Leer hoe...&quot;
-- Ruimte tussen `>` en `[!` in callout syntaxis (`> [!NOTE]` in plaats van `>[!NOTE]`)
+- Ruimte tussen `>` en `[ !` in callout syntaxis (`> [!NOTE]` in plaats van `>[!NOTE]`)
 - Spaties in vette markeringen: `**text **` (spaties worden vet afgebroken)
 - Markeringssyntaxis in HTML-tabellen (callouts werken daar bijvoorbeeld niet)
 - Kopanker-id&#39;s in een document dupliceren

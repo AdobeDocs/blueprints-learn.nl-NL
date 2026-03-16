@@ -24,7 +24,7 @@ Organisaties die automatische herinneringen voor benoemingen implementeren zien 
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Het creëren en bijwerken van benoemingen van gebeurtenissen van het planningssysteem dienen als natuurlijke trekkers voor geschikte, relevante herinneringsberichten.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Het creëren en bijwerken van benoemingen van gebeurtenissen van het planningssysteem dienen als natuurlijke trekkers voor geschikte, relevante herinneringsberichten.
 
 ### Technische overwegingen
 
@@ -44,7 +44,7 @@ Persoonlijke therapietrouw-campagnes leiden doorgaans tot een verbetering van de
 
 ### Uitvoeren
 
-Gebruik het [ multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). De therapietrouw van geneesmiddelen vereist een duurzame, multi-touchaanpak met escalerende herinneringen, educatieve aanraakpunten en follow-up check-ins gedurende de loop van een behandelingsplan.
+Gebruik het [&#x200B; multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). De therapietrouw van geneesmiddelen vereist een duurzame, multi-touchaanpak met escalerende herinneringen, educatieve aanraakpunten en follow-up check-ins gedurende de loop van een behandelingsplan.
 
 ### Technische overwegingen
 
@@ -64,7 +64,7 @@ Proactieve preventieve zorg leidt doorgaans tot een stijging van 25 tot 35 proce
 
 ### Uitvoeren
 
-Gebruik het [ Uitgaande patroon van de Activering van het Bericht van de Partij ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md). Herinneringen voor preventieve zorg kunnen het best worden geleverd door middel van geplande batchcampagnes die de geschiktheid van de patiënt toetsen aan klinische richtlijnen op een reguliere kadentie.
+Gebruik het [&#x200B; Uitgaande patroon van de Activering van het Bericht van de Partij &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md). Herinneringen voor preventieve zorg kunnen het best worden geleverd door middel van geplande batchcampagnes die de geschiktheid van de patiënt toetsen aan klinische richtlijnen op een reguliere kadentie.
 
 ### Technische overwegingen
 
@@ -84,7 +84,7 @@ Geautomatiseerde follow-upcampagnes na het bezoek leveren doorgaans een verbeter
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Bezoek voltooiingsevenementen van het systeem voor elektronische medische dossiers biedt een natuurlijke, tijdige trigger voor follow-upcommunicatie die is afgestemd op het type ontmoeting.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Bezoek voltooiingsevenementen van het systeem voor elektronische medische dossiers biedt een natuurlijke, tijdige trigger voor follow-upcommunicatie die is afgestemd op het type ontmoeting.
 
 ### Technische overwegingen
 
@@ -104,7 +104,7 @@ In programma&#39;s voor gepersonaliseerd chronisch ziektebeheer wordt doorgaans 
 
 ### Uitvoeren
 
-Gebruik het [ multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Het beheer van chronische ziekten is inherent een langdurige multi-touchpoint ervaring die adaptieve communicatie vereist op basis van de betrokkenheid van patiënten en de mijlpalen voor de gezondheid.
+Gebruik het [&#x200B; multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Het beheer van chronische ziekten is inherent een langdurige multi-touchpoint ervaring die adaptieve communicatie vereist op basis van de betrokkenheid van patiënten en de mijlpalen voor de gezondheid.
 
 ### Technische overwegingen
 
@@ -124,7 +124,7 @@ Geautomatiseerde nieuwe patiënten die aan boord gaan rijden zorgen doorgaans vo
 
 ### Uitvoeren
 
-Gebruik het [ multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Het instappen van patiënten is een natuurlijk opeenvolgend, meertrapsgewijs proces waarbij elke communicatie voortbouwt op de vorige en zich aanpast op basis van of de patiënt de belangrijkste handelingen heeft uitgevoerd.
+Gebruik het [&#x200B; multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Het instappen van patiënten is een natuurlijk opeenvolgend, meertrapsgewijs proces waarbij elke communicatie voortbouwt op de vorige en zich aanpast op basis van of de patiënt de belangrijkste handelingen heeft uitgevoerd.
 
 ### Technische overwegingen
 
@@ -144,7 +144,7 @@ De levering van persoonlijke gezondheidsinhoud bereikt doorgaans een stijging va
 
 ### Uitvoeren
 
-Gebruik de [ Reis van het Kanaal met het Beslissen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon. De levering van content in de gezondheidszorg is gebaat bij beslissingen in real-time waarbij de meest relevante inhoud voor elke patiënt wordt geselecteerd op basis van zijn omstandigheden, voorkeuren en eerdere betrokkenheid, die via het voorkeurskanaal wordt geleverd.
+Gebruik de [&#x200B; Reis van het Kanaal met het Beslissen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon. De levering van content in de gezondheidszorg is gebaat bij beslissingen in real-time waarbij de meest relevante inhoud voor elke patiënt wordt geselecteerd op basis van zijn omstandigheden, voorkeuren en eerdere betrokkenheid, die via het voorkeurskanaal wordt geleverd.
 
 ### Technische overwegingen
 
@@ -164,7 +164,7 @@ De geautomatiseerde berichten van de laboratoriumresultaten drijven typisch een 
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). De beschikbaarheid van LAB-resultaten is een aparte gebeurtenis die een directe, eenmalige melding via het voorkeurskanaal van de patiënt vereist.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). De beschikbaarheid van LAB-resultaten is een aparte gebeurtenis die een directe, eenmalige melding via het voorkeurskanaal van de patiënt vereist.
 
 ### Technische overwegingen
 
@@ -184,7 +184,7 @@ Verificatie van de proactieve verzekeringsdekking resulteert doorgaans in een ve
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Gebeurtenissen voor benoemingsplanningen dienen als trigger voor het starten van een controle van de dekking en het doorgeven van resultaten aan de patiënt vóór het bezoek.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Gebeurtenissen voor benoemingsplanningen dienen als trigger voor het starten van een controle van de dekking en het doorgeven van resultaten aan de patiënt vóór het bezoek.
 
 ### Technische overwegingen
 
@@ -204,7 +204,7 @@ Gepersonaliseerde herinneringen voor telehealth-afspraak zorgen meestal voor een
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Gebeurtenissen in verband met de toegezegdsplanning voor telelehealth bieden een natuurlijke trigger voor tijdige herinneringen die verbindingsdetails en voorbereidingsrichtlijnen bevatten.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Gebeurtenissen in verband met de toegezegdsplanning voor telelehealth bieden een natuurlijke trigger voor tijdige herinneringen die verbindingsdetails en voorbereidingsrichtlijnen bevatten.
 
 ### Technische overwegingen
 
@@ -224,7 +224,7 @@ De gepersonaliseerde campagnes van het programma van de Ziekenschap bereiken typ
 
 ### Uitvoeren
 
-Gebruik het [ multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Wellness-programma&#39;s zijn aanhoudende ervaringen met betrokkenheid met meerdere mijlpalen, uitdagingen en beloningsaanraakpunten die adaptieve orchestratie vereisen op basis van de deelname en voortgang van de patiënt.
+Gebruik het [&#x200B; multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Wellness-programma&#39;s zijn aanhoudende ervaringen met betrokkenheid met meerdere mijlpalen, uitdagingen en beloningsaanraakpunten die adaptieve orchestratie vereisen op basis van de deelname en voortgang van de patiënt.
 
 ### Technische overwegingen
 
@@ -244,7 +244,7 @@ Effectieve communicatie tussen zorgteams leidt doorgaans tot een verbetering van
 
 ### Uitvoeren
 
-Gebruik het [ multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Bij de coördinatie van het zorgteam zijn meerdere belanghebbenden betrokken en zijn doorlopende communicatiestromen nodig die zich moeten aanpassen op basis van de mijlpalen in het zorgplan, wijzigingen in de status van de patiënt en acties van de leverancier.
+Gebruik het [&#x200B; multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Bij de coördinatie van het zorgteam zijn meerdere belanghebbenden betrokken en zijn doorlopende communicatiestromen nodig die zich moeten aanpassen op basis van de mijlpalen in het zorgplan, wijzigingen in de status van de patiënt en acties van de leverancier.
 
 ### Technische overwegingen
 

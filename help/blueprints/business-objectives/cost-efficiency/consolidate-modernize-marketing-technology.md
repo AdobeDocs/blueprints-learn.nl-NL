@@ -30,4 +30,4 @@ De volgende gebruiks gevalpatronen steunen dit bedrijfsdoel.
 
 | Patroon | Categorie | Hoe zij deze doelstelling ondersteunt |
 | --- | --- | --- |
-| [ Gebeurtenis door:sturen ](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md) | Audience Building &amp; Activation | Vervangt punt om integratie met een verenigde server-zijlaag van de gebeurtenisdistributie te richten |
+| [&#x200B; Gebeurtenis door:sturen &#x200B;](/help/blueprints/use-case-patterns/audience-building-activation/event-forwarding.md) | Audience Building &amp; Activation | Vervangt punt om integratie met een verenigde server-zijlaag van de gebeurtenisdistributie te richten |

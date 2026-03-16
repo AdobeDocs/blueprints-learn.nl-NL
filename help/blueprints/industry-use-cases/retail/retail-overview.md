@@ -24,7 +24,7 @@ Detailhandelaars zien meestal een stijging van 20-30% in doorkliksnelheden en ee
 
 ### Uitvoeren
 
-Gebruik het [ patroon van de Aanbeveling van het Gedrag ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Deze benadering gebruikt op AI-Gebaseerde adviseringsmodellen die voortdurend van klanteninteractie leren om de meest relevante producten voor elk individu te oppervlakten.
+Gebruik het [&#x200B; patroon van de Aanbeveling van het Gedrag &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Deze benadering gebruikt op AI-Gebaseerde adviseringsmodellen die voortdurend van klanteninteractie leren om de meest relevante producten voor elk individu te oppervlakten.
 
 ### Technische overwegingen
 
@@ -44,7 +44,7 @@ Effectieve programma&#39;s voor het herstellen van winkelwagentjes leveren een h
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze benadering reageert op een real-time gebeurtenis voor het verlaten van het winkelwagentje, waarbij een tijdige herinnering wordt verzonden terwijl de aankoopintentie nog steeds hoog is.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze benadering reageert op een real-time gebeurtenis voor het verlaten van het winkelwagentje, waarbij een tijdige herinnering wordt verzonden terwijl de aankoopintentie nog steeds hoog is.
 
 ### Technische overwegingen
 
@@ -64,7 +64,7 @@ Trage-voorraad urgentiecampagnes leiden doorgaans tot een stijging van 30-40% in
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze benadering reageert op gebeurtenissen met betrekking tot inventarisdrempels, waarbij automatisch het dringende bericht wordt geactiveerd wanneer de voorraadniveaus onder gedefinieerde limieten dalen.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze benadering reageert op gebeurtenissen met betrekking tot inventarisdrempels, waarbij automatisch het dringende bericht wordt geactiveerd wanneer de voorraadniveaus onder gedefinieerde limieten dalen.
 
 ### Technische overwegingen
 
@@ -84,7 +84,7 @@ Goed uitgevoerde cross-sell en upsell strategieën verhogen gemiddelde orderwaar
 
 ### Uitvoeren
 
-Gebruik het [ patroon van Offer Decisioning ](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Deze benadering gebruikt gecentraliseerde beslissingslogica om alle beschikbare aanbiedingen te evalueren en de beste optie voor cross-sell of upsell te selecteren voor elke klant en context.
+Gebruik het [&#x200B; patroon van Offer Decisioning &#x200B;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Deze benadering gebruikt gecentraliseerde beslissingslogica om alle beschikbare aanbiedingen te evalueren en de beste optie voor cross-sell of upsell te selecteren voor elke klant en context.
 
 ### Technische overwegingen
 
@@ -104,7 +104,7 @@ Een goed ontworpen welkomstserie zorgt voor een betrokkenheid van 40 tot 50% bij
 
 ### Uitvoeren
 
-Gebruik het [ multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Deze multitouch-trainingstraject begeleidt nieuwe klanten door een reeks merkintroductie, productdetectie en stimulerende berichten, die worden aangepast op basis van hun betrokkenheid.
+Gebruik het [&#x200B; multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Deze multitouch-trainingstraject begeleidt nieuwe klanten door een reeks merkintroductie, productdetectie en stimulerende berichten, die worden aangepast op basis van hun betrokkenheid.
 
 ### Technische overwegingen
 
@@ -124,7 +124,7 @@ Prijsdalingswaarschuwingen genereren een conversiesnelheid van 20-30% bij ontvan
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze aanpak reageert op gebeurtenissen die zich hebben voorgedaan in verband met de verandering van de productprijs en stemt deze af tegen de signalen van de klant om tijdig meldingen te verzenden.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze aanpak reageert op gebeurtenissen die zich hebben voorgedaan in verband met de verandering van de productprijs en stemt deze af tegen de signalen van de klant om tijdig meldingen te verzenden.
 
 ### Technische overwegingen
 
@@ -144,7 +144,7 @@ Herstelprogramma&#39;s bieden een herhalingsfrequentie van 30-40% en verbeteren 
 
 ### Uitvoeren
 
-Gebruik het [ multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Deze terugkerende geplande reis gebruikt de voorspellingen van de koopfrequentie om herinneringen op het optimale tijdstip te verzenden alvorens een klant waarschijnlijk een hervulling nodig heeft.
+Gebruik het [&#x200B; multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Deze terugkerende geplande reis gebruikt de voorspellingen van de koopfrequentie om herinneringen op het optimale tijdstip te verzenden alvorens een klant waarschijnlijk een hervulling nodig heeft.
 
 ### Technische overwegingen
 
@@ -164,7 +164,7 @@ Gepersonaliseerde categoriepagina&#39;s zorgen voor een toename van de categorie
 
 ### Uitvoeren
 
-Gebruik het [ patroon van de Aanbeveling van het Gedrag ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Deze benadering gebruikt selectiestrategieën en rangschikkingsmodellen om producten op categoriepagina&#39;s opnieuw te ordenen die op het profiel van elke bezoeker en gedrag in real time worden gebaseerd.
+Gebruik het [&#x200B; patroon van de Aanbeveling van het Gedrag &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Deze benadering gebruikt selectiestrategieën en rangschikkingsmodellen om producten op categoriepagina&#39;s opnieuw te ordenen die op het profiel van elke bezoeker en gedrag in real time worden gebaseerd.
 
 ### Technische overwegingen
 
@@ -184,7 +184,7 @@ Effectieve campagnes na de aankoop verhogen de verzendingspercentages van de rev
 
 ### Uitvoeren
 
-Gebruik het [ multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Deze multi-step post-purchase flow gebruikt vertakkende logica om follow-upberichten op te stellen op basis van producttype, klantensegment en betrokkenheid bij eerdere e-mails in de reeks.
+Gebruik het [&#x200B; multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Deze multi-step post-purchase flow gebruikt vertakkende logica om follow-upberichten op te stellen op basis van producttype, klantensegment en betrokkenheid bij eerdere e-mails in de reeks.
 
 ### Technische overwegingen
 
@@ -204,7 +204,7 @@ VIP-programma&#39;s genereren doorgaans een servicepercentage van 50-70% van kla
 
 ### Uitvoeren
 
-Gebruik de [ Reis van het Kanaal met het Beslissen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon. Deze benadering combineert reisorchestratie met real-time besluitvorming voor aanbiedingsselectie, die ervoor zorgt dat elke VIP-klant het meest relevante exclusieve aanbod over elk kanaal ontvangt.
+Gebruik de [&#x200B; Reis van het Kanaal met het Beslissen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon. Deze benadering combineert reisorchestratie met real-time besluitvorming voor aanbiedingsselectie, die ervoor zorgt dat elke VIP-klant het meest relevante exclusieve aanbod over elk kanaal ontvangt.
 
 ### Technische overwegingen
 
@@ -224,7 +224,7 @@ Met meldingen van &quot;back-in-stock&quot; wordt een conversietarief van 40 tot
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze benadering leidt tot berichten op reserve-in-voorraad gebeurtenissen, die inventarisupdates met klanten bericht ondertekenen-ups aanpassen om tijdige alarm te leveren.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze benadering leidt tot berichten op reserve-in-voorraad gebeurtenissen, die inventarisupdates met klanten bericht ondertekenen-ups aanpassen om tijdige alarm te leveren.
 
 ### Technische overwegingen
 
@@ -244,7 +244,7 @@ Het persoonlijke sociale bewijs verhoogt de omrekeningskoersen met 10-15% en ver
 
 ### Uitvoeren
 
-Gebruik het ](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van 0} gekende-Bezoeker Web/App Personalization. [Deze benadering past de webinhoud aan voor bepaalde bezoekers, waarbij de meest relevante revisies en elementen voor sociale profielen worden geselecteerd op basis van het profiel, de voorkeuren en de browsercontext van de klant.
+Gebruik het [&#128279;](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van 0&rbrace; gekende-Bezoeker Web/App Personalization. Deze benadering past de webinhoud aan voor bepaalde bezoekers, waarbij de meest relevante revisies en elementen voor sociale profielen worden geselecteerd op basis van het profiel, de voorkeuren en de browsercontext van de klant.
 
 ### Technische overwegingen
 

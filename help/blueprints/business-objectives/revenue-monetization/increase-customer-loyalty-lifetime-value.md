@@ -30,6 +30,6 @@ De volgende gebruiks gevalpatronen steunen dit bedrijfsdoel.
 
 | Patroon | Categorie | Hoe zij deze doelstelling ondersteunt |
 | --- | --- | --- |
-| [ Offer Decisioning ](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) | Personalisatie | Levert gepersonaliseerde loyaliteitsaanbiedingen en beloningen op basis van de waarde en de geschiedenis van de klant |
-| [ Reis van het Kanaal met Beslissing ](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | Campagne management &amp; Orchestration | Orchestrates loyaliteitstrajecten met gepersonaliseerde beslissingen over verschillende kanalen om de betrokkenheid te verdiepen |
-| [ Multi-Step Orchestrated Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | Campagne management &amp; Orchestration | Begeleidt klanten door multi-aanraking loyaliteit en bewaarritten met gepersonaliseerde touchpoints |
+| [&#x200B; Offer Decisioning &#x200B;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) | Personalisatie | Levert gepersonaliseerde loyaliteitsaanbiedingen en beloningen op basis van de waarde en de geschiedenis van de klant |
+| [&#x200B; Reis van het Kanaal met Beslissing &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | Campagne management &amp; Orchestration | Orchestrates loyaliteitstrajecten met gepersonaliseerde beslissingen over verschillende kanalen om de betrokkenheid te verdiepen |
+| [&#x200B; Multi-Step Orchestrated Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) | Campagne management &amp; Orchestration | Begeleidt klanten door multi-aanraking loyaliteit en bewaarritten met gepersonaliseerde touchpoints |

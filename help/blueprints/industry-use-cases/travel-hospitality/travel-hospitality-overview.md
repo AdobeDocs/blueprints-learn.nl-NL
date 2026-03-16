@@ -24,7 +24,7 @@ Door de homepage voor nieuwe bezoekers aan te passen, wordt de conversiesnelheid
 
 ### Uitvoeren
 
-Gebruik het ](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) patroon van Personalization van het Web van 0} Anonieme Bezoeker {. [Deze benadering levert inhoud op maat aan bezoekers die zich nog niet hebben geïdentificeerd, gebruikend beschikbare signalen zoals geolocatie, apparatentype, en verwijzingsbron om de ervaring van de allereerste pagina te personaliseren.
+Gebruik het [&#128279;](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) patroon van Personalization van het Web van 0&rbrace; Anonieme Bezoeker &lbrace;. Deze benadering levert inhoud op maat aan bezoekers die zich nog niet hebben geïdentificeerd, gebruikend beschikbare signalen zoals geolocatie, apparatentype, en verwijzingsbron om de ervaring van de allereerste pagina te personaliseren.
 
 ### Technische overwegingen
 
@@ -44,7 +44,7 @@ Effectieve herstelprogramma&#39;s voor boekingen leveren een herstelpercentage v
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze benadering reageert op een real-time cart-voorval waarbij een tijdige herinnering wordt verzonden terwijl de reisintentie van de klant nog steeds hoog is.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze benadering reageert op een real-time cart-voorval waarbij een tijdige herinnering wordt verzonden terwijl de reisintentie van de klant nog steeds hoog is.
 
 ### Technische overwegingen
 
@@ -64,7 +64,7 @@ Het richten van high-intent bezoekers met gepersonaliseerde aanbiedingen drijft 
 
 ### Uitvoeren
 
-Gebruik het ](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van 0} gekende-Bezoeker Web/App Personalization. [Deze benadering gebruikt profielgegevens en gedragssignalen in real time om de webervaring voor geïdentificeerde bezoekers te personaliseren, die op maat gemaakte inhoud leveren en aanbiedingen die hun niveau van koopbereidheid aanpassen.
+Gebruik het [&#128279;](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van 0&rbrace; gekende-Bezoeker Web/App Personalization. Deze benadering gebruikt profielgegevens en gedragssignalen in real time om de webervaring voor geïdentificeerde bezoekers te personaliseren, die op maat gemaakte inhoud leveren en aanbiedingen die hun niveau van koopbereidheid aanpassen.
 
 ### Technische overwegingen
 
@@ -84,7 +84,7 @@ Na het boeken van upsellingscampagnes verhoogt typisch gemiddelde ordewaarde met
 
 ### Uitvoeren
 
-Gebruik het [ multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Deze reisgidsen met meerdere stappen boekten klanten door een getimed opeenvolging van upselmogelijkheden, die de aanbiedingen aanpassen die op wat de gast reeds heeft gekocht en hun betrokkenheid met vroegere berichten worden gebaseerd.
+Gebruik het [&#x200B; multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Deze reisgidsen met meerdere stappen boekten klanten door een getimed opeenvolging van upselmogelijkheden, die de aanbiedingen aanpassen die op wat de gast reeds heeft gekocht en hun betrokkenheid met vroegere berichten worden gebaseerd.
 
 ### Technische overwegingen
 
@@ -104,7 +104,7 @@ Goed gerichte win-backcampagnes bereiken een 10-15% reactiveringspercentage onde
 
 ### Uitvoeren
 
-Gebruik het [ multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Deze meerfasentransparantie heeft de klanten een reeks progressieve berichten doen verdwijnen die evolueren van inspiratie naar stimulans op basis van de reactie van de klant.
+Gebruik het [&#x200B; multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Deze meerfasentransparantie heeft de klanten een reeks progressieve berichten doen verdwijnen die evolueren van inspiratie naar stimulans op basis van de reactie van de klant.
 
 ### Technische overwegingen
 
@@ -124,7 +124,7 @@ De gepersonaliseerde aanbevelingen van de reisroute drijven een verhoging van 20
 
 ### Uitvoeren
 
-Gebruik het ](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van 0} gekende-Bezoeker Web/App Personalization. [Met deze methode wordt de inhoud van websites voor bepaalde bezoekers gepersonaliseerd, waarbij hun profielgegevens en gedragsgeschiedenis worden gebruikt om de meest relevante reisroutes en bestemmingen aan te geven.
+Gebruik het [&#128279;](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van 0&rbrace; gekende-Bezoeker Web/App Personalization. Met deze methode wordt de inhoud van websites voor bepaalde bezoekers gepersonaliseerd, waarbij hun profielgegevens en gedragsgeschiedenis worden gebruikt om de meest relevante reisroutes en bestemmingen aan te geven.
 
 ### Technische overwegingen
 
@@ -144,7 +144,7 @@ Door recent gebrande reisproducten op de homepage te tonen, neemt de terugkering
 
 ### Uitvoeren
 
-Gebruik het ](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van 0} gekende-Bezoeker Web/App Personalization. [Deze benadering gebruikt de opgeslagen profielgegevens van de bezoeker om eerder bekeken punten op de homepage terug te geven, die tot continuïteit over het doorbladeren zittingen leiden.
+Gebruik het [&#128279;](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van 0&rbrace; gekende-Bezoeker Web/App Personalization. Deze benadering gebruikt de opgeslagen profielgegevens van de bezoeker om eerder bekeken punten op de homepage terug te geven, die tot continuïteit over het doorbladeren zittingen leiden.
 
 ### Technische overwegingen
 
@@ -164,7 +164,7 @@ De intent-modaliteiten van de uitgang met gepersonaliseerde reisaanbiedingen her
 
 ### Uitvoeren
 
-Gebruik het [ patroon van Offer Decisioning ](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Deze benadering gebruikt gecentraliseerde besluitvormingslogica om alle beschikbare aanbiedingen te evalueren en meest relevante voor de vertrekkende bezoeker te selecteren die op hun zittingsgedrag en profielgegevens wordt gebaseerd.
+Gebruik het [&#x200B; patroon van Offer Decisioning &#x200B;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Deze benadering gebruikt gecentraliseerde besluitvormingslogica om alle beschikbare aanbiedingen te evalueren en meest relevante voor de vertrekkende bezoeker te selecteren die op hun zittingsgedrag en profielgegevens wordt gebaseerd.
 
 ### Technische overwegingen
 
@@ -184,7 +184,7 @@ Op Tier-gebaseerde personalisatie zorgt voor een toename van de betrokkenheid va
 
 ### Uitvoeren
 
-Gebruik de [ Reis van het Kanaal met het Beslissen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon. Deze benadering combineert reisorchestratie met besluitvorming in real time om het juiste aanbod door het juiste kanaal voor elk loyaliteitslid te leveren, zich aan hun rij, voorkeur, en recente activiteit aan te passen.
+Gebruik de [&#x200B; Reis van het Kanaal met het Beslissen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon. Deze benadering combineert reisorchestratie met besluitvorming in real time om het juiste aanbod door het juiste kanaal voor elk loyaliteitslid te leveren, zich aan hun rij, voorkeur, en recente activiteit aan te passen.
 
 ### Technische overwegingen
 
@@ -204,7 +204,7 @@ Herinneringen voor meerkanaalse boekingen verbeteren de afsluitingspercentages m
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze benadering brengt herinneringen automatisch teweeg wanneer een onvolledige boekingsgebeurtenis wordt ontdekt, leverend geschikte berichten over de aangewezen kanalen van de klant.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Deze benadering brengt herinneringen automatisch teweeg wanneer een onvolledige boekingsgebeurtenis wordt ontdekt, leverend geschikte berichten over de aangewezen kanalen van de klant.
 
 ### Technische overwegingen
 
@@ -224,7 +224,7 @@ Seizoensgebonden gepersonaliseerde campagnes verhogen de seizoensgebonden boekin
 
 ### Uitvoeren
 
-Gebruik het [ Uitgaande patroon van de Activering van het Bericht van de Partij ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md). Deze benadering levert gepersonaliseerde seizoensgebonden campagneberichten aan grote doelgroepen op een geplande basis, die klanten door hun seizoensgebonden reispatronen en voorkeur segmenteren.
+Gebruik het [&#x200B; Uitgaande patroon van de Activering van het Bericht van de Partij &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md). Deze benadering levert gepersonaliseerde seizoensgebonden campagneberichten aan grote doelgroepen op een geplande basis, die klanten door hun seizoensgebonden reispatronen en voorkeur segmenteren.
 
 ### Technische overwegingen
 
@@ -244,7 +244,7 @@ De pro-actieve groep die aanbevelingen opneemt verhoogt gemiddelde ordewaarde me
 
 ### Uitvoeren
 
-Gebruik het [ patroon van de Aanbeveling van het Gedrag ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Deze benadering gebruikt AI-gedreven modellen die van klant het boeken patronen en gedrag leren om de meest relevante opties van de groepsreis voor elke klant aan te bevelen.
+Gebruik het [&#x200B; patroon van de Aanbeveling van het Gedrag &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Deze benadering gebruikt AI-gedreven modellen die van klant het boeken patronen en gedrag leren om de meest relevante opties van de groepsreis voor elke klant aan te bevelen.
 
 ### Technische overwegingen
 

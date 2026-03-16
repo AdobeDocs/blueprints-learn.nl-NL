@@ -34,7 +34,7 @@ Zorg voor schone, volledige en compatibele gegevens voor nauwkeurige doelgericht
 
 **KPIs:** Efficiëntie, Kostenbesparingen
 
-Voor meer informatie, zie [ de kwaliteit en het bestuur van gegevens verbeteren ](../../business-objectives/cost-efficiency/improve-data-quality-governance.md).
+Voor meer informatie, zie [&#x200B; de kwaliteit en het bestuur van gegevens verbeteren &#x200B;](../../business-objectives/cost-efficiency/improve-data-quality-governance.md).
 
 ### Consolideer en moderniseer marketingtechnologie
 
@@ -42,7 +42,7 @@ Verminder hulpmiddelfragmentatie en technische schuld door aan verenigde, scalab
 
 **KPIs:** Kostenbesparingen, Efficiëntie, Snelheid aan Markt
 
-Voor meer informatie, zie [ marketing technologie ](../../business-objectives/cost-efficiency/consolidate-modernize-marketing-technology.md) consolideren en moderniseren.
+Voor meer informatie, zie [&#x200B; marketing technologie &#x200B;](../../business-objectives/cost-efficiency/consolidate-modernize-marketing-technology.md) consolideren en moderniseren.
 
 ## Voorbeelden van tactische gebruiksgevallen
 
@@ -80,9 +80,9 @@ Deze sectie beschrijft het patroon en de functieketen die worden gebruikt om geb
 
 In dit gebruikspatroon worden de volgende toepassingen gebruikt.
 
-- **[!DNL Adobe Experience Platform](Edge Network)** — Ontvangt en leidt gebeurtenisgegevens in real time van Web SDK, Mobiele SDK, of Server API door gevormde gegevensstromen
-- **[!DNL Adobe Experience Platform](Gebeurtenis door:sturen)** — Verstrekt de server-zijregelmotor voor evaluatie, het filtreren, het transformeren, en het door:sturen van gebeurtenisgegevens aan externe bestemmingen
-- **[!DNL Adobe Experience Platform](Codes/de Inzameling van Gegevens)** — Beheert de gebeurtenis die bezitslevenscyclus, uitbreidingen, regels, en het publiceren werkschema door:sturen
+- **[!DNL Adobe Experience Platform] (Edge Network)** — Ontvangt en leidt gebeurtenisgegevens in real time van Web SDK, Mobiele SDK, of Server API door gevormde gegevensstromen
+- **[!DNL Adobe Experience Platform] (Gebeurtenis door:sturen)** — Verstrekt de server-zijregelmotor voor evaluatie, het filtreren, het transformeren, en het door:sturen van gebeurtenisgegevens aan externe bestemmingen
+- **[!DNL Adobe Experience Platform] (Codes/de Inzameling van Gegevens)** — Beheert de gebeurtenis die bezitslevenscyclus, uitbreidingen, regels, en het publiceren werkschema door:sturen
 
 ## Foundbootfuncties
 
@@ -90,9 +90,9 @@ Voor dit gebruikspatroon moeten de volgende basisfuncties aanwezig zijn. Voor el
 
 | Foundary Function | Status | Wat moet er gebeuren? | Experience League Reference |
 | --- | --- | --- | --- |
-| Beheer en bestuur | Vereist | Een zandbak moet actief zijn met aangewezen gevormde gebruikersrollen en toestemmingen. Gebruikers die gebeurtenissen doorsturen, hebben in [!DNL Adobe Admin Console] machtigingen voor gegevensverzameling nodig, waaronder rechten voor het beheren van eigenschappen, extensies en regels voor het doorsturen van gebeurtenissen. | [ overzicht van het Toegangsbeheer ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Gegevensmodellering en -voorbereiding | Vereist | XDM-schema&#39;s moeten worden gedefinieerd voor de gebeurtenisgegevens die door de Edge Network stromen. De gegevensstroom moet een geldig schema van XDM ExperienceEvent van verwijzingen voorzien zodat de gebeurtenis die regels door:sturen tot gestructureerde gebieden voor het filtreren, transformatie, en afbeelding kan toegang hebben. | [ XDM overzicht van het Systeem ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
-| Gegevensbronnen en -verzameling | Vereist | Een mechanisme voor gegevensverzameling moet actief zijn — Web SDK, Mobile SDK of Edge Network Server API — gebeurtenissen verzenden via een geconfigureerde gegevensstroom. De gegevensstroom is de fundamentele verpletterende laag die cliënt-zijinzameling met server-zijgebeurtenis verbindt door:sturen. | [ vorm gegevensstromen ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
+| Beheer en bestuur | Vereist | Een zandbak moet actief zijn met aangewezen gevormde gebruikersrollen en toestemmingen. Gebruikers die gebeurtenissen doorsturen, hebben in [!DNL Adobe Admin Console] machtigingen voor gegevensverzameling nodig, waaronder rechten voor het beheren van eigenschappen, extensies en regels voor het doorsturen van gebeurtenissen. | [&#x200B; overzicht van het Toegangsbeheer &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| Gegevensmodellering en -voorbereiding | Vereist | XDM-schema&#39;s moeten worden gedefinieerd voor de gebeurtenisgegevens die door de Edge Network stromen. De gegevensstroom moet een geldig schema van XDM ExperienceEvent van verwijzingen voorzien zodat de gebeurtenis die regels door:sturen tot gestructureerde gebieden voor het filtreren, transformatie, en afbeelding kan toegang hebben. | [&#x200B; XDM overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
+| Gegevensbronnen en -verzameling | Vereist | Een mechanisme voor gegevensverzameling moet actief zijn — Web SDK, Mobile SDK of Edge Network Server API — gebeurtenissen verzenden via een geconfigureerde gegevensstroom. De gegevensstroom is de fundamentele verpletterende laag die cliënt-zijinzameling met server-zijgebeurtenis verbindt door:sturen. | [&#x200B; vorm gegevensstromen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
 | Identiteit en profielconfiguratie | Niet van toepassing | Het door:sturen van gebeurtenissen werkt op ruwe gebeurtenisgegevens bij de laag van Edge Network, alvorens identiteitsresolutie of profieleenwording voorkomt. Identiteitsnaamruimten en samenvoegbeleid worden niet vereist tenzij de door:sturen gebeurtenissen ook aan het Profiel van de Klant in real time moeten bijdragen (dat een afzonderlijke configuratie van de datastream dienst, niet een gebeurtenis is die zorg door:sturen). | |
 | Auditiedefinitie en segmentatie | Niet van toepassing | Het door:sturen van de gebeurtenis verwerkt individuele gebeurtenissen in echt - tijd en evalueert publiek geen lidmaatschap. Het op publiek-gebaseerde filtreren is geen deel van de gebeurtenis die functieketen door:sturen. Als activering op basis van het publiek nodig is, raadpleegt u het referentieplan Audience Activation naar bestemmingen. | |
 
@@ -103,10 +103,10 @@ De volgende mogelijkheden vergroten dit gebruikspatroon, maar zijn niet vereist 
 | Ondersteunende functie | Status | Waarom het belangrijk is | Experience League Reference |
 | --- | --- | --- | --- |
 | Berekend / Afgeleid kenmerk maken | Niet van toepassing | Het door:sturen van gebeurtenissen werkt op ruwe gebeurtenisgegevens, niet profiel-niveau gegevens verwerkt attributen. De gegevens verwerkte attributen zijn niet beschikbaar in de gebeurtenis die context door:sturen. | |
-| Levenscyclusbeheer van gegevens | Aanbevolen | Als gebeurtenisgegevens ook in de datasets van AEP (via zelfde gegevensstroom) worden opgenomen, zou het beleid van het gegevensbehoud (afloop) voor die datasets moeten worden gevormd om opslagkosten en regelgevende naleving te beheren. Het door:sturen van de gebeurtenis zelf slaat geen gegevens op, maar de parallelle weg van de AEP van de opname. | [ het Geavanceerde overzicht van het Beheer van de Levenscyclus van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| Etikettering en handhaving van gegevensgebruik | Aanbevolen | Terwijl de gebeurtenis die regels door:sturen gebied-vlakke het filtreren verstrekt (die u toestaan om gevoelige gegevens van door:sturen nuttige ladingen uit te sluiten), zorgt het toepassen van de etiketten van het gegevensgebruik op de onderliggende schema&#39;s en datasets ervoor het beleid wordt afgedwongen als het zelfde gegeven voor publieksactivering of verpersoonlijking wordt gebruikt. | [ Overzicht van het beheer van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| Bewaking en waarneming | Opgenomen | Monitoring is essentieel voor het doorsturen van gebeurtenissen. Het Dashboard van de Controle van de Gebeurtenis Door:sturen verstrekt zicht in het door:sturen van succespercentages, foutenpercentages, en de codes van de bestemmingsreactie. Het alarm zou voor bestemmingsmislukkingen moeten worden gevormd. | [ Gebeurtenis door:sturen controle ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring) |
-| Rapportage en analyse | Aanbevolen | Als door:sturen gebeurtenissen een platform van de derdeanalyse van de derdeanalyse voorzien, denk na verbindend de zelfde de gebeurtenisdatasets van AEP met CJA voor een verenigde dwars-kanaalmening. Dit maakt een vergelijking mogelijk tussen Adobe-side en derdeanalyse. | [ overzicht van CJA ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Levenscyclusbeheer van gegevens | Aanbevolen | Als gebeurtenisgegevens ook in de datasets van AEP (via zelfde gegevensstroom) worden opgenomen, zou het beleid van het gegevensbehoud (afloop) voor die datasets moeten worden gevormd om opslagkosten en regelgevende naleving te beheren. Het door:sturen van de gebeurtenis zelf slaat geen gegevens op, maar de parallelle weg van de AEP van de opname. | [&#x200B; het Geavanceerde overzicht van het Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| Etikettering en handhaving van gegevensgebruik | Aanbevolen | Terwijl de gebeurtenis die regels door:sturen gebied-vlakke het filtreren verstrekt (die u toestaan om gevoelige gegevens van door:sturen nuttige ladingen uit te sluiten), zorgt het toepassen van de etiketten van het gegevensgebruik op de onderliggende schema&#39;s en datasets ervoor het beleid wordt afgedwongen als het zelfde gegeven voor publieksactivering of verpersoonlijking wordt gebruikt. | [&#x200B; Overzicht van het beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
+| Bewaking en waarneming | Opgenomen | Monitoring is essentieel voor het doorsturen van gebeurtenissen. Het Dashboard van de Controle van de Gebeurtenis Door:sturen verstrekt zicht in het door:sturen van succespercentages, foutenpercentages, en de codes van de bestemmingsreactie. Het alarm zou voor bestemmingsmislukkingen moeten worden gevormd. | [&#x200B; Gebeurtenis door:sturen controle &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring) |
+| Rapportage en analyse | Aanbevolen | Als door:sturen gebeurtenissen een platform van de derdeanalyse van de derdeanalyse voorzien, denk na verbindend de zelfde de gebeurtenisdatasets van AEP met CJA voor een verenigde dwars-kanaalmening. Dit maakt een vergelijking mogelijk tussen Adobe-side en derdeanalyse. | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Toepassingsfuncties
 
@@ -153,7 +153,7 @@ De verhouding is dat de uitbreidingsbeschikbaarheid bepaalt welke bestemmingen w
 
 **Zeer belangrijke overwegingen:**
 
-- De beschikbaarheid van de uitbreiding varieert — controleer de [ catalogus van de uitbreidingen van de Inzameling van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview) alvorens te plannen
+- De beschikbaarheid van de uitbreiding varieert — controleer de [&#x200B; catalogus van de uitbreidingen van de Inzameling van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview) alvorens te plannen
 - De uitbreidingen worden gehandhaafd door Adobe of partners; de updates kunnen breekveranderingen introduceren die regelaanpassingen vereisen
 - Sommige extensies ondersteunen alleen bepaalde gebeurtenistypen of vereisen specifieke XDM-veldtoewijzingen
 - Extensies verwerken verificatie en credentiebeheer binnen hun configuratie-interface
@@ -532,7 +532,7 @@ Deze sectie heeft betrekking op begeleiding, gemeenschappelijke valkuilen, beste
 ### Guardrails en limieten
 
 - Gebeurtenis door:sturen verwerkt gebeurtenissen in echt - tijd bij Edge Network - er is geen partijwijze of herprobeer rij voor ontbroken leveringen door gebrek
-- De tariefgrenzen van Edge Network zijn op het totale gebeurtenisvolume van toepassing dat per datastream wordt verwerkt — [ de guardrails van Edge Network ](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/guardrails)
+- De tariefgrenzen van Edge Network zijn op het totale gebeurtenisvolume van toepassing dat per datastream wordt verwerkt — [&#x200B; de guardrails van Edge Network &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/guardrails)
 - Gebeurtenis die regels door:sturen voert server-kant uit en heeft geen toegang tot cliënt-zijmiddelen (DOM, koekjes, localStorage)
 - Aangepaste code in regels voor het doorsturen van gebeurtenissen wordt uitgevoerd in een sandbox-omgeving. Niet alle JavaScript API&#39;s van de browser zijn beschikbaar
 - De de ophaalvraag van de Verbinding van de Wolk heeft onderbrekingsgrenzen — de bestemmingen die langzaam antwoorden kunnen onderbrekingen veroorzaken

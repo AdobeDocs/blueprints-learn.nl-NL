@@ -16,7 +16,7 @@ Bedrijfs-aan-zaken organisaties gebruiken Adobe Experience Platform om rekening 
 
 >[!NOTE]
 >
->Voor B2B-Specifieke architectuurblauwdrukken met inbegrip van op rekening-gebaseerde activering en het kopen groepsbeheer, zie [ B2B activering &amp; marketing blauwdrukken ](/help/blueprints/b2b/overview.md).
+>Voor B2B-Specifieke architectuurblauwdrukken met inbegrip van op rekening-gebaseerde activering en het kopen groepsbeheer, zie [&#x200B; B2B activering &amp; marketing blauwdrukken &#x200B;](/help/blueprints/b2b/overview.md).
 
 ## Account-Based Marketing Personalization
 
@@ -28,7 +28,7 @@ Organisaties die op rekening-gebaseerde marketing verpersoonlijking uitvoeren zi
 
 ### Uitvoeren
 
-Gebruik het [ B2B Audience Activation ](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) patroon om account-vlakke publiek te bouwen en gepersonaliseerde inhoud over kanalen te activeren. Dit patroon is speciaal ontwikkeld voor strategieën op basis van account en ondersteunt zowel het richten op account- als op persoonniveau.
+Gebruik het [&#x200B; B2B Audience Activation &#x200B;](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) patroon om account-vlakke publiek te bouwen en gepersonaliseerde inhoud over kanalen te activeren. Dit patroon is speciaal ontwikkeld voor strategieën op basis van account en ondersteunt zowel het richten op account- als op persoonniveau.
 
 ### Technische overwegingen
 
@@ -48,7 +48,7 @@ Bedrijven die gedragslead scoring en geautomatiseerde verplegend werken, realise
 
 ### Uitvoeren
 
-Gebruik het [ Multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) aan ontwerp vertakkende borrelritten die aan de veranderingen van de loodscore en gedragtrekkers antwoorden. Dit patroon steunt de voorwaardelijke logica nodig om verbindingen tussen de sporen van de boomkwekerij en de werkschema&#39;s van de verkoopoverdracht te leiden.
+Gebruik het [&#x200B; Multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) aan ontwerp vertakkende borrelritten die aan de veranderingen van de loodscore en gedragtrekkers antwoorden. Dit patroon steunt de voorwaardelijke logica nodig om verbindingen tussen de sporen van de boomkwekerij en de werkschema&#39;s van de verkoopoverdracht te leiden.
 
 ### Technische overwegingen
 
@@ -68,7 +68,7 @@ B2B-organisaties die webervaringen personaliseren voor bekende vooruitzichten zi
 
 ### Uitvoeren
 
-Gebruik het ](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van het Web/App Personalization van 0} Known-Bezoeker {om op maat gemaakte inhoudservaringen te leveren die op verenigde perspectiefprofielen worden gebaseerd. [Dit patroon gebruikt profielgegevens in real time om de meest relevante middelen, casestudy&#39;s, en vraag aan actie voor elke bezoeker te dienen.
+Gebruik het [&#128279;](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van het Web/App Personalization van 0&rbrace; Known-Bezoeker &lbrace;om op maat gemaakte inhoudservaringen te leveren die op verenigde perspectiefprofielen worden gebaseerd. Dit patroon gebruikt profielgegevens in real time om de meest relevante middelen, casestudy&#39;s, en vraag aan actie voor elke bezoeker te dienen.
 
 ### Technische overwegingen
 
@@ -88,7 +88,7 @@ De geautomatiseerde, gepersonaliseerde werkschema&#39;s van de gebeurtenismedede
 
 ### Uitvoeren
 
-Gebruik het [ Multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) om de volledige levenscyclus van de gebeurtenis van registratie door postevent te ordenen cultuur. Dit patroon ondersteunt op tijd gebaseerde triggers, voorwaardelijke vertakking op gebeurtenistype en meerkanaalse opvolgreeksen.
+Gebruik het [&#x200B; Multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) om de volledige levenscyclus van de gebeurtenis van registratie door postevent te ordenen cultuur. Dit patroon ondersteunt op tijd gebaseerde triggers, voorwaardelijke vertakking op gebeurtenistype en meerkanaalse opvolgreeksen.
 
 ### Technische overwegingen
 
@@ -108,7 +108,7 @@ Organisaties die persoonlijke conversiecampagnes implementeren zien doorgaans ee
 
 ### Uitvoeren
 
-Gebruik het [ Multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) om op tijd-gebaseerde en op gedrag-gebaseerde omzettingsritten voor proefgebruikers te bouwen. Dit patroon ondersteunt voorwaardelijke paden die zijn gebaseerd op de mijlpalen van het productgebruik, waardoor doelgerichte verschuivingen op de juiste momenten mogelijk zijn.
+Gebruik het [&#x200B; Multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) om op tijd-gebaseerde en op gedrag-gebaseerde omzettingsritten voor proefgebruikers te bouwen. Dit patroon ondersteunt voorwaardelijke paden die zijn gebaseerd op de mijlpalen van het productgebruik, waardoor doelgerichte verschuivingen op de juiste momenten mogelijk zijn.
 
 ### Technische overwegingen
 
@@ -128,7 +128,7 @@ Organisaties met gepersonaliseerde instapprogramma&#39;s realiseren zich doorgaa
 
 ### Uitvoeren
 
-Gebruik het [ Multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) aan orchestrate onboarding opeenvolgingen die aan product, planrij, en klantensegment worden aangepast. Dit patroon ondersteunt op mijlpaal gebaseerde progressie, zodat klanten in elke fase van hun instapsysteem de juiste richtlijnen krijgen.
+Gebruik het [&#x200B; Multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) aan orchestrate onboarding opeenvolgingen die aan product, planrij, en klantensegment worden aangepast. Dit patroon ondersteunt op mijlpaal gebaseerde progressie, zodat klanten in elke fase van hun instapsysteem de juiste richtlijnen krijgen.
 
 ### Technische overwegingen
 
@@ -148,7 +148,7 @@ De bedrijven die pro-actieve, gepersonaliseerde vernieuwingscampagnes uitvoeren 
 
 ### Uitvoeren
 
-Gebruik de [ Reis van het Kanaal met het Beslissen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om de juiste vernieuwingsaanbieding door het juiste kanaal in de juiste tijd te leveren. Dit patroon combineert reisorchestratie met het geven van beslissingen, waardoor dynamische vernieuwingsstimulansen mogelijk worden op basis van de waarde en het gebruik van de rekening.
+Gebruik de [&#x200B; Reis van het Kanaal met het Beslissen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om de juiste vernieuwingsaanbieding door het juiste kanaal in de juiste tijd te leveren. Dit patroon combineert reisorchestratie met het geven van beslissingen, waardoor dynamische vernieuwingsstimulansen mogelijk worden op basis van de waarde en het gebruik van de rekening.
 
 ### Technische overwegingen
 
@@ -168,7 +168,7 @@ Organisaties die systematisch uitbreidingssignalen identificeren en op zich neme
 
 ### Uitvoeren
 
-Gebruik de [ Reis van het Kanaal met Beslissing ](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om gepersonaliseerde upsell en uitbreidingsaanbiedingen te leveren die op gebruik in real time en rekeningssignalen worden gebaseerd. Dit patroon gebruikt besluiten om elke rekening met het meest relevante uitbreidingsaanbod over kanalen aan te passen.
+Gebruik de [&#x200B; Reis van het Kanaal met Beslissing &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon om gepersonaliseerde upsell en uitbreidingsaanbiedingen te leveren die op gebruik in real time en rekeningssignalen worden gebaseerd. Dit patroon gebruikt besluiten om elke rekening met het meest relevante uitbreidingsaanbod over kanalen aan te passen.
 
 ### Technische overwegingen
 
@@ -188,7 +188,7 @@ B2B-organisaties die gerichte concurrentiële vervangingscampagnes voeren, behal
 
 ### Uitvoeren
 
-Gebruik het [ Multi-Step Orchestrated Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) patroon om multi-aanraak concurrerende campagnes te ordenen die aan de specifieke concurrent en het vooruitgangsprofiel worden aangepast. Dit patroon steunt voorwaardelijke vertakking die op geïdentificeerde concurrent wordt gebaseerd, toelatend overseinen die de unieke pijnpunten van elk concurrerend scenario richten.
+Gebruik het [&#x200B; Multi-Step Orchestrated Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) patroon om multi-aanraak concurrerende campagnes te ordenen die aan de specifieke concurrent en het vooruitgangsprofiel worden aangepast. Dit patroon steunt voorwaardelijke vertakking die op geïdentificeerde concurrent wordt gebaseerd, toelatend overseinen die de unieke pijnpunten van elk concurrerend scenario richten.
 
 ### Technische overwegingen
 
@@ -208,7 +208,7 @@ Gepersonaliseerde webinar- en demo-uitnodigingsprogramma&#39;s zorgen doorgaans 
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) om gepersonaliseerde uitnodigingen te verzenden wanneer de vooruitzichten rentesignalen tonen die met volgende webinar of demo onderwerpen worden gericht. Dit patroon reageert in real time op gedragtriggers en zorgt ervoor dat uitnodigingen aankomen wanneer de interesse het hoogst is.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) om gepersonaliseerde uitnodigingen te verzenden wanneer de vooruitzichten rentesignalen tonen die met volgende webinar of demo onderwerpen worden gericht. Dit patroon reageert in real time op gedragtriggers en zorgt ervoor dat uitnodigingen aankomen wanneer de interesse het hoogst is.
 
 ### Technische overwegingen
 
@@ -228,7 +228,7 @@ Organisaties die inhoud op basis van proefpunten personaliseren, zien doorgaans 
 
 ### Uitvoeren
 
-Gebruik het ](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van het Web/App Personalization van 0} Known-Bezoeker {om de meest relevante casestudies en het bewijs van ROI dynamisch te oversteken dat op het profiel van elk vooruitzicht wordt gebaseerd. [Dit patroon past bezoekerskenmerken aan een inhoudsbibliotheek aan, zodat elk vooruitzicht proefpunten van hun industrie en peer groep ziet.
+Gebruik het [&#128279;](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) patroon van het Web/App Personalization van 0&rbrace; Known-Bezoeker &lbrace;om de meest relevante casestudies en het bewijs van ROI dynamisch te oversteken dat op het profiel van elk vooruitzicht wordt gebaseerd. Dit patroon past bezoekerskenmerken aan een inhoudsbibliotheek aan, zodat elk vooruitzicht proefpunten van hun industrie en peer groep ziet.
 
 ### Technische overwegingen
 
@@ -248,7 +248,7 @@ Gestructureerde programma&#39;s voor klantbehartiging leiden doorgaans tot een t
 
 ### Uitvoeren
 
-Gebruik het [ Multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) om vooraanstaande identificatie en betrokkenheidswerkschema&#39;s te bouwen die aan tevredenheid en gebruikssignalen antwoorden. Dit patroon ondersteunt progressieve pleitbezorging, te beginnen met een lichte deelname (bijvoorbeeld een herziening) en het doorvoeren naar diepere toezeggingen (bijvoorbeeld een referentie- of casestudy).
+Gebruik het [&#x200B; Multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) om vooraanstaande identificatie en betrokkenheidswerkschema&#39;s te bouwen die aan tevredenheid en gebruikssignalen antwoorden. Dit patroon ondersteunt progressieve pleitbezorging, te beginnen met een lichte deelname (bijvoorbeeld een herziening) en het doorvoeren naar diepere toezeggingen (bijvoorbeeld een referentie- of casestudy).
 
 ### Technische overwegingen
 

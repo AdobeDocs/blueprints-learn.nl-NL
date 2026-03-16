@@ -29,4 +29,4 @@ De volgende gebruiks gevalpatronen steunen dit bedrijfsdoel.
 
 | Patroon | Categorie | Hoe zij deze doelstelling ondersteunt |
 | --- | --- | --- |
-| [ Analytics van de Klant &amp; Generation van Insight ](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | Analyse | Bouwt de werkruimten van de attributieanalyse met dwars-kanaalaanraakpuntgegevens voor het meten van campagneeffect |
+| [&#x200B; Analytics van de Klant &amp; Generation van Insight &#x200B;](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | Analyse | Bouwt de werkruimten van de attributieanalyse met dwars-kanaalaanraakpuntgegevens voor het meten van campagneeffect |

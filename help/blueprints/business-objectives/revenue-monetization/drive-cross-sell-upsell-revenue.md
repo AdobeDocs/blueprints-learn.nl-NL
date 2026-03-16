@@ -30,7 +30,7 @@ De volgende gebruiks gevalpatronen steunen dit bedrijfsdoel.
 
 | Patroon | Categorie | Hoe zij deze doelstelling ondersteunt |
 | --- | --- | --- |
-| [ Offer Decisioning ](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) | Personalisatie | Selecteert de op één na beste aanbieding over kanalen gebaseerd op klantenprofiel en verkiesbaarheid om upsell en cross-sell te drijven |
-| [ Reis van het Kanaal met Beslissing ](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | Campagne management &amp; Orchestration | Orchestrates multistep reizen met realtime beslissingen om optimale cross-sell- en upsell-aanbiedingen te presenteren |
-| [ Aanbeveling van het Gedrag ](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) | Personalisatie | Genereert door AI aangestuurde productaanbevelingen op basis van aankoop- en browsergedrag |
-| [ gekend-Bezoeker Web/App Personalization ](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | Personalisatie | Biedt gepersonaliseerde productaanbevelingen en promoties aan geautoriseerde bezoekers |
+| [&#x200B; Offer Decisioning &#x200B;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) | Personalisatie | Selecteert de op één na beste aanbieding over kanalen gebaseerd op klantenprofiel en verkiesbaarheid om upsell en cross-sell te drijven |
+| [&#x200B; Reis van het Kanaal met Beslissing &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) | Campagne management &amp; Orchestration | Orchestrates multistep reizen met realtime beslissingen om optimale cross-sell- en upsell-aanbiedingen te presenteren |
+| [&#x200B; Aanbeveling van het Gedrag &#x200B;](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) | Personalisatie | Genereert door AI aangestuurde productaanbevelingen op basis van aankoop- en browsergedrag |
+| [&#x200B; gekend-Bezoeker Web/App Personalization &#x200B;](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) | Personalisatie | Biedt gepersonaliseerde productaanbevelingen en promoties aan geautoriseerde bezoekers |

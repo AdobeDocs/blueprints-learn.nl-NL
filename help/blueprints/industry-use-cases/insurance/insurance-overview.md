@@ -24,7 +24,7 @@ Organisaties die gepersonaliseerde campagnes van de beleidsvernieuwing uitvoeren
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Datums voor verlenging van het beleid zijn natuurlijke gebeurtenistriggers die tijdig en op maat gesneden benaderingen op gang brengen op het moment dat de verzekeringnemers hun besluit tot verlenging nemen.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Datums voor verlenging van het beleid zijn natuurlijke gebeurtenistriggers die tijdig en op maat gesneden benaderingen op gang brengen op het moment dat de verzekeringnemers hun besluit tot verlenging nemen.
 
 ### Technische overwegingen
 
@@ -44,7 +44,7 @@ De gepersonaliseerde dwars-verkoopaanbevelingen drijven typisch een verbetering 
 
 ### Uitvoeren
 
-Gebruik het [ patroon van Offer Decisioning ](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Beslissing in real time evalueert de bestaande dekking, het levensstadium, en gedragssignalen van elke klant om de meest relevante productaanbeveling van de beschikbare catalogus te selecteren.
+Gebruik het [&#x200B; patroon van Offer Decisioning &#x200B;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Beslissing in real time evalueert de bestaande dekking, het levensstadium, en gedragssignalen van elke klant om de meest relevante productaanbeveling van de beschikbare catalogus te selecteren.
 
 ### Technische overwegingen
 
@@ -64,7 +64,7 @@ De gepersonaliseerde claims mededelingen bereiken typisch een verbetering van 40
 
 ### Uitvoeren
 
-Gebruik het [ multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Het claimproces is een meerfasenervaring met verschillende fasen — indiening, onderzoek, aanpassing en afwikkeling — die elk op maat gesneden communicatie en een aangepaste timing vereisen.
+Gebruik het [&#x200B; multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Het claimproces is een meerfasenervaring met verschillende fasen — indiening, onderzoek, aanpassing en afwikkeling — die elk op maat gesneden communicatie en een aangepaste timing vereisen.
 
 ### Technische overwegingen
 
@@ -84,7 +84,7 @@ De persoonlijke preventie van risico&#39;s drijft typisch een verbetering van 30
 
 ### Uitvoeren
 
-Gebruik het [ multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Onderwijs over risicopreventie is het meest effectief als een duurzame multitouch-reis die in de loop der tijd relevante begeleiding biedt en zich aanpast op basis van de betrokkenheid van klanten en seizoensgebonden risicofactoren.
+Gebruik het [&#x200B; multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Onderwijs over risicopreventie is het meest effectief als een duurzame multitouch-reis die in de loop der tijd relevante begeleiding biedt en zich aanpast op basis van de betrokkenheid van klanten en seizoensgebonden risicofactoren.
 
 ### Technische overwegingen
 
@@ -104,7 +104,7 @@ De gepersonaliseerde berichten van de beleidsverandering bereiken typisch een ve
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Beleidswijzigingsgebeurtenissen van het beheersysteem dienen als natuurlijke triggers voor directe, relevante meldingen via het voorkeurskanaal van elke klant.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Beleidswijzigingsgebeurtenissen van het beheersysteem dienen als natuurlijke triggers voor directe, relevante meldingen via het voorkeurskanaal van elke klant.
 
 ### Technische overwegingen
 
@@ -124,7 +124,7 @@ De het terugwinningscampagnes van de citaten van het verlaten van de terugwinnin
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Het verlaten van het citaat is een gedragsgebeurtenis die geschikte follow-up teweegbrengt terwijl de interesse en de intentie van het vooruitzicht nog vers zijn.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Het verlaten van het citaat is een gedragsgebeurtenis die geschikte follow-up teweegbrengt terwijl de interesse en de intentie van het vooruitzicht nog vers zijn.
 
 ### Technische overwegingen
 
@@ -144,7 +144,7 @@ Levensstadium-gebaseerde productaanbiedingen bereiken typisch een verbetering va
 
 ### Uitvoeren
 
-Gebruik de [ Reis van het Kanaal met het Beslissen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon. Levensfase-overgangen profiteren van kanaaloverschrijdende orchestratie in combinatie met real-time beslissingen om het meest relevante product te selecteren en het op het optimale moment via het voorkeurskanaal van de klant te leveren.
+Gebruik de [&#x200B; Reis van het Kanaal met het Beslissen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) patroon. Levensfase-overgangen profiteren van kanaaloverschrijdende orchestratie in combinatie met real-time beslissingen om het meest relevante product te selecteren en het op het optimale moment via het voorkeurskanaal van de klant te leveren.
 
 ### Technische overwegingen
 
@@ -164,7 +164,7 @@ De gepersonaliseerde kortingen en spaarmededelingen drijven typisch een verbeter
 
 ### Uitvoeren
 
-Gebruik het [ patroon van Offer Decisioning ](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Beslissing in real time evalueert de geschiktheid van elke klant voor beschikbare kortingen en selecteert de meest impactful besparingskans om op het juiste ogenblik te presenteren.
+Gebruik het [&#x200B; patroon van Offer Decisioning &#x200B;](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Beslissing in real time evalueert de geschiktheid van elke klant voor beschikbare kortingen en selecteert de meest impactful besparingskans om op het juiste ogenblik te presenteren.
 
 ### Technische overwegingen
 
@@ -184,7 +184,7 @@ Met programma&#39;s ter voorkoming van fraude met intelligente claims wordt door
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Frauderisicoscoring leidt tot passende onderzoeksmededelingen en procesaanpassingen in real time, zodat gemarkeerde claims onmiddellijk aandacht krijgen.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Frauderisicoscoring leidt tot passende onderzoeksmededelingen en procesaanpassingen in real time, zodat gemarkeerde claims onmiddellijk aandacht krijgen.
 
 ### Technische overwegingen
 
@@ -204,7 +204,7 @@ Gepersonaliseerde communicatie in het kader van programma&#39;s voor welzijn en 
 
 ### Uitvoeren
 
-Gebruik het [ multi-Step Orchestrated patroon van de Reis ](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Wellness-programma&#39;s zijn aanhoudende ervaringen met betrokkenheid met mijlpalen, uitdagingen en beloningen die een adaptieve orchestratie vereisen op basis van de activiteit en de voortgang van elke deelnemer.
+Gebruik het [&#x200B; multi-Step Orchestrated patroon van de Reis &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Wellness-programma&#39;s zijn aanhoudende ervaringen met betrokkenheid met mijlpalen, uitdagingen en beloningen die een adaptieve orchestratie vereisen op basis van de activiteit en de voortgang van elke deelnemer.
 
 ### Technische overwegingen
 
@@ -224,7 +224,7 @@ De efficiënte agent en de coördinatie van de makelaar mededelingen resulteren 
 
 ### Uitvoeren
 
-Gebruik het [ Uitgaande patroon van de Activering van het Bericht van de Partij ](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md). De coördinatie van de agent wordt het best geleverd door geplande partijactiviteiten die agenten van prioriteerde lijsten van de klantenoutreach, besprekingspunten, en geadviseerde acties op een regelmatige kring voorzien.
+Gebruik het [&#x200B; Uitgaande patroon van de Activering van het Bericht van de Partij &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md). De coördinatie van de agent wordt het best geleverd door geplande partijactiviteiten die agenten van prioriteerde lijsten van de klantenoutreach, besprekingspunten, en geadviseerde acties op een regelmatige kring voorzien.
 
 ### Technische overwegingen
 
@@ -244,7 +244,7 @@ De pro-actieve mededelingen van de rampreactie van de gebeurtenis bereiken typis
 
 ### Uitvoeren
 
-Gebruik het [ gebeurtenis-teweeggebrachte patroon van het Overseinen ](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Declaraties van rampzalige gebeurtenissen dienen als triggers met hoge prioriteit voor onmiddellijke, persoonlijke aandacht voor alle verzekeringnemers in het betrokken geografische gebied.
+Gebruik het [&#x200B; gebeurtenis-teweeggebrachte patroon van het Overseinen &#x200B;](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Declaraties van rampzalige gebeurtenissen dienen als triggers met hoge prioriteit voor onmiddellijke, persoonlijke aandacht voor alle verzekeringnemers in het betrokken geografische gebied.
 
 ### Technische overwegingen
 
