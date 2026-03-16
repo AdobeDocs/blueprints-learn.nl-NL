@@ -20,7 +20,7 @@ Modelleerde inzichten kunnen in [!DNL Experience Platform] worden opgenomen om h
 ## Gebruiksscenario&#39;s
 
 * Pak insight uit en ontdek patronen uit klantgegevens, trein- en scoremodellen van deze gegevens.
-* Verrijk het [!UICONTROL  Real-time Profiel van de Klant ] met model gedreven inzichten en attributen voor meer korrelige verpersoonlijking en geoptimaliseerde reizen.
+* Verrijk het [!UICONTROL &#x200B; Real-time Profiel van de Klant &#x200B;] met model gedreven inzichten en attributen voor meer korrelige verpersoonlijking en geoptimaliseerde reizen.
 * Train- en Score-modellen om de inzichten van klanten te bepalen, zoals de levenslange waarde van de klant, de neiging om te converteren of te klonen, de affiniteit van producten en inhoud, en servicescore.
 
 ## Architectuur
@@ -29,17 +29,17 @@ Modelleerde inzichten kunnen in [!DNL Experience Platform] worden opgenomen om h
 
 ## Beveiligingsmechanismen
 
-* Voor gedetailleerde gidsen en eind om latentie te beëindigen bij het opnemen van de resultaten van de gegevenswetenschap in [!DNL Experience Platform] en het Profiel van de Klant In real time verwijst het Profiel van de Klant naar de gidsen van de gegevensopname en het latentieschema dat in het [ document van de plaatsingsgidsen ](../experience-platform/guardrails.md) van verwijzingen wordt voorzien.
+* Voor gedetailleerde gidsen en eind om latentie te beëindigen bij het opnemen van de resultaten van de gegevenswetenschap in [!DNL Experience Platform] en het Profiel van de Klant In real time verwijst het Profiel van de Klant naar de gidsen van de gegevensopname en het latentieschema dat in het [&#x200B; document van de plaatsingsgidsen &#x200B;](../experience-platform/guardrails.md) van verwijzingen wordt voorzien.
 
 ## Implementatieoverwegingen
 
 * In de meeste gevallen moet het modelresultaat worden opgenomen als profielkenmerken en hoeven er geen gebeurtenissen te worden ervaren. De modelresultaten kunnen eenvoudige kenmerktekenreeksen zijn. Als er meerdere modelresultaten zijn die moeten worden opgenomen, is het raadzaam een array- of kaarttekstveld te gebruiken.
-* De gegevensset met momentopnamen voor dagelijkse profielen, die een dagelijkse export is van de gegevens van de verenigde profielkenmerken, kan worden gebruikt om modellen voor profielkenmerkgegevens op te leiden. De document van de momentopnamesdataset van het profiel kan [ hier ](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html#profile-attribute-datasets) worden betreden.
+* De gegevensset met momentopnamen voor dagelijkse profielen, die een dagelijkse export is van de gegevens van de verenigde profielkenmerken, kan worden gebruikt om modellen voor profielkenmerkgegevens op te leiden. De document van de momentopnamesdataset van het profiel kan [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html#profile-attribute-datasets) worden betreden.
 
 ## Gerelateerde documentatie
 
 * [Adobe  [!DNL Experience Platform]  het productbeschrijving van de Intelligentie](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence—product-description.html)
-* [De Dienst van de Vraag van Adobe  [!DNL Experience Platform] ](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)
+* [De Dienst van de Vraag van Adobe  [!DNL Experience Platform] &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)
 
 ## Gerelateerde blogberichten
 
