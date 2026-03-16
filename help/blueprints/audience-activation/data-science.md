@@ -34,12 +34,12 @@ Modelleerde inzichten kunnen in [!DNL Experience Platform] worden opgenomen om h
 ## Implementatieoverwegingen
 
 * In de meeste gevallen moet het modelresultaat worden opgenomen als profielkenmerken en hoeven er geen gebeurtenissen te worden ervaren. De modelresultaten kunnen eenvoudige kenmerktekenreeksen zijn. Als er meerdere modelresultaten zijn die moeten worden opgenomen, is het raadzaam een array- of kaarttekstveld te gebruiken.
-* De gegevensset met momentopnamen voor dagelijkse profielen, die een dagelijkse export is van de gegevens van de verenigde profielkenmerken, kan worden gebruikt om modellen voor profielkenmerkgegevens op te leiden. De document van de momentopnamesdataset van het profiel kan [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html#profile-attribute-datasets) worden betreden.
+* De gegevensset met momentopnamen voor dagelijkse profielen, die een dagelijkse export is van de gegevens van de verenigde profielkenmerken, kan worden gebruikt om modellen voor profielkenmerkgegevens op te leiden. De document van de momentopnamesdataset van het profiel kan [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=nl-NL#profile-attribute-datasets) worden betreden.
 
 ## Gerelateerde documentatie
 
 * [Adobe  [!DNL Experience Platform]  het productbeschrijving van de Intelligentie](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence—product-description.html)
-* [De Dienst van de Vraag van Adobe  [!DNL Experience Platform] &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)
+* [De Dienst van de Vraag van Adobe  [!DNL Experience Platform] &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl-NL)
 
 ## Gerelateerde blogberichten
 
