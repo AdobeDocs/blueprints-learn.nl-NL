@@ -1,20 +1,84 @@
 ---
-title: Klantenervaring, blauwdrukken voor ordners
-description: De de Ervaring van de klant orchestration blauwdrukken zijn herhaalbare implementaties om strategie te richten en gevestigde bedrijfsproblemen op te lossen. Ze versnellen tijd tot waarde en bieden een snelle weg naar succes.
+title: De Ervaring van de klant het Orchestration van het Gebruik Gevallen, de Diagrammen van de Architectuur, en Blauwdrukken
+description: Ontdek de belangrijkste bedrijfsdoelstellingen, gebruik casepatronen, en industrie gebruiksgevallen voor Adobe Experience Platform en toepassingen. De visuele architectuurdiagrammen en de blauwdrukken verstrekken technische verwijzingen voor systeemintegratie, gegevensstromen, en oplossingsontwerp — verbindend bedrijfswaarde met implementatie.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: cf76bfcb0a6d3f2a23f42494f3944934954cac89
+source-git-commit: cb112d3fe3c6a95437de69815efb50492c9bf13b
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 2%
+source-wordcount: '322'
+ht-degree: 1%
 
 ---
 
 # Klantenervaring met orkesttekeningen
 
-De ervaringen van de klant orchestratie (vroeger, _digitale ervaring_) blauwdrukken verstrekken systeem en de diagrammen van de gegevensstroom architectuur helpen beter begrijpen hoe Adobe Experience Platform en Toepassingen worden geïntegreerd en uitgevoerd. De blauwdrukken bieden een visuele weergave van gegevens- en inhoudsstromen tussen systemen en componenten, de volgorde van bewerkingen en afhankelijkheden om te helpen bij het ontwerpen van gebruiksgevallen en de architectuur van Adobe Experience Platform en toepassingen.
+Deze plaats bevat **Zeer belangrijke BedrijfsDoelstellingen** die voorbeeld primaire bedrijfswaarde en doelstellingen schetsen die met Adobe Experience Platform en Toepassingen kunnen worden bereikt. **De gevalpatronen van het gebruik** beschrijven gemeenschappelijke platform en toepassingsmogelijkheden met herhaalbare implementatiebenaderingen. **De gebruikscase van de industrie** past patronen op verticaal-specifieke bedrijfsscenario&#39;s toe. **De Diagrammen van de architectuur en de Blauwdrukken van de architectuur** zijn visuele architectuur en de verwijzingsdiagrammen van de gegevensstroom die de punten van de systeemintegratie, gegevens en inhoudsstromen, en opeenvolging van verrichtingen illustreren - die een technische referentie voor oplossingsontwerp verstrekken. Samen verbinden deze lagen bedrijfswaarde aan implementatiegebiedsdelen en architectuur.
 
-## Populaire blauwdrukken
+## Belangrijkste bedrijfsdoelstellingen
+
+Strategische resultaten die organisaties trachten te bereiken via initiatieven voor digitale ervaringen. Elk doel is toegewezen aan gebruikspatronen die beschrijven hoe te om Adobe Experience Platform en toepassingen uit te voeren.
+
+<table>
+<tr>
+  <td><a href="business-objectives/overview.md#acquisition--growth"><strong>Verwerving en groei</strong></a></td>
+  <td><a href="business-objectives/overview.md#revenue--monetization"><strong>Opbrengsten en inkomsten</strong></a></td>
+  <td><a href="business-objectives/overview.md#cost--efficiency"><strong>Kosten en efficiëntie</strong></a></td>
+</tr>
+<tr>
+  <td><a href="business-objectives/overview.md#customer-experience"><strong>Klantervaring</strong></a></td>
+  <td><a href="business-objectives/overview.md#analytics--insights"><strong>Analyse en inzichten</strong></a></td>
+  <td><a href="business-objectives/overview.md#qualification--sales-b2b"><strong>Kwalificatie en verkoop (B2B)</strong></a></td>
+</tr>
+</table>
+
+[Alle bedrijfsdoelstellingen weergeven](business-objectives/overview.md)
+
+## Hoofdletters gebruiken
+
+Herhaalbare implementatiebenaderingen die specifieke mogelijkheden, de functieketen beschrijven die hen levert, en de betrokken toepassingen.
+
+<table>
+<tr>
+  <td><a href="use-case-patterns/overview.md#audience-building--activation"><strong>Audience Building &amp; Activation</strong></a></td>
+  <td><a href="use-case-patterns/overview.md#personalization"><strong>Personalisatie</strong></a></td>
+  <td><a href="use-case-patterns/overview.md#campaign-management--orchestration"><strong>Campagne management &amp; Orchestration</strong></a></td>
+</tr>
+<tr>
+  <td><a href="use-case-patterns/overview.md#analysis"><strong>Analyse</strong></a></td>
+  <td><a href="use-case-patterns/overview.md#conversational-experience"><strong>Gesprekkervaring</strong></a></td>
+  <td></td>
+</tr>
+</table>
+
+[Alle gebruikspatronen weergeven](use-case-patterns/overview.md)
+
+## Verkennen door de industrie
+
+Gebruik gevallen die zijn toegesneden op specifieke industrieën, elk in kaart gebracht aan implementatiepatronen en bedrijfsdoelstellingen.
+
+<table>
+<tr>
+  <td><a href="industry-use-cases/retail/retail-overview.md"><strong>Retail</strong></a></td>
+  <td><a href="industry-use-cases/financial-services/financial-services-overview.md"><strong>Financiële diensten</strong></a></td>
+  <td><a href="industry-use-cases/healthcare/healthcare-overview.md"><strong>Gezondheidszorg</strong></a></td>
+</tr>
+<tr>
+  <td><a href="industry-use-cases/automotive/automotive-overview.md"><strong>Automobielen</strong></a></td>
+  <td><a href="industry-use-cases/travel-hospitality/travel-hospitality-overview.md"><strong>Reizen en verblijf</strong></a></td>
+  <td><a href="industry-use-cases/telecommunications/telecommunications-overview.md"><strong>Telecommunicatie</strong></a></td>
+</tr>
+<tr>
+  <td><a href="industry-use-cases/media-entertainment/media-entertainment-overview.md"><strong>Media en entertainment</strong></a></td>
+  <td><a href="industry-use-cases/insurance/insurance-overview.md"><strong>Verzekering</strong></a></td>
+  <td><a href="industry-use-cases/b2b/b2b-overview.md"><strong>B2B</strong></a></td>
+</tr>
+</table>
+
+[Alle gebruiksgevallen in de branche weergeven](industry-use-cases/overview.md)
+
+## Architectuurdiagrammen en -blauwdrukken
+
+Visuele architectuur en de verwijzingsdiagrammen van de gegevensstroom die de punten van de systeemintegratie, gegevens en inhoudsstromen, en opeenvolging van verrichtingen voor Adobe Experience Platform en toepassingen illustreren.
 
 <table>
 <tr>
@@ -50,27 +114,3 @@ De ervaringen van de klant orchestratie (vroeger, _digitale ervaring_) blauwdruk
   </td>
 </tr>
 </table>
-
-## Verkennen door de industrie
-
-Zoek gebruiksgevallen die zijn afgestemd op uw branche en die elk zijn toegewezen aan implementatiepatronen en bedrijfsdoelstellingen.
-
-<table>
-<tr>
-  <td><a href="industry-use-cases/retail/retail-overview.md"><strong>Retail</strong></a></td>
-  <td><a href="industry-use-cases/financial-services/financial-services-overview.md"><strong>Financiële diensten</strong></a></td>
-  <td><a href="industry-use-cases/healthcare/healthcare-overview.md"><strong>Gezondheidszorg</strong></a></td>
-</tr>
-<tr>
-  <td><a href="industry-use-cases/automotive/automotive-overview.md"><strong>Automobielen</strong></a></td>
-  <td><a href="industry-use-cases/travel-hospitality/travel-hospitality-overview.md"><strong>Reizen en verblijf</strong></a></td>
-  <td><a href="industry-use-cases/telecommunications/telecommunications-overview.md"><strong>Telecommunicatie</strong></a></td>
-</tr>
-<tr>
-  <td><a href="industry-use-cases/media-entertainment/media-entertainment-overview.md"><strong>Media en entertainment</strong></a></td>
-  <td><a href="industry-use-cases/insurance/insurance-overview.md"><strong>Verzekering</strong></a></td>
-  <td><a href="industry-use-cases/b2b/b2b-overview.md"><strong>B2B</strong></a></td>
-</tr>
-</table>
-
-[Alle gebruiksgevallen in de branche weergeven](industry-use-cases/overview.md)

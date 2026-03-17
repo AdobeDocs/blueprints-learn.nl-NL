@@ -1,13 +1,13 @@
 ---
-user-guide-title: Klantenervaring, blauwdrukken voor ordners
-breadcrumb-title: blauwdrukken
-user-guide-description: De blauwdrukken zijn herhaalbare implementaties om gevestigde bedrijfsproblemen aan te pakken en architectuurdiagrammen, technische overwegingen, en relevante documentatiekoppelingen te bevatten.
+user-guide-title: Zakelijke doelstellingen van Customer Experience Orchestration, Gebruiksscenario's, Architectuurdiagrammen en -blauwdrukken
+breadcrumb-title: Gevallen en blauwdrukken gebruiken
+user-guide-description: Belangrijke bedrijfsdoelstellingen, gebruikspatronen, en industrie gebruiken gevallen voor Adobe Experience Platform en toepassingen onderzoeken. De visuele architectuurdiagrammen en de blauwdrukken verstrekken technische verwijzingen voor systeemintegratie, gegevensstromen, en oplossingsontwerp — verbindend bedrijfswaarde met implementatie.
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 021e6b48e09ce2d3da80ffe7ca1b7f4ce4a4a3a4
+source-git-commit: 6bf36e8e5d797eef5b2dfe86e4e75d36b0c026d4
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '474'
 ht-degree: 7%
 
 ---
@@ -132,7 +132,7 @@ ht-degree: 7%
          + [Journey Optimizer met Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
       + Verouderde blauwdrukken{#deprecated-blueprints}
          + Campaign Standard{#campaign-standard}
-            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/nl/docs/campaign-standard){target="_blank"}
-            + [Real-Time CDP met Adobe  [!DNL Campaign Standard]](https://experienceleague.adobe.com/nl/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+            + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+            + [Real-Time CDP met Adobe  [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
          + Campagne v7{#campaign-v7}
             + [Campagne v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
