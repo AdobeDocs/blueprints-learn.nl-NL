@@ -3,14 +3,14 @@ title: De Ervaring van de klant het Orchestration van het Gebruik Gevallen, de D
 description: Ontdek de belangrijkste bedrijfsdoelstellingen, gebruik casepatronen, en industrie gebruiksgevallen voor Adobe Experience Platform en toepassingen. De visuele architectuurdiagrammen en de blauwdrukken verstrekken technische verwijzingen voor systeemintegratie, gegevensstromen, en oplossingsontwerp — verbindend bedrijfswaarde met implementatie.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: cb112d3fe3c6a95437de69815efb50492c9bf13b
+source-git-commit: 62c69ab5ba773172b5b3b55a6c3766c58331135c
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '328'
 ht-degree: 1%
 
 ---
 
-# Klantenervaring met orkesttekeningen
+# Klant ervaart zakelijke doelstellingen, gebruiksscenario&#39;s en architectuurdiagrammen
 
 Deze plaats bevat **Zeer belangrijke BedrijfsDoelstellingen** die voorbeeld primaire bedrijfswaarde en doelstellingen schetsen die met Adobe Experience Platform en Toepassingen kunnen worden bereikt. **De gevalpatronen van het gebruik** beschrijven gemeenschappelijke platform en toepassingsmogelijkheden met herhaalbare implementatiebenaderingen. **De gebruikscase van de industrie** past patronen op verticaal-specifieke bedrijfsscenario&#39;s toe. **De Diagrammen van de architectuur en de Blauwdrukken van de architectuur** zijn visuele architectuur en de verwijzingsdiagrammen van de gegevensstroom die de punten van de systeemintegratie, gegevens en inhoudsstromen, en opeenvolging van verrichtingen illustreren - die een technische referentie voor oplossingsontwerp verstrekken. Samen verbinden deze lagen bedrijfswaarde aan implementatiegebiedsdelen en architectuur.
 
