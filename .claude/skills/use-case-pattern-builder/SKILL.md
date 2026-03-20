@@ -157,7 +157,7 @@ Controleer het volgende nadat alle bestanden zijn gemaakt en bijgewerkt:
 
 5. **de volledigheid van de Frontmaterie** — Het patroondossier omvat titel, beschrijving, oplossing, en exl-id in zijn voorzit YAML.
 
-6. **de verbindingen van Experience League** — Spot-controle dat om het even welke Experience League URLs plausibel (begin met `https://experienceleague.adobe.com/`) is.
+6. **de verbindingen van Experience League** — Spot-controle dat om het even welke Experience League URLs plausibel (begin met `https://experienceleague.adobe.com/nl`) is.
 
 Meld eventuele validatiefouten aan de gebruiker en repareer deze voordat de taak is voltooid.
 
