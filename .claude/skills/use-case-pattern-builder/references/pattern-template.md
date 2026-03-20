@@ -9,7 +9,7 @@ ht-degree: 0%
 
 Dit bestand bevat de volledige markeringssjabloon voor een pagina met gebruikspatronen. Vervang alle `{{placeholder}}` -waarden door werkelijke inhoud wanneer u een nieuw patroon genereert.
 
----
+&#x200B;---
 
 ## Sjabloon
 
@@ -227,7 +227,7 @@ Complete the following before beginning the implementation.
 | Scalability | {{description}} | {{description}} | {{description}} |
 ````
 
----
+&#x200B;---
 
 ## Opmerkingen over het gebruik van deze sjabloon
 

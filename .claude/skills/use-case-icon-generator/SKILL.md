@@ -117,9 +117,9 @@ Controleer het bestaande gedeelte voor pictograminventarisatie van de stijlhulpl
 
 Maak de uitvoer duidelijk op met deze secties:
 
----
+&#x200B;---
 
-### Pictogramspecificaties: {Use Case Name}
+### Pictogramspecificaties: &lbrace;Use Case Name&rbrace;
 
 **Industrie:** {Industry}
 
@@ -131,7 +131,7 @@ Maak de uitvoer duidelijk op met deze secties:
 
 **de Herinnering van de Generatie van het Beeld:**
 
-> {De volledige, gedetailleerde vraag — geformatteerd als blockquote zodat is het gemakkelijk te kopiëren)
+> &lbrace;De volledige, gedetailleerde vraag — geformatteerd als blockquote zodat is het gemakkelijk te kopiëren)
 
 **Catalogus HTML:**
 
@@ -151,7 +151,7 @@ Maak de uitvoer duidelijk op met deze secties:
 6. Controleer of het pictogram er helder en herkenbaar uitziet bij een weergave van 40 px.
 7. Gebruik het HTML-fragment van de catalogus wanneer u dit gebruiksscenario aan de catalogustabel toevoegt.
 
----
+&#x200B;---
 
 ## Richtlijnen
 
