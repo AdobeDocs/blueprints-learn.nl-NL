@@ -100,11 +100,11 @@ Voor dit gebruikspatroon moeten de volgende basisfuncties aanwezig zijn. Voor el
 
 | Foundary Function | Status | Wat moet er gebeuren? | Experience League Reference |
 | --- | --- | --- | --- |
-| Beheer en bestuur | Verondersteld op plaats | AJO-sandbox met een actieve kanaalconfiguratie. Het verzenden van subdomein gemachtigde, toegewezen IP pool, en IP warmte-up volledig. Gebruikersrollen met toegewezen machtigingen voor het maken van campagne/reizen. | [&#x200B; het overzicht van Sandboxen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home), [&#x200B; overzicht van de Toegangscontrole &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Gegevensmodellering en -voorbereiding | Vereist | Schema voor individueel XDM-profiel met kenmerken die worden gebruikt voor segmentatie en personalisatie (bijvoorbeeld naam, e-mail, voorkeuren, laag). XDM ExperienceEvent-schema waarin de doelconversieactie (bijv. `commerce.purchases`, `web.webInteraction` ) wordt vastgelegd voor het bijhouden van de conversie na de campagne. Profiel-toegelaten datasets voor beide schema&#39;s. | [&#x200B; XDM het overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [&#x200B; de samenstellingsgrondbeginselen van het Schema &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
-| Gegevensbronnen en -verzameling | Verondersteld op plaats | Web SDK of Analytics tagging op de CTA-bestemming moet actief zijn om conversiegebeurtenissen vast te leggen. Streaming- of batch-innamepijpleidingen voor profielkenmerken moeten operationeel zijn. | {het overzicht van SDK van 0} Web [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home), [&#x200B; Bronoverzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
-| Identiteit en profielconfiguratie | Verondersteld op plaats | Naamruimten voor e-mailadressen (en eventuele id&#39;s voor andere apparaten) geconfigureerd. Profielkenmerken die vereist zijn voor personalisatie die tijdens het verzenden is toegewezen, opgenomen en oplosbaar. Beleid voor samenvoegen geconfigureerd. | [&#x200B; overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [&#x200B; overzicht van het beleid van de Fusie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
-| Auditiedefinitie en segmentatie | Vereist | Het publiek van het doel dat in rt-CDP wordt bepaald gebruikend de Bouwer van het Segment of de Samenstelling van het Publiek. Publiek gepubliceerd en geëvalueerd met een populatie die niet gelijk is aan nul. Omvat in uitvoeringsfase 1 via RT-CDP Audience Evaluation. | [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [&#x200B; de gids UI van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
+| Beheer en bestuur | Verondersteld op plaats | AJO-sandbox met een actieve kanaalconfiguratie. Het verzenden van subdomein gemachtigde, toegewezen IP pool, en IP warmte-up volledig. Gebruikersrollen met toegewezen machtigingen voor het maken van campagne/reizen. | [&#x200B; het overzicht van Sandboxen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sandbox/home), [&#x200B; overzicht van de Toegangscontrole &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| Gegevensmodellering en -voorbereiding | Vereist | Schema voor individueel XDM-profiel met kenmerken die worden gebruikt voor segmentatie en personalisatie (bijvoorbeeld naam, e-mail, voorkeuren, laag). XDM ExperienceEvent-schema waarin de doelconversieactie (bijv. `commerce.purchases`, `web.webInteraction` ) wordt vastgelegd voor het bijhouden van de conversie na de campagne. Profiel-toegelaten datasets voor beide schema&#39;s. | [&#x200B; XDM het overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [&#x200B; de samenstellingsgrondbeginselen van het Schema &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition) |
+| Gegevensbronnen en -verzameling | Verondersteld op plaats | Web SDK of Analytics tagging op de CTA-bestemming moet actief zijn om conversiegebeurtenissen vast te leggen. Streaming- of batch-innamepijpleidingen voor profielkenmerken moeten operationeel zijn. | {het overzicht van SDK van 0} Web [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home), [&#x200B; Bronoverzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home) |
+| Identiteit en profielconfiguratie | Verondersteld op plaats | Naamruimten voor e-mailadressen (en eventuele id&#39;s voor andere apparaten) geconfigureerd. Profielkenmerken die vereist zijn voor personalisatie die tijdens het verzenden is toegewezen, opgenomen en oplosbaar. Beleid voor samenvoegen geconfigureerd. | [&#x200B; overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home), [&#x200B; overzicht van het beleid van de Fusie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview) |
+| Auditiedefinitie en segmentatie | Vereist | Het publiek van het doel dat in rt-CDP wordt bepaald gebruikend de Bouwer van het Segment of de Samenstelling van het Publiek. Publiek gepubliceerd en geëvalueerd met een populatie die niet gelijk is aan nul. Omvat in uitvoeringsfase 1 via RT-CDP Audience Evaluation. | [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [&#x200B; de gids UI van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## Ondersteunende functies
 
@@ -114,9 +114,9 @@ De volgende mogelijkheden vergroten dit gebruikspatroon, maar zijn niet vereist 
 | --- | --- | --- | --- |
 | Berekend / Afgeleid kenmerk maken | Aanbevolen | Berekende kenmerken, zoals dagen sinds laatste aankoop, aantal levenslange bestellingen of betrokkenheidsscore, verbeteren de nauwkeurigheid van het publiek en maken een rijkere personalisatie van berichten mogelijk. | [&#x200B; Berekende attributen overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
 | Levenscyclusbeheer van gegevens | Aanbevolen | Het beleid van het behoud van gegevens (afloop) zou op zijn plaats voor gebeurtenisdatasets moeten zijn die conversie het volgen drijven. De gebieden van het toestemmingsschema moeten voor kanaal-vlakke opt-in/opt-out handhaving worden gevormd. | [&#x200B; het Geavanceerde overzicht van het Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [&#x200B; Toestemming en de groep van het voorkeurengebied &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents) |
-| Etikettering en handhaving van gegevensgebruik | Aanbevolen | Regelgevingslabels op PII-velden die worden gebruikt voor personalisatie zorgen ervoor dat tijdens de activering aan de vereisten wordt voldaan. Voorkomt ongeoorloofd gebruik van gevoelige profielgegevens in berichtinhoud of publieksuitvoer. | [&#x200B; het beheer van Gegevens overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [&#x200B; overzicht van de gebruiksetiketten van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview) |
-| Bewaking en waarneming | Opgenomen | In real time verzendt controle deel van de Rapporterende fase. Waarschuwing op platformniveau over fouten met inname of gebruik van licenties biedt operationele zichtbaarheid die verder gaat dan metingen op campagnereniveau. | [&#x200B; overzicht van de Inzichten van de Waarneming &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home), [&#x200B; het overzicht van Alarm &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
-| Rapportage en analyse | Opgenomen | Campagne- en reisverslagen worden behandeld in de rapportagefase. Voor een diepere kanaalanalyse, verstrekt de integratie van CJA funnel analyse, attributiemodellering, en cohortanalyse voorbij AJO ingebouwde rapporten. | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [&#x200B; AJO + de integratiegids van CJA &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
+| Etikettering en handhaving van gegevensgebruik | Aanbevolen | Regelgevingslabels op PII-velden die worden gebruikt voor personalisatie zorgen ervoor dat tijdens de activering aan de vereisten wordt voldaan. Voorkomt ongeoorloofd gebruik van gevoelige profielgegevens in berichtinhoud of publieksuitvoer. | [&#x200B; het beheer van Gegevens overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [&#x200B; overzicht van de gebruiksetiketten van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview) |
+| Bewaking en waarneming | Opgenomen | In real time verzendt controle deel van de Rapporterende fase. Waarschuwing op platformniveau over fouten met inname of gebruik van licenties biedt operationele zichtbaarheid die verder gaat dan metingen op campagnereniveau. | [&#x200B; overzicht van de Inzichten van de Waarneming &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home), [&#x200B; het overzicht van Alarm &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/observability/alerts/overview) |
+| Rapportage en analyse | Opgenomen | Campagne- en reisverslagen worden behandeld in de rapportagefase. Voor een diepere kanaalanalyse, verstrekt de integratie van CJA funnel analyse, attributiemodellering, en cohortanalyse voorbij AJO ingebouwde rapporten. | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [&#x200B; AJO + de integratiegids van CJA &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
 ## Toepassingsfuncties
 
@@ -195,7 +195,7 @@ De volledige configuratie gebeurt binnen de interface van de Campagnes van AJO �
 
 **Experience League:**
 
-- [Aan de slag met campagnes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
+- [Aan de slag met campagnes](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
 - [Een campagne maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
 
 ### Optie B: Reis door het publiek geactiveerd
@@ -270,8 +270,8 @@ Deze variant is ideaal wanneer de verzendtiming wordt bepaald door een extern sy
 
 **Experience League:**
 
-- [API-gestuurde campagnes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
-- [Campagnes activeren met API&#39;s](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
+- [API-gestuurde campagnes](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
+- [Campagnes activeren met API&#39;s](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
 
 ### Optievergelijking
 
@@ -374,7 +374,7 @@ De evaluatie van het publiek kan volledig worden overgeslagen. Indien gebruikt, 
 #### Experience League-documentatie
 
 - [Overzicht van segmentatieservice](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder)
 - [Streaming segmentering](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
 - [Samenstelling publiek](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
 - [Profile Query Language-referentie](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/pql/overview)
@@ -433,7 +433,7 @@ Beheer > Kanalen > Kanaaloppervlakken > Oppervlak maken (of selecteer bestaand)
 - [Subdomeinen delegeren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/delegate-subdomain)
 - [IP-pools maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-pools)
 - [IP-opwarmingsplannen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-warmup/ip-warmup-gs)
-- [Instellingen van e-mailoppervlak](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
+- [Instellingen van e-mailoppervlak](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
 - [SMS-kanaal configureren](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 - [Pushmeldingskanaal configureren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/configure-push/push-configuration)
 - [Onderdrukkingslijst beheren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
@@ -494,7 +494,7 @@ Campagnes > Selectiecampagne > Inhoud bewerken > Designer e-mailen (of SMS/Push-
 
 #### Experience League-documentatie
 
-- [Een e-mail maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/create-email)
+- [Een e-mail maken](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/email/create-email)
 - [E-mailinhoud ontwerpen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/design-emails)
 - [E-mail Designer-inhoudsonderdelen gebruiken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/content-components)
 - [Aanpassing toevoegen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/personalize)
@@ -503,7 +503,7 @@ Campagnes > Selectiecampagne > Inhoud bewerken > Designer e-mailen (of SMS/Push-
 - [Dynamische inhoud](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/personalization/dynamic-content)
 - [Werken met inhoudssjablonen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [Werken met inhoudsfragmenten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
-- [Inhoud voorvertonen en testen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/preview-test)
+- [Inhoud voorvertonen en testen](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/preview-test/preview-test)
 - [E-mailproefdrukken verzenden](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/proofs)
 - [E-mailrendering](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/email-rendering)
 - [Een SMS-bericht maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/create-sms)
@@ -587,8 +587,8 @@ Welk prioriteitsniveau moet deze campagne hebben ten opzichte van andere actieve
 #### Experience League-documentatie
 
 - [Een campagne maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
-- [Aan de slag met campagnes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
-- [API-gestuurde campagnes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
+- [Aan de slag met campagnes](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
+- [API-gestuurde campagnes](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
 - [Aan de slag met reizen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [Reis van het publiek lezen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
 - [Aan de slag met het experimenteren met inhoud](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
@@ -646,7 +646,7 @@ Hoe wordt het succes van de campagne gemeten boven de cijfers voor levering en b
 - [Journaal algemeen rapport](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
 - [Rapport voor inhoudexperiment](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-report)
 - [Werken met Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [AJO + CJA-integratiehandleiding](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [AJO + CJA-integratiehandleiding](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 
 ## Implementatieoverwegingen
 
@@ -739,9 +739,9 @@ Deze sectie bevat uitgebreide koppelingen naar [!DNL Experience League] -documen
 
 ### Campagnes
 
-- [Aan de slag met campagnes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
+- [Aan de slag met campagnes](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
 - [Een campagne maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
-- [API-gestuurde campagnes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
+- [API-gestuurde campagnes](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
 
 ### Journeys
 
@@ -754,14 +754,14 @@ Deze sectie bevat uitgebreide koppelingen naar [!DNL Experience League] -documen
 - [Subdomeinen delegeren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/delegate-subdomain)
 - [IP-pools maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-pools)
 - [IP-opwarmingsplannen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-warmup/ip-warmup-gs)
-- [Instellingen van e-mailoppervlak](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
+- [Instellingen van e-mailoppervlak](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
 - [SMS-kanaal configureren](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 - [Pushmeldingskanaal configureren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/configure-push/push-configuration)
 - [Onderdrukkingslijst beheren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
 
 ### Authoring en personalisatie van berichten
 
-- [Een e-mail maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/create-email)
+- [Een e-mail maken](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/email/create-email)
 - [E-mailinhoud ontwerpen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/design-emails)
 - [E-mail Designer-inhoudsonderdelen gebruiken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/content-components)
 - [E-mailinhoud importeren of coderen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/code-content)
@@ -774,7 +774,7 @@ Deze sectie bevat uitgebreide koppelingen naar [!DNL Experience League] -documen
 
 - [Werken met inhoudssjablonen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [Werken met inhoudsfragmenten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
-- [Inhoud voorvertonen en testen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/preview-test)
+- [Inhoud voorvertonen en testen](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/preview-test/preview-test)
 - [E-mailproefdrukken verzenden](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/proofs)
 - [E-mailrendering](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/email-rendering)
 
@@ -797,7 +797,7 @@ Deze sectie bevat uitgebreide koppelingen naar [!DNL Experience League] -documen
 ### Splitsen en segmenteren
 
 - [Overzicht van segmentatieservice](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder)
 - [Streaming segmentering](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
 - [Edge-segmentatie](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
 - [Samenstelling publiek](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
@@ -810,21 +810,21 @@ Deze sectie bevat uitgebreide koppelingen naar [!DNL Experience League] -documen
 - [Journaal live](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-live-report)
 - [Journaal algemeen rapport](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
 - [Werken met Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [AJO + CJA-integratiehandleiding](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [AJO + CJA-integratiehandleiding](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 
 ### Beheer van gegevens en toestemming
 
 - [Datagovernance - Overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [Overzicht van labels voor gegevensgebruik](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview)
+- [Overzicht van labels voor gegevensgebruik](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview)
 - [Toestemming en voorkeuren, veldgroep](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
 - [Toestemming in Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted)
 
 ### Gegevensmodellering en identiteit
 
 - [XDM System, overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [Grondbeginselen van de schemacompositie](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
-- [Overzicht van identiteitsservice](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
-- [Overzicht van beleid samenvoegen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [Grondbeginselen van de schemacompositie](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition)
+- [Overzicht van identiteitsservice](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home)
+- [Overzicht van beleid samenvoegen](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview)
 
 ### Beveiligingsmechanismen
 

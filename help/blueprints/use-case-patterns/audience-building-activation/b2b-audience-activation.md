@@ -109,11 +109,11 @@ Voor dit gebruikspatroon moeten de volgende basisfuncties aanwezig zijn. Voor el
 
 | Foundary, functie | Status | Wat moet er gebeuren? | Experience League-referentie |
 | --- | --- | --- | --- |
-| Beheer en bestuur | Vereist | Sandbox met [!DNL RT-CDP] B2B edition ingeschakeld. Rollen die zijn geconfigureerd voor B2B-gegevensbeheer, publiekscreatie en doelactivering. ABAC-beleid is ingesteld als accountgegevens beperkte velden bevatten. | [&#x200B; het overzicht van Sandboxen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home), [&#x200B; overzicht van de Toegangscontrole &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Gegevensmodellering en -voorbereiding | Vereist | B2B XDM-schema&#39;s geconfigureerd met XDM Business Account, XDM Business Opportunity, XDM Business Campaign en XDM Individual Profile-klassen. B2B-veldgroepen die zijn toegepast voor accountkenmerken, relaties tussen personen en accounts. Voor elke B2B-entiteit worden gegevenssets gemaakt en profiel ingeschakeld. Schemarelaties gedefinieerd tussen account, persoon, opportuniteit en campagneentiteiten. | [&#x200B; XDM het overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [&#x200B; B2B- schema&#39;s in Real-Time CDP &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b) |
-| Gegevensbronnen en -verzameling | Vereist | Source-connectors geconfigureerd voor CRM ([!DNL Salesforce], [!DNL Microsoft Dynamics] ) en marketingautomatisering ([!DNL Marketo Engage] ) om account, persoon, opportuniteit en campagnegegevens in te voeren. Batch- of streamingpipetten zijn actief. De afbeeldingen van Prep van gegevens die worden gevormd om brongegevens in B2B XDM- schema&#39;s om te zetten. | [&#x200B; Bronoverzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home), [&#x200B; schakelaar van Marketo Engage &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
-| Identiteit en profielconfiguratie | Vereist | B2B-naamruimten geconfigureerd voor account-id&#39;s (account-id, CRM-account-id) en personen-id&#39;s (e-mail, CRM-contact-id, Marketo Lead-id). Persoonlijke relaties opgelost via B2B-identiteitsafwikkeling. Beleid samenvoegen dat is geconfigureerd voor samenvoeging van accountprofielen. | [&#x200B; Overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [&#x200B; B2B edition van Real-Time CDP &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#rtcdp-b2b) |
-| Auditiedefinitie en segmentatie | Vereist | Accountniveau publieksdefinities gemaakt met accountkenmerken, personekenmerken en activiteitsgegevens. De programma&#39;s van de evaluatie die voor rekeningspubliek worden gevormd. Onderdrukkingspubliek gedefinieerd voor het uitsluiten van niet-beleenbare rekeningen. | [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [&#x200B; het publiek van de Rekening &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences) |
+| Beheer en bestuur | Vereist | Sandbox met [!DNL RT-CDP] B2B edition ingeschakeld. Rollen die zijn geconfigureerd voor B2B-gegevensbeheer, publiekscreatie en doelactivering. ABAC-beleid is ingesteld als accountgegevens beperkte velden bevatten. | [&#x200B; het overzicht van Sandboxen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sandbox/home), [&#x200B; overzicht van de Toegangscontrole &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/home) |
+| Gegevensmodellering en -voorbereiding | Vereist | B2B XDM-schema&#39;s geconfigureerd met XDM Business Account, XDM Business Opportunity, XDM Business Campaign en XDM Individual Profile-klassen. B2B-veldgroepen die zijn toegepast voor accountkenmerken, relaties tussen personen en accounts. Voor elke B2B-entiteit worden gegevenssets gemaakt en profiel ingeschakeld. Schemarelaties gedefinieerd tussen account, persoon, opportuniteit en campagneentiteiten. | [&#x200B; XDM het overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home), [&#x200B; B2B- schema&#39;s in Real-Time CDP &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/schemas/b2b) |
+| Gegevensbronnen en -verzameling | Vereist | Source-connectors geconfigureerd voor CRM ([!DNL Salesforce], [!DNL Microsoft Dynamics] ) en marketingautomatisering ([!DNL Marketo Engage] ) om account, persoon, opportuniteit en campagnegegevens in te voeren. Batch- of streamingpipetten zijn actief. De afbeeldingen van Prep van gegevens die worden gevormd om brongegevens in B2B XDM- schema&#39;s om te zetten. | [&#x200B; Bronoverzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home), [&#x200B; schakelaar van Marketo Engage &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
+| Identiteit en profielconfiguratie | Vereist | B2B-naamruimten geconfigureerd voor account-id&#39;s (account-id, CRM-account-id) en personen-id&#39;s (e-mail, CRM-contact-id, Marketo Lead-id). Persoonlijke relaties opgelost via B2B-identiteitsafwikkeling. Beleid samenvoegen dat is geconfigureerd voor samenvoeging van accountprofielen. | [&#x200B; Overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home), [&#x200B; B2B edition van Real-Time CDP &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#rtcdp-b2b) |
+| Auditiedefinitie en segmentatie | Vereist | Accountniveau publieksdefinities gemaakt met accountkenmerken, personekenmerken en activiteitsgegevens. De programma&#39;s van de evaluatie die voor rekeningspubliek worden gevormd. Onderdrukkingspubliek gedefinieerd voor het uitsluiten van niet-beleenbare rekeningen. | [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home), [&#x200B; het publiek van de Rekening &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/types/account-audiences) |
 
 ## Ondersteunende functies
 
@@ -121,11 +121,11 @@ De volgende mogelijkheden vergroten dit gebruikspatroon, maar zijn niet vereist 
 
 | Ondersteunende functie | Status | Waarom het belangrijk is | Experience League-referentie |
 | --- | --- | --- | --- |
-| Berekend / Afgeleid kenmerk maken | Aanbevolen | Geaggregeerde betrokkenheidsscores, levenslange waarde en activiteitscijfers op accountniveau verbeteren de nauwkeurigheid van de doelgroep. Met berekende kenmerken kunnen gebeurtenissen op persoonlijk niveau (e-mail wordt geopend, webbezoeken, downloaden van inhoud) naar het accountniveau worden opgehaald voor gebruik in segmentatie. | [&#x200B; Berekende attributen overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| Levenscyclusbeheer van gegevens | Aanbevolen | B2B-beleid voor gegevensopslag zorgt ervoor dat de gegevens van een account op een schaal worden opgeschoond en dat de opportuniteitsgegevens worden opgeschoond. Het beheer van de toestemming voor B2B contacten verzekert naleving van e-mailmarketing verordeningen. Dataset vervalbeleid verhindert accumulatie van verouderde gegevens van de synchronisatie van CRM. | [&#x200B; het Geavanceerde overzicht van het Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| Etikettering en handhaving van gegevensgebruik | Opgenomen | B2B-rekeninggegevens bevatten vaak contractuele beperkingen (inkomstencijfers, personeelstellingen van derden). Met labels voor gegevensgebruik kunnen beperkte accountkenmerken niet worden geactiveerd voor onbevoegde doelen. Het beleid van het bestuur zorgt ervoor dat PII- gebieden van contactverslagen correct tijdens activering worden behandeld. | [&#x200B; Overzicht van het beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| Bewaking en waarneming | Opgenomen | Door CRM en [!DNL Marketo Engage] bronconnectorgegevens te controleren, blijven de accountgegevens actueel. Controle van doelactivering bevestigt dat het publiek correct wordt benaderd voor [!DNL LinkedIn] -, [!DNL Marketo] - en CRM-doelen. Waarschuwingsregels mislukte inname van gegevens afvangen die storende accountgegevens zouden veroorzaken. | [&#x200B; het overzicht van Alarm &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview), [&#x200B; de bestemmingsdataflows van de Monitor &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations) |
-| Rapportage en analyse | Aanbevolen | [!DNL CJA] B2B edition biedt analyses op accountniveau, waaronder bereik, betrokkenheid en invloed van de pijpleiding. De op rekening-gebaseerde attributie helpt de invloed van activeringscampagnes op opportuniteitsvooruitgang en opbrengst meten. | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Berekend / Afgeleid kenmerk maken | Aanbevolen | Geaggregeerde betrokkenheidsscores, levenslange waarde en activiteitscijfers op accountniveau verbeteren de nauwkeurigheid van de doelgroep. Met berekende kenmerken kunnen gebeurtenissen op persoonlijk niveau (e-mail wordt geopend, webbezoeken, downloaden van inhoud) naar het accountniveau worden opgehaald voor gebruik in segmentatie. | [&#x200B; Berekende attributen overzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/overview) |
+| Levenscyclusbeheer van gegevens | Aanbevolen | B2B-beleid voor gegevensopslag zorgt ervoor dat de gegevens van een account op een schaal worden opgeschoond en dat de opportuniteitsgegevens worden opgeschoond. Het beheer van de toestemming voor B2B contacten verzekert naleving van e-mailmarketing verordeningen. Dataset vervalbeleid verhindert accumulatie van verouderde gegevens van de synchronisatie van CRM. | [&#x200B; het Geavanceerde overzicht van het Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-lifecycle/home) |
+| Etikettering en handhaving van gegevensgebruik | Opgenomen | B2B-rekeninggegevens bevatten vaak contractuele beperkingen (inkomstencijfers, personeelstellingen van derden). Met labels voor gegevensgebruik kunnen beperkte accountkenmerken niet worden geactiveerd voor onbevoegde doelen. Het beleid van het bestuur zorgt ervoor dat PII- gebieden van contactverslagen correct tijdens activering worden behandeld. | [&#x200B; Overzicht van het beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/home) |
+| Bewaking en waarneming | Opgenomen | Door CRM en [!DNL Marketo Engage] bronconnectorgegevens te controleren, blijven de accountgegevens actueel. Controle van doelactivering bevestigt dat het publiek correct wordt benaderd voor [!DNL LinkedIn] -, [!DNL Marketo] - en CRM-doelen. Waarschuwingsregels mislukte inname van gegevens afvangen die storende accountgegevens zouden veroorzaken. | [&#x200B; het overzicht van Alarm &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/observability/alerts/overview), [&#x200B; de bestemmingsdataflows van de Monitor &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/dataflows/ui/monitor-destinations) |
+| Rapportage en analyse | Aanbevolen | [!DNL CJA] B2B edition biedt analyses op accountniveau, waaronder bereik, betrokkenheid en invloed van de pijpleiding. De op rekening-gebaseerde attributie helpt de invloed van activeringscampagnes op opportuniteitsvooruitgang en opbrengst meten. | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Toepassingsfuncties
 
@@ -203,8 +203,8 @@ De bestemming [!DNL Marketo Engage] is een het stromen bestemming, betekenend de
 
 **Experience League:**
 
-- [Marketo Engage-bestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/adobe/marketo-engage)
-- [Soorten publiek naar Marketo Engage-doel activeren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/adobe/marketo-engage#activate)
+- [Marketo Engage-bestemming](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/adobe/marketo-engage)
+- [Soorten publiek naar Marketo Engage-doel activeren](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/adobe/marketo-engage#activate)
 
 ### Optie B: activering van het publiek in batch op reclameplatforms
 
@@ -241,9 +241,9 @@ Batchactivering wordt uitgevoerd volgens een configureerbaar schema (dagelijks, 
 
 **Experience League:**
 
-- [Doel van LinkedIn-overeenkomend publiek](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
-- [Google Customer Match-bestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/google-customer-match)
-- [Doelcatalogus](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [Doel van LinkedIn-overeenkomend publiek](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/social/linkedin)
+- [Google Customer Match-bestemming](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/advertising/google-customer-match)
+- [Doelcatalogus](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/overview)
 
 ### Optie C: activering van bestanden naar cloudopslag
 
@@ -279,9 +279,9 @@ Activering op basis van bestanden biedt de meeste controle over de exportindelin
 
 **Experience League:**
 
-- [Amazon S3-bestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
-- [Azure Blob-opslagbestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob)
-- [Soorten publiek naar batchbestemmingen activeren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/connect-activate-batch-destinations)
+- [Amazon S3-bestemming](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
+- [Azure Blob-opslagbestemming](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob)
+- [Soorten publiek naar batchbestemmingen activeren](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/api/connect-activate-batch-destinations)
 
 ### Optie D: Streaming activering naar CRM-systemen
 
@@ -317,7 +317,7 @@ De streamingconnector verzendt incrementele updates wanneer wijzigingen in het p
 **Experience League:**
 
 - [Salesforce CRM-bestemming](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/crm/salesforce)
-- [Microsoft Dynamics 365-bestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/crm/microsoft-dynamics-365)
+- [Microsoft Dynamics 365-bestemming](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/crm/microsoft-dynamics-365)
 
 ### Optievergelijking
 
@@ -394,9 +394,9 @@ Deze fase vestigt verenigde rekeningsprofielen door gegevens van CRM, marketing 
 **documentatie van Experience League:**
 
 - [Real-Time CDP B2B edition - overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#rtcdp-b2b)
-- [B2B-schema&#39;s in Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [Marketo Engage-connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-- [Salesforce-connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/crm/salesforce)
+- [B2B-schema&#39;s in Real-Time CDP](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/schemas/b2b)
+- [Marketo Engage-connector](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Salesforce-connector](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/crm/salesforce)
 
 ### Fase 2: Evaluatie van het accountpubliek
 
@@ -454,10 +454,10 @@ In deze fase worden publiek op accountniveau gedefinieerd en geëvalueerd met be
 
 **documentatie van Experience League:**
 
-- [Accountpubliek](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences)
-- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Samenstelling publiek](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
-- [Overzicht van segmentatieservice](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [Accountpubliek](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/types/account-audiences)
+- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder)
+- [Samenstelling publiek](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-composition)
+- [Overzicht van segmentatieservice](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home)
 
 ### Fase 3: Doelconfiguratie
 
@@ -527,12 +527,12 @@ Navigeer naar Doelen > Catalogus > CRM > selecteren [!DNL Salesforce] of [!DNL D
 
 **documentatie van Experience League:**
 
-- [Overzicht van doelen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [Doelcatalogus](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [Marketo Engage-bestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/adobe/marketo-engage)
-- [Doel van LinkedIn-overeenkomend publiek](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
+- [Overzicht van doelen](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/home)
+- [Doelcatalogus](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/overview)
+- [Marketo Engage-bestemming](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/adobe/marketo-engage)
+- [Doel van LinkedIn-overeenkomend publiek](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/social/linkedin)
 - [Salesforce CRM-bestemming](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/crm/salesforce)
-- [Amazon S3-bestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
+- [Amazon S3-bestemming](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
 
 ### Fase 4: Activering van het publiek
 
@@ -595,10 +595,10 @@ Selecteer het accountpubliek dat u wilt activeren. Activering begint direct met 
 
 **documentatie van Experience League:**
 
-- [Stimulansen voor het publiek naar streamingdoelen activeren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [Soorten publiek naar batchbestemmingen activeren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Activeringsinstructies](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
-- [Overzicht van doelen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+- [Stimulansen voor het publiek naar streamingdoelen activeren](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [Soorten publiek naar batchbestemmingen activeren](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Activeringsinstructies](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/guardrails)
+- [Overzicht van doelen](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/home)
 
 ### Fase 5: Bestuur en toezicht
 
@@ -643,11 +643,11 @@ Deze fase zorgt ervoor dat de activering van het accountpubliek in overeenstemmi
 
 **documentatie van Experience League:**
 
-- [Datagovernance - Overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [Datagovernance - Overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/home)
 - [Toestemming en voorkeuren](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
-- [Doelgegevens bewaken](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [Overzicht van waarschuwingen](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Activeringsinstructies](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- [Doelgegevens bewaken](https://experienceleague.adobe.com/nl/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Overzicht van waarschuwingen](https://experienceleague.adobe.com/nl/docs/experience-platform/observability/alerts/overview)
+- [Activeringsinstructies](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/guardrails)
 
 ## Implementatieoverwegingen
 
@@ -657,9 +657,9 @@ De volgende secties bieden extra aanwijzingen voor een geslaagde implementatie.
 
 Bekijk de volgende platforminstructies en -limieten die van toepassing zijn op dit gebruikspatroon.
 
-- Maximum van 4.000 segmentdefinities per zandbak, met inbegrip van rekeningspubliek — [&#x200B; de gidsen van de Segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- Maximum van 4.000 segmentdefinities per zandbak, met inbegrip van rekeningspubliek — [&#x200B; de gidsen van de Segmentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails)
 - Accountpubliek wordt primair geëvalueerd aan de hand van batchevaluatie; streamingmogelijkheden zijn beperkt tot eenvoudige voorwaarden voor accountkenmerken
-- Maximum van 100 dataflows per bestemmingsverbinding - [&#x200B; de waarborgen van Doelen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- Maximum van 100 dataflows per bestemmingsverbinding - [&#x200B; de waarborgen van Doelen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/guardrails)
 - Batchdoelen exporteren maximaal 5 miljoen profielen per bestandssegment
 - Streaming doelen hebben een doorvoerlimiet per seconde die is ingesteld door de doelpartner (bijvoorbeeld [!DNL Marketo] API-snelheidlimieten)
 - Samengesteld publiek (van Audience Composition) is beperkt tot batchevaluatie en kan geen streaming gebruiken
@@ -735,65 +735,65 @@ De volgende bronnen bieden aanvullende context en gedetailleerde instructies voo
 **[!DNL RT-CDP]B2B edition**
 
 - [Real-Time CDP B2B edition - overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/overview#rtcdp-b2b)
-- [B2B-schema&#39;s in Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [Accountpubliek](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences)
+- [B2B-schema&#39;s in Real-Time CDP](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/schemas/b2b)
+- [Accountpubliek](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/types/account-audiences)
 - [RT-CDP B2B edition productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html)
 
 **de evaluatie en segmentatie van het publiek**
 
-- [Overzicht van segmentatieservice](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Samenstelling publiek](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
-- [Streaming segmentering](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [Segmenteringsgeleiding](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [Overzicht van segmentatieservice](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/home)
+- [Handleiding voor de gebruikersinterface van Segment Builder](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder)
+- [Samenstelling publiek](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/audience-composition)
+- [Streaming segmentering](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Segmenteringsgeleiding](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/guardrails)
 
 **Doelen &amp; activering**
 
-- [Overzicht van doelen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [Doelcatalogus](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [Marketo Engage-bestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/adobe/marketo-engage)
-- [Doel van LinkedIn-overeenkomend publiek](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
+- [Overzicht van doelen](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/home)
+- [Doelcatalogus](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/overview)
+- [Marketo Engage-bestemming](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/adobe/marketo-engage)
+- [Doel van LinkedIn-overeenkomend publiek](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/social/linkedin)
 - [Salesforce CRM-bestemming](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/crm/salesforce)
-- [Microsoft Dynamics 365-bestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/crm/microsoft-dynamics-365)
-- [Amazon S3-bestemming](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
-- [Stimulansen voor het publiek naar streamingdoelen activeren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [Soorten publiek naar batchbestemmingen activeren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Activeringsinstructies](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- [Microsoft Dynamics 365-bestemming](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/crm/microsoft-dynamics-365)
+- [Amazon S3-bestemming](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
+- [Stimulansen voor het publiek naar streamingdoelen activeren](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [Soorten publiek naar batchbestemmingen activeren](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Activeringsinstructies](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/guardrails)
 
 **de bronnen &amp; de schakelaars van Gegevens**
 
-- [Overzicht van bronnen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
-- [Marketo Engage-connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-- [Salesforce-connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/crm/salesforce)
+- [Overzicht van bronnen](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home)
+- [Marketo Engage-connector](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Salesforce-connector](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/connectors/crm/salesforce)
 
 **modellering van Gegevens &amp; identiteit**
 
-- [XDM System, overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [Overzicht van identiteitsservice](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
-- [Profieloverzicht](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
-- [Overzicht van beleid samenvoegen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [XDM System, overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home)
+- [Overzicht van identiteitsservice](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home)
+- [Profieloverzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/home)
+- [Overzicht van beleid samenvoegen](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview)
 
 **Beheer van Gegevens &amp; privacy**
 
-- [Datagovernance - Overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [Overzicht van labels voor gegevensgebruik](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview)
+- [Datagovernance - Overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/home)
+- [Overzicht van labels voor gegevensgebruik](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview)
 - [Toestemming en voorkeuren](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 
 **Controle &amp; waarneming**
 
-- [Overzicht van waarschuwingen](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Doelgegevens bewaken](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [Brongegevens controleren](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/monitor)
+- [Overzicht van waarschuwingen](https://experienceleague.adobe.com/nl/docs/experience-platform/observability/alerts/overview)
+- [Doelgegevens bewaken](https://experienceleague.adobe.com/nl/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Brongegevens controleren](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/api-tutorials/monitor)
 - [Het gebruiksdashboard voor licenties](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 **Rapportering &amp; analyses**
 
-- [CJA-overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
-- [Overzicht van verbindingen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
-- [Overzicht van gegevensweergaven](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
+- [CJA-overzicht](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Overzicht van verbindingen](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-connections/overview)
+- [Overzicht van gegevensweergaven](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/data-views)
 
 **Zelfstudies &amp; gidsen**
 
 - [Aan de slag met Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro)
-- [Een schema maken voor B2B-bronnen](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
-- [Sandbox Tooling](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/sandbox-tooling-api/overview)
+- [Een schema maken voor B2B-bronnen](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/schemas/b2b)
+- [Sandbox Tooling](https://experienceleague.adobe.com/nl/docs/experience-platform/sandbox/sandbox-tooling-api/overview)

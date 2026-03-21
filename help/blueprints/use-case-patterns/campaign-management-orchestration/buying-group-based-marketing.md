@@ -103,10 +103,10 @@ Voor dit gebruikspatroon moeten de volgende basisfuncties aanwezig zijn. Voor el
 
 | Foundary, functie | Status | Wat moet er gebeuren? | Experience League-referentie |
 | --- | --- | --- | --- |
-| Beheer en bestuur | Vereist | Sandbox met [!DNL AJO B2B Edition] - en [!DNL RT-CDP B2B Edition] -bevoegdheden ingeschakeld. Rollen die zijn geconfigureerd voor B2B-marketers, verkoopbewerkingen en beheerders met de juiste machtigingen voor het aanschaffen van groepsbeheer, accountrajecten en CRM-integratie-instellingen. | [&#x200B; het overzicht van Sandboxen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home), [&#x200B; overzicht van de Toegangscontrole &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| Beheer en bestuur | Vereist | Sandbox met [!DNL AJO B2B Edition] - en [!DNL RT-CDP B2B Edition] -bevoegdheden ingeschakeld. Rollen die zijn geconfigureerd voor B2B-marketers, verkoopbewerkingen en beheerders met de juiste machtigingen voor het aanschaffen van groepsbeheer, accountrajecten en CRM-integratie-instellingen. | [&#x200B; het overzicht van Sandboxen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sandbox/home), [&#x200B; overzicht van de Toegangscontrole &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
 | Gegevensmodellering en -voorbereiding | Vereist | B2B XDM-schema&#39;s geconfigureerd met B2B-specifieke klassen: XDM Business Account, XDM Business Opportunity, XDM Business Person (lead/contact), XDM Business Campaign en XDM Business Marketing List. Veldgroepen voor accountkenmerken, persoonkenmerken en activiteit-/betrokkenheidsgegevens moeten aanwezig zijn. De gecreeerde Datasets en profiel-Toegelaten voor elk schema. | [&#x200B; XDM het overzicht van het Systeem &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [&#x200B; B2B schemaklassen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
-| Gegevensbronnen en -verzameling | Vereist | B2B-gegevensinnamepijpleidingen die worden aangelegd, doorgaans via de [!DNL Marketo Engage] bronconnector of [!DNL Salesforce]/[!DNL Dynamics] CRM-bronconnectors. De gegevens van de account, de persoon, de opportuniteit, de campagne en het campagnerelid moeten in AEP-gegevenssets worden ingevoerd. Gedragingsbetrokkenheidsgegevens (webbezoeken, e-mailinteracties, downloads van inhoud) moeten ook worden opgenomen voor betrokkenheidsscoring. | [&#x200B; Bronoverzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home), [&#x200B; schakelaar van Marketo Engage &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
-| Identiteit en profielconfiguratie | Vereist | B2B-identiteitsresolutie geconfigureerd om relaties van persoon tot account op te lossen. Identiteitsnaamruimten voor B2B-id&#39;s ([!DNL Marketo] Persoon-id, [!DNL Salesforce] Lead/Contactpersoon-id, Account-id) moeten bestaan. Beleid samenvoegen dat is geconfigureerd voor B2B-profieleenwording. Accountprofielen moeten worden verenigd op basis van gegevens uit verschillende bronnen. | [&#x200B; Overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [&#x200B; B2B Resolutie van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) |
+| Gegevensbronnen en -verzameling | Vereist | B2B-gegevensinnamepijpleidingen die worden aangelegd, doorgaans via de [!DNL Marketo Engage] bronconnector of [!DNL Salesforce]/[!DNL Dynamics] CRM-bronconnectors. De gegevens van de account, de persoon, de opportuniteit, de campagne en het campagnerelid moeten in AEP-gegevenssets worden ingevoerd. Gedragingsbetrokkenheidsgegevens (webbezoeken, e-mailinteracties, downloads van inhoud) moeten ook worden opgenomen voor betrokkenheidsscoring. | [&#x200B; Bronoverzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home), [&#x200B; schakelaar van Marketo Engage &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
+| Identiteit en profielconfiguratie | Vereist | B2B-identiteitsresolutie geconfigureerd om relaties van persoon tot account op te lossen. Identiteitsnaamruimten voor B2B-id&#39;s ([!DNL Marketo] Persoon-id, [!DNL Salesforce] Lead/Contactpersoon-id, Account-id) moeten bestaan. Beleid samenvoegen dat is geconfigureerd voor B2B-profieleenwording. Accountprofielen moeten worden verenigd op basis van gegevens uit verschillende bronnen. | [&#x200B; Overzicht van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home), [&#x200B; B2B Resolutie van de Identiteit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) |
 | Auditiedefinitie en segmentatie | Vereist | Accountniveau publieksdefinities gemaakt met accountkenmerken, personekenmerken en activiteitsgegevens. Accountpubliek geeft aan welke accounts groepsreizen kopen. De evaluatie van de partij is typisch voldoende voor B2B- rekeningsreizen, hoewel de het stromen evaluatie voor rekeningskwalificatietrekkers in real time kan worden gebruikt. | [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [&#x200B; het publiek van de Rekening &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences) |
 
 ## Ondersteunende functies
@@ -116,7 +116,7 @@ De volgende mogelijkheden vergroten dit gebruikspatroon, maar zijn niet vereist 
 | Ondersteunende functie | Status | Waarom het belangrijk is | Experience League-referentie |
 | --- | --- | --- | --- |
 | Berekend / Afgeleid kenmerk maken | Aanbevolen | Berekende kenmerken kunnen betrokkenheidsgebeurtenissen op persoonlijke niveau (e-mail wordt geopend, inhoud wordt gedownload, er wordt een webinar aanwezig) samenvoegen tot maatstaven voor de betrokkenheid op accountniveau die de aankooplogica voor groepsscore en accountkwalificatie ondersteunen. | [&#x200B; Berekende attributen overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| Levenscyclusbeheer van gegevens | Aanbevolen | Toegangsbeheer is van essentieel belang voor B2B-e-mail- en SMS-communicatie. Het beleid voor het verlopen van gegevenssets helpt de levenscyclus van tijdelijke betrokkenheidsgegevens te beheren en ervoor te zorgen dat aan de vereisten voor gegevensbewaring wordt voldaan. | [&#x200B; het Geavanceerde Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| Levenscyclusbeheer van gegevens | Aanbevolen | Toegangsbeheer is van essentieel belang voor B2B-e-mail- en SMS-communicatie. Het beleid voor het verlopen van gegevenssets helpt de levenscyclus van tijdelijke betrokkenheidsgegevens te beheren en ervoor te zorgen dat aan de vereisten voor gegevensbewaring wordt voldaan. | [&#x200B; het Geavanceerde Beheer van de Levenscyclus van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-lifecycle/home) |
 | Etikettering en handhaving van gegevensgebruik | Aanbevolen | B2B-gegevens bevatten vaak gevoelige bedrijfsinformatie en persoonlijke gegevens van zakelijke contacten. Het beleid inzake gegevensbeheer zorgt voor een consistent gebruik van B2B-gegevens in verschillende bestemmingen, met name bij het activeren op reclameplatforms of systemen van derden. | [&#x200B; Overzicht van het beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
 | Bewaking en waarneming | Aanbevolen | De controle zorgt ervoor dat B2B- gegevenspijpleidingen (CRM/[!DNL Marketo] syncs) gezond zijn, de rekeningsprofielen bijwerken, en de uitvoering van de rekeningsreis zonder mislukkingen te werk gaat. Waarschuwingen over fouten met brongegevens zijn van essentieel belang voor het onderhoud van de gegevensvaluta. | [&#x200B; overzicht van de Inzichten van de Waarnemelijkheid &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
 | Rapportage en analyse | Opgenomen | B2B-analytische dashboards binnen [!DNL AJO B2B Edition] bieden de betrokkenheid van inkoopgroepen, de prestaties van de accountreis en pijpleidingsmetriek. [!DNL CJA B2B Edition] breidt analyse met op rekeningsniveau werkruimteanalyse, het kopen groepsanalyse, en opportuniteitcorrelatie uit. | [&#x200B; overzicht van CJA &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
@@ -240,7 +240,7 @@ Het scoren van betrokkenheid werkt onafhankelijk per het kopen groep, die één 
 **Experience League:**
 
 - [Oplossingsbelangen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
-- [Accountreizen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
+- [Accountreizen](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
 
 ### Optie C: kwalificatie van een AI-account met automatische reisprogressie
 
@@ -511,8 +511,8 @@ Ontwerp een reis waar de voorwaardenknopen de AI kwalificatiescore eerder dan (o
 
 **documentatie van Experience League:**
 
-- [Overzicht van rekeningreizen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
-- [Transparante knooppunten van account](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
+- [Overzicht van rekeningreizen](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
+- [Transparante knooppunten van account](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
 - [B2B-e-mailauthoring](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/email-authoring)
 - [SMS-kanaal in AJO B2B](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/sms-authoring)
 - [AI Assistant voor het schrijven van e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/ai-assistant-emails)
@@ -559,7 +559,7 @@ Hoe diep moet het kopen van groepsgegevens in CRM worden opgedoken?
 
 - [E-mails met verkoopberichten](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/sales-alert-email)
 - [CRM-verkoopgegevens](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/crm-sales-insights)
-- [Overzicht van doelen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+- [Overzicht van doelen](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/home)
 - [Doel van LinkedIn-overeenkomend publiek](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
 
 ### Fase 5: Rapportage en optimalisatie
@@ -590,8 +590,8 @@ Welke analytische hulpmiddelen voor aan de gang zijnde prestaties controle zoude
 
 **documentatie van Experience League:**
 
-- [B2B-analysedashboards](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/buying-groups-dashboard)
-- [Betrokkenheidsdashboard](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
+- [B2B-analysedashboards](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/dashboards/buying-groups-dashboard)
+- [Betrokkenheidsdashboard](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
 - [Intelligent dashboard](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/intelligent-dashboard)
 - [CJA B2B edition - overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
 
@@ -666,8 +666,8 @@ De volgende bronnen bieden aanvullende informatie over de toepassingen en mogeli
 - [Rolsjablonen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
 - [Koopgroepen maken](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create)
 - [Groepsfasen voor kopen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
-- [Overzicht van rekeningreizen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
-- [Transparante knooppunten van account](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
+- [Overzicht van rekeningreizen](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
+- [Transparante knooppunten van account](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
 - [E-mails met verkoopberichten](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/sales-alert-email)
 - [CRM-verkoopgegevens](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/crm-sales-insights)
 
@@ -679,8 +679,8 @@ De volgende bronnen bieden aanvullende informatie over de toepassingen en mogeli
 
 ### B2B-analyses en dashboards
 
-- [Het dashboard voor groepen kopen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/buying-groups-dashboard)
-- [Betrokkenheidsdashboard](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
+- [Het dashboard voor groepen kopen](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/dashboards/buying-groups-dashboard)
+- [Betrokkenheidsdashboard](https://experienceleague.adobe.com/nl/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
 - [Intelligent dashboard](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/intelligent-dashboard)
 - [CJA B2B edition - overzicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
 
@@ -694,8 +694,8 @@ De volgende bronnen bieden aanvullende informatie over de toepassingen en mogeli
 ### Gegevensbasis
 
 - [XDM System, overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [Overzicht van identiteitsservice](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
-- [Overzicht van bronnen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+- [Overzicht van identiteitsservice](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home)
+- [Overzicht van bronnen](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home)
 - [Overzicht van segmentatieservice](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
 
 ### Kanaalconfiguratie
@@ -706,11 +706,11 @@ De volgende bronnen bieden aanvullende informatie over de toepassingen en mogeli
 ### Beheer en privacy van gegevens
 
 - [Datagovernance - Overzicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [Geavanceerd levenscyclusbeheer van gegevens](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
+- [Geavanceerd levenscyclusbeheer van gegevens](https://experienceleague.adobe.com/nl/docs/experience-platform/data-lifecycle/home)
 
 ### Doelen
 
-- [Overzicht van doelen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+- [Overzicht van doelen](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/home)
 - [Doelcatalogus](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
 - [Doel van LinkedIn-overeenkomend publiek](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
 

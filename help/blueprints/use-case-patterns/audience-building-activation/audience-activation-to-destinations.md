@@ -541,7 +541,7 @@ Herhaal de activeringsworkflow voor elke bestemming. Het zelfde publiek kan aan 
 - [Beleidshandhaving](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/enforcement/overview)
 - [Overzicht van labels voor gegevensgebruik](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview)
 - [Toestemming en voorkeuren](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
-- [Toestemming voor beleidshandhaving](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide)
+- [Toestemming voor beleidshandhaving](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/policies/user-guide)
 
 
 ### Fase 5: Controle en validatie
@@ -580,7 +580,7 @@ Lees de volgende overwegingen voor en tijdens de implementatie.
 - **de evaluatiecapaciteit van de Partij:** Tot 24 miljoen profielen per de baan van de segmentevaluatie door gebrek
 - **Samenstelling van het publiek:** Maximum van 10 samenstellingsblokken per canvas; de samengestelde doelgroepen worden slechts batch-geëvalueerd
 - **grafiek van de Identiteit:** Maximum van 50 identiteiten per grafiek - [&#x200B; Garanties van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/guardrails)
-- **Berekende attributen:** Maximum van 25 gegevens verwerkte attributen per zandbak — [&#x200B; de gegevens verwerkte attributengidsen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview#guardrails)
+- **Berekende attributen:** Maximum van 25 gegevens verwerkte attributen per zandbak — [&#x200B; de gegevens verwerkte attributengidsen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/overview#guardrails)
 - **overzicht van de gidsen van de Activering:** [&#x200B; de guardrails van de Activering &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/guardrails)
 
 ### Veelvoorkomende valkuilen
@@ -673,8 +673,8 @@ Lees de volgende overwegingen voor en tijdens de implementatie.
 
 - [Overzicht van identiteitsservice](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/home)
 - [Overzicht van naamruimten](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces)
-- [Koppelingsregels voor identiteitsgrafiek](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)
-- [Profieloverzicht](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
+- [Koppelingsregels voor identiteitsgrafiek](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-linking-logic)
+- [Profieloverzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/home)
 - [Overzicht van beleid samenvoegen](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview)
 
 **modellering en schema&#39;s van Gegevens**
@@ -686,7 +686,7 @@ Lees de volgende overwegingen voor en tijdens de implementatie.
 
 - [Datagovernance - Overzicht](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/home)
 - [Overzicht van labels voor gegevensgebruik](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview)
-- [Beleid inzake gegevensbeheer](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
+- [Beleid inzake gegevensbeheer](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/policies/overview)
 - [Beleidshandhaving](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/enforcement/overview)
 - [Toestemming en voorkeuren](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 
@@ -706,13 +706,13 @@ Lees de volgende overwegingen voor en tijdens de implementatie.
 
 - [Overzicht van bronnen](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home)
 - [Overzicht van Web SDK](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home)
-- [Gegevensstromen configureren](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [Gegevensstromen configureren](https://experienceleague.adobe.com/nl/docs/experience-platform/datastreams/configure)
 
 **Beleid**
 
 - [Overzicht van sandboxen](https://experienceleague.adobe.com/nl/docs/experience-platform/sandbox/home)
 - [Overzicht van toegangsbeheer](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/home)
-- [Toegangsbeheer op basis van kenmerken](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview)
+- [Toegangsbeheer op basis van kenmerken](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/overview)
 
 **Guardrails**
 

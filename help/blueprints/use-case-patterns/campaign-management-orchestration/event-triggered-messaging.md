@@ -206,7 +206,7 @@ Gebeurtenisgegevens van de activeringsgebeurtenis (productnaam, totaal van de vo
 
 **Experience League:**
 
-- [Een reis maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [Een reis maken](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Algemene gebeurtenissen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 
 ### Optie B: Voorwaardelijk gebeurtenisgeactiveerd bericht met wachttijd
@@ -244,7 +244,7 @@ Deze benadering vermindert onnodig overseinen door klanten tijd te geven om zich
 
 **Experience League:**
 
-- [Wachtactiviteit](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
+- [Wachtactiviteit](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
 - [Voorwaardeactiviteit](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Afsluitingscriteria](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 
@@ -451,7 +451,7 @@ De volgende fasen lopen door de implementatie van begin tot eind van gebeurtenis
 
 **documentatie van Experience League:**
 
-- [Aan de slag met e-mailconfiguratie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [Aan de slag met e-mailconfiguratie](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
 - [Subdomeinen delegeren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/delegate-subdomain)
 - [IP-pools maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-pools)
 - [Kanaaloppervlakken instellen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
@@ -593,11 +593,11 @@ Vorm organisatie-vlakke frequentiecaps via Beleid > Bedrijfs regels alvorens te 
 
 **documentatie van Experience League:**
 
-- [Een reis maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [Een reis maken](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Journeyeigenschappen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Algemene gebeurtenissen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 - [Voorwaardeactiviteit](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
-- [Wachtactiviteit](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
+- [Wachtactiviteit](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
 - [Een bericht toevoegen tijdens een rit](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [Afsluitingscriteria](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [Reisbeheer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
@@ -760,12 +760,12 @@ De volgende bronnen bieden aanvullende informatie over de mogelijkheden die in d
 ### Reisorkest
 
 - [Aan de slag met reizen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey)
-- [Een reis maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [Een reis maken](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Journeyeigenschappen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Algemene gebeurtenissen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 - [kwalificatiegebeurtenissen voor het publiek](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
 - [Voorwaardeactiviteit](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
-- [Wachtactiviteit](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
+- [Wachtactiviteit](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
 - [Een bericht toevoegen tijdens een rit](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [Afsluitingscriteria](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [Reisbeheer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
@@ -774,7 +774,7 @@ De volgende bronnen bieden aanvullende informatie over de mogelijkheden die in d
 
 ### Kanaalconfiguratie
 
-- [Aan de slag met e-mailconfiguratie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [Aan de slag met e-mailconfiguratie](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
 - [Subdomeinen delegeren](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/delegate-subdomain)
 - [IP-pools maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-pools)
 - [IP-opwarmingsplannen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-warmup/ip-warmup-gs)
@@ -868,5 +868,5 @@ De volgende bronnen bieden aanvullende informatie over de mogelijkheden die in d
 
 ### Zelfstudies en hulplijnen
 
-- [Een zelfstudie over reizen maken](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
+- [Een zelfstudie over reizen maken](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Web SDK installeren](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/overview)
